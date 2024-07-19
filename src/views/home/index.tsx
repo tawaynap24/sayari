@@ -9,6 +9,7 @@ export default function Home() {
         <Typography
           onClick={() => {
             // navigate("/menu");
+            window.location.assign("/game/wutthering-wave");
           }}
         >
           Menu

@@ -67,8 +67,8 @@ export default function WuttheringWave() {
     },
     echo: echoList,
   });
-  const [skillPercent, setSkillPercent] = useState(0.46);
-  const [ratio, setRatio] = useState(48.46);
+  const [skillPercent, setSkillPercent] = useState(48.46);
+  const [ratio, setRatio] = useState(0.46);
   const [finalDmgIngame, setFinalDmgIngame] = useState(734);
   // const [character, setCharacter] = useState({
   //   name: "chixia",
@@ -531,7 +531,7 @@ export default function WuttheringWave() {
           </Grid>
           <Grid xs={12} item className="flex-start-center" gap={1}>
             <Typography style={{ background: "green" }}>
-              Final Cal: {(dmgBonus * ratio).toFixed(2)}
+              Final Cal: {(dmgBonus * ratio).toFixed(2)} ({ratio.toFixed(2)})
             </Typography>
           </Grid>
           <Grid xs={12} item className="flex-start-center" gap={1}>
