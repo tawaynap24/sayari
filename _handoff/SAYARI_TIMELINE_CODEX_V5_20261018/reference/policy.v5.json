@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "documentType": "SayariTimelinePolicyConfig",
+  "version": "5.0.0",
+  "source": "Explicit user decisions in this conversation as of 2026-10-18",
+  "units": {
+    "interest": "unique authenticated followed topic accounts",
+    "threshold": "votes",
+    "time": "UTC milliseconds",
+    "fileSize": "bytes"
+  },
+  "vote": {
+    "minInterestedToVoteOnCreate": 50,
+    "createBelowMinInterested": "auto_publish",
+    "supportRatioNumerator": 1,
+    "supportRatioDenominator": 10,
+    "maxRequiredVotes": 100,
+    "minRequiredVotesEdit": 5,
+    "minRequiredVotesHide": 5,
+    "requiredVotesMode": "ceil_fraction_then_floor_and_cap",
+    "requesterCanVoteOwnRequest": false,
+    "voteOptions": ["yes", "no"],
+    "canSwitchVoteWhilePending": true,
+    "repeatSameChoiceResetsIdleClock": false,
+    "decisionOnSimultaneousThreshold": "yes_wins",
+    "snapshotInterestOnRequest": true,
+    "resnapshotAndResetVotesOnPendingProposalEdit": true,
+    "newHideRoundUsesCurrentInterest": true
+  },
+  "timeouts": {
+    "createMinBeforeTimeoutHours": 72,
+    "allTypesNoProgressHours": 24,
+    "editHasCreateGracePeriod": false,
+    "hideHasCreateGracePeriod": false,
+    "decisionCanCloseBeforeCreateGracePeriod": true,
+    "allowUnlimitedDurationIfVotesChange": true,
+    "expiryComparison": "now_gte_expires_at",
+    "initialLastVoteChangedAt": "submittedAt"
+  },
+  "lifecycle": {
+    "pendingCreateOwnerMayEdit": true,
+    "pendingCreateOwnerMayCancel": true,
+    "publishedDirectEditingAllowed": false,
+    "approvedVersionImmutable": true,
+    "publishedEditRequiresApproval": true,
+    "maxSimultaneousEditRequestsPerStory": 1,
+    "preservePreviousApprovedRevisions": true,
+    "normalDeletion": "soft_hide",
+    "requestOverlayDefaultOn": false,
+    "overlayVisibleToGuest": false
+  },
+  "access": {
+    "guestCanViewPublished": true,
+    "guestCanViewPending": false,
+    "guestCanVoteOrWrite": false,
+    "signedInMustExplicitlyFollowToViewTopicContentInUi": true,
+    "guestCountsAsInterested": false,
+    "emailVerificationRequiredInitially": false
+  },
+  "media": {
+    "maxBytesPerFile": 5000000,
+    "imageUrlAndUpload": true,
+    "videoUrlAndEmbed": true,
+    "inlinePdfPreferred": true,
+    "inlineDocxPreferred": true,
+    "autoDownloadOnClick": false
+  },
+  "localization": {"primary": "th-TH", "properNounAliasesMultilingual": true},
+  "provisionalImplementationDefaultsAreDocumentedIn": "docs/11_OPEN_DECISIONS.md"
+}

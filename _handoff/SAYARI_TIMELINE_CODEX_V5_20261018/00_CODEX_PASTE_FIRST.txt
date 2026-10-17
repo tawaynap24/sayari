@@ -1,0 +1,17 @@
+ทำงานใน workspace D:\sayari-project เท่านั้น
+
+ผมต้องการให้ implement ระบบ Timeline ทั้งหมดตาม Specification V5 ในชุดเอกสารนี้จนใช้งานได้จริง ไม่ใช่เพียงออกแบบหรือสร้าง mock UI
+
+1) เริ่มจากอ่านไฟล์นี้และเอกสารทั้งหมดภายใต้:
+   D:\sayari-project\_handoff\SAYARI_TIMELINE_CODEX_V5_20261018\
+   โดยเฉพาะ CODEX_MASTER_PROMPT_TH.md, README_TH.md, docs/00_REQUIREMENTS_PRIORITY.md,
+   docs/01_FUNCTIONAL_SPEC.md, docs/02_VOTING_RULES.md, docs/03_TIME_ENGINE.md,
+   docs/04_BACKEND_AND_SECURITY.md, docs/05_UI_UX.md, docs/06_TEST_PLAN.md
+2) ตรวจสภาพจริงของโปรเจกต์และ Git working tree ก่อนลงมือ; อย่าคิดว่า snapshot ใน ZIP เป็น source ปัจจุบัน
+3) implement frontend + backend + Firebase rules + emulators + tests + Thai UI + media + history + request workflow
+4) ทดสอบในเครื่อง/Emulator และแก้ข้อผิดพลาดจนผ่านตามที่สามารถทดสอบได้จริง; ห้ามอ้างว่า deploy ผ่านถ้าไม่ได้ deploy
+5) ห้าม reset/clean, overwrite งานที่ไม่เกี่ยว, commit, push หรือ deploy โดยไม่ได้รับคำสั่ง
+6) สิ่งใดต้องตั้งค่า Firebase Console, Billing หรือ Secrets ให้เตรียมโค้ดและเขียนขั้นตอนตั้งค่าแทนการทำการเปลี่ยนแปลงบัญชีจริงเอง
+7) ให้เริ่มทำงานต่อเนื่องจนจบ พร้อมรายงานผลตาม templates/CODEX_FINAL_REPORT.md และผลทดสอบจริง
+
+อ่านเอกสารใน ZIP ให้ครบก่อนแก้โค้ด และใช้ USER-CONFIRMED RULES เป็น authority สูงสุด

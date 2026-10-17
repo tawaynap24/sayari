@@ -8,3 +8,5 @@ evidence/nanoka-zzz/**/nanoka-app-entry.js -text
 SAYARI_NANOKA_ZZZ_CODEX_KIT_20261018/** -text
 # Localization chunks are content-addressed; preserve their byte hashes on Windows.
 public/localization/** -text
+# Preserve the Timeline handoff kit's checksummed source bytes.
+_handoff/SAYARI_TIMELINE_CODEX_V5_20261018/** -text
