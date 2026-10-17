@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-17 Asia/Bangkok",
+  "reviewedAt": "2026-10-17T16:44:38.538Z",
+  "commands": [
+    {
+      "command": "npm.cmd run build",
+      "exitCode": 0,
+      "executedDuringThisReview": true
+    },
+    {
+      "command": "npm.cmd run lint",
+      "exitCode": 0,
+      "executedDuringThisReview": true
+    }
+  ],
+  "productionBuild": {
+    "inspectedAt": "2026-10-17T16:44:38.538Z",
+    "rebuiltDuringThisReview": true,
+    "transformedModules": 904,
+    "reportedJavaScriptKB": 312.61,
+    "reportedJavaScriptGzipKB": 101.71,
+    "files": [
+      {
+        "file": "assets/index-BIYluJRl.js",
+        "bytes": 312623,
+        "sha256": "c1e9e7ff262a386c628922169685a1688dfd9edcc7413b41b9234619ad21a610"
+      },
+      {
+        "file": "assets/index-BJcV6Zhh.css",
+        "bytes": 1068,
+        "sha256": "fc2eb7d9ccbf90a68f67ab1d9714300056b40d424bd1afeab79a0d020465f7f9"
+      },
+      {
+        "file": "index.html",
+        "bytes": 464,
+        "sha256": "b3b3d5ddea3d4bb4f9af365d68662fea1c8dd6bddbebc8b3bce7b6224ae3a28e"
+      },
+      {
+        "file": "vite.svg",
+        "bytes": 1497,
+        "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb"
+      }
+    ]
+  },
+  "componentRender": [
+    {
+      "component": "home",
+      "ok": true,
+      "htmlBytes": 2822
+    },
+    {
+      "component": "zenless-zone-zero",
+      "ok": true,
+      "htmlBytes": 35930
+    }
+  ],
+  "routes": [
+    {
+      "name": "home",
+      "path": "/"
+    },
+    {
+      "name": "Zenless Zone Zero",
+      "path": "/game/zenless-zone-zero"
+    }
+  ],
+  "currentReview": {
+    "reviewedAt": "2026-10-17T16:44:38.538Z",
+    "timezone": "Asia/Bangkok",
+    "sourceFilesChecked": 27,
+    "changedRemainingFiles": [],
+    "addedFiles": [],
+    "filesRemovedSincePreviousSummary": 2,
+    "dependencyVersionsMatch": true,
+    "routePaths": [
+      "/",
+      "/game/zenless-zone-zero"
+    ],
+    "reportEncodingValid": true,
+    "gitWorkingTree": {
+      "modified": 6,
+      "deleted": 8,
+      "untracked": 13
+    },
+    "applicationSourceEditedByThisReview": false
+  },
+  "residualScan": {
+    "scannedFiles": 35,
+    "matches": [],
+    "excludes": [
+      "node_modules",
+      ".git"
+    ]
+  },
+  "knownUnfixedIssue": "src/index.css:36 has pre-existing trailing whitespace; source file hash is unchanged.",
+  "limitations": [
+    "No browser interactions/E2E",
+    "No production deployment checks",
+    "No game-formula/reference verification",
+    "No dependency vulnerability audit",
+    "Home smoke render supplies a no-op useNavigate hook; browser navigation is not exercised"
+  ]
+}

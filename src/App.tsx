@@ -1,4 +1,3 @@
-import "./App.css";
 import MainRouter from "./routes/route";
 
 function App() {

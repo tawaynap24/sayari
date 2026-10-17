@@ -1,0 +1,305 @@
+SAYARI PROJECT — สรุปสถานะปัจจุบันสำหรับ ChatGPT
+อัปเดต: 17 ตุลาคม 2026 เวลา 23:44:38 น. (Asia/Bangkok, UTC+07:00)
+โครงการ: D:\sayari-project
+เอกสารนี้แทนที่รายงาน snapshot เดิม และอธิบายเฉพาะ source/data ที่ยังอยู่ในโปรเจกต์
+ตรวจพบการนำ source ที่ไม่ได้อยู่ใน route tree ออกเพิ่มเติม จึงสำรวจ inventory ใหม่และตรวจ build/lint อีกครั้ง
+รอบนี้ปรับเฉพาะเอกสารสรุปและหลักฐานประกอบ ไม่ได้เปลี่ยนโค้ดหรือสูตรคำนวณ
+
+1. ภาพรวม
+==========
+React + TypeScript + Vite SPA ใช้ Material UI และ React Router
+เกมที่ยังเปิดจากหน้า Home ได้คือ Zenless Zone Zero
+ปัจจุบันเหลือหน้า Home และตัวคำนวณ Zenless Zone Zero ใน source
+ไม่พบ backend, database schema, authentication หรือการบันทึก state ถาวรในแอปหลัก
+Firebase configuration ใช้ Hosting; ไม่พบ Auth/Firestore initialization ใน src
+ข้อมูล ZZZ เป็น static constants และตัวอย่างสถิติ ไม่ได้เรียก API แบบ live
+API wrappers และรูปภาพเฉพาะโมดูลที่ไม่ได้อยู่ในขอบเขตปัจจุบันถูกนำออกแล้ว
+Dependencies ปัจจุบันดูได้จาก package.json และ audit-evidence.json
+source text: 11 ไฟล์ / 862 บรรทัดตามวิธีนับที่รวมบรรทัดท้ายไฟล์
+inventory: 27 ไฟล์; ยกเว้น generated output, dependencies, Git metadata และไฟล์รายงาน
+
+2. เทคโนโลยีและการตั้งค่า
+=========================
+package.json:
+  name: sayari-project
+  version: 0.0.0
+  private: true
+  type: module
+
+Runtime dependencies (เวอร์ชันที่ lock และติดตั้งตรงกัน):
+  react                    18.3.1
+  react-dom                18.3.1
+  react-router-dom          6.25.1
+  @mui/material             5.16.4
+  @emotion/react           11.11.4
+  @emotion/styled          11.11.5
+  firebase                 10.12.4
+
+Dev tools ที่ตรวจพบ:
+  vite                      5.3.4
+  @vitejs/plugin-react      4.3.1
+  typescript                5.5.3 (package.json ระบุ ^5.2.2)
+  eslint                    8.57.0
+  @typescript-eslint/parser และ eslint-plugin 7.16.1 (ประกาศ ^7.15.0)
+  eslint-plugin-react-hooks 4.6.2
+  eslint-plugin-react-refresh 0.4.8 (ประกาศ ^0.4.7)
+  @types/react 18.3.3 และ @types/react-dom 18.3.0
+เวอร์ชันเหล่านี้เป็นสิ่งที่พบในเครื่องและ lockfile ไม่ใช่การรับรองว่าเป็นเวอร์ชันล่าสุดหรือปลอดช่องโหว่
+
+Scripts:
+  npm run dev     → vite
+  npm run build   → tsc -b && vite build
+  npm run lint    → eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0
+  npm run preview → vite preview
+ไม่มี test script, deploy script, packageManager field หรือ engines field ของตัวโปรเจกต์
+ไม่พบ CI workflow, Dockerfile หรือ server-side application ใน inventory
+
+vite.config.ts:
+  ใช้ defineConfig({ plugins: [react()] }) เท่านั้น
+  ไม่มี alias, API proxy, environment-specific settings, manualChunks หรือการปรับ asset pipeline
+
+TypeScript:
+  tsconfig.json อ้างถึง tsconfig.app.json และ tsconfig.node.json
+  app: target ES2020, lib DOM/DOM.Iterable, module ESNext, moduleResolution bundler, jsx react-jsx
+  เปิด strict, noUnusedLocals, noUnusedParameters, noFallthroughCasesInSwitch
+  เปิด resolveJsonModule, isolatedModules, noEmit และ composite
+  เก็บ tsbuildinfo ปกติใน node_modules/.tmp
+  node config ครอบคลุม vite.config.ts
+
+ESLint:
+  ใช้ eslint:recommended, @typescript-eslint/recommended และ react-hooks/recommended
+  ตั้ง react-refresh/only-export-components เป็น warning แต่คำสั่ง lint ห้ามมี warning
+  ไม่พบ eslint-plugin-react ใน dependencies จึงไม่ได้ตรวจข้อ JSX บางชนิด เช่น key ผ่านกฎของ plugin นั้น
+
+3. โครงสร้างและ navigation
+==========================
+index.html → src/main.tsx → React.StrictMode → App → MainRouter → routeList
+src/routes/routeList.tsx เป็น registry ของหน้า
+routes ที่ใช้จริง:
+  /                         Home
+  /game/zenless-zone-zero    ZenlessZoneZero
+Home สร้างรายการลิงก์จาก routeList โดยกรองชื่อ home ออก จึงแสดงเกมที่เหลือโดยอัตโนมัติ
+MainRouter ใช้ BrowserRouter และ MUI Grid minHeight=100vh/padding4
+ไม่มีหน้า prototype หรือเมนูแยกนอกเหนือจาก Home และ Zenless Zone Zero ใน src/views ปัจจุบัน
+ไม่พบ route guard, catch-all Not Found, shared state store หรือ route code splitting
+Home กับ routeList ยัง import กันเป็นวงจร ควรระวังการเพิ่ม module-level side effects
+
+4. Zenless Zone Zero — สูตรและสถานะ
+====================================
+ไฟล์หลัก:
+  index.tsx: ชุดตัวอย่างสถิติ agent และหน้าตารางการ์ด
+  card.tsx: inputs DEF/RES/ดาเมจจริง และสูตรคำนวณย้อนกลับ
+  type.ts: TAgentStat
+  data.ts: agent metadata 26 รายการ และ Thanatos lv70 def1025
+
+TAgentStat มี name, element, lv, atk, critRate, critDmg, penPercent, penBonus, bonus,
+multiplier และ ingameDmg?
+element literal ใช้ "ligntning" ซึ่งสะกดผิด และ metadata ใช้ "Electric" ซึ่งเป็นอีก convention
+
+ตัวอย่างที่แสดงจริง 4 ใบ:
+  Piper: lv60, ATK2777, CR12.2, CD78.8, PEN%=0, flatPEN36, bonus30, multiplier140, ingame4861
+  Neko:  lv60, ATK2948, CR72.2, CD126.8, PEN%=0, flatPEN45, bonus60, multiplier106.2, ingame4872
+  Ellen: lv60, ATK3358, CR72.2, CD112.4, PEN%=0, flatPEN36, bonus0, multiplier98.3, ingame3810
+  Ellen: lv60, ATK3259, CR65, CD64.4, PEN%=0, flatPEN36, bonus0, multiplier98.3, ingame3082
+มีตัวอย่างอื่นใน comment แต่ไม่ได้ render
+agent metadata และ Thanatos ใน data.ts ไม่ได้ import มาใช้ในหน้าคำนวณปัจจุบัน
+
+สูตรใน Card:
+  B = atk × (multiplier/100) × (1 + bonus/100)
+  L = 100 + 10 × agentLevel
+  effectiveDef(D) = max(D × (1 − penPercent/100) − penBonus, 0)
+  defMultiplier(D) = L / (effectiveDef(D)+L)
+  resistMultiplier = 1 − monsterResist/100
+  finalCal = B × defMultiplier(monsterDef) × resistMultiplier
+  inferredDef = [L / (observedDamage/(B×resistMultiplier)) − L + penBonus]
+                / (1 − penPercent/100)
+  ในการย้อนกลับ observedDamage ใช้ Number(ingameDmg)||1 ซึ่งเปลี่ยน 0/NaN เป็น 1
+  CritDmgCal แสดง B × (1+critDmg/100)
+
+ค่าเริ่มต้น:
+  monsterDef="", monsterResist="0" → numeric DEF=0 และ RES=0
+  ingameDmg มาจาก sample data; แต่ละ Card มี state ของตนเอง
+  finalCal เริ่มประมาณ 5054.14, 5009.2416, 3300.914, 3203.597 ตามลำดับ
+
+ข้อจำกัด/จุดควรแก้:
+  • ข้อความสูตรบนหน้าอ้าง CRIT/DMG Taken/Stunned multipliers แต่ finalCal ยังไม่รวมทุกส่วน
+  • critRate ไม่ได้มีผลกับ expected damage และไม่ได้ใช้ในสูตรที่ render จริง
+  • finalCal ถูก console.log แต่ไม่มีข้อความผลลัพธ์สุดท้ายแบบตรงไปตรงมาใน UI
+  • แถว diff ใช้ B−observedDamage ไม่ใช่ finalCal−observedDamage
+  • ช่องแก้ ingameDmg กลับใส่ value เป็นข้อความ "base - critical" แล้ว parse กลับเป็นตัวเลข
+    เช่นข้อความที่มีค่าทั้งสองอาจกลายเป็น NaN; ควรแยก numeric input กับข้อความเปรียบเทียบ
+  • ตัวกรอง replace(/[^\d.]/, "") และ replace(/[^\d.-]/, "") ไม่ใช้ g
+    จึงลบเพียงอักขระผิดตัวแรก และไม่รับประกันว่ามีจุด/เครื่องหมายลบถูกตำแหน่ง
+  • RES>=100 ทำให้ multiplier เป็นศูนย์หรือติดลบ; สูตรย้อนกลับไม่มี guard
+  • penPercent=100 ทำให้สูตรย้อนกลับหารศูนย์หากเพิ่มชุดข้อมูลเช่นนั้น
+  • ไม่ clamp inferredDef เป็นค่าที่มีความหมาย; sample บางค่าใหญ่กว่า B ทำให้ได้ DEF อนุมานติดลบ
+  • UI แสดง multiplier เป็น Math.round(multiplier)/100 แต่สูตรใช้ทศนิยมเดิม จึงแสดงค่าปัดคนละความละเอียด
+  • Layout xs=3 ตายตัว 4 คอลัมน์ ไม่มี breakpoint สำหรับหน้าจอเล็ก
+ยังไม่ได้ตรวจความถูกต้องของสูตรกับข้อมูลเกมปัจจุบันหรือ training dummy จริง
+
+5. จุดที่ควรอ่านเมื่อต้องพัฒนาต่อ
+=================================
+src/main.tsx และ src/App.tsx: bootstrap และ mount MainRouter
+src/routes/route.tsx และ routeList.tsx: layout, route registry และหน้าใช้งานทั้งหมด
+src/views/home/index.tsx: เมนูเลือกหน้าเกม สร้างรายการจาก registry
+src/views/games/zenless-zone-zero/index.tsx: sample input สี่ชุดที่แสดงจริง
+src/views/games/zenless-zone-zero/card.tsx: state, input parsing และสมการทั้งหมด
+src/views/games/zenless-zone-zero/type.ts: รูปร่างสถิติและ element literal
+src/views/games/zenless-zone-zero/data.ts: agent metadata ที่ยังไม่ได้เชื่อมกับ UI
+src/index.css: global styles และ utility classes
+ข้อมูลของโมดูลที่ไม่มีอยู่แล้วไม่รวมอยู่ในรายงานฉบับนี้
+
+6. UI และ assets
+================
+Styling:
+  src/index.css มีพื้นหลัง body=#888, text=black, root color-scheme=light dark
+  .default-card ใช้พื้นขาว เส้นขอบเทา padding20 radius8
+  utility classes ได้แก่ flex-start-start, flex-start-center, flex-center-center, flex-between-center
+  MUI props และ inline styles เป็นหลัก ไม่มี design tokens/ThemeProvider/CssBaseline ของแอป
+  มี CSS จาก Vite template/comment จำนวนหนึ่งคงเหลือ
+  index.html ยังเป็น lang="en", title="Vite + React + TS", favicon=/vite.svg
+  เนื้อหาสำคัญบางส่วนเป็นภาษาไทย แต่ยังไม่ได้ปรับ metadata/ภาษา/accessibility ให้สอดคล้องกัน
+  พื้นที่คลิกบน Home เป็น Grid/onClick แทนลิงก์หรือปุ่มที่ใช้ keyboard ได้โดยธรรมชาติ
+  ไม่พบชุดทดสอบ accessibility หรือ responsive screenshots
+
+assets ที่ยังอยู่ใน src คือ react.svg ซึ่งเป็นไฟล์ template
+public/vite.svg ยังคงเป็น favicon ตาม index.html
+ZZZ metadata มี URL ภาพ static.dotgg.gg แต่ data.ts ยังไม่ได้ import มาแสดงในหน้าคำนวณ
+ไม่พบชุดภาพเกมแบบ local อื่นที่ใช้งานอยู่
+
+7. Firebase และการรัน
+=====================
+firebase.json: hosting.public=dist, ignore firebase.json / **/.* / **/node_modules/**
+.firebaserc: default project ID=sayari-81b58
+ไม่มี SPA rewrite ไป /index.html จึงมีความเสี่ยงที่เปิด URL ย่อยหรือ refresh แล้วได้ 404 บน Hosting
+ข้อสังเกตนี้มาจาก configuration ไม่ใช่การทดสอบ production deployment
+y/index.html และ y/404.html เป็น Firebase welcome/404 scaffolding ไม่ใช่ hosting.public ปัจจุบัน
+dist สร้างใหม่จาก source ปัจจุบันแล้ว ไม่เก็บ build เก่าไว้ปะปน
+ล้าง Hosting cache ของ dist ที่มีรายการ asset เก่าแล้ว; cache ของโฟลเดอร์ y ไม่ได้เกี่ยวข้อง
+คำสั่งใช้งาน: npm run dev / npm run build / npm run lint / npm run preview
+ไม่มี test script หรือ deploy script
+
+8. หลักฐานและผลตรวจล่าสุด
+=========================
+ผลตรวจรอบอัปเดตเอกสารนี้:
+  • สำรวจ inventory ใหม่ และบันทึก SHA-256 ของไฟล์ที่ยังอยู่ทั้งหมด
+  • ไฟล์ที่ยังอยู่มี hash ตรงกับรอบก่อน และบันทึกจำนวนไฟล์ที่นำออกเพิ่มไว้ใน verification-results.json
+  • route registry มี Home กับ Zenless Zone Zero เท่านั้น
+  • เวอร์ชัน dependency ที่ติดตั้งตรงกับ lockfile ทุกรายการที่ระบุใน evidence
+  • ตรวจ inventory และ import graph ใหม่ พร้อมตรวจรายการ build files และบันทึก hash ของ build ปัจจุบัน
+  • ตรวจว่าไฟล์และการอ้างอิงของโมดูลที่นำออกไม่กลับมาใน source, dist, เอกสารและ Hosting cache
+  • ตรวจ UTF-8 และความครบถ้วนของไฟล์รายงาน ไม่มี NUL หรือ Unicode replacement character
+ผลทดสอบที่รันใหม่ในรอบนี้:
+  npm.cmd run build: ผ่าน exit code0 (tsc -b && vite build)
+  npm.cmd run lint: ผ่าน exit code0
+  Vite transform904modules; JS312.61kB/gzip101.71kB ตาม Vite output
+  ReactDOMServer initial render: Home และ ZenlessZoneZero ผ่าน 2/2
+  Home มีลิงก์ Zenless Zone Zero และไม่มีหน้าอื่นใน registry
+  trailing whitespace เดิมที่ src/index.css:36 ยังไม่ถูกแก้ในงานเอกสารนี้
+verification-results.json แสดงผลทดสอบรอบนี้และ currentReview พร้อมเวลาที่ตรวจยืนยัน
+ยังไม่ได้ทดสอบ browser interactions, responsive layout, API availability, Firebase deployment หรือสูตรกับข้อมูลเกมจริง
+ไม่ได้รัน vulnerability audit; การ compile/lint/render ผ่านไม่ใช่หลักฐานว่าสมการเกมครบถ้วน
+
+9. ประเด็นแนะนำให้พัฒนาต่อ
+=========================
+แยก observed damage numeric input ของ ZZZ ออกจากข้อความเปรียบเทียบ critical
+เพิ่ม guard ของ NaN/Infinity, RES100 และ denominator เป็น0
+แสดง finalCal ใน UI ชัดเจน และกำหนดว่า diff ต้องเทียบ base หรือ final damage
+ทำ convention ของ element ให้ตรงกัน; type ปัจจุบันมี literal ligntning ที่สะกดผิด
+แยก pure calculation functions แล้วเพิ่ม tests ของสมการและ edge cases ที่มีผลจริง
+ปรับ mobile layout จาก xs=3 ตายตัว และเพิ่มการใช้งานผ่าน keyboard
+เพิ่ม Firebase SPA rewrite แล้วตรวจ deep link จริง
+ปรับ title/favicon/lang และเขียน README แทน Vite template; README เดิมมี NUL bytes ตอนท้าย
+ยังมี working-tree changes/untracked files เดิมจำนวนมาก ให้รักษางานที่ไม่เกี่ยวข้องและไม่ reset/clean โดยพลการ
+
+10. บริบทพร้อมส่งให้ ChatGPT
+============================
+Sayari ปัจจุบันเป็น React18/TypeScript5/Vite5 SPA ใช้ MUI5 และ React Router6
+หน้าใช้งานคือ Home และ ZZZ damage/DEF reverse calculator
+ข้อมูล ZZZ มี sample สถิติ4การ์ด และ metadata26agentsที่ยังไม่ได้เชื่อมกับหน้า
+สูตรคำนวณยังเป็นต้นแบบ ใช้ static input ไม่มี backend/database/auth
+เส้นทางใช้งานคือ / และ /game/zenless-zone-zero เท่านั้น
+รอบอัปเดตนี้ build/lint ผ่าน และ initial server render2componentsผ่าน
+ยังไม่ได้ browser E2E หรือยืนยันสูตรกับเกมจริง
+ไฟล์ audit-evidence.json มี inventory/hashes/import graph/dependency versions/route registry ปัจจุบัน
+ไฟล์ verification-results.json บันทึกผลตรวจรอบปัจจุบัน
+อย่าตีความ metadata beta flag หรือ package versions ว่าเป็นข้อมูลล่าสุดจากอินเทอร์เน็ต
+
+ภาคผนวก A. Agent metadata ใน source (ยังไม่ได้ใช้ในหน้าคำนวณ)
+============================================================
+Anby | beta=false
+Nekomata | beta=false
+Nicole | beta=false
+Soldier 11 | beta=false
+Corin | beta=false
+Caesar | beta=true
+Billy | beta=false
+Miyabi | beta=true
+Koleda | beta=false
+Anton | beta=false
+Ben | beta=false
+Soukaku | beta=false
+Lycaon | beta=false
+Lucy | beta=false
+Lighter | beta=true
+Burnice | beta=true
+Grace | beta=false
+Ellen | beta=false
+Harumasa | beta=true
+Rina | beta=false
+Yanagi | beta=true
+Zhu Yuan | beta=false
+Qingyi | beta=false
+Jane | beta=false
+Seth | beta=false
+Piper | beta=false
+beta เป็น flag ใน snapshot ไม่ใช่สถานะ release ที่ตรวจจากภายนอก
+
+ภาคผนวก B. Inventory ปัจจุบัน
+==============================
+.eslintrc.cjs | 436 bytes
+.firebaserc | 54 bytes
+.gitignore | 253 bytes
+firebase.json | 132 bytes
+index.html | 366 bytes
+package-lock.json | 187878 bytes
+package.json | 916 bytes
+public/vite.svg | 1497 bytes
+README.md | 1363 bytes
+src/App.tsx | 134 bytes
+src/assets/react.svg | 4126 bytes
+src/index.css | 1911 bytes
+src/main.tsx | 236 bytes
+src/routes/route.tsx | 568 bytes
+src/routes/routeList.tsx | 324 bytes
+src/views/games/zenless-zone-zero/card.tsx | 4961 bytes
+src/views/games/zenless-zone-zero/data.ts | 6435 bytes
+src/views/games/zenless-zone-zero/index.tsx | 5582 bytes
+src/views/games/zenless-zone-zero/type.ts | 296 bytes
+src/views/home/index.tsx | 1092 bytes
+src/vite-env.d.ts | 38 bytes
+tsconfig.app.json | 677 bytes
+tsconfig.json | 139 bytes
+tsconfig.node.json | 325 bytes
+vite.config.ts | 163 bytes
+y/404.html | 1808 bytes
+y/index.html | 4616 bytes
+SHA-256 รายไฟล์อยู่ใน audit-evidence.json
+
+ภาคผนวก C. Production build ปัจจุบัน
+=====================================
+assets/index-BIYluJRl.js | 312623 bytes
+assets/index-BJcV6Zhh.css | 1068 bytes
+index.html | 464 bytes
+vite.svg | 1497 bytes
+ไม่มีการ deploy หรือเปลี่ยนสูตรของเกมที่ยังอยู่ในงานนี้
+
+ภาคผนวก D. ขอบเขตการส่งต่อและสถานะงาน
+======================================
+ไฟล์สำหรับส่งให้ ChatGPT อ่าน: SAYARI_PROJECT_SUMMARY.txt
+หลักฐานประกอบ: audit-evidence.json และ verification-results.json
+inventory ไม่นับไฟล์รายงานทั้งสาม, node_modules, dist, .firebase และ .git เพื่อไม่ให้ hash อ้างตัวเอง
+dist ถูกตรวจแยกใน productionBuild.files; ผล lint/build/render ใน verification-results.json เป็นการตรวจรอบปัจจุบัน
+Git ยังเป็น main ที่ติดตาม origin/main และมี working-tree changes/untracked files ค้างอยู่
+รายงานนี้อธิบาย working tree ในเครื่อง ไม่ได้ยืนยันว่า clone จาก remote จะได้ไฟล์เหมือนกันทั้งหมด
+ไม่ได้ fetch remote, commit, deploy หรือติดตั้ง/อัปเดต dependency ในรอบอัปเดตเอกสารนี้
