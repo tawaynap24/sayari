@@ -1,0 +1,63 @@
+{
+  "runId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "verifiedAt": "2026-10-17T19:02:16.393Z",
+  "origin": "http://127.0.0.1:4173",
+  "passed": true,
+  "uniqueDistObjectsVerified": 3428,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 464,
+      "sha256": "268ccd362add1228b8693192d619bcd9f6cd73faf08994ec82d38702cc909088"
+    },
+    {
+      "path": "/game/zenless-zone-zero",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 464,
+      "sha256": "268ccd362add1228b8693192d619bcd9f6cd73faf08994ec82d38702cc909088"
+    },
+    {
+      "path": "/game/zenless-zone-zero/database?category=weapon",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 464,
+      "sha256": "268ccd362add1228b8693192d619bcd9f6cd73faf08994ec82d38702cc909088"
+    },
+    {
+      "path": "/nanoka/current.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 335,
+      "sha256": "034fee1bc1f77fc1be243597019b4acd1dff5ef64bb060bd6fee9f38d6f69f4f"
+    },
+    {
+      "path": "/nanoka/discovery.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 16222,
+      "sha256": "ce23944625e2245d1d88847b29d14dd846407b102e7eb79152820602868f4cf4"
+    },
+    {
+      "path": "/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 12436718,
+      "sha256": "5955ffcd65468ca57d2715c8b115dcb8a607cbf58da04870043135157f1e2c71"
+    },
+    {
+      "path": "/nanoka/DOES-NOT-EXIST-TEST.json",
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 464,
+      "sha256": "268ccd362add1228b8693192d619bcd9f6cd73faf08994ec82d38702cc909088"
+    }
+  ],
+  "problems": [],
+  "limitations": [
+    "Local Vite production preview, not a Firebase emulator or production deploy. Firebase rewrite/cache header rules were checked against official documentation but not executed on Firebase in this task.",
+    "A missing JSON request may receive the Vite SPA HTML fallback in preview. The application rejects non-JSON responses; Firebase config scopes rewrites to game routes so /nanoka is excluded."
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "id": 62040,
+  "name": "격변 구간",
+  "priority": 1,
+  "zone": {
+    "6204001": {
+      "name": "격변 구간 제1방어선",
+      "stage_num": 1,
+      "monster_level": 50,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040011": {
+          "monster_icon": "",
+          "monster_list": {
+            "11354": {
+              "id": 20017,
+              "name": "덩치 행동대원",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1550048.115,
+                "attack": 2186.5454545454545,
+                "defence": 592.0,
+                "stun": 5936.3,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11363": {
+              "id": 20015,
+              "name": "덩치 협박자",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1165023.0899999999,
+                "attack": 1978.3030303030305,
+                "defence": 592.0,
+                "stun": 4498.06,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11324": {
+              "id": 10018,
+              "name": "밀렵꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1405.6363636363637,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11344": {
+              "id": 10015,
+              "name": "약탈꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 297519.33749999997,
+                "attack": 1639.909090909091,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 4
+        },
+        "62040012": {
+          "monster_icon": "",
+          "monster_list": {
+            "11381": {
+              "id": 20010,
+              "name": "타라스크 화물차",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_TarasqueMixer.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1627605.7874999999,
+                "attack": 2290.666666666667,
+                "defence": 639.36,
+                "stun": 6233.56,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11372": {
+              "id": 10029,
+              "name": "비홀더 엔진",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BeholderEngine.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1405.6363636363637,
+                "defence": 509.12,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "203": "전기 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 4
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6204002": {
+      "name": "격변 구간 제2방어선",
+      "stage_num": 2,
+      "monster_level": 55,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040021": {
+          "monster_icon": "",
+          "monster_list": {
+            "11623": {
+              "id": 200241,
+              "name": "도플갱어·펄크라",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2802042.9499999997,
+                "attack": 3209.3333333333335,
+                "defence": 689.0,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11603": {
+              "id": 200231,
+              "name": "도플갱어·모르스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2802042.9499999997,
+                "attack": 2628.3333333333335,
+                "defence": 689.0,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11613": {
+              "id": 200251,
+              "name": "도플갱어·벨룸",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3000818.0124999997,
+                "attack": 3209.3333333333335,
+                "defence": 689.0,
+                "stun": 13720.32,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11322": {
+              "id": 100181,
+              "name": "도적",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1494.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11342": {
+              "id": 100151,
+              "name": "노략꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaiderPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 442788.58749999997,
+                "attack": 1743.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        },
+        "62040022": {
+          "monster_icon": "",
+          "monster_list": {
+            "11194": {
+              "id": 20003,
+              "name": "무장 하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1779653.6974999998,
+                "attack": 3209.3333333333335,
+                "defence": 744.12,
+                "stun": 5084.16,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11124": {
+              "id": 20001,
+              "name": "하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1661211.1774999998,
+                "attack": 2932.666666666667,
+                "defence": 744.12,
+                "stun": 4721.28,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31052": {
+              "id": 930168,
+              "name": "바니렉",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2484002.8499999996,
+                "attack": 3347.666666666667,
+                "defence": 620.1,
+                "stun": 8388.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11294": {
+              "id": 10014,
+              "name": "맨드레이크",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 316120.89249999996,
+                "attack": 1743.0,
+                "defence": 496.08,
+                "stun": 1814.3999999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11204": {
+              "id": 10003,
+              "name": "호플리타이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1660.0,
+                "defence": 633.88,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11104": {
+              "id": 10001,
+              "name": "알페카",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1494.0,
+                "defence": 496.08,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6204003": {
+      "name": "격변 구간 제3방어선",
+      "stage_num": 3,
+      "monster_level": 60,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040031": {
+          "monster_icon": "",
+          "monster_list": {
+            "11613": {
+              "id": 200251,
+              "name": "도플갱어·벨룸",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 7427441.175,
+                "attack": 2550.681818181818,
+                "defence": 794.0,
+                "stun": 14720.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11623": {
+              "id": 200241,
+              "name": "도플갱어·펄크라",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6935445.3,
+                "attack": 2550.681818181818,
+                "defence": 794.0,
+                "stun": 12273.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11602": {
+              "id": 200231,
+              "name": "도플갱어·모르스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6721002.96,
+                "attack": 1825.056818181818,
+                "defence": 794.0,
+                "stun": 10821.18,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11322": {
+              "id": 100181,
+              "name": "도적",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 931738.3949999999,
+                "attack": 1187.3863636363635,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11312": {
+              "id": 100191,
+              "name": "습격자",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 931738.3949999999,
+                "attack": 1385.2840909090908,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        },
+        "62040032": {
+          "monster_icon": "",
+          "monster_list": {
+            "31052": {
+              "id": 930168,
+              "name": "바니렉",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6148251.899999999,
+                "attack": 2660.625,
+                "defence": 714.6,
+                "stun": 9000.14,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11124": {
+              "id": 20001,
+              "name": "하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4111728.2849999997,
+                "attack": 2330.7954545454545,
+                "defence": 857.5200000000001,
+                "stun": 5065.54,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11155": {
+              "id": 30000,
+              "name": "듀라한",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DurahanGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4988498.864999999,
+                "attack": 2440.738636363636,
+                "defence": 921.0400000000001,
+                "stun": 8182.320000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11682": {
+              "id": 10030,
+              "name": "포소르",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1027423.1099999999,
+                "attack": 1671.1363636363635,
+                "defence": 635.2,
+                "stun": 2043.52,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11692": {
+              "id": 10031,
+              "name": "소르디두스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1027423.1099999999,
+                "attack": 1517.215909090909,
+                "defence": 635.2,
+                "stun": 2043.52,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6204004": {
+      "name": "격변 구간 제4방어선",
+      "stage_num": 4,
+      "monster_level": 65,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040041": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ThugBulkyEnforcerBoss.png",
+          "monster_list": {
+            "11353": {
+              "id": 200172,
+              "name": "주모자·지명수배 행동대원",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerBoss.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 15161033.58,
+                "attack": 2785.909090909091,
+                "defence": 952.8000000000001,
+                "stun": 12194.6,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11311": {
+              "id": 100191,
+              "name": "습격자",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 828588.705,
+                "attack": 1462.6022727272727,
+                "defence": 635.2,
+                "stun": 1320.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11321": {
+              "id": 100181,
+              "name": "도적",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 828588.705,
+                "attack": 1253.6590909090908,
+                "defence": 635.2,
+                "stun": 1320.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 2
+        },
+        "62040042": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Avarus.png",
+          "monster_list": {
+            "31012": {
+              "id": 930169,
+              "name": "미아즈마 침식자·아바루스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Avarus.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 22104798.765,
+                "attack": 3018.0681818181815,
+                "defence": 952.8000000000001,
+                "stun": 14498.000000000002,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 1
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6204005": {
+      "name": "",
+      "stage_num": 5,
+      "monster_level": 0,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        },
+        "62001402": {
+          "title": "예리한 날의 못",
+          "desc": "· 에이전트의 <color=#98EFF0>얼음 속성 피해</color>와 <color=#F0D12B>물리 속성 피해</color>가 15% 증가한다.\n· 에이전트가 적을 속성 이상 상태에 빠뜨리면 해당 적의 방어력이 10% 감소하고, 받는 속성 이상 피해가 20% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001403": {
+          "title": "불꽃에 씻긴 마음",
+          "desc": "· 에이전트의 <color=#FF5521>불 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[일반 공격]</color>과 <color=#FFFFFF>[콤보 스킬]</color>로 주는 피해가 40% 증가하고, 치명타 피해가 30% 증가한다."
+        }
+      },
+      "child": [
+        62040051,
+        62040052,
+        62040053
+      ],
+      "layer_room": {},
+      "goal_type": 3,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 1270001003,
+      "a_rank_goal": 1270001002,
+      "b_rank_goal": 1270001001
+    },
+    "62040051": {
+      "name": "방 1",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001401": {
+          "title": "찰나의 영욕",
+          "desc": "· <color=#FFFFFF>[에테르 장막]</color> 중에 있을 때, 에이전트의 공격력이 25% 증가하고, 치명타 피해가 20% 증가한다.\n· 에이전트가 적 명중 시, 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 10% 무시한다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040051": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+          "monster_list": {
+            "31214": {
+              "id": 300372,
+              "name": "미아즈믹·도플갱어·「변절자」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": -1,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 23131354.68,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31172": {
+              "id": 20032,
+              "name": "플라스마·푸그누스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_IonizedPugnus.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 7386480.09,
+                "attack": 3105.727272727273,
+                "defence": 857.5200000000001,
+                "stun": 15079.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11158": {
+              "id": 300001,
+              "name": "듀라한·에너지형",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanGreyPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4009896.99,
+                "attack": 2714.4545454545455,
+                "defence": 921.0400000000001,
+                "stun": 9334.2,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62040052": {
+      "name": "방 2",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001402": {
+          "title": "예리한 날의 못",
+          "desc": "· 에이전트의 <color=#98EFF0>얼음 속성 피해</color>와 <color=#F0D12B>물리 속성 피해</color>가 15% 증가한다.\n· 에이전트가 적을 속성 이상 상태에 빠뜨리면 해당 적의 방어력이 10% 감소하고, 받는 속성 이상 피해가 20% 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040052": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaJaneSlime.png",
+          "monster_list": {
+            "31122": {
+              "id": 930175,
+              "name": "미아즈믹·제인",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaJaneSlime.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": -1,
+                "physical": 1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 27829213.74,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11264": {
+              "id": 20009,
+              "name": "중무장 사수",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepower.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": -1,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3732788.07,
+                "attack": 2592.1818181818185,
+                "defence": 857.5200000000001,
+                "stun": 7120.5,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11158": {
+              "id": 300001,
+              "name": "듀라한·에너지형",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanGreyPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4009896.99,
+                "attack": 2714.4545454545455,
+                "defence": 921.0400000000001,
+                "stun": 9334.2,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "200": "물리",
+            "204": "바람 속성"
+          },
+          "monster_resistance": {},
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62040053": {
+      "name": "방 3",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001403": {
+          "title": "불꽃에 씻긴 마음",
+          "desc": "· 에이전트의 <color=#FF5521>불 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[일반 공격]</color>과 <color=#FFFFFF>[콤보 스킬]</color>로 주는 피해가 40% 증가하고, 치명타 피해가 30% 증가한다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62040053": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HugoVlad_Boss.png",
+          "monster_list": {
+            "11982": {
+              "id": 300301,
+              "name": "도플갱어·암연 징벌자",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HugoVlad_Boss.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 22214336.4,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11512": {
+              "id": 200131,
+              "name": "분노한 조폭",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5408087.04,
+                "attack": 2469.909090909091,
+                "defence": 794.0,
+                "stun": 9334.2,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11502": {
+              "id": 200121,
+              "name": "광분한 폭도",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FrenziedManiacPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3749599.0799999996,
+                "attack": 2592.1818181818185,
+                "defence": 794.0,
+                "stun": 7111.1,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {},
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    }
+  },
+  "begin_time": "2026-01-23 04:00:00",
+  "end_time": "2026-02-06 03:59:59"
+}

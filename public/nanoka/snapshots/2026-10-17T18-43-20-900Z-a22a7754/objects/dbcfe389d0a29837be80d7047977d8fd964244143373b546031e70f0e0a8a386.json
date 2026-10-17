@@ -1,0 +1,912 @@
+{
+  "1350001": {
+    "id": 1350001,
+    "name": "[星见雅]镜花匿影",
+    "desc": "受到敌方攻击时，星见雅将<color=#2BAD00>自动回避本次攻击</color>并触发<color=#FFFFFF>[极限闪避]</color>与<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>持续4秒，自动回避效果12秒内最多触发一次；效果触发时，星见雅<color=#2BAD00>造成的伤害提升40%</color>，持续12秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "branch": {
+      "13500011": "星见雅发动<color=#FFFFFF>[闪避反击：寒雀]</color>和<color=#FFFFFF>[快速支援：花信风]</color>后，将会<color=#2BAD00>自动衔接派生</color><color=#FFFFFF>[霜碎雪]</color>，并使目标的<color=#98EFF0>冰属性伤害抗性</color><color=#2BAD00>降低20%</color>，持续8秒。",
+      "13500012": "触发<color=#FFFFFF>[极限闪避]</color>时，星见雅将<color=#2BAD00>回复6点能量值</color>并<color=#2BAD00>获得2点<color=#FFFFFF>[落霜]</color></color>，效果8秒内最多触发一次。"
+    }
+  },
+  "1350002": {
+    "id": 1350002,
+    "name": "[星见雅]霜炎烈灼",
+    "desc": "附着<color=#FFFFFF>[冰焰]</color>的敌人<color=#2BAD00>每秒将承受星见雅180%攻击力的</color><color=#98EFF0>烈霜伤害</color>；触发<color=#FFFFFF>[霜灼·破]</color>后，星见雅可以忽略<color=#FFFFFF>[霜灼]</color>状态的限制，<color=#2BAD00>立即重新对敌人附着</color><color=#FFFFFF>[冰焰]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "branch": {
+      "13500021": "我方代理人对附着<color=#FFFFFF>[冰焰]</color>的敌人<color=#2BAD00>造成的<color=#F0D12B>[强击]</color>或<color=#98EFF0>[碎冰]</color>伤害提升75%</color>。",
+      "13500022": "敌人在被<color=#FFFFFF>[冰焰]</color>附着期间，若进入<color=#2EB6FF>电属性异常状态</color>/<color=#FF5521>火属性异常状态</color>，则<color=#2EB6FF>电属性伤害抗性</color>/<color=#FF5521>火属性伤害抗性</color><color=#2BAD00>降低30%</color>，持续8秒。"
+    }
+  },
+  "1350003": {
+    "id": 1350003,
+    "name": "[星见雅]秋水洄鸣",
+    "desc": "队友发动<color=#FFFFFF>[追加攻击]</color>时，星见雅获得1层<color=#FFFFFF>[决念]</color>，<color=#FFFFFF>[决念]</color>最多叠加3层；在发动<color=#FFFFFF>[普通攻击：霜月]</color>后，点按「普通攻击」 <IconMap:Icon_Normal> 可消耗1层<color=#FFFFFF>[决念]</color>发动1次<color=#FFFFFF>[霜刃追袭]</color>，<color=#FFFFFF>[霜刃追袭]</color>为<color=#FFFFFF>[追加攻击]</color>，可消耗<color=#FFFFFF>[决念]</color>重复发动。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "branch": {
+      "13500031": "<color=#FFFFFF>[决念]</color><color=#2BAD00>叠加上限提升至5层</color>，每次发动<color=#FFFFFF>[霜刃追袭]</color>，星见雅<color=#2BAD00>额外获得130喧响值</color>。",
+      "13500032": "星见雅发动[极限支援]或触发[极限闪避]时，也可获得1层<color=#FFFFFF>[决念]</color>，且当自身<color=#FFFFFF>[决念]</color>叠加至上限时，下一次发动<color=#FFFFFF>[霜刃追袭]</color>时获得<color=#2BAD00>[追加攻击]伤害提升65%</color>效果，持续5秒，16秒内最多触发1次。"
+    }
+  },
+  "1350011": {
+    "id": 1350011,
+    "name": "[比利]裁决指令",
+    "desc": "将<color=#FFFFFF>[普通攻击：火力全开]</color>替换为<color=#FFFFFF>[普通攻击：火力全开·改]</color>，<color=#2BAD00>降低射击频率以提升子弹威力</color>，招式发动时，将<color=#2BAD00>直接进入蹲姿射击</color>，触发<color=#FFFFFF>[核心被动：稳定据枪]</color>并使比利<color=#2BAD00>造成的伤害额外提升100%</color>，进行移动、回到待机、被击退或被击飞时增益效果结束。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "branch": {
+      "13500111": "比利在<color=#FFFFFF>[普通攻击]</color>中进入蹲姿射击时，触发<color=#FFFFFF>[核心被动：稳定据枪]</color>并维持增益效果1.5秒后，将进入<color=#FFFFFF>[星徽降临]</color>状态，期间攻击命中敌人时<color=#2BAD00>无视目标30%</color><color=#F0D12B>物理伤害抗性</color>，同时<color=#2BAD00>持续获得喧响值</color>，<color=#2BAD00>从20点/秒逐渐提升至50点/秒</color>，在3秒后达到最大值，直到自身被击退或被击飞。",
+      "13500112": "比利在<color=#FFFFFF>[普通攻击：火力全开·改]</color>中发动射击累计命中敌人8次时，下次发动的<color=#FFFFFF>[强化特殊技]</color><color=#2BAD00>无需消耗能量</color>，且招式<color=#2BAD00>造成的伤害提升100%</color>。"
+    }
+  },
+  "1350012": {
+    "id": 1350012,
+    "name": "[比利]彩弹环节",
+    "desc": "比利发动<color=#FFFFFF>[快速支援]</color>/<color=#FFFFFF>[强化特殊技]</color>/<color=#FFFFFF>[连携技]</color>/<color=#FFFFFF>[终结技]</color>时，<color=#2BAD00>获得1/2/2/4层充能</color>（上限4层）；在<color=#FFFFFF>[冲刺攻击：星-徽-制-裁]</color>中向周身大范围区域进行穿透攻击后，点按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>消耗1层充能</color>，重复发动招式，发动时每次攻击命中使<color=#2BAD00>敌人防御降低4%</color>，持续12秒，最多叠加12层，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "branch": {
+      "13500121": "比利发动<color=#FFFFFF>[强化特殊技]</color>/<color=#FFFFFF>[快速支援]</color>/<color=#FFFFFF>[连携技]</color>/<color=#FFFFFF>[终结技]</color>时将为全队施加<color=#FFFFFF>[喝彩]</color>效果，<color=#FFFFFF>[喝彩]</color>持续12秒，持续期间我方代理人发动<color=#FFFFFF>[连携技]</color>或<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升50%</color>。",
+      "13500122": "每次获得充能时，<color=#2BAD00>充能层数以及充能上限提升2层</color>，使敌人防御降低效果<color=#2BAD00>叠加上限提升至18层</color>；重复发动招式时，招式<color=#2BAD00>造成的伤害提升30%</color>，并且每次重复发动额外为队友<color=#2BAD00>回复25点喧响值</color>。"
+    }
+  },
+  "1350021": {
+    "id": 1350021,
+    "name": "[艾莲]冰渊巡猎",
+    "desc": "每间隔15秒，艾莲将会对场上随机敌人施加<color=#FFFFFF>[巡猎]</color>标记，持续15秒；发动<color=#FFFFFF>[强化特殊技]</color>或在<color=#FFFFFF>[冲刺攻击：冰渊潜袭]</color>中发动快速剪击或蓄力剪击命中被施加<color=#FFFFFF>[巡猎]</color>标记的敌人时，再次点按「普通攻击」 <IconMap:Icon_Normal> 或「特殊攻击」 <IconMap:Icon_Special> ，艾莲可以<color=#2BAD00>无消耗、无条件</color>，<color=#2BAD00>直接再次发动该招式</color>；获得<color=#FFFFFF>[急冻充能]</color>时，每溢出1点<color=#FFFFFF>[急冻充能]</color>，艾莲的<color=#2BAD00>攻击力提升12%</color>，最多叠加9层，持续10秒，每层效果逐个结算持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "branch": {
+      "13500211": "对敌人施加<color=#FFFFFF>[巡猎]</color>标记时，艾莲获得<color=#2BAD00>伤害提升15%</color>效果，持续15秒；击败被施加<color=#FFFFFF>[巡猎]</color>标记的敌人时，艾莲将立即对当前场上血量最低的敌人施加<color=#FFFFFF>[巡猎]</color>标记，并使本局空洞内，当前武备的<color=#2BAD00>伤害提升效果额外提升5%</color>，最多额外提升60%。",
+      "13500212": "<color=#FFFFFF>[巡猎]</color>标记施加间隔和持续时间降低至8秒，艾莲攻击被施加<color=#FFFFFF>[巡猎]</color>标记的敌人时，<color=#2BAD00>暴击伤害提升40%</color>；且若目标的<color=#FFFFFF>[巡猎]</color>标记被施加时间小于4秒，<color=#2BAD00>暴击伤害额外提升60%</color>。"
+    }
+  },
+  "1350022": {
+    "id": 1350022,
+    "name": "[艾莲]霜锋缚杀",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>[普通攻击：霜锋]</color>伤害倍率大幅提升；<color=#FFFFFF>[快速支援：护卫鲛]</color>、<color=#FFFFFF>[强化特殊技：横扫]</color>发动后，也会<color=#2BAD00>自动发动[普通攻击：霜锋]</color>，对<color=#2BAD00>前方大范围敌人</color>造成<color=#98EFF0>冰属性伤害</color>，并使目标的<color=#2BAD00>防御力降低40%</color>，持续8秒；发动<color=#FFFFFF>[普通攻击：霜锋]</color>时，艾莲将获得3点<color=#FFFFFF>[急冻充能]</color>。}{NOAWAKEN_1191#<color=#FFFFFF>[快速支援：护卫鲛]</color>、<color=#FFFFFF>[强化特殊技：横扫]</color>、<color=#FFFFFF>[强化特殊技：鲨卷风]</color>发动后，将<color=#2BAD00>自动发动[霜锋]</color>，对<color=#2BAD00>前方大范围敌人</color>造成<color=#98EFF0>冰属性伤害</color>，并使目标的<color=#2BAD00>防御力降低40%</color>，持续8秒；发动<color=#FFFFFF>[霜锋]</color>时，艾莲将获得3点<color=#FFFFFF>[急冻充能]</color>；追加发动<color=#FFFFFF>[霜锋]</color>不影响原本招式派生。}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "branch": {
+      "13500221": "{AWAKEN_1191#发动<color=#FFFFFF>[普通攻击：霜锋]</color>时，艾莲<color=#2BAD00>攻击力提升45%</color>，持续4秒；且进入前场后首次发动<color=#FFFFFF>[普通攻击：霜锋]</color>时，艾莲额外获得3点<color=#FFFFFF>[急冻充能]</color>；<color=#FFFFFF>[急冻充能]</color>额外回复效果8秒内最多获得1次。}{NOAWAKEN_1191#发动<color=#FFFFFF>[霜锋]</color>时，艾莲<color=#2BAD00>攻击力提升45%</color>，持续4秒；且进入前场后首次发动<color=#FFFFFF>[霜锋]</color>时，艾莲额外获得3点<color=#FFFFFF>[急冻充能]</color>；<color=#FFFFFF>[急冻充能]</color>额外回复效果8秒内最多获得1次。}",
+      "13500222": "{AWAKEN_1191#发动<color=#FFFFFF>[普通攻击：霜锋]</color>时，艾莲获得<color=#98EFF0>冰属性伤害</color><color=#2BAD00>提升75%</color>效果，持续6秒}{NOAWAKEN_1191#发动<color=#FFFFFF>[霜锋]</color>时，艾莲获得<color=#98EFF0>冰属性伤害</color><color=#2BAD00>提升75%</color>效果，持续6秒}"
+    }
+  },
+  "1350023": {
+    "id": 1350023,
+    "name": "[艾莲]雾汐回涌",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[连携技]</color>或<color=#FFFFFF>[终结技]</color>时，艾莲会<color=#2BAD00>在地面留下一片[冰雾]</color>，对敌人造成持续<color=#98EFF0>冰属性伤害</color>，持续15秒；我方代理人在<color=#FFFFFF>[冰雾]</color>中时，<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到的伤害降低30%</color>，离开<color=#FFFFFF>[冰雾]</color>后效果持续5秒；艾莲攻击命中处于<color=#FFFFFF>[冰雾]</color>中的敌人时，会额外触发一次<color=#FFFFFF>[冰雾]</color>的伤害。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "branch": {
+      "13500231": "处于<color=#FFFFFF>[冰雾]</color>中的敌人<color=#98EFF0>冰属性伤害抗性</color><color=#2BAD00>降低15%</color>，受到伤害时<color=#98EFF0>冰属性异常积蓄效率</color><color=#2BAD00>提升15%</color>；我方代理人使处于<color=#FFFFFF>[冰雾]</color>中的敌人进入属性异常状态时，<color=#2BAD00>攻击力提升35%</color>，持续8秒。",
+      "13500232": "我方代理人对处于<color=#FFFFFF>[冰雾]</color>中的敌人造成伤害并触发暴击时，使目标<color=#2BAD00>防御降低10%</color>，持续8秒；若造成的为<color=#FF5521>火属性伤害</color>，<color=#2BAD00>暴击伤害提升64%</color>。"
+    }
+  },
+  "1350031": {
+    "id": 1350031,
+    "name": "[月城柳]胧月清辉",
+    "desc": "在<color=#FFFFFF>[上弦]</color>架势下发动第五段<color=#FFFFFF>[普通攻击]</color>或在<color=#FFFFFF>[下弦]</color>架势下发动第四段<color=#FFFFFF>[普通攻击]</color>时，连点或长按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>重复发动斩击</color>，最多重复发动4次；每次重复发动斩击可使月城柳造成的<color=#2EB6FF>电属性伤害</color><color=#2BAD00>提升12.5%</color>，最多叠加4层，持续8秒，重复触发时刷新持续时间；重复发动斩击期间，月城柳<color=#2BAD00>受到的伤害降低40%</color>，触发<color=#FFFFFF>[快速流转]</color>后，点按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>快速衔接另一架势的重复斩击</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "branch": {
+      "13500311": "<color=#FFFFFF>[普通攻击]</color>发动期间，月城柳<color=#2BAD00>受到的伤害降低12%</color>；且月城柳可以<color=#2BAD00>随时打断当前动作</color>，衔接发动<color=#FFFFFF>[特殊技：流转]</color>，若通过<color=#FFFFFF>[特殊技：流转]</color>成功格挡敌人攻击，月城柳获得<color=#2BAD00>异常精通提升170点</color>效果，持续12秒。",
+      "13500312": "重复发动斩击时，若攻击命中敌人，月城柳获得<color=#FFFFFF>[紊乱]</color><color=#2BAD00>伤害提升18%</color>效果，每次重复发动斩击最多获得1层效果，最多叠加4层，持续12秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350032": {
+    "id": 1350032,
+    "name": "[月城柳]惊蛰月华",
+    "desc": "队友使敌人进入属性异常状态时，可以触发月城柳的<color=#FFFFFF>[快速支援]</color>，6秒内最多触发1次；以这种方式触发<color=#FFFFFF>[快速支援]</color>后，月城柳将悬停在空中，<color=#2BAD00>持续向地面引导落雷攻击</color>，造成<color=#2EB6FF>电属性伤害</color>，招式具有较高的<color=#2EB6FF>电属性异常积蓄效率</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "branch": {
+      "13500321": "发动落雷攻击以及落雷后的下落攻击期间，月城柳的<color=#2BAD00>攻击力提升30%</color>，<color=#2BAD00>异常精通提升150点</color>，并可通过连点或长按「特殊攻击」 <IconMap:Icon_Special> 延长招式的发动时间。",
+      "13500322": "落雷攻击命中敌人时，会使我方全体对目标造成的<color=#2BAD00>属性异常或[紊乱]伤害提升5%</color>，最多叠加10层，持续8秒；且落雷后的下落攻击命中敌人时，会触发队伍中上一位角色的<color=#FFFFFF>[快速支援]</color>。"
+    }
+  },
+  "1350033": {
+    "id": 1350033,
+    "name": "[月城柳]月刃逐影",
+    "desc": "队伍中任意角色触发<color=#FFFFFF>[紊乱]</color>效果时，月城柳获得1层<color=#FFFFFF>[逐影]</color>，<color=#FFFFFF>[逐影]</color>最多叠加3层；当前操作中的角色重击命中敌人时，若月城柳拥有<color=#FFFFFF>[逐影]</color>，则会自动消耗1层并对敌人发动1次<color=#FFFFFF>[风华连舞]</color>，<color=#FFFFFF>[风华连舞]</color>为<color=#FFFFFF>[追加攻击]</color>，1秒内最多触发1次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "branch": {
+      "13500331": "<color=#FFFFFF>[逐影]</color><color=#2BAD00>叠加上限提升至5层</color>，且月城柳发动<color=#FFFFFF>[强化特殊技]</color>时可获得1层<color=#FFFFFF>[逐影]</color>。",
+      "13500332": "月城柳触发<color=#FFFFFF>[紊乱]</color>效果时，全队获得<color=#2BAD00>[追加攻击]伤害提升50%</color>效果，持续12秒。"
+    }
+  },
+  "1350041": {
+    "id": 1350041,
+    "name": "[简杜]诡影疾袭",
+    "desc": "<color=#FFFFFF>[普通攻击：萨霍夫跳]</color>的<color=#2BAD00>持续攻击时间大幅提升</color>，在即将受到攻击时发动终结一击，可以触发<color=#FFFFFF>[极限闪避]</color>，持续攻击时间达到最大或终结一击触发<color=#FFFFFF>[极限闪避]</color>时，会将终结一击强化为<color=#FFFFFF>[萨霍夫跳·凌空]</color>，发动该招式时，自身<color=#F0D12B>物理异常积蓄效率</color><color=#2BAD00>提升70%</color>，持续15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "branch": {
+      "13500411": "队伍中任意角色对敌人施加[属性异常]效果时，简将直接进入<color=#FFFFFF>[狂热]</color>状态，获得一点<color=#FFFFFF>[普通攻击：萨霍夫跳]</color>的可使用次数，并使<color=#FFFFFF>[狂热心流]</color>回复至上限，该效果每10秒最多触发一次。",
+      "13500412": "触发<color=#FFFFFF>[极限闪避]</color>或发动<color=#FFFFFF>[招架支援]</color>时获得的<color=#FFFFFF>[狂热心流]</color><color=#2BAD00>大幅提升</color>，将<color=#FFFFFF>[狂热]</color>状态替换为<color=#FFFFFF>[过载狂热]</color>状态，该状态下简的<color=#2BAD00>攻击力额外提升40%</color>，<color=#FFFFFF>[狂热心流]</color>会随时间自动降低，攻击命中敌人<color=#2BAD00>不再消耗</color><color=#FFFFFF>[狂热心流]</color>。"
+    }
+  },
+  "1350042": {
+    "id": 1350042,
+    "name": "[简杜]围猎时间",
+    "desc": "{AWAKEN_1261#<color=#FFFFFF>[强化特殊技：掠空]</color>会被强化为<color=#FFFFFF>[强化特殊技：掠空-强袭]</color>，且该招式的伤害倍率和异常积蓄大幅提升}{NOAWAKEN_1261#<color=#FFFFFF>[强化特殊技：掠空]</color>会被强化为<color=#FFFFFF>[强化特殊技：掠空-强袭]</color>}，该招式命中敌人时，会使目标进入<color=#FFFFFF>[伤痕]</color>状态，处于该状态的目标每秒受到一次等同于简60%攻击力的<color=#F0D12B>物理伤害</color>并累积<color=#F0D12B>物理异常积蓄值</color>，持续15秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "branch": {
+      "13500421": "简触发<color=#FFFFFF>[强击]</color>时，提升全队<color=#2BAD00>50点异常精通和70%异常积蓄效率</color>，持续15秒，重复触发时刷新持续时间。",
+      "13500422": "队伍中其他角色攻击处于<color=#FFFFFF>[伤痕]</color>状态的敌人时，<color=#FFFFFF>[伤痕]</color>会被额外激发，根据该角色的属性，造成一次等同于简120%攻击力的相应属性的伤害，并累积属性异常积蓄值，同一角色每3秒最多触发一次该效果。"
+    }
+  },
+  "1350043": {
+    "id": 1350043,
+    "name": "[简杜]谑笑追戏",
+    "desc": "队伍中其他角色触发<color=#F0D12B>[强击]</color>时，简会围绕目标敌人发动<color=#FFFFFF>[强化特殊技]</color>，造成的伤害被视为<color=#FFFFFF>[追加攻击]</color>伤害，该效果每8秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "branch": {
+      "13500431": "队伍中任意角色触发<color=#FFFFFF>[强击]</color>时，使敌人的<color=#F0D12B>物理伤害抗性</color><color=#2BAD00>降低15%</color>，<color=#F0D12B>物理异常积蓄抗性</color><color=#2BAD00>降低30%</color>，持续15秒。重复触发时刷新持续时间。",
+      "13500432": "队伍中其他角色通过<color=#FFFFFF>[谑笑追戏]</color>触发简的两次<color=#FFFFFF>[追加攻击]</color>，下一次触发时，简会围绕目标敌人发动<color=#FFFFFF>[连携技]</color>，该攻击被视为<color=#FFFFFF>[追加攻击]</color>，且此次<color=#FFFFFF>[连携技]</color>的<color=#2BAD00>伤害提升200%，异常积蓄效率提升200%</color>。"
+    }
+  },
+  "1350051": {
+    "id": 1350051,
+    "name": "[可琳]高效清洁法",
+    "desc": "在第一，二，三段<color=#FFFFFF>[普通攻击]</color>，<color=#FFFFFF>[冲刺攻击]</color>，<color=#FFFFFF>[闪避反击]</color>或<color=#FFFFFF>[快速支援]</color>发动期间，连点或长按[普通攻击]<IconMap:Icon_Normal>，<color=#2BAD00>可直接发动第四段[普通攻击]</color>，并向前方<color=#2BAD00>施放高速气旋斩击敌人</color>，可琳触发<color=#FFFFFF>[极限闪避]</color>时，<color=#2BAD00>为自身回复20点能量</color>，该效果每10秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "branch": {
+      "13500511": "在<color=#FFFFFF>[强化特殊技]</color>发动期间，长按<color=#FFFFFF>[特殊攻击]</color> <IconMap:Icon_Special>持续斩击敌人超过0.5秒时，会触发<color=#FFFFFF>[超频状态]</color>，<color=#2BAD00>持续聚集敌人</color>，且当斩击命中敌人10次时，将触发<color=#FFFFFF>[超频过载]</color>，<color=#2BAD00>额外造成一次可琳630%攻击力</color>的<color=#F0D12B>物理伤害</color>。",
+      "13500512": "可琳使用电锯持续斩击命中敌人时，自身将获得1层充能，拥有10层充能后，下次斩击将对敌人施加<color=#FFFFFF>[撕裂]</color>效果，<color=#2BAD00>每3秒造成一次可琳20%攻击力</color>的<color=#F0D12B>物理伤害</color>，最多叠加10层，持续12秒， 重复触发时刷新持续时间。"
+    }
+  },
+  "1350052": {
+    "id": 1350052,
+    "name": "[可琳]茶歇时间到",
+    "desc": "可琳的<color=#FFFFFF>[冲刺攻击]</color>和<color=#FFFFFF>[快速支援]</color>]被替换为<color=#FFFFFF>[冲刺攻击：[断]改]</color>，长按<color=#FFFFFF>[普通攻击]</color>键可持续保持疾行形态，电锯连续斩击命中敌人30次或松开按键后结束。<color=#FFFFFF>[冲刺攻击：[断]改]</color>命中敌人时会<color=#2BAD00>使敌人的防御力降低3%</color>，最多叠加10层，持续15秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "branch": {
+      "13500521": "可琳发动<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[极限支援]</color>、<color=#FFFFFF>[冲刺攻击]</color>和<color=#FFFFFF>[强化特殊技]</color>时，全队<color=#2BAD00>攻击力提升16%</color>，持续15秒。",
+      "13500522": "<color=#FFFFFF>[冲刺攻击：[断]改]</color>命中敌人时，敌人的<color=#2BAD00>每层防御力降低效果提升至6%</color>。"
+    }
+  },
+  "1350061": {
+    "id": 1350061,
+    "name": "[耀嘉音]虹霓协奏",
+    "desc": "<color=#FFFFFF>[咏叹华彩]</color>状态下，<color=#FFFFFF>[强攻]</color>特性的角色<color=#2BAD00>暴击伤害提升30%</color>，<color=#FFFFFF>[异常]</color>特性的角色<color=#2BAD00>异常精通提升60点</color>，[命破]特性的角色造成的<color=#2BAD00>贯穿伤害提升15%</color>；当前操作中的角色发动<color=#FFFFFF>[强化特殊技]</color>命中敌人时，耀嘉音将<color=#2BAD00>回复4点能量</color>，并<color=#2BAD00>追加释放<color=#FFFFFF>[震音]</color>进行攻击</color>，能量回复效果1秒内最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "branch": {
+      "13500611": "在<color=#FFFFFF>[咏叹华彩]</color>状态下，<color=#2BAD00>全队穿透率提升20%</color>，<color=#2BAD00>生命值缓慢回复</color>。",
+      "13500612": "<color=#FFFFFF>[震音]</color>攻击命中敌人时，使敌人的<color=#2BAD00>防御力降低30%</color>，持续10秒。"
+    }
+  },
+  "1350062": {
+    "id": 1350062,
+    "name": "[耀嘉音]绯色鼓点",
+    "desc": "<color=#FFFFFF>[咏叹华彩]</color>状态下，能量足够时，释放或追加释放<color=#FFFFFF>[震音]</color>进行攻击时，会<color=#2BAD00>额外追加两段</color>相同的<color=#FFFFFF>[震音]</color>伤害；耀嘉音发动<color=#FFFFFF>[普通攻击：间奏]</color>或<color=#FFFFFF>[普通攻击：副歌]</color>命中敌人时，有20%概率获得<color=#FFFFFF>[灵感]</color>效果，使耀嘉音下一次发动的<color=#FFFFFF>[闪避]</color><color=#2BAD00>能够直接触发</color><color=#FFFFFF>[极限闪避]</color>，后继可衔接发动<color=#FFFFFF>[普通攻击：副歌]</color>，持续30秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "branch": {
+      "13500621": "队伍中其他角色的<color=#FFFFFF>[追加攻击]</color>命中敌人时，耀嘉音会追加释放<color=#FFFFFF>[震音]</color>攻击敌人，该效果每2秒最多触发一次。",
+      "13500622": "<color=#FFFFFF>[震音]</color>攻击的<color=#2BAD00>暴击率提升30%</color>，<color=#2BAD00>暴击伤害提升60%</color>，并且会<color=#2BAD00>无视敌方的22%以太伤害抗性</color>。"
+    }
+  },
+  "1350063": {
+    "id": 1350063,
+    "name": "[耀嘉音]星落圆舞曲",
+    "desc": "耀嘉音每累计消耗25点能量，则获得1层<color=#FFFFFF>[星光]</color>，最多叠加3层；<color=#FFFFFF>[咏叹华彩]</color>状态下，长按 <IconMap:Icon_Normal> 可发动<color=#FFFFFF>[普通攻击：璀璨时刻]</color>，持续引导能量光束攻击敌人；招式发动时，将消耗<color=#FFFFFF>[星光]</color>，每层<color=#FFFFFF>[星光]</color>会使招式的<color=#2BAD00>持续时间延长1秒</color>；招式发动期间<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到伤害额外降低20%</color>；招式命中敌人时，<color=#2BAD00>目标的防御力降低20%</color>，持续30秒；拥有3层<color=#FFFFFF>[星光]</color>后，切换回耀嘉音时，将会自动衔接发动<color=#FFFFFF>[普通攻击：璀璨时刻]</color>，耀嘉音发动<color=#FFFFFF>[普通攻击：间奏]</color>命中敌人时，将额外消耗25点能量，发动<color=#FFFFFF>[普通攻击：副歌]</color>命中敌人时，将<color=#2BAD00>额外回复5点能量</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "branch": {
+      "13500631": "<color=#FFFFFF>[普通攻击：璀璨时刻]</color>造成的伤害将<color=#2BAD00>被视为<color=#FFFFFF>[强化特殊技]</color>伤害</color>，招式发动期间，<color=#2BAD00>暴击率提升30%</color>，<color=#2BAD00>暴击伤害提升60%</color>。",
+      "13500632": "长按 <IconMap:Icon_Normal> 发动<color=#FFFFFF>[普通攻击：璀璨时刻]</color>时，将消耗<color=#FFFFFF>[星光]</color>，每层<color=#FFFFFF>[星光]</color>会使<color=#2BAD00>招式造成的伤害提升15%</color>，并为耀嘉音<color=#2BAD00>回复4点能量</color>。"
+    }
+  },
+  "1350071": {
+    "id": 1350071,
+    "name": "[伊芙琳]鎏金旋刃",
+    "desc": "伊芙琳退出<color=#FFFFFF>[牵缠禁制]</color>时，会进入<color=#FFFFFF>[引燃预备时间]</color>，持续30秒，期间发动的下一个<color=#FFFFFF>[冲刺攻击：穿梭潜袭]</color>将被替换为<color=#FFFFFF>[冲刺攻击：潜袭爆破]</color>，<color=#FFFFFF>[冲刺攻击：潜袭爆破]</color><color=#2BAD00>被视为[连携技]</color>；伊芙琳发动<color=#FFFFFF>[普通攻击：绞勒式]</color>时，<color=#2BAD00>将会退出[牵缠禁制]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "branch": {
+      "13500711": "发动<color=#FFFFFF>[连携技]</color>时，伊芙琳获得<color=#FFFFFF>[捷刃]</color>效果，使<color=#FFFFFF>[连携技]</color><color=#2BAD00>造成的伤害提升20%</color>，最多叠加3层，持续整场战斗。",
+      "13500712": "伊芙琳受到来自正面的攻击，且即将进入受击硬直时，会消耗<color=#FFFFFF>[支援点数]</color>，<color=#2BAD00>自动发动[招架支援]</color>，格挡敌人的攻击，且可以衔接派生<color=#FFFFFF>[支援突击：轨迹干涉]</color>；伊芙琳发动<color=#FFFFFF>[招架支援]</color>时，自身<color=#2BAD00>暴击伤害提升40%</color>，最多叠加2层，持续20秒，每层效果单独结算持续时间。"
+    }
+  },
+  "1350072": {
+    "id": 1350072,
+    "name": "[伊芙琳]致命礼仪",
+    "desc": "队伍中任意角色的<color=#FFFFFF>[追加攻击]</color>、<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[极限支援]</color>命中敌人时都会为伊芙琳回复<color=#FFFFFF>[燎火]</color>，伊芙琳消耗<color=#FFFFFF>[燎索点]</color>发动的<color=#FFFFFF>[连携技：月辉丝·绊]</color>将被替换为<color=#FFFFFF>[连携技：月辉丝·萦牵]</color>，招式时长大幅缩短；伊芙琳发动<color=#FFFFFF>[连携技]</color>命中敌人时，<color=#2BAD00>招式造成的伤害提升80%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "branch": {
+      "13500721": "发动<color=#FFFFFF>[终结技]</color>时，伊芙琳将获得100%<color=#FFFFFF>[燎火]</color>和3点<color=#FFFFFF>[燎索点]</color>。",
+      "13500722": "伊芙琳发动<color=#FFFFFF>[连携技]</color>时，<color=#2BAD00>暴击率提升20%</color>，<color=#2BAD00>暴击伤害提升80%</color>，持续5秒。"
+    }
+  },
+  "1350073": {
+    "id": 1350073,
+    "name": "[伊芙琳]失控焰影",
+    "desc": "伊芙琳的<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[支援突击]</color>、<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[普通攻击：绞勒式]</color>和<color=#FFFFFF>[连携技]</color>重击命中敌人时会为敌人添加<color=#FFFFFF>[爆裂]</color>标记，持续8秒，重复触发时刷新持续时间，队伍中其他角色攻击命中<color=#FFFFFF>[爆裂]</color>标记时会额外造成一次等同于伊芙琳370%攻击力的<color=#FF5521>火属性伤害</color>，并为伊芙琳回复20%<color=#FFFFFF>[燎火]</color>，该效果每2秒最多触发一次，触发3次伤害之后敌人身上的<color=#FFFFFF>[爆裂]</color>标记会被移除。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "branch": {
+      "13500731": "持有<color=#FFFFFF>[爆裂]</color>标记的敌人受到的<color=#FFFFFF>[追加攻击]</color>的<color=#2BAD00>失衡值提升25%</color>，<color=#2BAD00>伤害提升30%</color>。",
+      "13500732": "当伊芙琳的<color=#FFFFFF>[燎火]</color>大于50%且不处于操控中时，操控中的角色重击命中敌人时，伊芙琳会围绕敌人发动<color=#FFFFFF>[普通攻击：绞勒式]</color>，造成的伤害被视为<color=#FFFFFF>[追加攻击]</color>伤害，并使全队<color=#2BAD00>攻击力提升16%</color>，持续15秒。"
+    }
+  },
+  "1350081": {
+    "id": 1350081,
+    "name": "[仪玄]青鸾贯影",
+    "desc": "仪玄受到敌人攻击时将自动回避本次攻击，触发极限视域并在原地留下大太极阵，点击[普通攻击]键后可衔接[普通攻击：青溟震击]，自动回避效果12秒内最多触发一次",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "branch": {
+      "13500811": "普通攻击第五段额外回复<color=#2BAD00>10点闪能</color>；触发极限闪避时额外回复<color=#2BAD00>10点闪能</color>",
+      "13500812": "触发极限闪避后，仪玄的<color=#2BAD00>暴击伤害提升96%</color>，持续20秒"
+    }
+  },
+  "1350082": {
+    "id": 1350082,
+    "name": "[仪玄]灵铢和鸣",
+    "desc": "[快速支援]替换为[强化特殊技：青溟震击-破]；[普通攻击：青溟震击]命中敌人时、或发动[强化特殊技]、[终结技]后，仪玄的<color=#2BAD00>贯穿伤害额外提升20%</color>，最多叠加3层，持续12秒，重复触发时刷新持续时间",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic036.png",
+    "branch": {
+      "13500821": "[普通攻击：青溟震击]或[强化特殊技：青溟震击-破]命中敌人后，敌人的<color=#2BAD00>全属性抗性降低40%</color>，持续15秒，重复触发刷新时间",
+      "13500822": "每释放一次[普通攻击：青溟震击]或[强化特殊技：青溟震击-破]，[普通攻击：青溟震击]或[强化特殊技：青溟震击-破]<color=#2BAD00>造成的伤害提升18%</color>，并最多叠加4层，发动[普通攻击：青溟震击]或[强化特殊技：青溟震击-破]时直接回复30术法值"
+    }
+  },
+  "1350083": {
+    "id": 1350083,
+    "name": "[仪玄]玄翎金箓",
+    "desc": "[强化特殊技：墨痕化形]蓄力过程中均可触发完美格挡，触发完美格挡后，额外回复15术法值，获得<color=#2BAD00>18%增伤增益</color>，持续15秒；每完美格挡一次敌人，使得下一次[终结技]<color=#2BAD00>造成的伤害额外提升20%</color>，最多叠加3层",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic037.png",
+    "branch": {
+      "13500831": "[强化特殊技：墨痕化形]成功完美格挡到敌人后，<color=#2BAD00>额外回复300点喧响值</color>",
+      "13500832": "[强化特殊技：墨痕化形]成功完美格挡到敌人后，全队<color=#2BAD00>造成的失衡值额外提升30%</color>，持续20秒"
+    }
+  },
+  "1350091": {
+    "id": 1350091,
+    "name": "[橘福福]山君破煞",
+    "desc": "橘福福发动<color=#FFFFFF>[连携技：虎釜震煞]</color>后，若自身不为当前操作中角色，则会触发一次<color=#FFFFFF>[追击支援]</color>，发动时会围绕敌人发动第四段<color=#FFFFFF>[普通攻击]</color>，招式造成的伤害视为<color=#2BAD00>[追加攻击]伤害</color>，<color=#2BAD00>造成的伤害提升75%</color>，<color=#2BAD00>失衡值提升45%</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "branch": {
+      "13500911": "<color=#2BAD00>[追加攻击]</color>命中敌人时，对该敌人<color=#2BAD00>造成的伤害提升10%</color>，最多叠加3层，1秒内最多触发一次，持续15秒，重复触发时刷新持续时间。",
+      "13500912": "<color=#2BAD00>[追加攻击]</color>命中敌人时，<color=#2BAD00>造成的失衡值提升8%</color>，最多叠加3层，1秒内最多触发一次，持续15秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350092": {
+    "id": 1350092,
+    "name": "[橘福福]「风雷」之音",
+    "desc": "橘福福发动<color=#FFFFFF>[突击支援]</color>或<color=#FFFFFF>[强化特殊技]</color>后，能快速衔接至第四段<color=#FFFFFF>[普通攻击]</color>并强化该招式，本次招式造成的<color=#2BAD00>失衡值提升60%</color>，并在招式结束后，额外触发等同于发动一次第四段<color=#FFFFFF>[普通攻击]</color>的打击效果",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic039.png",
+    "branch": {
+      "13500921": "橘福福发动强化后的第四段<color=#FFFFFF>[普通攻击]</color>时，橘福福<color=#2BAD00>造成的伤害提升60%</color>，持续20秒。",
+      "13500922": "橘福福发动强化后的第四段<color=#FFFFFF>[普通攻击]</color>时，橘福福<color=#2BAD00>额外获得50点[威风]和150点喧响值</color>。"
+    }
+  },
+  "1350093": {
+    "id": 1350093,
+    "name": "[橘福福]灵符虎魄",
+    "desc": "橘福福的第三段<color=#FFFFFF>[普通攻击]</color>命中敌人时，<color=#2BAD00>获得3点[威风]</color>；\n发动第四段<color=#FFFFFF>[普通攻击]</color>后，再次点按「普通攻击」可以发动<color=#FFFFFF>[普通攻击：恶虎七式·燎身爪·炽意]</color>，若此时「虎威」在场且<color=#FFFFFF>[威风]</color>高于100点，则会消耗100点<color=#FFFFFF>[威风]</color>，让「虎威」发动一次<color=#FFFFFF>[连携技：虎釜震煞]</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic040.png",
+    "branch": {
+      "13500931": "橘福福的<color=#FFFFFF>[普通攻击]</color>造成的<color=#2BAD00>失衡值提升45%</color>，第三段<color=#FFFFFF>[普通攻击]</color>命中敌人时，额外<color=#2BAD00>获得2点[威风]</color>",
+      "13500932": "橘福福发动<color=#FFFFFF>[普通攻击：恶虎七式·燎身爪·炽意]</color>时，橘福福<color=#2BAD00>暴击伤害提升85%</color>，持续20秒。"
+    }
+  },
+  "1350121": {
+    "id": 1350121,
+    "name": "[爱丽丝]决斗礼仪",
+    "desc": "爱丽丝的<color=#FFFFFF>[普通攻击]</color>第五段、<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[连携技]</color>或<color=#FFFFFF>[终结技]</color>命中敌人时，积攒<color=#FFFFFF>[标记]</color>，攻击命中满<color=#FFFFFF>[标记]</color>的敌人时，消耗所有<color=#FFFFFF>[标记]</color>进度，触发特殊的<color=#F0D12B>[强击]</color>效果<color=#F0D12B>[极性强击]</color>，无视属性积蓄进度造成一次原本<color=#F0D12B>[强击]</color>效果100%的伤害，并可以与包括物理属性异常效果在内的其他属性异常效果互相结算<color=#FFFFFF>[紊乱]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic041.png",
+    "branch": {
+      "13501211": "触发<color=#F0D12B>[强击]</color>时，爱丽丝造成的<color=#2BAD00>伤害提升6%</color>，最多叠加10层。",
+      "13501212": "爱丽丝触发<color=#F0D12B>[强击]</color>时，使全队角色的<color=#2BAD00>异常积蓄效率提升40%</color>，持续15秒。"
+    }
+  },
+  "1350122": {
+    "id": 1350122,
+    "name": "[爱丽丝]迅刃回旋",
+    "desc": "爱丽丝的<color=#FFFFFF>[闪避反击]</color>和<color=#FFFFFF>[快速支援]</color>被替换为<color=#FFFFFF>[迅刃剑羽]</color>，爱丽丝发动<color=#FFFFFF>[迅刃剑羽]</color>时，<color=#2BAD00>异常精通提升150点</color>，持续15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic042.png",
+    "branch": {
+      "13501221": "爱丽丝长按<IconMap:Icon_Evade>移动一段时间后进入<color=#FFFFFF>[极限视域]</color>，持续3秒，并使下一次<color=#FFFFFF>[冲刺攻击]</color>替换为<color=#FFFFFF>[闪避反击]</color>，此效果在10秒内最多触发一次；爱丽丝触发此效果或<color=#FFFFFF>[极限闪避]</color>时，使场上敌人<color=#2BAD00>防御力降低20%</color>，持续15秒。",
+      "13501222": "爱丽丝发动<color=#FFFFFF>[迅刃剑羽]</color>时，回复30点<color=#FFFFFF>[剑仪]</color>"
+    }
+  },
+  "1350123": {
+    "id": 1350123,
+    "name": "[爱丽丝]霜芒重奏",
+    "desc": "爱丽丝发动<color=#FFFFFF>[强化特殊技：极光突刺·北十字]</color>时，使全队<color=#2BAD00>暴击率提升10%</color>，<color=#2BAD00>暴击伤害提升20%</color>，持续20秒；发动<color=#FFFFFF>[强化特殊技：极光突刺·南十字]</color>时，使全队的<color=#2BAD00>异常积蓄效率提升35%</color>，<color=#2BAD00>异常精通提升50点</color>，持续20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic043.png",
+    "branch": {
+      "13501231": "爱丽丝发动三段蓄力的<color=#FFFFFF>[普通攻击：星芒圆舞曲]</color>时，使全队<color=#2BAD00>获得400点喧响值</color>。",
+      "13501232": "<color=#FFFFFF>[爱丽丝]霜芒重奏</color>的两个增益效果同时存在后，使全队的<color=#2BAD00>攻击力提升10%</color>，<color=#2BAD00>造成的伤害提升16%</color>，持续20秒。"
+    }
+  },
+  "1350131": {
+    "id": 1350131,
+    "name": "[柚叶]灵巫御守",
+    "desc": "柚叶发动<color=#FFFFFF>[强化特殊技]</color>或<color=#FFFFFF>[终结技]</color>时，自身的<color=#2BAD00>异常掌控提升40</color>，持续30秒，重复触发时刷新持续时间；命中敌人时，使敌人的<color=#2BAD00>防御力降低18%</color>，<color=#2BAD00>全属性伤害抗性降低15%</color>，持续30秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic045.png",
+    "branch": {
+      "13501311": "<color=#FFFFFF>[普通攻击：彩糖花火]</color>和<color=#FFFFFF>[普通攻击：彩糖花火·极]</color>攻击的<color=#2BAD00>异常积蓄效率提升60%</color>。",
+      "13501312": "<color=#FFFFFF>[普通攻击：硬糖射击]</color>重击命中敌人时，全队的<color=#2BAD00>异常精通提升30</color>，<color=#2BAD00>攻击力提升10%</color>，持续30秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350132": {
+    "id": 1350132,
+    "name": "[柚叶]秘技·伞槌！",
+    "desc": "柚叶在<color=#FFFFFF>[闪避反击]</color>、在<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[支援突击]</color>、第五段<color=#FFFFFF>[普通攻击]</color>后点按<IconMap:Icon_Normal> 将发动<color=#FFFFFF>[伞槌]</color>攻击敌人，该攻击重击命中处于<color=#FFFFFF>[糖果惊吓]</color>状态的敌人时，会造成一次<color=#FFFFFF>[普通攻击：彩糖花火·极]</color>攻击，并使自身的<color=#2BAD00>攻击力提升20%</color>，<color=#2BAD00>异常积蓄效率提升30%</color>，持续20秒，重复触发时刷新持续时间；柚叶的第五段<color=#FFFFFF>[普通攻击]</color>命中敌人时会获得一个<color=#FFFFFF>[甜度点]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic044.png",
+    "branch": {
+      "13501321": "当柚叶拥有<color=#FFFFFF>[甜度点]</color>时，柚叶可以在<color=#FFFFFF>[伞槌]</color>攻击结束后，点按普通攻击<IconMap:Icon_Normal> 消耗一点<color=#FFFFFF>[甜度点]</color>再次发动攻击，每次发动<color=#FFFFFF>[伞槌]</color>时，柚叶的<color=#2BAD00>异常精通会提升40</color>，最多叠加3层，持续10秒，重复触发时刷新持续时间。",
+      "13501322": "柚叶可以在<color=#FFFFFF>[伞槌]</color>攻击结束后恰当时机点按普通攻击<IconMap:Icon_Normal>再次发动<color=#FFFFFF>[伞槌]</color>，每次发动<color=#FFFFFF>[伞槌]</color>，柚叶的<color=#2BAD00>异常精通会提升30</color>，最多叠加6层，持续8秒，发动<color=#FFFFFF>[伞槌]</color>时，如果柚叶拥有<color=#FFFFFF>[甜度点]</color>则会自动消耗1点<color=#FFFFFF>[甜度点]</color>使得此次<color=#FFFFFF>[伞槌]</color>和<color=#FFFFFF>[普通攻击：彩糖花火·极]</color>攻击的<color=#2BAD00>异常积蓄效率提升40%</color>。"
+    }
+  },
+  "1350133": {
+    "id": 1350133,
+    "name": "[柚叶]狸影重重",
+    "desc": "柚叶发动<color=#FFFFFF>[极限支援]</color>和<color=#FFFFFF>[连携技]</color>时，为全队回复5点能量和160点喧响值，该效果每12秒最多触发一次；<color=#FFFFFF>[支援突击]</color>重击攻击命中敌人时，使全队的<color=#2BAD00>伤害提升15%</color>，持续20秒，重复触发时刷新持续时间；并会触发上一位角色的<color=#FFFFFF>[快速支援]</color>，该次<color=#FFFFFF>[快速支援]</color>会被升级为连携技，该效果每12秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic046.png",
+    "branch": {
+      "13501331": "<color=#FFFFFF>[支援突击]</color>重击攻击命中敌人时，使全队的<color=#2BAD00>异常精通提升40</color>，<color=#2BAD00>异常积蓄效率提升30%</color>，持续30秒，重复触发时刷新持续时间。",
+      "13501332": "<color=#FFFFFF>[支援突击]</color>重击攻击命中敌人时，使全队的<color=#2BAD00>暴击率提升10%</color>，<color=#2BAD00>暴击伤害提升24%</color>，持续30秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350141": {
+    "id": 1350141,
+    "name": "[卢西娅]溯梦涌流",
+    "desc": "卢西娅发动招式升级或<color=#FFFFFF>[追加攻击]</color>时可获得1层<color=#FFFFFF>[涌流]</color>，最多叠加至4层；\n在退出<color=#FFFFFF>[梦境]</color>状态时，会消耗全部<color=#FFFFFF>[涌流]</color>，每消耗1层<color=#FFFFFF>[涌流]</color><color=#2BAD00>自身回复10点能量</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic048.png",
+    "branch": {
+      "13501411": "卢西娅处于后台发动<color=#FFFFFF>[追加攻击]</color>时<color=#2BAD00>为队友回复6点能量或闪能</color>。",
+      "13501412": "卢西娅处于后台发动<color=#FFFFFF>[追加攻击]</color>命中敌人后，敌人的<color=#2BAD00>全属性抗性降低20%</color>，持续12秒，重复触发刷新时间。"
+    }
+  },
+  "1350142": {
+    "id": 1350142,
+    "name": "[卢西娅]夜籁盈生",
+    "desc": "卢西娅在<color=#FFFFFF>[终结技]</color>中生成的<color=#FFFFFF>[星光汇聚之地]</color>，<color=#2BAD00>持续时间延长至20秒，且范围更大</color>；且发动<color=#FFFFFF>[合唱]</color>时<color=#2BAD00>额外获得200点喧响值</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "branch": {
+      "13501421": "进入<color=#FFFFFF>[星光汇聚之地]</color>的敌人每秒会受到1次<color=#2BAD00>基于卢西娅最大生命值的25%的伤害</color>，该效果在目标离开<color=#FFFFFF>[星光汇聚之地]</color>6秒后消失。",
+      "13501422": "进入<color=#FFFFFF>[星光汇聚之地]</color>的我方角色<color=#2BAD00>暴击伤害提升68%</color>，该效果在角色离开<color=#FFFFFF>[星光汇聚之地]</color>6秒后消失。"
+    }
+  },
+  "1350143": {
+    "id": 1350143,
+    "name": "[卢西娅]幽魄凝心",
+    "desc": "进入战场时，卢西娅<color=#2BAD00>基于自身基础最大生命值3%提升自身攻击力</color>，且卢西娅的<color=#FFFFFF>[合唱]</color>对敌人<color=#2BAD00>造成的以太伤害提升40%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic049.png",
+    "branch": {
+      "13501431": "<color=#FFFFFF>[强化特殊技]</color>发动后，再次点按「特殊攻击」 <IconMap:Icon_Special> <color=#2BAD00>可以发动<color=#FFFFFF>[追加攻击]</color></color>，该<color=#FFFFFF>[追加攻击]</color>为<color=#FFFFFF>[合唱]</color>；若卢西娅未处于<color=#FFFFFF>[梦境]</color>状态中，<color=#2BAD00>发动时回复40点梦境值</color>。",
+      "13501432": "卢西娅发动招式升级时<color=#2BAD00>消耗的<color=#FFFFFF>[梦境值]</color>降低50%</color>，升级后的招式造成伤害时<color=#2BAD00>无视目标20%的以太抗性</color>。"
+    }
+  },
+  "1350151": {
+    "id": 1350151,
+    "name": "[伊德海莉]冽光傍身",
+    "desc": "伊德海莉发动<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的3段蓄力攻击时，在旋转横挥期间，每次攻击命中敌人时，可获得<color=#FFFFFF>[临时护盾]</color>；伊德海莉发动本轮<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的终结下砸攻击，或在本轮蓄力中派生发动<color=#FFFFFF>[强化特殊技：极寒重碾]</color>时，会消耗所有<color=#FFFFFF>[临时护盾]</color>，并根据消耗的<color=#FFFFFF>[临时护盾]</color>量，使攻击<color=#2BAD00>造成的伤害提升最多240%</color>。伊德海莉最多获得<color=#2BAD00>80%最大生命值的[临时护盾]</color>，旋转横挥被打断时，清空所有<color=#FFFFFF>[临时护盾]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic050.png",
+    "branch": {
+      "13501511": "伊德海莉<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的3段蓄力攻击时，可以无限进行旋转横挥；伊德海莉在<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的旋转横挥期间发动闪避时，点按普通攻击可以重新发动<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的3段蓄力攻击；伊德海莉<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>3段蓄力攻击<color=#2BAD00>造成的伤害提升60%</color>。",
+      "13501512": "伊德海莉退出旋转横挥时，不再清空<color=#FFFFFF>[临时护盾]</color>，发动<color=#FFFFFF>[普通攻击：霜寒拥覆]</color>的终结下砸攻击、<color=#FFFFFF>[强化特殊技：极寒重碾]</color>时<color=#2BAD00>消耗的临时护盾减少50%</color>，提升的伤害不变。"
+    }
+  },
+  "1350152": {
+    "id": 1350152,
+    "name": "[伊德海莉]凛霜彻骨",
+    "desc": "伊德海莉消耗闪能发动<color=#FFFFFF>[强化特殊技]</color>后，获得4层<color=#FFFFFF>[缠霜]</color>：<color=#FFFFFF>[普通攻击]</color>命中敌人时，会消耗<color=#FFFFFF>[缠霜]</color>攻击目标敌人，每1秒最多触发1次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic051.png",
+    "branch": {
+      "13501521": "<color=#FFFFFF>[缠霜]</color>命中敌人后，使目标的<color=#98EFF0>冰属性伤害抗性</color>降低20%，持续15秒，重复触发时刷新持续时间。",
+      "13501522": "伊德海莉消耗闪能发动<color=#FFFFFF>[强化特殊技]</color>后获得的<color=#FFFFFF>[缠霜]</color>层数翻倍；每次发动<color=#FFFFFF>[缠霜]</color>攻击后，使<color=#FFFFFF>[缠霜]</color><color=#2BAD00>造成的伤害增加6%</color>，<color=#2BAD00>最多叠加12层</color>，持续15秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350153": {
+    "id": 1350153,
+    "name": "[伊德海莉]倾心铸梦",
+    "desc": "成为接战状态下的当前操作角色时，立即开启<color=#FFFFFF>[以太帷幕·涌泉]</color>，180秒内最多触发1次，<color=#FFFFFF>[以太帷幕·涌泉]</color>的<color=#2BAD00>持续时间延长15秒</color>，<color=#FFFFFF>[以太帷幕·涌泉]</color>期间，伊德海莉的<color=#2BAD00>贯穿力提升800</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic052.png",
+    "branch": {
+      "13501531": "伊德海莉开启<color=#FFFFFF>[以太帷幕·涌泉]</color>后，<color=#2BAD00>返还500喧响值</color>，<color=#FFFFFF>[连携技]</color>、<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提高40%</color>。",
+      "13501532": "每次触发<color=#FFFFFF>[溯寒]</color>或<color=#FFFFFF>[追碾]</color>时，为全队<color=#2BAD00>回复50[喧响值]</color>，每6秒最多触发1次，<color=#FFFFFF>[以太帷幕·涌泉]</color>期间，全队的<color=#2BAD00>暴击伤害提升24%</color>。"
+    }
+  },
+  "1350161": {
+    "id": 1350161,
+    "name": "[琉音]亡语惊铃",
+    "desc": "琉音拥有90点<color=#FFFFFF>[好评]</color>时，释放<color=#FFFFFF>[强化特殊技：送客！]</color>时会消耗90点<color=#FFFFFF>[好评]</color>直接替换为<color=#FFFFFF>[终结技：拨打用户即刻停机]</color>，<color=#FFFFFF>[终结技：拨打用户即刻停机]</color>命中失衡状态的敌人时会<color=#2BAD00>触发[决算]效果，额外造成等同于琉音2700%攻击力的伤害</color>，且<color=#FFFFFF>[终结技：拨打用户即刻停机]</color>的<color=#2BAD00>伤害提升30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "branch": {
+      "13501611": "<color=#FFFFFF>[终结技：拨打用户即刻停机]</color>命中敌人时，<color=#2BAD00>敌人降低24%全属性伤害抗性，持续20秒</color>。",
+      "13501612": "<color=#FFFFFF>[终结技：拨打用户即刻停机]</color>的<color=#2BAD00>暴击伤害提升96%</color>。"
+    }
+  },
+  "1350162": {
+    "id": 1350162,
+    "name": "[琉音]余响跹环",
+    "desc": "发动<color=#FFFFFF>[强化特殊技：石头]</color>、<color=#FFFFFF>[强化特殊技：剪刀]</color>时，有50%概率获得1点<color=#FFFFFF>[充能]</color>，最多拥有2点<color=#FFFFFF>[充能]</color>，发动<color=#FFFFFF>[强化特殊技：布！]</color>时，若拥有<color=#FFFFFF>[充能]</color>，可消耗1点<color=#FFFFFF>[充能]</color>重复发动一次<color=#FFFFFF>[强化特殊技：布！]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic058.png",
+    "branch": {
+      "13501621": "<color=#FFFFFF>[强化特殊技：布！]</color>重击命中敌人时，<color=#FFFFFF>[恶意投诉]</color>效果会<color=#2BAD00>额外使失衡易伤提升20%</color>，最多叠加3层。",
+      "13501622": "发动<color=#FFFFFF>[强化特殊技：石头]</color>、<color=#FFFFFF>[强化特殊技：剪刀]</color>时，<color=#2BAD00>有80%概率额外获得1点[充能]，最多拥有4点[充能]</color>。"
+    }
+  },
+  "1350163": {
+    "id": 1350163,
+    "name": "[琉音]殁相坠裁",
+    "desc": "<color=#FFFFFF>[好评]</color>由90点以上变化为低于90点时，立刻<color=#2BAD00>回复60点[好评]</color>，且<color=#2BAD00>回复队友750点喧响值</color>，30秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic057.png",
+    "branch": {
+      "13501631": "队友发动的<color=#FFFFFF>[终结技]</color><color=#2BAD00>无视35%全属性伤害抗性</color>。",
+      "13501632": "队友发动<color=#FFFFFF>[终结技]</color>时<color=#2BAD00>回复25点能量/25点闪能</color>。"
+    }
+  },
+  "1350171": {
+    "id": 1350171,
+    "name": "[般岳]断我执",
+    "desc": "不处于<color=#FFFFFF>[怒相]</color>状态时，般岳发动<color=#FFFFFF>[强化特殊技：狮子吼·怒]</color>或<color=#FFFFFF>[强化特殊技：山摇·怒]</color>后，长按 <IconMap:Icon_Normal> 可以发动<color=#FFFFFF>[连携技]</color>；般岳的<color=#FFFFFF>[连携技]</color>造成的<color=#2BAD00>贯穿伤害提升60%</color>。 ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic055.png",
+    "branch": {
+      "13501711": "般岳的<color=#FFFFFF>[强化特殊技]</color>和<color=#FFFFFF>[连携技]</color><color=#2BAD00>造成的伤害提升60%</color>。",
+      "13501712": "般岳发动<color=#FFFFFF>[连携技]</color>时，<color=#2BAD00>获得等同于自身最大生命值10%的护盾</color>，持续15秒，拥有护盾时，般岳的<color=#2BAD00>抗打断等级提升</color>。"
+    }
+  },
+  "1350172": {
+    "id": 1350172,
+    "name": "[般岳]修罗道",
+    "desc": "般岳发动<color=#FFFFFF>[强化特殊技]</color>时<color=#2BAD00>获得等同于自身最大生命值35%的护盾</color>，持续30秒，该效果每30秒最多触发一次，拥有护盾时，般岳的<color=#2BAD00>抗打断等级提升</color>，造成的<color=#FF5521>火属性伤害</color><color=#2BAD00>提升15%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic054.png",
+    "branch": {
+      "13501721": "般岳<color=#FFFFFF>[强化特殊技]</color>和<color=#FFFFFF>[普通攻击]</color>造成的<color=#2BAD00>伤害提升60%</color>。",
+      "13501722": "若般岳不处于<color=#FFFFFF>[怒相]</color>状态，发动<color=#FFFFFF>[终结技]</color>时获得80点<color=#FFFFFF>[嗔火]</color>。"
+    }
+  },
+  "1350173": {
+    "id": 1350173,
+    "name": "[般岳]灼业身",
+    "desc": "队伍中其他角色每消耗1点能量或闪能时，若般岳不处于<color=#FFFFFF>[怒相]</color>状态，则会回复0.3点<color=#FFFFFF>[嗔火]</color>，当<color=#FFFFFF>[嗔火]</color>大于等于120点时，般岳下一次换入前场将直接发动<color=#FFFFFF>[快速支援]</color>，若通过此方式入场时<color=#FFFFFF>[嗔火]</color>大于等于120点，般岳会直接进入<color=#FFFFFF>[怒相]</color>状态，并使自身的<color=#FF5521>火属性伤害</color><color=#2BAD00>提升60%</color>，持续20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic053.png",
+    "branch": {
+      "13501731": "般岳的<color=#FFFFFF>[快速支援]</color>命中敌人时，使敌人的<color=#2BAD00>全属性伤害抗性降低18%</color>，持续20秒。",
+      "13501732": "般岳每消耗1点<color=#FFFFFF>[嗔火]</color>，会为队伍中其他角色回复0.25点闪能或能量。"
+    }
+  },
+  "1350181": {
+    "id": 1350181,
+    "name": "[叶瞬光]剑引青霜",
+    "desc": "进入[明心境]后，首次发动[普通攻击：明心境·斩流光 极]后，<color=#2BAD00>自动发动[连携技：明心境·掣惊雷]</color>，并<color=#2BAD00>获得无视敌人物理属性伤害抗性45%效果</color>，持续15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "branch": {
+      "13501811": "[强化特殊技：明心境·飞光]发动瞬间可以触发[极限闪避]，若触发[极限闪避]，则<color=#2BAD00>获得额外[连携技：明心境·掣惊雷]自动发动次数</color>。",
+      "13501812": "[连携技：明心境·掣惊雷]最后一击<color=#2BAD00>额外造成1800%攻击力伤害</color>。"
+    }
+  },
+  "1350182": {
+    "id": 1350182,
+    "name": "[叶瞬光]锵鸣琳琅",
+    "desc": "叶瞬光开启[以太帷幕·决裁]后，<color=#2BAD00>全队角色攻击时，均计算帷幕易伤加成</color>，不再计算失衡易伤加成，帷幕易伤加成上限降低85%，处于后场时[明心境]持续时间不再暂停。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic062.png",
+    "branch": {
+      "13501821": "[以太帷幕·决裁]的<color=#2BAD00>帷幕易伤上限降低幅度减少至65%</color>。",
+      "13501822": "[明心境]状态下，在后场会<color=#2BAD00>自动释放[普通攻击：明心境·斩流光 极]，招式发动条件和消耗增加至2点[青溟剑势]，造成的伤害视为[追加攻击]</color>伤害，每3.5秒至多触发一次。"
+    }
+  },
+  "1350183": {
+    "id": 1350183,
+    "name": "[叶瞬光]匣珥瞬光",
+    "desc": "叶瞬光自身<color=#2BAD00>[青溟剑势]获取效率提高100%</color>，[明心境]持续时间缩短至10秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic064.png",
+    "branch": {
+      "13501831": "叶瞬光每次进入[明心境]时，获得<color=#2BAD00>暴击伤害提升16%</color>效果，最多叠加4层，持续至退出[明心境]后15秒。",
+      "13501832": "[强化特殊技：明心境·飞光]造成的<color=#2BAD00>暴击伤害提升75%</color>。"
+    }
+  },
+  "1350191": {
+    "id": 1350191,
+    "name": "[照]月魄凛光",
+    "desc": "照每有1000点初始最大生命值，<color=#2BAD00>提高2点冲击力</color>；全队角色[终结技]和[强化特殊技]造成的<color=#2BAD00>失衡值提升12%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "branch": {
+      "13501911": "攻击命中处于失衡状态下的敌人时，敌人的<color=#2BAD00>失衡易伤倍率提升45%</color>。",
+      "13501912": "全队任意角色发动[连携技]时，照回复15点[霜寒值]，10秒内最多触发一次。"
+    }
+  },
+  "1350192": {
+    "id": 1350192,
+    "name": "[照]岚霜扑朔",
+    "desc": "[普通攻击：最终裁决]的蓄力时长达到1秒后，可以发动[普通攻击：最终裁决·霜辉]，发动时，<color=#2BAD00>暴击率提升15%、暴击伤害提升40%</color>，持续15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic066.png",
+    "branch": {
+      "13501921": "发动[普通攻击：最终裁决·霜辉]时，照的攻击<color=#2BAD00>无视目标26%冰属性伤害抗性</color>，持续15秒",
+      "13501922": "照处于任意[以太帷幕]下时，使全队角色造成的伤害<color=#2BAD00>无视目标30%防御力</color>。"
+    }
+  },
+  "1350193": {
+    "id": 1350193,
+    "name": "[照]玉轮轧露",
+    "desc": "照开启[以太帷幕]时，立即回复30点[霜寒值]，并使全队角色的<color=#2BAD00>攻击力提高25%</color>，持续50秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic065.png",
+    "branch": {
+      "13501931": "照处于任意[以太帷幕]下时，使全队角色<color=#2BAD00>喧响值回复效率提升20%</color>。",
+      "13501932": "照处于任意[以太帷幕]下时，使全队角色<color=#2BAD00>能量自动回复提升0.4点/秒</color>。"
+    }
+  },
+  "1350201": {
+    "id": 1350201,
+    "name": "[爱芮]妄想辉光",
+    "desc": "爱芮的[强化特殊技]攻击完成后，在场上生成的<color=#FFFFFF>[应援能量]</color><color=#2BAD00>增加1个</color>，并且[强化特殊技：光速入坑]不消耗能量。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic074.png",
+    "branch": {
+      "13502011": "[强化特殊技：坠入妄想]造成的<color=#FE437E>以太异常积蓄效率</color><color=#2BAD00>提升20%</color>，[强化特殊技：光速入坑]可以触发[核心被动：控场核心]的异放效果。",
+      "13502012": "每成功吸收1个<color=#FFFFFF>[应援能量]</color>，自身<color=#2BAD00>攻击力提升6%</color>，最多叠加4层，持续6秒，每层效果单独结算持续时间。"
+    }
+  },
+  "1350202": {
+    "id": 1350202,
+    "name": "[爱芮]甜心一击",
+    "desc": "爱芮的<color=#FFFFFF>[普通攻击：绝对音准]</color><color=#2BAD00>暴击伤害提升20%</color>，<color=#FFFFFF>强化版[普通攻击：绝对音准]</color><color=#2BAD00>暴击伤害额外提升20%</color>；爱芮每拥有10点初始异常掌控，<color=#2BAD00>暴击率提升4%</color>；第三段<color=#FFFFFF>[普通攻击：绝对音准]</color>命中目标会<color=#2BAD00>额外造成一次爱芮50%攻击力</color>的<color=#FE437E>以太伤害</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic075.png",
+    "branch": {
+      "13502021": "爱芮在非<color=#FFFFFF>[妄想时刻]</color>状态下发动第三段<color=#FFFFFF>[普通攻击：绝对音准]</color>时，<color=#2BAD00>有50%的几率升级为强化版</color>。",
+      "13502022": "爱芮的<color=#FFFFFF>[普通攻击：绝对音准]</color><color=#2BAD00>穿透率提升24%</color>，第三段<color=#FFFFFF>[普通攻击：绝对音准]</color>后可衔接<color=#FFFFFF>[普通攻击：甜心律动]</color>第四段。"
+    }
+  },
+  "1350203": {
+    "id": 1350203,
+    "name": "[爱芮]聆听此刻",
+    "desc": "当爱芮位于后场时，若敌人进入属性异常状态，<color=#2BAD00>会触发爱芮的<color=#FFFFFF>[快速支援:妄想和声]</color></color>，<color=#FFFFFF>[快速支援:妄想和声]</color>重击命中后可以触发[核心被动：控场核心]的异放效果，且若附近的<color=#FFFFFF>[应援能量]</color>大于等于2个，在攻击后可快速发动第三段<color=#FFFFFF>[普通攻击：绝对音准]</color>，<color=#FFFFFF>[快速支援:妄想和声]</color>8秒内最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "branch": {
+      "13502031": "<color=#FFFFFF>[快速支援:妄想和声]</color>发动时会在场上<color=#2BAD00>生成4个<color=#FFFFFF>[应援能量]</color></color>。",
+      "13502032": "发动<color=#FFFFFF>[快速支援:妄想和声]</color>后5秒内，爱芮<color=#2BAD00>触发异放时额外回复50点喧响值</color>。"
+    }
+  },
+  "1350211": {
+    "id": 1350211,
+    "name": "[千夏]气泡星球",
+    "desc": "[强化特殊技：泡泡糖轰炸]、[强化特殊技：特别拍照技巧]、[连携技：别惹猫咪]、[终结技：通通砸碎！]造成的<color=#2BAD00>伤害提升50%</color>；泡泡发动的[普通攻击：坏猫出没]将会升格为[普通攻击：泡泡糖轰炸]，造成的伤害将<color=#2BAD00>被视为<color=#FFFFFF>[强化特殊技]</color>伤害</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic077.png",
+    "branch": {
+      "13502111": "[普通攻击：鬼马流星锤]第四段重击命中主要攻击目标时，无视条件触发1次<color=#FFFFFF>[猫的凝视]</color>范围攻击；发动[强化特殊技]、[连携技]、[终结技]或在泡泡发动[普通攻击：泡泡糖轰炸]后，千夏的下一次普通攻击将会直接发动[普通攻击：鬼马流星锤]第四段，最多叠加4次；[普通攻击：鬼马流星锤]第四段和千夏触发<color=#FFFFFF>[猫的凝视]</color>造成的<color=#2BAD00>伤害提升80%</color>。",
+      "13502112": "千夏发动[强化特殊技：泡泡糖轰炸]、[强化特殊技：特别拍照技巧]、[连携技：别惹猫咪]、[终结技：通通砸碎！]造成伤害，或在泡泡发动[普通攻击：泡泡糖轰炸]造成伤害时，使千夏的<color=#2BAD00>暴击率提升6%</color>，<color=#2BAD00>暴击伤害提升8%</color>，持续10秒，最多叠加10层，每0.5秒最多触发1次，重复触发时刷新持续时间。"
+    }
+  },
+  "1350212": {
+    "id": 1350212,
+    "name": "[千夏]环游节拍",
+    "desc": "<color=#FFFFFF>[猫的凝视]</color>触发所需的攻击次数减少；敌人被添加<color=#FFFFFF>[猫的凝视]</color>时，受到的<color=#2BAD00>异常积蓄效率提升20%</color>，持续10秒；<color=#FFFFFF>[猫的凝视]</color>伤害命中处于<color=#FE437E>以太异常状态</color>、<color=#2EB6FF>电属性异常状态</color>、<color=#FF5521>火属性异常状态</color>、<color=#F0D12B>物理属性异常状态</color>、<color=#98EFF0>冰属性异常状态</color>、<color=#A6C5FD>风属性异常状态</color>的目标时，触发一次<color=#FFFFFF>[异放]</color>：额外结算一次属性异常伤害，相对于原属性异常伤害的比例为<color=#FE437E>370%</color>/<color=#2EB6FF>192%</color>/<color=#FF5521>480%</color>/<color=#F0D12B>30%</color>/<color=#98EFF0>48%</color>/<color=#A6C5FD>19%</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic078.png",
+    "branch": {
+      "13502121": "全队代理人造成<color=#FE437E>以太异常状态</color>、<color=#2EB6FF>电属性异常状态</color>、<color=#FF5521>火属性异常状态</color>、<color=#F0D12B>物理属性异常状态</color>、<color=#98EFF0>冰属性异常状态</color>、<color=#A6C5FD>风属性异常状态</color>时，无视条件触发1次<color=#FFFFFF>[猫的凝视]</color>范围攻击，每5秒最多触发1次。",
+      "13502122": "全队代理人触发<color=#FFFFFF>[猫的凝视]</color>命中敌人并造成<color=#FE437E>以太伤害</color>、<color=#2EB6FF>电属性伤害</color>、<color=#FF5521>火属性伤害</color>、<color=#F0D12B>物理伤害</color>、<color=#98EFF0>冰属性伤害</color>、<color=#A6C5FD>风属性伤害</color>时，<color=#2BAD00>减少其对应属性的属性伤害抗性25%</color>，持续10秒。"
+    }
+  },
+  "1350213": {
+    "id": 1350213,
+    "name": "[千夏]梦幻声场",
+    "desc": "BranchRelic_13601020_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic079.png",
+    "branch": {
+      "13502131": "千夏发动<color=#FFFFFF>[强化特殊技：泡泡糖轰炸]</color>时，也能开启<color=#2BAD00>[以太帷幕·妄想重奏]</color>。",
+      "13502132": "全队角色同时处于2种[以太帷幕]中时，<color=#2BAD00>无视敌人30%防御力</color>。"
+    }
+  },
+  "1350221": {
+    "id": 1350221,
+    "name": "[南宫羽]焦点轮换",
+    "desc": "队伍中其他角色触发<color=#FFFFFF>[紊乱]</color>或<color=#FFFFFF>[异放]</color>时，南宫羽会围绕目标敌人发动<color=#FFFFFF>[连携技]</color>，该次攻击为<color=#FFFFFF>[追加攻击]</color>，该效果每6秒最多触发一次。南宫羽<color=#FFFFFF>[连携技]</color>重击命中处于<color=#FE437E>以太异常状态</color>、<color=#2EB6FF>电属性异常状态</color>、<color=#FF5521>火属性异常状态</color>、<color=#F0D12B>物理属性异常状态</color>、<color=#98EFF0>冰属性异常状态</color>、<color=#A6C5FD>风属性异常状态</color>的目标时，触发一次<color=#FFFFFF>[异放]</color>：额外结算一次属性异常伤害，相对于原属性异常伤害的比例为<color=#FE437E>230%</color>/<color=#2EB6FF>120%</color>/<color=#FF5521>300%</color>/<color=#F0D12B>20%</color>/<color=#98EFF0>30%</color>/<color=#A6C5FD>12%</color>，该效果每6秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic084.png",
+    "branch": {
+      "13502211": "南宫羽<color=#FFFFFF>[连携技]</color>重击命中敌人时，使敌人<color=#2BAD00>全属性伤害抗性降低18%</color>，持续12秒，重复触发时刷新持续时间。",
+      "13502212": "南宫羽<color=#FFFFFF>[连携技]</color>重击命中敌人时，使全队角色<color=#2BAD00>造成的伤害提升30%</color>，持续12秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350222": {
+    "id": 1350222,
+    "name": "[南宫羽]节拍对位",
+    "desc": "南宫羽触发精准蓄力时，为全队角色<color=#2BAD00>回复4能量</color>，队伍中任意角色发动<color=#FFFFFF>[连携技]</color>时，为全队角色回复120喧响值。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic085.png",
+    "branch": {
+      "13502221": "南宫羽触发精准蓄力时，使全队的<color=#2BAD00>穿透率提升20%</color>，持续30秒，重复触发时刷新持续时间。",
+      "13502222": "南宫羽触发精准蓄力时，<color=#FFFFFF>[普通攻击：可爱地雷飞天撞]</color>造成的<color=#2BAD00>失衡值提升35%</color>。"
+    }
+  },
+  "1350223": {
+    "id": 1350223,
+    "name": "[南宫羽]高光独舞",
+    "desc": "南宫羽的异常精通提升60点，每消耗1点<color=#FFFFFF>[重拍]</color>为自身<color=#2BAD00>回复0.15点能量</color>，在<color=#FFFFFF>[普通攻击：可爱地雷飞天撞]</color>第一段攻击触发精准蓄力后点按<IconMap:Icon_Normal>可以发动<color=#FFFFFF>[连携技]</color>，触发精准蓄力时，使自身的<color=#2BAD00>异常积蓄效率提升20%</color>，持续30秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "branch": {
+      "13502231": "<color=#FFFFFF>[普通攻击：可爱地雷飞天撞]</color>命中敌人时，使自身造成的<color=#2BAD00>所有异常伤害提升65%</color>，持续30秒，重复触发时刷新持续时间。",
+      "13502232": "<color=#FFFFFF>[普通攻击：可爱地雷飞天撞]</color>命中敌人时，使敌人的<color=#2BAD00>防御力降低20%</color>，持续30秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350231": {
+    "id": 1350231,
+    "name": "[希希芙]蓄势盘伏",
+    "desc": "发动<color=#FFFFFF>[普通攻击：蛇吻]</color>时，会根据滞空时间，<color=#2BAD00>提升该招式15%暴击伤害，并额外造成1次450%攻击力<color=#2EB6FF>电属性伤害</color></color>，此效果最多叠加3层，持续到该招式结束。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "branch": {
+      "13502311": "<color=#FFFFFF>[普通攻击：蛇吻]</color>滞空期间，<color=#2BAD00>持续落下电矛对敌人造成200%攻击力<color=#2EB6FF>电属性伤害</color></color>，至多落下5根电矛。",
+      "13502312": "<color=#FFFFFF>[普通攻击：蛇吻]</color>命中敌人时，使敌人<color=#2BAD00>防御力下降20%</color>，持续20秒。"
+    }
+  },
+  "1350232": {
+    "id": 1350232,
+    "name": "[希希芙]猛毒特调",
+    "desc": "<color=#FFFFFF>[蚀骨]</color><color=#2BAD00>额外附加自身<color=#2BAD00>300%</color>攻击力的<color=#2EB6FF>电属性伤害</color></color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic081.png",
+    "branch": {
+      "13502321": "当希希芙为非操作中角色时，<color=#FFFFFF>[蚀骨]</color><color=#2BAD00>再额外附加自身450%攻击力的<color=#2EB6FF>电属性伤害</color></color>。",
+      "13502322": "拥有<color=#FFFFFF>[毒素]</color>时，操作中的角色<color=#2BAD00>造成的伤害提升50%</color>，持续至<color=#FFFFFF>[毒素]</color>耗尽30秒后。"
+    }
+  },
+  "1350233": {
+    "id": 1350233,
+    "name": "[希希芙]衔尾环行",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>后，自身获得<color=#FFFFFF>[毒蛇突袭]</color>效果，任意非<color=#FFFFFF>[蚀骨]</color>攻击命中敌人时，<color=#2BAD00>会触发一次无消耗的特殊<color=#FFFFFF>[蚀骨]</color></color>，无法造成失衡值，1秒至多触发一次该效果，持续6秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic080.png",
+    "branch": {
+      "13502331": "<color=#FFFFFF>[毒蛇突袭]</color><color=#2BAD00>效果持续时间提升至10秒</color>。",
+      "13502332": "<color=#2BAD00>队友也能获得<color=#FFFFFF>[毒蛇突袭]</color>效果</color>，任意攻击命中敌人时，触发一次无消耗的<color=#FFFFFF>[蚀骨]</color>，每1秒至多触发一次该效果，持续6秒。"
+    }
+  },
+  "1350241": {
+    "id": 1350241,
+    "name": "[星徽·比利]赤枪恶魔",
+    "desc": "发动<color=#FFFFFF>[特殊技：动力压制]</color>期间格挡成功时，获得1层充能，最多叠加1层，使下一次<color=#FFFFFF>[强化特殊技：抓地轮毂]</color>或<color=#FFFFFF>[强化特殊技：摇曳步伐]</color><color=#2BAD00>造成的伤害提升100%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic089.png",
+    "branch": {
+      "13502411": "发动<color=#FFFFFF>[特殊技：动力压制]</color>期间格挡成功时获得的充能效果可<color=#2BAD00>多次叠加</color>，最多叠加2层，发动<color=#FFFFFF>[强化特殊技：抓地轮毂]</color>或<color=#FFFFFF>[强化特殊技：摇曳步伐]</color>时会消耗所有充能，每消耗1层充能使该招式<color=#2BAD00>造成的伤害提升100%</color>。",
+      "13502412": "发动<color=#FFFFFF>[特殊技：动力压制]</color>期间格挡成功时<color=#2BAD00>回复20点闪能</color>，该效果每10秒最多触发一次，并获得1层增益，增益效果可多次叠加，最多叠加3层；发动<color=#FFFFFF>[强化特殊技：抓地轮毂]</color>或<color=#FFFFFF>[强化特殊技：摇曳步伐]</color>时会消耗所有增益，每消耗1层增益<color=#2BAD00>额外回复等同于自身最大生命值10%的生命值</color>。"
+    }
+  },
+  "1350242": {
+    "id": 1350242,
+    "name": "[星徽·比利]骑士腰带",
+    "desc": "发动<color=#FFFFFF>[冲刺攻击：星-徽-惩-戒]</color>后长按 <IconMap:Icon_Normal> 可以发动<color=#FFFFFF>[普通攻击：特技表演]</color>，对周围敌人造成<color=#F0D12B>物理伤害</color>。该招式必定暴击，招式发动期间<color=#2BAD00>暴击伤害提升80%</color>，<color=#2BAD00>每秒回复10点<color=#FFFFFF>[决意]</color></color>，<color=#2BAD00>抗打断等级提升</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic090.png",
+    "branch": {
+      "13502421": "发动<color=#FFFFFF>[普通攻击：特技表演]</color>时，自身<color=#2BAD00>造成的伤害提升40%</color>，持续20秒，重复触发时刷新持续时间。",
+      "13502422": "<color=#FFFFFF>[普通攻击：特技表演]</color>每命中敌人20次后，<color=#2BAD00>获得100点喧响值</color>。"
+    }
+  },
+  "1350243": {
+    "id": 1350243,
+    "name": "[星徽·比利]燥热音浪",
+    "desc": "发动<color=#FFFFFF>[闪避反击：决斗之王]</color>或<color=#FFFFFF>[冲刺攻击：星-徽-惩-戒]</color>后点按 <IconMap:Icon_Normal> 可以发动<color=#FFFFFF>[闪避反击：追加手炮]</color>，该效果每8秒最多触发一次，<color=#FFFFFF>[闪避反击：追加手炮]</color>伤害倍率为1200%；发动<color=#FFFFFF>[特殊技：动力压制]</color>期间格挡成功时，下一次发动<color=#FFFFFF>[闪避反击：决斗之王]</color>、<color=#FFFFFF>[冲刺攻击：星-徽-惩-戒]</color>或<color=#FFFFFF>[闪避反击：追加手炮]</color>后可额外发动一次<color=#FFFFFF>[闪避反击：追加手炮]</color>。<color=#FFFFFF>[闪避反击：决斗之王]</color>或<color=#FFFFFF>[闪避反击：追加手炮]</color>命中敌人时，对目标施加减益效果，使目标<color=#2BAD00>受到的伤害提升12%</color>，最多叠加2层，同一招式内同一敌人最多获得1层，持续20秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic091.png",
+    "branch": {
+      "13502431": "<color=#FFFFFF>[闪避反击：决斗之王]</color>和<color=#FFFFFF>[闪避反击：追加手炮]</color><color=#2BAD00>造成的伤害提升25%</color>；发动<color=#FFFFFF>[闪避反击：追加手炮]</color>时<color=#2BAD00>回复5点闪能</color>。",
+      "13502432": " <color=#FFFFFF>[闪避反击：决斗之王]</color>和<color=#FFFFFF>[闪避反击：追加手炮]</color>命中敌人时，使目标的<color=#2BAD00>全属性伤害抗性降低6%</color>，最多叠加3层，同一招式内同一敌人最多获得1层，持续30秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350251": {
+    "id": 1350251,
+    "name": "[普罗米娅]旋岚断罪",
+    "desc": "普罗米娅触发<color=#FFFFFF>[强化特殊技：处刑式·绝裁]</color>时<color=#2BAD00>额外回复15点</color><color=#FFFFFF>[寒蚀值]</color>、<color=#FFFFFF>[强化特殊技：处刑式·匿影]</color>时<color=#2BAD00>额外回复15点</color><color=#FFFFFF>[寒蚀值]</color>；触发<color=#FFFFFF>[异放]</color>时，自身造成的<color=#2BAD00>[异放]伤害提高6%</color>，最多叠加10层，持续60秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "branch": {
+      "13502511": "发动<color=#FFFFFF>[强化特殊技：处刑式·绝裁]</color>时，自身<color=#2BAD00>造成的属性异常伤害提高12%</color>，<color=#2BAD00>造成的[紊乱]伤害提高12%</color>，最多叠加5层，重复触发时刷新时间，持续15秒。",
+      "13502512": "发动<color=#FFFFFF>[强化特殊技：处刑式·匿影]</color>时，自身<color=#2BAD00>造成的属性异常伤害提高32.5%</color>，<color=#2BAD00>造成的[紊乱]伤害提高32.5%</color>，最多叠加2层，重复触发时刷新时间，持续30秒。"
+    }
+  },
+  "1350252": {
+    "id": 1350252,
+    "name": "[普罗米娅]霜缚如影",
+    "desc": "攻击不再回复<color=#FFFFFF>[寒蚀值]</color>，但<color=#2BAD00>每秒额外回复5点</color><color=#FFFFFF>[寒蚀值]</color>；拥有<color=#FFFFFF>[霜刑]</color>时，<color=#2BAD00>换入前场时替换</color>为<color=#FFFFFF>[特殊技：处刑式·重霜]</color>，10秒内最多触发一次；<color=#FFFFFF>[强化特殊技：处刑式·绝裁]</color>命中敌人时，敌人的<color=#2BAD00>冰属性伤害抗性降低24%</color>，持续20秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic087.png",
+    "branch": {
+      "13502521": "发动<color=#FFFFFF>[特殊技：处刑式·重霜]</color>时，<color=#2BAD00>全队攻击力提升300点</color>，<color=#2BAD00>冰属性伤害提升10%</color>，持续15秒。",
+      "13502522": "<color=#FFFFFF>[特殊技：处刑式·重霜]</color>命中处于<color=#FE437E>以太异常状态</color>、<color=#2EB6FF>电属性异常状态</color>、<color=#FF5521>火属性异常状态</color>、<color=#F0D12B>物理属性异常状态</color>、<color=#98EFF0>冰属性异常状态</color>、<color=#A6C5FD>风属性异常状态</color>的目标时，<color=#2BAD00>额外触发一次[异放]</color>，固定造成650%倍率的对应属性异常伤害。"
+    }
+  },
+  "1350253": {
+    "id": 1350253,
+    "name": "[普罗米娅]终幕处决",
+    "desc": "当队伍中角色将敌人打入失衡时，普罗米娅<color=#2BAD00>每秒回复5点[寒蚀值]</color>，持续10秒；普罗米娅<color=#2BAD00>对失衡敌人造成的属性异常伤害提高60%</color>，造成的<color=#2BAD00>[紊乱]伤害提高60%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic088.png",
+    "branch": {
+      "13502531": "普罗米娅<color=#2BAD00>对失衡敌人造成的伤害无视25%防御力</color>，<color=#2BAD00>15%冰属性伤害抗性</color>。",
+      "13502532": "普罗米娅<color=#2BAD00>造成的[紊乱]伤害额外提高60%</color>，全队造成的<color=#2BAD00>[乱流]伤害额外提高60%</color>。"
+    }
+  },
+  "1350261": {
+    "id": 1350261,
+    "name": "[维琳娜]扇影藏锋",
+    "desc": "维琳娜使敌人陷入<color=#A6C5FD>[风化]</color>状态后，全队造成的<color=#2BAD00>属性异常伤害提升30%</color>，持续30秒，重复触发时刷新持续时间，<color=#FFFFFF>[广域气旋]</color>的<color=#2BAD00>持续时间提升3秒</color>，且造成的<color=#2BAD00>失衡值提升20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic100.png",
+    "branch": {
+      "13502611": "<color=#FFFFFF>[广域气旋]</color>攻击命中处于<color=#A6C5FD>风属性异常状态</color>的敌人时，会触发一次<color=#FFFFFF>[异放]</color>，固定结算<color=#A6C5FD>420%</color>倍率的<color=#A6C5FD>风属性异常伤害</color>，该效果每2.5秒最多触发一次。",
+      "13502612": "<color=#FFFFFF>[核心被动：风华盈袖]</color>中<color=#FFFFFF>[广域气旋]</color>和<color=#FFFFFF>[微域气旋]</color>造成的<color=#FFFFFF>[异放]</color><color=#2BAD00>伤害倍率分别提升至800%和600%</color>。"
+    }
+  },
+  "1350262": {
+    "id": 1350262,
+    "name": "[维琳娜]闲庭雅律",
+    "desc": "维琳娜触发<color=#A6C5FD>[风化]</color>时，为自身回复<color=#2BAD00>10点能量和200点喧响值</color>，并且会消耗所有<color=#FFFFFF>[风蚀]</color>使得此次<color=#A6C5FD>[风化]</color>的<color=#2BAD00>伤害提升</color>，每消耗1点<color=#FFFFFF>[风蚀]</color><color=#2BAD00>提升20%</color>；维琳娜发动<color=#FFFFFF>[强化特殊技]</color>会获得1点<color=#FFFFFF>[风蚀]</color>，如果此次<color=#FFFFFF>[强化特殊技]</color>触发了<color=#FFFFFF>[极限视域]</color>会额外再回复1点<color=#FFFFFF>[风蚀]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic099.png",
+    "branch": {
+      "13502621": "发动<color=#FFFFFF>[强化特殊技]</color>时，使自身的<color=#2BAD00>异常精通提升120</color>点，持续20秒，重复触发时刷新持续时间。",
+      "13502622": "发动<color=#FFFFFF>[强化特殊技]</color>时，使自身的<color=#2BAD00>异常掌控提升80</color>点，持续20秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350263": {
+    "id": 1350263,
+    "name": "[维琳娜]华冠流风",
+    "desc": "<color=#FFFFFF>[广域气旋]</color>存在于场上时，全队的<color=#2BAD00>能量获取效率提升40%，喧响值获取效率提升30%</color>，<color=#FFFFFF>[广域气旋]</color>的<color=#2BAD00>持续时间提升3秒</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic098.png",
+    "branch": {
+      "13502631": "维琳娜使敌人陷入<color=#A6C5FD>[风化]</color>状态后，使敌人的<color=#FFFFFF>全属性伤害抗性</color><color=#2BAD00>降低20%</color>，持续20秒，重复触发时刷新持续时间。",
+      "13502632": "维琳娜使敌人陷入<color=#A6C5FD>[风化]</color>状态后，使敌人的<color=#FFFFFF>防御力</color><color=#2BAD00>降低22%</color>，持续20秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350271": {
+    "id": 1350271,
+    "name": "[诺姆]嗯呢火线",
+    "desc": "诺姆发动<color=#FFFFFF>[冲刺攻击]</color>或<color=#FFFFFF>[闪避反击]</color>时，获得1层<color=#FFFFFF>[连击]</color>，使自身造成的伤害无视目标6%<color=#FF5521>火属性伤害抗性</color>，最多叠加5层；诺姆受到攻击时，损失1层<color=#FFFFFF>[连击]</color>，5秒内最多损失1层；诺姆的<color=#FFFFFF>[冲刺攻击]</color>可以触发<color=#FFFFFF>[极限闪避]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "branch": {
+      "13502711": "若诺姆不为当前操作中角色，嗯呢炮塔发动攻击时，诺姆获得1层<color=#FFFFFF>[连击]</color>；每层<color=#FFFFFF>[连击]</color>使嗯呢炮塔造成的伤害额外无视目标4%<color=#FF5521>火属性伤害抗性</color>。",
+      "13502712": "诺姆处于5层<color=#FFFFFF>[连击]</color>状态时，获得以下效果：\n<color=#FFFFFF>[冲刺攻击]</color>、<color=#FFFFFF>[闪避反击]</color>的打断等级提升；\n发动<color=#FFFFFF>[冲刺攻击]</color>、<color=#FFFFFF>[闪避反击]</color>后，点按 <IconMap:Icon_Normal> 可以立即衔接<color=#FFFFFF>[普通攻击：工程保险]</color>第四段；\n发动<color=#FFFFFF>[普通攻击：工程保险]</color>第四段后点按 <IconMap:Icon_Normal> ，可以立即衔接<color=#FFFFFF>[冲刺攻击]</color>；\n诺姆造成的伤害<color=#2BAD00>无视目标35%防御力</color>。"
+    }
+  },
+  "1350272": {
+    "id": 1350272,
+    "name": "[诺姆]盛大终局",
+    "desc": "队友发动<color=#FFFFFF>[终结技]</color>时，诺姆<color=#2BAD00>立刻获得100%[预热膛温]</color>，40秒内最多触发1次；\n全队代理人发动<color=#FFFFFF>[连携技]</color>时，对应代理人<color=#2BAD00>喧响值获取效率提升25%</color>，持续15秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic092.png",
+    "branch": {
+      "13502721": "诺姆的嗯呢炮塔展开导弹舱期间，全队代理人<color=#FFFFFF>[连携技]</color>，<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升40%</color>。",
+      "13502722": "诺姆的嗯呢炮塔展开导弹舱期间，全队代理人<color=#FFFFFF>[连携技]</color>，<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的失衡值提升22%</color>。"
+    }
+  },
+  "1350273": {
+    "id": 1350273,
+    "name": "[诺姆]逞凶恶布",
+    "desc": "全队代理人击败处于<color=#FFFFFF>[技术鸿沟]</color>状态下的敌人时，在本局空洞内，使全队代理人的<color=#2BAD00>攻击力提升2.5%</color>，最多叠加10层。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic093.png",
+    "branch": {
+      "13502731": "全队代理人攻击命中处于<color=#FFFFFF>[技术鸿沟]</color>状态下的敌人时，<color=#2BAD00>无视目标22%防御力</color>。",
+      "13502732": "全队代理人攻击命中处于<color=#FFFFFF>[技术鸿沟]</color>状态下的敌人时，<color=#2BAD00>造成的贯穿伤害提升18%</color>。"
+    }
+  },
+  "1350281": {
+    "id": 1350281,
+    "name": "[佩洛伊斯]拂晓长剑",
+    "desc": "佩洛伊斯触发<color=#FFFFFF>[极限闪避]</color>可以<color=#2BAD00>获得20点[日珥]</color>，该效果每10秒最多触发一次；佩洛伊斯不同攻击命中敌人<color=#2BAD00>回复[日珥]的效率提升30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "branch": {
+      "13502811": "佩洛伊斯第三、四段<color=#FFFFFF>[普通攻击：天光]</color>的<color=#2BAD00>暴击伤害提升60%</color>，每段命中敌人后<color=#2BAD00>回复100点喧响值</color>。",
+      "13502812": "<color=#FFFFFF>[普通攻击：天光]</color>命中敌人后，佩洛伊斯造成的伤害<color=#2BAD00>无视敌人32%防御力</color>，该效果持续15秒，重复触发刷新持续时间。"
+    }
+  },
+  "1350282": {
+    "id": 1350282,
+    "name": "[佩洛伊斯]铁卫荣勋",
+    "desc": "佩洛伊斯释放<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升20%</color>；释放<color=#FFFFFF>[终结技：万军诛绝]</color>后立刻获得<color=#2BAD00>1500点喧响值</color>，该效果每30秒最多触发一次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic096.png",
+    "branch": {
+      "13502821": "佩洛伊斯每次释放<color=#FFFFFF>[终结技]</color>时为全队角色<color=#2BAD00>回复30点能量</color>。",
+      "13502822": "佩洛伊斯释放<color=#FFFFFF>[终结技]</color>时<color=#2BAD00>提升自身700点攻击力</color>，持续30秒，重复触发刷新持续时间。"
+    }
+  },
+  "1350283": {
+    "id": 1350283,
+    "name": "[佩洛伊斯]洞明薪火",
+    "desc": "佩洛伊斯释放<color=#FFFFFF>强化特殊技</color>触发<color=#FFFFFF>完美格挡</color>后<color=#2BAD00>恢复10点能量和20点[日珥]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "branch": {
+      "13502831": "佩洛伊斯触发<color=#FFFFFF>完美格挡</color>后<color=#2BAD00>无视敌人25%</color><color=#FE437E>以太伤害抗性</color>，持续15秒，重复触发刷新持续时间。",
+      "13502832": "佩洛伊斯触发<color=#FFFFFF>完美格挡</color>后<color=#2BAD00>全队角色造成的伤害提升20%</color>，持续30秒，该效果最多叠加2层，重复触发刷新持续时间。"
+    }
+  },
+  "1350291": {
+    "id": 1350291,
+    "name": "[蕾米埃尔]空翼巡礼",
+    "desc": "蕾米埃尔处于<color=#FFFFFF>[相变时流]</color>状态时，自主攻击的终结一击命中处于<color=#FE437E>以太异常状态</color>、<color=#2EB6FF>电属性异常状态</color>、<color=#FF5521>火属性异常状态</color>、<color=#F0D12B>物理属性异常状态</color>、<color=#98EFF0>冰属性异常状态</color>、<color=#A6C5FD>风属性异常状态</color>的目标时，<color=#2BAD00>额外触发一次[异放]</color>，固定造成220%倍率的对应属性异常伤害。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic102.png",
+    "branch": {
+      "13502911": "蕾米埃尔处于<color=#FFFFFF>[相变时流]</color>状态时，自主攻击命中敌人后，可使敌人<color=#2BAD00>受到的属性异常伤害提升10%</color>，持续15秒，最多叠加3层，重复触发刷新持续时间。",
+      "13502912": "蕾米埃尔处于<color=#FFFFFF>[相变时流]</color>状态时，自主攻击造成的<color=#FFFFFF>[异放]</color><color=#2BAD00>伤害提升50%</color>，且<color=#2BAD00>无视敌人30%防御力</color>。"
+    }
+  },
+  "1350292": {
+    "id": 1350292,
+    "name": "[蕾米埃尔]淬锋映曜",
+    "desc": "蕾米埃尔为操作中的角色时，每秒<color=#2BAD00>回复1.6点能量</color>，发动<color=#FFFFFF>[强化特殊技]</color>时，<color=#2BAD00>获得3个</color>特殊<color=#FFFFFF>[虚曜]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic104.png",
+    "branch": {
+      "13502921": "攻击处于<color=#FFFFFF>[幻色]</color>状态下的敌人，会使处于<color=#FFFFFF>[幻色]</color>状态下的敌人防御力<color=#2BAD00>下降15%</color>，全属性伤害抗性<color=#2BAD00>降低10%</color>。",
+      "13502922": "蕾米埃尔发动<color=#FFFFFF>[强化特殊技]</color>后，自身异常精通提升100点，持续10秒，重复触发刷新持续时间。"
+    }
+  },
+  "1350293": {
+    "id": 1350293,
+    "name": "[蕾米埃尔]花羽流银",
+    "desc": "蕾米埃尔释放[普通攻击：惊鸿]时，不会消耗身上存储的<color=#FFFFFF>[虚曜]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic106.png",
+    "branch": {
+      "13502931": "蕾米埃尔触发<color=#FFFFFF>[耀变]</color>效果时，可<color=#2BAD00>回复全队代理人5点能量</color>，降低敌人<color=#2BAD00>15%异常积蓄抗性</color>，持续20秒，重复触发刷新时间。",
+      "13502932": "蕾米埃尔<color=#FFFFFF>[耀变]</color>造成的<color=#2BAD00>伤害提高35%</color>，且<color=#2BAD00>无视敌人25%全属性伤害抗性</color>。"
+    }
+  },
+  "1350301": {
+    "id": 1350301,
+    "name": "[希格莉德]无懈骁骑",
+    "desc": "解锁<color=#FFFFFF>[敛枪式·破军]</color>：当没有<color=#FFFFFF>[普通攻击：敛枪式]</color>发动次数时，长按<IconMap:Icon_Normal>可发动<color=#FFFFFF>[敛枪式·破军]</color>，造成<color=#98EFF0>冰属性伤害</color>；\n<color=#FFFFFF>[敛枪式·破军]</color>发动瞬间受到攻击可触发格挡，每次成功触发格挡时，抵挡此次攻击伤害，刷新<color=#FFFFFF>[巡空枪势]</color>状态，使下一次<color=#FFFFFF>[普通攻击：敛枪式]</color>造成的失衡值提升100%，并获得一次<color=#FFFFFF>[普通攻击：敛枪式]</color>发动机会；格挡成功后点按 <IconMap:Icon_Normal> 可发动对应段数的<color=#FFFFFF>[普通攻击：敛枪式]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic101.png",
+    "branch": {
+      "13503011": "<color=#FFFFFF>[支援突击]</color>发动期间也可触发格挡；\n每次成功触发格挡时，刷新<color=#FFFFFF>[巡空枪势]</color>状态，并获得一次<color=#FFFFFF>[普通攻击：敛枪式]</color>发动机会，下一次攻击首次命中敌人时造成额外<color=#2BAD00>600%</color>攻击力的伤害；格挡成功后点按 <IconMap:Icon_Normal> 可发动对应段数的<color=#FFFFFF>[普通攻击：敛枪式]</color>。",
+      "13503012": "每次成功触发格挡时，自身造成的伤害提升<color=#2BAD00>10%</color>，最多叠加<color=#FFFFFF>4</color>层，持续<color=#FFFFFF>20</color>秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350302": {
+    "id": 1350302,
+    "name": "[希格莉德]凛冽枪花",
+    "desc": "发动<color=#FFFFFF>[连携技]</color>时，若长按 <IconMap:Icon_Normal> 则不会开启连携窗口；<color=#FFFFFF>[出枪式]</color>的暴击伤害提升60%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic103.png",
+    "branch": {
+      "13503021": "每次发动<color=#FFFFFF>[连携技]</color>后，自身攻击力提升<color=#2BAD00>12%</color>，最多叠加<color=#FFFFFF>2</color>层，持续<color=#FFFFFF>20</color>秒，重复触发时刷新持续时间。",
+      "13503022": "<color=#FFFFFF>[连携技]</color>首次命中敌人时，额外造成<color=#FFFFFF>1600%</color>攻击力的<color=#98EFF0>冰属性伤害</color>。"
+    }
+  },
+  "1350303": {
+    "id": 1350303,
+    "name": "[希格莉德]缭乱枪尖",
+    "desc": "处于<color=#FFFFFF>[巡空枪势]</color>状态时，<color=#FFFFFF>[强化特殊技]</color>的能量消耗降低至<color=#FFFFFF>40</color>点；发动<color=#FFFFFF>[强化特殊技]</color>时受到敌方攻击后，希格莉德会用盾牌进行格挡，若格挡成功，抵挡此次攻击伤害，使自身攻击无视目标<color=#2BAD00>12%</color>防御力，持续<color=#FFFFFF>30</color>秒，同时刷新<color=#FFFFFF>[巡空枪势]</color>状态状态，并获得1次<color=#FFFFFF>[普通攻击：敛枪式]</color>发动机会；格挡成功后点按 <IconMap:Icon_Normal> 可发动对应段数的<color=#FFFFFF>[普通攻击：敛枪式]</color>；",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic105.png",
+    "branch": {
+      "13503031": "希格莉德成功触发格挡时，获得<color=#2BAD00>10</color>点能量。",
+      "13503032": "<color=#FFFFFF>[强化特殊技]</color>造成的伤害提升<color=#2BAD00>25%</color>；\n发动<color=#FFFFFF>[强化特殊技]</color>后，自身攻击力提升<color=#2BAD00>15%</color>，最多叠加<color=#FFFFFF>2</color>层，持续<color=#FFFFFF>15</color>秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350311": {
+    "id": 1350311,
+    "name": "[克拉蕾]裂铸强袭",
+    "desc": "克拉蕾攻击力超过1500时，每超过1点攻击力将提高1.3点防御力，不同武备下的该效果无法叠加；克拉蕾对敌人造成的<color=#2BAD00>[毁伤]伤害提升20%</color>，且目标未进入失衡状态时，[毁伤]也会计算失衡易伤加成。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
+    "branch": {
+      "13503111": "攻击命中失衡状态下的敌人时，<color=#2BAD00>残痕积蓄效率提升15%</color>；若在2秒内连续触发3次<color=#FFFFFF>[毁伤]</color>，使克拉蕾的<color=#2BAD00>锐化伤害提升25%</color>，持续30秒，重复触发时刷新持续时间。",
+      "13503112": "对敌人造成<color=#FFFFFF>[毁伤]</color>时，使目标的<color=#2EB6FF>电属性伤害抗性</color><color=#2BAD00>降低20%</color>，持续20秒，重复触发时刷新持续时间。"
+    }
+  },
+  "1350312": {
+    "id": 1350312,
+    "name": "[克拉蕾]绯瞳蝠影",
+    "desc": "克拉蕾攻击力超过1500时，每超过1点攻击力将提高1.3点防御力，不同武备下的该效果无法叠加；克拉蕾残痕积蓄效率降低10%，<color=#FFFFFF>[普通攻击：血华誓·锻星]</color>和<color=#FFFFFF>[普通攻击：血华誓·伏钺]</color>造成的<color=#2BAD00>锐化伤害提升40%</color>，处于[猩红铭刻]状态下触发极限闪避时，使[猩红铭刻]持续时间延长3秒，5秒内最多触发1次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
+    "branch": {
+      "13503121": "触发极限闪避时，克拉蕾的<color=#2BAD00>暴击率提升10%</color>，持续15秒，最多叠加3层，重复触发时刷新持续时间；暴击率超过200%时，每超过1%，<color=#2BAD00>锐暴伤害提升0.25%</color>。",
+      "13503122": "<color=#FFFFFF>[猩红铭刻]</color>状态下，造成的<color=#2BAD00>伤害提升20%</color>，并且每秒进一步<color=#2BAD00>提升5%</color>，最多提升至50%，直至退出<color=#FFFFFF>[猩红铭刻]</color>。"
+    }
+  },
+  "1350313": {
+    "id": 1350313,
+    "name": "[克拉蕾]猩红热夜",
+    "desc": "克拉蕾攻击力超过1500时，每超过1点攻击力将提高1.3点防御力，不同武备下的该效果无法叠加；<color=#FFFFFF>[猩红铭刻]</color>状态下，攻击命中敌人时，使目标的<color=#2BAD00>防御力降低16%</color>，持续15秒，最多叠加3层，重复获得时刷新持续时间，每2秒最多触发1次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic109.png",
+    "branch": {
+      "13503131": "进入<color=#FFFFFF>[猩红铭刻]</color>状态时，消耗等同于当前生命值30%的生命值，并使本次<color=#FFFFFF>[猩红铭刻]</color>状态下自身<color=#2BAD00>造成的伤害提升45%</color>，持续至<color=#FFFFFF>[猩红铭刻]</color>状态结束；触发<color=#FFFFFF>[毁伤]</color>时，<color=#2BAD00>回复等同于自身8%生命值上限的生命值</color>。",
+      "13503132": "进入<color=#FFFFFF>[猩红铭刻]</color>状态时，消耗所有锐能，每额外消耗1点锐能，使本次<color=#FFFFFF>[猩红铭刻]</color>状态下<color=#2BAD00>造成的伤害提升1%</color>，持续至<color=#FFFFFF>[猩红铭刻]</color>状态结束；<color=#FFFFFF>[猩红铭刻]</color>状态下攻击命中敌人时，回复4点锐能，0.5秒内最多触发1次。"
+    }
+  },
+  "1350321": {
+    "id": 1350321,
+    "name": "[洛克茜]铅锤百炼",
+    "desc": "触发<color=#FFFFFF>[净化]</color>时，全队<color=#2BAD00>攻击力提升800点</color>，持续40秒，重复触发时刷新持续时间。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic110.png",
+    "branch": {
+      "13503211": "<color=#FFFFFF>[铅锤百炼]</color>攻击力提升效果可以<color=#2BAD00>叠加至多2</color>层。",
+      "13503212": "<color=#FFFFFF>[额外能力：辉金心脏]</color>中任意角色命中敌人时，敌人的<color=#2BAD00>失衡易伤额外提升60%</color>。"
+    }
+  },
+  "1350322": {
+    "id": 1350322,
+    "name": "[洛克茜]永夜长眠",
+    "desc": "长按 <IconMap:Icon_SpecialReady> 发动<color=#FFFFFF>[强化特殊技：小心风寒]</color>后<color=#2BAD00>额外生成一阵巨型风旋</color>；巨型风旋命中的敌人<color=#2BAD00>全属性抗性降低24%</color>，持续30秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "branch": {
+      "13503221": "<color=#FFFFFF>[永夜长眠]</color>生成的巨型风旋结束时候，原地会<color=#2BAD00>生成一个<color=#FFFFFF>[风眼]</color></color>，并<color=#2BAD00>恢复自身10点能量</color>。",
+      "13503222": "任意方式生成的巨型风旋造成的<color=#2BAD00>失衡值提升60%</color>；<color=#FFFFFF>[永夜长眠]</color>生成的巨型风旋<color=#2BAD00>延长1秒</color>。"
+    }
+  },
+  "1350323": {
+    "id": 1350323,
+    "name": "[洛克茜]提灯夜客",
+    "desc": "发动<color=#FFFFFF>[支援突击：午夜守则]</color>后也可以<color=#2BAD00>发动</color><color=#FFFFFF>[支援技：还要加班？]</color>；发动<color=#FFFFFF>[支援技：还要加班？]</color>时，改为<color=#2BAD00>发动<color=#FFFFFF>[连携技：葬风巨锤]</color></color>，每12秒至多触发1次；全队角色的<color=#2BAD00><color=#FFFFFF>[连携技]</color>造成的伤害提升50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "branch": {
+      "13503231": "<color=#FFFFFF>[提灯夜客]</color>的<color=#2BAD00>触发间隔减少6秒</color>。",
+      "13503232": "发动<color=#FFFFFF>[连携技：葬风巨锤]</color>时，<color=#2BAD00>回复2点<color=#FFFFFF>[风能]</color></color>。"
+    }
+  }
+}

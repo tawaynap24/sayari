@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "reviewedAt": "2026-10-17T18:55:43.053Z",
+  "status": "VERIFIED_PUBLIC_SCOPE",
+  "entireProviderApiComplete": false,
+  "scope": {
+    "versions": [
+      {
+        "version": "3.2",
+        "channels": [
+          "live"
+        ]
+      },
+      {
+        "version": "3.3.12+19629936",
+        "channels": [
+          "latest"
+        ]
+      }
+    ],
+    "languages": [
+      "en",
+      "ja",
+      "ko",
+      "zh"
+    ],
+    "navFamilies": [
+      "character",
+      "weapon",
+      "bangboo",
+      "equipment",
+      "item",
+      "monster",
+      "achievement",
+      "shiyu",
+      "hollow",
+      "diff",
+      "boss",
+      "simul",
+      "hard"
+    ]
+  },
+  "routes": [
+    {
+      "url": "https://zzz.nanoka.cc/character",
+      "status": "VERIFIED",
+      "label": "Agent — nanoka.cc",
+      "datasets": [
+        "character",
+        "noun"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/weapon",
+      "status": "VERIFIED",
+      "label": "W-Engine — nanoka.cc",
+      "datasets": [
+        "weapon"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/bangboo",
+      "status": "VERIFIED",
+      "label": "Bangboo — nanoka.cc",
+      "datasets": [
+        "bangboo"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/equipment",
+      "status": "VERIFIED",
+      "label": "Drive Disc — nanoka.cc",
+      "datasets": [
+        "equipment"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/item",
+      "status": "VERIFIED",
+      "label": "Items — nanoka.cc",
+      "datasets": [
+        "item",
+        "item_all"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/monster",
+      "status": "VERIFIED",
+      "label": "Monster — nanoka.cc",
+      "datasets": [
+        "monster"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/achievement",
+      "status": "VERIFIED",
+      "label": "Achievements — nanoka.cc",
+      "datasets": [
+        "achievement"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/achievement/achievement.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/shiyu",
+      "status": "VERIFIED",
+      "label": "Shiyu Defense — nanoka.cc",
+      "datasets": [
+        "shiyu",
+        "shiyu_versions"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/version.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/hollow",
+      "status": "VERIFIED",
+      "label": "Hollow Zero — nanoka.cc",
+      "datasets": [
+        "hollow_card",
+        "hollow_tpp",
+        "hollow_gg",
+        "hollow_resonium"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/card.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/tpp.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/gg.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/resonium.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/diff",
+      "status": "VERIFIED",
+      "label": "Version Changelog — nanoka.cc",
+      "datasets": [
+        "diff"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12%2B19629936/diff/en.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/boss",
+      "status": "VERIFIED",
+      "label": "Deadly Assault — nanoka.cc",
+      "datasets": [
+        "boss",
+        "boss_versions"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/version.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/simul",
+      "status": "VERIFIED",
+      "label": "Threshold Simulation — nanoka.cc",
+      "datasets": [
+        "simul"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    },
+    {
+      "url": "https://zzz.nanoka.cc/hard",
+      "status": "VERIFIED",
+      "label": "Annihilation Simulacrum — nanoka.cc",
+      "datasets": [
+        "hard"
+      ],
+      "jsonUrls": [
+        "https://static.nanoka.cc/manifest.json",
+        "https://static.nanoka.cc/zzz/3.3.12+19629936/hard.json"
+      ],
+      "evidenceFiles": [
+        "observed-urls.json",
+        "selector-and-tab-review.json",
+        "filter-and-version-review.json",
+        "filter-review.json"
+      ],
+      "notes": "Representative detail structure reviewed in browser; every ID and locale/version is enumerated and audited separately in ENDPOINT_COVERAGE.json. Historical versions and personal completion state are outside this scope."
+    }
+  ],
+  "additionalRoutes": [
+    "boss",
+    "simul",
+    "hard"
+  ],
+  "categories": [
+    {
+      "key": "character",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "weapon",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "bangboo",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "equipment",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "item",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "monster",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "achievement",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "shiyu",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "boss",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "simul",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "hard",
+      "status": "VERIFIED",
+      "note": "อ่าน index และ detail ทุก ID ใน Live/Latest × 4 locales พร้อมตรวจ raw hash/field paths"
+    },
+    {
+      "key": "hollow_card",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "hollow_tpp",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "hollow_gg",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "hollow_resonium",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "item_all",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "noun",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "shiyu_versions",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "boss_versions",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    },
+    {
+      "key": "diff",
+      "status": "VERIFIED",
+      "note": "เก็บ record และ metadata ทั้งหมดจาก localized resource; ไม่มีการเดา detail endpoint"
+    }
+  ],
+  "unresolved": [],
+  "notes": [
+    "ตรวจครบขอบเขตเมนูสาธารณะที่พบในรอบนี้ พร้อม index IDs ของ Live/Latest และ 4 ภาษา ไม่ครอบคลุม private/hidden endpoints หรือ historical versions ที่ยังไม่เลือก sync",
+    "Framework JSON ของค่าตั้งค่าหน้าเว็บเก็บเป็น unversioned raw ใน API Explorer ไม่ตีความเป็นชุดข้อมูลผู้เล่นหรือ patch เกม",
+    "การตรวจ browser ใช้ตัวอย่างต่อโครงสร้าง ส่วน raw hashes, IDs และ leaf paths ตรวจทุก resource ใน scope; ภาพเก็บ URL/metadata ไม่ mirror ทั้ง CDN"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "records": [],
+  "note": "network-discovery output. Each JSON record needs url, status, resourceType, pageUrl and observedAt. Successful entries may be imported into sync as exact raw resources; family enumeration still required."
+}

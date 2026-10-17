@@ -1,0 +1,48 @@
+{
+  "runId": "2026-10-17T17-33-20-466Z-51e8c41b",
+  "startedAt": "2026-10-17T17:33:20.467Z",
+  "finishedAt": "2026-10-17T17:33:20.566Z",
+  "mode": "probe",
+  "status": "PROBE_ONLY_NOT_FULL_SYNC",
+  "registeredScopeComplete": false,
+  "entireProviderApiComplete": false,
+  "entireProviderApiCompleteReason": "No exhaustive provider OpenAPI catalog is assumed. Separate route/selector/family discovery and UI audit are mandatory.",
+  "selectedVersions": [],
+  "selectedLanguages": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "uniqueResourcesAttempted": 1,
+  "successfulResources": 0,
+  "failedResources": 1,
+  "networkAttempts": 1,
+  "cachedResources": 0,
+  "scheduledDetailResources": 0,
+  "issues": [
+    {
+      "type": "manifest_unavailable",
+      "error": "TypeError: fetch failed"
+    }
+  ],
+  "failures": [
+    {
+      "dataset": "manifest",
+      "kind": "manifest",
+      "version": null,
+      "language": null,
+      "id": null,
+      "referenceUrl": "https://zzz.nanoka.cc/",
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": "failed",
+      "httpStatus": null,
+      "file": null,
+      "fetchedAt": null,
+      "checkedAt": "2026-10-17T17:33:20.470Z",
+      "error": "TypeError: fetch failed"
+    }
+  ],
+  "unattemptedDetailsInProbe": 0,
+  "historicalVersionsDownloaded": false
+}

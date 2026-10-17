@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-17T20:04:16.164Z",
+  "status": "PASS",
+  "results": [
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_THTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:13.457Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "93352352",
+        "etag": "\"1824f61ffed02311e16484a8368bd76f12644a20\"",
+        "last-modified": "Wed, 09 Sep 2026 00:52:58 GMT"
+      },
+      "downloadedBytes": 93352352,
+      "downloadedSha256": "3e0755c4063440d95f56b3574e25aec63936266c89a200e2e78a8e5ec62c9c4b",
+      "gitBlobSha": "1824f61ffed02311e16484a8368bd76f12644a20",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    },
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_THOverwriteTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:13.903Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "1670989",
+        "etag": "\"8aacbf237b2f66beb2300b10819e8519d85012be\"",
+        "last-modified": "Wed, 23 Sep 2026 10:19:58 GMT"
+      },
+      "downloadedBytes": 1670989,
+      "downloadedSha256": "a079174aca30c3eeece89aea11e844e689fcc217a0515e18ff6d62ccaad8b6e6",
+      "gitBlobSha": "8aacbf237b2f66beb2300b10819e8519d85012be",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    },
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_Login_THTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:14.365Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "119391",
+        "etag": "\"a902b66dad8f485f5cdb15f119b53d2f7eadb8f0\"",
+        "last-modified": "Wed, 09 Sep 2026 00:52:58 GMT"
+      },
+      "downloadedBytes": 119391,
+      "downloadedSha256": "31a156c683548349343fe6bf88413c2dd180f6a5afbc03044013c86c67a7c949",
+      "gitBlobSha": "a902b66dad8f485f5cdb15f119b53d2f7eadb8f0",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    },
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_ENTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:15.208Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "48112035",
+        "etag": "\"b33f22e663bab9474b6aec268eb666444e2de152\"",
+        "last-modified": "Wed, 09 Sep 2026 00:51:20 GMT"
+      },
+      "downloadedBytes": 48112035,
+      "downloadedSha256": "d78dc7af89c7432fc75c89c755a47364c29cad9b6d010859f8b8abd7a00d1f99",
+      "gitBlobSha": "b33f22e663bab9474b6aec268eb666444e2de152",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    },
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_ENOverwriteTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:15.698Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "794359",
+        "etag": "\"435617f0521dd176eecc24d20c4007aaba92c3bf\"",
+        "last-modified": "Wed, 23 Sep 2026 10:19:58 GMT"
+      },
+      "downloadedBytes": 794359,
+      "downloadedSha256": "c7243a2dfb649a32fb0d53bd73afcae74d8e32a0c54e7a0ba010e0168e94e188",
+      "gitBlobSha": "435617f0521dd176eecc24d20c4007aaba92c3bf",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    },
+    {
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_Login_ENTemplateTb.json",
+      "checkedAt": "2026-10-17T20:04:16.164Z",
+      "httpStatus": 200,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "content-length": "66684",
+        "etag": "\"8654e9bf5c60d7af24fda518f8e289f9fdb3bf26\"",
+        "last-modified": "Wed, 09 Sep 2026 00:52:23 GMT"
+      },
+      "downloadedBytes": 66684,
+      "downloadedSha256": "0fd8001cd1e44c5e68ccb0fdaee4f9addf31a408009d01b1cee8cf7b8ecbbe80",
+      "gitBlobSha": "8654e9bf5c60d7af24fda518f8e289f9fdb3bf26",
+      "utf8Validation": "PASS",
+      "schema": "string dictionary"
+    }
+  ]
+}

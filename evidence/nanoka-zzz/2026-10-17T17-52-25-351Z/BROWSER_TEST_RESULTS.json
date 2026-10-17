@@ -1,0 +1,162 @@
+{
+  "runId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "origin": "http://127.0.0.1:4173",
+  "finishedAt": "2026-10-17T19:01:55.548Z",
+  "results": [
+    {
+      "name": "Home → database and calculator input regression; black base preserved",
+      "kind": "REAL_APP",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:02.912Z"
+    },
+    {
+      "name": "Live list search, rarity/group filters and pagination reach the last record",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:04.445Z"
+    },
+    {
+      "name": "Agent sections, every level option, field search, source and exact raw download",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:08.684Z",
+      "detail": {
+        "downloadHash": "c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8",
+        "bytes": 59608,
+        "skillOptions": 5
+      }
+    },
+    {
+      "name": "Version and language controls, history and direct link reload",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:12.692Z"
+    },
+    {
+      "name": "Every registered category opens a real list and structured detail",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:15.479Z",
+      "detail": [
+        {
+          "dataset": "character",
+          "count": 62
+        },
+        {
+          "dataset": "weapon",
+          "count": 103
+        },
+        {
+          "dataset": "bangboo",
+          "count": 42
+        },
+        {
+          "dataset": "equipment",
+          "count": 30
+        },
+        {
+          "dataset": "item",
+          "count": 5983
+        },
+        {
+          "dataset": "monster",
+          "count": 314
+        },
+        {
+          "dataset": "achievement",
+          "count": 831
+        },
+        {
+          "dataset": "shiyu",
+          "count": 65
+        },
+        {
+          "dataset": "boss",
+          "count": 50
+        },
+        {
+          "dataset": "simul",
+          "count": 3
+        },
+        {
+          "dataset": "hard",
+          "count": 2
+        },
+        {
+          "dataset": "hollow_card",
+          "count": 74
+        },
+        {
+          "dataset": "hollow_tpp",
+          "count": 97
+        },
+        {
+          "dataset": "hollow_gg",
+          "count": 68
+        },
+        {
+          "dataset": "hollow_resonium",
+          "count": 262
+        },
+        {
+          "dataset": "item_all",
+          "count": 5983
+        },
+        {
+          "dataset": "noun",
+          "count": 141
+        },
+        {
+          "dataset": "shiyu_versions",
+          "count": 20
+        },
+        {
+          "dataset": "boss_versions",
+          "count": 15
+        },
+        {
+          "dataset": "diff",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "API Explorer paginates, searches and clears an old selection after locale changes",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:34.546Z"
+    },
+    {
+      "name": "Responsive 390/768/1440 layouts and keyboard dialog",
+      "kind": "REAL_APP",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:36.076Z"
+    },
+    {
+      "name": "Delayed old locale response cannot replace the selected locale",
+      "kind": "REAL_DATA_DELAYED_TRANSPORT",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:43.134Z"
+    },
+    {
+      "name": "Delayed Live index cannot replace a selected Latest index",
+      "kind": "REAL_DATA_DELAYED_TRANSPORT",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:46.572Z"
+    },
+    {
+      "name": "Missing snapshot and HTML response display errors and retry successfully",
+      "kind": "INJECTED_FAILURE_ONLY",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:50.232Z"
+    },
+    {
+      "name": "Image failures keep names and usable cards",
+      "kind": "INJECTED_IMAGE_FAILURE",
+      "status": "PASS",
+      "startedAt": "2026-10-17T19:01:52.556Z"
+    }
+  ],
+  "pageErrors": [],
+  "sourceJsonRequests": []
+}

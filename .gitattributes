@@ -1,0 +1,10 @@
+# Original upstream bytes must survive Windows Git checkout without CRLF conversion.
+public/nanoka/snapshots/*/objects/*.json -text
+evidence/nanoka-zzz/**/discovery-bodies/*.json -text
+evidence/nanoka-zzz/**/manifest-recheck-body.json -text
+evidence/nanoka-zzz/**/sample-*.json -text
+evidence/nanoka-zzz/**/nanoka-home.html -text
+evidence/nanoka-zzz/**/nanoka-app-entry.js -text
+SAYARI_NANOKA_ZZZ_CODEX_KIT_20261018/** -text
+# Localization chunks are content-addressed; preserve their byte hashes on Windows.
+public/localization/** -text

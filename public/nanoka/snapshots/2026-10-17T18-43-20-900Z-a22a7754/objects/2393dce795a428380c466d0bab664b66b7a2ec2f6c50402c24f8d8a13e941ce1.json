@@ -1,0 +1,840 @@
+{
+  "1310501": {
+    "id": 1310501,
+    "name": "[호시미 미야비] 한없이 흩날리는 눈",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi01.png",
+    "desc": "<color=#FFFFFF>[서리열·파괴]</color> 발동 후, 호시미 미야비가 다음번에 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전할 때 에너지를 소모하지 않는다. 또한, 속성 이상 상태인 적에게 <color=#2BAD00>주는 피해가 50% 증가한다</color>. 30초 동안 최대 1회 발동한다."
+  },
+  "1310502": {
+    "id": 1310502,
+    "name": "[호시미 미야비] 불멸의 서리",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi02.png",
+    "desc": "<color=#FFFFFF>[빙염]</color>을 부착한 적은 <color=#2BAD00>매초마다 호시미 미야비 공격력의 50%</color>에 해당하는 <color=#98EFF0>서리 피해</color>를 받는다. <color=#FFFFFF>[서리열·파괴]</color> 발동 후, 호시미 미야비는 <color=#FFFFFF>[서리열]</color> 상태의 제약을 무시하고, <color=#2BAD00>즉시 적에게 다시</color> <color=#FFFFFF>[빙염]</color>을 부착한다."
+  },
+  "1310503": {
+    "id": 1310503,
+    "name": "[호시미 미야비] 서리와 달, 잔설",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi03.png",
+    "desc": "<color=#FFFFFF>[궁극기: 잔설]</color> 시전 시, 호시미 미야비가 <color=#FFFFFF>[내리는 서리]</color>를 6pt 획득한다. <color=#FFFFFF>[일반 공격: 서리와 달]</color> 시전 시, 호시미 미야비는 스킬의 차지 단계에 따라 <color=#2BAD00>데시벨을 70/140/210pt 획득한다</color>."
+  },
+  "1310601": {
+    "id": 1310601,
+    "name": "[빌리] 화력 제압",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly01.png",
+    "desc": "빌리가 <color=#FFFFFF>[일반 공격: 화력 전개]</color>에서 시전한 사격이 적에게 누적 20회 명중하거나, <color=#FFFFFF>[일반 공격: 화력 전개·개조]</color>에서 시전한 사격이 적에게 누적 5회 명중했을 경우, 다음번 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 <color=#2BAD00>에너지를 소모하지 않으며</color>, 스킬로 <color=#2BAD00>주는 피해가 100% 증가한다</color>."
+  },
+  "1310602": {
+    "id": 1310602,
+    "name": "[빌리] 총잡이 타임",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly02.png",
+    "desc": "빌리가 시전한 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시, 타깃에게 디버프 효과를 부여하고, 자신이 타깃에게 <color=#2BAD00>주는 피해가 60% 증가한다</color>. 지속 시간: 10초"
+  },
+  "1310603": {
+    "id": 1310603,
+    "name": "[빌리] 스위퍼・심판",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly03.png",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬]</color> 시전 시, <IconMap:Icon_SpecialReady>「특수 공격」을 홀드해 차지하면 <color=#2BAD00>스킬의 위력을 높여</color> <color=#FFFFFF>[강화 특수 스킬]</color>의 <color=#2BAD00>피해 배율이 기존의 200%까지 증가한다</color>. 또한, <color=#2BAD00>반드시 치명타가 발동한다</color>."
+  },
+  "1310701": {
+    "id": 1310701,
+    "name": "[엘렌] 눈보라 전지법",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen01.png",
+    "desc": "<color=#FFFFFF>[급랭 충전]</color> 보유 시 <color=#FFFFFF>[대시 공격: 한파]</color>가 세 번째 <color=#FFFFFF>[일반 공격: 급랭 전지법]</color>으로 교체되며, 스킬을 시전하는 동안 <color=#2BAD00>HP 최대치의 20%에 해당하는 실드</color>를 획득한다. 해당 실드 보유 시 엘렌의 <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 60% 감소한다</color>. <color=#FFFFFF>[회피 반격: 암초]</color> 시전 시 엘렌이 <color=#FFFFFF>[급랭 충전]</color>을 1pt 획득한다."
+  },
+  "1310702": {
+    "id": 1310702,
+    "name": "[엘렌] 영원한 겨울바람의 흔적",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen02.png",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[콤보 스킬]</color> 혹은 <color=#FFFFFF>[궁극기]</color> 시전 시, 엘렌이 <color=#2BAD00>지면에 [얼음 안개]를 생성해</color> 적에게 지속적으로 <color=#98EFF0>얼음 속성 피해</color>를 주고, 타깃의 <color=#98EFF0>얼음 속성 피해 저항</color>이 30% 감소한다. 지속 시간: 10초. 엘렌의 공격이 <color=#FFFFFF>[얼음 안개]</color> 상태인 적에게 명중 시, <color=#FFFFFF>[얼음 안개]</color> 피해를 추가로 1회 발동한다."
+  },
+  "1310703": {
+    "id": 1310703,
+    "name": "[엘렌] 피에 굶주린 이빨",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen03.png",
+    "desc": "<color=#FFFFFF>[포식자의 등지느러미]</color>를 보유한 상태에서 적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식을 부여할 시, 엘렌이 <color=#2BAD00>주는 피해가 15% 증가한다</color>. 지속 시간: 15초. 타깃이 처치된 후, 이번 공동에서 현재 무장의 <color=#2BAD00>피해 증가 효과가 추가로 5% 증가한다</color>. 최대 추가 증가: 150%"
+  },
+  "1310801": {
+    "id": 1310801,
+    "name": "[츠키시로 야나기] 달빛의 자취",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi01.png",
+    "desc": "<color=#FFFFFF>[콤보 스킬]</color>을 3회 시전할 때마다 츠키시로 야나기가 <color=#2BAD00>다음번 시전하는 [콤보 스킬]이 [궁극기]로 교체된다</color>."
+  },
+  "1310802": {
+    "id": 1310802,
+    "name": "[츠키시로 야나기] 흐르는 변천",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi02.png",
+    "desc": "<color=#FFFFFF>[일반 공격: 달의 신에게 바치는 가무]</color> 시전 기간 동안, 츠키시로 야나기는 <color=#2BAD00>언제든지 현재 동작을 중단</color>하고 <color=#FFFFFF>[특수 스킬: 변천]</color>을 바로 이어서 시전할 수 있다."
+  },
+  "1310803": {
+    "id": 1310803,
+    "name": "[츠키시로 야나기] 달빛 환각",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi03.png",
+    "desc": "츠키시로 야나기의 공격이 적에게 명중하고 <color=#FFFFFF>[극성 혼돈]</color>을 발동할 시, 타깃의 <color=#2BAD00>모든 속성 피해 저항이 16% 감소한다</color>. 지속 시간: 8초"
+  },
+  "1312201": {
+    "id": 1312201,
+    "name": "[아스트라 야오] 완벽한 대타",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra01.png",
+    "desc": "<color=#FFFFFF>[일반 공격: 찬란한 순간]</color>으로 주는 피해가 <color=#FFFFFF>[강화 특수 스킬]</color> 피해로 <color=#2BAD00>간주되며</color>, 스킬을 시전하는 동안 <color=#2BAD00>모든 파티원의 치명타 확률이 18% 증가한다</color>."
+  },
+  "1312202": {
+    "id": 1312202,
+    "name": "[아스트라 야오] 흩어진 선율",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra02.png",
+    "desc": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 에너지가 충분할 때, 방출 혹은 추가 방출한 <color=#FFFFFF>[트레몰로]</color>로 공격 시 <color=#2BAD00>2단</color>의 동일한 <color=#FFFFFF>[트레몰로]</color> 피해를 추가한다. 아스트라 야오가 시전한 <color=#FFFFFF>[일반 공격: 간주]</color> 혹은 <color=#FFFFFF>[일반 공격: 코러스]</color>가 적에게 명중 시, 20% 확률로 <color=#FFFFFF>[영감]</color> 효과를 획득해 아스트라 야오가 다음번에 시전하는 <color=#FFFFFF>[회피]</color>가 <color=#2BAD00>바로</color> <color=#FFFFFF>[극한 회피]</color>를 발동할 수 있으며 <color=#FFFFFF>[일반 공격: 코러스]</color>를 이어서 시전할 수 있다. 지속 시간: 10초"
+  },
+  "1312203": {
+    "id": 1312203,
+    "name": "[아스트라 야오] 바람의 영창",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra03.png",
+    "desc": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 아스트라 야오의 <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 추가로 20% 감소한다</color>. <color=#2BAD00>모든 파티원의 관통률이 15% 증가하고</color>, <color=#2BAD00>HP가 천천히 회복된다</color>."
+  },
+  "1312301": {
+    "id": 1312301,
+    "name": "[이블린] 소매 속 날랜 칼날",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn01.png",
+    "desc": "<color=#FFFFFF>[콤보 스킬]</color> 시전 시 이블린이 <color=#FFFFFF>[날랜 칼날]</color> 효과를 획득해 <color=#FFFFFF>[콤보 스킬]</color>로 <color=#2BAD00>주는 피해가 20% 증가한다</color>. 최대 중첩: 3스택, 전투 종료까지 지속된다."
+  },
+  "1312302": {
+    "id": 1312302,
+    "name": "[이블린] 속박의 예술",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn02.png",
+    "desc": "이블린이 타깃과 <color=#FFFFFF>[뒤엉킨 금제]</color> 진입 시 자신의 <color=#2BAD00>공격력이 20% 증가하고</color>, 타깃 적의 <color=#2BAD00>공격력이 20% 감소한다</color>. <color=#FFFFFF>[뒤엉킨 금제]</color> 종료 후에도 이블린은 10초 동안 버프를 보유한다. <color=#FFFFFF>[뒤엉킨 금제]</color> 종료 시, 타깃 적을 기폭하고 <color=#2BAD00>추가로</color> <color=#FF5521>불 속성 피해</color>를 준다."
+  },
+  "1312303": {
+    "id": 1312303,
+    "name": "[이블린] 특제 에너지 드링크",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn03.png",
+    "desc": "<color=#FFFFFF>[궁극기]</color> 시전 시 이블린이 <color=#FFFFFF>[잉걸불]</color> 100% 및 <color=#FFFFFF>[화승점]</color> 3pt를 획득한다."
+  },
+  "1312401": {
+    "id": 1312401,
+    "name": "[제인] 게임 타임",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane01.png",
+    "desc": "<color=#FFFFFF>[핵심 패시브: 통찰]</color>의 <color=#F0D12B>[강타]</color> 치명타 효과 발동 시 50% 확률로 이번 치명타의 <color=#2BAD00>치명타 피해가 추가로 40% 증가한다</color>."
+  },
+  "1312402": {
+    "id": 1312402,
+    "name": "[제인] 격투의 기교",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane02.png",
+    "desc": "<color=#FFFFFF>[회피 반격]</color>이 적에게 명중 시 타깃의 <color=#F0D12B>물리 피해 저항</color>이 <color=#2BAD00>20% 감소한다</color>. 지속 시간: 10초"
+  },
+  "1312403": {
+    "id": 1312403,
+    "name": "[제인] 집요한 추격",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane03.png",
+    "desc": "파티 내 임의의 캐릭터가 적에게 속성 이상 효과 부여 시, 제인이 <color=#2BAD00>추가로 데시벨을 40pt 획득하고</color>, 다음번에 시전하는 <color=#FFFFFF>[궁극기]</color>의 <color=#2BAD00>치명타 확률이 5% 증가하며</color>, <color=#2BAD00>치명타 피해가 20% 증가한다</color>. 최대 중첩: 5스택"
+  },
+  "1312501": {
+    "id": 1312501,
+    "name": "[코린] 메이드의 보폭",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine01.png",
+    "desc": "<color=#FFFFFF>[극한 회피]</color> 발동 시 <color=#2BAD00>에너지를 25pt 회복한다</color>. 6초 동안 최대 1회 발동한다."
+  },
+  "1312502": {
+    "id": 1312502,
+    "name": "[코린] 불행한 찰과상",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine02.png",
+    "desc": "코린이 전기톱 지속 베기로 적 명중 시 자신이 충전을 1스택 획득한다. 충전을 10스택 보유하면 다음번 베기가 적에게 <color=#FFFFFF>[찰과상]</color> 효과를 부여하고, <color=#2BAD00>3초마다 코린 공격력의 20%에 해당하는</color> <color=#F0D12B>물리 피해</color>를 1회 준다. 최대 중첩: 10스택, 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다."
+  },
+  "1312503": {
+    "id": 1312503,
+    "name": "[코린] 액운의 파상풍",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine03.png",
+    "desc": "<color=#FFFFFF>[일반 공격]</color> 혹은 <color=#FFFFFF>[대시 공격]</color>이 적에게 명중 시 타깃의 <color=#F0D12B>물리 피해 저항</color>이 <color=#2BAD00>20% 감소한다</color>. 지속 시간: 15초"
+  },
+  "1320101": {
+    "id": 1320101,
+    "name": "[궁극] 힐링 향주머니",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic004.png",
+    "level": {
+      "1": {
+        "id": 132010101,
+        "desc": "모든 파티원의 <color=#2BAD00>데시벨 최대치가 6000pt까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>현재 조작 중인 캐릭터가 데시벨을 1500pt 회복한다</color>."
+      },
+      "2": {
+        "id": 132010102,
+        "desc": "<color=#FFFFFF>[궁극기]</color> 시전 시 모든 데시벨을 소모하고 <color=#2BAD00>초과 소모한 부분에 기반하여 피해가 증가한다</color>. 데시벨을 추가로 1,500pt 소모할 때마다 <color=#FFFFFF>[궁극기]</color><color=#2BAD00>로 주는 피해가 80% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>현재 조작 중인 캐릭터가 데시벨을 1500pt 회복한다</color>."
+      },
+      "3": {
+        "id": 132010103,
+        "desc": "모든 파티원의 <color=#2BAD00>데시벨 최대치가 9000pt까지 증가한다</color>. <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 현재 조작 중인 에이전트의 <color=#2BAD00>데시벨이 2000pt</color> 회복된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>현재 조작 중인 캐릭터가 데시벨을 1500pt 회복한다</color>."
+      },
+      "4": {
+        "id": 132010104,
+        "desc": "데시벨을 추가로 1,500pt 소모할 때마다 <color=#FFFFFF>[궁극기]</color><color=#2BAD00>로 주는 피해 증가 효과가 80%에서 160%까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>현재 조작 중인 캐릭터가 데시벨을 1500pt 회복한다</color>."
+      }
+    }
+  },
+  "1320102": {
+    "id": 1320102,
+    "name": "[궁극] 리듬 에너지 세이버",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic005.png",
+    "level": {
+      "1": {
+        "id": 132010201,
+        "desc": "<color=#FFFFFF>[궁극기]</color> 시전 시 필요한 <color=#2BAD00>데시벨이 2000pt까지 감소한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>모든 파티원이 데시벨을 500pt 회복</color>한다."
+      },
+      "2": {
+        "id": 132010202,
+        "desc": "<color=#FFFFFF>[궁극기]</color> 시전 시 모든 파티원의 <color=#2BAD00>속성 이상 축적 효율이 20% 증가한다</color>. 지속 시간: 10초. <color=#FFFFFF>[궁극기]</color>가 적에게 명중 시 <color=#2BAD00>타깃에게 추가로 속성 이상 축적치를 누적한다</color>. 동일한 공격은 동일한 타깃에게 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>모든 파티원이 데시벨을 500pt 회복</color>한다."
+      },
+      "3": {
+        "id": 132010203,
+        "desc": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 모든 파티원이 <color=#2BAD00>데시벨을 700pt 획득하고</color>, <color=#2BAD00>공격력이 15% 증가한다</color>. 지속 시간: 15초",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>모든 파티원이 데시벨을 500pt 회복</color>한다."
+      },
+      "4": {
+        "id": 132010204,
+        "desc": "<color=#FFFFFF>[궁극기]</color> 시전 시 모든 파티원의 <color=#2BAD00>속성 이상 축적 효율이 20%에서 40%까지 증가하고</color>, <color=#2BAD00>지속 시간이 10초에서 15초까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 공명부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 데시벨 소모 시, 공명부가 추가로 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 공명부를 소환하면 에테르 블랙홀로 적을 공격해 <color=#FE437E>에테르 속성 피해</color>를 주며, <color=#2BAD00>모든 파티원이 데시벨을 500pt 회복</color>한다."
+      }
+    }
+  },
+  "1320201": {
+    "id": 1320201,
+    "name": "[민첩] 오계의 가호",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic003.png",
+    "level": {
+      "1": {
+        "id": 132020101,
+        "desc": "<color=#FFFFFF>[극한 회피]</color> 발동 시 모든 파티원이 <color=#2BAD00>[민첩 카운트]를 1스택 획득한다</color>. 최대 중첩: 3스택. <color=#FFFFFF>[민첩 카운트]</color> 3스택 보유 시 모든 스택을 소모하고 <color=#2BAD00>[민첩 상태]에 진입한다</color>. 지속 시간: 9초. <color=#FFFFFF>[민첩 상태]</color>에서 모든 파티원의 <color=#2BAD00>공격력이 60% 증가하고</color>, 공격이 적에게 명중 시 타깃에게 <color=#FFFFFF>[민첩의 저주]</color>를 부여한다. <color=#FFFFFF>[민첩의 저주]</color>는 <color=#FFFFFF>[민첩 상태]</color> 종료 시 결산되며 적에게 <color=#FFFFFF>[민첩의 저주]</color> 기간 동안 <color=#2BAD00>누적한 피해량의 10%만큼 추가 피해</color>를 준다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "2": {
+        "id": 132020102,
+        "desc": "<color=#FFFFFF>[민첩 상태]</color>에서 <color=#FFFFFF>[극한 회피]</color> 발동 시 <color=#2BAD00>[민첩 상태]의 지속 시간이 3초 연장된다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "3": {
+        "id": 132020103,
+        "desc": "<color=#FFFFFF>[패링 지원]</color> 혹은 <color=#FFFFFF>[회피 지원]</color> 시전 시 모든 파티원이 <color=#2BAD00>[민첩 카운트]를 1스택 획득한다</color>. <color=#FFFFFF>[민첩 상태]</color>에서 <color=#FFFFFF>[패링 지원]</color> 혹은 <color=#FFFFFF>[회피 지원]</color> 시전 시 <color=#2BAD00>[민첩 상태]의 지속 시간이 3초 연장된다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "4": {
+        "id": 132020104,
+        "desc": "<color=#FFFFFF>[민첩 상태]</color>에서 모든 파티원의 <color=#2BAD00>공격력이 추가로 75% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      }
+    }
+  },
+  "1320202": {
+    "id": 1320202,
+    "name": "[민첩] 민첩 충전 실드",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic007.png",
+    "level": {
+      "1": {
+        "id": 132020201,
+        "desc": "교전 상태에서 모든 파티원이 0.5초마다 <color=#2BAD00>[민첩 충전]을 1pt 획득한다</color>. (최대치: 32pt). 적의 공격을 받고 HP 상실 시 모든 <color=#FFFFFF>[민첩 충전]</color>을 소모하며, 소모한 포인트가 8/16/24pt 이상일 시 <color=#2BAD00>[민첩 상태]에 진입한다</color>. 지속 시간: 2/4/8초. <color=#FFFFFF>[민첩 충전]</color>을 32pt 보유한 상태에서 공격이 적에게 명중 시 모든 충전을 소모하고 <color=#2BAD00>[민첩 상태]에 진입한다</color>. 지속 시간: 16초. <color=#FFFFFF>[민첩 상태]</color>에서 모든 파티원의 <color=#2BAD00>공격력이 60% 증가하고</color>, 공격이 적에게 명중 시 타깃에게 <color=#FFFFFF>[민첩의 저주]</color>를 부여한다. <color=#FFFFFF>[민첩의 저주]</color>는 <color=#FFFFFF>[민첩 상태]</color> 종료 시 결산되며 적에게 <color=#FFFFFF>[민첩의 저주]</color> 기간 동안 <color=#2BAD00>누적한 피해량의 10%만큼 추가 피해를</color> 준다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "2": {
+        "id": 132020202,
+        "desc": "<color=#FFFFFF>[민첩 충전]</color>이 8pt 미만일 때 적의 공격을 받고 HP를 상실하면 <color=#2BAD00>현재 누적한 [민첩 충전]을 소모하지 않는다</color>. <color=#FFFFFF>[민첩 상태]</color> 종료 시 즉시 다시<color=#2BAD00>[민첩 충전]을 4pt 획득한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "3": {
+        "id": 132020203,
+        "desc": "<color=#FFFFFF>[민첩의 저주]</color>로 <color=#2BAD00>주는 피해가 누적 피해량의 20%까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      },
+      "4": {
+        "id": 132020204,
+        "desc": "<color=#FFFFFF>[민첩 상태]</color>에서 모든 파티원의 <color=#2BAD00>치명타 확률이 20% 증가하고</color>, <color=#2BAD00>치명타 피해가 40% 증가하고</color>, <color=#2BAD00>이상 축적 효율이 40% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 플러그부는 시간에 따라 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 플러그부를 소환하면 연속 전기 방출로 적을 지속 공격해 <color=#2EB6FF>전기 속성 피해</color>를 주고, 바로 <color=#FFFFFF>[민첩 상태]</color>를 <color=#2BAD00>발동</color>한다. 지속 시간: 9초"
+      }
+    }
+  },
+  "1320301": {
+    "id": 1320301,
+    "name": "[이상·격파] 용매 발사기",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic011.png",
+    "level": {
+      "1": {
+        "id": 132030101,
+        "desc": "모든 파티원이 <color=#2BAD00>주는 그로기 수치가 10% 증가하고</color>, <color=#2BAD00>이상 마스터리가 30pt 증가한다</color>. 그로기를 주거나 적에게 속성 이상 효과 부여 시 추가 타격 효과 1회를 발동해 타깃과 주변 적에게 <color=#2BAD00>공격력의 1100%만큼 피해를 준다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 적에게 속성 이상 효과를 부여할 시, 샤크부가 에너지를 추가로 누적한다. 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 파티원의 <color=#2BAD00>공격력이 15% 증가한다</color>. 지속 시간: 20초"
+      },
+      "2": {
+        "id": 132030102,
+        "desc": "그로기 상태 혹은 속성 이상 상태인 적 처치 시 이번 판 공동에서 에이전트의 <color=#2BAD00>공격력이 30pt 증가한다</color>. 최대 중첩: 30스택",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 적에게 속성 이상 효과를 부여할 시, 샤크부가 에너지를 추가로 누적한다. 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 파티원의 <color=#2BAD00>공격력이 15% 증가한다</color>. 지속 시간: 20초"
+      },
+      "3": {
+        "id": 132030103,
+        "desc": "그로기를 주거나 적에게 속성 이상 효과 부여 시 <color=#2BAD00>추가 타격 효과의 피해 및 범위가 증가하고</color>, 타깃과 주변 적에게 <color=#2BAD00>주는 피해가 공격력의 1100%에서 공격력의 3700%까지 증가한다</color>. <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 <color=#2BAD00>모든 파티원의 공격력이 15%에서 30%까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 적에게 속성 이상 효과를 부여할 시, 샤크부가 에너지를 추가로 누적한다. 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 파티원의 <color=#2BAD00>공격력이 15% 증가한다</color>. 지속 시간: 20초"
+      },
+      "4": {
+        "id": 132030104,
+        "desc": "그로기를 주거나 적에게 속성 이상 효과 부여 시, 추가 타격 효과가 잠깐 딜레이 후 <color=#2BAD00>다시 1회 발동한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 적에게 속성 이상 효과를 부여할 시, 샤크부가 에너지를 추가로 누적한다. 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 파티원의 <color=#2BAD00>공격력이 15% 증가한다</color>. 지속 시간: 20초"
+      }
+    }
+  },
+  "1320302": {
+    "id": 1320302,
+    "name": "[이상·격파] 혼원단",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic010.png",
+    "level": {
+      "1": {
+        "id": 132030201,
+        "desc": "그로기를 주거나 적에게 <color=#FFFFFF>[혼돈]</color> 효과 부여 시, 에이전트가 <color=#2BAD00>6종의 버프 효과 중 랜덤으로 3~6회를 뽑는다</color>. 버프 효과당 최대 중첩: 6스택, 버프 효과: 에너지 자동 회복 0.02pt/초 증가, 방어력 4% 증가, 받는 피해 2% 감소, 충격력 2% 증가, 이상 마스터리 3pt 증가, 데시벨 획득 효율 3% 증가",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 <color=#FFFFFF>[혼돈]</color> 효과 부여 시, 샤크부가 추가로 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 에이전트의 <color=#2BAD00>랜덤 버프를 3회 뽑는다</color>."
+      },
+      "2": {
+        "id": 132030202,
+        "desc": "공격이 그로기 상태인 적에게 명중 시 <color=#2BAD00>속성 이상 축적 효율이 30% 증가한다</color>. 공격이 속성 이상 상태인 적에게 명중 시 <color=#2BAD00>주는 그로기 수치가 30% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 <color=#FFFFFF>[혼돈]</color> 효과 부여 시, 샤크부가 추가로 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 에이전트의 <color=#2BAD00>랜덤 버프를 3회 뽑는다</color>."
+      },
+      "3": {
+        "id": 132030203,
+        "desc": "랜덤으로 뽑은 버프 효과가 3스택 이상일 때 <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 <color=#2BAD00>상응하는 종류의 버프 효과를 소모하고</color>, 소모한 스택에 기반해 <color=#FFFFFF>[「Bangboo」 지원 스킬]</color>로 주는 피해가 증가하며, 소모한 버프 효과 1스택당 <color=#FFFFFF>[「Bangboo」 지원 스킬]</color>로 <color=#2BAD00>주는 피해가 10% 증가한다. 또한 다시 에이전트를 위해 버프 효과를 3~6회 뽑는다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 <color=#FFFFFF>[혼돈]</color> 효과 부여 시, 샤크부가 추가로 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 에이전트의 <color=#2BAD00>랜덤 버프를 3회 뽑는다</color>."
+      },
+      "4": {
+        "id": 132030204,
+        "desc": "랜덤으로 뽑은 버프 효과를 강화해 <color=#2BAD00>기존의 150%까지 증가시킨다</color>. <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 소모한 버프 효과 1스택당 <color=#FFFFFF>[「Bangboo」 지원 스킬]</color>로 <color=#2BAD00>주는 피해 증가 효과가 10%에서 20%까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 샤크부는 시간에 따라 에너지를 누적한다. 파티 내 임의의 캐릭터가 적을 그로기로 만들거나 <color=#FFFFFF>[혼돈]</color> 효과 부여 시, 샤크부가 추가로 에너지를 누적한다. 에너지가 충분할 때 「『Bangboo』 지원 스킬」을 눌러 샤크부를 소환하면 눈보라로 적을 지속 공격해 <color=#98EFF0>얼음 속성 피해</color>를 주고, 모든 에이전트의 <color=#2BAD00>랜덤 버프를 3회 뽑는다</color>."
+      }
+    }
+  },
+  "1320401": {
+    "id": 1320401,
+    "name": "[절망] 전투 생존팩",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic008.png",
+    "level": {
+      "1": {
+        "id": 132040101,
+        "desc": "공격이 적에게 명중 시 에이전트가 <color=#FFFFFF>[끓는 피 상태]</color>에 진입한다. 지속 시간: 2초. <color=#FFFFFF>[끓는 피 상태]</color>에서 에이전트가 <color=#2BAD00>주는 피해가 75% 증가하고</color>, <color=#2BAD00>받는 피해가 10% 감소하며</color>, 현재 HP가 20% 초과 시 <color=#CF4029>매초마다 HP를 1% 소모한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 현재 조작 중인 캐릭터의 HP가 낮을수록 격투부의 에너지 회복 속도가 빨라진다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 격투부를 소환하면 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 주고, 현재 조작 중인 에이전트가 <color=#2BAD00>이미 상실한 HP의 30%를 회복</color>한다."
+      },
+      "2": {
+        "id": 132040102,
+        "desc": "<color=#FFFFFF>[끓는 피 상태]</color>에서 에이전트가 <color=#2BAD00>주는 피해 증가 효과가 115%까지 증가하고</color>, <color=#2BAD00>받는 피해 감소 효과가 20%까지 증가한다</color>. <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 현재 조작 중인 에이전트가 <color=#2BAD00>회복하는 HP가 40%까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 현재 조작 중인 캐릭터의 HP가 낮을수록 격투부의 에너지 회복 속도가 빨라진다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 격투부를 소환하면 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 주고, 현재 조작 중인 에이전트가 <color=#2BAD00>이미 상실한 HP의 30%를 회복</color>한다."
+      },
+      "3": {
+        "id": 132040103,
+        "desc": "에이전트가 HP를 최소 100pt 회복할 시 <color=#2BAD00>추가 타격 효과</color>를 1회 발동한다. 10초 동안 최대 1회 발동할 수 있으며 전장의 모든 적에게 <color=#2BAD00>공격력의 1800%만큼 피해를 주고</color>, <color=#2BAD00>HP를 100pt 회복</color>할 때마다 추가 타격 효과로 <color=#2BAD00>주는 피해가 2.5% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 현재 조작 중인 캐릭터의 HP가 낮을수록 격투부의 에너지 회복 속도가 빨라진다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 격투부를 소환하면 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 주고, 현재 조작 중인 에이전트가 <color=#2BAD00>이미 상실한 HP의 30%를 회복</color>한다."
+      },
+      "4": {
+        "id": 132040104,
+        "desc": "HP가 20% 이상에서 20% 이하까지 감소할 시 에이전트가 <color=#2BAD00>HP 최대치의 20%에 해당하는 실드를 획득한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 현재 조작 중인 캐릭터의 HP가 낮을수록 격투부의 에너지 회복 속도가 빨라진다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 눌러 격투부를 소환하면 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 주고, 현재 조작 중인 에이전트가 <color=#2BAD00>이미 상실한 HP의 30%를 회복</color>한다."
+      }
+    }
+  },
+  "1320403": {
+    "id": 1320403,
+    "name": "[절망] 재액의 영패",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic009.png",
+    "level": {
+      "1": {
+        "id": 132040301,
+        "desc": "에이전트가 <color=#FFFFFF>[끓는 피 축복]</color>을 획득해 상실한 HP에 기반해 버프를 획득한다. HP를 10% 상실할 때마다 에이전트가 <color=#2BAD00>받는 피해가 2.5% 감소하고</color>, <color=#2BAD00>주는 피해가 10% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 누르면 모든 파티원의 현재 HP를 30% 소모해 격투부를 소환하여 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 준다. 또한 에이전트가 <color=#2BAD00>이미 상실한 HP의 20%만큼 에이전트에게 실드를 제공</color>한다. 처음으로 교전 상태 진입 시, 격투부의 에너지가 최대치까지 채워진다."
+      },
+      "2": {
+        "id": 132040302,
+        "desc": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 <color=#FFFFFF>[끓는 피 증폭]</color>을 획득해 모든 파티원의 <color=#2BAD00>공격력이 50% 증가한다</color>. 지속 시간: 20초",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 누르면 모든 파티원의 현재 HP를 30% 소모해 격투부를 소환하여 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 준다. 또한 에이전트가 <color=#2BAD00>이미 상실한 HP의 20%만큼 에이전트에게 실드를 제공</color>한다. 처음으로 교전 상태 진입 시, 격투부의 에너지가 최대치까지 채워진다."
+      },
+      "3": {
+        "id": 132040303,
+        "desc": "<color=#FFFFFF>[끓는 피 축복]</color>의 효과를 강화하고 HP를 10% 상실할 때마다 에이전트가 <color=#2BAD00>받는 피해 감소 효과가 2.5%에서 5%까지 증가하고</color>, <color=#2BAD00>주는 피해 증가 효과가 10%에서 20%까지 증가한다</color>. <color=#FFFFFF>[「Bangboo」 지원 스킬]</color> 시전 시 <color=#2BAD00>획득하는 실드량이 현재 상실한 HP의 20%에서 30%까지 증가한다</color>. 만약 에이전트의 HP가 20% 미만일 시 HP를 <color=#2BAD00>20%까지 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 누르면 모든 파티원의 현재 HP를 30% 소모해 격투부를 소환하여 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 준다. 또한 에이전트가 <color=#2BAD00>이미 상실한 HP의 20%만큼 에이전트에게 실드를 제공</color>한다. 처음으로 교전 상태 진입 시, 격투부의 에너지가 최대치까지 채워진다."
+      },
+      "4": {
+        "id": 132040304,
+        "desc": "<color=#FFFFFF>[끓는 피 증폭]</color> 기간 동안 HP를 1% 상실할 때마다 에이전트의 <color=#2BAD00>치명타 피해가 1.6% 증가한다</color>. <color=#2BAD00>최대 증가: 120%</color>",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 격투부가 시간에 따라 에너지를 누적한다. 에너지가 충분할 때, 「『Bangboo』 지원 스킬」을 누르면 모든 파티원의 현재 HP를 30% 소모해 격투부를 소환하여 강력한 화염으로 적을 지속적으로 공격해 <color=#FF5521>불 속성 피해</color>를 준다. 또한 에이전트가 <color=#2BAD00>이미 상실한 HP의 20%만큼 에이전트에게 실드를 제공</color>한다. 처음으로 교전 상태 진입 시, 격투부의 에너지가 최대치까지 채워진다."
+      }
+    }
+  },
+  "1320501": {
+    "id": 1320501,
+    "name": "[호시미 미야비] 눈꽃과 쉬어가는 벌",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "desc": "<color=#FFFFFF>[대시 공격: 겨울 벌]</color>을 <color=#FFFFFF>[대시 공격: 겨울 벌·극]</color>으로 교체하고, 스킬 시전 시 호시미 미야비는 <color=#2BAD00>전방으로 돌진</color>하며 적에게 <color=#98EFF0>서리 피해</color>를 준다. 스킬 교체 후, 호시미 미야비가 강하게 넉백 혹은 넉업됐을 때, 경직 기간 동안 「일반 공격」 혹은 「특수 공격」을 누르면 <color=#2BAD00>즉시</color> <color=#FFFFFF>[대시 공격: 겨울 벌·극]</color>을 시전하고, 동시에 <color=#2BAD00>이번에 받은 피해의 70%에 해당하는 HP를 회복하며, 0.5초 동안 무적 효과를 획득한다</color>."
+  },
+  "1320502": {
+    "id": 1320502,
+    "name": "[호시미 미야비] 마음속 춤추는 새",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "desc": "적의 공격을 받을 시, 호시미 미야비는 <color=#2BAD00>자동으로 이번 공격을 회피</color>하고 <color=#FFFFFF>[극한 회피]</color> 및 <color=#FFFFFF>[극한 시야]</color>를 발동한다. <color=#FFFFFF>[극한 시야]</color> 지속 시간: 3초, 자동 회피 효과는 12초 동안 최대 1회 발동한다. 효과 발동 시, 호시미 미야비가 <color=#2BAD00>주는 피해가 80% 증가</color>한다. 지속 시간: 20초"
+  },
+  "1320503": {
+    "id": 1320503,
+    "name": "[호시미 미야비] 꽃 사이의 새",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "desc": "호시미 미야비가 <color=#FFFFFF>[회피 반격: 겨울 참새]</color> 및 <color=#FFFFFF>[빠른 지원: 꽃소식을 알리는 바람]</color> 시전 후, <color=#2BAD00>자동으로 이어서</color> <color=#FFFFFF>[부서진 눈서리]</color>가 파생되며, <color=#2BAD00>폭발 기류로 주변 적을 공격하고, 대량의 그로기 수치를 누적</color>한다. 적을 그로기로 만들면 호시미 미야비가 <color=#FFFFFF>[내리는 서리]</color>를 3pt 획득하고, 타깃의 <color=#2BAD00>그로기 약체화 배율이 75% 증가한다</color>."
+  },
+  "1320601": {
+    "id": 1320601,
+    "name": "[빌리] 폭발성 탄환",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "desc": "<color=#FFFFFF>[일반 공격: 화력 전개]</color>가 <color=#FFFFFF>[일반 공격: 화력 전개·개조]</color>로 교체되고, <color=#2BAD00>사격 빈도를 낮춰 총알의 위력을 높인다</color>. 스킬 시전 시 <color=#2BAD00>바로 무릎쏴 사격에 진입</color>해 <color=#FFFFFF>[핵심 패시브: 안정 사격]</color>을 발동하고, 빌리가 <color=#2BAD00>주는 피해가 추가로 50% 증가</color>한다. 빌리가 이동하거나 대기 모션에 진입 혹은 넉백/넉업되면 버프 효과가 종료된다."
+  },
+  "1320602": {
+    "id": 1320602,
+    "name": "[빌리] 회전 전동 장치",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "desc": "빌리가 <color=#FFFFFF>[강화 특수 스킬]</color>/<color=#FFFFFF>[지원 돌격]</color>/<color=#FFFFFF>[콤보 스킬]</color>/<color=#FFFFFF>[궁극기]</color> 시전 시 <color=#2BAD00>충전을 2/2/4/4스택 획득</color>한다(최대치: 4스택). <color=#FFFFFF>[대시 공격: 별-빛-제-재]</color>에서 주변 넓은 범위 구역에 꿰뚫기 공격 후, <IconMap:Icon_Normal>「일반 공격」을 탭하면 <color=#2BAD00>충전을 1스택 소모</color>해 중복으로 스킬을 시전할 수 있으며, 스킬로 <color=#2BAD00>주는 피해가 150% 증가</color>한다. 효과 발동 시, 빌리의 <color=#2BAD00>치명타 확률이 20% 증가</color>한다. 지속 시간: 10초, 최대 중첩: 2스택, 중복 발동 시 지속 시간이 갱신된다."
+  },
+  "1320603": {
+    "id": 1320603,
+    "name": "[빌리] 신비로운 변신 아이템",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic020.png",
+    "desc": "빌리가 <color=#FFFFFF>[일반 공격]</color> 중 무릎쏴 사격에 진입했을 때, <color=#FFFFFF>[핵심 패시브: 안정 사격]</color>을 발동하고 버프 효과를 1.5초 동안 유지하면, <color=#FFFFFF>[별빛 강림]</color> 상태에 진입하며, 해당 기간 동안 공격이 적에게 명중 시 타깃의 <color=#F0D12B>물리 피해 저항</color>을 <color=#2BAD00>50% 무시</color>하고, 동시에 <color=#2BAD00>지속적으로 데시벨을 획득</color>하며 <color=#2BAD00>20pt/초부터 50pt/초까지</color> 점차 증가해 3초 후 최대치에 도달한다. 자신이 넉백 혹은 넉업되기 전까지 유지된다."
+  },
+  "1320701": {
+    "id": 1320701,
+    "name": "{AWAKEN_1191#[엘렌] 냉랭한 칼날·진화}{NOAWAKEN_1191#[엘렌] 냉랭한 칼날}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "desc": "{AWAKEN_1191#세 번째 <color=#FFFFFF>[일반 공격: 이빨 전지법]</color> 및 <color=#FFFFFF>[빠른 지원]</color> 시전 후에도 자동으로 <color=#FFFFFF>[서리 칼날]</color>을 시전하고 전방 넓은 범위의 적에게 여러 단의 <color=#98EFF0>얼음 속성 피해</color>를 준다. <color=#FFFFFF>[서리 칼날]</color>이 적에게 명중 시 타깃의 <color=#2BAD00>방어력이 30% 감소한다</color>. 지속 시간: 15초. 추가로 <color=#FFFFFF>[서리 칼날]</color> 시전 시 스킬의 <color=#2BAD00>치명타 피해가 25% 증가한다</color>. 최대 중첩: 3스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.}{NOAWAKEN_1191#세 번째 <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[강화 특수 스킬: 샤크나미]</color>, <color=#FFFFFF>[회피 반격: 암초]</color>, <color=#FFFFFF>[빠른 지원]</color>, <color=#FFFFFF>[지원 돌격]</color> 시전 후 <color=#2BAD00>[서리 칼날]을 1개 추가</color>하여 <color=#2BAD00>전방 넓은 범위 내 적</color>에게 <color=#98EFF0>얼음 속성 피해</color>를 주고, 타깃의 <color=#2BAD00>방어력을 30% 감소시킨다</color>. 지속 시간: 15초. 추가로 <color=#FFFFFF>[서리 칼날]</color> 시전 시 스킬의 <color=#2BAD00>치명타 피해가 25% 증가한다</color>. 최대 중첩: 3스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다. 추가로 시전한 <color=#FFFFFF>[서리 칼날]</color>은 기존 스킬 파생에 영향을 주지 않는다.}"
+  },
+  "1320702": {
+    "id": 1320702,
+    "name": "[엘렌] 위험한 베어링",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "desc": "<color=#FFFFFF>[순행]</color> 상태에서 엘렌이 0.5초마다 <color=#FFFFFF>[급랭 충전]</color> 2pt 및 <color=#FFFFFF>[고속 차지]</color> 효과를 획득한다. <color=#FFFFFF>[대시 공격: 살얼음 잠습]</color> 중 엘렌이 시전한 빠른 가위질 혹은 차지 가위질이 적에게 명중 시 <color=#2BAD00>지면에 [얼음 안개]를 생성해</color> 적에게 지속적인 <color=#98EFF0>얼음 속성 피해</color>를 준다. 또한 타깃의 <color=#98EFF0>얼음 속성 피해 저항</color>이 30% 감소한다. 지속 시간: 10초. 엘렌은 <color=#FFFFFF>[얼음 안개]</color>에서 <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 50% 감소한다</color>. <color=#FFFFFF>[얼음 안개]</color>를 벗어난 후 효과는 5초 동안 지속된다."
+  },
+  "1320703": {
+    "id": 1320703,
+    "name": "[엘렌] 포식자의 등지느러미",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "desc": "엘렌은 15초 간격으로 전장 위의 랜덤 적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식을 부착한다. 지속 시간: 15초. <color=#FFFFFF>[강화 특수 스킬]</color>을 시전하거나 <color=#FFFFFF>[대시 공격: 살얼음 잠습]</color>에서 시전한 빠른 가위질 혹은 차지 가위질이 <color=#FFFFFF>[사냥 순찰]</color> 표식이 부여된 적에게 명중 시, 다시 <IconMap:Icon_Normal>「일반 공격」 혹은 <IconMap:Icon_SpecialReady>「특수 공격」을 누르면 <color=#2BAD00>소모 없이, 조건 없이</color> <color=#2BAD00>다시 바로 해당 스킬을 시전</color>할 수 있으며, 스킬의 <color=#2BAD00>치명타 피해가 25% 증가</color>한다. 타깃이 처치된 후 엘렌은 즉시 다음 적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식을 부여한다. <color=#FFFFFF>[급랭 충전]</color> 획득 시, 초과한 <color=#FFFFFF>[급랭 충전]</color> 1pt당 엘렌의 <color=#2BAD00>공격력이 5% 증가</color>한다. 최대 중첩: 9스택, 지속 시간: 10초, 스택 효과의 지속 시간은 하나씩 계산된다."
+  },
+  "1320801": {
+    "id": 1320801,
+    "name": "[츠키시로 야나기] 솟아오르는 달빛",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬: 달빛의 변천]</color>에서 빠른 찌르기 시전 후, 츠키시로 야나기는 공중에 떠 있는 상태로 <color=#2BAD00>지면을 향해 지속적으로 낙뢰 공격</color>을 일으켜 <color=#2EB6FF>전기 속성 피해</color>를 준다. <IconMap:Icon_SpecialReady>「특수 공격」에서 손을 떼거나 다시 탭 혹은 지속 시간 최대치에 도달한 후, 츠키시로 야나기가 <color=#FFFFFF>[강화 특수 스킬: 달빛의 변천]</color> 중의 내려찍기 공격을 시전한다. 낙뢰 공격이 적에게 명중 시, 츠키시로 야나기가 <color=#2BAD00>타깃에게 주는 [혼돈] 피해가 3% 증가한다</color>. 최대 중첩: 20스택, 지속 시간: 6초, 중복 발동 시 지속 시간이 갱신된다. <color=#FFFFFF>[강화 특수 스킬: 달빛의 변천]</color>의 강공격이 적에게 명중 시 츠키시로 야나기에게 HP 최대치의 20%만큼 실드를 제공한다. 지속 시간: 20초, 20초 동안 최대 1회 발동한다."
+  },
+  "1320802": {
+    "id": 1320802,
+    "name": "[츠키시로 야나기] 나풀대는 가무",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "desc": "<color=#FFFFFF>[상현달]</color> 자세에서 다섯 번째 <color=#FFFFFF>[일반 공격]</color> 시전 혹은 <color=#FFFFFF>[하현달]</color> 자세에서 네 번째 <color=#FFFFFF>[일반 공격]</color> 시전 시, <IconMap:Icon_Normal>「일반 공격」을 연타 혹은 홀드하면 스킬의 <color=#2BAD00>지속 시간을 연장</color>하고 중복으로 베기를 시전할 수 있다. 중복 베기가 적에게 명중 시, 츠키시로 야나기가 주는 <color=#2EB6FF>전기 속성 피해</color>가 4% 증가한다. 최대 중첩: 15스택, 지속 시간: 8초, 중복 발동 시 지속 시간이 갱신된다. 중복으로 베기를 시전하는 동안 츠키시로 야나기가 <color=#2BAD00>받는 피해가 40% 감소</color>하고, <color=#FFFFFF>[빠른 변천]</color> 발동 후, <IconMap:Icon_Normal>「일반 공격」을 탭하면 <color=#2BAD00>빠르게 다른 자세의 중복 베기를 이어서 사용</color>할 수 있다."
+  },
+  "1320803": {
+    "id": 1320803,
+    "name": "[츠키시로 야나기] 변천의 반영",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "desc": "<color=#FFFFFF>[특수 스킬: 변천]</color> 시전 시, 츠키시로 야나기가 <color=#2BAD00>충전을 1스택 획득</color>한다(최대치: 3스택). 충전을 3스택 보유했을 때, 츠키시로 야나기가 <color=#FFFFFF>[빠른 변천]</color> 발동 후, <IconMap:Icon_Normal>「일반 공격」을 탭하면 <color=#2BAD00>모든 충전을 소모</color>해 <color=#2BAD00>바로 이어서 [콤보 스킬: 별과 달과 함께]를 시전</color>할 수 있다. 만약 <color=#FFFFFF>[빠른 변천]</color> 시전 기간에 적의 공격을 성공적으로 가드하면 <color=#FFFFFF>[콤보 스킬: 별과 달과 함께]</color>를 이어서 시전할 때 <color=#2BAD00>충전 스택을 소모하지 않고</color>, <color=#FFFFFF>[콤보 스킬: 별과 달과 함께]</color>의 피해가 50% 증가한다."
+  },
+  "1321001": {
+    "id": 1321001,
+    "name": "[동행] 검은 칙령 깃발",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic033.png",
+    "level": {
+      "1": {
+        "id": 132100101,
+        "desc": "조작 중인 캐릭터의 <color=#FFFFFF>[지원 돌격]</color>, <color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[궁극기]</color> 강공격이 적에게 명중하거나 <color=#FFFFFF>[극한 회피]</color> 발동 시, 다음 캐릭터의 <color=#FFFFFF>[추격 지원]</color>을 발동한다. 이때 <IconMap:Icon_Switch>을 누르면 다음 캐릭터가 적을 에워싸고 <color=#FFFFFF>[빠른 지원]</color>을 시전하며 <color=#FFFFFF>[추격 지원]</color>은 현재 조작하는 캐릭터를 교체하지 않으며, 주는 피해는 <color=#FFFFFF>[여진 공격]</color> 피해로 간주된다. 캐릭터가 <color=#FFFFFF>[추격 지원]</color> 시전 시 모든 파티원이 <color=#FFFFFF>[친구]</color>를 1스택 획득한다. 최대 중첩: 5스택, 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다. <color=#FFFFFF>[친구]</color> 스택당 <color=#FFFFFF>[이상]</color> 특성 에이전트의 <color=#2BAD00>이상 마스터리가 20pt 증가하고</color>, <color=#2BAD00>이상 축적 효율이 10% 증가한다</color>. [격파] 특성 에이전트의 <color=#2BAD00>충격력이 4% 증가한다</color>. [강공] 특성 에이전트의 <color=#2BAD00>치명타 확률이 5% 증가하고</color>, <color=#2BAD00>치명타 피해가 10% 증가한다</color>. [지원] 특성 에이전트의 <color=#2BAD00>에너지 획득 효율이 7.5% 증가한다</color>. [방어] 특성 에이전트의 <color=#2BAD00>실드 부여 효율이 10%</color> 증가한다. [명파] 특성 에이전트의 <color=#2BAD00>관입 피해가 7% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원에게 <color=#FFFFFF>[친구]</color>를 3스택 제공한다</color>."
+      },
+      "2": {
+        "id": 132100102,
+        "desc": "조작 중인 캐릭터가 다른 캐릭터의 <color=#FFFFFF>[추격 지원]</color>을 발동했을 때, 짧은 시간 안에 교체 버튼을 누르면 <color=#FFFFFF>[정밀·추격 지원]</color>을 발동해 모든 파티원에게 <color=#FFFFFF>[친구]</color>를 2스택 제공한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원에게 <color=#FFFFFF>[친구]</color>를 3스택 제공한다</color>."
+      },
+      "3": {
+        "id": 132100103,
+        "desc": "<color=#FFFFFF>[친구]</color>의 버프 효과가 <color=#2BAD00>40% 증가하고</color>, <color=#2BAD00>지속 시간이 30초까지 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원에게 <color=#FFFFFF>[친구]</color>를 3스택 제공한다</color>."
+      },
+      "4": {
+        "id": 132100104,
+        "desc": "<color=#FFFFFF>[친구]</color> 스택당 캐릭터의 <color=#2BAD00>공격력이 5% 증가하고</color>, <color=#2BAD00>주는 피해가 10% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원에게 <color=#FFFFFF>[친구]</color>를 3스택 제공한다</color>."
+      }
+    }
+  },
+  "1321002": {
+    "id": 1321002,
+    "name": "[동행] 파군의 종명",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic034.png",
+    "level": {
+      "1": {
+        "id": 132100201,
+        "desc": "조작 중인 캐릭터의 <color=#FFFFFF>[지원 돌격]</color>, <color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[궁극기]</color> 강공격이 적에게 명중하거나 <color=#FFFFFF>[극한 회피]</color> 발동 시, 다음 캐릭터의 <color=#FFFFFF>[추격 지원]</color>을 발동한다. 이때 <IconMap:Icon_Switch>을 탭하면 다음 캐릭터가 적을 에워싸고 <color=#FFFFFF>[빠른 지원]</color>을 시전하며 <color=#FFFFFF>[추격 지원]</color>은 현재 조작 중인 캐릭터를 교체하지 않고, 주는 피해는 <color=#FFFFFF>[여진 공격]</color> 피해로 간주된다. <color=#FFFFFF>[추격 지원]</color>으로 주는 <color=#2BAD00>피해가 200% 증가하고, 그로기 수치가 50% 증가하고, 누적하는 이상 축적치가 100% 증가한다</color>. 모든 파티원이 <color=#FFFFFF>[추격 지원]</color>을 3회 시전할 때마다 다음번 <color=#FFFFFF>[추격 지원]</color> 시전 시 <color=#FFFFFF>[극한 시야]</color>를 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원의 데시벨을 250pt, 에너지를 6pt 회복하고</color>, 파티 내 임의의 캐릭터가 다음번에 <color=#FFFFFF>[추격 지원]</color> 시전 시 <color=#FFFFFF>[콤보 스킬]</color>을 발동해 적을 공격한다. 또한, <color=#FFFFFF>[극한 시야]</color>를 발동한다."
+      },
+      "2": {
+        "id": 132100202,
+        "desc": "모든 파티원의 <color=#FFFFFF>[추격 지원]</color>을 3회 시전할 때마다 다음번 <color=#FFFFFF>[추격 지원]</color> 시전 시, 다음 캐릭터가 <color=#FFFFFF>[콤보 스킬]</color>을 시전해 적을 공격한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원의 데시벨을 250pt, 에너지를 6pt 회복하고</color>, 파티 내 임의의 캐릭터가 다음번에 <color=#FFFFFF>[추격 지원]</color> 시전 시 <color=#FFFFFF>[콤보 스킬]</color>을 발동해 적을 공격한다. 또한, <color=#FFFFFF>[극한 시야]</color>를 발동한다."
+      },
+      "3": {
+        "id": 132100203,
+        "desc": "<color=#FFFFFF>[극한 시야]</color> 내 모든 파티원의 <color=#2BAD00>공격력이 50% 증가하고, 충격력이 40% 증가하고, 이상 장악력이 100pt 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원의 데시벨을 250pt, 에너지를 6pt 회복하고</color>, 파티 내 임의의 캐릭터가 다음번에 <color=#FFFFFF>[추격 지원]</color> 시전 시 <color=#FFFFFF>[콤보 스킬]</color>을 발동해 적을 공격한다. 또한, <color=#FFFFFF>[극한 시야]</color>를 발동한다."
+      },
+      "4": {
+        "id": 132100204,
+        "desc": "모든 파티원의 <color=#FFFFFF>[추격 지원]</color>을 2회 시전할 때마다 다음번 <color=#FFFFFF>[추격 지원]</color> 시전 시, 캐릭터가 <color=#FFFFFF>[콤보 스킬]</color>을 시전해 적을 공격하고, <color=#FFFFFF>[극한 시야]</color>를 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[「Bangboo」 지원 스킬]</color>: 럭키부는 시간이 지남에 따라 에너지를 축적하며, 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시 럭키부가 추가로 에너지를 축적한다. 해당 효과는 3초 동안 최대 1회 발동한다. 에너지가 충분한 상태에서 「『Bangboo』 지원 스킬」을 눌러 럭키부를 소환하면, 대량의 데니를 소환하고 적을 지속 공격해 <color=#F0D12B>물리 피해</color>를 주며, <color=#2BAD00>모든 파티원의 데시벨을 250pt, 에너지를 6pt 회복하고</color>, 파티 내 임의의 캐릭터가 다음번에 <color=#FFFFFF>[추격 지원]</color> 시전 시 <color=#FFFFFF>[콤보 스킬]</color>을 발동해 적을 공격한다. 또한, <color=#FFFFFF>[극한 시야]</color>를 발동한다."
+      }
+    }
+  },
+  "1322201": {
+    "id": 1322201,
+    "name": "[아스트라 야오] 찬란한 순간",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "desc": "아스트라 야오가 에너지를 25pt 누적 소모할 때마다 <color=#FFFFFF>[별빛]</color>을 1스택 획득한다. 최대 중첩: 3스택. <color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 <IconMap:Icon_Normal>을 홀드하면 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color>을 시전하고 지속적으로 에너지 레이저를 유도해 적을 공격할 수 있다. 스킬 시전 시 <color=#FFFFFF>[별빛]</color>을 소모하며 <color=#FFFFFF>[별빛]</color> 스택당 스킬의 <color=#2BAD00>지속 시간이 1초 연장된다</color>. 스킬을 시전하는 동안 <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 추가로 20% 감소한다</color>. 스킬이 적에게 명중 시 <color=#2BAD00>타깃의 방어력이 40% 감소한다</color>. 지속 시간: 15초. <color=#FFFFFF>[별빛]</color>을 3스택 보유한 상태에서 아스트라 야오로 다시 교체 시, 자동으로 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color>을 이어서 시전한다."
+  },
+  "1322202": {
+    "id": 1322202,
+    "name": "[아스트라 야오] 공동 교향곡",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "desc": "아스트라 야오가 에너지를 25pt 누적 소모할 때마다 <color=#FFFFFF>[별빛]</color>을 1스택 획득한다. 최대 중첩: 3스택. 보유한 <color=#FFFFFF>[별빛]</color> 1스택당 <color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 방출 혹은 추가 방출한 <color=#2BAD00><color=#FFFFFF>[트레몰로]</color>로 주는 피해가 15% 증가한다</color>. <IconMap:Icon_Normal>을 홀드하여 <color=#FFFFFF>[일반 공격: 피날레]</color> 혹은 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color> 시전 시 <color=#FFFFFF>[별빛]</color>을 소모하며 <color=#FFFFFF>[별빛]</color> 스택당 <color=#2BAD00>스킬로 주는 피해가 15% 증가하고</color>, 아스트라 야오가 <color=#2BAD00>에너지를 4pt 회복한다</color>. 아스트라 야오가 시전한 <color=#FFFFFF>[일반 공격: 간주]</color>가 적에게 명중 시 추가로 에너지를 25pt 소모하고, <color=#FFFFFF>[일반 공격: 코러스]</color>를 시전해 적에게 명중 시 <color=#2BAD00>추가로 에너지를 4pt 회복한다</color>."
+  },
+  "1322203": {
+    "id": 1322203,
+    "name": "[아스트라 야오] 화음의 메아리",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "desc": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 <color=#2BAD00>모든 파티원의 치명타 확률이 20% 증가한다</color>. 만약 치명타 확률이 100%를 초과하면 초과한 치명타 확률 1%당 <color=#2BAD00>치명타 피해가 2% 증가한다</color>. 최대 100%를 초과하지 않는다. 현재 조작 중인 캐릭터가 시전한 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 아스트라 야오가 <color=#2BAD00>에너지를 1pt 회복하고</color>, <color=#2BAD00>추가로 <color=#FFFFFF>[트레몰로]</color>를 방출해 공격한다</color>. 에너지 회복 효과는 1초 동안 최대 1회 발동한다."
+  },
+  "1322301": {
+    "id": 1322301,
+    "name": "[이블린] 가연성 도색",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "desc": "이블린이 <color=#FFFFFF>[화승점]</color>을 소모해 시전한 <color=#FFFFFF>[콤보 스킬: 달빛타래·올가미]</color>가 <color=#FFFFFF>[콤보 스킬: 달빛타래·얽힘]</color>으로 대체되고, 스킬 시간이 대폭 단축된다. 이블린이 시전한 <color=#FFFFFF>[콤보 스킬]</color>이 적에게 명중 시 <color=#2BAD00>스킬로 주는 피해가 80% 증가한다</color>."
+  },
+  "1322302": {
+    "id": 1322302,
+    "name": "[이블린] 휴대용 뇌관",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "desc": "<color=#FFFFFF>[뒤엉킨 금제]</color> 종료 시 이블린이 <color=#FFFFFF>[기폭 준비 시간]</color>에 진입한다. 지속 시간: 20초, 해당 기간 동안 시전하는 다음번 <color=#FFFFFF>[대시 공격: 잠행 습격]</color>이 <color=#FFFFFF>[대시 공격: 잠행 폭파]</color>로 대체된다. <color=#FFFFFF>[대시 공격: 잠행 폭파]</color>는 <color=#2BAD00>[콤보 스킬]로 간주된다</color>. 이블린이 <color=#FFFFFF>[일반 공격: 교살식]</color> 시전 시 <color=#2BAD00>[뒤엉킨 금제]</color>가 종료된다."
+  },
+  "1322303": {
+    "id": 1322303,
+    "name": "[이블린] 긴급 프로토콜",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "desc": "이블린이 정면 공격을 받고 피격 스턴에 진입하기 직전에 <color=#FFFFFF>[지원 포인트]</color>를 소모하고 <color=#2BAD00>자동으로 [패링 지원]을 시전해</color> 적의 공격을 가드한다. 또한 <color=#FFFFFF>[지원 돌격: 궤적 교란]</color>이 이어서 파생될 수 있다. 이블린이 <color=#FFFFFF>[패링 지원]</color> 시전 시 자신의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 최대 중첩: 2스택, 지속 시간: 20초, 각 스택의 지속 시간은 따로 계산된다."
+  },
+  "1322401": {
+    "id": 1322401,
+    "name": "[제인] 괴이한 갑옷",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "desc": "<color=#FFFFFF>[일반 공격: 살코 점프]</color>의 <color=#2BAD00>지속 공격 시간이 대폭 증가하고</color>, 피격 직전에 종결의 일격을 시전해 <color=#FFFFFF>[극한 회피]</color>를 발동할 수 있다. 지속 공격 시간이 최대치에 도달하거나 종결의 일격으로 <color=#FFFFFF>[극한 회피]</color> 발동 시, 종결의 일격이 <color=#FFFFFF>[살코 점프·비상]</color>으로 강화된다. 해당 스킬 시전 시 자신의 <color=#F0D12B>물리 이상 축적 효율</color>이 <color=#2BAD00>50% 증가한다</color>. 지속 시간: 10초"
+  },
+  "1322402": {
+    "id": 1322402,
+    "name": "[제인] 들끓는 사냥 본능",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "desc": "<color=#FFFFFF>[극한 회피]</color> 발동 혹은 <color=#FFFFFF>[패링 지원]</color> 시전 시 획득하는 <color=#FFFFFF>[열광적 몰입]</color>이 <color=#2BAD00>대폭 증가하고</color>, <color=#FFFFFF>[열광]</color> 상태가 <color=#FFFFFF>[열광 과부하]</color> 상태로 대체된다. 해당 상태에서 제인의 <color=#2BAD00>공격력이 추가로 35% 증가하고</color>, <color=#FFFFFF>[열광적 몰입]</color>은 시간이 지남에 따라 자동으로 감소하며, 공격이 적에게 명중해도 <color=#FFFFFF>[열광적 몰입]</color>은 <color=#2BAD00>소모되지 않는다</color>."
+  },
+  "1322403": {
+    "id": 1322403,
+    "name": "[제인] 날카로운 독니",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "desc": "<color=#FFFFFF>[열광]</color> 혹은 <color=#FFFFFF>[열광 과부하]</color> 상태에서 <color=#FFFFFF>[강화 특수 스킬: 공중 도약]</color>이 <color=#FFFFFF>[강화 특수 스킬: 공중 도약-강습]</color>으로 강화된다. 해당 스킬 시전 시 제인이 다시 <color=#FFFFFF>[열광]</color> 혹은 <color=#FFFFFF>[열광 과부하]</color> 상태에 진입하며, 해당 스킬이 적에게 명중하면 타깃의 <color=#2BAD00>모든 속성 이상 축적 저항이 40% 감소한다</color>. 지속 시간: 15초"
+  },
+  "1322501": {
+    "id": 1322501,
+    "name": "[코린] 톱날 사용 가이드",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "desc": "<color=#FFFFFF>[대시 공격: [끊기]]</color>가 <color=#FFFFFF>[대시 공격: [끊기] 개조]</color>로 교체되며, [일반 공격]<IconMap:Icon_Normal> 홀드 시 속행 형태를 계속 유지할 수 있다. 전기톱 연속 베기가 적에게 30회 명중하거나 버튼에서 손을 떼면 종료된다."
+  },
+  "1322502": {
+    "id": 1322502,
+    "name": "[코린] 과부하 디스크",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬]</color>을 시전하는 동안 <color=#FFFFFF>[특수 공격]</color><IconMap:Icon_SpecialReady>을 홀드해 적을 0.5초 넘게 벨 시 <color=#FFFFFF>[오버클럭 상태]</color>를 발동하고 <color=#2BAD00>지속적으로 적을 모으며</color>, 베기가 적에게 10회 명중 시 <color=#FFFFFF>[오버클럭 과부하]</color>를 발동해 <color=#2BAD00>추가로 코린 공격력의 400%</color>에 해당하는 <color=#F0D12B>물리 피해</color>를 1회 준다."
+  },
+  "1322503": {
+    "id": 1322503,
+    "name": "[코린] 특수 송풍기",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic032.png",
+    "desc": "첫 번째, 두 번째, 세 번째 <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[대시 공격]</color>, <color=#FFFFFF>[회피 반격]</color> 혹은 <color=#FFFFFF>[빠른 지원]</color>을 시전하는 동안 [일반 공격]<IconMap:Icon_Normal>을 연타 혹은 홀드하면 <color=#2BAD00>바로 네 번째 [일반 공격]</color>을 시전할 수 있으며, 전방에 <color=#2BAD00>고속 사이클론을 날려 적을 벨 수 있다</color>."
+  },
+  "1360101": {
+    "id": 1360101,
+    "name": "[강공: 절단] 명화의 화염",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 오피 & 「도깨비불」은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 오피 & 「도깨비불」을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 파티 내 모든 에이전트가 <color=#FFFFFF>[정조준] 효과를 획득</color>한다. 지속 시간: 15초, <color=#FFFFFF>[정조준]</color> 효과를 보유한 에이전트는 <color=#2BAD00>공격력이 500pt 증가하고, 공격 시 적의 방어력을 20% 무시한다</color>.",
+    "level": {
+      "1": {
+        "id": 136010101,
+        "desc": "임의의 <color=#FFFFFF>[조력 지원 스킬]</color> 종료 후 에이전트가 <color=#FFFFFF>[궁극기]</color>로 재입장한다. 20초 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 오피 & 「도깨비불」은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 오피 & 「도깨비불」을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 파티 내 모든 에이전트가 <color=#FFFFFF>[정조준] 효과를 획득</color>한다. 지속 시간: 15초, <color=#FFFFFF>[정조준]</color> 효과를 보유한 에이전트는 <color=#2BAD00>공격력이 500pt 증가하고, 공격 시 적의 방어력을 20% 무시한다</color>."
+      },
+      "2": {
+        "id": 136010102,
+        "desc": "<color=#FFFFFF>[정조준]</color> 효과가 추가로 <color=#2BAD00>공격력을 675pt 제공하고, 적의 방어력을 추가로 30% 무시한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 오피 & 「도깨비불」은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 오피 & 「도깨비불」을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 파티 내 모든 에이전트가 <color=#FFFFFF>[정조준] 효과를 획득</color>한다. 지속 시간: 15초, <color=#FFFFFF>[정조준]</color> 효과를 보유한 에이전트는 <color=#2BAD00>공격력이 500pt 증가하고, 공격 시 적의 방어력을 20% 무시한다</color>."
+      },
+      "3": {
+        "id": 136010103,
+        "desc": "에이전트 공격으로 치명타가 발생하면 <color=#2BAD00>치명타 피해가 40% 증가하고, 주는 피해가 25% 증가한다</color>. 지속 시간: 6초, 중복 발동 시 지속 시간이 갱신된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 오피 & 「도깨비불」은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 오피 & 「도깨비불」을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 파티 내 모든 에이전트가 <color=#FFFFFF>[정조준] 효과를 획득</color>한다. 지속 시간: 15초, <color=#FFFFFF>[정조준]</color> 효과를 보유한 에이전트는 <color=#2BAD00>공격력이 500pt 증가하고, 공격 시 적의 방어력을 20% 무시한다</color>."
+      },
+      "4": {
+        "id": 136010104,
+        "desc": "<color=#FFFFFF>[정조준]</color> 기간에 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>/<color=#FFFFFF>[콤보 스킬]</color>/<color=#FFFFFF>[궁극기]</color> 시전 시 <color=#FFFFFF>[정조준]</color>의 지속 시간이 각각 <color=#2BAD00>3/3/6초 연장된다</color>. 최대 추가 연장: 30초",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 오피 & 「도깨비불」은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 오피 & 「도깨비불」을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 파티 내 모든 에이전트가 <color=#FFFFFF>[정조준] 효과를 획득</color>한다. 지속 시간: 15초, <color=#FFFFFF>[정조준]</color> 효과를 보유한 에이전트는 <color=#2BAD00>공격력이 500pt 증가하고, 공격 시 적의 방어력을 20% 무시한다</color>."
+      }
+    }
+  },
+  "1360102": {
+    "id": 1360102,
+    "name": "[강공: 절단] 가면무도회",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 휴고는 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 휴고를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하며, 해당 스킬은 반드시 치명타가 발생하고, 강공격이 적 명중 시 <color=#FFFFFF>[결산] 효과를 발동</color>하여 일반 적/정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 100%/20%/10%에 해당하는 피해를 준다</color>. 휴고의 <color=#FFFFFF>[조력 지원 스킬]</color>이 그로기 상태의 적에게 명중하면 적의 그로기 상태가 종료되며, 남은 그로기 시간에 따라 정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 일정 비율만큼</color> 최대 20%/10%의 추가 피해를 준다.",
+    "level": {
+      "1": {
+        "id": 136010201,
+        "desc": "에이전트 혹은 조력 캐릭터의 공격으로 치명타 발생 시 <color=#2BAD00>HP가 HP 최대치의 80%/40%/20% 미만인 일반 적/정예 적/보스 적을 즉시 처치</color>할 수 있다. 6초 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 휴고는 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 휴고를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하며, 해당 스킬은 반드시 치명타가 발생하고, 강공격이 적 명중 시 <color=#FFFFFF>[결산] 효과를 발동</color>하여 일반 적/정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 100%/20%/10%에 해당하는 피해를 준다</color>. 휴고의 <color=#FFFFFF>[조력 지원 스킬]</color>이 그로기 상태의 적에게 명중하면 적의 그로기 상태가 종료되며, 남은 그로기 시간에 따라 정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 일정 비율만큼</color> 최대 20%/10%의 추가 피해를 준다."
+      },
+      "2": {
+        "id": 136010202,
+        "desc": "에이전트가 일반 적/정예 적/보스 적을 그로기 상태로 만들면 <color=#2BAD00>휴고의 [조력 지원 스킬] 에너지를 25%/63%/100% 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 휴고는 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 휴고를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하며, 해당 스킬은 반드시 치명타가 발생하고, 강공격이 적 명중 시 <color=#FFFFFF>[결산] 효과를 발동</color>하여 일반 적/정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 100%/20%/10%에 해당하는 피해를 준다</color>. 휴고의 <color=#FFFFFF>[조력 지원 스킬]</color>이 그로기 상태의 적에게 명중하면 적의 그로기 상태가 종료되며, 남은 그로기 시간에 따라 정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 일정 비율만큼</color> 최대 20%/10%의 추가 피해를 준다."
+      },
+      "3": {
+        "id": 136010203,
+        "desc": "<color=#FFFFFF>[조력 지원 스킬]</color> 시전 시 파티 내 모든 에이전트가 <color=#2BAD00>에너지를 30pt 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 휴고는 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 휴고를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하며, 해당 스킬은 반드시 치명타가 발생하고, 강공격이 적 명중 시 <color=#FFFFFF>[결산] 효과를 발동</color>하여 일반 적/정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 100%/20%/10%에 해당하는 피해를 준다</color>. 휴고의 <color=#FFFFFF>[조력 지원 스킬]</color>이 그로기 상태의 적에게 명중하면 적의 그로기 상태가 종료되며, 남은 그로기 시간에 따라 정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 일정 비율만큼</color> 최대 20%/10%의 추가 피해를 준다."
+      },
+      "4": {
+        "id": 136010204,
+        "desc": "정예 혹은 보스 적을 처치할 때마다 <color=#FFFFFF>[강화]</color> 1스택을 획득한다. 보유한 <color=#FFFFFF>[강화]</color> 효과 1스택당 <color=#FFFFFF>[조력 지원 스킬]</color>의 <color=#FFFFFF>[결산]</color> 효과가 보스 적에게 추가로 <color=#2BAD00>HP 최대치의 2%에 해당하는 피해를 준다</color>. 해당 업그레이드 효과 획득 전에 처치한 보스 적과 정예 적도 해당 업그레이드 효과 획득 시 <color=#FFFFFF>[강화]</color> 스택에 따라 계산된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 휴고는 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 휴고를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하며, 해당 스킬은 반드시 치명타가 발생하고, 강공격이 적 명중 시 <color=#FFFFFF>[결산] 효과를 발동</color>하여 일반 적/정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 100%/20%/10%에 해당하는 피해를 준다</color>. 휴고의 <color=#FFFFFF>[조력 지원 스킬]</color>이 그로기 상태의 적에게 명중하면 적의 그로기 상태가 종료되며, 남은 그로기 시간에 따라 정예 적/보스 적에게 <color=#2BAD00>해당 적 HP 최대치의 일정 비율만큼</color> 최대 20%/10%의 추가 피해를 준다."
+      }
+    }
+  },
+  "1360103": {
+    "id": 1360103,
+    "name": "[이상: 부가] 잔 속의 빛",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 버니스는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 버니스를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[열상]</color> 효과를 부여한다. <color=#FFFFFF>[열상]</color> 효과를 보유한 적은 <color=#2BAD00>모든 속성 축적 저항이 42% 감소</color>한다. 지속 시간: 40초",
+    "level": {
+      "1": {
+        "id": 136010301,
+        "desc": "임의의 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>/<color=#FFFFFF>[궁극기]</color>를 시전해 속성 이상 상태인 적을 명중하면 <color=#FFFFFF>[극성 혼돈]</color>을 발동해 타깃에게 <color=#2BAD00>기존 [혼돈] 효과 50%만큼의 피해를 준다</color>. 3초 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 버니스는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 버니스를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[열상]</color> 효과를 부여한다. <color=#FFFFFF>[열상]</color> 효과를 보유한 적은 <color=#2BAD00>모든 속성 축적 저항이 42% 감소</color>한다. 지속 시간: 40초"
+      },
+      "2": {
+        "id": 136010302,
+        "desc": "버니스가 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전하면 파티 내 모든 에이전트가 <color=#FFFFFF>[특제 연료]</color> 상태를 획득한다. <color=#FFFFFF>[특제 연료]</color> 기간 동안 에이전트가 부여한 <color=#FFFFFF>[혼돈]</color> 효과의 <color=#2BAD00>피해가 100% 증가한다</color>. <color=#FFFFFF>[특제 연료]</color> 상태 지속 시간: 15초",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 버니스는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 버니스를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[열상]</color> 효과를 부여한다. <color=#FFFFFF>[열상]</color> 효과를 보유한 적은 <color=#2BAD00>모든 속성 축적 저항이 42% 감소</color>한다. 지속 시간: 40초"
+      },
+      "3": {
+        "id": 136010303,
+        "desc": "임의의 에이전트가 <color=#FFFFFF>[혼돈]</color> 효과를 부여하면 즉시 <color=#2BAD00>적의 그로기 수치를 10% 누적한다</color>. 6초 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 버니스는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 버니스를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[열상]</color> 효과를 부여한다. <color=#FFFFFF>[열상]</color> 효과를 보유한 적은 <color=#2BAD00>모든 속성 축적 저항이 42% 감소</color>한다. 지속 시간: 40초"
+      },
+      "4": {
+        "id": 136010304,
+        "desc": "보스 적을 그로기 상태로 만들면 파티 내 모든 에이전트가 <color=#FFFFFF>[조력 지원 스킬]</color>의 <color=#FFFFFF>[특제 연료]</color> 상태를 획득하며, <color=#FFFFFF>[특제 연료]</color> 상태에서는 에이전트의 <color=#2BAD00>이상 마스터리가 90pt 증가하고, 이상 장악력이 80pt 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 버니스는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 버니스를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[열상]</color> 효과를 부여한다. <color=#FFFFFF>[열상]</color> 효과를 보유한 적은 <color=#2BAD00>모든 속성 축적 저항이 42% 감소</color>한다. 지속 시간: 40초"
+      }
+    }
+  },
+  "1360104": {
+    "id": 1360104,
+    "name": "[이상: 부가] 흩날리는 눈발",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 비비안은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 비비안을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 속성 이상 상태의 적 명중 시, 해당 적에게 <color=#FFFFFF>[난개]</color> 효과를 부여해 <color=#2BAD00>속성 이상 피해를 추가로 1회 결산</color>한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>이다.",
+    "level": {
+      "1": {
+        "id": 136010401,
+        "desc": "파티 내 모든 에이전트 및 조력 캐릭터의 <color=#2BAD00>이상 마스터리가 75pt 증가하고, 주는 속성 이상 피해가 30% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 비비안은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 비비안을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 속성 이상 상태의 적 명중 시, 해당 적에게 <color=#FFFFFF>[난개]</color> 효과를 부여해 <color=#2BAD00>속성 이상 피해를 추가로 1회 결산</color>한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>이다."
+      },
+      "2": {
+        "id": 136010402,
+        "desc": "임의의 에이전트가 속성 이상 발동 시, 비비안이 <color=#2BAD00>[조력 지원 스킬] 충전을 30pt 획득한다</color>. 6초 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 비비안은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 비비안을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 속성 이상 상태의 적 명중 시, 해당 적에게 <color=#FFFFFF>[난개]</color> 효과를 부여해 <color=#2BAD00>속성 이상 피해를 추가로 1회 결산</color>한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>이다."
+      },
+      "3": {
+        "id": 136010403,
+        "desc": "파티 내 모든 에이전트 혹은 조력 캐릭터가 <color=#FFFFFF>[난개]</color> 효과 발동 시, 파티 내 모든 에이전트의 <color=#2BAD00>관통률이 20% 증가하고, 주는 피해가 25% 증가한다</color>. 지속 시간: 30초",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 비비안은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 비비안을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 속성 이상 상태의 적 명중 시, 해당 적에게 <color=#FFFFFF>[난개]</color> 효과를 부여해 <color=#2BAD00>속성 이상 피해를 추가로 1회 결산</color>한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>이다."
+      },
+      "4": {
+        "id": 136010404,
+        "desc": "비비안이 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전해 주는 <color=#FFFFFF>[난개]</color> 효과의 <color=#2BAD00>피해 비율이 기존의 2배로 증가하고, 타깃의 모든 속성 피해 저항을 11% 무시한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 비비안은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 비비안을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 속성 이상 상태의 적 명중 시, 해당 적에게 <color=#FFFFFF>[난개]</color> 효과를 부여해 <color=#2BAD00>속성 이상 피해를 추가로 1회 결산</color>한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>이다."
+      }
+    }
+  },
+  "1360105": {
+    "id": 1360105,
+    "name": "[격파: 충격] 일격 필승",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 라이터는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 라이터를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[궤멸]</color> 효과를 부여한다. <color=#FFFFFF>[궤멸]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 후 그로기 시간이 3초 연장되고</color>, 그로기 상태에서 회복되면 <color=#FFFFFF>[궤멸]</color> 효과가 종료된다. 라이터의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>.",
+    "level": {
+      "1": {
+        "id": 136010501,
+        "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>이 적 명중 시, 일반/정예/보스 적에게 바로 <color=#2BAD00>누적되는 그로기 수치가 100%/40%/20% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 라이터는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 라이터를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[궤멸]</color> 효과를 부여한다. <color=#FFFFFF>[궤멸]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 후 그로기 시간이 3초 연장되고</color>, 그로기 상태에서 회복되면 <color=#FFFFFF>[궤멸]</color> 효과가 종료된다. 라이터의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "2": {
+        "id": 136010502,
+        "desc": "<color=#FFFFFF>[궤멸]</color> 효과를 보유한 적의 <color=#2BAD00>모든 속성 저항이 30% 감소한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 라이터는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 라이터를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[궤멸]</color> 효과를 부여한다. <color=#FFFFFF>[궤멸]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 후 그로기 시간이 3초 연장되고</color>, 그로기 상태에서 회복되면 <color=#FFFFFF>[궤멸]</color> 효과가 종료된다. 라이터의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "3": {
+        "id": 136010503,
+        "desc": "적이 그로기 상태가 되면 <color=#FFFFFF>[취약]</color> 효과 1스택을 획득하며, 파티 내 모든 에이전트와 조력 캐릭터가 해당 적에게 <color=#2BAD00>그로기 지속 시간 동안 주는 피해가 50% 증가한다</color>. <color=#FFFFFF>[취약]</color> 효과는 동일한 적에게 최대 3스택까지 중첩된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 라이터는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 라이터를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[궤멸]</color> 효과를 부여한다. <color=#FFFFFF>[궤멸]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 후 그로기 시간이 3초 연장되고</color>, 그로기 상태에서 회복되면 <color=#FFFFFF>[궤멸]</color> 효과가 종료된다. 라이터의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "4": {
+        "id": 136010504,
+        "desc": "<color=#FFFFFF>[궤멸]</color> 효과를 보유한 일반/정예/보스 적은 그로기 종료 후 <color=#2BAD00>그로기 수치를 100%/40%/20% 누적한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 라이터는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 라이터를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[궤멸]</color> 효과를 부여한다. <color=#FFFFFF>[궤멸]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 후 그로기 시간이 3초 연장되고</color>, 그로기 상태에서 회복되면 <color=#FFFFFF>[궤멸]</color> 효과가 종료된다. 라이터의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      }
+    }
+  },
+  "1360106": {
+    "id": 1360106,
+    "name": "[격파: 충격] 유명의 관통",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 「트리거」는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 「트리거」를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[꿰뚫기]</color> 효과를 부여한다. <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 약체화 배율이 20% 증가한다</color>. 그로기 종료 시 해당 <color=#FFFFFF>[꿰뚫기]</color> 효과는 종료된다. 「트리거」의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>.",
+    "level": {
+      "1": {
+        "id": 136010601,
+        "desc": "에이전트가 보스 적을 그로기 상태로 만들면 모든 파티원이 <color=#2BAD00>에너지 48pt, 기운 60pt, 예리 48pt, 데시벨 800pt를 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 「트리거」는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 「트리거」를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[꿰뚫기]</color> 효과를 부여한다. <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 약체화 배율이 20% 증가한다</color>. 그로기 종료 시 해당 <color=#FFFFFF>[꿰뚫기]</color> 효과는 종료된다. 「트리거」의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "2": {
+        "id": 136010602,
+        "desc": "에이전트가 <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적 명중 시 <color=#2BAD00>해당 적의 모든 속성 저항을 30% 무시한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 「트리거」는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 「트리거」를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[꿰뚫기]</color> 효과를 부여한다. <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 약체화 배율이 20% 증가한다</color>. 그로기 종료 시 해당 <color=#FFFFFF>[꿰뚫기]</color> 효과는 종료된다. 「트리거」의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "3": {
+        "id": 136010603,
+        "desc": "에이전트 혹은 조력 캐릭터가 적을 그로기 상태로 만들면, 적의 <color=#2BAD00>그로기 약체화 배율이 75% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 「트리거」는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 「트리거」를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[꿰뚫기]</color> 효과를 부여한다. <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 약체화 배율이 20% 증가한다</color>. 그로기 종료 시 해당 <color=#FFFFFF>[꿰뚫기]</color> 효과는 종료된다. 「트리거」의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      },
+      "4": {
+        "id": 136010604,
+        "desc": "<color=#FFFFFF>[명파]</color> 특성 이외 에이전트가 <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적 명중 시 <color=#2BAD00>해당 적의 방어력을 40% 무시한다</color>. <color=#FFFFFF>[명파]</color> 특성 에이전트가 <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적 명중 시 <color=#2BAD00>관입 피해가 30% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 「트리거」는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 「트리거」를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 적 명중 시 해당 적에게 <color=#FFFFFF>[꿰뚫기]</color> 효과를 부여한다. <color=#FFFFFF>[꿰뚫기]</color> 효과를 보유한 적은 <color=#2BAD00>그로기 약체화 배율이 20% 증가한다</color>. 그로기 종료 시 해당 <color=#FFFFFF>[꿰뚫기]</color> 효과는 종료된다. 「트리거」의 <color=#FFFFFF>[조력 지원 스킬]</color>이 일반 적/정예 적/보스 적에게 명중 시 <color=#2BAD00>그로기 수치를 즉시 100%/30%/15% 누적한다</color>."
+      }
+    }
+  },
+  "1360107": {
+    "id": 1360107,
+    "name": "[지원: 포화] 우아한 신조",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 리나는 시간이 지나면서 에너지를 축적하지 않지만, 파티 내 임의의 에이전트가 에너지/기운/예리를 소모하면 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 리나를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color>에 있는 동안 <color=#2BAD00>파티 내 모든 에이전트가 주는 피해가 70% 증가한다</color>. 지속 시간: 10초",
+    "level": {
+      "1": {
+        "id": 136010701,
+        "desc": "교전 상태 진입 시, 파티 내 모든 에이전트가 <color=#2BAD00>에너지 52pt/기운 65pt/예리 52pt를 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 리나는 시간이 지나면서 에너지를 축적하지 않지만, 파티 내 임의의 에이전트가 에너지/기운/예리를 소모하면 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 리나를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color>에 있는 동안 <color=#2BAD00>파티 내 모든 에이전트가 주는 피해가 70% 증가한다</color>. 지속 시간: 10초"
+      },
+      "2": {
+        "id": 136010702,
+        "desc": "리나가 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전하여 진입한 <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 현재 조작 중인 캐릭터가 <color=#2BAD00>1초마다 에너지 8pt, 기운 10pt 혹은 예리 8pt를 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 리나는 시간이 지나면서 에너지를 축적하지 않지만, 파티 내 임의의 에이전트가 에너지/기운/예리를 소모하면 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 리나를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color>에 있는 동안 <color=#2BAD00>파티 내 모든 에이전트가 주는 피해가 70% 증가한다</color>. 지속 시간: 10초"
+      },
+      "3": {
+        "id": 136010703,
+        "desc": "파티 내 모든 에이전트가 <color=#FFFFFF>[궁극기]</color> 시전 시 <color=#2BAD00>필요한 데시벨이 1800pt까지 감소한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 리나는 시간이 지나면서 에너지를 축적하지 않지만, 파티 내 임의의 에이전트가 에너지/기운/예리를 소모하면 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 리나를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color>에 있는 동안 <color=#2BAD00>파티 내 모든 에이전트가 주는 피해가 70% 증가한다</color>. 지속 시간: 10초"
+      },
+      "4": {
+        "id": 136010704,
+        "desc": "리나가 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전하여 진입한 <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 에이전트가 <color=#FFFFFF>[궁극기]</color>를 시전하면 해당 <color=#FFFFFF>[극한 시야]</color> <color=#2BAD00>지속 시간이 2초 연장되며</color>, 동일한 <color=#FFFFFF>[극한 시야]</color> 동안 최대 3회 연장된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 리나는 시간이 지나면서 에너지를 축적하지 않지만, 파티 내 임의의 에이전트가 에너지/기운/예리를 소모하면 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 리나를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color>에 있는 동안 <color=#2BAD00>파티 내 모든 에이전트가 주는 피해가 70% 증가한다</color>. 지속 시간: 10초"
+      }
+    }
+  },
+  "1360108": {
+    "id": 1360108,
+    "name": "[지원: 포화] 부자 되는 법",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 니콜은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 니콜을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 10초 동안 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 파티 내 모든 에이전트가 <color=#2BAD00>적의 방어력을 50% 무시한다</color>.",
+    "level": {
+      "1": {
+        "id": 136010801,
+        "desc": "임의의 <color=#FFFFFF>[조력 지원 스킬]</color> 종료 후, 에이전트가 <color=#FFFFFF>[콤보 스킬]</color>로 출전하며, 파티 내 모든 에이전트가 시전하는 다음 3회의 <color=#FFFFFF>[빠른 지원]</color>이 <color=#FFFFFF>[콤보 스킬]</color>로 업그레이드된다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 니콜은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 니콜을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 10초 동안 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 파티 내 모든 에이전트가 <color=#2BAD00>적의 방어력을 50% 무시한다</color>."
+      },
+      "2": {
+        "id": 136010802,
+        "desc": "니콜이 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전하여 진입한 <color=#FFFFFF>[극한 시야]</color> 기간 동안, 3초마다 <color=#FFFFFF>[빠른 지원]</color>이 1회 발동한다. <color=#2BAD00>콤보 스킬로 주는 피해가 80% 증가한다.</color>",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 니콜은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 니콜을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 10초 동안 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 파티 내 모든 에이전트가 <color=#2BAD00>적의 방어력을 50% 무시한다</color>."
+      },
+      "3": {
+        "id": 136010803,
+        "desc": "에이전트가 <color=#FFFFFF>[콤보 스킬]</color> 시전 시 모든 파티원이 <color=#2BAD00>데시벨을 150pt 획득하며</color>, <color=#FFFFFF>[궁극기]</color> 시전 시 주는 피해가 추가로 <color=#2BAD00>방어력을 20% 무시한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 니콜은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 니콜을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 10초 동안 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 파티 내 모든 에이전트가 <color=#2BAD00>적의 방어력을 50% 무시한다</color>."
+      },
+      "4": {
+        "id": 136010804,
+        "desc": "니콜이 <color=#FFFFFF>[조력 지원 스킬]</color>을 시전하여 진입한 <color=#FFFFFF>[극한 시야]</color> 기간 동안, 에이전트가 <color=#FFFFFF>[콤보 스킬]</color>을 1회 시전할 때마다 파티 내 모든 에이전트가 <color=#FFFFFF>[충전]</color>을 1스택 획득한다. 최대 중첩: 5스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다. <color=#FFFFFF>[충전]</color> 스택마다 <color=#FFFFFF>[궁극기]</color>가 추가로 <color=#2BAD00>20%의 피해를 준다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 니콜은 시간이 지나면서 에너지를 축적한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 니콜을 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고 10초 동안 <color=#FFFFFF>[극한 시야]</color>에 진입한다. <color=#FFFFFF>[극한 시야]</color> 지속 기간 동안 파티 내 모든 에이전트가 <color=#2BAD00>적의 방어력을 50% 무시한다</color>."
+      }
+    }
+  },
+  "1360109": {
+    "id": 1360109,
+    "name": "[명파: 활성] 작혼의 격투",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic073.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 마나토는 시간이 지나면서 에너지를 축적하며, 현재 조작 중인 캐릭터의 HP가 낮을수록 마나토의 에너지 회복 속도가 빨라진다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 마나토를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격한다. 이때 파티 내 모든 에이전트의 HP를 균등하게 분배하고 <color=#2BAD00>HP를 20% 회복하며</color>, 파티 내 모든 에이전트가 <color=#FFFFFF>[달궈진 칼날]</color> 상태를 획득한다. <color=#FFFFFF>[달궈진 칼날]</color> 상태에서 에이전트의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 지속 시간: 40초",
+    "level": {
+      "1": {
+        "id": 136010901,
+        "desc": "에이전트의 공격이 적 명중 시 <color=#FFFFFF>[끓는 피 상태]</color>에 진입한다. 지속 시간: 2초. <color=#FFFFFF>[끓는 피 상태]</color>에서 에이전트가 <color=#2BAD00>주는 피해가 75% 증가하고</color>, 현재 HP가 20% 초과 시 <color=#CF4029>매초마다 HP를 2% 소모한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 마나토는 시간이 지나면서 에너지를 축적하며, 현재 조작 중인 캐릭터의 HP가 낮을수록 마나토의 에너지 회복 속도가 빨라진다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 마나토를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격한다. 이때 파티 내 모든 에이전트의 HP를 균등하게 분배하고 <color=#2BAD00>HP를 20% 회복하며</color>, 파티 내 모든 에이전트가 <color=#FFFFFF>[달궈진 칼날]</color> 상태를 획득한다. <color=#FFFFFF>[달궈진 칼날]</color> 상태에서 에이전트의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 지속 시간: 40초"
+      },
+      "2": {
+        "id": 136010902,
+        "desc": "<color=#FFFFFF>[달궈진 칼날]</color> 상태에서 <color=#FFFFFF>[명파]</color> 특성 이외 에이전트의 <color=#2BAD00>공격력이 1350pt 증가하고</color>, <color=#FFFFFF>[명파]</color> 특성 에이전트의 <color=#2BAD00>관입력이 1125pt 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 마나토는 시간이 지나면서 에너지를 축적하며, 현재 조작 중인 캐릭터의 HP가 낮을수록 마나토의 에너지 회복 속도가 빨라진다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 마나토를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격한다. 이때 파티 내 모든 에이전트의 HP를 균등하게 분배하고 <color=#2BAD00>HP를 20% 회복하며</color>, 파티 내 모든 에이전트가 <color=#FFFFFF>[달궈진 칼날]</color> 상태를 획득한다. <color=#FFFFFF>[달궈진 칼날]</color> 상태에서 에이전트의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 지속 시간: 40초"
+      },
+      "3": {
+        "id": 136010903,
+        "desc": "매 전투에서 처음으로 치명상을 입을 시 HP가 1까지만 감소하며, <color=#2BAD00>2초 동안 전투 불능이 되지 않고 HP 50%를 지속 회복한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 마나토는 시간이 지나면서 에너지를 축적하며, 현재 조작 중인 캐릭터의 HP가 낮을수록 마나토의 에너지 회복 속도가 빨라진다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 마나토를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격한다. 이때 파티 내 모든 에이전트의 HP를 균등하게 분배하고 <color=#2BAD00>HP를 20% 회복하며</color>, 파티 내 모든 에이전트가 <color=#FFFFFF>[달궈진 칼날]</color> 상태를 획득한다. <color=#FFFFFF>[달궈진 칼날]</color> 상태에서 에이전트의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 지속 시간: 40초"
+      },
+      "4": {
+        "id": 136010904,
+        "desc": "<color=#FFFFFF>[달궈진 칼날]</color> 상태에서 HP가 40%를 초과하면 데시벨이 부족해도 <color=#CF4029>HP를 20% 소모</color>하여 <color=#FFFFFF>[궁극기]</color>를 발동할 수 있다. 에이전트마다 <color=#FFFFFF>[달궈진 칼날]</color> 지속 시간 동안 최대 1회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 마나토는 시간이 지나면서 에너지를 축적하며, 현재 조작 중인 캐릭터의 HP가 낮을수록 마나토의 에너지 회복 속도가 빨라진다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 마나토를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격한다. 이때 파티 내 모든 에이전트의 HP를 균등하게 분배하고 <color=#2BAD00>HP를 20% 회복하며</color>, 파티 내 모든 에이전트가 <color=#FFFFFF>[달궈진 칼날]</color> 상태를 획득한다. <color=#FFFFFF>[달궈진 칼날]</color> 상태에서 에이전트의 <color=#2BAD00>치명타 피해가 50% 증가한다</color>. 지속 시간: 40초"
+      }
+    }
+  },
+  "1360110": {
+    "id": 1360110,
+    "name": "[방어: 방패] 패기의 질주",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic069.png",
+    "desc": "<color=#FFFFFF>[조력 지원 스킬]</color>: 카이사르는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 카이사르를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 파티 내 모든 에이전트가 <color=#FFFFFF>[영광의 방패]</color> 실드를 6000pt 획득한다. 에이전트가 <color=#FFFFFF>[영광의 방패]</color>를 보유 중일 때 <color=#FFFFFF>[지원 포인트]</color>가 <color=#2BAD00>무제한이 되며, 주는 피해가 35% 증가하고, 받는 단일 피해는 실드량을 초과하지 않는다</color>.",
+    "level": {
+      "1": {
+        "id": 136011001,
+        "desc": "<color=#FFFFFF>[패링 지원]</color> 발동 시 패링된 적은 즉시 <color=#2BAD00>그로기 수치를 5% 누적한다</color>. 15초 동안 최대 3회 발동한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 카이사르는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 카이사르를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 파티 내 모든 에이전트가 <color=#FFFFFF>[영광의 방패]</color> 실드를 6000pt 획득한다. 에이전트가 <color=#FFFFFF>[영광의 방패]</color>를 보유 중일 때 <color=#FFFFFF>[지원 포인트]</color>가 <color=#2BAD00>무제한이 되며, 주는 피해가 35% 증가하고, 받는 단일 피해는 실드량을 초과하지 않는다</color>."
+      },
+      "2": {
+        "id": 136011002,
+        "desc": "<color=#FFFFFF>[영광의 방패]</color> 보유 시 에이전트의 <color=#2BAD00>경직 저항 레벨이 증가하고, 공격이 적의 모든 속성 저항을 20% 무시한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 카이사르는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 카이사르를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 파티 내 모든 에이전트가 <color=#FFFFFF>[영광의 방패]</color> 실드를 6000pt 획득한다. 에이전트가 <color=#FFFFFF>[영광의 방패]</color>를 보유 중일 때 <color=#FFFFFF>[지원 포인트]</color>가 <color=#2BAD00>무제한이 되며, 주는 피해가 35% 증가하고, 받는 단일 피해는 실드량을 초과하지 않는다</color>."
+      },
+      "3": {
+        "id": 136011003,
+        "desc": "<color=#FFFFFF>[패링 지원]</color> 발동 시 적에게 <color=#FFFFFF>[날렵]</color>을 1스택 부여한다. 최대 중첩: 5스택, <color=#FFFFFF>[날렵]</color> 스택당 해당 적의 <color=#2BAD00>그로기 약체화 배율이 10% 증가한다</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 카이사르는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 카이사르를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 파티 내 모든 에이전트가 <color=#FFFFFF>[영광의 방패]</color> 실드를 6000pt 획득한다. 에이전트가 <color=#FFFFFF>[영광의 방패]</color>를 보유 중일 때 <color=#FFFFFF>[지원 포인트]</color>가 <color=#2BAD00>무제한이 되며, 주는 피해가 35% 증가하고, 받는 단일 피해는 실드량을 초과하지 않는다</color>."
+      },
+      "4": {
+        "id": 136011004,
+        "desc": "<color=#FFFFFF>[패링 지원]</color> 혹은 <color=#FFFFFF>[극한 회피]</color> 발동 시 추가로 <color=#FFFFFF>[영광의 방패]</color> 실드를 1000pt 획득한다. <color=#FFFFFF>[영광의 방패]</color>는 최대 15000pt 획득할 수 있으며, 에이전트는 현재 <color=#FFFFFF>[영광의 방패]</color> 실드량에 따라 <color=#2BAD00>치명타 피해 증가</color>를 획득한다. 실드 1000pt당 5% 증가한다.",
+        "relic_proactive_skill": "<color=#FFFFFF>[조력 지원 스킬]</color>: 카이사르는 시간이 지나면서 에너지를 축적하며, 초기에 충전을 75pt 획득한다. 에너지가 충분한 상태에서 「조력 지원 스킬」을 눌러 카이사르를 소환하면 <color=#FFFFFF>[조력 지원 스킬]</color>로 적을 공격하고, 파티 내 모든 에이전트가 <color=#FFFFFF>[영광의 방패]</color> 실드를 6000pt 획득한다. 에이전트가 <color=#FFFFFF>[영광의 방패]</color>를 보유 중일 때 <color=#FFFFFF>[지원 포인트]</color>가 <color=#2BAD00>무제한이 되며, 주는 피해가 35% 증가하고, 받는 단일 피해는 실드량을 초과하지 않는다</color>."
+      }
+    }
+  }
+}

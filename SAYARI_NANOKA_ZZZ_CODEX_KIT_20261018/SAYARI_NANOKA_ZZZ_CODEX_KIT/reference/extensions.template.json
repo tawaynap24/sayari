@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "datasets": [],
+  "rawUrls": [],
+  "note": "Add only endpoints supported by real browser requests or inspected public source. Empty template intentionally does not guess Monster/Shiyu/Hollow paths. See docs/03."
+}

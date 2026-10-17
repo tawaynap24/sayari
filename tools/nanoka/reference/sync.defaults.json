@@ -1,0 +1,20 @@
+{
+  "channels": [
+    "live",
+    "latest"
+  ],
+  "languages": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "delayMs": 500,
+  "timeoutMs": 25000,
+  "maxAttempts": 3,
+  "maxRequests": 6000,
+  "maxBodyBytes": 33554432,
+  "cacheMaxAgeHours": 24,
+  "concurrency": 1,
+  "note": "All numeric limits are conservative local design defaults, NOT published Nanoka rate limits. Historical versions are opt-in."
+}

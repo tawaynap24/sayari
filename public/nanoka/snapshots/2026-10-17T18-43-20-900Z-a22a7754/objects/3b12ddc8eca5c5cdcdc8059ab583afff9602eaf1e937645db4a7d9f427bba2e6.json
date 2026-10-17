@@ -1,0 +1,840 @@
+{
+  "1310501": {
+    "id": 1310501,
+    "name": "[Hoshimi Miyabi] Endless Blizzard",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi01.png",
+    "desc": "After triggering <color=#FFFFFF>Frostburn - Break</color>, Hoshimi Miyabi's next <color=#FFFFFF>EX Special Attack</color> will not consume energy and <color=#2BAD00>deals 50% increased DMG</color> to enemies with an Attribute Anomaly. This effect can trigger once every 30s."
+  },
+  "1310502": {
+    "id": 1310502,
+    "name": "[Hoshimi Miyabi] Unbreakable Ice",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi02.png",
+    "desc": "Enemies afflicted with <color=#FFFFFF>Icefire</color> <color=#2BAD00>take <color=#98EFF0>Frost DMG</color> equal to 50% of Hoshimi Miyabi's ATK each second</color>. Upon triggering <color=#FFFFFF>Frostburn - Break</color>, Hoshimi Miyabi can bypass the restrictions of <color=#FFFFFF>Frostburn</color> and <color=#2BAD00>immediately reapply <color=#FFFFFF>Icefire</color> to enemies</color>."
+  },
+  "1310503": {
+    "id": 1310503,
+    "name": "[Hoshimi Miyabi] Snow Debris",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi03.png",
+    "desc": "When activating <color=#FFFFFF>Ultimate: Lingering Snow</color>, Hoshimi Miyabi gains 6 stacks of <color=#FFFFFF>Fallen Frost</color>. While performing <color=#FFFFFF>Basic Attack: Shimotsuki</color>, Hoshimi Miyabi <color=#2BAD00>gains 70/140/210 Decibels</color> based on the charge level of the attack."
+  },
+  "1310601": {
+    "id": 1310601,
+    "name": "[Billy] Overwhelming Firepower",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly01.png",
+    "desc": "When Billy <color=#FFFFFF>lands 20 hits on enemies with Basic Attack: Full Firepower</color> or <color=#FFFFFF>5 hits with Basic Attack: Full Firepower - Modified</color>, the next use of <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>will not consume energy</color>, and the skill's <color=#2BAD00>DMG will be increased by 100%</color>."
+  },
+  "1310602": {
+    "id": 1310602,
+    "name": "[Billy] Gunslinger Time",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly02.png",
+    "desc": "When Billy hits an enemy with <color=#FFFFFF>EX Special Attack</color>, a debuff is applied to the target, <color=#2BAD00>increasing Billy's DMG dealt to the target by 60%</color> for 10 seconds."
+  },
+  "1310603": {
+    "id": 1310603,
+    "name": "[Billy] Judgment by Eradication",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly03.png",
+    "desc": "When activating <color=#FFFFFF>EX Special Attack</color>, hold Special Attack <IconMap:Icon_SpecialReady> to charge, <color=#2BAD00>increasing the skill's power</color>. The <color=#2BAD00>DMG Multiplier for <color=#FFFFFF>EX Special Attack</color> increases by 200%</color>, and <color=#2BAD00>guaranteeing a critical hit</color>."
+  },
+  "1310701": {
+    "id": 1310701,
+    "name": "[Ellen] Blizzard Trim",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen01.png",
+    "desc": "With<color=#FFFFFF>Flash Freeze Charge</color>, the third move of <color=#FFFFFF>Basic Attack: Flash Freeze Trimming</color> replaces <color=#FFFFFF>Dash Attack: Cold Snap</color>. During this skill , gain a <color=#2BAD00>shield equal to 20% of Max HP</color>. While Ellen has this shield, her <color=#2BAD00>Anti-Interrupt Level increases</color>, and <color=#2BAD00>DMG taken is reduced by 60%</color>. Activating <color=#FFFFFF>Dodge Counter: Reef Rock</color> grants Ellen 1 <color=#FFFFFF>Flash Freeze Charge</color>."
+  },
+  "1310702": {
+    "id": 1310702,
+    "name": "[Ellen] Everwinter Windtrace",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen02.png",
+    "desc": "When activating <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, Ellen <color=#2BAD00>leaves behind a patch of Icy Mist</color> on the ground, dealing <color=#98EFF0>Ice DMG over time</color> to enemies and reducing their <color=#98EFF0>Ice RES</color> by 30% for 10 seconds. When Ellen attacks an enemy within the <color=#FFFFFF>Icy Mist</color>, the <color=#FFFFFF>Icy Mist</color> will trigger an extra instance of DMG."
+  },
+  "1310703": {
+    "id": 1310703,
+    "name": "[Ellen] Blood-Seeking Fangs",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen03.png",
+    "desc": "With <color=#FFFFFF>Hunter's Fin</color>, applying a <color=#FFFFFF>Hunting</color> mark to an enemy <color=#2BAD00>increases Ellen's DMG by 15%</color>, lasting for 15s. When a marked target is defeated, the current <color=#2BAD00>DMG buff gets an additional increase of5%</color>, with a maximum additional increase of 150%."
+  },
+  "1310801": {
+    "id": 1310801,
+    "name": "[Tsukishiro Yanagi] Moon Across the Sky",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi01.png",
+    "desc": "After triggering <color=#FFFFFF>Chain Attack</color> three times, Tsukishiro Yanagi's <color=#2BAD00>next Chain Attack will be replaced with an Ultimate</color>."
+  },
+  "1310802": {
+    "id": 1310802,
+    "name": "[Tsukishiro Yanagi] Flowing Change",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi02.png",
+    "desc": "During <color=#FFFFFF>Basic Attack: Tsukuyomi Kagura</color>, Tsukishiro Yanagi can <color=#2BAD00>interrupt the current action at any time</color> to chain into <color=#FFFFFF>Special Attack: Ruten</color>."
+  },
+  "1310803": {
+    "id": 1310803,
+    "name": "[Tsukishiro Yanagi] Moonlight Illusion",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi03.png",
+    "desc": "When Tsukishiro Yanagi's attack hits an enemy and triggers <color=#FFFFFF>Polarity Disorder</color>, the target's <color=#2BAD00>All-Attribute RES is reduced by 16%</color>, lasting for 8 seconds."
+  },
+  "1312201": {
+    "id": 1312201,
+    "name": "Astra Yao - Perfect Save",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra01.png",
+    "desc": "DMG dealt by <color=#FFFFFF>Basic Attack: Radiant Moment</color> will be <color=#2BAD00>considered as <color=#FFFFFF>EX Special Attack</color> DMG</color>. During this skill, <color=#2BAD00>all squad members' Crit Rate is increased by 18%</color>."
+  },
+  "1312202": {
+    "id": 1312202,
+    "name": "Astra Yao - Scattered Melody",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra02.png",
+    "desc": "With enough energy, releasing or following up with a <color=#FFFFFF>Tremolo</color> attack while in the <color=#FFFFFF>Idyllic Cadenza</color> state will <color=#2BAD00>additionally deal two instances</color> of identical <color=#FFFFFF>Tremolo</color> DMG. When Astra Yao hits enemies with <color=#FFFFFF>Basic Attack: Interlude</color> or <color=#FFFFFF>Basic Attack: Chorus</color>, there's a 20% chance to gain the <color=#FFFFFF>Inspiration</color> effect, allowing her next <color=#FFFFFF>Dodge</color> to <color=#2BAD00>directly trigger</color> <color=#FFFFFF>Perfect Dodge</color>, which can be followed up with <color=#FFFFFF>Basic Attack: Chorus</color>, lasting 10s."
+  },
+  "1312203": {
+    "id": 1312203,
+    "name": "Astra Yao - Aria of the Gentle Wind",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra03.png",
+    "desc": "While in the <color=#FFFFFF>Idyllic Cadenza</color> state, Astra Yao's <color=#2BAD00>Anti-Interrupt Level increases</color> and she <color=#2BAD00>takes 20% less DMG</color>. <color=#2BAD00>All squad members' PEN Ratio increases by 15%</color>, and they <color=#2BAD00>gradually recover HP</color>."
+  },
+  "1312301": {
+    "id": 1312301,
+    "name": "Evelyn - Sheathed Blade",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn01.png",
+    "desc": "When activating a <color=#FFFFFF>Chain Attack</color>, Evelyn gains the <color=#FFFFFF>Swift Blade</color> effect, increasing <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>DMG by 20%</color>. This effect can stack up to 3 times and lasts for the entire combat."
+  },
+  "1312302": {
+    "id": 1312302,
+    "name": "Evelyn - Binding Arts",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn02.png",
+    "desc": "When Evelyn enters <color=#FFFFFF>Binding Seal</color>, her <color=#2BAD00>ATK increases by 20%</color>, while the target enemy's <color=#2BAD00>ATK decreases by 20%</color>. After exiting <color=#FFFFFF>Binding Seal</color>, Evelyn retains her buff for 10s. Upon exiting <color=#FFFFFF>Binding Seal</color>, she detonates the target enemy, <color=#2BAD00>dealing additional</color> <color=#FF5521>Fire DMG</color>."
+  },
+  "1312303": {
+    "id": 1312303,
+    "name": "Evelyn - Special Energy Drink",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn03.png",
+    "desc": "When activating <color=#FFFFFF>Ultimate</color>, Evelyn gains 100% <color=#FFFFFF>Burning Embers</color> and 3 <color=#FFFFFF>Burning Tether Points</color>."
+  },
+  "1312401": {
+    "id": 1312401,
+    "name": "Jane - Gaming Time",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane01.png",
+    "desc": "When triggering <color=#FFFFFF>Core Passive: Insight</color>'s <color=#F0D12B>Assault</color> CRIT effect, there is a 50% chance to <color=#2BAD00>increase CRIT DMG by an additional 40%</color>."
+  },
+  "1312402": {
+    "id": 1312402,
+    "name": "Jane - Combat Technique",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane02.png",
+    "desc": "When hitting an enemy with a <color=#FFFFFF>Dodge Counter</color>, the target's <color=#F0D12B>Physical RES</color> is reduced by <color=#2BAD00>20%</color> for 10s."
+  },
+  "1312403": {
+    "id": 1312403,
+    "name": "Jane - Relentless Pursuit",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane03.png",
+    "desc": "When any squad member inflicts an Attribute Anomaly on an enemy, Jane <color=#2BAD00>gains 40 additional Decibels</color>, and her next <color=#FFFFFF>Ultimate</color>'s <color=#2BAD00>CRIT Rate is increased by 5% </color> and <color=#2BAD00>CRIT DMG is increased by 20%</color>, stacking up to 5 times."
+  },
+  "1312501": {
+    "id": 1312501,
+    "name": "Corin - Maid's Dainty Steps",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine01.png",
+    "desc": "When a <color=#FFFFFF>Perfect Dodge</color> is triggered, <color=#2BAD00>recover 25 Energy</color>. Can be triggered once every 6s."
+  },
+  "1312502": {
+    "id": 1312502,
+    "name": "Corin - Unfortunate Laceration",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine02.png",
+    "desc": "When Corin hits enemies with Chainsaw extended slashes, she gains 1 stack of Charge. At 10 stacks, the next slash applies the <color=#FFFFFF>Laceration</color> effect on enemies, dealing <color=#F0D12B>Physical DMG</color> equivalent to <color=#2BAD00>20% of Corin's ATK</color> every 3s, stacking up to 10 times and lasts 12s. Repeated triggers reset the duration."
+  },
+  "1312503": {
+    "id": 1312503,
+    "name": "Corin - Cursed Tetanus",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine03.png",
+    "desc": "When hitting enemies with a <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>Dash Attack</color>, the target's <color=#F0D12B>Physical RES</color> is reduced by <color=#2BAD00>20%</color> for 15s."
+  },
+  "1320101": {
+    "id": 1320101,
+    "name": "[Ultimate] Healing Sachet",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic004.png",
+    "level": {
+      "1": {
+        "id": 132010101,
+        "desc": "<color=#2BAD00>Decibels limit is increased to 6,000</color> for all squad members.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers the active character's Decibels by 1,500</color>."
+      },
+      "2": {
+        "id": 132010102,
+        "desc": "When launching an <color=#FFFFFF>Ultimate</color>, all Decibels are consumed, and <color=#2BAD00>increases DMG based on excess consumption</color>. For every additional 1,500 Decibels consumed, <color=#FFFFFF>Ultimate</color><color=#2BAD00>DMG is increased by 80%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers the active character's Decibels by 1,500</color>."
+      },
+      "3": {
+        "id": 132010103,
+        "desc": "<color=#2BAD00>Decibel limit is increased to 9,000</color> for all squad members. Triggering a <color=#FFFFFF>Bangboo Assist</color> grants the active Agent <color=#2BAD00>2,000 Decibels</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers the active character's Decibels by 1,500</color>."
+      },
+      "4": {
+        "id": 132010104,
+        "desc": "For every additional 1,500 Decibels consumed, <color=#FFFFFF>Ultimate</color> <color=#2BAD00>DMG increase effect is increased from 80% to 160%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers the active character's Decibels by 1,500</color>."
+      }
+    }
+  },
+  "1320102": {
+    "id": 1320102,
+    "name": "[Ultimate] Rhythmic Energy Saver",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic005.png",
+    "level": {
+      "1": {
+        "id": 132010201,
+        "desc": "<color=#2BAD00>Reduces the Decibels required to launch an <color=#FFFFFF>Ultimate</color> to 2,000</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers all squad members' Decibels by 500</color>."
+      },
+      "2": {
+        "id": 132010202,
+        "desc": "Launching an <color=#FFFFFF>Ultimate</color> increases all squad members' <color=#2BAD00>Anomaly Buildup Rate by 20%</color> for 10s. Hitting an enemy with an <color=#FFFFFF>Ultimate</color> <color=#2BAD00>inflicts additional Anomaly Buildup on the target</color>. The same skill can only trigger this effect on a target once.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers all squad members' Decibels by 500</color>."
+      },
+      "3": {
+        "id": 132010203,
+        "desc": "When launching <color=#FFFFFF>Bangboo Assist</color>, all squad members <color=#2BAD00>gain 700 Decibels</color> and <color=#2BAD00>ATK is increased by 15%</color> for 15s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers all squad members' Decibels by 500</color>."
+      },
+      "4": {
+        "id": 132010204,
+        "desc": "Using an <color=#FFFFFF>Ultimate</color> increases all squad members' <color=#2BAD00>Anomaly Buildup Rate from 20% to 40%</color>. The <color=#2BAD00>effect duration is increased from 10s to 15s</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Resonaboo accumulates Energy over time. When any squad member consumes Decibels, Resonaboo gains additional Energy. With enough energy, press Bangboo Assist to summon Resonaboo, who will generate an Ether Black Hole that deals <color=#FE437E>Ether DMG</color> to enemies, and <color=#2BAD00>recovers all squad members' Decibels by 500</color>."
+      }
+    }
+  },
+  "1320201": {
+    "id": 1320201,
+    "name": "[Dexterity] Talisman of Five Realms",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic003.png",
+    "level": {
+      "1": {
+        "id": 132020101,
+        "desc": "When triggering <color=#FFFFFF>Perfect Dodge</color>, all squad members <color=#2BAD00>gain 1 Dexterity Count</color>, stacking up to 3 times. With 3 <color=#FFFFFF>Dexterity Count</color>, consume all stacks to <color=#2BAD00>enter Dexterity State</color>, lasting 9s. While in <color=#FFFFFF>Dexterity State</color>, all squad members' <color=#2BAD00>ATK is increased by 60%</color>. When an attack hits an enemy, it inflicts <color=#FFFFFF>Dexterity Curse</color> on the target. <color=#FFFFFF>Dexterity Curse</color> is calculated when exiting <color=#FFFFFF>Dexterity State</color>, dealing <color=#2BAD00>additional DMG equal to 10% of DMG accumulated</color> during <color=#FFFFFF>Dexterity Curse</color> to enemies.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "2": {
+        "id": 132020102,
+        "desc": "While in <color=#FFFFFF>Dexterity State</color>, triggering <color=#FFFFFF>Perfect Dodge</color> <color=#2BAD00>extends the duration of Dexterity State by 3s</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "3": {
+        "id": 132020103,
+        "desc": "Triggering a <color=#FFFFFF>Defensive Assist</color> or <color=#FFFFFF>Evasive Assist</color>, grants all squad members with <color=#2BAD00>1 Dexterity Count</color>. While in <color=#FFFFFF>Dexterity State</color>, triggering a <color=#FFFFFF>Defensive Assist</color> or <color=#FFFFFF>Evasive Assist</color> <color=#2BAD00>extends the duration of Dexterity State by 3s</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "4": {
+        "id": 132020104,
+        "desc": "While in <color=#FFFFFF>Dexterity State</color>, all squad members <color=#2BAD00>get an additional 75% increase to ATK</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      }
+    }
+  },
+  "1320202": {
+    "id": 1320202,
+    "name": "[Dexterity] Zone Energy Shield",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic007.png",
+    "level": {
+      "1": {
+        "id": 132020201,
+        "desc": "When in combat, all squad members <color=#2BAD00>gain 1 Dexterity Charge</color> (up to 32) every 0.5s. When taking DMG and losing HP, all <color=#FFFFFF>Dexterity Charge</color> will be consumed. When Dexterity Charge consumed is greater or equal to 8/16/24, <color=#2BAD00>Dexterity State</color> will last for 2/4/8s. With 32 <color=#FFFFFF>Dexterity Charge</color>, all Charge is consumed when an enemy is hit, <color=#2BAD00>entering Dexterity State</color> for 16s. In <color=#FFFFFF>Dexterity State</color>, all squad members' <color=#2BAD00>ATK is increased by 60%</color>. When an attack hits an enemy, <color=#FFFFFF>Dexterity Curse</color> is inflicted on the target. <color=#FFFFFF>Dexterity Curse</color> is calculated when exiting <color=#FFFFFF>Dexterity State</color>, dealing <color=#2BAD00>additional DMG to enemies equal to 10% of DMG accumulated</color> during <color=#FFFFFF>Dexterity Curse</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "2": {
+        "id": 132020202,
+        "desc": "When <color=#FFFFFF>Dexterity Charge</color> is less than 8 and when taking DMG from an enemy and losing HP, <color=#2BAD00>the current accumulated Dexterity Charge</color> will no longer be consumed. When exiting <color=#FFFFFF>Dexterity State</color>, immediately <color=#2BAD00>regain 4 Dexterity Charge</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "3": {
+        "id": 132020203,
+        "desc": "<color=#2BAD00>DMG dealt by <color=#FFFFFF>Dexterity Curse</color> is increased to 20% of the accumulated DMG</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      },
+      "4": {
+        "id": 132020204,
+        "desc": "While in the <color=#FFFFFF>Dexterity State</color>, all squad members' <color=#2BAD00>CRIT Rate is increased by 20%</color>, <color=#2BAD00>CRIT DMG is increased by 40%</color>, and <color=#2BAD00>Anomaly Buildup Rate is increased by 40%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Plugboo accumulates Energy over time. With enough energy, press Bangboo Assist to summon Plugboo, who will discharge electricity to deal <color=#2EB6FF>Electric DMG</color> over time and <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dexterity State</color>, lasting 9s."
+      }
+    }
+  },
+  "1320301": {
+    "id": 1320301,
+    "name": "[Anomaly - Stun] Solvent Launcher",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic011.png",
+    "level": {
+      "1": {
+        "id": 132030101,
+        "desc": "<color=#2BAD00>Daze caused by all squad members is increased by 10%</color>, and <color=#2BAD00>Anomaly Proficiency is increased by 30</color>. When Stunning or inflicting Attribute Anomaly on enemies, triggers an additional strike, <color=#2BAD00>dealing DMG equal to 1,100% of the Agent's ATK</color> to the target and the surrounding enemies.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts Attribute Anomaly on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will unleash a snowstorm that deals <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>increases all squad members' ATK by 15%</color> for 20 sec."
+      },
+      "2": {
+        "id": 132030102,
+        "desc": "When defeating an enemy that is Stunned or inflicted with Attribute Anomaly, the Agent's <color=#2BAD00>ATK is increased by 30</color> in the Hollow during this run, up to 30 times.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts Attribute Anomaly on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will unleash a snowstorm that deals <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>increases all squad members' ATK by 15%</color> for 20 sec."
+      },
+      "3": {
+        "id": 132030103,
+        "desc": "When Stunning or inflicting Attribute Anomaly on an enemy, <color=#2BAD00>the area of effect of the additional strike is increased</color>, <color=#2BAD00>and the DMG dealt is increased from 1,100% of the Agent's ATK to 3,700%</color>. When triggering a <color=#FFFFFF>Bangboo Assist</color>, <color=#2BAD00>the ATK of all squad members is increased from 15% to 30%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts Attribute Anomaly on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will unleash a snowstorm that deals <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>increases all squad members' ATK by 15%</color> for 20 sec."
+      },
+      "4": {
+        "id": 132030104,
+        "desc": "When Stunning or inflicting Attribute Anomaly on an enemy, the additional strike <color=#2BAD00>will trigger once more</color> after a short delay.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts Attribute Anomaly on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will unleash a snowstorm that deals <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>increases all squad members' ATK by 15%</color> for 20 sec."
+      }
+    }
+  },
+  "1320302": {
+    "id": 1320302,
+    "name": "[Anomaly - Stun] Essence Pill",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic010.png",
+    "level": {
+      "1": {
+        "id": 132030201,
+        "desc": "When Stunning or inflicting <color=#FFFFFF>Disorder</color> on an enemy, the Agent <color=#2BAD00>randomly draws 3 to 6 times from the following 6 buffs</color>, with each buff stacking up to 6 times: Energy Regen increased by 0.02 pts/s, DEF increased by 4%, DMG taken reduced by 2%, Impact increased by 2%, Anomaly Proficiency increased by 3, and Decibel Generation Rate increased by 3%.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts <color=#FFFFFF>Disorder</color> on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will summon a snowstorm to deal <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>grant 3 random buffs</color> to all Agents in the squad."
+      },
+      "2": {
+        "id": 132030202,
+        "desc": "When an attack hits a Stunned enemy, the <color=#2BAD00>Anomaly Buildup Rate is increased by 30%</color>. When an attack hits an enemy inflicted with Attribute Anomaly, the <color=#2BAD00>Daze inflicted is increased by 30%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts <color=#FFFFFF>Disorder</color> on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will summon a snowstorm to deal <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>grant 3 random buffs</color> to all Agents in the squad."
+      },
+      "3": {
+        "id": 132030203,
+        "desc": "When the random buffs stack three times or more, triggering a <color=#FFFFFF>Bangboo Assist</color> <color=#2BAD00>consumes the corresponding buffs</color> and increases DMG dealt by <color=#FFFFFF>Bangboo Assist</color> based on the number of stacks consumed. For each stack consumed, <color=#FFFFFF>Bangboo Assist</color> <color=#2BAD00>deals 10% increased DMG, and then randomly draw 3 – 6 buffs for Agents</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts <color=#FFFFFF>Disorder</color> on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will summon a snowstorm to deal <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>grant 3 random buffs</color> to all Agents in the squad."
+      },
+      "4": {
+        "id": 132030204,
+        "desc": "The randomly drawn buffs are <color=#2BAD00>enhanced to 150%</color> of their original value. When triggering<color=#FFFFFF>Bangboo Assist</color>, for each stack consumed, <color=#2BAD00>DMG increase from <color=#FFFFFF>Bangboo Assist</color> is increased from 10% to 20%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Sharkboo accumulates Energy over time. When any squad member Stuns or inflicts <color=#FFFFFF>Disorder</color> on an enemy, Sharkboo gains additional Energy. With enough energy, press Bangboo Assist to summon Sharkboo, who will summon a snowstorm to deal <color=#98EFF0>Ice DMG</color> over time to enemies and <color=#2BAD00>grant 3 random buffs</color> to all Agents in the squad."
+      }
+    }
+  },
+  "1320401": {
+    "id": 1320401,
+    "name": "[Adversity] Combat Nutrient Pack",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic008.png",
+    "level": {
+      "1": {
+        "id": 132040101,
+        "desc": "When an attack hits an enemy, the Agent enters the <color=#FFFFFF>Bloodfury</color> state for 2s. While in the <color=#FFFFFF>Bloodfury</color> state, the Agent <color=#2BAD00>deals 75% increased DMG</color> and <color=#2BAD00>takes 10% reduced DMG</color>. <color=#CF4029>1% of the Agent's HP is consumed per sec</color> when their current HP is higher than 20%.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. The lower the active characters' HP, the faster Brawlerboo recovers Energy. With enough energy, press Bangboo Assist to summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> over time to enemies, and <color=#2BAD00>recover the active Agent's lost HP by 30%</color>."
+      },
+      "2": {
+        "id": 132040102,
+        "desc": "When in the <color=#FFFFFF>Bloodfury</color> state, the Agent <color=#2BAD00>deals 115% increased DMG</color> and <color=#2BAD00>takes 20% reduced DMG</color>. When launching <color=#FFFFFF>Bangboo Assist</color>, the active Agent <color=#2BAD00>recovers 40% HP</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. The lower the active characters' HP, the faster Brawlerboo recovers Energy. With enough energy, press Bangboo Assist to summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> over time to enemies, and <color=#2BAD00>recover the active Agent's lost HP by 30%</color>."
+      },
+      "3": {
+        "id": 132040103,
+        "desc": "When the Agent recovers at least 100 HP, an <color=#2BAD00>additional strike</color> is triggered, <color=#2BAD00>dealing DMG equal to 1,800% of the Agent's ATK</color> to all enemies. This can only be triggered only once within 10 seconds. For every <color=#2BAD00>100 HP recovered</color>, the additional strike's <color=#2BAD00>DMG dealt is increased by 2.5%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. The lower the active characters' HP, the faster Brawlerboo recovers Energy. With enough energy, press Bangboo Assist to summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> over time to enemies, and <color=#2BAD00>recover the active Agent's lost HP by 30%</color>."
+      },
+      "4": {
+        "id": 132040104,
+        "desc": "When the Agent's HP drops from above 20% to below 20%, the Agent <color=#2BAD00>gains a shield equal to 20% of their Max HP</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. The lower the active characters' HP, the faster Brawlerboo recovers Energy. With enough energy, press Bangboo Assist to summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> over time to enemies, and <color=#2BAD00>recover the active Agent's lost HP by 30%</color>."
+      }
+    }
+  },
+  "1320403": {
+    "id": 1320403,
+    "name": "[Adversity] Emblem of Calamity",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic009.png",
+    "level": {
+      "1": {
+        "id": 132040301,
+        "desc": "The Agent gains <color=#FFFFFF>Bloodfury Blessing</color>, receiving buffs based on the amount of HP they lose. The Agent <color=#2BAD00>takes 2.5% less DMG</color> and <color=#2BAD00>deals 10% more DMG</color> for every 10% of HP that they lose.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. With enough energy, press Bangboo Assist to consume 30% of all squad members' current HP and summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> to enemies over time, and <color=#2BAD00>grant a shield to all squad members based on 20% of their lost HP</color>. Brawlerboo's Gains max Energy when entering combat for the first time."
+      },
+      "2": {
+        "id": 132040302,
+        "desc": "Triggering <color=#FFFFFF>Bangboo Assist</color> grants <color=#FFFFFF>Bloodfury Amplifier</color>, <color=#2BAD00>boosting all squad members' ATK by 50%</color> for 20s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. With enough energy, press Bangboo Assist to consume 30% of all squad members' current HP and summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> to enemies over time, and <color=#2BAD00>grant a shield to all squad members based on 20% of their lost HP</color>. Brawlerboo's Gains max Energy when entering combat for the first time."
+      },
+      "3": {
+        "id": 132040303,
+        "desc": "Enhances <color=#FFFFFF>Bloodfury Blessing</color>. For every 10% of HP lost, the<color=#2BAD00> reduction of DMG taken increases from 2.5% to 5%</color> and <color=#2BAD00> DMG dealt increases from 10% to 20%</color>. When <color=#FFFFFF>Bangboo Assist</color> is triggered, <color=#2BAD00>shield value is increased from 20% to 30% of the current amount of HP lost</color>, and the Agent's HP is <color=#2BAD00>recovered to 20%</color> if it is below 20%.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. With enough energy, press Bangboo Assist to consume 30% of all squad members' current HP and summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> to enemies over time, and <color=#2BAD00>grant a shield to all squad members based on 20% of their lost HP</color>. Brawlerboo's Gains max Energy when entering combat for the first time."
+      },
+      "4": {
+        "id": 132040304,
+        "desc": "While <color=#FFFFFF>Bloodfury Amplifier</color> is active, for every 1% of HP lost, the Agent's <color=#2BAD00>CRIT DMG increases by 1.6%</color>, <color=#2BAD00>up to a maximum increase of 120%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Brawlerboo accumulates Energy over time. With enough energy, press Bangboo Assist to consume 30% of all squad members' current HP and summon Brawlerboo, who will unleash powerful flames to deal <color=#FF5521>Fire DMG</color> to enemies over time, and <color=#2BAD00>grant a shield to all squad members based on 20% of their lost HP</color>. Brawlerboo's Gains max Energy when entering combat for the first time."
+      }
+    }
+  },
+  "1320501": {
+    "id": 1320501,
+    "name": "[Hoshimi Miyabi] Awakening of the Bees",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "desc": "Replaces <color=#FFFFFF>Dash Attack: Fuyubachi</color> with <color=#FFFFFF>Dash Attack: Fuyubachi — Maximum</color>. Upon activating this skill, Hoshimi Miyabi will <color=#2BAD00>dash forward</color> and deal <color=#98EFF0>Frost DMG</color> to enemies. After the skill is replaced, when Hoshimi Miyabi is knocked back or launched, using Basic Attack or Special Attack while a target is staggered will <color=#2BAD00>immediately trigger</color> <color=#FFFFFF>Dash Attack: Fuyubachi — Maximum</color>, <color=#2BAD00>restoring 70% of the DMG she just received in HP and granting invulnerability for 0.5s</color>."
+  },
+  "1320502": {
+    "id": 1320502,
+    "name": "[Hoshimi Miyabi] Dance of the Sparrows",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "desc": "When Hoshimi Miyabi is attacked by an enemy, she will <color=#2BAD00>automatically dodge the attack</color>, triggering <color=#FFFFFF>Perfect Dodge</color> and <color=#FFFFFF>Vital View</color>. <color=#FFFFFF>Vital View</color> lasts for 3s. The automatic dodge effect can trigger once every 12s. When the effect is triggered, Hoshimi Miyabi's <color=#2BAD00>DMG is increased by 80%</color>, lasting for 20s."
+  },
+  "1320503": {
+    "id": 1320503,
+    "name": "[Hoshimi Miyabi] Sparrows in the Flowers",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "desc": "After Hoshimi Miyabi activates <color=#FFFFFF>Dodge Counter: Kan Suzume</color> and <color=#FFFFFF>Quick Assist: Dancing Petals</color>, she will <color=#2BAD00>automatically chain into the ALT</color> <color=#FFFFFF>Frost Storm</color>, <color=#2BAD00>unleashing a blast of air to attack nearby enemies and inflicting a substantial amount of Daze</color>. When the enemy is Stunned, Hoshimi Miyabi gains 3 <color=#FFFFFF>Fallen Frost</color>, and the target's <color=#2BAD00>Stun DMG Multiplier is increased by 75%</color>."
+  },
+  "1320601": {
+    "id": 1320601,
+    "name": "[Billy] Explosive Bullets",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "desc": "Replaces <color=#FFFFFF>Basic Attack: Full Firepower</color> with <color=#FFFFFF>Basic Attack: Full Firepower - Modified</color>. This <color=#2BAD00>decreases the rate of fire to increase bullet power</color>. Upon activating this skill, Billy will <color=#2BAD00>directly enter Crouching Shot</color>, triggering <color=#FFFFFF>Core Passive: Steady Shot</color> and <color=#2BAD00>increasing his DMG dealt by an additional 50%</color>. The buff will end when he moves, returns to idle, or is knocked back or launched."
+  },
+  "1320602": {
+    "id": 1320602,
+    "name": "[Billy] Rotating Drivetrain",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "desc": "When Billy uses his <color=#FFFFFF>EX Special Attack</color>/<color=#FFFFFF>Assist Follow-Up</color>/<color=#FFFFFF>Chain Attack</color>/<color=#FFFFFF>Ultimate</color>, he <color=#2BAD00>gains 2/2/4/4 stacks of Charge</color> (up to 4 stacks). When Billy performs a piercing attack in a large area around him during <color=#FFFFFF>Dash Attack: Starlight Sanction</color>, press Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>consume 1 stack of Charge</color> and trigger the skill repeatedly, <color=#2BAD00>increasing its DMG by 150%</color>. When the effect is triggered, Billy's <color=#2BAD00>CRIT Rate increases by 20%</color> for 10s. The effect stacks up to 2 times. Repeated triggers reset the duration."
+  },
+  "1320603": {
+    "id": 1320603,
+    "name": "[Billy] Mysterious Transmorpher",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic020.png",
+    "desc": "When Billy enters <color=#FFFFFF>Crouching Shot</color> during his Basic Attack, he triggers <color=#FFFFFF>Core Passive: Steady Shot</color>. After maintaining the buff for 1.5 seconds, he enters the <color=#FFFFFF>Starlight Descent</color> state, during which his attacks <color=#2BAD00>ignore 50%</color> of the target's <color=#F0D12B>Physical RES</color>. Additionally, he <color=#2BAD00>continuously generates Decibels</color>, <color=#2BAD00>starting at 20 points/second and gradually increasing to 50 points/second</color>, reaching the maximum after 3 seconds. This effect lasts until he is knocked back or launched."
+  },
+  "1320701": {
+    "id": 1320701,
+    "name": "{AWAKEN_1191#[Ellen] Blade of Frost: Advanced}{NOAWAKEN_1191#[Ellen] Blade of Frost}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>Icy Blade</color> will also automatically activate after the third hit of <color=#FFFFFF>Basic Attack: Saw Teeth Trimming</color> or a <color=#FFFFFF>Quick Assist</color>, dealing multiple hits of <color=#98EFF0>Ice DMG</color> to enemies in a large area ahead. <color=#FFFFFF>Icy Blade</color> <color=#2BAD00>reduces DEF by 30%</color> for 15s upon hit. When the additional <color=#FFFFFF>Icy Blade</color> is triggered, the skill's <color=#2BAD00>CRIT DMG increases by 25%</color>, stacking up to 3 times and lasting 15s. Repeated triggers reset the duration.}{NOAWAKEN_1191#The 3rd hit of <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack: Sharknami</color>, <color=#FFFFFF>Dodge Counter: Reef Rock</color>, <color=#FFFFFF>Quick Assist</color>, and <color=#FFFFFF>Assist Follow-Up</color> <color=#2BAD00>trigger an additional Icy Blade</color>, dealing <color=#98EFF0>Ice DMG</color> to <color=#2BAD00>enemies in a large area in front</color> and <color=#2BAD00>reducing their DEF by 30%</color>. When the additional <color=#FFFFFF>Icy Blade</color> is triggered, the skill's <color=#2BAD00>CRIT DMG increases by 25%</color>, stacking up to 3 times and lasting 15s. Repeated triggers reset the duration. Additional <color=#FFFFFF>Icy Blades</color> don't affect the original skill's alts.}"
+  },
+  "1320702": {
+    "id": 1320702,
+    "name": "[Ellen] Dangerous Bearings",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "desc": "When <color=#FFFFFF>Roaming</color>, Ellen gains 2 <color=#FFFFFF>Flash Freeze Charge</color> and <color=#FFFFFF>Quick Charge</color> every 0.5 sec. When Ellen hits an enemy with Swift Scissors or Charged Scissor Strike during <color=#FFFFFF>Dash Attack: Arctic Ambush</color>, she <color=#2BAD00>leaves an Icy Mist on the ground</color>, which deals <color=#98EFF0>Ice DMG over time</color> to enemies and <color=#98EFF0>reduces their Ice RES</color> by 30% for 10s. Ellen's <color=#2BAD00>Anti-Interrupt level increases</color> and she <color=#2BAD00>gains 50% DMG reduction</color> while in the <color=#FFFFFF>Icy Mist</color>. This effect continues for 5s after leaving the <color=#FFFFFF>Icy Mist</color>."
+  },
+  "1320703": {
+    "id": 1320703,
+    "name": "[Ellen] Hunter's Fin",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "desc": "Every 15s, Ellen applies a <color=#FFFFFF>Hunting</color> mark that lasts for 15s to a random enemy. When hitting an enemy marked with <color=#FFFFFF>Hunting</color> with <color=#FFFFFF>EX Special Attack</color> or Swift Scissors/Charged Scissor Strike during <color=#FFFFFF>Dash Attack: Arctic Ambush</color>, using Basic Attack <IconMap:Icon_Normal> or Special Attack <IconMap:Icon_SpecialReady> again allows Ellen to <color=#2BAD00>consume nothing</color> and <color=#2BAD00>immediately trigger the skill again</color> with <color=#2BAD00>its CRIT DMG increased by 25%</color>. If the target is defeated, Ellen will instantly apply a <color=#FFFFFF>Hunting</color> mark to the next enemy. When she has <color=#FFFFFF>Flash Freeze Charge</color>, each extra point of <color=#FFFFFF>Flash Freeze Charge</color> <color=#2BAD00>increases Ellen's ATK by 5%</color>. This effect lasts for 10s and stacks up to 9 times. The duration of each stack is calculated separately."
+  },
+  "1320801": {
+    "id": 1320801,
+    "name": "[Tsukishiro Yanagi] Soaring Moonlight",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "desc": "During <color=#FFFFFF>EX Special Attack: Gekka Ruten</color>, after performing a quick thrust, Tsukishiro Yanagi hovers in midair, <color=#2BAD00>continuously channeling thunderbolt strikes into the ground</color>, and dealing <color=#2EB6FF>Electric DMG</color>. Tsukishiro Yanagi triggers the downward smash from <color=#FFFFFF>EX Special Attack: Gekka Ruten</color> by releasing or pressing Special Attack <IconMap:Icon_SpecialReady> again, or when the duration limit is reached. When her thunderbolt strikes hit enemies, it <color=#2BAD00>increases the Disorder DMG they take by 3%</color>, stacking up to 20 times and lasting 6s. Repeated triggers reset the duration. When <color=#FFFFFF>EX Special Attack: Gekka Ruten</color>'s heavy attack hits enemies, Tsukishiro Yanagi gains shield equal to 20% of her Max HP, lasting 20s, triggering up to once per 20s."
+  },
+  "1320802": {
+    "id": 1320802,
+    "name": "[Tsukishiro Yanagi] Kagura's Dance",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "desc": "While triggering the fifth move of a <color=#FFFFFF>Basic Attack</color> in the <color=#FFFFFF>Jougen</color> stance or triggering the fourth move of a <color=#FFFFFF>Basic Attack</color> in the <color=#FFFFFF>Kagen</color> stance, repeatedly press or hold Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>extend the skill duration</color>, slash continuously, and increase <color=#2EB6FF>Electric DMG</color> dealt by Tsukishiro Yanagi by 4%, stacking up to 15 times and lasting 8s. Repeated triggers refresh the duration. During consecutive slashes, DMG taken by Tsukishiro Yanagi is <color=#2BAD00>reduced by 40%</color>, and after triggering <color=#FFFFFF>Swift Ruten</color>, pressing Basic Attack <IconMap:Icon_Normal> <color=#2BAD00>transitions to continuous slashes of the alternate stance</color>."
+  },
+  "1320803": {
+    "id": 1320803,
+    "name": "[Tsukishiro Yanagi] Flowing Reflection",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "desc": "When activating <color=#FFFFFF>Special Attack: Ruten</color>, Tsukishiro Yanagi <color=#2BAD00>gains 1 Charge</color> (max. 3 stacks). Upon reaching 3 Charges and triggering <color=#FFFFFF>Swift Ruten</color>, press Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>consume all Charges</color> and <color=#2BAD00>immediately follow up with Chain Attack: Celestial Harmony</color>. If an enemy attack is successfully parried during <color=#FFFFFF>Swift Ruten</color>, following up with <color=#FFFFFF>Chain Attack: Celestial Harmony</color> <color=#2BAD00>will not consume any Charge</color>, and <color=#FFFFFF>Chain Attack: Celestial Harmony</color>'s DMG will increase by 50%."
+  },
+  "1321001": {
+    "id": 1321001,
+    "name": "[Mobile] Imperial Decree: Dark Banner",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic033.png",
+    "level": {
+      "1": {
+        "id": 132100101,
+        "desc": "When the active character lands a heavy attack with <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Ultimate</color>, or triggers <color=#FFFFFF>Perfect Dodge</color>, it will trigger <color=#FFFFFF>Tag Assist</color> for the next character. Press <IconMap:Icon_Switch> at this moment, and the next character will perform a <color=#FFFFFF>Quick Assist</color> centered on the enemy. <color=#FFFFFF>Tag Assist</color> won't switch the current active character, and the damage dealt is considered <color=#FFFFFF>Aftershock</color> DMG. When a character performs a <color=#FFFFFF>Tag Assist</color>, it provides 1 stack of <color=#FFFFFF>Comrade</color> to the whole squad, stacking up to 5 times and lasting 20s. Repeated triggers reset the duration. Each stack of <color=#FFFFFF>Comrade</color> increases <color=#2BAD00>Anomaly Proficiency by 20</color> and <color=#2BAD00>Anomaly Buildup Rate by 10%</color> for <color=#FFFFFF>Anomaly</color> specialty Agents; increases <color=#2BAD00>Impact by 4%</color> for Stun specialty Agents; increases <color=#2BAD00>CRIT Rate by 5%</color> and <color=#2BAD00>CRIT DMG by 10%</color> for Attack specialty Agents; increases <color=#2BAD00>Energy Generation Rate by 7.5%</color> for Support specialty Agents; increases <color=#2BAD00>shield efficiency by 10%</color> for Defense specialty Agents; and increases <color=#2BAD00>Sheer DMG by 7%</color> for Rupture specialty Agents.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> and <color=#2BAD00>granting 3 stacks of <color=#FFFFFF>Comrade</color> to the whole squad</color>."
+      },
+      "2": {
+        "id": 132100102,
+        "desc": "When the active character triggers another character's <color=#FFFFFF>Tag Assist</color>, quickly press the character switch button to trigger <color=#FFFFFF>Precise - Tag Assist</color>, granting 2 stacks of <color=#FFFFFF>Comrade</color> to the whole squad.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> and <color=#2BAD00>granting 3 stacks of <color=#FFFFFF>Comrade</color> to the whole squad</color>."
+      },
+      "3": {
+        "id": 132100103,
+        "desc": "The <color=#FFFFFF>Comrade</color> buff effect <color=#2BAD00>increases by 40%</color>, <color=#2BAD00>duration increases to 30s</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> and <color=#2BAD00>granting 3 stacks of <color=#FFFFFF>Comrade</color> to the whole squad</color>."
+      },
+      "4": {
+        "id": 132100104,
+        "desc": "Each stack of <color=#FFFFFF>Comrade</color> also increases the character's <color=#2BAD00>ATK by 5%</color> and <color=#2BAD00>DMG by 10%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> and <color=#2BAD00>granting 3 stacks of <color=#FFFFFF>Comrade</color> to the whole squad</color>."
+      }
+    }
+  },
+  "1321002": {
+    "id": 1321002,
+    "name": "[Mobile] Shatter Blade's Cry",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic034.png",
+    "level": {
+      "1": {
+        "id": 132100201,
+        "desc": "When the active character lands a heavy attack with <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Ultimate</color>, or triggers <color=#FFFFFF>Perfect Dodge</color>, it will trigger <color=#FFFFFF>Tag Assist</color> for the next character. Press <IconMap:Icon_Switch> at this moment, and the next character will perform a <color=#FFFFFF>Quick Assist</color> centered on the enemy. <color=#FFFFFF>Tag Assist</color> won't switch the current active character and the damage dealt is considered <color=#FFFFFF>Aftershock</color> DMG. <color=#FFFFFF>Tag Assist</color> deals <color=#2BAD00>200% increased DMG, 50% increased Daze, and 100% increased Anomaly Buildup</color>. After the squad performs 3 <color=#FFFFFF>Tag Assists</color>, the next <color=#FFFFFF>Tag Assist</color> will trigger <color=#FFFFFF>Vital View</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> <color=#2BAD00>and granting the whole squad 250 Decibels and 6 Energy</color>. The next <color=#FFFFFF>Tag Assist</color> will be upgraded to a <color=#FFFFFF>Chain Attack</color>, and will trigger <color=#FFFFFF>Vital View</color>."
+      },
+      "2": {
+        "id": 132100202,
+        "desc": "After the squad activates <color=#FFFFFF>Tag Assist</color> 3 times, the next time <color=#FFFFFF>Tag Assist</color> is activated, the next character will perform a <color=#FFFFFF>Chain Attack</color> on the enemy.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> <color=#2BAD00>and granting the whole squad 250 Decibels and 6 Energy</color>. The next <color=#FFFFFF>Tag Assist</color> will be upgraded to a <color=#FFFFFF>Chain Attack</color>, and will trigger <color=#FFFFFF>Vital View</color>."
+      },
+      "3": {
+        "id": 132100203,
+        "desc": "During <color=#FFFFFF>Vital View</color>, the whole squad's <color=#2BAD00>ATK increases by 50%, Impact increases by 40%, and Anomaly Mastery increases by 100</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> <color=#2BAD00>and granting the whole squad 250 Decibels and 6 Energy</color>. The next <color=#FFFFFF>Tag Assist</color> will be upgraded to a <color=#FFFFFF>Chain Attack</color>, and will trigger <color=#FFFFFF>Vital View</color>."
+      },
+      "4": {
+        "id": 132100204,
+        "desc": "After the squad activates <color=#FFFFFF>Tag Assist</color> twice, the next time <color=#FFFFFF>Tag Assist</color> is triggered, the character will perform a <color=#FFFFFF>Chain Attack</color> on enemies and activate <color=#FFFFFF>Vital View</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Bangboo Assist</color>: Luckyboo accumulates energy over time. When any character hits an enemy with an <color=#FFFFFF>Aftershock</color>, it generates additional Energy for Luckyboo. This effect can trigger once every 3s. With enough energy, press \"Bangboo Assist\" to summon Luckyboo, spawning numerous Dennies to continuously attack enemies, dealing <color=#F0D12B>Physical DMG</color> <color=#2BAD00>and granting the whole squad 250 Decibels and 6 Energy</color>. The next <color=#FFFFFF>Tag Assist</color> will be upgraded to a <color=#FFFFFF>Chain Attack</color>, and will trigger <color=#FFFFFF>Vital View</color>."
+      }
+    }
+  },
+  "1322201": {
+    "id": 1322201,
+    "name": "Astra Yao - Radiant Moment",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "desc": "For every 25 Energy consumed, Astra Yao gains 1 stack of <color=#FFFFFF>Starlight</color>, up to 3 stacks. During <color=#FFFFFF>Idyllic Cadenza</color>, hold <IconMap:Icon_Normal> to unleash <color=#FFFFFF>Basic Attack: Radiant Moment</color>, continuously channeling an energy beam to attack enemies. Upon activating this skill, <color=#FFFFFF>Starlight</color> will be consumed, with each stack of <color=#FFFFFF>Starlight</color> <color=#2BAD00>extending the skill duration by 1s</color>. During this skill, <color=#2BAD00>Anti-Interrupt Level is increased</color>, and <color=#2BAD00>DMG taken is further reduced by 20%</color>. When the skill hits enemies, <color=#2BAD00>target's DEF is reduced by 40%</color>. After gaining 3 stacks of <color=#FFFFFF>Starlight</color>, switching back to Astra Yao will automatically trigger <color=#FFFFFF>Basic Attack: Radiant Moment</color>."
+  },
+  "1322202": {
+    "id": 1322202,
+    "name": "Astra Yao - Hollow Symphony",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "desc": "For every 25 Energy consumed, Astra Yao gains 1 stack of <color=#FFFFFF>Starlight</color>, stacking up to 3 times. Each stack of <color=#FFFFFF>Starlight</color> <color=#2BAD00>increases the DMG dealt by <color=#FFFFFF>Tremolo</color> by 15% when released and additionally released while she is in the <color=#FFFFFF>Idyllic Cadenza</color> state</color>. Holding <IconMap:Icon_Normal> to perform <color=#FFFFFF>Basic Attack: Finale</color> or <color=#FFFFFF>Basic Attack: Radiant Moment</color> consumes <color=#FFFFFF>Starlight</color>. Each stack of <color=#FFFFFF>Starlight</color> <color=#2BAD00>increases the attack's DMG</color> by 15% and <color=#2BAD00>restores 4 Energy</color> to Astra Yao. When Astra Yao hits enemies with <color=#FFFFFF>Basic Attack: Interlude</color>, an additional 25 Energy will be consumed. When hitting enemies with <color=#FFFFFF>Basic Attack: Chorus</color>, <color=#2BAD00>an additional 4 Energy will be restored</color>."
+  },
+  "1322203": {
+    "id": 1322203,
+    "name": "Astra Yao - Harmonic Echo",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "desc": "During <color=#FFFFFF>Idyllic Cadenza</color>, <color=#2BAD00>increases CRIT Rate of all squad members by 20%</color>. When CRIT Rate reaches 100%, each 1% over 100% will <color=#2BAD00>increase CRIT DMG by 2%</color>, up to 100%. When the active character hits enemies with <color=#FFFFFF>EX Special Attack</color>, Astra Yao will <color=#2BAD00>recover 1 Energy</color> and <color=#2BAD00>launch an additional <color=#FFFFFF>Tremolo</color> attack</color>. This effect can trigger once every 1s."
+  },
+  "1322301": {
+    "id": 1322301,
+    "name": "Evelyn - Low-Combustion Coating",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "desc": "When Evelyn consumes <color=#FFFFFF>Burning Tether Point</color> to activate <color=#FFFFFF>Chain Attack: Lunalux - Snare</color>, it will be replaced by <color=#FFFFFF>Chain Attack: Lunalux - Entanglement</color>, significantly reducing skill duration. When Evelyn's <color=#FFFFFF>Chain Attack</color> hits enemies, <color=#2BAD00>the attack's DMG increases by 80%</color>."
+  },
+  "1322302": {
+    "id": 1322302,
+    "name": "Evelyn - Portable Detonator",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "desc": "When Evelyn exits <color=#FFFFFF>Binding Seal</color>, she enters <color=#FFFFFF>Ignite Preparation</color> for 20s, during which the next <color=#FFFFFF>Dash Attack: Piercing Ambush</color> will be replaced with <color=#FFFFFF>Dash Attack: Ambush Blast</color>. <color=#FFFFFF>Dash Attack: Ambush Blast</color> <color=#2BAD00>is considered a Chain Attack</color>. When Evelyn uses <color=#FFFFFF>Basic Attack: Garrote</color>, <color=#2BAD00>she will exit Binding Seal</color>."
+  },
+  "1322303": {
+    "id": 1322303,
+    "name": "Evelyn - Ultimate Contingency Protocol",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "desc": "When Evelyn is about to be staggered by a frontal attack, she will consume <color=#FFFFFF>Assist Point</color> to <color=#2BAD00>automatically trigger Defensive Assist</color>, blocking enemy attacks and enabling an ALT <color=#FFFFFF>Assist Follow-Up: Course Disruption</color>. When Evelyn activates <color=#FFFFFF>Defensive Assist</color>, her <color=#2BAD00>CRIT DMG increases by 50%</color>, stacking up to 2 times for 20 seconds. The duration of each stack is calculated separately."
+  },
+  "1322401": {
+    "id": 1322401,
+    "name": "Jane - Phantom Armor",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "desc": "Significantly increases the <color=#2BAD00>sustained attack duration</color> of <color=#FFFFFF>Basic Attack: Salchow Jump</color>. Triggering a Finishing Move when about to be attacked activates <color=#FFFFFF>Perfect Dodge</color>. When the sustained attack duration reaches maximum or <color=#FFFFFF>Perfect Dodge</color> is triggered by a Finishing Move, the Finishing Move will be enhanced to <color=#FFFFFF>Salchow Jump: Airborne</color>. When this skill is activated, <color=#F0D12B>Physical Anomaly Buildup Rate</color> is <color=#2BAD00>increased by 50%</color> for 10s."
+  },
+  "1322402": {
+    "id": 1322402,
+    "name": "Jane - Boiling Predatory Instinct",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "desc": "When triggering a <color=#FFFFFF>Perfect Dodge</color> or activating a <color=#FFFFFF>Defensive Assist</color>, <color=#FFFFFF>Passion Stream</color> is <color=#2BAD00>greatly increased</color>, replacing the <color=#FFFFFF>Passion</color> state with the <color=#FFFFFF>Overload Passion</color> state. In this state, Jane's <color=#2BAD00>ATK is additionally increased by 35%</color>. <color=#FFFFFF>Passion Stream</color> will automatically decrease over time, and hitting enemies with attacks <color=#2BAD00>no longer consumes</color> <color=#FFFFFF>Passion Stream</color>."
+  },
+  "1322403": {
+    "id": 1322403,
+    "name": "Jane - Venomous Edge",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "desc": "During the <color=#FFFFFF>Passion</color> or <color=#FFFFFF>Overload Passion</color> state, <color=#FFFFFF>EX Special Attack: Aerial Sweep</color> will be enhanced to <color=#FFFFFF>EX Special Attack: Aerial Sweep-Onslaught</color>. When using this skill, Jane will re-enter the <color=#FFFFFF>Passion</color> or <color=#FFFFFF>Overload Passion</color> state. When this skill hits enemies, the target's <color=#2BAD00>All Anomaly Buildup RES is reduced by 40%</color> for 15s."
+  },
+  "1322501": {
+    "id": 1322501,
+    "name": "Corin - Chainsaw Operation Manual",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "desc": "Replace <color=#FFFFFF>Dash Attack: Oopsy-Daisy!</color> with <color=#FFFFFF>Dash Attack: Oopsy-Daisy! - Modified</color>. Hold Basic Attack <IconMap:Icon_Normal> to maintain sprint mode, ending when the chainsaw has continuously slashed enemies 30 times or when the button is released."
+  },
+  "1322502": {
+    "id": 1322502,
+    "name": "Corin - Overload Driver",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "desc": "During <color=#FFFFFF>EX Special Attack</color>, holding <color=#FFFFFF>Special Attack</color> <IconMap:Icon_SpecialReady> to continuously slash enemies for over 0.5 seconds will trigger the <color=#FFFFFF>Overclock State</color>, <color=#2BAD00>continuously gathering enemies</color>. When the attack hits enemies 10 times, it will trigger <color=#FFFFFF>Overclock Overload</color>, <color=#2BAD00>additionally dealing one instance of</color> <color=#ELEMENT_PHYSiCS>Physical DMG</color> <color=#2BAD00>equivalent to 400% of Corin's ATK</color>."
+  },
+  "1322503": {
+    "id": 1322503,
+    "name": "Corin - Blasting Blowers",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic032.png",
+    "desc": "During the 1st, 2nd and 3rd hits of a <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dash Attack</color>, <color=#FFFFFF>Dodge Counter</color>, or <color=#FFFFFF>Quick Assist</color>, repeatedly press or hold Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>directly trigger the 4th hit of the Basic Attack</color>, and <color=#2BAD00>unleash a high-speed swirling slash towards enemies in front</color>."
+  },
+  "1360101": {
+    "id": 1360101,
+    "name": "[Attack: Eradication] Netherflame Reignited",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Orphie & Magus accumulate Energy over time. With enough Energy, press <color=#FFFFFF>Auxiliary Assist</color> to summon Orphie & Magus to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents the <color=#FFFFFF>Zeroed In</color> effect for 15s. Agents with <color=#FFFFFF>Zeroed In</color> gain <color=#2BAD00>500 ATK and their attacks ignore 20% of the enemy's DEF</color>.",
+    "level": {
+      "1": {
+        "id": 136010101,
+        "desc": "After any <color=#FFFFFF>Auxiliary Assist</color> ends, the Agent re-enters the field with an <color=#FFFFFF>Ultimate</color>. Can trigger once every 20s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Orphie & Magus accumulate Energy over time. With enough Energy, press <color=#FFFFFF>Auxiliary Assist</color> to summon Orphie & Magus to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents the <color=#FFFFFF>Zeroed In</color> effect for 15s. Agents with <color=#FFFFFF>Zeroed In</color> gain <color=#2BAD00>500 ATK and their attacks ignore 20% of the enemy's DEF</color>."
+      },
+      "2": {
+        "id": 136010102,
+        "desc": "<color=#FFFFFF>Zeroed In</color> additionally <color=#2BAD00>provides 675 ATK and ignores an additional 30% of enemy DEF</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Orphie & Magus accumulate Energy over time. With enough Energy, press <color=#FFFFFF>Auxiliary Assist</color> to summon Orphie & Magus to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents the <color=#FFFFFF>Zeroed In</color> effect for 15s. Agents with <color=#FFFFFF>Zeroed In</color> gain <color=#2BAD00>500 ATK and their attacks ignore 20% of the enemy's DEF</color>."
+      },
+      "3": {
+        "id": 136010103,
+        "desc": "When an Agent's attack triggers a critical hit, <color=#2BAD00>increases CRIT DMG by 40% and DMG by 25%</color> for 6s. Repeated triggers refresh the duration.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Orphie & Magus accumulate Energy over time. With enough Energy, press <color=#FFFFFF>Auxiliary Assist</color> to summon Orphie & Magus to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents the <color=#FFFFFF>Zeroed In</color> effect for 15s. Agents with <color=#FFFFFF>Zeroed In</color> gain <color=#2BAD00>500 ATK and their attacks ignore 20% of the enemy's DEF</color>."
+      },
+      "4": {
+        "id": 136010104,
+        "desc": "When an Agent launches a/an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color> while <color=#FFFFFF>Zeroed In</color> is active, the duration of <color=#FFFFFF>Zeroed In</color> is <color=#2BAD00>extended by 3/3/6s</color> respectively, up to a maximum of 30s in total.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Orphie & Magus accumulate Energy over time. With enough Energy, press <color=#FFFFFF>Auxiliary Assist</color> to summon Orphie & Magus to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents the <color=#FFFFFF>Zeroed In</color> effect for 15s. Agents with <color=#FFFFFF>Zeroed In</color> gain <color=#2BAD00>500 ATK and their attacks ignore 20% of the enemy's DEF</color>."
+      }
+    }
+  },
+  "1360102": {
+    "id": 1360102,
+    "name": "[Attack: Eradication] Masquerade",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Hugo accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Hugo to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. This skill always CRITs, and when a heavy attack from this skill hits an enemy, it <color=#FFFFFF>triggers the Totalize effect</color>, dealing <color=#2BAD00>DMG equal to 100%/20%/10% of the target's Max HP</color> to normal enemies/Elite enemies/Boss enemies respectively. When Hugo's <color=#FFFFFF>Auxiliary Assist</color> hits a Stunned enemy, it ends the enemy's Stunned state and deals <color=#2BAD00>additional DMG equal to a percentage of Max HP</color> to Elite enemies/Boss enemies based on remaining Daze duration, up to an additional 20%/10%.",
+    "level": {
+      "1": {
+        "id": 136010201,
+        "desc": "When an Agent or Auxiliary Character lands a CRIT, they immediately <color=#2BAD00>defeat normal enemies/Elite enemies/Bosses whose HP is lower than 80%/40%/20%</color>. This effect may be triggered once every 6s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Hugo accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Hugo to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. This skill always CRITs, and when a heavy attack from this skill hits an enemy, it <color=#FFFFFF>triggers the Totalize effect</color>, dealing <color=#2BAD00>DMG equal to 100%/20%/10% of the target's Max HP</color> to normal enemies/Elite enemies/Boss enemies respectively. When Hugo's <color=#FFFFFF>Auxiliary Assist</color> hits a Stunned enemy, it ends the enemy's Stunned state and deals <color=#2BAD00>additional DMG equal to a percentage of Max HP</color> to Elite enemies/Boss enemies based on remaining Daze duration, up to an additional 20%/10%."
+      },
+      "2": {
+        "id": 136010202,
+        "desc": "When an Agent Stuns a normal enemy/Elite enemy/Boss, <color=#2BAD00>Hugo recovers 25%/ 63%/100% Auxiliary Assist Energy</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Hugo accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Hugo to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. This skill always CRITs, and when a heavy attack from this skill hits an enemy, it <color=#FFFFFF>triggers the Totalize effect</color>, dealing <color=#2BAD00>DMG equal to 100%/20%/10% of the target's Max HP</color> to normal enemies/Elite enemies/Boss enemies respectively. When Hugo's <color=#FFFFFF>Auxiliary Assist</color> hits a Stunned enemy, it ends the enemy's Stunned state and deals <color=#2BAD00>additional DMG equal to a percentage of Max HP</color> to Elite enemies/Boss enemies based on remaining Daze duration, up to an additional 20%/10%."
+      },
+      "3": {
+        "id": 136010203,
+        "desc": "Upon activating<color=#FFFFFF>Auxiliary Assist</color>, all Agents in the squad <color=#2BAD00>recover 30 Energy</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Hugo accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Hugo to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. This skill always CRITs, and when a heavy attack from this skill hits an enemy, it <color=#FFFFFF>triggers the Totalize effect</color>, dealing <color=#2BAD00>DMG equal to 100%/20%/10% of the target's Max HP</color> to normal enemies/Elite enemies/Boss enemies respectively. When Hugo's <color=#FFFFFF>Auxiliary Assist</color> hits a Stunned enemy, it ends the enemy's Stunned state and deals <color=#2BAD00>additional DMG equal to a percentage of Max HP</color> to Elite enemies/Boss enemies based on remaining Daze duration, up to an additional 20%/10%."
+      },
+      "4": {
+        "id": 136010204,
+        "desc": "For every Elite enemy or Boss defeated, gain 1 stack of <color=#FFFFFF>Enhancement</color>. For each stack of <color=#FFFFFF>Enhancement</color> active, the <color=#FFFFFF>Totalize</color> effect of <color=#FFFFFF>Auxiliary Assist</color> <color=#2BAD00>will deal additional DMG to the Boss equal to 2% of their Max HP</color>. Bosses and Elite enemies defeated before obtaining this upgrade will also count towards <color=#FFFFFF>Enhancement</color> stacks when this upgrade is obtained.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Hugo accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Hugo to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. This skill always CRITs, and when a heavy attack from this skill hits an enemy, it <color=#FFFFFF>triggers the Totalize effect</color>, dealing <color=#2BAD00>DMG equal to 100%/20%/10% of the target's Max HP</color> to normal enemies/Elite enemies/Boss enemies respectively. When Hugo's <color=#FFFFFF>Auxiliary Assist</color> hits a Stunned enemy, it ends the enemy's Stunned state and deals <color=#2BAD00>additional DMG equal to a percentage of Max HP</color> to Elite enemies/Boss enemies based on remaining Daze duration, up to an additional 20%/10%."
+      }
+    }
+  },
+  "1360103": {
+    "id": 1360103,
+    "name": "[Anomaly: Infliction] Flame in a Cup",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Burnice accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Burnice to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Scorched</color> effect. <color=#FFFFFF>Scorched</color> enemies have <color=#2BAD00>all attribute Anomaly Buildup RES reduced by 42%</color> for 40 seconds.",
+    "level": {
+      "1": {
+        "id": 136010301,
+        "desc": "Triggers <color=#FFFFFF>Polarity Disorder</color> when an Agent lands a hit on an enemy suffering an Attribute Anomaly with an <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>: deals to the target <color=#2BAD00>50% of the DMG from the original Disorder effect</color>. This effect can trigger once every 3s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Burnice accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Burnice to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Scorched</color> effect. <color=#FFFFFF>Scorched</color> enemies have <color=#2BAD00>all attribute Anomaly Buildup RES reduced by 42%</color> for 40 seconds."
+      },
+      "2": {
+        "id": 136010302,
+        "desc": "All Agents in the squad enter <color=#FFFFFF>Nitro-Fuel Cocktail</color> state when Burnice launches her <color=#FFFFFF>Auxiliary Assist</color>. When in <color=#FFFFFF>Nitro-Fuel Cocktail</color> state, Agents <color=#2BAD00>deal 100% more DMG</color> with the <color=#FFFFFF>Disorder</color> effect. <color=#FFFFFF>Nitro-Fuel Cocktail</color> lasts 15s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Burnice accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Burnice to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Scorched</color> effect. <color=#FFFFFF>Scorched</color> enemies have <color=#2BAD00>all attribute Anomaly Buildup RES reduced by 42%</color> for 40 seconds."
+      },
+      "3": {
+        "id": 136010303,
+        "desc": "When an Agent inflicts the <color=#FFFFFF>Disorder</color> effect, <color=#2BAD00>the enemy also accumulates 10% Daze</color>. This effect can trigger once every 6s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Burnice accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Burnice to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Scorched</color> effect. <color=#FFFFFF>Scorched</color> enemies have <color=#2BAD00>all attribute Anomaly Buildup RES reduced by 42%</color> for 40 seconds."
+      },
+      "4": {
+        "id": 136010304,
+        "desc": "Upon Stunning the boss, all Agents in the squad enter <color=#FFFFFF>Nitro-Fuel Cocktail</color> state triggered by <color=#FFFFFF>Auxiliary Assist</color>, and when in <color=#FFFFFF>Nitro-Fuel Cocktail</color> state, the Agent's <color=#2BAD00>Anomaly Proficiency increases by 90 while their Anomaly Mastery also increases by 80</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Burnice accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Burnice to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Scorched</color> effect. <color=#FFFFFF>Scorched</color> enemies have <color=#2BAD00>all attribute Anomaly Buildup RES reduced by 42%</color> for 40 seconds."
+      }
+    }
+  },
+  "1360104": {
+    "id": 1360104,
+    "name": "[Anomaly: Infliction] Featherlight Snowfall",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Vivian accumulates Energy over time.With enough energy, press Auxiliary Assist to summon Vivian to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Upon hitting enemies affected by Attribute Anomaly, inflicts the <color=#FFFFFF>Abloom</color> effect on them and <color=#2BAD00>an additional instance of Attribute Anomaly DMG</color> at a ratio based on the original Attribute Anomaly DMG of <color=#FE437E>6,129%</color> / <color=#2EB6FF>3,040%</color> / <color=#FF5521>7,600%</color> / <color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>.",
+    "level": {
+      "1": {
+        "id": 136010401,
+        "desc": "All Agents in the squad plus the Auxiliary Character's <color=#2BAD00>Anomaly Proficiency increases by 75, and they deal 30% more DMG with Attribute Anomalies</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Vivian accumulates Energy over time.With enough energy, press Auxiliary Assist to summon Vivian to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Upon hitting enemies affected by Attribute Anomaly, inflicts the <color=#FFFFFF>Abloom</color> effect on them and <color=#2BAD00>an additional instance of Attribute Anomaly DMG</color> at a ratio based on the original Attribute Anomaly DMG of <color=#FE437E>6,129%</color> / <color=#2EB6FF>3,040%</color> / <color=#FF5521>7,600%</color> / <color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>."
+      },
+      "2": {
+        "id": 136010402,
+        "desc": "Vivian <color=#2BAD00>gains30 Auxiliary Assist Energy</color> when an Agent inflicts an Attribute Anomaly. This effect can trigger only once every 6s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Vivian accumulates Energy over time.With enough energy, press Auxiliary Assist to summon Vivian to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Upon hitting enemies affected by Attribute Anomaly, inflicts the <color=#FFFFFF>Abloom</color> effect on them and <color=#2BAD00>an additional instance of Attribute Anomaly DMG</color> at a ratio based on the original Attribute Anomaly DMG of <color=#FE437E>6,129%</color> / <color=#2EB6FF>3,040%</color> / <color=#FF5521>7,600%</color> / <color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>."
+      },
+      "3": {
+        "id": 136010403,
+        "desc": "When an Agent in the squad or an Auxiliary Character inflicts the <color=#FFFFFF>Abloom</color> effect, the whole squad's <color=#2BAD00>PEN Ratio increases by 20%, and they deal 25% more DMG</color>, for 30s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Vivian accumulates Energy over time.With enough energy, press Auxiliary Assist to summon Vivian to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Upon hitting enemies affected by Attribute Anomaly, inflicts the <color=#FFFFFF>Abloom</color> effect on them and <color=#2BAD00>an additional instance of Attribute Anomaly DMG</color> at a ratio based on the original Attribute Anomaly DMG of <color=#FE437E>6,129%</color> / <color=#2EB6FF>3,040%</color> / <color=#FF5521>7,600%</color> / <color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>."
+      },
+      "4": {
+        "id": 136010404,
+        "desc": "The <color=#FFFFFF>Abloom</color> effect triggered by Vivian's <color=#FFFFFF>Auxiliary Assist</color> has its <color=#2BAD00>damage multiplier increased to twice its original value and ignores 11% of the target's All-Attribute RES</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Vivian accumulates Energy over time.With enough energy, press Auxiliary Assist to summon Vivian to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Upon hitting enemies affected by Attribute Anomaly, inflicts the <color=#FFFFFF>Abloom</color> effect on them and <color=#2BAD00>an additional instance of Attribute Anomaly DMG</color> at a ratio based on the original Attribute Anomaly DMG of <color=#FE437E>6,129%</color> / <color=#2EB6FF>3,040%</color> / <color=#FF5521>7,600%</color> / <color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>."
+      }
+    }
+  },
+  "1360105": {
+    "id": 1360105,
+    "name": "[Stun: Knock] One and Done",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Lighter accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Lighter to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Collapse</color> effect. Enemies inflicted with the <color=#FFFFFF>Collapse</color> effect have their <color=#2BAD00>Stunned duration extended by 3s after being Dazed</color>. The <color=#FFFFFF>Collapse</color> effect ends when the enemies recover from the Stunned state. When Lighter's <color=#FFFFFF>Auxiliary Assist</color> hits normal/Elite/Boss enemies, it <color=#2BAD00>directly accumulates 100%/30%/15% Daze</color> respectively.",
+    "level": {
+      "1": {
+        "id": 136010501,
+        "desc": "When an enemy is hit with <color=#FFFFFF>Auxiliary Assist</color>, the <color=#2BAD00>Daze they accumulate increases by 100%/40%/20%</color> for normal enemies/Elite enemies/Bosses respectively.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Lighter accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Lighter to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Collapse</color> effect. Enemies inflicted with the <color=#FFFFFF>Collapse</color> effect have their <color=#2BAD00>Stunned duration extended by 3s after being Dazed</color>. The <color=#FFFFFF>Collapse</color> effect ends when the enemies recover from the Stunned state. When Lighter's <color=#FFFFFF>Auxiliary Assist</color> hits normal/Elite/Boss enemies, it <color=#2BAD00>directly accumulates 100%/30%/15% Daze</color> respectively."
+      },
+      "2": {
+        "id": 136010502,
+        "desc": "When an enemy has <color=#FFFFFF>Collapse</color> active, <color=#2BAD00>their All-Attribute RES is reduced by 30%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Lighter accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Lighter to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Collapse</color> effect. Enemies inflicted with the <color=#FFFFFF>Collapse</color> effect have their <color=#2BAD00>Stunned duration extended by 3s after being Dazed</color>. The <color=#FFFFFF>Collapse</color> effect ends when the enemies recover from the Stunned state. When Lighter's <color=#FFFFFF>Auxiliary Assist</color> hits normal/Elite/Boss enemies, it <color=#2BAD00>directly accumulates 100%/30%/15% Daze</color> respectively."
+      },
+      "3": {
+        "id": 136010503,
+        "desc": "When an enemy becomes Stunned, they get one stack of <color=#FFFFFF>Weakened</color>. This <color=#2BAD00>increases the DMG taken by that enemy from Agents in the squad and the Auxiliary Character by 50% while they are Stunned</color>. The <color=#FFFFFF>Weakened</color> effect stacks up to 3 times in a single enemy.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Lighter accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Lighter to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Collapse</color> effect. Enemies inflicted with the <color=#FFFFFF>Collapse</color> effect have their <color=#2BAD00>Stunned duration extended by 3s after being Dazed</color>. The <color=#FFFFFF>Collapse</color> effect ends when the enemies recover from the Stunned state. When Lighter's <color=#FFFFFF>Auxiliary Assist</color> hits normal/Elite/Boss enemies, it <color=#2BAD00>directly accumulates 100%/30%/15% Daze</color> respectively."
+      },
+      "4": {
+        "id": 136010504,
+        "desc": "When a/an normal enemy/Elite enemy/Boss with <color=#FFFFFF>Collapse</color> exits Stunned, they <color=#2BAD00>accumulate 100%/40%/20% Daze</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Lighter accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Lighter to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting enemies inflicts the <color=#FFFFFF>Collapse</color> effect. Enemies inflicted with the <color=#FFFFFF>Collapse</color> effect have their <color=#2BAD00>Stunned duration extended by 3s after being Dazed</color>. The <color=#FFFFFF>Collapse</color> effect ends when the enemies recover from the Stunned state. When Lighter's <color=#FFFFFF>Auxiliary Assist</color> hits normal/Elite/Boss enemies, it <color=#2BAD00>directly accumulates 100%/30%/15% Daze</color> respectively."
+      }
+    }
+  },
+  "1360106": {
+    "id": 1360106,
+    "name": "[Stun: Knock] Spectral Pierce",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Trigger accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Trigger and launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting an enemy inflicts the <color=#FFFFFF>Pierce</color> effect. Enemies with the <color=#FFFFFF>Pierce</color> effect have their <color=#2BAD00>Stun DMG Multiplier increased by 20%</color>. The <color=#FFFFFF>Pierce</color> effect ends when the enemies recover from the Stunned state. When Trigger's <color=#FFFFFF>Auxiliary Assist</color> hits a normal enemy, elite enemy, or boss enemy, it <color=#2BAD00>accumulates 100%/30%/15% Stun</color>.",
+    "level": {
+      "1": {
+        "id": 136010601,
+        "desc": "When an Agent Stuns the Boss, the whole squad <color=#2BAD00>recovers 48 Energy, 60 Adrenaline, 48 Sharpness, and 800 Decibels</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Trigger accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Trigger and launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting an enemy inflicts the <color=#FFFFFF>Pierce</color> effect. Enemies with the <color=#FFFFFF>Pierce</color> effect have their <color=#2BAD00>Stun DMG Multiplier increased by 20%</color>. The <color=#FFFFFF>Pierce</color> effect ends when the enemies recover from the Stunned state. When Trigger's <color=#FFFFFF>Auxiliary Assist</color> hits a normal enemy, elite enemy, or boss enemy, it <color=#2BAD00>accumulates 100%/30%/15% Stun</color>."
+      },
+      "2": {
+        "id": 136010602,
+        "desc": "When an Agent hits an enemy with the <color=#FFFFFF>Pierce</color> effect, <color=#2BAD00>ignore 30% of their All-Attribute RES</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Trigger accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Trigger and launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting an enemy inflicts the <color=#FFFFFF>Pierce</color> effect. Enemies with the <color=#FFFFFF>Pierce</color> effect have their <color=#2BAD00>Stun DMG Multiplier increased by 20%</color>. The <color=#FFFFFF>Pierce</color> effect ends when the enemies recover from the Stunned state. When Trigger's <color=#FFFFFF>Auxiliary Assist</color> hits a normal enemy, elite enemy, or boss enemy, it <color=#2BAD00>accumulates 100%/30%/15% Stun</color>."
+      },
+      "3": {
+        "id": 136010603,
+        "desc": "When an Agent or Auxiliary Character Stuns an enemy, the enemy's <color=#2BAD00>Stun DMG Multiplier increases by 75%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Trigger accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Trigger and launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting an enemy inflicts the <color=#FFFFFF>Pierce</color> effect. Enemies with the <color=#FFFFFF>Pierce</color> effect have their <color=#2BAD00>Stun DMG Multiplier increased by 20%</color>. The <color=#FFFFFF>Pierce</color> effect ends when the enemies recover from the Stunned state. When Trigger's <color=#FFFFFF>Auxiliary Assist</color> hits a normal enemy, elite enemy, or boss enemy, it <color=#2BAD00>accumulates 100%/30%/15% Stun</color>."
+      },
+      "4": {
+        "id": 136010604,
+        "desc": "When a non-<color=#FFFFFF>Rupture</color> Agent lands a hit on an enemy with the <color=#FFFFFF>Pierce</color> effect, <color=#2BAD00>40% of said enemy's DEF is ignored</color>; when a <color=#FFFFFF>Rupture</color> Agent lands a hit on an enemy with the <color=#FFFFFF>Pierce</color> effect, <color=#2BAD00>Sheer DMG increases by 30%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Trigger accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Trigger and launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies. Hitting an enemy inflicts the <color=#FFFFFF>Pierce</color> effect. Enemies with the <color=#FFFFFF>Pierce</color> effect have their <color=#2BAD00>Stun DMG Multiplier increased by 20%</color>. The <color=#FFFFFF>Pierce</color> effect ends when the enemies recover from the Stunned state. When Trigger's <color=#FFFFFF>Auxiliary Assist</color> hits a normal enemy, elite enemy, or boss enemy, it <color=#2BAD00>accumulates 100%/30%/15% Stun</color>."
+      }
+    }
+  },
+  "1360107": {
+    "id": 1360107,
+    "name": "[Support: Saturation] Elegant Creed",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Rina does not accumulate Energy over time, instead she accumulates Energy when any Agent in the squad consumes Energy/Adrenaline/Sharpness. With enough Energy, press Auxiliary Assist to summon Rina to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color>. During <color=#FFFFFF>Vital View</color>, <color=#2BAD00>DMG dealt by all Agents in the squad increases by 70%</color> for 10s.",
+    "level": {
+      "1": {
+        "id": 136010701,
+        "desc": "Upon entering combat, all Agents in the squad <color=#2BAD00>restore 52 Energy, 65 Adrenaline, or 52 Sharpness</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Rina does not accumulate Energy over time, instead she accumulates Energy when any Agent in the squad consumes Energy/Adrenaline/Sharpness. With enough Energy, press Auxiliary Assist to summon Rina to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color>. During <color=#FFFFFF>Vital View</color>, <color=#2BAD00>DMG dealt by all Agents in the squad increases by 70%</color> for 10s."
+      },
+      "2": {
+        "id": 136010702,
+        "desc": "When Rina is in <color=#FFFFFF>Vital View</color> state triggered by her <color=#FFFFFF>Auxiliary Assist</color>, the active character <color=#2BAD00>recovers 8 Energy, 10 Adrenaline, or 8 Sharpness every second</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Rina does not accumulate Energy over time, instead she accumulates Energy when any Agent in the squad consumes Energy/Adrenaline/Sharpness. With enough Energy, press Auxiliary Assist to summon Rina to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color>. During <color=#FFFFFF>Vital View</color>, <color=#2BAD00>DMG dealt by all Agents in the squad increases by 70%</color> for 10s."
+      },
+      "3": {
+        "id": 136010703,
+        "desc": "Reduces the Decibels required for all Agents to launch an <color=#FFFFFF>Ultimate</color> to <color=#2BAD00>1,800</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Rina does not accumulate Energy over time, instead she accumulates Energy when any Agent in the squad consumes Energy/Adrenaline/Sharpness. With enough Energy, press Auxiliary Assist to summon Rina to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color>. During <color=#FFFFFF>Vital View</color>, <color=#2BAD00>DMG dealt by all Agents in the squad increases by 70%</color> for 10s."
+      },
+      "4": {
+        "id": 136010704,
+        "desc": "When an Agent activates their <color=#FFFFFF>Ultimate</color> while Rina is in <color=#FFFFFF>Vital View</color> triggered by her <color=#FFFFFF>Auxiliary Assist</color>, said instance of <color=#FFFFFF>Vital View</color><color=#2BAD00> is extended by 2s</color>. Each instance of <color=#FFFFFF>Vital View</color> may be extended up to 3 times.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Rina does not accumulate Energy over time, instead she accumulates Energy when any Agent in the squad consumes Energy/Adrenaline/Sharpness. With enough Energy, press Auxiliary Assist to summon Rina to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color>. During <color=#FFFFFF>Vital View</color>, <color=#2BAD00>DMG dealt by all Agents in the squad increases by 70%</color> for 10s."
+      }
+    }
+  },
+  "1360108": {
+    "id": 1360108,
+    "name": "[Support: Saturation] Denny Magnet",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Nicole accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Nicole to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color> for 10s. During <color=#FFFFFF>Vital View</color>, all Agents in the squad <color=#2BAD00>ignore 50% of the enemy's DEF</color>.",
+    "level": {
+      "1": {
+        "id": 136010801,
+        "desc": "When the Agent makes their entrance on the field with a <color=#FFFFFF>Chain Attack</color> after any <color=#FFFFFF>Auxiliary Assist</color> ends, the next 3 instances of <color=#FFFFFF>Quick Assist</color> initiated by any Agent in the squad become <color=#FFFFFF>Chain Attacks</color> instead.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Nicole accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Nicole to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color> for 10s. During <color=#FFFFFF>Vital View</color>, all Agents in the squad <color=#2BAD00>ignore 50% of the enemy's DEF</color>."
+      },
+      "2": {
+        "id": 136010802,
+        "desc": "While Nicole is in <color=#FFFFFF>Vital View</color> triggered by her <color=#FFFFFF>Auxiliary Assist</color>, one <color=#FFFFFF>Quick Assist</color> window will trigger every 3s, and <color=#2BAD00>DMG dealt with Chain Attacks increases by 80%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Nicole accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Nicole to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color> for 10s. During <color=#FFFFFF>Vital View</color>, all Agents in the squad <color=#2BAD00>ignore 50% of the enemy's DEF</color>."
+      },
+      "3": {
+        "id": 136010803,
+        "desc": "When the Agent activates a <color=#FFFFFF>Chain Attack</color>, <color=#2BAD00>the whole squad gains 150 Decibels</color>. DMG dealt by <color=#FFFFFF>Ultimates</color> <color=#2BAD00>ignores an additional 20% DEF</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Nicole accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Nicole to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color> for 10s. During <color=#FFFFFF>Vital View</color>, all Agents in the squad <color=#2BAD00>ignore 50% of the enemy's DEF</color>."
+      },
+      "4": {
+        "id": 136010804,
+        "desc": "Each time the Agent activates a <color=#FFFFFF>Chain Attack</color> while Nicole is in <color=#FFFFFF>Vital View</color> triggered by her <color=#FFFFFF>Auxiliary Assist</color>, all Agents in the squad gain 1 stack of <color=#FFFFFF>Charge</color>. This lasts 15s and stacks up to 5 times. Repeated triggers reset the duration. Each stack of <color=#FFFFFF>Charge</color> <color=#2BAD00>increases <color=#FFFFFF>Ultimate</color> DMG by 20%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Nicole accumulates Energy over time. With enough Energy, press Auxiliary Assist to summon Nicole to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and enter <color=#FFFFFF>Vital View</color> for 10s. During <color=#FFFFFF>Vital View</color>, all Agents in the squad <color=#2BAD00>ignore 50% of the enemy's DEF</color>."
+      }
+    }
+  },
+  "1360109": {
+    "id": 1360109,
+    "name": "[Rupture: Activation] Soulfire Showdown",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic073.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Manato accumulates Energy over time. The lower the HP of the active character, the faster Manato's Energy Generation. With enough energy, press Auxiliary Assist to summon Manato to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies, equalize all Agents in the squad ' HP and <color=#2BAD00>restore 20% HP</color>. all Agents in the squad gain the <color=#FFFFFF>Molten Edge</color> status. While in the <color=#FFFFFF>Molten Edge</color> status, Agents' <color=#2BAD00>CRIT DMG is increased by 50%</color>, lasting 40s.",
+    "level": {
+      "1": {
+        "id": 136010901,
+        "desc": "When an Agent's attack hits an enemy, the Agent enters <color=#FFFFFF>Bloodfury</color> state for 2s. While in <color=#FFFFFF>Bloodfury</color> state, the Agent <color=#2BAD00>deals 75% more DMG</color>, and if their current HP is also higher than 20%, <color=#CF4029>2% HP will be consumed every second</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Manato accumulates Energy over time. The lower the HP of the active character, the faster Manato's Energy Generation. With enough energy, press Auxiliary Assist to summon Manato to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies, equalize all Agents in the squad ' HP and <color=#2BAD00>restore 20% HP</color>. all Agents in the squad gain the <color=#FFFFFF>Molten Edge</color> status. While in the <color=#FFFFFF>Molten Edge</color> status, Agents' <color=#2BAD00>CRIT DMG is increased by 50%</color>, lasting 40s."
+      },
+      "2": {
+        "id": 136010902,
+        "desc": "While in <color=#FFFFFF>Molten Edge</color> state, non-<color=#FFFFFF>Rupture</color> Agents gain <color=#2BAD00>1,350 ATK</color>, and <color=#FFFFFF>Rupture</color> Agents gain <color=#2BAD00>1,125 Sheer Force</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Manato accumulates Energy over time. The lower the HP of the active character, the faster Manato's Energy Generation. With enough energy, press Auxiliary Assist to summon Manato to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies, equalize all Agents in the squad ' HP and <color=#2BAD00>restore 20% HP</color>. all Agents in the squad gain the <color=#FFFFFF>Molten Edge</color> status. While in the <color=#FFFFFF>Molten Edge</color> status, Agents' <color=#2BAD00>CRIT DMG is increased by 50%</color>, lasting 40s."
+      },
+      "3": {
+        "id": 136010903,
+        "desc": "When fatal damage is taken for the first time in a battle, keeps HP from dropping below 1, <color=#2BAD00>preventing defeat for 2s as the Agent recovers 50% HP in this time</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Manato accumulates Energy over time. The lower the HP of the active character, the faster Manato's Energy Generation. With enough energy, press Auxiliary Assist to summon Manato to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies, equalize all Agents in the squad ' HP and <color=#2BAD00>restore 20% HP</color>. all Agents in the squad gain the <color=#FFFFFF>Molten Edge</color> status. While in the <color=#FFFFFF>Molten Edge</color> status, Agents' <color=#2BAD00>CRIT DMG is increased by 50%</color>, lasting 40s."
+      },
+      "4": {
+        "id": 136010904,
+        "desc": "While in <color=#FFFFFF>Molten Edge</color> state, if their HP is higher than 40%, the Agent may <color=#CF4029>consume 20% HP</color> to unleash their <color=#FFFFFF>Ultimate</color> (even if they do not have enough Decibels otherwise to do so). Each Agent may trigger this effect once each time they enter <color=#FFFFFF>Molten Edge</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Manato accumulates Energy over time. The lower the HP of the active character, the faster Manato's Energy Generation. With enough energy, press Auxiliary Assist to summon Manato to launch an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies, equalize all Agents in the squad ' HP and <color=#2BAD00>restore 20% HP</color>. all Agents in the squad gain the <color=#FFFFFF>Molten Edge</color> status. While in the <color=#FFFFFF>Molten Edge</color> status, Agents' <color=#2BAD00>CRIT DMG is increased by 50%</color>, lasting 40s."
+      }
+    }
+  },
+  "1360110": {
+    "id": 1360110,
+    "name": "[Defense: Battle Shield] Backup Barge-In",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic069.png",
+    "desc": "<color=#FFFFFF>Auxiliary Assist</color>: Caesar accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Caesar to unleash an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents 6,000 points of <color=#FFFFFF>Radiant Aegis</color> Shield. While an Agent has <color=#FFFFFF>Radiant Aegis</color>, they have unlimited <color=#FFFFFF>Assist Points</color> <color=#2BAD00>, their DMG dealt increases by 35%, and DMG taken in a single instance cannot exceed the Shield amount</color>.",
+    "level": {
+      "1": {
+        "id": 136011001,
+        "desc": "When <color=#FFFFFF>Defensive Assist</color> is triggered, the parried enemy immediately <color=#2BAD00>accumulates 5% Daze</color>. This effect can trigger up to 3 times every 15s.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Caesar accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Caesar to unleash an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents 6,000 points of <color=#FFFFFF>Radiant Aegis</color> Shield. While an Agent has <color=#FFFFFF>Radiant Aegis</color>, they have unlimited <color=#FFFFFF>Assist Points</color> <color=#2BAD00>, their DMG dealt increases by 35%, and DMG taken in a single instance cannot exceed the Shield amount</color>."
+      },
+      "2": {
+        "id": 136011002,
+        "desc": "When the Agent has <color=#FFFFFF>Radiant Aegis</color>, their <color=#2BAD00>Anti-Interrupt Level increases, and attacks ignore 20% of the enemy's All-Attribute RES</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Caesar accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Caesar to unleash an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents 6,000 points of <color=#FFFFFF>Radiant Aegis</color> Shield. While an Agent has <color=#FFFFFF>Radiant Aegis</color>, they have unlimited <color=#FFFFFF>Assist Points</color> <color=#2BAD00>, their DMG dealt increases by 35%, and DMG taken in a single instance cannot exceed the Shield amount</color>."
+      },
+      "3": {
+        "id": 136011003,
+        "desc": "When <color=#FFFFFF>Defensive Assist</color> is triggered, inflicts 1 stack of <color=#FFFFFF>Acuity</color> on the enemy, stacking up to 5 times. Each stack of <color=#FFFFFF>Acuity</color> <color=#2BAD00>increases their Stun DMG Multiplier by 10%</color>.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Caesar accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Caesar to unleash an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents 6,000 points of <color=#FFFFFF>Radiant Aegis</color> Shield. While an Agent has <color=#FFFFFF>Radiant Aegis</color>, they have unlimited <color=#FFFFFF>Assist Points</color> <color=#2BAD00>, their DMG dealt increases by 35%, and DMG taken in a single instance cannot exceed the Shield amount</color>."
+      },
+      "4": {
+        "id": 136011004,
+        "desc": "Triggering <color=#FFFFFF>Defensive Assist</color> or <color=#FFFFFF>Perfect Dodge</color> grants an additional 1,000points for <color=#FFFFFF>Radiant Aegis</color>, with a maximum of 15,000 points obtainable for <color=#FFFFFF>Radiant Aegis</color>. The Agent's <color=#2BAD00>CRIT DMG is increased </color> based on their current <color=#FFFFFF>Radiant Aegis</color> shield value, with every 1,000 points increasing said DMG by 5%.",
+        "relic_proactive_skill": "<color=#FFFFFF>Auxiliary Assist</color>: Caesar accumulates Energy over time, starting with 75 Charge. With enough Energy, press Auxiliary Assist to summon Caesar to unleash an <color=#FFFFFF>Auxiliary Assist</color> attack on enemies and grant all Agents 6,000 points of <color=#FFFFFF>Radiant Aegis</color> Shield. While an Agent has <color=#FFFFFF>Radiant Aegis</color>, they have unlimited <color=#FFFFFF>Assist Points</color> <color=#2BAD00>, their DMG dealt increases by 35%, and DMG taken in a single instance cannot exceed the Shield amount</color>."
+      }
+    }
+  }
+}

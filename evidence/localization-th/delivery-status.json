@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-17T20:11:58.868Z",
+  "status": "COMPLETE_LOCAL_IMPLEMENTATION_VERIFIED",
+  "checks": {
+    "build": true,
+    "lint": true,
+    "unit": true,
+    "nanokaRegression": true,
+    "browser": true,
+    "realData": true,
+    "http": true,
+    "hosting": true
+  },
+  "sourceRevision": "462563ec0f8ffc7493f6e2a46f64f8b34ea2d547",
+  "nanokaRunId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "live": {
+    "texts": 57420,
+    "th": 41216,
+    "en": 11946,
+    "missing": 4258
+  },
+  "liveCategoriesWithThai": 13,
+  "summary": "docs/THAI_LOCALIZATION_SUMMARY_TH.md",
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

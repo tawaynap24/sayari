@@ -7,7 +7,21 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "nanoka:probe": "node tools/nanoka/scripts/nanoka-sync.mjs --mode probe --out .nanoka --extensions tools/nanoka/reference/extensions.json",
+    "nanoka:sync": "node tools/nanoka/scripts/nanoka-sync.mjs --mode sync --out .nanoka --extensions tools/nanoka/reference/extensions.json",
+    "nanoka:export": "node tools/nanoka/scripts/export-for-vite.mjs --out .nanoka --dest public/nanoka",
+    "nanoka:test": "node --test tools/nanoka/tests/*.test.mjs",
+    "nanoka:audit": "node tools/nanoka/scripts/audit-snapshot.mjs",
+    "nanoka:verify-manifest": "node tools/nanoka/scripts/verify-manifest.mjs",
+    "nanoka:check": "node tools/nanoka/scripts/verify-project.mjs",
+    "localization:sync": "node tools/localization/sync.mjs",
+    "localization:build": "node tools/localization/sync.mjs --offline",
+    "localization:test": "node --test tools/localization/*.test.mjs",
+    "localization:verify": "node tools/localization/verify.mjs",
+    "localization:browser": "node tools/nanoka/tools/network-discovery/localization-tests.mjs",
+    "localization:preview": "node tools/nanoka/tools/network-discovery/localization-preview.mjs",
+    "localization:report": "node tools/localization/report.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",

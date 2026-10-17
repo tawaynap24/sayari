@@ -1,0 +1,2211 @@
+{
+  "id": 1641,
+  "icon": "IconRole1641",
+  "name": "フィオニー",
+  "code_name": "Pheony",
+  "rarity": 4,
+  "weapon_type": {
+    "3": "異常"
+  },
+  "element_type": {
+    "201": "炎"
+  },
+  "special_element_type": {},
+  "hit_type": {
+    "101": "斬撃"
+  },
+  "camp": {
+    "12": "クランプスの黒枝"
+  },
+  "gender": 2,
+  "partner_info": {
+    "birthday": "...",
+    "full_name": "...",
+    "gender": "女性",
+    "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle1641.png",
+    "inter_knot_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole1641.png",
+    "impression_f": "...",
+    "impression_m": "...",
+    "impressions": [
+      "...",
+      "...",
+      "..."
+    ],
+    "profile_desc": "...",
+    "role_icon": "IconRole/UnPacker/IconRole1641",
+    "stature": "...",
+    "unlock_condition": [
+      "エージェント招集",
+      "...",
+      "依頼「アンビーの当惑」を達成する"
+    ],
+    "trust_lv": {
+      "1": "...",
+      "2": "",
+      "3": "...",
+      "4": ""
+    }
+  },
+  "skin": {
+    "3116410": {
+      "name": "...",
+      "desc": "...",
+      "obtain_desc": "",
+      "image": "IconRole1641"
+    },
+    "3116411": {
+      "name": "...",
+      "desc": "...",
+      "obtain_desc": "",
+      "image": "IconRole1641_01"
+    },
+    "3116412": {
+      "name": "...",
+      "desc": "...",
+      "obtain_desc": "",
+      "image": "IconRole1641_02"
+    }
+  },
+  "stats": {
+    "armor": 0,
+    "armor_growth": 0,
+    "attack": 126,
+    "attack_growth": 75860,
+    "avatar_piece_id": 5641,
+    "break_stun": 86,
+    "crit": 500,
+    "crit_damage": 5000,
+    "crit_dmg_res": 0,
+    "crit_res": 0,
+    "defence": 49,
+    "defence_growth": 66882,
+    "element_abnormal_power": 116,
+    "element_mystery": 118,
+    "endurance": 0,
+    "hp_growth": 837238,
+    "hp_max": 617,
+    "pen_delta": 0,
+    "pen_rate": 0,
+    "rbl": 1,
+    "rbl_correction_factor": 10000,
+    "rbl_probability": 0,
+    "shield": 0,
+    "shield_growth": 0,
+    "sp_bar_point": 120,
+    "sp_recover": 120,
+    "stun": 0,
+    "tags": [
+      "Pheony",
+      "Cut",
+      "Fire",
+      "Female",
+      "Camp12",
+      "Size2",
+      "AidTypeParry",
+      "Pheony",
+      "EtherEyesSize2"
+    ],
+    "rp_max": 0,
+    "rp_recover": 0,
+    "ep_max": 0,
+    "ep_recover": 0,
+    "sharp_critical_damage": 0
+  },
+  "level": {
+    "1": {
+      "hp_max": 0,
+      "attack": 0,
+      "defence": 0,
+      "level_max": 10,
+      "level_min": 0,
+      "materials": {
+        "10": 24000,
+        "100213": 4
+      }
+    },
+    "2": {
+      "hp_max": 423,
+      "attack": 45,
+      "defence": 34,
+      "level_max": 20,
+      "level_min": 10,
+      "materials": {
+        "10": 56000,
+        "100223": 12
+      }
+    },
+    "3": {
+      "hp_max": 847,
+      "attack": 90,
+      "defence": 68,
+      "level_max": 30,
+      "level_min": 20,
+      "materials": {
+        "10": 120000,
+        "100223": 20
+      }
+    },
+    "4": {
+      "hp_max": 1270,
+      "attack": 134,
+      "defence": 101,
+      "level_max": 40,
+      "level_min": 30,
+      "materials": {
+        "10": 200000,
+        "100233": 10
+      }
+    },
+    "5": {
+      "hp_max": 1694,
+      "attack": 179,
+      "defence": 135,
+      "level_max": 50,
+      "level_min": 40,
+      "materials": {
+        "10": 400000,
+        "100233": 20
+      }
+    },
+    "6": {
+      "hp_max": 2117,
+      "attack": 224,
+      "defence": 169,
+      "level_max": 60,
+      "level_min": 50,
+      "materials": {}
+    }
+  },
+  "extra_level": {
+    "1": {
+      "max_level": 15,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 12
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 0
+        }
+      }
+    },
+    "2": {
+      "max_level": 25,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 12
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 25
+        }
+      }
+    },
+    "3": {
+      "max_level": 35,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 24
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 25
+        }
+      }
+    },
+    "4": {
+      "max_level": 45,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 24
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 50
+        }
+      }
+    },
+    "5": {
+      "max_level": 55,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 36
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 50
+        }
+      }
+    },
+    "6": {
+      "max_level": 60,
+      "extra": {
+        "31401": {
+          "prop": 31401,
+          "name": "異常掌握",
+          "format": "{0:0.#}",
+          "value": 36
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "基礎攻撃力",
+          "format": "{0:0.#}",
+          "value": 75
+        }
+      }
+    }
+  },
+  "level_exp": [
+    50,
+    150,
+    250,
+    400,
+    600,
+    800,
+    1000,
+    1250,
+    1500,
+    1800,
+    1935,
+    2065,
+    2200,
+    2335,
+    2465,
+    2600,
+    2735,
+    2865,
+    3000,
+    4680,
+    4975,
+    5265,
+    5560,
+    5855,
+    6145,
+    6440,
+    6735,
+    7025,
+    7320,
+    10800,
+    11400,
+    12000,
+    12600,
+    13200,
+    13800,
+    14400,
+    15000,
+    15600,
+    16200,
+    17100,
+    18300,
+    19500,
+    20700,
+    21900,
+    23100,
+    24300,
+    25500,
+    26700,
+    27900,
+    34200,
+    36600,
+    39000,
+    41400,
+    43800,
+    46200,
+    48600,
+    51000,
+    53400,
+    55800,
+    0
+  ],
+  "skill": {
+    "basic": {
+      "description": [
+        {
+          "name": "通常攻撃：生を裁く",
+          "desc": "<IconMap:Icon_Normal> を押して発動：\n前方へ最大4段の攻撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\n『通常攻撃』の3段目と4段目は<Term:1000046>『焦熱攻撃』</Term>とみなされる。",
+          "potential": []
+        },
+        {
+          "name": "通常攻撃：炎で処す",
+          "desc": "<Term:1000047>「業火」</Term>が十分な時、「業火」を90Pt消費し、<IconMap:Icon_Normal> を長押しして発動：\nフィオニーが武器を投擲し、前方範囲内の敵に<color=#FF5521>炎属性ダメージ</color>を大量に与える。\nとどめの一撃が<color=#98EFF0>氷属性</color>、<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にある敵に命中した時、<color=#FFFFFF>「狂咲」</color>効果が1回発動し、対応する属性の状態異常ダメージを1回与える。ダメージ倍率は<color=#2BAD00>{CAL:225+20*(AvatarSkillLevel(0)-1),1,2}%</color>となる。\nこの<color=#FFFFFF>「狂咲」</color>効果で会心が発生した時、その会心ダメージが追加で+40%。\nスキル発動中、無敵効果を得る。",
+          "potential": []
+        },
+        {
+          "name": "通常攻撃：溶かし尽くす",
+          "desc": "『特殊スキル：火を掠め』発動中にパーフェクトガードが発動しなかった場合、<IconMap:Icon_Normal> を押して発動：\n前方へ突進し、<color=#FF5521>炎属性ダメージ</color>を与える。\nこのスキルは<Term:1000046>『焦熱攻撃』</Term>とみなされる。\nスキル発動中に <IconMap:Icon_Normal> を押すと、『通常攻撃』の3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "通常攻撃：生を裁く",
+          "param": [
+            {
+              "name": "1段ダメージ倍率",
+              "desc": "{Skill:1641001, Prop:1001}",
+              "param": {
+                "1641001": {
+                  "main": 1560,
+                  "growth": 150,
+                  "format": "%",
+                  "damage_percentage": 1560,
+                  "damage_percentage_growth": 150,
+                  "stun_ratio": 1320,
+                  "stun_ratio_growth": 60,
+                  "sp_recovery": 3240,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 33000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 1200,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 1200
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2段ダメージ倍率",
+              "desc": "{Skill:1641002, Prop:1001}",
+              "param": {
+                "1641002": {
+                  "main": 6770,
+                  "growth": 620,
+                  "format": "%",
+                  "damage_percentage": 6770,
+                  "damage_percentage_growth": 620,
+                  "stun_ratio": 4550,
+                  "stun_ratio_growth": 210,
+                  "sp_recovery": 12130,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 113850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4133,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4134
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3段ダメージ倍率",
+              "desc": "{Skill:1641003, Prop:1001}",
+              "param": {
+                "1641003": {
+                  "main": 17810,
+                  "growth": 1620,
+                  "format": "%",
+                  "damage_percentage": 17810,
+                  "damage_percentage_growth": 1620,
+                  "stun_ratio": 9750,
+                  "stun_ratio_growth": 450,
+                  "sp_recovery": 30230,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 231000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 11362,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    70239
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8398
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4段ダメージ倍率",
+              "desc": "{Skill:1641004, Prop:1001}",
+              "param": {
+                "1641004": {
+                  "main": 38920,
+                  "growth": 3540,
+                  "format": "%",
+                  "damage_percentage": 38920,
+                  "damage_percentage_growth": 3540,
+                  "stun_ratio": 20860,
+                  "stun_ratio_growth": 950,
+                  "sp_recovery": 69950,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 534325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 23917,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    169072
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19430
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "1段ブレイク倍率",
+              "desc": "{Skill:1641001, Prop:1002}",
+              "param": {
+                "1641001": {
+                  "main": 1320,
+                  "growth": 60,
+                  "format": "%",
+                  "damage_percentage": 1560,
+                  "damage_percentage_growth": 150,
+                  "stun_ratio": 1320,
+                  "stun_ratio_growth": 60,
+                  "sp_recovery": 3240,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 33000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 1200,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 1200
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2段ブレイク倍率",
+              "desc": "{Skill:1641002, Prop:1002}",
+              "param": {
+                "1641002": {
+                  "main": 4550,
+                  "growth": 210,
+                  "format": "%",
+                  "damage_percentage": 6770,
+                  "damage_percentage_growth": 620,
+                  "stun_ratio": 4550,
+                  "stun_ratio_growth": 210,
+                  "sp_recovery": 12130,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 113850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4133,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4134
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3段ブレイク倍率",
+              "desc": "{Skill:1641003, Prop:1002}",
+              "param": {
+                "1641003": {
+                  "main": 9750,
+                  "growth": 450,
+                  "format": "%",
+                  "damage_percentage": 17810,
+                  "damage_percentage_growth": 1620,
+                  "stun_ratio": 9750,
+                  "stun_ratio_growth": 450,
+                  "sp_recovery": 30230,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 231000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 11362,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    70239
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8398
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4段ブレイク倍率",
+              "desc": "{Skill:1641004, Prop:1002}",
+              "param": {
+                "1641004": {
+                  "main": 20860,
+                  "growth": 950,
+                  "format": "%",
+                  "damage_percentage": 38920,
+                  "damage_percentage_growth": 3540,
+                  "stun_ratio": 20860,
+                  "stun_ratio_growth": 950,
+                  "sp_recovery": 69950,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 534325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 23917,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    169072
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19430
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "通常攻撃：炎で処す",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641005, Prop:1001}",
+              "param": {
+                "1641005": {
+                  "main": 54730,
+                  "growth": 4980,
+                  "format": "%",
+                  "damage_percentage": 54730,
+                  "damage_percentage_growth": 4980,
+                  "stun_ratio": 27500,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 45000,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 687500,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 36196,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19998
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641005, Prop:1002}",
+              "param": {
+                "1641005": {
+                  "main": 27500,
+                  "growth": 1250,
+                  "format": "%",
+                  "damage_percentage": 54730,
+                  "damage_percentage_growth": 4980,
+                  "stun_ratio": 27500,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 45000,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 687500,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 36196,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19998
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "「狂咲」倍率",
+              "desc": "{CAL:225+20*(AvatarSkillLevel(0)-1),1,2}%",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "通常攻撃：溶かし尽くす",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641006, Prop:1001}",
+              "param": {
+                "1641006": {
+                  "main": 17810,
+                  "growth": 1620,
+                  "format": "%",
+                  "damage_percentage": 17810,
+                  "damage_percentage_growth": 1620,
+                  "stun_ratio": 9630,
+                  "stun_ratio_growth": 440,
+                  "sp_recovery": 35280,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 240625,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 12879,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    80238
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8748
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641006, Prop:1002}",
+              "param": {
+                "1641006": {
+                  "main": 9630,
+                  "growth": 440,
+                  "format": "%",
+                  "damage_percentage": 17810,
+                  "damage_percentage_growth": 1620,
+                  "stun_ratio": 9630,
+                  "stun_ratio_growth": 440,
+                  "sp_recovery": 35280,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 240625,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 12879,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    80238
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8748
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100111": 2
+        },
+        "2": {
+          "10": 3000,
+          "100111": 3
+        },
+        "3": {
+          "10": 6000,
+          "100121": 2
+        },
+        "4": {
+          "10": 9000,
+          "100121": 3
+        },
+        "5": {
+          "10": 12000,
+          "100121": 4
+        },
+        "6": {
+          "10": 18000,
+          "100121": 6
+        },
+        "7": {
+          "10": 45000,
+          "100131": 5
+        },
+        "8": {
+          "10": 67500,
+          "100131": 8
+        },
+        "9": {
+          "10": 90000,
+          "100131": 10
+        },
+        "10": {
+          "10": 112500,
+          "100131": 12
+        },
+        "11": {
+          "10": 135000,
+          "100131": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "dodge": {
+      "description": [
+        {
+          "name": "回避：ゆらめき",
+          "desc": " <IconMap:Icon_Evade> を押して発動：\nダッシュで高速回避する。\nスキル発動中、無敵効果を得る。",
+          "potential": []
+        },
+        {
+          "name": "ダッシュ攻撃：前のめり",
+          "desc": "回避時に <IconMap:Icon_Normal> を押して発動：\n前方に突進斬撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。",
+          "potential": []
+        },
+        {
+          "name": "回避反撃：<ruby><rt>ごうかふたたび</rt>業火再び</ruby>",
+          "desc": "<color=#FFFFFF>『極限回避』</color>後に <IconMap:Icon_Normal> を押して発動：\n前方へ突進しながら素早い斬撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "ダッシュ攻撃：前のめり",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641010, Prop:1001}",
+              "param": {
+                "1641010": {
+                  "main": 10400,
+                  "growth": 950,
+                  "format": "%",
+                  "damage_percentage": 10400,
+                  "damage_percentage_growth": 950,
+                  "stun_ratio": 4400,
+                  "stun_ratio_growth": 200,
+                  "sp_recovery": 14400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 110000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3998,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3999
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641010, Prop:1002}",
+              "param": {
+                "1641010": {
+                  "main": 4400,
+                  "growth": 200,
+                  "format": "%",
+                  "damage_percentage": 10400,
+                  "damage_percentage_growth": 950,
+                  "stun_ratio": 4400,
+                  "stun_ratio_growth": 200,
+                  "sp_recovery": 14400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 110000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3998,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3999
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "回避反撃：<ruby><rt>ごうかふたたび</rt>業火再び</ruby>",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641011, Prop:1001}",
+              "param": {
+                "1641011": {
+                  "main": 29620,
+                  "growth": 2700,
+                  "format": "%",
+                  "damage_percentage": 29620,
+                  "damage_percentage_growth": 2700,
+                  "stun_ratio": 21820,
+                  "stun_ratio_growth": 1000,
+                  "sp_recovery": 35390,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 270600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 9830,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24831
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641011, Prop:1002}",
+              "param": {
+                "1641011": {
+                  "main": 21820,
+                  "growth": 1000,
+                  "format": "%",
+                  "damage_percentage": 29620,
+                  "damage_percentage_growth": 2700,
+                  "stun_ratio": 21820,
+                  "stun_ratio_growth": 1000,
+                  "sp_recovery": 35390,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 270600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 9830,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24831
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100111": 2
+        },
+        "2": {
+          "10": 3000,
+          "100111": 3
+        },
+        "3": {
+          "10": 6000,
+          "100121": 2
+        },
+        "4": {
+          "10": 9000,
+          "100121": 3
+        },
+        "5": {
+          "10": 12000,
+          "100121": 4
+        },
+        "6": {
+          "10": 18000,
+          "100121": 6
+        },
+        "7": {
+          "10": 45000,
+          "100131": 5
+        },
+        "8": {
+          "10": 67500,
+          "100131": 8
+        },
+        "9": {
+          "10": 90000,
+          "100131": 10
+        },
+        "10": {
+          "10": 112500,
+          "100131": 12
+        },
+        "11": {
+          "10": 135000,
+          "100131": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "special": {
+      "description": [
+        {
+          "name": "特殊スキル：火を掠め",
+          "desc": "<IconMap:Icon_Special> を押して発動：\n後退してから素早く前方に斬り上げ攻撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\n後退中、被ダメージ-40%。\n斬り上げ攻撃を発動した瞬間に攻撃を受けた、または赤色・黄色の閃光が出現した敵に命中した時、パーフェクトガードが発動し、そのダメージを無効化する。この時に <IconMap:Icon_Normal> を押すと、『通常攻撃』の3段目を直接発動できる。\nスキル発動中、中断耐性レベルがアップする。",
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>りょうかいっせん</rt>燎火一閃</ruby>",
+          "desc": "<Term:1000049>「昇焔」</Term>効果を所持している時、「昇焔」を1Pt消費し、<IconMap:Icon_Special> を押して発動：\n後退してから素早く前方へ強力な斬り上げ攻撃を放ち、<color=#FF5521>炎属性ダメージ</color>を大量に与える。\n後退中に <IconMap:Icon_Special> の長押しを続けると、チャージを継続できる。\nチャージ中に <IconMap:Icon_Special> を離すと、強力な斬り上げ攻撃を発動し、<color=#FF5521>炎属性ダメージ</color>を大量に与える。\n<color=#FFFFFF><Term:1000046>『焦熱攻撃』</Term></color>に繋げて発動する場合、後退をスキップして斬り上げ攻撃を直接発動できる。\n後退中およびチャージ中、被ダメージ-40%。\n斬り上げ攻撃を発動した瞬間に攻撃を受けた、または赤色・黄色の閃光が出現した敵に命中した時、パーフェクトガードが発動する。\nこのスキルは『焦熱攻撃』とみなされる。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと、『通常攻撃』の3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>しゃくえん</rt>灼焔</ruby>",
+          "desc": "エネルギーが十分な時、 <IconMap:Icon_SpecialReady> を押して発動：\n素早く身体を回転させ、敵に<color=#FF5521>炎属性ダメージ</color>を大量に与える。\n回転開始の瞬間に攻撃を受けた、または赤色・黄色の閃光が出現した敵に命中した時、パーフェクトガードが発動する。\nこのスキルは<Term:1000046>『焦熱攻撃』</Term>とみなされる。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>らっか</rt>落火</ruby>",
+          "desc": "『強化特殊スキル：灼焔』発動後、エネルギーが十分な時、<IconMap:Icon_SpecialReady> を短押しまたは長押しで発動：\n上空に跳び上がってから武器を投げつけ、敵に<color=#FF5521>炎属性ダメージ</color>を大量に与える。\nスキル発動時、「昇焔」を1Pt獲得する。「昇焔」は最大1Ptまで所持できる。\n回転開始の瞬間に攻撃を受けた、または赤色・黄色の閃光が出現した敵に命中した時、パーフェクトガードが発動する。\nこのスキルは<Term:1000046>『焦熱攻撃』</Term>とみなされる。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "特殊スキル：火を掠め",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641007, Prop:1001}",
+              "param": {
+                "1641007": {
+                  "main": 4560,
+                  "growth": 420,
+                  "format": "%",
+                  "damage_percentage": 4560,
+                  "damage_percentage_growth": 420,
+                  "stun_ratio": 3860,
+                  "stun_ratio_growth": 180,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 96525,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3500,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3501
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641007, Prop:1002}",
+              "param": {
+                "1641007": {
+                  "main": 3860,
+                  "growth": 180,
+                  "format": "%",
+                  "damage_percentage": 4560,
+                  "damage_percentage_growth": 420,
+                  "stun_ratio": 3860,
+                  "stun_ratio_growth": 180,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 96525,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3500,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3501
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>りょうかいっせん</rt>燎火一閃</ruby>",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641023, Prop:1001}",
+              "param": {
+                "1641023": {
+                  "main": 38050,
+                  "growth": 3460,
+                  "format": "%",
+                  "damage_percentage": 38050,
+                  "damage_percentage_growth": 3460,
+                  "stun_ratio": 25640,
+                  "stun_ratio_growth": 1170,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 259875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 22783,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    90300
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 5250
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641023, Prop:1002}",
+              "param": {
+                "1641023": {
+                  "main": 25640,
+                  "growth": 1170,
+                  "format": "%",
+                  "damage_percentage": 38050,
+                  "damage_percentage_growth": 3460,
+                  "stun_ratio": 25640,
+                  "stun_ratio_growth": 1170,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 259875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 22783,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    90300
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 5250
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>しゃくえん</rt>灼焔</ruby>",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641008, Prop:1001}",
+              "param": {
+                "1641008": {
+                  "main": 45760,
+                  "growth": 4160,
+                  "format": "%",
+                  "damage_percentage": 45760,
+                  "damage_percentage_growth": 4160,
+                  "stun_ratio": 31190,
+                  "stun_ratio_growth": 1420,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1293600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 28440,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    150189
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12837
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641008, Prop:1002}",
+              "param": {
+                "1641008": {
+                  "main": 31190,
+                  "growth": 1420,
+                  "format": "%",
+                  "damage_percentage": 45760,
+                  "damage_percentage_growth": 4160,
+                  "stun_ratio": 31190,
+                  "stun_ratio_growth": 1420,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1293600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 28440,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    150189
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12837
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "エネルギー消費",
+              "desc": "40Pt",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "強化特殊スキル：<ruby><rt>らっか</rt>落火</ruby>",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641009, Prop:1001}",
+              "param": {
+                "1641009": {
+                  "main": 62300,
+                  "growth": 5670,
+                  "format": "%",
+                  "damage_percentage": 62300,
+                  "damage_percentage_growth": 5670,
+                  "stun_ratio": 41050,
+                  "stun_ratio_growth": 1870,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1472075,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 40119,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    200851
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 17167
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641009, Prop:1002}",
+              "param": {
+                "1641009": {
+                  "main": 41050,
+                  "growth": 1870,
+                  "format": "%",
+                  "damage_percentage": 62300,
+                  "damage_percentage_growth": 5670,
+                  "stun_ratio": 41050,
+                  "stun_ratio_growth": 1870,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1472075,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 40119,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    200851
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 17167
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "エネルギー消費",
+              "desc": "40Pt",
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100111": 2
+        },
+        "2": {
+          "10": 3000,
+          "100111": 3
+        },
+        "3": {
+          "10": 6000,
+          "100121": 2
+        },
+        "4": {
+          "10": 9000,
+          "100121": 3
+        },
+        "5": {
+          "10": 12000,
+          "100121": 4
+        },
+        "6": {
+          "10": 18000,
+          "100121": 6
+        },
+        "7": {
+          "10": 45000,
+          "100131": 5
+        },
+        "8": {
+          "10": 67500,
+          "100131": 8
+        },
+        "9": {
+          "10": 90000,
+          "100131": 10
+        },
+        "10": {
+          "10": 112500,
+          "100131": 12
+        },
+        "11": {
+          "10": 135000,
+          "100131": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "chain": {
+      "description": [
+        {
+          "name": "連携スキル：死中に活",
+          "desc": "<color=#FFFFFF>『連携スキル』</color>開始時に、対応するエージェントを選択して発動：\n前方に多段攻撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\nこのスキルは<Term:1000046>『焦熱攻撃』</Term>とみなされる。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "終結スキル：万死に<ruby><rt>こうせい</rt>甦生</ruby>を",
+          "desc": "デシベルレートが<color=#FFFFFF>『Maximum』</color>に達した時に <IconMap:Icon_UltimateReady> を押して発動：\n高く飛び上がった後に敵に向かって急降下し、自身のHPをすべて消費して爆発を引き起こし、<color=#FF5521>炎属性ダメージ</color>を大量に与える。その後に「絶息」状態になり、次のメンバーの『クイック支援』を発動可能にする。\nこのスキルは<Term:1000046>『焦熱攻撃』</Term>とみなされる。\n「絶息」状態では、自ら攻撃を行えない。\nスキル発動後、一定時間が経つと自動的に『魂狩る燼火』を発動する。また <IconMap:Icon_Normal> を押すことで、『魂狩る燼火』を素早く発動することも可能。\nスキル発動中、無敵効果を得る。",
+          "potential": []
+        },
+        {
+          "name": "魂狩る<ruby><rt>じんか</rt>燼火</ruby>",
+          "desc": "フィオニーが「絶息」状態にある時、次に通常の交代、『クイック支援』または『パリィ支援』で出場する直前に発動：\n全身に炎をまとい、周囲の敵に<color=#FF5521>炎属性ダメージ</color>を与える。このダメージは『終結スキル』ダメージと見なされる。その後に「絶息」状態を解除し、<color=#FFFFFF>『終結スキル：万死に甦生を』</color>で消費したHPをすべて回復するほか、自身のHP上限10%分のHPを追加で回復する。\nとどめの一撃が<color=#98EFF0>氷属性</color>、<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にある敵に命中した時、<color=#FFFFFF>「狂咲」</color>効果が1回発動し、対応する属性の状態異常ダメージを1回与える。ダメージ倍率は<color=#2BAD00>{CAL:300+27*(AvatarSkillLevel(3)-1),1,2}%</color>となる。\nこの<color=#FFFFFF>「狂咲」</color>効果が会心発生時、その会心ダメージが追加で+40%。\n「絶息」状態のフィオニーが<color=#FFFFFF>『連携スキル：死中に活』</color>、<color=#FFFFFF>『終結スキル：万死に甦生を』</color>で出場した時も、上記のHP回復と<color=#FFFFFF>「狂咲」</color>効果が発動する。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "連携スキル：死中に活",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641012, Prop:1001}",
+              "param": {
+                "1641012": {
+                  "main": 88270,
+                  "growth": 8030,
+                  "format": "%",
+                  "damage_percentage": 88270,
+                  "damage_percentage_growth": 8030,
+                  "stun_ratio": 26410,
+                  "stun_ratio_growth": 1210,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2489025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61243,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    199228
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24004
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641012, Prop:1002}",
+              "param": {
+                "1641012": {
+                  "main": 26410,
+                  "growth": 1210,
+                  "format": "%",
+                  "damage_percentage": 88270,
+                  "damage_percentage_growth": 8030,
+                  "stun_ratio": 26410,
+                  "stun_ratio_growth": 1210,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2489025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 61243,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    199228
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 24004
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "終結スキル：万死に<ruby><rt>こうせい</rt>甦生</ruby>を",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641013, Prop:1001}",
+              "param": {
+                "1641013": {
+                  "main": 181390,
+                  "growth": 16490,
+                  "format": "%",
+                  "damage_percentage": 181390,
+                  "damage_percentage_growth": 16490,
+                  "stun_ratio": 18290,
+                  "stun_ratio_growth": 840,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 90361,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    185430
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 64119
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641013, Prop:1002}",
+              "param": {
+                "1641013": {
+                  "main": 18290,
+                  "growth": 840,
+                  "format": "%",
+                  "damage_percentage": 181390,
+                  "damage_percentage_growth": 16490,
+                  "stun_ratio": 18290,
+                  "stun_ratio_growth": 840,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 90361,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    185430
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 64119
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "魂狩る<ruby><rt>じんか</rt>燼火</ruby>",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641019, Prop:1001}",
+              "param": {
+                "1641019": {
+                  "main": 9550,
+                  "growth": 870,
+                  "format": "%",
+                  "damage_percentage": 9550,
+                  "damage_percentage_growth": 870,
+                  "stun_ratio": 960,
+                  "stun_ratio_growth": 50,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4756,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3375
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641019, Prop:1002}",
+              "param": {
+                "1641019": {
+                  "main": 960,
+                  "growth": 50,
+                  "format": "%",
+                  "damage_percentage": 9550,
+                  "damage_percentage_growth": 870,
+                  "stun_ratio": 960,
+                  "stun_ratio_growth": 50,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4756,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3375
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "「狂咲」倍率",
+              "desc": "{CAL:300+27*(AvatarSkillLevel(3)-1),1,2}%",
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100111": 2
+        },
+        "2": {
+          "10": 3000,
+          "100111": 3
+        },
+        "3": {
+          "10": 6000,
+          "100121": 2
+        },
+        "4": {
+          "10": 9000,
+          "100121": 3
+        },
+        "5": {
+          "10": 12000,
+          "100121": 4
+        },
+        "6": {
+          "10": 18000,
+          "100121": 6
+        },
+        "7": {
+          "10": 45000,
+          "100131": 5
+        },
+        "8": {
+          "10": 67500,
+          "100131": 8
+        },
+        "9": {
+          "10": 90000,
+          "100131": 10
+        },
+        "10": {
+          "10": 112500,
+          "100131": 12
+        },
+        "11": {
+          "10": 135000,
+          "100131": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "assist": {
+      "description": [
+        {
+          "name": "クイック支援：応急処置",
+          "desc": "操作しているメンバーが吹き飛ばされた時に、 <IconMap:Icon_Switch> を押して発動：\n前方に突進しながら素早い斬撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "パリィ支援：<ruby><rt>ながわずらい</rt>長患い</ruby>の知恵",
+          "desc": "出場中のメンバーが攻撃されそうになった時に、 <IconMap:Icon_Switch> を押して発動：\n敵の攻撃をパリィし、ブレイク値を大量に蓄積させる。\nスキル発動中、無敵効果を得る。",
+          "potential": []
+        },
+        {
+          "name": "支援突撃：再生医療",
+          "desc": "<color=#FFFFFF>『パリィ支援』</color>発動後、 <IconMap:Icon_Normal> を押して発動：\n敵に武器を投げつけてから、武器を回収しながら斬撃を放ち、<color=#FF5521>炎属性ダメージ</color>を与える。\nスキル発動中、無敵効果を得るほか、<IconMap:Icon_Normal> を押すと『通常攻撃』3段目に繋げられる。",
+          "potential": []
+        },
+        {
+          "name": "クイック支援：応急処置",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641014, Prop:1001}",
+              "param": {
+                "1641014": {
+                  "main": 9540,
+                  "growth": 870,
+                  "format": "%",
+                  "damage_percentage": 9540,
+                  "damage_percentage_growth": 870,
+                  "stun_ratio": 8070,
+                  "stun_ratio_growth": 370,
+                  "sp_recovery": 26400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 201850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 7331,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7332
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641014, Prop:1002}",
+              "param": {
+                "1641014": {
+                  "main": 8070,
+                  "growth": 370,
+                  "format": "%",
+                  "damage_percentage": 9540,
+                  "damage_percentage_growth": 870,
+                  "stun_ratio": 8070,
+                  "stun_ratio_growth": 370,
+                  "sp_recovery": 26400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 201850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 7331,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7332
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "パリィ支援：<ruby><rt>ながわずらい</rt>長患い</ruby>の知恵",
+          "param": [
+            {
+              "name": "パリィ・軽 ブレイク倍率",
+              "desc": "{Skill:1641015, Prop:1002}",
+              "param": {
+                "1641015": {
+                  "main": 27130,
+                  "growth": 1240,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 27130,
+                  "stun_ratio_growth": 1240,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 36664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "パリィ・重 ブレイク倍率",
+              "desc": "{Skill:1641016, Prop:1002}",
+              "param": {
+                "1641016": {
+                  "main": 34280,
+                  "growth": 1560,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 34280,
+                  "stun_ratio_growth": 1560,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 41664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "パリィ・連続 ブレイク倍率",
+              "desc": "{Skill:1641017, Prop:1002}",
+              "param": {
+                "1641017": {
+                  "main": 16680,
+                  "growth": 760,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 16680,
+                  "stun_ratio_growth": 760,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 11664
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "支援突撃：再生医療",
+          "param": [
+            {
+              "name": "ダメージ倍率",
+              "desc": "{Skill:1641018, Prop:1001}",
+              "param": {
+                "1641018": {
+                  "main": 42650,
+                  "growth": 3880,
+                  "format": "%",
+                  "damage_percentage": 42650,
+                  "damage_percentage_growth": 3880,
+                  "stun_ratio": 31330,
+                  "stun_ratio_growth": 1430,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1021350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 30642,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15497
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "ブレイク倍率",
+              "desc": "{Skill:1641018, Prop:1002}",
+              "param": {
+                "1641018": {
+                  "main": 31330,
+                  "growth": 1430,
+                  "format": "%",
+                  "damage_percentage": 42650,
+                  "damage_percentage_growth": 3880,
+                  "stun_ratio": 31330,
+                  "stun_ratio_growth": 1430,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1021350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 30642,
+                  "sp_consume": 0,
+                  "attack_data": [
+                    0
+                  ],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15497
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100111": 2
+        },
+        "2": {
+          "10": 3000,
+          "100111": 3
+        },
+        "3": {
+          "10": 6000,
+          "100121": 2
+        },
+        "4": {
+          "10": 9000,
+          "100121": 3
+        },
+        "5": {
+          "10": 12000,
+          "100121": 4
+        },
+        "6": {
+          "10": 18000,
+          "100121": 6
+        },
+        "7": {
+          "10": 45000,
+          "100131": 5
+        },
+        "8": {
+          "10": 67500,
+          "100131": 8
+        },
+        "9": {
+          "10": 90000,
+          "100131": 10
+        },
+        "10": {
+          "10": 112500,
+          "100131": 12
+        },
+        "11": {
+          "10": 135000,
+          "100131": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    }
+  },
+  "skill_priority": [
+    {
+      "id": 1641001,
+      "avatar_id": 1641,
+      "first_priority": [
+        5,
+        0
+      ],
+      "second_priority": [
+        1,
+        3
+      ],
+      "third_priority": [
+        6,
+        2
+      ],
+      "potential_levels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "skill_list": {
+    "1641001": {
+      "name": "通常攻撃：生を裁く",
+      "desc": "<IconMap:Icon_Normal>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641002": {
+      "name": "通常攻撃：溶かし尽くす",
+      "desc": "<IconMap:Icon_Normal>（『特殊スキル：火を掠め』後に短押し）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641003": {
+      "name": "通常攻撃：炎で処す",
+      "desc": "<IconMap:Icon_Normal>（「業火」90Pt以上の時に長押し）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641004": {
+      "name": "特殊スキル：火を掠め",
+      "desc": "<IconMap:Icon_Special>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641005": {
+      "name": "強化特殊スキル：燎火一閃",
+      "desc": "<IconMap:Icon_SpecialReady>（「昇焔」所持中に短押し）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641006": {
+      "name": "強化特殊スキル：灼焔",
+      "desc": "<IconMap:Icon_SpecialReady>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641007": {
+      "name": "強化特殊スキル：落火",
+      "desc": "<IconMap:Icon_SpecialReady>（『強化特殊スキル：灼焔』発動後、一定時間内に短押し）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641008": {
+      "name": "ダッシュ攻撃：前のめり",
+      "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641009": {
+      "name": "回避反撃：業火再び",
+      "desc": "<IconMap:Icon_Evade>（極限回避成功） ; <IconMap:Icon_Normal>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641010": {
+      "name": "回避：ゆらめき",
+      "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Evade> （回避後に長押し）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641011": {
+      "name": "連携スキル：死中に活",
+      "desc": "<IconMap:Icon_QTE>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641012": {
+      "name": "終結スキル：万死に甦生を",
+      "desc": "<IconMap:Icon_UltimateReady>",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641013": {
+      "name": "魂狩る燼火",
+      "desc": "<IconMap:Icon_Normal>（終結スキル発動後） ; <IconMap:Icon_Switch>（次回交代で出場時）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641014": {
+      "name": "クイック支援：応急処置",
+      "desc": "<IconMap:Icon_Switch>（クイック支援の発動条件を満たした時）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    },
+    "1641015": {
+      "name": "パリィ支援：長患いの知恵",
+      "desc": "<IconMap:Icon_Switch>（パリィ支援の発動条件を満たした時）",
+      "element_type": 0,
+      "hit_type": 0,
+      "potential": []
+    },
+    "1641016": {
+      "name": "支援突撃：再生医療",
+      "desc": "<IconMap:Icon_Normal>（パリィ支援を発動した後に）",
+      "element_type": 201,
+      "hit_type": 101,
+      "potential": []
+    }
+  },
+  "passive": {
+    "level": {
+      "1641501": {
+        "level": 1,
+        "id": 1641501,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>43</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>12.5%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>25%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641502": {
+        "level": 2,
+        "id": 1641502,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>50</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>14.6%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>29%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641503": {
+        "level": 3,
+        "id": 1641503,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>57</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>16.7%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>33%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641504": {
+        "level": 4,
+        "id": 1641504,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>64</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>18.8%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>38%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641505": {
+        "level": 5,
+        "id": 1641505,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>71</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>20.8%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>42%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641506": {
+        "level": 6,
+        "id": 1641506,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>78</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>22.9%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>46%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1641507": {
+        "level": 7,
+        "id": 1641507,
+        "name": [
+          "コアパッシブ：リンネ",
+          "追加能力：黒枝の「切り札」"
+        ],
+        "desc": [
+          "フィオニーの異常マスタリー+<color=#2BAD00>85</color>Pt。\n任意のメンバーが敵に状態異常ダメージを与えた時、その敵は「炎蝕」状態になる、継続時間20秒、重複して発動すると継続時間が更新される。「炎蝕」状態の敵が状態異常ダメージを受けた時、一定確率で会心が発生する、基礎会心率は30%、会心ダメージは<color=#2BAD00>25%</color>。フィオニーの開幕異常掌握が155Ptを上回る場合、超過分1Ptごとに、この効果の会心率が追加で+0.7%。\nフィオニーの開幕異常掌握が255Ptに達した時、「炎蝕」状態の敵が状態異常ダメージを受けた際の会心率が最大値に達する。\n「炎蝕」状態の敵は8秒ごとに、フィオニーの攻撃力<color=#2BAD00>50%</color>分の<color=#FF5521>炎属性ダメージ</color>を1回受ける。このダメージは『強化特殊スキル』のダメージとみなされる。\n『焦熱攻撃』発動中、フィオニーの中断耐性レベルがアップするほか、ダメージを与えた時に「業火」を回復する。フィオニーは「業火」を最大120Ptまで所持できる。\n『焦熱攻撃』発動後、<IconMap:Icon_Special> を押すと『特殊スキル：火を掠め』および『強化特殊スキル：燎火一閃』の後退をスキップし、そのまま斬り上げ攻撃に繋げられる。\nフィオニーが致命的なダメージを受けても戦闘不能にならず、「リザレクション」効果が発動する。次に通常の交代、『クイック支援』、『パリィ支援』で出場する際、その直前に最大HP50%分のHPを回復する。探査モードにおいて、この効果は1200秒に1回のみ発動可能。\nフィオニーがパーフェクトガードを発動した時、「業火」を5Pt獲得する、10秒に1回のみ発動可能。\nフィオニーが<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「不尽」</color>状態になる。継続時間20秒、<color=#FFFFFF>『焦熱攻撃』</color>が敵に命中するか、「不尽」状態が重複して付与された時、継続時間が更新される。\n<color=#FFFFFF>「不尽」</color>状態では、<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した後、次に発動する<color=#FFFFFF>『強化特殊スキル：灼焔』</color>が<color=#FFFFFF>『強化特殊スキル：落火』</color>に変わる。",
+          "チームに他の<color=#FFFFFF>[異常]</color>、または同じ陣営のメンバーがいる時に発動：\n<Term:1000048>「炎蝕」</Term>状態の敵が受ける状態異常ダメージの会心ダメージ+15%。"
+        ],
+        "extra_property": {},
+        "potential": []
+      }
+    },
+    "materials": {
+      "1": {
+        "10": 5000
+      },
+      "2": {
+        "10": 12000,
+        "110514": 2
+      },
+      "3": {
+        "10": 28000,
+        "110514": 4
+      },
+      "4": {
+        "10": 60000,
+        "110514": 9,
+        "110011": 2
+      },
+      "5": {
+        "10": 100000,
+        "110514": 15,
+        "110011": 3
+      },
+      "6": {
+        "10": 200000,
+        "110514": 30,
+        "110011": 4
+      }
+    }
+  },
+  "talent": {
+    "1": {
+      "level": 1,
+      "name": "痛覚残留と刺激パレード",
+      "desc": "フィールド入場時、フィオニーは<color=#FFFFFF>「昇焔」</color>を1Pt獲得する。探査モードにおいて、この効果は180秒に1回のみ発動可能。\n<color=#FFFFFF>「炎蝕」</color>状態の敵が受ける状態異常ダメージの会心ダメージが追加で+25%。\n<color=#FFFFFF>『焦熱攻撃』</color>でダメージを与えた時、<color=#FFFFFF>「業火」</color>の獲得効率+15%。",
+      "desc2": "..."
+    },
+    "2": {
+      "level": 2,
+      "name": "好奇心は猫をも殺さない",
+      "desc": "フィオニーが敵に<color=#FF5521>「熱傷」</color>効果を付与した時、その効果の継続時間+2秒。\nフィオニーが<color=#FFFFFF>「炎蝕」</color>状態の敵に与えるダメージ+30%。",
+      "desc2": "..."
+    },
+    "3": {
+      "level": 3,
+      "name": "案山子症候群",
+      "desc": "<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避』</color>、<color=#FFFFFF>『支援スキル』</color>、<color=#FFFFFF>『特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>のスキルレベル+2",
+      "desc2": "..."
+    },
+    "4": {
+      "level": 4,
+      "name": "命の終りと無慈悲な楽園",
+      "desc": "<color=#FFFFFF>『魂狩る燼火』</color>および<color=#FFFFFF>『通常攻撃：炎で処す』</color>のとどめの一撃が状態異常にある敵に命中した時、\n追加で<color=#FFFFFF>「狂咲」</color>効果が1回発動し、対応する属性の状態異常ダメージを1回与える。ダメージ倍率は600%となる。",
+      "desc2": "..."
+    },
+    "5": {
+      "level": 5,
+      "name": "熱狂サーカス",
+      "desc": "<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避』</color>、<color=#FFFFFF>『支援スキル』</color>、<color=#FFFFFF>『特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>のスキルレベル+2",
+      "desc2": "..."
+    },
+    "6": {
+      "level": 6,
+      "name": "懲罰室の手記",
+      "desc": "フィオニーはターゲットの全属性ダメージ耐性を15%無視する。\nフィオニーが<color=#FFFFFF>『強化特殊スキル：灼焔』</color>を発動した時、<color=#FFFFFF>「昇焔」</color>を1Pt獲得する。\nフィオニーが発動した<color=#FFFFFF>「狂咲」</color>効果は、敵の防御力を40%無視する。",
+      "desc2": "..."
+    }
+  },
+  "fairy_recommend": {
+    "slot4": 31300,
+    "slot2": 33000,
+    "slot_sub": 31800,
+    "part_sub_list": [
+      31203,
+      12102,
+      12103
+    ],
+    "alt_build": [
+      {
+        "suit_list": [
+          31300,
+          33000
+        ],
+        "part_sub_list": [
+          31203
+        ]
+      },
+      {
+        "suit_list": [
+          31800,
+          33000
+        ],
+        "part_sub_list": [
+          31603,
+          12102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          31402
+        ]
+      }
+    ],
+    "part4": {
+      "prop": 31402,
+      "name": "異常掌握",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
+    },
+    "part5": {
+      "prop": 31203,
+      "name": "異常マスタリー",
+      "format": "{0:0}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
+    },
+    "part6": {
+      "prop": 31603,
+      "name": "炎属性ダメージボーナス",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png"
+    },
+    "part_sub": {
+      "prop": 12102,
+      "name": "攻撃力",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    }
+  },
+  "strategy": [
+    "03",
+    " <IconMap:Icon_GeneralBuff_Fire> 炎属性、 <IconMap:Icon_AvatarClass_Anomaly> 異常ダメージ",
+    "チームの全属性状態異常ダメージが確率会心",
+    "致命的なダメージを受けると「リザレクション」で再登場"
+  ],
+  "potential": [],
+  "potential_detail": {}
+}

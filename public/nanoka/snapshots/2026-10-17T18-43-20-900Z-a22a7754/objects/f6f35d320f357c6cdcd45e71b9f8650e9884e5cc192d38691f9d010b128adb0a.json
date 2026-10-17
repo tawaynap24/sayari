@@ -1,0 +1,1574 @@
+{
+  "1000943": {
+    "name": "[適合]充電満タン",
+    "desc": "アンビーの心象映画<color=#FFAF2C>[フィールドチャージ]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[フィールドチャージ]：<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、アンビーはパワーを8重獲得する（最大8重）。\n<color=#FFFFFF>『通常攻撃』</color>または<color=#FFFFFF>『ダッシュ攻撃』</color>が敵に命中した時、パワーを1重消費することで、その攻撃の与ダメージ+45%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1000944": {
+    "name": "[適合]頂点捕食者",
+    "desc": "猫又の心象映画<color=#FFAF2C>[<ruby=ちょうぜつ>鳥絶</ruby>技巧]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[<ruby=ちょうぜつ>鳥絶</ruby>技巧]：敵を背後から攻撃し、なおかつ命中した時、猫又がターゲットの<color=#F0D12B>物理属性ダメージ耐性</color>を16%無視する。敵がブレイク状態にある時、猫又がその敵に行うすべての攻撃が背後からの攻撃とみなされる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1000945": {
+    "name": "[適合]火力全開",
+    "desc": "ニコの心象映画<color=#FFAF2C>[領域拡大]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[領域拡大]：ニコが<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>、または<color=#FFFFFF>『終結スキル』</color>を発動した時、ターゲット付近に生成する力場の攻撃範囲が半径1.5メートル増える。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1000946": {
+    "name": "[適合]天衣無縫",
+    "desc": "「11号」の心象映画<color=#FFAF2C>[強まる火勢]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[強まる火勢]：<color=#FFFFFF>『通常攻撃』</color>の1、2、3段目あるいは<color=#FFFFFF>『ダッシュ攻撃』</color>を行った時、<color=#FFFFFF>『火力鎮圧』</color>が発動した場合、スキル発動中に中断耐性レベルがアップし、被ダメージ-18%。\n<color=#FFFFFF>『通常攻撃』</color>4段目を行った時、<color=#FFFFFF>『火力鎮圧』</color>が発動した場合、スキル発動中に無敵効果を得る。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1000947": {
+    "name": "[適合]処刑用BGM、ON",
+    "desc": "ビリーの心象映画<color=#FFAF2C>[ローミング・ガンスリンガー]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[ローミング・ガンスリンガー]：<color=#FFFFFF>『回避反撃』</color>の与ダメージ+25%。\n<color=#FFFFFF>『通常攻撃』</color>中、身躱し射撃が回避アクションと見なされ、スキル発動中に無敵効果を得る。また、<color=#FFFFFF>『極限回避』</color>を発動できる。\n身躱し射撃が<color=#FFFFFF>『極限回避』</color>を発動した場合、<color=#FFFFFF>『回避反撃』</color>が自動で発動される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1000948": {
+    "name": "[適合]マッスルメイヘム",
+    "desc": "アンドーの心象映画<color=#FFAF2C>[ウォーミングアップ]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[ウォーミングアップ]：<color=#FFFFFF>『ドリル攻撃』</color>が敵に命中すると、追加でエネルギーを回復する。\n1回の攻撃で、この効果はアンドーのエネルギーを最大5Pt回復できる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1000949": {
+    "name": "[適合]熊の顔も三度まで",
+    "desc": "ベンの心象映画<color=#FFAF2C>[臨機応変]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[臨機応変]：<color=#FFFFFF>『特殊スキル』</color>または<color=#FFFFFF>『強化特殊スキル』</color>の最中に、無敵効果で敵の攻撃を防いだ場合、その後の反撃の与ダメージ+30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1000950": {
+    "name": "[適合]食前の運動",
+    "desc": "蒼角の心象映画<color=#FFAF2C>[北風の襲撃]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[北風の襲撃]：<color=#FFFFFF>『霜染の刃旗』</color>状態において、強化された<color=#FFFFFF>『通常攻撃』</color>および強化された<color=#FFFFFF>『ダッシュ攻撃』</color>の発動可能回数が12回まで増えると同時に、スキルの与ダメージ+45%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1131.png"
+  },
+  "1000951": {
+    "name": "[適合]冷たき門前払い",
+    "desc": "ライカンの心象映画<color=#FFAF2C>[満月に備えよ]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[満月に備えよ]：<color=#FFFFFF>『強化特殊スキル：人狼の刻』</color>が敵に命中すると、スキルの与えるブレイク値+12%、8秒に1回のみ発動可能。チャージした<color=#FFFFFF>『強化特殊スキル：人狼の刻』</color>の場合、この効果が追加で+10%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1141.png"
+  },
+  "1000952": {
+    "name": "[適合]ボンプよ、我に力を",
+    "desc": "グレースの心象映画<color=#FFAF2C>[絶縁破壊]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[絶縁破壊]：<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『特殊スキル』</color>、<color=#FFFFFF>『強化特殊スキル』</color>などのスキルにおいて、投げた手榴弾が敵に命中した時、ターゲットの<color=#2EB6FF>電気属性ダメージ耐性</color>-8.5%、<color=#2EB6FF>電気属性の状態異常蓄積耐性</color>-8.5%、継続時間8秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1181.png"
+  },
+  "1000953": {
+    "name": "[適合]敵対的起床",
+    "desc": "エレンの心象映画<color=#FFAF2C>[極海の捕食者]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[極海の捕食者]：<color=#FFFFFF>『通常攻撃：急凍剪定法』</color>3段目発動後、そのまま<color=#FFFFFF>『強化特殊スキル：シャーク・トルネード』</color>に繋げることが可能。<color=#FFFFFF>『強化特殊スキル』</color>発動時、<color=#FFFFFF>「急凍パワー」</color>1Ptにつき、その攻撃の与える会心ダメージ+20%、最大+60%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1191.png"
+  },
+  "1000954": {
+    "name": "[適合]余裕綽々",
+    "desc": "リナの心象映画<color=#FFAF2C>[リードダンサー×2]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[リードダンサー×2]：ドリシラとアナステラは指示を受けて攻撃を行った後、リナの元に戻る前に、その場にさらに5.5秒留まる。\nドリシラまたはアナステラの付近10メートル範囲内のエージェントは、<color=#FFFFFF>『コアパッシブ：ちょっとした壊滅のオトモ』</color>から獲得するバフ効果が本来の130%になる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1211.png"
+  },
+  "1000955": {
+    "name": "[適合]真心のお掃除",
+    "desc": "カリンの心象映画<color=#FFAF2C>[塵も積もれば]</color>が喚起された。\n[塵も積もれば]：持続斬撃が敵に命中した時、カリンはパワーを1重獲得する（最大40重）。\n<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『特殊スキル』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『支援突撃』</color>において、チェーンソーを起爆させて敵に命中した時、すべてのパワーを消費して、パワー1重につき、カリンの攻撃力3%分のダメージを追加で与える。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1000956": {
+    "name": "[適合]ハンマースパークス",
+    "desc": "クレタの心象映画<color=#FFAF2C>[運動エネルギー回生]</color>が喚起された。\n[運動エネルギー回生]：<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、クレタはエネルギーを60Pt回復する、45秒に1回のみ発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1000957": {
+    "name": "[適合]共に励まし、共に進む",
+    "desc": "朱鳶の心象映画<color=#FFAF2C>[クイックリロード]</color>が喚起された。\n[クイックリロード]：朱鳶が<color=#FFFFFF>『連携スキル』</color>/<color=#FFFFFF>『終結スキル』</color>を発動すると、<color=#FFFFFF>「クイックリロード」</color>効果を獲得する。効果中に<color=#FFFFFF>「強化散弾」</color>が尽きると、朱鳶は<color=#FFFFFF>「クイックリロード」</color>効果を消費して、即座に6/9発の<color=#FFFFFF>「強化散弾」</color>を獲得する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1241.png"
+  },
+  "1000958": {
+    "name": "[適合]お嬢様突撃",
+    "desc": "ルーシーの心象映画<color=#FFAF2C>[牙は烈火にも勝る]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[牙は烈火にも勝る]：<color=#FFFFFF>「かっとばせ！」</color>状態の味方の<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中すると、親衛隊のイノシシが1匹空中から落下して爆発を起こし、親衛隊のイノシシの攻撃力300%分の<color=#FF5521>炎属性ダメージ</color>を与える。それと同時に、メンバー全員、ボンプおよび親衛隊のイノシシの<color=#FFFFFF>「かっとばせ！」</color>状態の継続時間が5秒延長される。延長可能回数は最大で3回、継続時間は最大30秒。<color=#FFFFFF>「かっとばせ！」</color>状態を重複して獲得すると、継続時間の延長可能回数がリセットされる。親衛隊のイノシシが着地して爆発を起こした後、さらに<color=#FFFFFF>『イノシシ親衛隊：回転打法！』</color>を一回発動する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1151.png"
+  },
+  "1000959": {
+    "name": "[適合]ファイトスタイル：ミックスフルーツフレーバー",
+    "desc": "ライトの心象映画<color=#FFAF2C>[無敗のチャンピオン]</color>が喚起された。\n[無敗のチャンピオン]：<color=#FFFFFF>『コアパッシブ：アクセレラント』</color>によって付与できるデバフ効果のうち：<color=#FFFFFF>「壊滅」</color>効果によりブレイク継続時間が5秒延長されるようになる。<color=#98EFF0>氷属性ダメージ耐性</color>および<color=#FF5521>炎属性ダメージ耐性</color>が追加で-10%。開幕ジャブまたはストレートラッシュ中に<color=#FFFFFF>「士気」</color>が尽き、強力なとどめの一撃が自動で発動された時、その与ダメージ+30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1000960": {
+    "name": "[適合]希望の力",
+    "desc": "パイパーの心象映画<color=#FFAF2C>[軽い興奮]</color>が喚起された。\n[軽い興奮]：<color=#FFFFFF>『強化特殊スキル：エンジンぶんぶん』</color>の最大継続時間が2秒増え、<color=#FFFFFF>「動力」</color>の継続時間が4秒延長される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1281.png"
+  },
+  "1000961": {
+    "name": "[適合]水を得た魚",
+    "desc": "青衣の心象映画<color=#FFAF2C>[誘電破壊]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[誘電破壊]：青衣のフィールド入場時、即座に<color=#FFFFFF>「閃絡電圧」</color>が最大まで溜まり、その後の蓄積効率+30%。<color=#FFFFFF>『通常攻撃：酔花月雲転』</color>を発動した時、すでに<color=#FFFFFF>「閃絡電圧」</color>が最大まで溜まっている場合、今回のスキルが命中した敵の防御力-15%、さらに自身の該当ターゲットに対する会心率+20%、継続時間15秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1251.png"
+  },
+  "1000962": {
+    "name": "[適合]「共犯者」の連携",
+    "desc": "ジェーンの心象映画<color=#FFAF2C>[犯罪のプロ]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[犯罪のプロ]：ジェーンの<color=#FFFFFF>『通常攻撃：サルコウ・ジャンプ』</color>最大発動可能回数が1回増える。<color=#FFFFFF>「熱狂」</color>状態にある時、ジェーンの<color=#F0D12B>物理属性の状態異常蓄積効率</color>が追加で+15%、また異常マスタリー1Ptにつき、自身の与ダメージ+0.1%、最大+30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1261.png"
+  },
+  "1000963": {
+    "name": "[適合]共に歩む栄光の道",
+    "desc": "セスの心象映画<color=#FFAF2C>[理想主義]</color>が喚起された。\n[理想主義]：<color=#FFFFFF>『通常攻撃：電撃ストライク・感電』</color>のとどめの一撃が敵に命中した時、追加で自身の攻撃力500%分のダメージを与え、今回の攻撃が必ず会心になるほか、会心ダメージ+60%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1271.png"
+  },
+  "1000964": {
+    "name": "[適合]覇者と共に",
+    "desc": "シーザーの心象映画<color=#FFAF2C>[<ruby=くさびがた>楔形</ruby>陣形]</color>が喚起された。\n[<ruby=くさびがた>楔形</ruby>陣形]：接敵状態かつ操作中のメンバーになった時、シーザーは即座にチーム全体に<color=#FFFFFF>「栄光の盾」</color>を提供する、300秒に1回のみ発動可能。<color=#FFFFFF>「栄光の盾」</color>継続中、所持者の半径5m以内にいる敵の全属性ダメージ耐性-15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1000965": {
+    "name": "[適合]ニトロフューエル・パーティー",
+    "desc": "バーニスの心象映画<color=#FFAF2C>[お値段そのまま増量フェア]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[お値段そのまま増量フェア]：<color=#FFFFFF>「エンバー」</color>効果発動時、敵に<color=#FFFFFF>「貫く熱意」</color>を付与する、最大5重まで重ね掛け可能、継続時間6秒、重複して発動すると継続時間が更新される。味方の攻撃を受けたターゲットの<color=#FFFFFF>「貫く熱意」</color>1重につき、今回の攻撃の貫通率+4%、最大+20%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1171.png"
+  },
+  "1000966": {
+    "name": "[適合]17件のチェック項目",
+    "desc": "月城柳の心象映画<color=#FFAF2C>[卓越した適性]</color>が喚起された。\n[卓越した適性]：<color=#FFFFFF>『強化特殊スキル』</color>の高速突き刺しによる<color=#2EB6FF>電気属性の状態異常蓄積値</color>+20%。高速突き刺しが敵に命中した時、「特殊攻撃」ボタンを長押しし続けると、追加でエネルギーを10Pt消費して再び突き刺し攻撃を放つ、エネルギーが尽きるか長押しをやめると、そのまま落下攻撃を発動する。落下攻撃が状態異常の敵に命中、かつ<color=#FFFFFF>「極性混沌」</color>効果が発動した時、ターゲットに対するダメージ倍率が本来の<color=#FFFFFF>「混沌」</color>効果の20%になる。突き刺し攻撃を追加で1回発動するたびに、該当ダメージ倍率が追加で+15%。ダメージ倍率追加アップ効果は最大2回まで発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1000967": {
+    "name": "[適合]俳句剣術",
+    "desc": "星見雅の心象映画<color=#FFAF2C>[<ruby=とのうほう>吐納法</ruby>]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることが可能。\n[<ruby=とのうほう>吐納法</ruby>]：<color=#FFFFFF>『通常攻撃：風花』</color>と<color=#FFFFFF>『回避反撃』</color>の与ダメージ+30%。<color=#FFFFFF>『通常攻撃：風花』</color>5段目の最後の一撃が敵に命中した時、星見雅が<color=#FFFFFF>「落霜」</color>を1Pt獲得する。フィールド入場時、星見雅は即座に<color=#FFFFFF>「落霜」</color>を6Pt獲得し、自身の会心率+15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1091.png"
+  },
+  "1000968": {
+    "name": "[適合]高効率モード",
+    "desc": "浅羽悠真の心象映画<color=#FFAF2C>[「意気揚々」]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることが可能。\n[「意気揚々」]：<color=#FFFFFF>『通常攻撃：甲乙の矢』</color>において、<color=#FFFFFF>「囚電」</color>効果を最大14重まで重ね掛けできるようになる。<color=#FFFFFF>「電壺」</color>がアクティブ化された時、ターゲットに対して<color=#FFFFFF>「甲乙の矢」</color>を連続で2本放つ。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1201.png"
+  },
+  "1000969": {
+    "name": "[適合]アンコールの時間",
+    "desc": "アストラの心象映画<color=#FFAF2C>[欲張りの芸術]</color>が喚起された。\n[欲張りの芸術]：<color=#FFFFFF>『コアパッシブ：アンダンテ・カンタービレ』</color>による攻撃力アップ効果が追加で+19%、アップ効果の上限がさらに400Pt引き上げられる。\n<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態中、他のメンバーが<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『連携スキル』</color>、<color=#FFFFFF>『パリィ支援』</color>または<color=#FFFFFF>『回避支援』</color>で出場した時、アストラは追加で<color=#FFFFFF>「ビブラート」</color>を1発、<color=#FFFFFF>「トーンクラスター」</color>を3発放って攻撃する、3秒に1回のみ発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1311.png"
+  },
+  "1000970": {
+    "name": "[適合]昔の感覚",
+    "desc": "イヴリンの心象映画<color=#FFAF2C>[飛んで火に舞う]</color>が喚起された。『ダッシュ攻撃』または『回避反撃』を発動すると、<color=#2BAD00>そのまま</color>『通常攻撃』の後半段階に繋げることができる。\n[飛んで火に舞う]：イヴリンの攻撃力+15%。\n<color=#FFFFFF>『通常攻撃：絞式・I型』</color>または<color=#FFFFFF>『通常攻撃：絞式・II型』</color>を発動した時、消費した<color=#FFFFFF>「燎火」</color>が返還される、25秒に1回のみ発動可能。\n<color=#FFFFFF>「燎索ポイント」</color>を消費して<color=#FFFFFF>『連携スキル：輝夜の糸・絆』</color>を発動した時、スキルの中断レベルがアップする。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1321.png"
+  },
+  "1000971": {
+    "name": "[適合]シルバーハート・レゾナンス",
+    "desc": "0号・アンビーの心象映画<color=#FFAF2C>[静電荷]</color>が喚起された。\n[静電荷]：0号・アンビーの<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、<color=#FFFFFF>「白雷」</color>による追加ダメージが連続で3回発動する。その際は<color=#FFFFFF>「白雷」</color>の重数を消費しない。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1381.png"
+  },
+  "1000972": {
+    "name": "[適合]二人の旋律",
+    "desc": "「トリガー」の心象映画<color=#FFAF2C>[研ぎ澄まされた洞察]</color>が喚起された。\n[研ぎ澄まされた洞察]：<color=#FFFFFF>『コアパッシブ：虚を突く幽目』</color>によるブレイク弱体倍率が追加で+20%。\n<color=#FFFFFF>『通常攻撃：狙撃協奏曲』</color>を発動した時、発動のクールタイムが2秒になる。\n<color=#FFFFFF>「狙撃態勢」</color>での連続射撃またはチャージ反撃が敵に命中した時、獲得できる<color=#FFFFFF>「絶意」</color>+25%、<color=#FFFFFF>「絶意」</color>の上限が125Ptになる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1361.png"
+  },
+  "1000973": {
+    "name": "[適合]ド派手にやっちゃえ",
+    "desc": "プルクラの心象映画<color=#FFAF2C>[塵も積もれば]</color>が喚起された。\n[マスクの下には]：<color=#FFFFFF>『特殊スキル：バイトクロー・ナイトメア』</color>の与ダメージ+15%、重複攻撃の発動可能回数が2回増える。\n<color=#FFFFFF>『追加能力：ビジネスパートナー』</color>による<color=#FFFFFF>「囚縛」</color>効果が<color=#FFFFFF>『追加攻撃』</color>以外のスキルのダメージにも適用されるようになる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1351.png"
+  },
+  "1000974": {
+    "name": "[適合]少女の日傘",
+    "desc": "ビビアンの心象映画<color=#FFAF2C>[『春の果樹園へおいでよ！』]</color>が喚起された。\n[『春の果樹園へおいでよ！』]：<color=#FFFFFF>「羽の守護」</color>を累計4Pt消費すると<color=#FFFFFF>「羽の浮遊」</color>を1Pt獲得する。<color=#FFFFFF>「ビビアンの予見」</color>状態にあるターゲットが受ける全ての状態異常ダメージと<color=#FFFFFF>[混沌]</color>ダメージ+16%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1331.png"
+  },
+  "1000975": {
+    "name": "[適合]怪盗の魔法",
+    "desc": "ヒューゴの心象映画<color=#FFAF2C>[内なる子ども]</color>が喚起された。\n[内なる子ども]：<color=#FFFFFF>『終結スキル：涜神せしもの』</color>で<color=#FFFFFF>「累算」</color>効果が発動した時、敵のブレイク状態が終了しなくなる。\n<color=#FFFFFF>「累算」</color>効果を発動したとどめの一撃は、敵の防御力を15%無視する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1291.png"
+  },
+  "1000976": {
+    "name": "[適合]守華照寂",
+    "desc": "儀玄の心象映画<color=#FFAF2C>[清き道術の心]</color>が喚起された。\n[清き道術の心]：フィールド入場時、会心率+10%、即座に<color=#FFFFFF>「術法値」</color>を120Pt獲得する。探査モードにおいて、この効果は180秒に1回のみ発動可能。任意のメンバーの攻撃が敵に命中した時、儀玄は追加の落雷を自動で1回発生させ、儀玄の透徹力50%分のダメージを与え、さらにアドレナリンを5Pt回復する。追加の落雷は6秒に1回のみ発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1371.png"
+  },
+  "1000977": {
+    "name": "[適合]「すっごい威風」",
+    "desc": "橘福福の心象映画<color=#FFAF2C>[どえらく怖い、虎の子]</color>が喚起された。\n[どえらく怖い、虎の子]：フィールド入場時、橘福福の会心率+12%、即座に<color=#FFFFFF>「威風」</color>を100Pt獲得。橘福福の<color=#FFFFFF>『連携スキル』</color>がブレイク状態の敵に命中すると、ターゲットのブレイク弱体倍率+35%、継続時間30秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1391.png"
+  },
+  "1000978": {
+    "name": "[適合]同じ釜の飯を食う",
+    "desc": "潘引壺の心象映画<color=#FFAF2C>[気穴学]</color>が喚起された。\n[気穴学]：<color=#FFFFFF>『コアパッシブ：気脈乾坤』</color>による<color=#FFFFFF>「覚醒」</color>効果は、追加で潘引壺の開幕攻撃力6%分の透徹力を提供する。この効果によってアップできる透徹力は最大720Ptまで。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1421.png"
+  },
+  "1000979": {
+    "name": "[適合]最高のパートナー",
+    "desc": "アリスの心象映画<color=#FFAF2C>[剣先のセージ]</color>が喚起された。\n[剣先のセージ]：<color=#FFFFFF>『終結スキル：降る星のフィナーレ』</color>のとどめの一撃が敵に命中した時、<color=#F0D12B>「極性強撃」</color>が発動する。メンバー全員の与える<color=#F0D12B>「強撃」</color>ダメージ+15%。<color=#F0D12B>物理属性の状態異常</color>の敵に対する<color=#FFFFFF>「混沌」</color>ダメージ+15%。フィールド入場時、アリスは即座にデシベル値を1000Pt獲得する。「探査モード」において、この効果は180秒に1回のみ発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1401.png"
+  },
+  "1000980": {
+    "name": "[適合]福来たる干し梅",
+    "desc": "柚葉の心象映画<color=#FFAF2C>[柚葉と愉快な仲間たち]</color>が喚起された。\n[柚葉と愉快な仲間たち]：柚葉の<color=#FFFFFF>『強化特殊スキル：虫歯注意報』</color>、<color=#FFFFFF>『強化特殊スキル：虫歯注意報、今がチャンス！』</color>と<color=#FFFFFF>『終結スキル：トリック・オア・ギブ』</color>が敵に命中すると、メンバー全員の与ダメージ+15%、状態異常蓄積効率+15%、継続時間40秒、重複して発動すると継続時間が更新される。重撃がブレイク状態でない敵に命中すると、強制的に<color=#FFFFFF>『連携スキル』</color>が発動する。この方法で発動した<color=#FFFFFF>『連携スキル』</color>は中断レベルが下がる。強制発動効果は20秒に1回のみ発動可能。他のメンバーが<color=#FFFFFF>『連携スキル』</color>で入場した時、柚葉は<color=#FFFFFF>「糖度ポイント」</color>を1Pt獲得する。柚葉の<color=#FFFFFF>『通常攻撃：キャンディーシュート』</color>のクールタイムが25%短縮される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1411.png"
+  },
+  "1000981": {
+    "name": "[適合]三銃士",
+    "desc": "オルペウス＆「鬼火」の心象映画<color=#FFAF2C>[<ruby=ごうしゃねこやしき>豪奢猫屋敷</ruby>]</color>が喚起された。\n[<ruby=ごうしゃねこやしき>豪奢猫屋敷</ruby>]：オルペウス＆「鬼火」の『特殊スキル：蝕光一閃』、『強化特殊スキル：灼紅の渦』、『強化特殊スキル：蓄熱チャージ』、『強化特殊スキル：烈炎噴射』が与えるダメージは敵の<color=#FF5521>炎属性ダメージ耐性</color>を15%を無視する。「フォーカス」状態のエージェントの攻撃が与えるダメージ+20%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1301.png"
+  },
+  "1000982": {
+    "name": "[適合]廃墟に咲く花",
+    "desc": "「シード」の心象映画<color=#FFAF2C>[「凍眠期」]</color>が喚起された。\n[「凍眠期」]：「シード」の<color=#FFFFFF>「アイアンエナジー」</color>が100Ptに達した時、<color=#FFFFFF>『通常攻撃：<ruby=らっか>落花</ruby>・<ruby=ほうつい>崩墜</ruby>』</color>を発動できるようになり、<color=#FFFFFF>「アイアンエナジー」</color>の合計消費量が100Ptになる。<color=#FFFFFF>『通常攻撃：落花・殲滅』</color>の素早い発動に必要な<color=#FFFFFF>「アイアンエナジー」</color>が100Ptになる。フィールド入場時、<color=#FFFFFF>「アイアンエナジー」</color>を追加で40Pt溜める。<color=#FFFFFF>『終結スキル』</color>発動時、<color=#FFFFFF>「アイアンエナジー」</color>を追加で20Pt溜める。<color=#FFFFFF>[通常攻撃：<ruby=らっか>落花</ruby>・<ruby=ほうつい>崩墜</ruby>]</color>の与える会心ダメージ+30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1461.png"
+  },
+  "1000983": {
+    "name": "[適合]潮汐に耳を傾けて",
+    "desc": "イドリーの心象映画<color=#FFAF2C>[深き淵に沈む過去]</color>が喚起された。\n[深き淵に沈む過去]：イドリーの<color=#FFFFFF>『強化特殊スキル』</color>発動に必要なアドレナリン-10Pt。<color=#FFFFFF>『強化特殊スキル：氷霜』</color>または<color=#FFFFFF>『強化特殊スキル：極寒・重砕』</color>発動後、『通常攻撃』または『特殊攻撃』ボタンを長押しし続けることで、アドレナリンを35Pt消費して、HP回復の代わりに即座に1回の<color=#FFFFFF>『強化特殊スキル：極寒・重砕』</color>に繋げることが可能、今回の<color=#FFFFFF>『強化特殊スキル：極寒・重砕』</color>によるHP回復量は追加で+100%。イドリーの<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>はターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を20%無視する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1051.png"
+  },
+  "1000984": {
+    "name": "[適合]月夜の大冒険",
+    "desc": "リュシアの心象映画<color=#FFAF2C>[秘密の友達]</color>が喚起された。\n[秘密の友達]：<color=#FFFFFF>「夢巡りの童謡」</color>状態にある時、敵の全属性ダメージ耐性を18%無視し、デシベル値獲得効率+5%。また、リュシアはスキルグレードアップを発動すると、<color=#FFFFFF>「エコー」</color>を1重獲得する、最大4重まで重ね掛け可能。<color=#FFFFFF>「夢巡りの童謡」</color>状態が終了した時、リュシアが<color=#FFFFFF>「エコー」</color>を所持している場合、自動で1重を消費してメンバー全員にもう一度<color=#FFFFFF>「夢巡りの童謡」</color>状態を付与する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1451.png"
+  },
+  "1000985": {
+    "name": "[適合]百錬の大剣",
+    "desc": "狛野真斗の心象映画<color=#FFAF2C>[乗り越えた夢]</color>が喚起された。\n[乗り越えた夢]：<color=#FFFFFF>『特殊スキル：帰燼』</color>がブレイク状態の敵に命中した時、真斗は「熱き心」を75Pt回復し、「残り火」を4重獲得する。また、 <IconMap:Icon_Normal> を押すことで<color=#FFFFFF>『支援突撃』</color>を発動できる。「残り火」は20秒に1回のみ獲得可能。<color=#FFFFFF>『支援突撃』</color>が敵に命中すると、与える<color=#FF5521>炎属性ダメージ</color>+3%、継続時間8秒、最大5重まで重ね掛け可能、重複して発動すると継続時間が更新される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1441.png"
+  },
+  "1000986": {
+    "name": "[適合]亡者のダイヤル",
+    "desc": "ダイアリンの心象映画<color=#FFAF2C>[年中無休ホットライン]</color>が喚起された。\n[年中無休ホットライン]：<color=#FFFFFF>「悪質クレーム」</color>効果を付与された敵がブレイク状態になった時、ブレイク弱体倍率が追加で+20%。<color=#FFFFFF>「悪質クレーム」</color>効果を付与された敵に対し、全ユニットの与ダメージ+15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1481.png"
+  },
+  "1000987": {
+    "name": "[適合]未だ頂に立たず",
+    "desc": "盤岳の心象映画<color=#FFAF2C>[貪欲は火の如く]</color>が喚起された。\n[貪欲は火の如く]：<color=#FFFFFF>『強化特殊スキル：論道』</color>と<color=#FFFFFF>『強化特殊スキル：地鳴』</color>が敵に命中した時、ターゲットを<color=#FFFFFF>「戦慄」</color>状態にする。この状態の敵は<color=#FF5521>炎属性ダメージ耐性</color>-10%。継続時間30秒。<color=#FFFFFF>『強化特殊スキル：獅子の遠吠え』</color>、<color=#FFFFFF>『強化特殊スキル：獅子の遠吠え・怒』</color>、<color=#FFFFFF>『強化特殊スキル：山崩』</color>、<color=#FFFFFF>『強化特殊スキル：山崩・怒』</color>、<color=#FFFFFF>『通常攻撃：傾山』</color>と<color=#FFFFFF>『通常攻撃：山嵐』</color>が<color=#FFFFFF>「戦慄」</color>状態の敵に命中した時、与える透徹ダメージ+10%。<color=#FFFFFF>『通常攻撃：山嵐』</color>がブレイク状態の敵に命中した時、その敵のブレイク継続時間が2秒延長される。敵は1回のブレイク中、この効果を1回しか受けられず、同種の効果は重ね掛け不可。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1471.png"
+  },
+  "1000988": {
+    "name": "剣に映す孤心",
+    "desc": "葉瞬光の心象映画<color=#FFAF2C>[光と影]</color>が喚起された。\n「光と影」：<color=#FFFFFF>「器量」</color>は最大6重まで、<color=#FFFFFF>「圧巻」</color>は最大9重まで重ね掛けできるようになる。<color=#FFFFFF>「澄心境」</color>状態中、<color=#FFFFFF>「青溟剣勢」</color>を1Pt消費するたびに、<color=#FFFFFF>「圧巻」</color>効果を1重獲得する。<color=#FFFFFF>『強化特殊スキル：澄心境・飛光』</color>と<color=#FFFFFF>『終結スキル：慧剣よ天を開け』</color>の与ダメージは、ターゲットの防御力を40%無視する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1431.png"
+  },
+  "1000989": {
+    "name": "幸運2倍のウサ耳",
+    "desc": "照の心象映画<color=#FFAF2C>[凛然たる裁決]</color>が喚起された。\n「凛然たる裁決」：照が交代で操作中のメンバーでなくなった時、メンバー全員の与ダメージはターゲットの全属性ダメージ耐性を15%無視する、継続時間50秒、重複して発動すると継続時間が更新される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1341.png"
+  },
+  "1000990": {
+    "name": "鋼鉄の翼",
+    "desc": "アリアの心象映画<color=#FFAF2C>[元気な音波]</color>が喚起された。\n[元気な音波]：アリアが<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『特殊スキル』</color>、<color=#FFFFFF>『強化特殊スキル』</color>で敵にダメージを与えた時、ターゲットの<color=#FE437E>エーテル属性状態異常蓄積耐性</color>を10%無視する。また、自身が<color=#FFFFFF>「狂咲」</color>を発動した時、確率で「狂咲」に会心が発生する。この「狂咲」の初期会心率は25%、会心ダメージは25%となる。アリアの開幕異常掌握が100Ptを上回った場合、1Pt上回るごとに、この効果の会心率は追加で+0.5%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1501.png"
+  },
+  "1000991": {
+    "name": "野いちごの楽園",
+    "desc": "千夏の心象映画<color=#FFAF2C>[『猫のまにまに』]</color>が喚起された。\n[『猫のまにまに』]：千夏がいずれかの<color=#FFFFFF>「エーテルベール」</color>の効果を受けている時、メンバー全員の攻撃力+10%、千夏は10秒ごとに<color=#FFFFFF>「爪とぎチャンス」</color>を1つ獲得する。<color=#FFFFFF>「ねこにらみ」</color>の発動に必要な攻撃回数が減少する。<color=#FFFFFF>「ねこにらみ」</color>効果発動時のダメージ倍率が以下のようにアップする。\n<color=#FFFFFF>「強攻」</color>メンバーの場合：ダメージ倍率+200%；\n<color=#FFFFFF>「異常」</color>メンバーの場合：ダメージ倍率+300%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1491.png"
+  },
+  "1000992": {
+    "name": "無瑕なる羽",
+    "desc": "南宮羽の心象映画<color=#FFAF2C>[気だるげなスポットライト]</color>が喚起された。\n[気だるげなスポットライト]：<color=#FFFFFF>『強化特殊スキル：とびっきり重いラブ』</color>または<color=#FFFFFF>『通常攻撃：プリティーマインアタック』</color>が敵に命中した時、ターゲットの全属性ダメージ耐性-18%、継続時間40秒、重複して発動すると継続時間が更新される。フィールド入場時、南宮羽の<color=#FFFFFF>「ビート」</color>が最大値まで回復する。探査モードにおいて、この効果は180秒に1回のみ発動可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1511.png"
+  },
+  "1000993": {
+    "name": "帰路への道標",
+    "desc": "シーシィアの心象映画：<color=#FFAF2C>[飢餓と箴言]</color>が喚起された。\n[飢餓と箴言]：<color=#FFFFFF>『連携スキル：みんなでボコせば怖くなくない？』</color>または<color=#FFFFFF>『終結スキル：スリザー、スリラー！』</color>がブレイク状態の敵に命中した後、追加で<color=#FFFFFF>「毒素」</color>を3Pt獲得する。<color=#FFFFFF>『通常攻撃：ヘビのキッス』</color>の与ダメージ+35%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1521.png"
+  },
+  "1000994": {
+    "name": "枷の外",
+    "desc": "プロメイアの心象映画<color=#FFAF2C>[信念は不確]</color>が喚起された。\n[信念は不確]：プロメイアの異常マスタリー+40Pt。<color=#FFFFFF>「氷刑」</color>を消費して発動した<color=#FFFFFF>「狂咲」</color>効果のダメージ倍率+120%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1541.png"
+  },
+  "1000995": {
+    "name": "スターライトビーコン",
+    "desc": "スターライト・ビリーの心象映画<color=#FFAF2C>[荒野構造体]</color>が喚起された。\n[荒野構造体]：<color=#FFFFFF>『通常攻撃：スターライト、フルスロットル！』</color>、<color=#FFFFFF>『強化特殊スキル：ウィリー・ビリー・アッパー』</color>と<color=#FFFFFF>『終結スキル：スターライトキック！』</color>の与ダメージ+50%。<color=#FFFFFF>『強化特殊スキル：スウィング・ステップ』</color>、<color=#FFFFFF>『強化特殊スキル：これが「グリップ」だ！』</color>発動時、または<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>がブレイク状態の敵に命中した時、<color=#FFFFFF>「ターボ」</color>効果を獲得する。<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>発動時は「ターボ」効果を消費し、そのまま<color=#FFFFFF>『強化特殊スキル：ウィリー・ビリー・アッパー』</color>に繋がる。また、今回の<color=#FFFFFF>『強化特殊スキル：ウィリー・ビリー・アッパー』</color>の会心ダメージ+50%。<color=#FFFFFF>「ターボ」</color>効果は最大1重まで所持できる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1531.png"
+  },
+  "1000996": {
+    "name": "春風をこの身に",
+    "desc": "ヴェリナの心象映画<color=#FFAF2C>[飽和する計画]</color>が喚起された。\n[飽和する計画]：ヴェリナが<color=#A6C5FD>「風化」</color>効果を発動した時、<color=#FFFFFF>「風食」</color>を1Pt獲得できる。この効果は5秒に1回のみ発動可能。<color=#FFFFFF>「彩色」</color>効果発動後の<color=#FFFFFF>「竜巻」</color>は、対応する属性の状態異常蓄積値を蓄積できるようになる。なお、この攻撃による状態異常蓄積値は、状態異常ダメージの計算に含まれない。<color=#FFFFFF>『追加能力：お茶会の礼節』</color>における、ヴェリナの<color=#A6C5FD>「風化」</color>と<color=#FFFFFF>「乱流」</color>のダメージアップ効果が追加で+15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1561.png"
+  },
+  "1000997": {
+    "name": "ボンプの月桂冠",
+    "desc": "ノルムーの心象映画<color=#FFAF2C>[先見的過激主義]</color>が喚起された。\n[先見的過激主義]：<color=#FFFFFF>『強化特殊スキル：ドッカン実験』</color>発動中、「ワタンナタレット」のミサイルハッチ展開時間が12秒に延長される。任意のスキルによる「貫通ミサイル」または「炸裂ミサイル」が敵に命中した時、敵の全属性ダメージ耐性‐15%、継続時間15秒、重複して発動すると継続時間が更新される。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1571.png"
+  },
+  "1000999": {
+    "name": "カウ煮エフ",
+    "desc": "レミエールの心象映画<color=#FFAF2C>[喧噪に傾倒]</color>が喚起された。\n[喧噪に傾倒]：レミエールの<color=#FFA9DD>「昇華倍率」</color>+20%。チーム内の<color=#FFFFFF>[異常]</color>メンバーが<color=#FFFFFF>「幻色」</color>効果を持つ敵に状態異常ダメージを与えた時、ターゲットの防御力を15%無視する。<color=#FFFFFF>「幻色」</color>効果が解除された後、この効果はさらに8秒間継続する。<Term:1000035>「相転時流」</Term>状態中、レミエールが自動的に攻撃する際、敵に<color=#FFA9DD>「流明スタック」</color>を付与する頻度がアップする。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1581.png"
+  },
+  "1001000": {
+    "name": "伝説の長き階段",
+    "desc": "シグリッドの心象映画<color=#FFAF2C>[むかーし、むかし]</color>が喚起された。\n[むかーし、むかし]：<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>3段目を発動した時、<color=#FFFFFF>「不落の構え」</color>状態に移行し、<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数を1回獲得する。<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数が上限を超えた時、次に発動する<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の最後の一撃が追加で攻撃力<color=#FFFFFF>100%</color>分の<color=#98EFF0>氷属性ダメージ</color>を与える。シグリッドの攻撃力+<color=#FFFFFF>25%</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1591.png"
+  },
+  "1002001": {
+    "name": "血炎の薔薇",
+    "desc": "クラレッタの心象映画<color=#FFAF2C>[血塗られた年代記]</color>が喚起された。\n[血塗られた年代記]：クラレッタの攻撃が敵に命中し、かつ暴傷が発生した時、残痕蓄積効率+20%。クラレッタによって発生する「重傷」のダメージ倍率が本来の130%になる。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png"
+  },
+  "1002002": {
+    "name": "不眠症候群",
+    "desc": "ロクシーの心象映画<color=#FFAF2C>[定時は神話]</color>が喚起された。\n[定時は神話]：<color=#ffffff>『強化特殊スキル：風邪にご注意を』</color>で与えるブレイク値+5%。<color=#ffffff>「嵐の目」</color>を1つ起爆するたびに<color=#ffffff>「勢い」</color>を1重獲得する、最大3重まで所持可能。<color=#ffffff>『強化特殊スキル：風邪にご注意を』</color>を発動して<color=#ffffff>「スピン」</color>状態に入る際に交代すると、ロクシーは<color=#ffffff>「勢い」</color>をすべて消費し、消費した「勢い」1重につき<color=#ffffff>「スピン」</color>状態を0.2秒間維持し続ける。この間はエネルギーを消費せず、最大0.6秒まで維持可能。<color=#ffffff>『強化特殊スキル：風邪にご注意を』</color>が敵に命中した際、ターゲットがブレイク状態から復帰するまでの間、ブレイク弱体倍率+30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png"
+  },
+  "1002003": {
+    "name": "痛覚残留と刺激パレード",
+    "desc": "フィオニーの心象映画<color=#FFAF2C>[痛覚残留と刺激パレード]</color>が喚起された。\n[痛覚残留と刺激パレード]：フィールド入場時、フィオニーは<color=#FFFFFF>「昇焔」</color>を1Pt獲得する。探査モードにおいて、この効果は180秒に1回のみ発動可能。\n<color=#FFFFFF>「炎蝕」</color>状態の敵が受ける状態異常ダメージの会心ダメージが追加で+25%。\n<color=#FFFFFF>『焦熱攻撃』</color>でダメージを与えた時、<color=#FFFFFF>「業火」</color>の獲得効率+15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1641.png"
+  },
+  "1002004": {
+    "name": "ダブルエスプレッソ",
+    "desc": "セヴェリアンの心象映画<color=#FFAF2C>[ダブルエスプレッソ]</color>が喚起された。\n[ダブルエスプレッソ]：セヴェリアンが<color=#FFFFFF>『連携スキル』</color>を発動する際に獲得する<color=#FFFFFF>「凪」</color>が50Ptにアップする。\nセヴェリアンが<color=#FFFFFF>『入場スキル：制圧開始』</color>で出場した時、発動スキルが<color=#FFFFFF>『連携スキル』</color>に変わる。このスキルの入場方法は変化せず、重撃とみなされない。この効果は60秒に1回のみ発動できる。\nセヴェリアンが<color=#FFFFFF>『通常攻撃：蒼き風、影を狩る』</color>を発動するたび、<color=#FFFFFF>「風の利」</color>効果を1重獲得する。\nセヴェリアンの攻撃がターゲットに命中した時、ターゲットの風属性耐性を15%無視する。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1631.png"
+  },
+  "1002301": {
+    "name": "[適合]強攻戦術交流",
+    "desc": "[強攻]特性を持つエージェントの会心ダメージ+<color=#2BAD00>25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType01.png"
+  },
+  "1002302": {
+    "name": "[適合]撃破戦術交流",
+    "desc": "[撃破]特性を持つエージェントの与えるブレイク値+<color=#2BAD00>18%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType02.png"
+  },
+  "1002303": {
+    "name": "[適合]異常戦術交流",
+    "desc": "[異常]特性を持つエージェントの異常掌握+<color=#2BAD00>20</color>Pt。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType03.png"
+  },
+  "1002304": {
+    "name": "[適合]支援戦術交流",
+    "desc": "[支援]特性を持つエージェントのエネルギー自動回復+<color=#2BAD00>10%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType04.png"
+  },
+  "1002305": {
+    "name": "[適合]防護戦術交流",
+    "desc": "[防護]特性を持つエージェントの被ダメージ-<color=#2BAD00>15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType05.png"
+  },
+  "1002306": {
+    "name": "[適合]命破戦術交流",
+    "desc": "[命破]特性を持つエージェントの透徹ダメージ+<color=#2BAD00>20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType06.png"
+  },
+  "1002307": {
+    "name": "[適合]鋭御戦術交流",
+    "desc": "[鋭御]特性を持つエージェントの鋭撃ダメージ+<color=#2BAD00>15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSharpDMG.png"
+  },
+  "1310101": {
+    "name": "[終結]余音が響く箏",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、エージェントは50%の確率で<color=#2BAD00>消費したデシベル値を15%回復する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels03.png"
+  },
+  "1310102": {
+    "name": "[終結]チャージドラム",
+    "desc": "<color=#FFFFFF>『通常攻撃』</color>が敵に命中すると、エージェントは<color=#2BAD00>追加でデシベル値を300Pt獲得する</color>、30秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels04.png"
+  },
+  "1310103": {
+    "name": "[終結]リピートシンセ",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、ターゲットに<color=#2BAD00>エージェントの攻撃力2500%分のダメージを与える</color>、30秒に1回のみ発動可能",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels05.png"
+  },
+  "1310104": {
+    "name": "[終結]大太鼓バチ",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージ+20%</color>。<color=#FFFFFF>『終結スキル』</color>発動時、エージェントの<color=#2BAD00>会心率+10%</color>、継続時間15秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels06.png"
+  },
+  "1310105": {
+    "name": "[終結]鳴り止まぬ笛",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、ターゲットに<color=#2BAD00>攻撃力20%分/秒</color>の<color=#2BAD00>持続ダメージを与える</color>、継続時間10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels07.png"
+  },
+  "1310106": {
+    "name": "[終結]癒しのハープ",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、エージェントがシールドを所持している場合、<color=#2BAD00>HPが5%回復する</color>。シールドを所持していない場合、<color=#2BAD00>HP上限15%分のシールドを生成する</color>、継続時間7秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels08.png"
+  },
+  "1310201": {
+    "name": "[機敏]最先端のシャーシ",
+    "desc": "エージェントが<color=#2BAD00>もう一度回避を発動できるようになる</color>。<color=#FFFFFF>『回避反撃』</color>発動時、エージェントの<color=#2BAD00>攻撃力+300Pt</color>、継続時間5秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone01.png"
+  },
+  "1310202": {
+    "name": "[機敏]エアバッグ",
+    "desc": "<color=#FFFFFF>『回避反撃』</color>の<color=#2BAD00>与ダメージ+20%、与えるブレイク値+20%</color>。<color=#FFFFFF>『回避反撃』</color>発動時、エージェントが<color=#2BAD00>HP上限10%分のシールドを生成する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone02.png"
+  },
+  "1310203": {
+    "name": "[機敏]機敏なギア",
+    "desc": "<color=#FFFFFF>『極限回避』</color>発動時、エージェントの<color=#2BAD00>状態異常蓄積効率+10%</color>、<color=#2BAD00>衝撃力+5%</color>、継続時間10秒、最大3重まで重ね掛け可能。継続時間は1重ごとに独立してカウントされる。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone03.png"
+  },
+  "1310204": {
+    "name": "[機敏]スマートバッファー",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中すると、エージェントが<color=#2BAD00>HP上限5%分のシールドを生成する</color>、継続時間10秒。シールドがある時、エージェントの<color=#2BAD00>与ダメージ+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone04.png"
+  },
+  "1310205": {
+    "name": "[機敏]シートベルト",
+    "desc": "エージェントの<color=#2BAD00>被ダメージ-10%</color>。シールドがある時、エージェントの<color=#2BAD00>エネルギー自動回復+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone05.png"
+  },
+  "1310206": {
+    "name": "[機敏]高性能グリルガード",
+    "desc": "<color=#FFFFFF>『極限支援』</color>発動時、エージェントの<color=#2BAD00>会心率+10%</color>、<color=#2BAD00>会心ダメージ+15%</color>、継続時間15秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone06.png"
+  },
+  "1310301": {
+    "name": "[異常・撃破]万能触媒",
+    "desc": "敵をブレイク状態または状態異常にした時、チーム全体の<color=#2BAD00>会心率+8%</color>、<color=#2BAD00>異常マスタリー+15Pt</color>、最大2重まで重ね掛け可能、継続時間20秒。継続時間は1重ごとに独立してカウントされる。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly01.png"
+  },
+  "1310302": {
+    "name": "[異常・撃破]炸裂試験管",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>が敵に命中すると、ターゲットの<color=#2BAD00>ブレイク弱体倍率+25%</color>、<color=#2BAD00>状態異常がターゲットに与えるダメージ+25%</color>、継続時間10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly02.png"
+  },
+  "1310303": {
+    "name": "[異常・撃破]成長培養基",
+    "desc": "攻撃が敵に命中すると、エージェントの<color=#2BAD00>与えるブレイク値+15%</color>、<color=#2BAD00>状態異常蓄積値+15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly03.png"
+  },
+  "1310304": {
+    "name": "[異常・撃破]研究用顕微鏡",
+    "desc": "チーム全体の<color=#2BAD00>衝撃力+10%</color>、<color=#2BAD00>異常マスタリー+10Pt</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly04.png"
+  },
+  "1310305": {
+    "name": "[異常・撃破]混沌ビーカー",
+    "desc": "敵をブレイク状態にした、または「混沌」効果を付与した時、エージェントの<color=#2BAD00>HPが2.5%</color>、<color=#2BAD00>エネルギーが10Pt</color>回復し、<color=#2BAD00>追加でデシベル値を100Pt獲得する</color>、20秒に1回のみ発動可能。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly06.png"
+  },
+  "1310306": {
+    "name": "[異常・撃破]化合刺激剤",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>の<color=#2BAD00>与ダメージ+15%</color>、状態異常効果の<color=#2BAD00>与ダメージ+15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly05.png"
+  },
+  "1310401": {
+    "name": "[逆境]強力透析装置",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、エージェントの<color=#2BAD00>エネルギーを10Pt回復し</color>、<color=#CF4029>現在のHPを20%消費する</color>。HPを100Pt消費するごとに、エージェントの<color=#2BAD00>与ダメージ+1%</color>、継続時間10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity01.png"
+  },
+  "1310402": {
+    "name": "[逆境]救命ペースメーカー",
+    "desc": "エージェントの<color=#2BAD00>HP上限+25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity02.png"
+  },
+  "1310403": {
+    "name": "[逆境]応急仕切り板",
+    "desc": "HPが減少した時、エージェントの<color=#2BAD00>与ダメージ+20%</color>、<color=#2BAD00>会心率+10%</color>、<color=#2BAD00>中断耐性レベルがアップする</color>、継続時間10秒、20秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity03.png"
+  },
+  "1310404": {
+    "name": "[逆境]ダブルサイド注射器",
+    "desc": "<color=#FFFFFF>『特殊スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の<color=#2BAD00>与ダメージ+15%</color>。スキルが敵に命中すると、エージェントの<color=#2BAD00>HPが5%回復する</color>、20秒に1回のみ発動可能。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity04.png"
+  },
+  "1310405": {
+    "name": "[逆境]指向性抗体",
+    "desc": "現在HPの割合が自分より高い敵を攻撃する時、エージェントの<color=#2BAD00>与ダメージ+10%</color>、<color=#2BAD00>状態異常蓄積値+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity06.png"
+  },
+  "1310406": {
+    "name": "[逆境]鎮痛ホルモン",
+    "desc": "HPが減少した時、エージェントの<color=#2BAD00>攻撃力+10%</color>、継続時間10秒。HPを回復した時、エージェントの<color=#2BAD00>状態異常蓄積効率+10%</color>、継続時間10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity05.png"
+  },
+  "1310901": {
+    "name": "[汎用]ラッキースター",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>発動時、エージェントの<color=#2BAD00>与ダメージ+5%</color>、最大5重まで重ね掛け可能、継続時間30秒。継続時間は1重ごとに独立してカウントされる。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1310902": {
+    "name": "[汎用]エネルギー回復装置Ⅰ型",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>発動時、エージェントの<color=#2BAD00>エネルギーが5Pt回復する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard53.png"
+  },
+  "1310903": {
+    "name": "[汎用]エネルギー回復装置Ⅱ型",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>の<color=#2BAD00>与ダメージ+15%</color>、<color=#2BAD00>与えるブレイク値+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard54.png"
+  },
+  "1310904": {
+    "name": "[汎用]水鉄砲",
+    "desc": "会心が出た時、エージェントの<color=#2BAD00>会心ダメージ+3%</color>、最大10重まで重ね掛け可能、継続時間10秒。重複して発動すると継続時間が更新される。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard06.png"
+  },
+  "1310905": {
+    "name": "[汎用]シャボン玉銃",
+    "desc": "会心が出た時、エージェントの<color=#2BAD00>与えるブレイク値+15%</color>、継続時間3秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1310906": {
+    "name": "[汎用]いいね銃",
+    "desc": "攻撃が敵に命中した時、会心が出なかった場合、エージェントの<color=#2BAD00>会心率+6%</color>。会心が出るとバフ効果がリセットされる。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1310907": {
+    "name": "[汎用]デストロイアーマー",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中すると、エージェントは<color=#2BAD00>HP上限10%分のシールドを生成する</color>、10秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1310908": {
+    "name": "[汎用]ウルトラセイバー",
+    "desc": "シールドがある時、周囲6メートル以内にいる敵に対し、エージェントの<color=#2BAD00>与ダメージ+30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1310909": {
+    "name": "[汎用]バグシールド",
+    "desc": "敵の攻撃を受けた時、現在HPが25%以下の場合、<color=#2BAD00>直ちにHP上限15%分のシールドを生成する</color>、継続時間10秒（1度の戦闘につき、エージェント1名ごとに最大1回まで発動可能）。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1310910": {
+    "name": "[汎用]3面バトルスピナー",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>発動時、<color=#2BAD00>デシベル値を10%獲得する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1310911": {
+    "name": "[汎用]ビー玉・3つ",
+    "desc": "敵がブレイク状態になると、<color=#2BAD00>ブレイクの継続時間+15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1310912": {
+    "name": "[汎用]おもちゃの聴診器",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>の<color=#2BAD00>与えるブレイク値+15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1310913": {
+    "name": "[汎用]ディフューザー",
+    "desc": "<color=#FFFFFF>『回避支援』</color>による<color=#FFFFFF>「極限視界」</color>の<color=#2BAD00>継続時間が5秒まで延長される</color>。<color=#FFFFFF>『パリィ支援』</color>の<color=#2BAD00>与えるブレイク値+30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1310914": {
+    "name": "[汎用]破砕槌",
+    "desc": "<color=#FFFFFF>『極限支援』</color>発動時、チーム全体の<color=#2BAD00>状態異常蓄積効率+25%</color>、継続時間10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1310915": {
+    "name": "[汎用]振動ドリル",
+    "desc": "<color=#FFFFFF>『極限支援』</color>発動時、チーム全体の<color=#2BAD00>会心ダメージ+20%</color>、継続時間10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard34.png"
+  },
+  "1310916": {
+    "name": "[汎用]名もなき本",
+    "desc": "<color=#FFFFFF>『回避反撃』</color>の<color=#2BAD00>与ダメージ+30%</color>、<color=#2BAD00>与えるブレイク値+15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard50.png"
+  },
+  "1310917": {
+    "name": "[汎用]秘密ファイル",
+    "desc": "攻撃を受けた後、すぐに『回避』を押すと、<color=#2BAD00>直ちに受け身を取り</color>、<color=#2BAD00>今回受けたダメージ50%分のHPを回復する</color>、<color=#2BAD00>4</color>秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard55.png"
+  },
+  "1310918": {
+    "name": "[汎用]一般ファイル",
+    "desc": "<color=#FFFFFF>『回避』</color>する際に、<color=#FFFFFF>『極限回避』</color>が<color=#2BAD00>より発動しやすくなり</color>、<color=#FFFFFF>『回避反撃』</color>の<color=#2BAD00>与ダメージ+15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard56.png"
+  },
+  "1310919": {
+    "name": "[汎用]名刀図鑑",
+    "desc": "エージェントの<color=#2BAD00>与ダメージ+25%</color>、<color=#CF4029>被ダメージ+15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1310920": {
+    "name": "[汎用]昆虫図鑑",
+    "desc": "ターゲットのHPが50%以下の時、エージェントの<color=#2BAD00>与ダメージ+15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1310921": {
+    "name": "[汎用]植物図鑑",
+    "desc": "エージェントが控えにいる、かつHPが25%以下の時、<color=#2BAD00>HPが徐々に回復する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1310932": {
+    "name": "インジェクション式溶接トーチ",
+    "desc": "不思議なアイテム。コレクション内の対応する汎用武装を最大レベルにする。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard61.png"
+  },
+  "1340074": {
+    "name": "真鍮の文鎮",
+    "desc": "エージェントの<color=#FFAF2C>[ミアズマシールド]</color>への削減効率+15%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard62.png"
+  },
+  "1340075": {
+    "name": "錦織りのサシェ",
+    "desc": "エージェントが敵の[ミアズマ]攻撃を受けて<color=#FFAF2C>[ミアズマ汚染]</color>値が蓄積する際、蓄積値-20%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard63.png"
+  },
+  "1340076": {
+    "name": "金彩煌めく固形墨",
+    "desc": "エージェントが<color=#FFAF2C>「ミアズマ領域」</color>の中にいる時、与ダメージ+30%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard64.png"
+  },
+  "1311001": {
+    "name": "[持ち遊び]省エネ型乗り物",
+    "desc": "他のメンバーが<color=#FFFFFF>『追撃支援』</color>を発動した時、操作しているメンバーの<color=#2BAD00>エネルギーが5Pt、デシベル値が200Pt回復する</color>。同一のメンバーに対して10秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch01.png"
+  },
+  "1311002": {
+    "name": "[持ち遊び]パンチのあるパンチ",
+    "desc": "HPが15%未満の通常/精鋭エネミーを<color=#FFFFFF>『追撃支援』</color>で瞬殺できる。発動後、チーム全体の<color=#2BAD00>攻撃力+10%</color>、継続時間30秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch04.png"
+  },
+  "1311003": {
+    "name": "[持ち遊び]メリーゴーラウンド",
+    "desc": "<color=#FFFFFF>『追加攻撃』</color>の<color=#2BAD00>与ダメージ+20%、与えるブレイク値+15%、状態異常蓄積値+30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch03.png"
+  },
+  "1311004": {
+    "name": "[持ち遊び]浮き輪",
+    "desc": "<color=#FFFFFF>『追撃支援』</color>が敵に命中すると、操作しているメンバーの<color=#2BAD00>HPが5%回復する</color>、同一のメンバーに対して15秒に1回のみ発動可能。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch02.png"
+  },
+  "1311005": {
+    "name": "[持ち遊び]子ども用お弁当箱",
+    "desc": "操作しているメンバーの<color=#2BAD00>エネルギー獲得効率+10%、デシベル値獲得効率+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch05.png"
+  },
+  "1311006": {
+    "name": "[持ち遊び]回転ブランコ",
+    "desc": "<color=#FFFFFF>『追撃支援』</color>が敵に命中した時、ターゲットの<color=#2BAD00>防御力が10%ダウンする</color>、継続時間10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch06.png"
+  },
+  "1319901": {
+    "name": "[ジェペット]安定牽制",
+    "desc": "ギアコインを100枚所持するごとに、ジェペットに与えるダメージ+<color=#2BAD00>1%</color>、エネルギー獲得効率+<color=#2BAD00>0.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto01.png"
+  },
+  "1319902": {
+    "name": "[ジェペット]血には血を",
+    "desc": "ジェペットを部位破壊した時、チーム全体のHPが<color=#2BAD00>15%</color>回復する。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto02.png"
+  },
+  "1319903": {
+    "name": "[ジェペット]近接突撃",
+    "desc": "ジェペットに対する与ダメージ+<color=#2BAD00>20%</color>、ジェペットから受けるダメージ-<color=#2BAD00>20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto03.png"
+  },
+  "1319904": {
+    "name": "[ジェペット]審判の刻",
+    "desc": "部位破壊を起こした時、ジェペットの防御力‐<color=#2BAD00>15%</color>、最大2重まで重ね掛け可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto04.png"
+  },
+  "1319905": {
+    "name": "[ジェペット]処刑命令",
+    "desc": "「操り糸」を解除した時、チーム全体がデシベル値を<color=#2BAD00>300</color>Pt獲得し、各メンバーが次に発動する<color=#FFFFFF>『終結スキル』</color>の与ダメージ+<color=#2BAD00>30%</color>、最大3重まで重ね掛け可能。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto05.png"
+  },
+  "1001057": {
+    "name": "[ホロウ]破砕斧",
+    "desc": "<color=#FFAF2C>壁を壊せる！</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1001058": {
+    "name": "[ホロウ]クレタの破砕槌",
+    "desc": "<color=#FFAF2C>トゲにぶつかるとダメージを受けず</color>、代わりにHP<color=#2BAD00>+3</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1001059": {
+    "name": "[ホロウ]グレースのディフューザー",
+    "desc": "戦闘で獲得する経験値<color=#2BAD00>+25%</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard46.png"
+  },
+  "1001060": {
+    "name": "[ホロウ]ベンの怪力",
+    "desc": "<color=#2BAD00>宝箱</color>のドロップアイテムが多くなる",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001061": {
+    "name": "[ホロウ]会員カード",
+    "desc": "商品を購入する時、消費したコインの<color=#2BAD00>50%</color>が返還される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001062": {
+    "name": "[ホロウ]HP薬剤",
+    "desc": "コインを拾った時、50%の確率で<color=#2BAD00>HP回復マス</color>が1つ生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001063": {
+    "name": "[ホロウ]連撃ソード",
+    "desc": "コインを拾った時、50%の確率で<color=#FFAF2C>直ちに爆発する爆弾</color>が1個生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001064": {
+    "name": "[ホロウ]パワーアップ薬剤（標準）",
+    "desc": "コインを拾った時、50%の確率で<color=#2BAD00>経験値マス</color>が1つ生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001065": {
+    "name": "[ホロウ]モジュール：戦闘グローブ",
+    "desc": "コインを拾った時、25%の確率で<color=#CF4029>エネミー</color>が1体生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001066": {
+    "name": "[ホロウ]別れの千羽鶴",
+    "desc": "爆弾を仕掛ける時、その上下それぞれに追加で<color=#FFAF2C>直ちに爆発する爆弾</color>を1個仕掛ける",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001067": {
+    "name": "[ホロウ]ダミーボンプ",
+    "desc": "エネミーを倒した時、50%の確率で<color=#2BAD00>硬貨マス</color>が1つ生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001068": {
+    "name": "[ホロウ]終焉の願い星",
+    "desc": "<color=#CF4029>HPマスがHPを回復しなくなる</color>代わりに、チーム全体の攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001069": {
+    "name": "[ホロウ]連撃ソード",
+    "desc": "エネミーを倒した時、一時的に攻撃力<color=#2BAD00>+1</color>、各階層クリア時にリセットされる",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001070": {
+    "name": "[ホロウ]HP薬剤（強化）",
+    "desc": "5回移動するたびに、<color=#FFAF2C>直ちに爆発する爆弾</color>が1個生成され、HP<color=#CF4029>-3</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001071": {
+    "name": "[ホロウ]超強力フック",
+    "desc": "爆風の大きさ<color=#2BAD00>+1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001072": {
+    "name": "[ホロウ]ホロウロボット",
+    "desc": "<color=#2BAD00>エーテル結晶</color>を壊した時、「いいもの」が出る確率が大幅にアップする",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001073": {
+    "name": "[ホロウ]ビックリ爆弾箱",
+    "desc": "各階層開始時、<color=#CF4029>トゲ×15</color>、<color=#2BAD00>レゾブレムマス×2</color>が生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001074": {
+    "name": "[ホロウ]保安検査探知器",
+    "desc": "トゲにぶつかると、<color=#2BAD00>HPが減少せず</color>、代わりに<color=#FFAF2C>ただちに爆発する爆弾</color>を1個生成する",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001075": {
+    "name": "[ホロウ]名もなき本",
+    "desc": "爆弾が爆発した後、ランダムなドロップアイテムが生成される（各階層の合計出現可能数には上限がある）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001076": {
+    "name": "[ホロウ]青い盾",
+    "desc": "コインを10回拾うたびに、攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001077": {
+    "name": "[汎用]勇者のマント",
+    "desc": "チーム全体の攻撃力<color=#2BAD00>+5</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001078": {
+    "name": "[汎用]猫用ブラシ",
+    "desc": "ただちに主人公の攻撃力<color=#2BAD00>+15</color>、攻撃するたびに攻撃力<color=#CF4029>-1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001079": {
+    "name": "[汎用]袋いっぱいの塩",
+    "desc": "エネミーを倒した時、即座に<color=#FFAF2C>直ちに爆発する爆弾</color>が1つ生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001080": {
+    "name": "[ホロウ]紙幣チップ",
+    "desc": "主人公の攻撃力<color=#CF4029>-5</color>。所持コイン100枚につき、攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard07.png"
+  },
+  "1001081": {
+    "name": "[ホロウ]コインアルバム",
+    "desc": "<color=#FFAF2C>商店の在庫補充が無料になる</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard18.png"
+  },
+  "1001082": {
+    "name": "[ホロウ]紙ひこうき",
+    "desc": "主人公のHP<color=#CF4029>-20</color>。HP<color=#2BAD00>10</color>につき、攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard05.png"
+  },
+  "1001083": {
+    "name": "[ホロウ]ラッキースター",
+    "desc": "主人公の攻撃力<color=#2BAD00>+4</color>、HP<color=#CF4029>-15</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1001084": {
+    "name": "[ホロウ]期限切れの会員カード",
+    "desc": "主人公がダメージを受ける時、10%の確率で<color=#2BAD00>硬貨マス</color>が1つ生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard30.png"
+  },
+  "1001085": {
+    "name": "[ホロウ]ビー玉",
+    "desc": "主人公の攻撃が<color=#2BAD00>10%</color>の確率で会心が出て、2倍のダメージを与える",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1001086": {
+    "name": "[ホロウ]ミニサンドバッグ",
+    "desc": "主人公の攻撃力<color=#CF4029>-2</color>、HP<color=#2BAD00>+30</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard01.png"
+  },
+  "1001087": {
+    "name": "[ホロウ]猫耳ヘッドホン",
+    "desc": "主人公の攻撃で会心が出る時、ギアコイン+<color=#2BAD00>100</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard02.png"
+  },
+  "1001089": {
+    "name": "[ホロウ]シャボン玉マシーン",
+    "desc": "主人公の会心率<color=#2BAD00>+50%</color>、<color=#CF4029>HPを回復できなくなる</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1001090": {
+    "name": "[ホロウ]おもちゃのラッパ",
+    "desc": "主人公の被ダメージ<color=#2BAD00>-1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard03.png"
+  },
+  "1001091": {
+    "name": "[ホロウ]スプレー缶",
+    "desc": "仲間の攻撃力<color=#2BAD00>+2</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard10.png"
+  },
+  "1001092": {
+    "name": "[ホロウ]ボンプの抱き枕",
+    "desc": "主人公のHP<color=#2BAD00>+10</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard13.png"
+  },
+  "1001093": {
+    "name": "[ホロウ]お城の積み木",
+    "desc": "主人公の攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard23.png"
+  },
+  "1001094": {
+    "name": "[ホロウ]名刀図鑑",
+    "desc": "主人公が<color=#2BAD00>20%</color>の吸血を獲得する。<color=#CF4029>現在HPが2になる</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1001095": {
+    "name": "[ホロウ]植物標本図鑑",
+    "desc": "チーム全体の攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1001096": {
+    "name": "[ホロウ]おもちゃのレーザーソード",
+    "desc": "主人公の攻撃力<color=#2BAD00>+3</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard27.png"
+  },
+  "1001097": {
+    "name": "[ホロウ]バトルコマ",
+    "desc": "チーム全体のHP<color=#2BAD00>+10</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1001098": {
+    "name": "[ホロウ]昆虫図鑑",
+    "desc": "ボスへの会心率<color=#2BAD00>+30%</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1001099": {
+    "name": "[ホロウ]オモシロ目覚まし時計",
+    "desc": "主人公のHP<color=#2BAD00>+120</color>、移動するたびにHP<color=#CF4029>-3</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard25.png"
+  },
+  "1001100": {
+    "name": "[ホロウ]通常版カードパック",
+    "desc": "主人公がダメージを受ける時、10%の確率で<color=#2BAD00>ボンプのプラグイン</color>が1つ生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard11.png"
+  },
+  "1370101": {
+    "name": "[強攻：殲滅]征伐の斧",
+    "desc": "戦闘開始時、3重の<color=#FFFFFF>「強化」</color>を獲得する。<color=#FFFFFF>「強化」</color>1重につき、エージェントの<color=#2BAD00>会心ダメージ+16%</color>。攻撃を受けた後、<color=#FFFFFF>「強化」</color>を1重取り除く。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS201.png"
+  },
+  "1370102": {
+    "name": "[強攻：殲滅]花より胡蝶",
+    "desc": "<color=#FFFFFF>『回避』</color>の後に繋ぐ<color=#FFFFFF>『ダッシュ攻撃』</color>が<color=#FFFFFF>『回避反撃』</color>に変わる、5秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS202.png"
+  },
+  "1370103": {
+    "name": "[強攻：殲滅]根絶やし",
+    "desc": "エージェントは<color=#2BAD00>敵の防御力を20%無視する</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS203.png"
+  },
+  "1370104": {
+    "name": "[強攻：殲滅]鋭利なパンチ",
+    "desc": "エージェントの<color=#2BAD00>会心ダメージ+24%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS204.png"
+  },
+  "1370105": {
+    "name": "[強攻：殲滅]鋭い拳風",
+    "desc": "エージェントの<color=#2BAD00>攻撃力+270Pt</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS205.png"
+  },
+  "1370106": {
+    "name": "[強攻：殲滅]左右両断",
+    "desc": "エージェントの<color=#2BAD00>会心率+12%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS206.png"
+  },
+  "1228206002": {
+    "name": "[ホロウ]付録CD",
+    "desc": "ボスを倒した時、<color=#2BAD00>宝箱マス</color>が1つ生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard28.png"
+  },
+  "1228206003": {
+    "name": "[ホロウ]厳選ブラインドボックス",
+    "desc": "チーム全体の攻撃力<color=#2BAD00>+3</color>、HP<color=#2BAD00>+30</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard21.png"
+  },
+  "1228206004": {
+    "name": "[ホロウ]おもちゃの聴診器",
+    "desc": "仲間の攻撃力<color=#CF4029>-5</color>、主人公の攻撃力<color=#2BAD00>+15</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1228206005": {
+    "name": "[ホロウ]カラフルな懐中電灯",
+    "desc": "主人公の攻撃力<color=#CF4029>-10</color>、仲間の攻撃力<color=#2BAD00>+4</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard19.png"
+  },
+  "1228206006": {
+    "name": "[ホロウ]おもちゃの救急車",
+    "desc": "主人公がダメージを受ける時、20%の確率で<color=#2BAD00>HP回復マス</color>が1つ生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard24.png"
+  },
+  "1228206007": {
+    "name": "[ホロウ]千羽鶴",
+    "desc": "<color=#CF4029>ダメージを受ける</color>まで、主人公の攻撃力<color=#2BAD00>+15</color>。各階層クリア時にリセットされる",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard26.png"
+  },
+  "1228206008": {
+    "name": "[出撃]ペンギンボンプ",
+    "desc": "「ペンギンボンプ」\n<color=#2BAD00>攻撃力：5、HP：20</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPenguinboo.png"
+  },
+  "1228206009": {
+    "name": "[出撃]オマネキボンプ",
+    "desc": "「オマネキボンプ」\n<color=#2BAD00>攻撃力：3、HP：30</color>\nギアコインを3枚呑み込むたびに、攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooLuckyboo.png"
+  },
+  "1228206010": {
+    "name": "[出撃]タンケンボンプ",
+    "desc": "「タンケンボンプ」\n<color=#FFAF2C>鍵マスを呑み込むと、代わりに宝箱が出現する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooExploreboo.png"
+  },
+  "1228206011": {
+    "name": "[出撃]オスモウボンプ",
+    "desc": "「オスモウボンプ」\n<color=#2BAD00>攻撃力：20、HP：5</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSumoboo.png"
+  },
+  "1228206012": {
+    "name": "[出撃]ハコイリボンプ",
+    "desc": "「ハコイリボンプ」\n<color=#2BAD00>攻撃力：4、HP：20</color>\n所持ボンプ1匹につき、攻撃力<color=#2BAD00>+2</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPaperboo.png"
+  },
+  "1228206013": {
+    "name": "[出撃]フクロノボンプ",
+    "desc": "「フクロノボンプ」\n<color=#2BAD00>攻撃力：2、HP：20</color>\n<color=#FF0000>攻撃する時、ダメージが7倍になる</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooBagboo.png"
+  },
+  "1228206014": {
+    "name": "[出撃]アボカドボンプ",
+    "desc": "「アボカドボンプ」\n<color=#2BAD00>攻撃力：2、HP：40</color>\n攻撃する時、HP<color=#2BAD00>+5</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAvocaboo.png"
+  },
+  "1228206015": {
+    "name": "[出撃]ガブットボンプ",
+    "desc": "「ガブットボンプ」\n<color=#2BAD00>攻撃力：10、HP：35</color>\n主人公にはついて来ない",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSharkboo.png"
+  },
+  "1228206016": {
+    "name": "[出撃]ゴアンゼン",
+    "desc": "「ゴアンゼン」\n<color=#FFAF2C>壁を壊せる。たまにいいものを見つける</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSafety.png"
+  },
+  "1228206017": {
+    "name": "[出撃]アクマデボンプ",
+    "desc": "「アクマデボンプ」\n<color=#FFAF2C>HP回復マスを呑み込むと、代わりに高い確率で攻撃力マスが出現する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooDevilboo.png"
+  },
+  "1228206018": {
+    "name": "[出撃]アミリオン",
+    "desc": "「アミリオン」\n<color=#2BAD00>攻撃力：8、HP：50</color>\n<color=#CF4029>商店の店主を攻撃する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206019": {
+    "name": "[出撃]ゴールドボンプ",
+    "desc": "「ゴールドボンプ」\n<color=#2BAD00>攻撃力：0、HP：10</color>\n<color=#FFAF2C>攻撃力はギアコイン所持数の1/100に相当する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard29.png"
+  },
+  "1228206020": {
+    "name": "[出撃]ツェイ巡査",
+    "desc": "「ツェイ」\n<color=#2BAD00>攻撃力：20、HP：20</color>\n<color=#FFAF2C>受けたダメージは主人公が負担する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooOfficerCui.png"
+  },
+  "1228206021": {
+    "name": "[出撃]ガブガブ",
+    "desc": "「ガブガブ」\n<color=#2BAD00>攻撃力：4、HP：20</color>\n攻撃力は常にHPの1/5に相当する",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardToy05.png"
+  },
+  "1228206022": {
+    "name": "アンビー・デマラ",
+    "desc": "<color=#FFAF2C>「アンビー」</color>\n<color=#2BAD00>攻撃力：8、HP：25</color>\nアンビーの攻撃が<color=#2BAD00>20%</color>の確率で会心になり、\n与ダメージが2倍になる",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1228206023": {
+    "name": "猫宮 又奈",
+    "desc": "<color=#FFAF2C>「猫又」</color>\n<color=#2BAD00>攻撃力：12、HP：15</color>\n<color=#FFAF2C>猫又が攻撃した時、ギアコインが100枚生成される</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1228206024": {
+    "name": "ニコ・デマラ",
+    "desc": "<color=#FFAF2C>「ニコ」</color>\n<color=#2BAD00>攻撃力：0、HP：24</color>\n<color=#FFAF2C>ニコの攻撃力はコイン所持数の1/100に相当する</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1228206025": {
+    "name": "「11号」",
+    "desc": "<color=#FFAF2C>「11号」</color>\n<color=#2BAD00>攻撃力：30、HP：60</color>\n<color=#CF4029>攻撃力は伸びない</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1228206026": {
+    "name": "カリン・ウィクス",
+    "desc": "<color=#FFAF2C>「カリン」</color>\n<color=#2BAD00>攻撃力：20、HP：10</color>\nカリンが攻撃力を獲得した時、追加で攻撃力<color=#2BAD00>+1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1228206027": {
+    "name": "キング・シーザー",
+    "desc": "<color=#FFAF2C>「シーザー」</color>\n<color=#2BAD00>攻撃力：3、HP：35</color>\nダメージを受けた時、<color=#2BAD00>50%</color>の確率でパリィを発動する\n（シーザーのHPは減らず、ダメージをエネミーに弾き返す）",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1228206028": {
+    "name": "ビリー・キッド",
+    "desc": "<color=#FFAF2C>「ビリー」</color>\n<color=#2BAD00>攻撃力：30、HP：10</color>\n<color=#FFAF2C>主人公が初めてダメージを受けたあと、ビリーの攻撃力<color=#CF4029>-15</color>。ビリーの攻撃範囲：<color=#2BAD00>3</color></color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1228206029": {
+    "name": "星見 雅",
+    "desc": "<color=#FFAF2C>「星見雅」</color>\n<color=#2BAD00>攻撃力：25、HP：25</color>\n攻撃する時に10%の確率でエネミーを瞬殺する",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206030": {
+    "name": "クレタ・ベロボーグ",
+    "desc": "<color=#FFAF2C>「クレタ」</color>\n<color=#2BAD00>攻撃力：10、HP：12</color>\n<color=#FFAF2C>ベンがフィールドにいる場合、\nクレタの攻撃が必ず会心になる</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1228206031": {
+    "name": "アンドー・イワノフ",
+    "desc": "<color=#FFAF2C>「アンドー」</color>\n<color=#2BAD00>攻撃力：10、HP：28</color>\n<color=#FFAF2C>アンドーはHPが0になっても攻撃を続ける</color>。その際、攻撃するたびに攻撃力<color=#CF4029>-1</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1228206032": {
+    "name": "ベン・ビガー",
+    "desc": "<color=#FFAF2C>「ベン」</color>\n<color=#2BAD00>攻撃力：2、HP：80</color>\nクレタがフィールドにいる場合、ベンが攻撃した時に50%の確率で<color=#FFAF2C>爆発する爆弾</color>が1個生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1228206033": {
+    "name": "月城 柳",
+    "desc": "<color=#FFAF2C>「月城柳」</color>\n<color=#2BAD00>攻撃力：5、HP：22</color>\n<color=#FFAF2C>月城柳の攻撃が命中したエネミーは四角い枠に囲まれ、月城柳の攻撃しか受けなくなる。攻撃されるたびにエネミーを倒した時と同じ量の経験値が生成される</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1228206034": {
+    "name": "ライト",
+    "desc": "<color=#FFAF2C>「ライト」</color>\n<color=#2BAD00>攻撃力：5、HP：40</color>\n主人公のHPが20を下回る場合、ライトの攻撃力<color=#2BAD00>+20</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1228206101": {
+    "name": "[汎用]出刃包丁",
+    "desc": "攻撃時、20%の確率で<color=#FFAF2C>エネミーをエーテル結晶にする</color>（その場合、経験値を獲得できない）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard31.png"
+  },
+  "1228206102": {
+    "name": "[汎用]刺身包丁",
+    "desc": "エーテル結晶を破壊すると、30%の確率で<color=#CF4029>エネミーが1体生成される</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard32.png"
+  },
+  "1228206103": {
+    "name": "[支援]エーテル反応装置",
+    "desc": "ただちにランダムなボンプのチップを<color=#2BAD00>4つ</color>獲得できる",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic04.png"
+  },
+  "1228206104": {
+    "name": "[支援]衝撃フィードバック装置",
+    "desc": "即座に爆弾を<color=#2BAD00>5</color>個獲得する",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic05.png"
+  },
+  "1228206105": {
+    "name": "[支援]ダイナミックキャリブレータ",
+    "desc": "即座に鍵を<color=#2BAD00>10</color>個獲得する",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic06.png"
+  },
+  "1228206106": {
+    "name": "[支援]ダイナモジェネレータ",
+    "desc": "即座に鍵を<color=#2BAD00>99</color>個獲得する",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic09.png"
+  },
+  "1228206107": {
+    "name": "[汎用]ピーラー",
+    "desc": "封鎖されたドアを開ける時、鍵の代わりに<color=#2BAD00>ギアコイン×1</color>が消費される。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse19.png"
+  },
+  "1228206108": {
+    "name": "[支援]ホログラムデコイ",
+    "desc": "即座にギアコインを<color=#2BAD00>888</color>枚獲得する",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic10.png"
+  },
+  "1228206109": {
+    "name": "[支援]活性伝達装置",
+    "desc": "即座にギアコインを<color=#2BAD00>3000</color>枚獲得する",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic08.png"
+  },
+  "1228206110": {
+    "name": "[汎用]軍用戦術武器",
+    "desc": "<color=#2BAD00>「いいもの」</color>がたくさん生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse32.png"
+  },
+  "1228206111": {
+    "name": "[汎用]強力殺虫剤",
+    "desc": "爆弾が爆発した後、30%の確率で<color=#FFAF2C>直ちに爆発する爆弾</color>を1つ生成する",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse24.png"
+  },
+  "1228206112": {
+    "name": "[汎用]使い捨て手袋",
+    "desc": "主人公がダメージを受ける時、本階層のすべてのエネミーに<color=#2BAD00>1</color>ダメージを与える",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse22.png"
+  },
+  "1228206113": {
+    "name": "[汎用]アーミーナイフ",
+    "desc": "主人公の攻撃力<color=#2BAD00>+5</color>、すべての爆弾が<color=#CF4029>爆発しなくなる</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse27.png"
+  },
+  "1228206114": {
+    "name": "[汎用]アロマキャンドル",
+    "desc": "経験値獲得<color=#2BAD00>+100%</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse12.png"
+  },
+  "1228206115": {
+    "name": "[汎用]古い懐中時計",
+    "desc": "コインを拾った時、25%の確率で<color=#2BAD00>エーテル結晶</color>が1つ生成される",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse26.png"
+  },
+  "1228206116": {
+    "name": "[汎用]ズームレンズ",
+    "desc": "エーテル結晶を破壊すると、50%の確率で<color=#FFAF2C>ボタンの効果が1回発動する</color>（結果は予測不可能）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse14.png"
+  },
+  "1228206117": {
+    "name": "[汎用]深紅のグラス",
+    "desc": "レベルアップ時、主人公のHP<color=#2BAD00>+20</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse25.png"
+  },
+  "1228206119": {
+    "name": "[汎用]枯れ枝のパチンコ",
+    "desc": "レベルアップ時、ボンプのプラグインが<color=#2BAD00>2</color>個生成される",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse21.png"
+  },
+  "1228206120": {
+    "name": "[汎用]電気ポット",
+    "desc": "レベルアップ時、主人公の攻撃力<color=#2BAD00>+1</color>、HP<color=#CF4029>-5</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse20.png"
+  },
+  "1228206121": {
+    "name": "[汎用]アッシャーの蝶ネクタイ",
+    "desc": "購入時、ギアコインを100枚消費するごとに、主人公のHP<color=#2BAD00>+1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse30.png"
+  },
+  "1228206122": {
+    "name": "[汎用]中華包丁",
+    "desc": "<color=#FFAF2C>主人公の攻撃力は常に所持ギアコイン数の1/200に相当する。いかなる影響も受けない</color>。（例：ギアコイン400枚所持する場合、攻撃力は2）",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard33.png"
+  },
+  "1228206123": {
+    "name": "[汎用]ミラクルスターライト",
+    "desc": "戦闘不能時、立ち直る確率が<color=#2BAD00>50%</color>になる",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse34.png"
+  },
+  "1370201": {
+    "name": "[撃破：叩きつけ]マイクロハンドソー",
+    "desc": "敵をブレイク状態にした時、敵の<color=#2BAD00>ブレイク弱体倍率+37.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS201.png"
+  },
+  "1370202": {
+    "name": "[撃破：叩きつけ]携帯用アングルグラインダー",
+    "desc": "敵をブレイク状態にした時、メンバー全員が<color=#2BAD00>エネルギーを5Pt</color>、<color=#2BAD00>アドレナリンを6Pt</color>、<color=#2BAD00>シャープネスを5Pt</color>回復する。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS202.png"
+  },
+  "1370203": {
+    "name": "[撃破：叩きつけ]多機能丸ノコ",
+    "desc": "ブレイク状態の敵に対して、エージェントの<color=#2BAD00>与ダメージ+45%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS203.png"
+  },
+  "1370204": {
+    "name": "[撃破：叩きつけ]高回転チェーンソー",
+    "desc": "敵をブレイク状態にした時、<color=#2BAD00>ブレイクの継続時間+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS204.png"
+  },
+  "1370205": {
+    "name": "[撃破：叩きつけ]工事用爆薬",
+    "desc": "エージェントの与える<color=#2BAD00>ブレイク値+10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS205.png"
+  },
+  "1370206": {
+    "name": "[撃破：叩きつけ]強力インパクトドリル",
+    "desc": "ブレイク状態から復帰した時、敵の<color=#2BAD00>ブレイク値が10%蓄積される</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS206.png"
+  },
+  "1370301": {
+    "name": "[異常：付加]戦術震爆弾",
+    "desc": "「混沌」効果を付与した時、チーム全体の<color=#2BAD00>異常マスタリー+25Pt</color>。3重まで重ね掛け可能、継続時間15秒。重複して発動すると継続時間が更新される。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS201.png"
+  },
+  "1370302": {
+    "name": "[異常：付加]重型火炎放射器",
+    "desc": "エージェントが状態異常の敵を攻撃した時、<color=#2BAD00>貫通率+20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS202.png"
+  },
+  "1370303": {
+    "name": "[異常：付加]強力ペッパースプレー",
+    "desc": "状態異常効果を付与した時、メンバー全員が<color=#2BAD00>エネルギーを7Pt</color>、<color=#2BAD00>アドレナリンを9Pt</color>、<color=#2BAD00>シャープネスを7Pt</color>回復する。5秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS203.png"
+  },
+  "1370304": {
+    "name": "[異常：付加]ネットランチャー",
+    "desc": "エージェントの<color=#2BAD00>異常掌握+60Pt</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS204.png"
+  },
+  "1370305": {
+    "name": "[異常：付加]高圧テイザー銃",
+    "desc": "エージェントの<color=#2BAD00>異常マスタリー+45Pt</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS205.png"
+  },
+  "1370306": {
+    "name": "[異常：付加]電磁ジャマー",
+    "desc": "エージェントが与える<color=#2BAD00>全状態異常ダメージと「混沌」ダメージ+18%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS206.png"
+  },
+  "1370401": {
+    "name": "[支援：飽和]フォーチュンクッキー",
+    "desc": "エージェントが<color=#FFFFFF>『終結スキル』</color>を発動した時、チーム全体が<color=#2BAD00>エネルギーを17Pt</color>、<color=#2BAD00>アドレナリンを21Pt</color>、<color=#2BAD00>シャープネスを17Pt</color>回復する。20秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS201.png"
+  },
+  "1370402": {
+    "name": "[支援：飽和]栄養缶詰",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、エージェントの<color=#2BAD00>与ダメージ+5%</color>、継続時間10秒。5重まで重ね掛け可能。重複して発動すると継続時間が更新される。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS202.png"
+  },
+  "1370403": {
+    "name": "[支援：飽和]エネルギーソーダ",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>の与える<color=#2BAD00>ダメージ+44%</color>、<color=#FFFFFF>『終結スキル』</color>の与える<color=#2BAD00>ダメージ+44%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS203.png"
+  },
+  "1370404": {
+    "name": "[支援：飽和]スターライト・ロリポップ",
+    "desc": "デシベル値の<color=#2BAD00>獲得効率+23%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS204.png"
+  },
+  "1370405": {
+    "name": "[支援：飽和]インスタント火鍋",
+    "desc": "エネルギー/アドレナリン/シャープネスの<color=#2BAD00>獲得効率+18%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS205.png"
+  },
+  "1370406": {
+    "name": "[支援：飽和]ノンシュガーチョコ",
+    "desc": "エージェントの<color=#2BAD00>与ダメージ+15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS206.png"
+  },
+  "1370501": {
+    "name": "[命破：発動]持続は力なり",
+    "desc": "エージェントのHPが70%未満の時、<color=#2BAD00>会心ダメージ+60%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS201.png"
+  },
+  "1370502": {
+    "name": "[命破：発動]力押し",
+    "desc": "エージェントのHPが70%未満の時、<color=#2BAD00>与ダメージ+37.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS202.png"
+  },
+  "1370503": {
+    "name": "[命破：発動]攻守バランス",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、メンバー全員の<color=#2BAD00>HPが4%回復する</color>。10秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS203.png"
+  },
+  "1370504": {
+    "name": "[命破：発動]チャンピオンの証",
+    "desc": "エージェントの<color=#2BAD00>HP上限+25%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS204.png"
+  },
+  "1370505": {
+    "name": "[命破：発動]準備万端",
+    "desc": "HPを失った時、[命破]エージェントの<color=#2BAD00>透徹力+270Pt</color>、[命破]以外のエージェントの<color=#2BAD00>攻撃力+324Pt</color>。継続時間5秒。重複して発動すると継続時間が更新される。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS205.png"
+  },
+  "1370506": {
+    "name": "[命破：発動]体捌き",
+    "desc": "HPを失った時、エージェントの<color=#2BAD00>会心ダメージ+30%</color>、継続時間20秒。重複して発動すると継続時間が更新される。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS206.png"
+  },
+  "1370601": {
+    "name": "[防護：闘盾]制式警棒",
+    "desc": "シールドがある時、エージェントの<color=#2BAD00>与ダメージ+25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS201.png"
+  },
+  "1370602": {
+    "name": "[防護：闘盾]MX7戦術グローブ",
+    "desc": "シールドがある時、エージェントの<color=#2BAD00>会心ダメージ+40%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS202.png"
+  },
+  "1370603": {
+    "name": "[防護：闘盾]Ⅲ型戦闘ヘルメット",
+    "desc": "<color=#FFFFFF>『極限支援』</color>を発動した時、チーム全体の<color=#2BAD00>デシベル値+150Pt</color>。5秒に1回のみ発動可能。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS203.png"
+  },
+  "1370604": {
+    "name": "[防護：闘盾]軍用ガスマスク",
+    "desc": "<color=#FFFFFF>『パリィ支援』</color>の<color=#2BAD00>与えるブレイク値+25%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS204.png"
+  },
+  "1370605": {
+    "name": "[防護：闘盾]第四世代ライオットシールド",
+    "desc": "接敵状態突入時、チーム全体が<color=#2BAD00>自身のHP10%分のシールドを獲得する</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS205.png"
+  },
+  "1370606": {
+    "name": "[防護：闘盾]軽量防弾アーマー",
+    "desc": "<color=#FFFFFF>『極限回避』</color>を発動した時、エージェントは<color=#2BAD00>HPの3%分のシールドを獲得する</color>。5秒に1回のみ発動可能。重複して発動するとシールド値が更新される。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS206.png"
+  }
+}

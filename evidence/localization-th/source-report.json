@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "provider": "ZenlessData",
+  "repository": "https://git.mero.moe/dimbreath/ZenlessData",
+  "sourceRevision": "462563ec0f8ffc7493f6e2a46f64f8b34ea2d547",
+  "commitMessage": "CNPRODWin3.2.0_R19437730_S19159270_D19437730\n",
+  "committedAt": "2026-10-09T05:37:06+02:00",
+  "region": "CNPROD",
+  "gameVersion": "3.2.0",
+  "revisionBuild": "19437730",
+  "staticBuild": "19159270",
+  "dataBuild": "19437730",
+  "files": [
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_THTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:50:21.918Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 93352352,
+      "sha256": "3e0755c4063440d95f56b3574e25aec63936266c89a200e2e78a8e5ec62c9c4b",
+      "gitBlobSha": "1824f61ffed02311e16484a8368bd76f12644a20",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 00:52:58 GMT",
+        "etag": "W/\"1824f61ffed02311e16484a8368bd76f12644a20\""
+      },
+      "path": "TextMap/TextMap_THTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_THOverwriteTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:50:26.930Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 1670989,
+      "sha256": "a079174aca30c3eeece89aea11e844e689fcc217a0515e18ff6d62ccaad8b6e6",
+      "gitBlobSha": "8aacbf237b2f66beb2300b10819e8519d85012be",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 23 Sep 2026 10:19:58 GMT",
+        "etag": "W/\"8aacbf237b2f66beb2300b10819e8519d85012be\""
+      },
+      "path": "TextMap/TextMap_THOverwriteTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_Login_THTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:50:27.939Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 119391,
+      "sha256": "31a156c683548349343fe6bf88413c2dd180f6a5afbc03044013c86c67a7c949",
+      "gitBlobSha": "a902b66dad8f485f5cdb15f119b53d2f7eadb8f0",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 00:52:58 GMT",
+        "etag": "W/\"a902b66dad8f485f5cdb15f119b53d2f7eadb8f0\""
+      },
+      "path": "TextMap/TextMap_Login_THTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_ENTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:13.290Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 48112035,
+      "sha256": "d78dc7af89c7432fc75c89c755a47364c29cad9b6d010859f8b8abd7a00d1f99",
+      "gitBlobSha": "b33f22e663bab9474b6aec268eb666444e2de152",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 00:51:20 GMT",
+        "etag": "W/\"b33f22e663bab9474b6aec268eb666444e2de152\""
+      },
+      "path": "TextMap/TextMap_ENTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_ENOverwriteTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:15.999Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 794359,
+      "sha256": "c7243a2dfb649a32fb0d53bd73afcae74d8e32a0c54e7a0ba010e0168e94e188",
+      "gitBlobSha": "435617f0521dd176eecc24d20c4007aaba92c3bf",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 23 Sep 2026 10:19:58 GMT",
+        "etag": "W/\"435617f0521dd176eecc24d20c4007aaba92c3bf\""
+      },
+      "path": "TextMap/TextMap_ENOverwriteTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap/TextMap_Login_ENTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:17.103Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 66684,
+      "sha256": "0fd8001cd1e44c5e68ccb0fdaee4f9addf31a408009d01b1cee8cf7b8ecbbe80",
+      "gitBlobSha": "8654e9bf5c60d7af24fda518f8e289f9fdb3bf26",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 00:52:23 GMT",
+        "etag": "W/\"8654e9bf5c60d7af24fda518f8e289f9fdb3bf26\""
+      },
+      "path": "TextMap/TextMap_Login_ENTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarBaseTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:18.181Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 38012,
+      "sha256": "0d74baee5a85cb6dad07472ee4ff8fbd218d09fc67b25fd2e5cfe886bbf76346",
+      "gitBlobSha": "bd659e61681e622b8f6e1ad6f66590bd618bd878",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"bd659e61681e622b8f6e1ad6f66590bd618bd878\""
+      },
+      "path": "FileCfg/AvatarBaseTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarBattleTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:19.869Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 343541,
+      "sha256": "72200125d2e776027c53ace22914fa0473698af4da9cc019684d0ecdd8c6fbdd",
+      "gitBlobSha": "026836df4668600b0f3731d7ff8b5329ce10637a",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"026836df4668600b0f3731d7ff8b5329ce10637a\""
+      },
+      "path": "FileCfg/AvatarBattleTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarSkillDesTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:21.357Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 1516818,
+      "sha256": "67e3baa405521ab98908fbb4225c85507f05b8d71ee7b8132bfe069586640417",
+      "gitBlobSha": "4862a3785760be420eed6adee7f11757593f9fd2",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 16 Sep 2026 10:05:00 GMT",
+        "etag": "W/\"4862a3785760be420eed6adee7f11757593f9fd2\""
+      },
+      "path": "FileCfg/AvatarSkillDesTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarPassiveSkillDesTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:22.625Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 173618,
+      "sha256": "fab2a6b704f140955702a8caf6c735b931c171fcd58318eb6be7dcd76c2ecfcf",
+      "gitBlobSha": "267c4dffcb54772eda8f66a77d3de898814e92d0",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"267c4dffcb54772eda8f66a77d3de898814e92d0\""
+      },
+      "path": "FileCfg/AvatarPassiveSkillDesTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarTalentTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:23.890Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 176089,
+      "sha256": "97ccfaccf8d47144db57fa033121cd5483571b7f244f7cf13f9a117e5c5aad1d",
+      "gitBlobSha": "d7160b3c25d779df931d73a593079600b654ab6d",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"d7160b3c25d779df931d73a593079600b654ab6d\""
+      },
+      "path": "FileCfg/AvatarTalentTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarSkinBaseTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:25.173Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 52232,
+      "sha256": "6d9652abda42694d3b4712ad7d210e8951a7255819e33a362cbccd3491eae04f",
+      "gitBlobSha": "9cc155265b7cd0177e36f3f254b5f45a2940ced9",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"9cc155265b7cd0177e36f3f254b5f45a2940ced9\""
+      },
+      "path": "FileCfg/AvatarSkinBaseTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/PartnerConfigTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:26.464Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 63981,
+      "sha256": "b18ff771dbcb403c7ee7b22ded664e304666097d990fe1d8c2d829090dc3a8d8",
+      "gitBlobSha": "94f6ef6a9f1802313573ec633ba4a3a8e2b7a218",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"94f6ef6a9f1802313573ec633ba4a3a8e2b7a218\""
+      },
+      "path": "FileCfg/PartnerConfigTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AvatarProfessionTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:27.763Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 2666,
+      "sha256": "844938bd0ce70c973e4cfe89a3e807177cf2f2f2bc007af47094d53f5c386e20",
+      "gitBlobSha": "26363e0221180ec9a6187fc3d10ac53cdce1be19",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"26363e0221180ec9a6187fc3d10ac53cdce1be19\""
+      },
+      "path": "FileCfg/AvatarProfessionTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/CampConstTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:29.228Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 2109,
+      "sha256": "2afe1be79fe4a83c4bea65bd42b30dc69c0a09321a61db055f5d79ce680d0837",
+      "gitBlobSha": "17e15052bf23d8a41d9538d45f95527aad8c3a93",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"17e15052bf23d8a41d9538d45f95527aad8c3a93\""
+      },
+      "path": "FileCfg/CampConstTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/DamageElementConfigTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:30.490Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 5133,
+      "sha256": "0c033d01a7651d5b511ac289e1ae2b19a6868530bfdd241336dcf993c8faa5e2",
+      "gitBlobSha": "f14a50004ac565fab2c618ece4f2da96937411cb",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"f14a50004ac565fab2c618ece4f2da96937411cb\""
+      },
+      "path": "FileCfg/DamageElementConfigTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/PropertyTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:31.805Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 84383,
+      "sha256": "0fbf186ef8989868be3941f88a9b14ba162b069a7dd2436d0dbc4039846794bf",
+      "gitBlobSha": "481cb2af7052df9403273bb14e84d298b4dd5c36",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"481cb2af7052df9403273bb14e84d298b4dd5c36\""
+      },
+      "path": "FileCfg/PropertyTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/WeaponTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:33.073Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 100806,
+      "sha256": "85120367277c05d36544a6d1b9e84057b6dd0914d3a87b373b87c626e326076e",
+      "gitBlobSha": "0708d8d0412c854882fbf0243501d409a6bb59ae",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"0708d8d0412c854882fbf0243501d409a6bb59ae\""
+      },
+      "path": "FileCfg/WeaponTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/WeaponTalentTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:34.344Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 130910,
+      "sha256": "450e81596cecabca26d3a4bf4534e99e67a3cfba5a486ffbcc9d590516a3ab86",
+      "gitBlobSha": "fa12557d76b045c79d04690cc73633b54b92b496",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"fa12557d76b045c79d04690cc73633b54b92b496\""
+      },
+      "path": "FileCfg/WeaponTalentTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/BuddyBaseTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:35.764Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 14244,
+      "sha256": "d70603f60622f91422b8483dab3fa5a322d6d2a1f7e6d1b51c680d83bf67f99a",
+      "gitBlobSha": "d749d63dd23ef23355a37753ccd2955ed1781efd",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"d749d63dd23ef23355a37753ccd2955ed1781efd\""
+      },
+      "path": "FileCfg/BuddyBaseTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/BuddyUITemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:36.904Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 18609,
+      "sha256": "49fa6c35f362156a56320f0ab01e29b1a0a7f538ba3e7c3217f8781283e41035",
+      "gitBlobSha": "9538fb6eb365cf4058253ec059c40de3573b44bb",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"9538fb6eb365cf4058253ec059c40de3573b44bb\""
+      },
+      "path": "FileCfg/BuddyUITemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/BuddySkillLevelUpTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:38.388Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 632502,
+      "sha256": "ce96d17f148bb3cc773a1914efc324222e7a5978baecbbb5ff7b655187af4649",
+      "gitBlobSha": "7097eb5fac1a58ac81bafa2023576620b74b1628",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"7097eb5fac1a58ac81bafa2023576620b74b1628\""
+      },
+      "path": "FileCfg/BuddySkillLevelUpTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/EquipmentSuitTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:39.462Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 32748,
+      "sha256": "79f533a3db965c83071a81b99aea2349a60f76ff9c6735771384fad24428c4ed",
+      "gitBlobSha": "1822cb57c2e9069066c922399bb9739834006663",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"1822cb57c2e9069066c922399bb9739834006663\""
+      },
+      "path": "FileCfg/EquipmentSuitTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/ItemTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:42.097Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 6611407,
+      "sha256": "9f73c6f36f4ae0ce71f5dca61d188b8dcfb18ebb891946d84c1bffb3250f7e33",
+      "gitBlobSha": "2f5d974d4fec1646e2da33059c2c9770c635f67e",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 23 Sep 2026 10:19:58 GMT",
+        "etag": "W/\"2f5d974d4fec1646e2da33059c2c9770c635f67e\""
+      },
+      "path": "FileCfg/ItemTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/MonsterCardConfigTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:43.510Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 441122,
+      "sha256": "123565271d41fac92caa41ac22f77849ae331d7224793d6a1cef37daa482b07a",
+      "gitBlobSha": "ff5b03d43fa6f439a408fd1c8d65a14fc5588b9f",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 16 Sep 2026 10:05:00 GMT",
+        "etag": "W/\"ff5b03d43fa6f439a408fd1c8d65a14fc5588b9f\""
+      },
+      "path": "FileCfg/MonsterCardConfigTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AchievementTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:45.245Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 350400,
+      "sha256": "ab885ae94abc2daf50e1a2b8c8f93b262748ffe27c53678961ab5a26c1de8c3f",
+      "gitBlobSha": "19e317f0f92d3dcc9fa7347f7363db80435e1fde",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"19e317f0f92d3dcc9fa7347f7363db80435e1fde\""
+      },
+      "path": "FileCfg/AchievementTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AbyssS2RelicTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:46.494Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 94661,
+      "sha256": "92006f5366295edf86e9b97ffeb9f036f2e8630fc4f7c2150ea057c6e1503f45",
+      "gitBlobSha": "cf273e194ec0f773740c2b330eb9343c2fc1cb25",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"cf273e194ec0f773740c2b330eb9343c2fc1cb25\""
+      },
+      "path": "FileCfg/AbyssS2RelicTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/AbyssS2RelicBranchTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:51:47.784Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 172088,
+      "sha256": "2dfed7fb84af681e43714986c09408ba8ae3e528dea20e216ecb724b4da33b5b",
+      "gitBlobSha": "2296680e66b62af3c5e37afb9253fd7d86da0282",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"2296680e66b62af3c5e37afb9253fd7d86da0282\""
+      },
+      "path": "FileCfg/AbyssS2RelicBranchTemplateTb.json"
+    },
+    {
+      "provider": "ZenlessData",
+      "url": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/FileCfg/NounPromptsTemplateTb.json",
+      "fetchedAt": "2026-10-17T19:57:33.533Z",
+      "httpStatus": 200,
+      "encoding": "utf-8",
+      "bytes": 26998,
+      "sha256": "11b9839fb909537aa9ac6ba1ef052860681ee3ac0cfe95d4eeb2ee51b978b68c",
+      "gitBlobSha": "5455af2fcebabe0d1104cc63953c21c372edc98e",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "last-modified": "Wed, 09 Sep 2026 09:07:43 GMT",
+        "etag": "W/\"5455af2fcebabe0d1104cc63953c21c372edc98e\""
+      },
+      "path": "FileCfg/NounPromptsTemplateTb.json"
+    }
+  ],
+  "history": [
+    {
+      "path": "TextMap/TextMap_THTemplateTb.json",
+      "sourceRevision": "b084f66a42cf128b7c809c9ba1b5bcce96ae114b",
+      "message": "OSPRODWin3.2.0_R18779629_S18779629_D18761130",
+      "region": "OSPROD",
+      "gameVersion": "3.2.0",
+      "revisionBuild": "18779629",
+      "staticBuild": "18779629",
+      "dataBuild": "18761130",
+      "committedAt": "2026-09-09T00:52:58+02:00",
+      "evidenceUrl": "https://git.mero.moe/dimbreath/ZenlessData/src/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap"
+    },
+    {
+      "path": "TextMap/TextMap_THOverwriteTemplateTb.json",
+      "sourceRevision": "bf13e4ccd283a07b5ee1c8488b617883de90a6e0",
+      "message": "CNPRODWin3.2.0_R19159270_S19159270_D19159270",
+      "region": "CNPROD",
+      "gameVersion": "3.2.0",
+      "revisionBuild": "19159270",
+      "staticBuild": "19159270",
+      "dataBuild": "19159270",
+      "committedAt": "2026-09-23T10:19:58+02:00",
+      "evidenceUrl": "https://git.mero.moe/dimbreath/ZenlessData/src/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap"
+    },
+    {
+      "path": "TextMap/TextMap_Login_THTemplateTb.json",
+      "sourceRevision": "b084f66a42cf128b7c809c9ba1b5bcce96ae114b",
+      "message": "OSPRODWin3.2.0_R18779629_S18779629_D18761130",
+      "region": "OSPROD",
+      "gameVersion": "3.2.0",
+      "revisionBuild": "18779629",
+      "staticBuild": "18779629",
+      "dataBuild": "18761130",
+      "committedAt": "2026-09-09T00:52:58+02:00",
+      "evidenceUrl": "https://git.mero.moe/dimbreath/ZenlessData/src/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap"
+    },
+    {
+      "path": "TextMap/TextMap_ENTemplateTb.json",
+      "sourceRevision": "c5c6161b407ea0518a0007f677636a8097160feb",
+      "message": "OSPRODWin3.2.0_R18779629_S18779629_D18761130",
+      "region": "OSPROD",
+      "gameVersion": "3.2.0",
+      "revisionBuild": "18779629",
+      "staticBuild": "18779629",
+      "dataBuild": "18761130",
+      "committedAt": "2026-09-09T00:51:20+02:00",
+      "evidenceUrl": "https://git.mero.moe/dimbreath/ZenlessData/src/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap"
+    },
+    {
+      "path": "TextMap/TextMap_ENOverwriteTemplateTb.json",
+      "sourceRevision": "bf13e4ccd283a07b5ee1c8488b617883de90a6e0",
+      "message": "CNPRODWin3.2.0_R19159270_S19159270_D19159270",
+      "region": "CNPROD",
+      "gameVersion": "3.2.0",
+      "revisionBuild": "19159270",
+      "staticBuild": "19159270",
+      "dataBuild": "19159270",
+      "committedAt": "2026-09-23T10:19:58+02:00",
+      "evidenceUrl": "https://git.mero.moe/dimbreath/ZenlessData/src/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/TextMap"
+    }
+  ],
+  "credits": {
+    "readme": "https://git.mero.moe/dimbreath/ZenlessData/raw/commit/462563ec0f8ffc7493f6e2a46f64f8b34ea2d547/README.md",
+    "requestedCredit": "Thanks to Dimbreath and Mero",
+    "licenseFileFound": false,
+    "note": "Repository README requests attribution. No separate data redistribution license was found at the repository root; game text belongs to its respective owners. This project is independent of HoYoverse, Nanoka, and ZenlessData."
+  }
+}

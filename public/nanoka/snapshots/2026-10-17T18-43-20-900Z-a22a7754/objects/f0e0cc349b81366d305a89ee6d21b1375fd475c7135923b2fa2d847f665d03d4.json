@@ -1,0 +1,1562 @@
+{
+  "1000943": {
+    "name": "[契合]充盈电鸣",
+    "desc": "安比已唤醒意象影画：<color=#FFAF2C>[充能电场]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[充能电场]：发动<color=#FFFFFF>[强化特殊技]</color>时，安比获得8层充能（上限8层）；<color=#FFFFFF>[普通攻击]</color>或<color=#FFFFFF>[冲刺攻击]</color>命中敌人时，消耗1层充能，使当前招式造成的伤害提升45%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1000944": {
+    "name": "[契合]巅峰猎手",
+    "desc": "猫又已唤醒意象影画：<color=#FFAF2C>[猎鸟技巧]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[猎鸟技巧]：从背后攻击命中敌人时，猫又无视目标16%<color=#F0D12B>物理伤害抗性</color>；敌方处于失衡状态时，猫又对其的所有攻击均被视为背后攻击。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1000945": {
+    "name": "[契合]火力全开",
+    "desc": "妮可已唤醒意象影画：<color=#FFAF2C>[领域扩增]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[领域扩增]：妮可发动<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[连携技]</color>、<color=#FFFFFF>[终结技]</color>时，在目标处生成的能量场攻击范围提升，直径增加3米。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1000946": {
+    "name": "[契合]天衣无缝",
+    "desc": "「11号」已唤醒意象影画：<color=#FFAF2C>[纵情燃烧]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[纵情燃烧]：<color=#FFFFFF>[普通攻击]</color>第一、二、三段或<color=#FFFFFF>[冲刺攻击]</color>发动时，若触发<color=#FFFFFF>[火力镇压]</color>，则在招式发动期间抗打断等级提升，受到的伤害降低18%；<color=#FFFFFF>[普通攻击]</color>第四段发动时，若触发<color=#FFFFFF>[火力镇压]</color>，则在招式发动期间获得无敌效果。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1000947": {
+    "name": "[契合]在我的BGM里",
+    "desc": "比利已唤醒意象影画：<color=#FFAF2C>[游斗射术]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[游斗射术]：<color=#FFFFFF>[闪避反击]</color>造成的伤害提升25%；<color=#FFFFFF>[普通攻击]</color>中的翻滚射击将被视为闪避动作，在招式发动期间获得无敌效果，并且能够触发<color=#FFFFFF>[极限闪避]</color>，翻滚射击触发<color=#FFFFFF>[极限闪避]</color>时，将自动衔接<color=#FFFFFF>[闪避反击]</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1000948": {
+    "name": "[契合]肌肉狂欢",
+    "desc": "安东已唤醒意象影画：<color=#FFAF2C>[热身运动]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[热身运动]：<color=#FFFFFF>[电钻攻击]</color>命中敌人时，能够额外回复能量；同一招式内，该效果最多为安东回复5点能量。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1000949": {
+    "name": "[契合]熊熊怒火",
+    "desc": "本已唤醒意象影画：<color=#FFAF2C>[灵活应变]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[灵活应变]：在<color=#FFFFFF>[特殊技]</color>或<color=#FFFFFF>[强化特殊技]</color>中，通过无敌效果成功格挡攻击时 ，后继反击造成的伤害提升30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1000950": {
+    "name": "[契合]饭前运动",
+    "desc": "苍角已唤醒意象影画：<color=#FFAF2C>[朔风侵袭]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[朔风侵袭]：<color=#FFFFFF>[霜染刃旗]</color>状态下，强化<color=#FFFFFF>[普通攻击]</color>和强化<color=#FFFFFF>[冲刺攻击]</color>的可发动次数提升至12次，且招式造成的伤害提升45%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1131.png"
+  },
+  "1000951": {
+    "name": "[契合]冰冷逐客令",
+    "desc": "莱卡恩已唤醒意象影画：<color=#FFAF2C>[满月蓄势]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[满月蓄势]：<color=#FFFFFF>[强化特殊技：狂猎时刻]</color>命中敌人时，招式造成的失衡值提升12%，8秒内最多触发一次；在<color=#FFFFFF>[强化特殊技：狂猎时刻]</color>中完成蓄力时，该增益效果额外提升10%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1141.png"
+  },
+  "1000952": {
+    "name": "[契合]邦布赐予我力量",
+    "desc": "格莉丝已唤醒意象影画：<color=#FFAF2C>[电致击穿]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[电致击穿]：在<color=#FFFFFF>[普通攻击]</color>、<color=#FFFFFF>[特殊技]</color>、<color=#FFFFFF>[强化特殊技]</color>等招式中投掷手雷命中敌人时，目标的<color=#2EB6FF>电属性伤害抗性</color>降低8.5%，<color=#2EB6FF>电属性异常积蓄抗性</color>降低8.5%，持续8秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1181.png"
+  },
+  "1000953": {
+    "name": "[契合]对敌型起床气",
+    "desc": "艾莲已唤醒意象影画：<color=#FFAF2C>[冰洋掠食者]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[冰洋掠食者]：发动第三段<color=#FFFFFF>[普通攻击：急冻修剪法]</color>后，可以直接衔接发动<color=#FFFFFF>[强化特殊技：鲨卷风]</color>；发动<color=#FFFFFF>[强化特殊技]</color>时，每拥有1点<color=#FFFFFF>[急冻充能]</color>，当前招式造成的暴击伤害提升20%，最多提升60%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1191.png"
+  },
+  "1000954": {
+    "name": "[契合]游刃有余",
+    "desc": "丽娜已唤醒意象影画：<color=#FFAF2C>[双人领舞]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[双人领舞]：被指派并发动攻击后，返回丽娜身边前，杜苏拉和安娜塔莎会在原处额外逗留5.5秒；在杜苏拉或安娜塔莎附近10米范围内的角色，从<color=#FFFFFF>[核心被动：迷你毁灭拍档]</color>中获得的增益效果提升至原本的130%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1211.png"
+  },
+  "1000955": {
+    "name": "[契合]热情大扫除",
+    "desc": "可琳已唤醒意象影画：<color=#FFAF2C>[厚积薄发]</color>。\n[厚积薄发]：持续斩击命中敌人时，可琳获得1层充能（最多40层）；在<color=#FFFFFF>[闪避反击]</color>、<color=#FFFFFF>[特殊技]</color>、<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[支援突击]</color>中，引爆电锯命中敌人时，消耗所有充能，每层充能使本次攻击额外造成可琳3%攻击力的伤害。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1000956": {
+    "name": "[契合]烈锤火花",
+    "desc": "珂蕾妲已唤醒意象影画：<color=#FFAF2C>[动能回收]</color>。\n[动能回收]：<color=#FFFFFF>[强化特殊技]</color>命中敌人时，珂蕾妲回复60点能量，45秒内最多触发一次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1000957": {
+    "name": "[契合]砥砺同行",
+    "desc": "朱鸢已唤醒意象影画：<color=#FFAF2C>[快速装填]</color>。\n[快速装填]：朱鸢发动<color=#FFFFFF>[连携技]</color>/<color=#FFFFFF>[终结技]</color>时，将获得<color=#FFFFFF>[快速装填]</color>效果；当朱鸢拥有<color=#FFFFFF>[快速装填]</color>效果时，耗尽所有<color=#FFFFFF>[强化霰弹]</color>后，将消耗<color=#FFFFFF>[快速装填]</color>效果，立刻获得6/9枚<color=#FFFFFF>[强化霰弹]</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1241.png"
+  },
+  "1000958": {
+    "name": "[契合]大小姐冲锋",
+    "desc": "露西已唤醒意象影画：<color=#FFAF2C>[獠牙堪烈火]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[獠牙堪烈火]：处于<color=#FFFFFF>[加油！]</color>状态下的队友<color=#FFFFFF>[强化特殊技]</color>命中敌人时，一只亲卫队小猪会从空中落地引发爆炸，造成等同于亲卫队小猪300%攻击力的<color=#FF5521>火属性伤害</color>，并使全队角色、邦布和亲卫队小猪的<color=#FFFFFF>[加油！]</color>状态的持续时间提升5秒；持续时间最多提升3次，上限30秒，重新获得<color=#FFFFFF>[加油！]</color>状态时刷新可提升次数；亲卫队小猪落地引发爆炸后，将会发动一次<color=#FFFFFF>[亲卫队小猪：回旋挥击！]</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1151.png"
+  },
+  "1000959": {
+    "name": "[契合]拳法：综合果味",
+    "desc": "莱特已唤醒意象影画：<color=#FFAF2C>[常胜冠军]</color>。\n[常胜冠军]：在<color=#FFFFFF>[核心被动：助燃剂]</color>所施加的减益效果中，<color=#FFFFFF>[溃败]</color>效果将使失衡持续时间提升5秒，<color=#98EFF0>冰属性伤害抗性</color>和<color=#FF5521>火属性伤害抗性</color>将额外降低10%；在轻拳起攻或刺拳连击期间耗尽<color=#FFFFFF>[士气]</color>，自动衔接发动强力终结一击时，强力终结一击造成的伤害提升30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1000960": {
+    "name": "[契合]希望的力量",
+    "desc": "派派已唤醒意象影画：<color=#FFAF2C>[轻度兴奋]</color>。\n[轻度兴奋]：<color=#FFFFFF>[强化特殊技：引擎转]</color>的持续时间上限提升2秒，<color=#FFFFFF>[动力]</color>的持续时间提升4秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1281.png"
+  },
+  "1000961": {
+    "name": "[契合]如鱼得水",
+    "desc": "青衣已唤醒意象影画：<color=#FFAF2C>[介电击穿]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[介电击穿]：青衣进入战场时，立即使<color=#FFFFFF>[闪络电压]</color>回复至上限，并使其后继累积效率提升30%；发动<color=#FFFFFF>[普通攻击：醉花月云转]</color>时，若<color=#FFFFFF>[闪络电压]</color>已累积至上限，则使本次招式命中的敌人防御力降低15%，且自身对该目标的暴击率提升20%，持续15秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1251.png"
+  },
+  "1000962": {
+    "name": "[契合]「共犯」的默契",
+    "desc": "简已唤醒意象影画：<color=#FFAF2C>[犯罪顾问]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[犯罪顾问]：<color=#FFFFFF>[普通攻击：萨霍夫跳]</color>的可使用次数上限增加一次；在<color=#FFFFFF>[狂热]</color>状态下，简的<color=#F0D12B>物理异常积蓄效率</color>额外提升15%，同时每点异常精通将会使自身造成的伤害提升0.1%，最多提升30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1261.png"
+  },
+  "1000963": {
+    "name": "[契合]荣耀同路",
+    "desc": "赛斯已唤醒意象影画：<color=#FFAF2C>[理想主义]</color>。\n[理想主义]：赛斯在<color=#FFFFFF>[普通攻击：雷霆击-感电]</color>中发动终结一击命中敌人时，额外造成自身500%攻击力的伤害，本次攻击必定触发暴击，且暴击伤害提升60%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1271.png"
+  },
+  "1000964": {
+    "name": "[契合]霸主同行",
+    "desc": "凯撒已唤醒意象影画：<color=#FFAF2C>[楔式进军]</color>。\n[楔式进军]：成为接战状态下的当前操作角色时，凯撒立即为全队提供<color=#FFFFFF>[荣光之盾]</color>，300秒内最多触发一次；<color=#FFFFFF>[荣光之盾]</color>存在期间，持有者附近5米范围内敌人的全属性伤害抗性降低15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1000965": {
+    "name": "[契合]燃油饮欢宴",
+    "desc": "柏妮思已唤醒意象影画：<color=#FFAF2C>[加量不加价]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[加量不加价]：触发<color=#FFFFFF>[余烬]</color>效果时，将对敌人施加<color=#FFFFFF>[热意洞穿]</color>，最多叠加5层，持续6秒，重复触发时刷新持续时间；受到我方攻击时，目标每拥有一层<color=#FFFFFF>[热意洞穿]</color>，本次攻击的穿透率提升4%，最多提升20%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1171.png"
+  },
+  "1000966": {
+    "name": "[契合]十七项检查",
+    "desc": "月城柳已唤醒意象影画：<color=#FFAF2C>[卓越适应性]</color>。\n[卓越适应性]：<color=#FFFFFF>[强化特殊技]</color>中，快速突刺累积的<color=#2EB6FF>电属性异常积蓄值</color>提升20%；快速突刺命中敌人时，保持长按「特殊攻击」按键，可以额外消耗10点能量，再次发动突刺攻击，能量不足或停止长按后将自动衔接下落攻击；下落攻击命中处于属性异常状态下的敌人并触发<color=#FFFFFF>[极性紊乱]</color>效果时，对目标造成的伤害倍率提升至原本<color=#FFFFFF>[紊乱]</color>效果的20%，每额外发动一次突刺攻击，该伤害倍率额外提升15%，伤害倍率额外提升效果最多触发2次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1000967": {
+    "name": "[契合]俳句剑法",
+    "desc": "星见雅已唤醒意象影画：<color=#FFAF2C>[吐纳法]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[吐纳法]：<color=#FFFFFF>[普通攻击：风花]</color>和<color=#FFFFFF>[闪避反击]</color>造成的伤害提升30%；第五段<color=#FFFFFF>[普通攻击：风花]</color>最后一击命中敌人时，星见雅获得1点<color=#FFFFFF>[落霜]</color>；进入战场时，星见雅立刻获得6点<color=#FFFFFF>[落霜]</color>，自身暴击率提升15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1091.png"
+  },
+  "1000968": {
+    "name": "[契合]高效时刻",
+    "desc": "浅羽悠真已唤醒意象影画：<color=#FFAF2C>[「意气风发」]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[「意气风发」]：<color=#FFFFFF>[普通攻击：甲乙矢]</color>中，<color=#FFFFFF>[电囚]</color>效果的叠加层数上限提升至14层；<color=#FFFFFF>[电壶]</color>被激活时，将会向目标连续发射2支<color=#FFFFFF>[甲乙矢]</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1201.png"
+  },
+  "1000969": {
+    "name": "[契合]返场时刻",
+    "desc": "耀嘉音已唤醒意象影画：<color=#FFAF2C>[贪心艺术]</color>。\n[贪心艺术]：<color=#FFFFFF>[核心被动：《如歌的行板》]</color>中的攻击力提升效果额外提升19%，上限额外提升400点；<color=#FFFFFF>[咏叹华彩]</color>状态下，队伍中其他角色通过<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[连携技]</color>、<color=#FFFFFF>[招架支援]</color>或<color=#FFFFFF>[回避支援]</color>入场时，耀嘉音将额外追加释放1道<color=#FFFFFF>[震音]</color>和3枚<color=#FFFFFF>[音簇]</color>进行攻击，3秒内最多触发一次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1311.png"
+  },
+  "1000970": {
+    "name": "[契合]往日手感",
+    "desc": "伊芙琳已唤醒意象影画：<color=#FFAF2C>[赴火之舞]</color>，在发动[冲刺攻击]或[闪避反击]之后，可以<color=#2BAD00>直接衔接</color>[普通攻击]中顺位更加靠后的连段。\n[赴火之舞]：伊芙琳的攻击力提升15%；伊芙琳发动<color=#FFFFFF>[普通攻击：绞勒式·I型]</color>或<color=#FFFFFF>[普通攻击：绞勒式·II型]</color>时，将返还所消耗的<color=#FFFFFF>[燎火]</color>，25秒内最多触发一次；伊芙琳消耗<color=#FFFFFF>[燎索点]</color>发动<color=#FFFFFF>[连携技：月辉丝·绊]</color>时，招式的打断等级提升。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1321.png"
+  },
+  "1000971": {
+    "name": "[契合]银心的鸣破",
+    "desc": "零号·安比已唤醒意象影画：<color=#FFAF2C>[静滞电荷]</color>。\n[静滞电荷]：零号·安比发动<color=#FFFFFF>[强化特殊技]</color>命中敌人时，将会连续触发3次<color=#FFFFFF>[白雷]</color>的额外伤害，该效果不会消耗<color=#FFFFFF>[白雷]</color>层数。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1381.png"
+  },
+  "1000972": {
+    "name": "[契合]与你的旋律",
+    "desc": "「扳机」已唤醒意象影画：<color=#FFAF2C>[精准感知]</color>。\n[精准感知]：通过<color=#FFFFFF>[核心被动：破隙幽瞳]</color>施加的失衡易伤倍率额外提升20%；发动<color=#FFFFFF>[普通攻击：协奏狙杀]</color>时，触发的冷却时间降低至2秒；在<color=#FFFFFF>[狙击姿态]</color>下发动连续射击或蓄力反击命中敌人时，获得的<color=#FFFFFF>[绝意]</color>值提升25%，<color=#FFFFFF>[绝意]</color>值上限提升至125点。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1361.png"
+  },
+  "1000973": {
+    "name": "[契合]干票大的",
+    "desc": "波可娜已唤醒意象影画：<color=#FFAF2C>[面具之下]</color>。\n[面具之下]：<color=#FFFFFF>[特殊技：噬爪·噩梦袭影]</color>造成的伤害提升15%，重复攻击的可触发次数额外提升2次；<color=#FFFFFF>[额外能力：业务搭档]</color>中<color=#FFFFFF>[困迹]</color>的效果对<color=#FFFFFF>[追加攻击]</color>以外的伤害类型也会生效。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1351.png"
+  },
+  "1000974": {
+    "name": "[契合]少女的阳伞",
+    "desc": "薇薇安已唤醒意象影画：<color=#FFAF2C>[《在春天走进果园》]</color>。\n[《在春天走进果园》]：累计消耗4点<color=#FFFFFF>[护羽]</color>时回复1点<color=#FFFFFF>[飞羽]</color>；处于<color=#FFFFFF>[薇薇安的预言]</color>下的目标受到的所有属性异常伤害和<color=#FFFFFF>[紊乱]</color>伤害提升16%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1331.png"
+  },
+  "1000975": {
+    "name": "[契合]怪盗的魔法",
+    "desc": "雨果已唤醒意象影画：<color=#FFAF2C>[内在小孩]</color>。\n[内在小孩]：<color=#FFFFFF>[终结技：渎神者]</color>触发<color=#FFFFFF>[决算]</color>效果时不会使敌人的失衡状态结束；此外，触发<color=#FFFFFF>[决算]</color>效果时招式将会无视其15%防御力。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1291.png"
+  },
+  "1000976": {
+    "name": "[契合]守华照寂",
+    "desc": "仪玄已唤醒意象影画：<color=#FFAF2C>[清灵道心]</color>。\n[清灵道心]：进入战场时，暴击率提升10%，立即获得120点<color=#FFFFFF>[术法值]</color>，在勘域模式中此效果180秒内最多触发一次；队伍中任意角色命中敌人时，仪玄会自动追加一道落雷，造成等同于仪玄50%贯穿力的伤害并额外回复5点闪能，6秒内最多追加一次落雷。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1371.png"
+  },
+  "1000977": {
+    "name": "[契合]「好大威风」",
+    "desc": "橘福福已唤醒意象影画：<color=#FFAF2C>[超级可怕小老虎]</color>。\n[超级可怕小老虎]：进入战场时，橘福福的暴击率提升12%，立即获得100点<color=#FFFFFF>[威风]</color>；橘福福的<color=#FFFFFF>[连携技]</color>命中敌人时，目标处于失衡状态下时，失衡易伤倍率提升35%，持续30秒。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1391.png"
+  },
+  "1000978": {
+    "name": "[契合]煲汤为盟",
+    "desc": "潘引壶已唤醒意象影画：<color=#FFAF2C>[气穴论]</color>。\n[气穴论]：<color=#FFFFFF>[核心被动：脉中乾坤]</color>提供的<color=#FFFFFF>[通窍]</color>将额外获得潘引壶初始攻击力6%的提升，该效果提供的贯穿力最多提升至720点。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1421.png"
+  },
+  "1000979": {
+    "name": "[契合]最佳对称拍档",
+    "desc": "爱丽丝已唤醒意象影画：<color=#FFAF2C>[剑尖的鼠尾草]</color>。\n[剑尖的鼠尾草]：<color=#FFFFFF>[终结技：星芒终章]</color>的终结一击命中敌人时，触发<color=#F0D12B>[极性强击]</color>；全队角色造成的<color=#F0D12B>[强击]</color>伤害提升15%；<color=#F0D12B>物理异常状态</color>下的敌人被结算的<color=#FFFFFF>[紊乱]</color>伤害提升15%；进入战场时，爱丽丝立刻获得1000点喧响值，在勘域模式中此效果180秒内最多触发一次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1401.png"
+  },
+  "1000980": {
+    "name": "[契合]福来梅饼",
+    "desc": "柚叶已唤醒意象影画：<color=#FFAF2C>[趣友云集]</color>。\n[趣友云集]：柚叶的<color=#FFFFFF>[强化特殊技：小心蛀牙]</color>、<color=#FFFFFF>[强化特殊技：小心蛀牙，就是现在！]</color>和<color=#FFFFFF>[终结技：不投降就捣乱]</color>攻击命中敌人时，会使全队角色造成的伤害提升15%，属性异常积蓄效率提升15%，持续40秒，重复触发时刷新持续时间，重击命中不处于失衡状态的敌人时，会强制触发<color=#FFFFFF>[连携技]</color>，通过该种方式发动的<color=#FFFFFF>[连携技]</color>，打断等级降低，强制触发<color=#FFFFFF>[连携技]</color>的效果每20秒最多触发一次；其他角色通过<color=#FFFFFF>[连携技]</color>入场时，柚叶会获得1点<color=#FFFFFF>[甜度点]</color>；柚叶触发<color=#FFFFFF>[普通攻击：硬糖射击]</color>的冷却时间减少25%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1411.png"
+  },
+  "1000981": {
+    "name": "[契合]三个火枪手",
+    "desc": "奥菲丝& 「鬼火」已唤醒意象影画：<color=#FFAF2C>[豪华猫屋]</color>。\n[豪华猫屋]：奥菲丝&「鬼火」发动[特殊技：蚀光一闪]、[强化特殊技：灼红旋涡]、[强化特殊技：蓄热充能]、[强化特殊技：燥焰迸射]造成的伤害无视15%<color=#FF5521>火属性伤害抗性</color>，且拥有[准星聚焦]的代理人攻击造成的伤害提升20%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1301.png"
+  },
+  "1000982": {
+    "name": "[契合]废墟上的花",
+    "desc": "「席德」已唤醒意象影画：<color=#FFAF2C>[「冻眠期」]</color>。\n[「冻眠期」]：「席德」<color=#FFFFFF>[钢能]</color>达到100点时，即可发动<color=#FFFFFF>[普通攻击：落华·崩坠]</color>且总计消耗的<color=#FFFFFF>[钢能]</color>降低至100点；获得一次快速释放<color=#FFFFFF>[普通攻击：落华·重戮]</color>机会所需的<color=#FFFFFF>[钢能]</color>降低至100点；进入战场/发动<color=#FFFFFF>[终结技]</color>时，额外累积40/20点<color=#FFFFFF>[钢能]</color>；<color=#FFFFFF>[普通攻击：落华·崩坠]</color>造成的暴击伤害提升30%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1461.png"
+  },
+  "1000983": {
+    "name": "[契合]倾听潮汐",
+    "desc": "伊德海莉已唤醒意象影画：<color=#FFAF2C>[过往沉溺于渊下]</color>。\n[过往沉溺于渊下]：伊德海莉发动<color=#FFFFFF>[强化特殊技]</color>所需消耗的闪能减少10点；发动<color=#FFFFFF>[强化特殊技：缠霜]</color>或<color=#FFFFFF>[强化特殊技：极寒重碾]</color>后，保持长按「普通攻击」或「特殊攻击」按键，可以消耗35闪能，放弃回复生命值并立即衔接1次<color=#FFFFFF>[强化特殊技：极寒重碾]</color>，并使本次<color=#FFFFFF>[强化特殊技：极寒重碾]</color>回复的生命值额外提升100%；伊德海莉的<color=#FFFFFF>[普通攻击]</color>、<color=#FFFFFF>[强化特殊技]</color>无视目标20%<color=#98EFF0>冰属性伤害抗性</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1051.png"
+  },
+  "1000984": {
+    "name": "[契合]月夜大冒险",
+    "desc": "卢西娅已唤醒意象影画：<color=#FFAF2C>[秘密朋友]</color>。\n[秘密朋友]：<color=#FFFFFF>[巡梦童谣]</color>状态额外附加造成伤害时无视敌人18%全属性伤害抗性和喧响值获取效率提升5%效果；且卢西娅发动招式升级时获得1层<color=#FFFFFF>[回音]</color>，最多叠加4层，当<color=#FFFFFF>[巡梦童谣]</color>状态结束时，若卢西娅持有<color=#FFFFFF>[回音]</color>，则会自动消耗1层并重新为全队角色施加<color=#FFFFFF>[巡梦童谣]</color>状态。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1451.png"
+  },
+  "1000985": {
+    "name": "[契合]百炼重刃",
+    "desc": "狛野真斗已唤醒意象影画：<color=#FFAF2C>[越过昔年梦]</color>。\n[越过昔年梦]：<color=#FFFFFF>[特殊技：归烬]</color>命中处于失衡状态下的敌人时，真斗回复75点[炽心]，获得4层[残焰]，点按 <IconMap:Icon_Normal> 可以发动<color=#FFFFFF>[支援突击]</color>，获得[残焰]的效果在20秒内最多触发一次；<color=#FFFFFF>[支援突击]</color>命中敌人时，造成的<color=#FF5521>火属性伤害</color>提升3%，持续8秒，最多叠加5层，重复触发刷新持续时间。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1441.png"
+  },
+  "1000986": {
+    "name": "[契合]亡者拨盘",
+    "desc": "琉音已唤醒意象影画：<color=#FFAF2C>[7×24热线畅通]</color>。\n[7×24热线畅通]：<color=#FFFFFF>[恶意投诉]</color>效果下敌人进入失衡状态后的失衡易伤倍率额外提升20%，所有单位对<color=#FFFFFF>[恶意投诉]</color>效果下的敌人造成的伤害提升15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1481.png"
+  },
+  "1000987": {
+    "name": "[契合]未凌绝顶",
+    "desc": "般岳已唤醒意象影画：<color=#FFAF2C>[贪欲如火]</color>。\n[贪欲如火]：<color=#FFFFFF>[强化特殊技：论道]</color>和<color=#FFFFFF>[强化特殊技：地动]</color>命中敌人时，会使敌人陷入<color=#FFFFFF>[战栗]</color>状态，处于该状态的敌人<color=#FF5521>火属性伤害抗性</color>降低10%，持续30秒；<color=#FFFFFF>[强化特殊技：狮子吼]</color>、<color=#FFFFFF>[强化特殊技：狮子吼·怒]</color>、<color=#FFFFFF>[强化特殊技：山摇]</color>、<color=#FFFFFF>[强化特殊技：山摇·怒]</color>、<color=#FFFFFF>[普通攻击：倾山]</color>和<color=#FFFFFF>[普通攻击：摧岳]</color>命中处于<color=#FFFFFF>[战栗]</color>状态的敌人时，造成的贯穿伤害提高10%；<color=#FFFFFF>[普通攻击：摧岳]</color>命中处于失衡状态的敌人时，会使其此次失衡的失衡持续时间提升2秒，敌人在一次失衡期间内只会受到一次该效果，且同类效果不可叠加。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1471.png"
+  },
+  "1000988": {
+    "name": "剑映孤心",
+    "desc": "叶瞬光已唤醒意象影画：<color=#FFAF2C>[光与影]</color>。\n[光与影]：<color=#FFFFFF>[载物]</color>可叠加层数提升至6层，<color=#FFFFFF>[观止]</color>可叠加至9层；<color=#FFFFFF>[明心境]</color>状态下，每消耗1点<color=#FFFFFF>[青溟剑势]</color>，则获得1层<color=#FFFFFF>[观止]</color>效果；<color=#FFFFFF>[强化特殊技：明心境·飞光]</color>和<color=#FFFFFF>[终结技：斩妄开天]</color>造成的伤害无视目标40%防御力。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1431.png"
+  },
+  "1000989": {
+    "name": "双倍幸运兔耳",
+    "desc": "照已唤醒意象影画：<color=#FFAF2C>[凛然裁决]</color>。\n[凛然裁决]：照被切换为非当前操作角色时，使全队角色造成的伤害无视目标15%全属性伤害抗性，持续50秒，重复触发时刷新持续时间。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1341.png"
+  },
+  "1000990": {
+    "name": "钢铁羽翼",
+    "desc": "爱芮已唤醒意象影画：<color=#FFAF2C>[元气声浪]</color>。\n[元气声浪]：爱芮的<color=#FFFFFF>[普通攻击]</color>、<color=#FFFFFF>[特殊技]</color>，<color=#FFFFFF>[强化特殊技]</color>对敌人造成伤害时，无视目标10%的<color=#FE437E>以太异常积蓄抗性</color>；且自身触发<color=#FFFFFF>[异放]</color>时有概率触发暴击：基础暴击率为25%，暴击伤害为25%；若初始异常掌控大于100点，每超过1点初始异常掌控会使该效果的暴击率额外提升0.5%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1501.png"
+  },
+  "1000991": {
+    "name": "野草莓乐园",
+    "desc": "千夏已唤醒意象影画：<color=#FFAF2C>[《猫的随波逐流》]</color>。\n[《猫的随波逐流》]：千夏处于任意<color=#FFFFFF>[以太帷幕]</color>内时，使全队角色攻击力提升10%，每10秒获得1个<color=#FFFFFF>[磨爪器]</color>；<color=#FFFFFF>[猫的凝视]</color>触发所需的攻击次数减少；触发造成的伤害倍率提升：\n<color=#FFFFFF>[强攻]</color>角色触发时，伤害倍率增加200%；\n<color=#FFFFFF>[异常]</color>角色触发时，伤害倍率增加300%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1491.png"
+  },
+  "1000992": {
+    "name": "翎羽无瑕",
+    "desc": "南宫羽已唤醒意象影画：<color=#FFAF2C>[慵懒的聚光灯]</color>。\n[慵懒的聚光灯]：<color=#FFFFFF>[强化特殊技：相当沉重的爱意]</color>或<color=#FFFFFF>[普通攻击：可爱地雷飞天撞]</color>命中敌人时，使敌人的全属性伤害抗性降低18%，持续40秒，重复触发时刷新持续时间；进入战场时，南宫羽的<color=#FFFFFF>[重拍]</color>回复至最大值，在勘域模式中此效果180秒内最多触发一次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1511.png"
+  },
+  "1000993": {
+    "name": "归家道标",
+    "desc": "希希芙已唤醒意象影画：<color=#FFAF2C>[饥肠与箴言]</color>。\n[饥肠与箴言]：<color=#FFFFFF>[连携技：团伙作案]</color>或<color=#FFFFFF>[终结技：爬行恐惧]</color>命中处于失衡状态下的敌人后，额外获得3点<color=#FFFFFF>[毒素]</color>；<color=#FFFFFF>[普通攻击：蛇吻]</color>造成的伤害提升35%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1521.png"
+  },
+  "1000994": {
+    "name": "镣铐之外",
+    "desc": "普罗米娅已唤醒意象影画：<color=#FFAF2C>[信念飘摇]</color>。\n[信念飘摇]：普罗米娅的异常精通提升40点；消耗<color=#FFFFFF>[霜刑]</color>造成的<color=#FFFFFF>[异放]</color>效果的倍率提升120%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1541.png"
+  },
+  "1000995": {
+    "name": "星光信标",
+    "desc": "星徽·比利已唤醒意象影画：<color=#FFAF2C>[荒原机兵]</color>。\n[荒原机兵]：<color=#FFFFFF>[普通攻击：最高马力星光]</color>、<color=#FFFFFF>[强化特殊技：孤轮特技]</color>和<color=#FFFFFF>[终结技：骑士飞踢]</color>造成的伤害提升50%；发动<color=#FFFFFF>[强化特殊技：摇曳步伐]</color>、<color=#FFFFFF>[强化特殊技：抓地轮毂]</color>时或发动<color=#FFFFFF>[特殊技：动力压制]</color>命中处于失衡状态下的敌人时，获得<color=#FFFFFF>[涡轮增压]</color>效果：<color=#FFFFFF>[特殊技：动力压制]</color>会消耗该效果直接衔接<color=#FFFFFF>[强化特殊技：孤轮特技]</color>，并使该次<color=#FFFFFF>[强化特殊技：孤轮特技]</color>造成的暴击伤害提升50%，<color=#FFFFFF>[涡轮增压]</color>效果至多叠加1层。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1531.png"
+  },
+  "1000996": {
+    "name": "如沐春风",
+    "desc": "维琳娜已唤醒意象影画：<color=#FFAF2C>[饱和式计划]</color>。\n[饱和式计划]：维琳娜触发<color=#A6C5FD>[风化]</color>时，也可以获取1点<color=#FFFFFF>[风蚀]</color>，该效果每5秒最多触发一次；<color=#FFFFFF>[广域气旋]</color>触发<color=#FFFFFF>[赋彩]</color>效果后，可以积蓄相应属性的异常积蓄值，且该攻击累积的属性异常积蓄值不参与异常伤害结算；<color=#FFFFFF>[额外能力：茶会礼仪]</color>中，维琳娜造成的<color=#A6C5FD>[风化]</color>和<color=#FFFFFF>[乱流]</color>伤害提升效果额外提升15%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1561.png"
+  },
+  "1000997": {
+    "name": "嗯呢桂冠",
+    "desc": "诺姆已唤醒意象影画：<color=#FFAF2C>[激进远视主义]</color>。\n[激进远视主义]：<color=#FFFFFF>[强化特殊技：火力实验]</color>中[嗯呢炮塔]展开导弹舱的持续时间增加至12秒；任意招式中的[破甲弹头]或[高爆弹头]命中敌人时，使敌人的全属性伤害抗性降低15%，持续15秒，重复触发时刷新持续时间。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1571.png"
+  },
+  "1000999": {
+    "name": "汉牛拔",
+    "desc": "蕾米埃尔已唤醒意象影画：<color=#FFAF2C>[倾落喧嚣]</color>。\n[倾落喧嚣]：蕾米埃尔的<color=#FFA9DD>[异化系数]</color>提升20%；队伍中<color=#FFFFFF>[异常]</color>角色对<color=#FFFFFF>[幻色]</color>效果下的敌人造成属性异常伤害时，无视目标15%的防御力，<color=#FFFFFF>[幻色]</color>效果消失后该效果会额外持续8秒；蕾米埃尔在<Term:1000035></Term>状态下自主发动攻击为敌人施加<color=#FFA9DD>[流明积蓄点]</color>的频率提升。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1581.png"
+  },
+  "1001000": {
+    "name": "传奇长阶",
+    "desc": "希格莉德已唤醒意象影画：<color=#FFAF2C>[很久很久以前]</color>。\n[很久很久以前]：发动<color=#FFFFFF>[普通攻击：敛枪式]</color>第三段时，获得<color=#FFFFFF>[巡空枪势]</color>和一次发动<color=#FFFFFF>[普通攻击：敛枪式]</color>的机会；<color=#FFFFFF>[普通攻击：敛枪式]</color>发动机会溢出时，下一次<color=#FFFFFF>[普通攻击：敛枪式]</color>的最后一击额外造成<color=#FFFFFF>100%</color>攻击力的<color=#98EFF0>冰属性伤害</color>；希格莉德自身攻击力提升<color=#FFFFFF>25%</color>。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1591.png"
+  },
+  "1002001": {
+    "name": "血焰蔷薇",
+    "desc": "克拉蕾已唤醒意象影画：<color=#FFAF2C>[淋漓古志]</color>。\n[淋漓古志]：克拉蕾攻击命中敌人并造成锐暴时，残痕积蓄效率提升20%；克拉蕾触发[毁伤]造成的伤害倍率提升至原本的130%。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png"
+  },
+  "1002002": {
+    "name": "失眠综合症",
+    "desc": "洛克茜已唤醒意象影画：<color=#FFAF2C>[下班神话]</color>。\n[下班神话]：<color=#ffffff>[强化特殊技：小心风寒]</color>造成的失衡值提升5%；每引爆1个<color=#ffffff>[风眼]</color>，获得一层<color=#ffffff>[流势]</color>效果，至多获得3层；在<color=#ffffff>[强化特殊技：小心风寒]</color>期间进入<color=#ffffff>[自旋]</color>状态下换人时，洛克茜将消耗所有<color=#ffffff>[流势]</color>，每消耗1层可以维持<color=#ffffff>[自旋]</color>状态0.2秒，期间不消耗能量，至多维持0.6秒；<color=#ffffff>[强化特殊技：小心风寒]</color>命中敌人时，使敌人失衡易伤倍率提升30%，持续到目标从失衡状态恢复。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png"
+  },
+  "1002301": {
+    "name": "[契合]强攻战术交流",
+    "desc": "[强攻]特性代理人的暴击伤害提升<color=#2BAD00>25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType01.png"
+  },
+  "1002302": {
+    "name": "[契合]击破战术交流",
+    "desc": "[击破]特性代理人造成的失衡值提升<color=#2BAD00>18%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType02.png"
+  },
+  "1002303": {
+    "name": "[契合]异常战术交流",
+    "desc": "[异常]特性代理人的异常掌控提升<color=#2BAD00>20</color>点。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType03.png"
+  },
+  "1002304": {
+    "name": "[契合]支援战术交流",
+    "desc": "[支援]特性代理人的能量自动回复提升<color=#2BAD00>10%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType04.png"
+  },
+  "1002305": {
+    "name": "[契合]防护战术交流",
+    "desc": "[防护]特性代理人受到的伤害降低<color=#2BAD00>15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType05.png"
+  },
+  "1002306": {
+    "name": "[契合]命破战术交流",
+    "desc": "[命破]特性代理人的贯穿伤害提升<color=#2BAD00>20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType06.png"
+  },
+  "1002307": {
+    "name": "[契合]锋御战术交流",
+    "desc": "[锋御]特性代理人的锐化伤害提升<color=#2BAD00>15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSharpDMG.png"
+  },
+  "1310101": {
+    "name": "[终结]余音古筝",
+    "desc": "发动<color=#FFFFFF>[终结技]</color>时，代理人有50%概率<color=#2BAD00>回复15%消耗的喧响值</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels03.png"
+  },
+  "1310102": {
+    "name": "[终结]蓄势架子鼓",
+    "desc": "<color=#FFFFFF>[普通攻击]</color>命中敌人时，代理人<color=#2BAD00>额外获得300点喧响值</color>，30秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels04.png"
+  },
+  "1310103": {
+    "name": "[终结]重播合成器",
+    "desc": "<color=#FFFFFF>[终结技]</color>命中敌人时，将对目标<color=#2BAD00>造成代理人2500%攻击力的伤害</color>，30秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels05.png"
+  },
+  "1310104": {
+    "name": "[终结]重击鼓槌",
+    "desc": "<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升20%</color>；发动<color=#FFFFFF>[终结技]</color>时，代理人的<color=#2BAD00>暴击率提升10%</color>，持续15秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels06.png"
+  },
+  "1310105": {
+    "name": "[终结]绵延长笛",
+    "desc": "<color=#FFFFFF>[终结技]</color>命中敌人时，将对目标<color=#2BAD00>造成20%攻击力每秒</color>的<color=#2BAD00>持续伤害</color>，持续10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels07.png"
+  },
+  "1310106": {
+    "name": "[终结]疗愈竖琴",
+    "desc": "发动<color=#FFFFFF>[终结技]</color>时，代理人若拥有护盾，则<color=#2BAD00>回复5%生命值</color>，若未拥有护盾，则<color=#2BAD00>获得15%生命值上限的护盾</color>，持续7秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels08.png"
+  },
+  "1310201": {
+    "name": "[机敏]先进底盘",
+    "desc": "代理人<color=#2BAD00>获得一次额外的闪避次数</color>；发动<color=#FFFFFF>[闪避反击]</color>时，代理人的<color=#2BAD00>攻击力提升300点</color>，持续5秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone01.png"
+  },
+  "1310202": {
+    "name": "[机敏]安全气囊",
+    "desc": "<color=#FFFFFF>[闪避反击]</color><color=#2BAD00>造成的伤害提升20%，造成的失衡值提升20%</color>；发动<color=#FFFFFF>[闪避反击]</color>时，代理人将<color=#2BAD00>获得10%生命值上限的护盾</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone02.png"
+  },
+  "1310203": {
+    "name": "[机敏]机敏档位",
+    "desc": "触发<color=#FFFFFF>[极限闪避]</color>时，代理人的<color=#2BAD00>属性异常积蓄效率提升10%</color>，<color=#2BAD00>冲击力提升5%</color>，持续10秒，最多叠加3层，每层效果单独结算持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone03.png"
+  },
+  "1310204": {
+    "name": "[机敏]智能缓冲器",
+    "desc": "<color=#FFFFFF>[强化特殊技]</color>命中敌人时，代理人将<color=#2BAD00>获得5%生命值上限的护盾</color>，持续10秒，护盾存在期间代理人<color=#2BAD00>造成的伤害提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone04.png"
+  },
+  "1310205": {
+    "name": "[机敏]防护安全带",
+    "desc": "代理人<color=#2BAD00>受到的伤害降低10%</color>；拥有护盾时，代理人的<color=#2BAD00>能量自动回复提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone05.png"
+  },
+  "1310206": {
+    "name": "[机敏]高效保险杠",
+    "desc": "发动<color=#FFFFFF>[极限支援]</color>时，代理人的<color=#2BAD00>暴击率提升10%</color>，<color=#2BAD00>暴击伤害提升15%</color>，持续15秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone06.png"
+  },
+  "1310301": {
+    "name": "[异常·击破]万能催化物",
+    "desc": "造成失衡或对敌人施加属性异常效果时，全队<color=#2BAD00>暴击率提升8%</color>，<color=#2BAD00>异常精通提升15点</color>，最多叠加2层，持续20秒，每层效果单独结算持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly01.png"
+  },
+  "1310302": {
+    "name": "[异常·击破]爆裂试管",
+    "desc": "<color=#FFFFFF>[连携技]</color>命中敌人时，目标的<color=#2BAD00>失衡易伤倍率提升25%</color>，<color=#2BAD00>属性异常效果对目标造成的伤害提升25%</color>，持续10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly02.png"
+  },
+  "1310303": {
+    "name": "[异常·击破]成长培养基",
+    "desc": "攻击命中敌人时，代理人<color=#2BAD00>造成的失衡值提升15%</color>，<color=#2BAD00>累积的属性异常积蓄值提升15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly03.png"
+  },
+  "1310304": {
+    "name": "[异常·击破]研究显微镜",
+    "desc": "全队<color=#2BAD00>冲击力提升10%</color>，<color=#2BAD00>异常精通提升10点</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly04.png"
+  },
+  "1310305": {
+    "name": "[异常·击破]混沌量杯",
+    "desc": "造成失衡或对敌人施加[紊乱]效果时，代理人将<color=#2BAD00>回复2.5%生命值</color>，<color=#2BAD00>10点能量值</color>并<color=#2BAD00>额外获得100点喧响值</color>，20秒内最多触发一次。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly06.png"
+  },
+  "1310306": {
+    "name": "[异常·击破]化合刺激剂",
+    "desc": "<color=#FFFFFF>[连携技]</color><color=#2BAD00>造成的伤害提升15%</color>，属性异常效果<color=#2BAD00>造成的伤害提升15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly05.png"
+  },
+  "1310401": {
+    "name": "[绝境]强效透析仪",
+    "desc": "发动<color=#FFFFFF>[终结技]</color>时，代理人将<color=#2BAD00>回复10点能量值</color>并<color=#CF4029>消耗20%当前生命值</color>，每消耗100点生命值，代理人<color=#2BAD00>造成的伤害提升1%</color>，持续10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity01.png"
+  },
+  "1310402": {
+    "name": "[绝境]生命起搏器",
+    "desc": "代理人的<color=#2BAD00>生命值上限提升25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity02.png"
+  },
+  "1310403": {
+    "name": "[绝境]应急挡板",
+    "desc": "损失生命值时，代理人<color=#2BAD00>造成的伤害提升20%</color>，<color=#2BAD00>暴击率提升10%</color>，<color=#2BAD00>抗打断等级提升</color>，持续10秒，20秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity03.png"
+  },
+  "1310404": {
+    "name": "[绝境]双面注射器",
+    "desc": "<color=#FFFFFF>[特殊技]</color>和<color=#FFFFFF>[强化特殊技]</color><color=#2BAD00>造成的伤害提升15%</color>，招式命中敌人时，代理人将<color=#2BAD00>回复5%生命值</color>，20秒内最多触发一次。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity04.png"
+  },
+  "1310405": {
+    "name": "[绝境]靶向抗体",
+    "desc": "攻击生命值百分比高于自身的敌人时，代理人<color=#2BAD00>造成的伤害提升10%</color>，<color=#2BAD00>累积的属性异常积蓄值提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity06.png"
+  },
+  "1310406": {
+    "name": "[绝境]阵痛激素",
+    "desc": "损失生命值时，代理人的<color=#2BAD00>攻击力提升10%</color>，持续10秒；回复生命值时，代理人的<color=#2BAD00>属性异常积蓄效率提升10%</color>，持续10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity05.png"
+  },
+  "1310901": {
+    "name": "[通用]瓶中幸运星",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>时，代理人<color=#2BAD00>造成的伤害提升5%</color>，最多叠加5层，持续30秒，每层效果单独结算持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1310902": {
+    "name": "[通用]能量恢复器Ⅰ型",
+    "desc": "发动<color=#FFFFFF>[连携技]</color>时，代理人将<color=#2BAD00>回复5点能量</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard53.png"
+  },
+  "1310903": {
+    "name": "[通用]能量恢复器Ⅱ型",
+    "desc": "<color=#FFFFFF>[强化特殊技]</color><color=#2BAD00>造成的伤害提升15%</color>，<color=#2BAD00>失衡值提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard54.png"
+  },
+  "1310904": {
+    "name": "[通用]喷水枪",
+    "desc": "触发暴击时，代理人的<color=#2BAD00>暴击伤害提升3%</color>，最多叠加10层，持续10秒，重复触发时刷新持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard06.png"
+  },
+  "1310905": {
+    "name": "[通用]泡泡枪",
+    "desc": "触发暴击时，代理人<color=#2BAD00>造成的失衡值提升15%</color>，持续3秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1310906": {
+    "name": "[通用]点赞枪",
+    "desc": "攻击命中敌人时，如果没有触发暴击，代理人的<color=#2BAD00>暴击率提升6%</color>，触发暴击后增益效果重置。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1310907": {
+    "name": "[通用]星海陨灭铠甲",
+    "desc": "<color=#FFFFFF>[强化特殊技]</color>命中敌人时，代理人将<color=#2BAD00>获得10%生命值上限的护盾</color>，10秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1310908": {
+    "name": "[通用]究极光耀圣剑",
+    "desc": "拥有护盾时，代理人对6米内的敌人<color=#2BAD00>造成的伤害提升30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1310909": {
+    "name": "[通用]BUG盾",
+    "desc": "受到敌方攻击时，如果生命值低于25%，将<color=#2BAD00>立刻获得15%生命值上限的护盾</color>，持续10秒（每名代理人每场战斗中最多触发1次）。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1310910": {
+    "name": "[通用]三相战斗陀螺",
+    "desc": "发动<color=#FFFFFF>[连携技]</color>时，将<color=#2BAD00>获得10%喧响值</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1310911": {
+    "name": "[通用]三枚玻璃弹珠",
+    "desc": "使敌人进入失衡状态后，其<color=#2BAD00>失衡持续时间提升15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1310912": {
+    "name": "[通用]三头玩具听诊器",
+    "desc": "<color=#FFFFFF>[强化特殊技]</color><color=#2BAD00>造成的失衡值提升15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1310913": {
+    "name": "[通用]拆弹器",
+    "desc": "<color=#FFFFFF>[回避支援]</color>触发的<color=#FFFFFF>[极限视域]</color><color=#2BAD00>持续时间提升至5秒</color>，<color=#FFFFFF>[招架支援]</color><color=#2BAD00>造成的失衡值提升30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1310914": {
+    "name": "[通用]破拆锤",
+    "desc": "发动<color=#FFFFFF>[极限支援]</color>时，全队<color=#2BAD00>属性异常积蓄效率提升25%</color>，持续10秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1310915": {
+    "name": "[通用]冲击钻",
+    "desc": "发动<color=#FFFFFF>[极限支援]</color>时，全队<color=#2BAD00>暴击伤害提升20%</color>，持续10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard34.png"
+  },
+  "1310916": {
+    "name": "[通用]无名之书",
+    "desc": "<color=#FFFFFF>[闪避反击]</color><color=#2BAD00>造成的伤害提升30%</color>，且<color=#2BAD00>造成的失衡值提升15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard50.png"
+  },
+  "1310917": {
+    "name": "[通用]秘密档案",
+    "desc": "受到攻击后短时间内点按「闪避」，可以<color=#2BAD00>立即挣脱</color>并<color=#2BAD00>回复本次承受伤害50%的生命值</color>，<color=#2BAD00>4</color>秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard55.png"
+  },
+  "1310918": {
+    "name": "[通用]普通档案",
+    "desc": "<color=#FFFFFF>[闪避]</color>时<color=#2BAD00>更容易</color>触发<color=#FFFFFF>[极限闪避]</color>，<color=#FFFFFF>[闪避反击]</color><color=#2BAD00>造成的伤害提升15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard56.png"
+  },
+  "1310919": {
+    "name": "[通用]名刀图册",
+    "desc": "代理人<color=#2BAD00>造成的伤害提升25%</color>，<color=#CF4029>受到的伤害提升15%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1310920": {
+    "name": "[通用]昆虫图册",
+    "desc": "目标生命值低于50%时，代理人<color=#2BAD00>造成的伤害提升15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1310921": {
+    "name": "[通用]植物图册",
+    "desc": "当代理人位于后场且生命值低于25%时，将会<color=#2BAD00>缓慢回复生命值</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1310932": {
+    "name": "射吸式焊炬",
+    "desc": "神奇的道具，能够使藏品内对应的通用武备获得最大等级。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard61.png"
+  },
+  "1340074": {
+    "name": "黄铜镇纸",
+    "desc": "代理人对<color=#FFAF2C>[秽盾]</color>的削减效率提升15%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard62.png"
+  },
+  "1340075": {
+    "name": "织锦香囊",
+    "desc": "代理人受到怪物的[秽染]攻击而积蓄<color=#FFAF2C>[秽息浸染]</color>值时，积蓄值降低20%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard63.png"
+  },
+  "1340076": {
+    "name": "洒金墨锭",
+    "desc": "代理人处于<color=#FFAF2C>[秽浊流界]</color>内时，造成的伤害提高30%。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard64.png"
+  },
+  "1311001": {
+    "name": "[携游]节能载具",
+    "desc": "其他角色发动<color=#FFFFFF>[追击支援]</color>时，为当前操作中的角色<color=#2BAD00>回复5点能量、200点喧响值</color>，对同一角色10秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch01.png"
+  },
+  "1311002": {
+    "name": "[携游]威猛拳拳",
+    "desc": "<color=#FFFFFF>[追击支援]</color>将击溃生命值低于15%的普通敌人和精英敌人，触发后，全队<color=#2BAD00>攻击力提升10%</color>，持续30秒。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch04.png"
+  },
+  "1311003": {
+    "name": "[携游]旋转木马",
+    "desc": "<color=#FFFFFF>[追加攻击]</color>造成的<color=#2BAD00>伤害提升20%、失衡值提升15%、累积的属性异常积蓄值提升30%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch03.png"
+  },
+  "1311004": {
+    "name": "[携游]充气泳圈",
+    "desc": "<color=#FFFFFF>[追击支援]</color>命中敌人时，为当前操作中的角色<color=#2BAD00>回复5%生命值</color>，对同一角色15秒内最多触发一次。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch02.png"
+  },
+  "1311005": {
+    "name": "[携游]儿童餐盒",
+    "desc": "当前操作中的角色<color=#2BAD00>能量获得效率提升10%，喧响值获取效率提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch05.png"
+  },
+  "1311006": {
+    "name": "[携游]飓风飞椅",
+    "desc": "<color=#FFFFFF>[追击支援]</color>命中敌人时，目标的<color=#2BAD00>防御力降低10%</color>，持续10秒。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch06.png"
+  },
+  "1319901": {
+    "name": "[杰佩托]稳定牵制",
+    "desc": "每拥有100枚齿轮硬币，对杰佩托造成伤害时，获得增益效果，造成的伤害提升<color=#2BAD00>1%</color>，能量获得效率提升<color=#2BAD00>0.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto01.png"
+  },
+  "1319902": {
+    "name": "[杰佩托]以血还血",
+    "desc": "对杰佩托造成部位破坏时，全队回复<color=#2BAD00>15%</color>生命值。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto02.png"
+  },
+  "1319903": {
+    "name": "[杰佩托]近身突刺",
+    "desc": "对杰佩托造成的伤害提升<color=#2BAD00>20%</color>，受到来自杰佩托的伤害降低<color=#2BAD00>20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto03.png"
+  },
+  "1319904": {
+    "name": "[杰佩托]审判时刻",
+    "desc": "对杰佩托造成部位破坏时，其防御力降低<color=#2BAD00>15%</color>，最多叠加2次。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto04.png"
+  },
+  "1319905": {
+    "name": "[杰佩托]处决指令",
+    "desc": "解除[悬丝]时，全队获得<color=#2BAD00>300</color>点喧响值，并使每名角色下一次<color=#FFFFFF>[终结技]</color>造成的伤害提升<color=#2BAD00>30%</color>，最多叠加3层。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto05.png"
+  },
+  "1001057": {
+    "name": "[空洞]破拆斧",
+    "desc": "<color=#FFAF2C>可以撞碎墙！</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1001058": {
+    "name": "[空洞]珂蕾妲的破拆锤",
+    "desc": "<color=#FFAF2C>尖刺不再扣血</color>，而是<color=#2BAD00> +3 </color>生命。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1001059": {
+    "name": "[空洞]格莉丝的拆弹器",
+    "desc": "<color=#2BAD00>+25% </color>战斗获得的经验",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard46.png"
+  },
+  "1001060": {
+    "name": "[空洞]本的大力",
+    "desc": "开启<color=#2BAD00>宝箱</color>掉落更多东西。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001061": {
+    "name": "[空洞]会员卡",
+    "desc": "购买商品时，返还<color=#2BAD00> 50% </color>消耗的金币",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001062": {
+    "name": "[空洞]生命药剂",
+    "desc": "拾取金币时，50% 生成一个<color=#2BAD00>生命恢复格</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001063": {
+    "name": "[空洞]连击剑",
+    "desc": "拾取金币时，50% 生成一个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001064": {
+    "name": "[空洞]标准战力药剂",
+    "desc": "拾取金币时，50% 生成一个<color=#2BAD00>经验格</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001065": {
+    "name": "[空洞]战斗手套模块",
+    "desc": "拾取金币时，25% 生成一个<color=#CF4029>怪物</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001066": {
+    "name": "[空洞]临别千纸鹤",
+    "desc": "放置炸弹时，在上方和下方各额外放置 1 个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001067": {
+    "name": "[空洞]邦布替身",
+    "desc": "击杀怪物时，50% 生成一个<color=#2BAD00>金币格</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001068": {
+    "name": "[空洞]终局的愿望星",
+    "desc": "<color=#CF4029>生命恢复格不再恢复生命</color>，而是令全队<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001069": {
+    "name": "[空洞]连击剑",
+    "desc": "击杀怪物时临时<color=#2BAD00> +1 </color>攻击力，每层结束时清空",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001070": {
+    "name": "[空洞]强化生命药剂",
+    "desc": "每移动 5 次，产生 1 个<color=#FFAF2C>引爆的炸弹</color>，并<color=#CF4029> -3 </color>生命",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001071": {
+    "name": "[空洞]强力挂钩",
+    "desc": "<color=#2BAD00>+1 </color>炸弹爆炸长度",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001072": {
+    "name": "[空洞]空洞机器人",
+    "desc": "撞碎<color=#2BAD00>以太结晶</color>时产生好东西的概率大幅提高",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001073": {
+    "name": "[空洞]惊喜炸弹盒",
+    "desc": "每层开始时，在整层生成<color=#CF4029> 15 个尖刺</color>和<color=#2BAD00> 2 个鸣徽格</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001074": {
+    "name": "[空洞]安检探测仪",
+    "desc": "踩到尖刺时<color=#2BAD00>不扣除生命</color>，但产生 1 个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001075": {
+    "name": "[空洞]无名之书",
+    "desc": "炸弹爆炸时产生随机掉落物。（每层产出总量有上限）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001076": {
+    "name": "[空洞]蓝盾",
+    "desc": "每拾取 10 次金币<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001077": {
+    "name": "[通用]勇者披风",
+    "desc": "全队<color=#2BAD00> +5 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001078": {
+    "name": "[通用]猫毛针梳",
+    "desc": "主角立刻<color=#2BAD00> +15 </color>攻击力，每次攻击<color=#CF4029> -1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001079": {
+    "name": "[通用]大袋食盐",
+    "desc": "击杀怪物时立刻产生 1 个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001080": {
+    "name": "[空洞]筹码纸币",
+    "desc": "主角<color=#CF4029> -5 </color>攻击力，每持有 100 金币<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard07.png"
+  },
+  "1001081": {
+    "name": "[空洞]硬币收集册",
+    "desc": "<color=#FFAF2C>商店补货变为免费</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard18.png"
+  },
+  "1001082": {
+    "name": "[空洞]纸飞机",
+    "desc": "主角<color=#CF4029> -20 </color>生命，主角每<color=#2BAD00> 10 </color>生命会<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard05.png"
+  },
+  "1001083": {
+    "name": "[空洞]瓶中幸运星",
+    "desc": "主角<color=#2BAD00> +4 </color>攻击力，<color=#CF4029>-15 </color>生命",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1001084": {
+    "name": "[空洞]过期会员卡",
+    "desc": "主角受到伤害时，10% 产生 1 个<color=#2BAD00>金币格</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard30.png"
+  },
+  "1001085": {
+    "name": "[空洞]玻璃弹珠",
+    "desc": "主角攻击时<color=#2BAD00> 10% </color>暴击，造成2倍伤害",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1001086": {
+    "name": "[空洞]迷你沙袋",
+    "desc": "主角<color=#CF4029> -2 </color>攻击力，<color=#2BAD00>+30 </color>生命",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard01.png"
+  },
+  "1001087": {
+    "name": "[空洞]猫耳耳机",
+    "desc": "主角暴击时获得<color=#2BAD00> 100 </color>齿轮硬币",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard02.png"
+  },
+  "1001089": {
+    "name": "[空洞]童真泡泡机",
+    "desc": "主角<color=#2BAD00> +50% </color>暴击率，<color=#CF4029>无法再恢复生命</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1001090": {
+    "name": "[空洞]玩具喇叭",
+    "desc": "主角<color=#2BAD00> -1 </color>受到的攻击伤害",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard03.png"
+  },
+  "1001091": {
+    "name": "[空洞]涂鸦喷漆",
+    "desc": "队友<color=#2BAD00> +2 </color>攻击力",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard10.png"
+  },
+  "1001092": {
+    "name": "[空洞]邦布抱枕",
+    "desc": "主角<color=#2BAD00>+10 </color>生命",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard13.png"
+  },
+  "1001093": {
+    "name": "[空洞]积木城堡",
+    "desc": "主角<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard23.png"
+  },
+  "1001094": {
+    "name": "[空洞]名刀图册",
+    "desc": "主角获得<color=#2BAD00> 20% </color>吸血，<color=#CF4029>当前生命变为 2</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1001095": {
+    "name": "[空洞]植物标本册",
+    "desc": "全队<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1001096": {
+    "name": "[空洞]玩具光剑",
+    "desc": "主角<color=#2BAD00>+3 </color>攻击力",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard27.png"
+  },
+  "1001097": {
+    "name": "[空洞]战斗陀螺",
+    "desc": "全队<color=#2BAD00> +10 </color>生命",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1001098": {
+    "name": "[空洞]昆虫图册",
+    "desc": "BOSS被暴击的概率<color=#2BAD00> +30% </color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1001099": {
+    "name": "[空洞]搞怪闹钟",
+    "desc": "主角<color=#2BAD00> +120 </color>生命，每次移动<color=#CF4029> -3 </color>生命",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard25.png"
+  },
+  "1001100": {
+    "name": "[空洞]普通版卡包",
+    "desc": "主角受到伤害时，10% 产生<color=#2BAD00> 1 </color>个邦布插件",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard11.png"
+  },
+  "1370101": {
+    "name": "[强攻：翦除]征伐阔斧",
+    "desc": "进入战斗时，获得3层<color=#FFFFFF>[强化]</color>，每层<color=#FFFFFF>[强化]</color>使得代理人<color=#2BAD00>获得16%暴击伤害</color>，受到攻击后移除1层<color=#FFFFFF>[强化]</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS201.png"
+  },
+  "1370102": {
+    "name": "[强攻：翦除]翻花蝴蝶",
+    "desc": "<color=#FFFFFF>[闪避]</color>后发动的<color=#FFFFFF>[冲刺攻击]</color>变为<color=#FFFFFF>[闪避反击]</color>，5秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS202.png"
+  },
+  "1370103": {
+    "name": "[强攻：翦除]割草除根",
+    "desc": "代理人<color=#2BAD00>无视敌人20%防御力</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS203.png"
+  },
+  "1370104": {
+    "name": "[强攻：翦除]锐利指节",
+    "desc": "代理人的<color=#2BAD00>暴击伤害提升24%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS204.png"
+  },
+  "1370105": {
+    "name": "[强攻：翦除]拳下刃风",
+    "desc": "代理人的<color=#2BAD00>攻击力提升270点</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS205.png"
+  },
+  "1370106": {
+    "name": "[强攻：翦除]左右开刀",
+    "desc": "代理人的<color=#2BAD00>暴击率提升12%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS206.png"
+  },
+  "1228206002": {
+    "name": "[空洞]附赠CD",
+    "desc": "击杀BOSS时产生 1 个<color=#2BAD00>宝箱格</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard28.png"
+  },
+  "1228206003": {
+    "name": "[空洞]精选盲盒",
+    "desc": "全队<color=#2BAD00> +3 </color>攻击力，<color=#2BAD00>+30 </color>生命",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard21.png"
+  },
+  "1228206004": {
+    "name": "[空洞]玩具听诊器",
+    "desc": "队友<color=#CF4029> -5 </color>攻击力，主角<color=#2BAD00> +15 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1228206005": {
+    "name": "[空洞]多彩手电",
+    "desc": "主角<color=#CF4029> -10 </color>攻击力，队友<color=#2BAD00> +4 </color>攻击力",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard19.png"
+  },
+  "1228206006": {
+    "name": "[空洞]玩具救护车",
+    "desc": "主角受到伤害时，20% 产生 1 个<color=#2BAD00>生命恢复格</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard24.png"
+  },
+  "1228206007": {
+    "name": "[空洞]千纸鹤",
+    "desc": "主角 <color=#2BAD00>+15 </color>攻击力，<color=#CF4029>受到伤害时清空</color>，每层重置",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard26.png"
+  },
+  "1228206008": {
+    "name": "[出战]企鹅布",
+    "desc": "「企鹅布」\n<color=#2BAD00>攻击力：5，生命值：20</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPenguinboo.png"
+  },
+  "1228206009": {
+    "name": "[出战]招财布",
+    "desc": "「招财布」\n<color=#2BAD00>攻击力：3，生命值：30</color>\n它会吞掉齿轮硬币，每吞掉 3 个齿轮硬币时<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooLuckyboo.png"
+  },
+  "1228206010": {
+    "name": "[出战]寻宝布",
+    "desc": "「寻宝布」\n<color=#FFAF2C>它会吞掉钥匙格并产生宝箱</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooExploreboo.png"
+  },
+  "1228206011": {
+    "name": "[出战]扑击布",
+    "desc": "「扑击布」\n<color=#2BAD00>攻击力：20，生命值：5</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSumoboo.png"
+  },
+  "1228206012": {
+    "name": "[出战]纸壳布",
+    "desc": "「纸壳布」\n<color=#2BAD00>攻击力：4，生命值：20</color>\n每只其他邦布使它<color=#2BAD00> +2 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPaperboo.png"
+  },
+  "1228206013": {
+    "name": "[出战]纸袋布",
+    "desc": "「纸袋布」\n<color=#2BAD00>攻击力：2，生命值：20</color>\n<color=#FF0000>攻击时造成 7 倍伤害</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooBagboo.png"
+  },
+  "1228206014": {
+    "name": "[出战]果核布",
+    "desc": "「果核布」\n<color=#2BAD00>攻击力：2，生命值：40</color>\n它在攻击时<color=#2BAD00> +5 </color>生命",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAvocaboo.png"
+  },
+  "1228206015": {
+    "name": "[出战]鲨牙布",
+    "desc": "「鲨牙布」\n<color=#2BAD00>攻击力：10，生命值：35</color>\n它不跟随主角",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSharkboo.png"
+  },
+  "1228206016": {
+    "name": "[出战]阿全",
+    "desc": "「阿全」\n<color=#FFAF2C>它会击碎墙，并偶尔发现好东西</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSafety.png"
+  },
+  "1228206017": {
+    "name": "[出战]恶魔布",
+    "desc": "「恶魔布」\n<color=#FFAF2C>它会吞掉生命恢复格，并有较大概率产生攻击力格</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooDevilboo.png"
+  },
+  "1228206018": {
+    "name": "[出战]艾米莉安",
+    "desc": "「艾米莉安」\n<color=#2BAD00>攻击力：8，生命值：50</color>\n<color=#CF4029>它会攻击商店老板</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206019": {
+    "name": "[出战]黄金邦布",
+    "desc": "「黄金邦布」\n<color=#2BAD00>攻击力：0，生命值：10</color>\n<color=#FFAF2C>它的攻击力等于1/100的金币数</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard29.png"
+  },
+  "1228206020": {
+    "name": "[出战]阿崔巡查",
+    "desc": "「阿崔」\n<color=#2BAD00>攻击力：20，生命值：20</color>\n<color=#FFAF2C>阿崔受到的伤害由主角承担</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooOfficerCui.png"
+  },
+  "1228206021": {
+    "name": "[出战]咬咬",
+    "desc": "「咬咬」\n<color=#2BAD00>攻击力：4，生命值：20</color>\n它的攻击力总是等于生命值的 1/5",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardToy05.png"
+  },
+  "1228206022": {
+    "name": "安比·德玛拉",
+    "desc": "<color=#FFAF2C>「安比」</color>\n<color=#2BAD00>攻击力：8，生命值：25</color>\n安比攻击时<color=#2BAD00> 20% </color>暴击，造成 2 倍伤害。",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1228206023": {
+    "name": "猫宫 又奈",
+    "desc": "<color=#FFAF2C>「猫又」</color>\n<color=#2BAD00>攻击力：12，生命值：15</color>\n<color=#FFAF2C>猫又攻击时产生100齿轮硬币</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1228206024": {
+    "name": "妮可·德玛拉",
+    "desc": "<color=#FFAF2C>「妮可」</color>\n<color=#2BAD00>攻击力：0，生命值：24</color>\n<color=#FFAF2C>妮可的攻击力等于1/100金币数</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1228206025": {
+    "name": "「11号」",
+    "desc": "<color=#FFAF2C>「11号」</color>\n<color=#2BAD00>攻击力：30，生命值：60</color>\n<color=#CF4029>「11号」的攻击力不会提高</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1228206026": {
+    "name": "可琳·威克斯",
+    "desc": "<color=#FFAF2C>「可琳」</color>\n<color=#2BAD00>攻击力：20，生命值：10</color>\n可琳获得攻击力时，会额外<color=#2BAD00> +1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1228206027": {
+    "name": "凯撒·金",
+    "desc": "<color=#FFAF2C>「凯撒」</color>\n<color=#2BAD00>攻击力：3，生命值：35</color>\n凯撒受到伤害时<color=#2BAD00> 50% </color>弹反（不受伤，并把伤害返还给怪物）",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1228206028": {
+    "name": "比利·奇德",
+    "desc": "<color=#FFAF2C>「比利」</color>\n<color=#2BAD00>攻击力：30，生命值：10</color>\n<color=#FFAF2C>主角首次受到伤害后，比利<color=#CF4029> -15 </color>攻击力。</color>比利的攻击范围为<color=#2BAD00> 3</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1228206029": {
+    "name": "星见 雅",
+    "desc": "<color=#FFAF2C>「星见雅」</color>\n<color=#2BAD00>攻击力：25，生命值：25</color>\n星见雅攻击时10%立刻杀死怪物",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206030": {
+    "name": "珂蕾妲·贝洛伯格",
+    "desc": "<color=#FFAF2C>「珂蕾妲」</color>\n<color=#2BAD00>攻击力：10，生命值：12</color>\n<color=#FFAF2C>若本在场，珂蕾妲的攻击必定暴击</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1228206031": {
+    "name": "安东·伊万诺夫",
+    "desc": "<color=#FFAF2C>「安东」</color>\n<color=#2BAD00>攻击力：10，生命值：28</color>\n<color=#FFAF2C>安东在生命值为 0 时仍会攻击</color>，此时每次攻击<color=#CF4029> -1 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1228206032": {
+    "name": "本·比格",
+    "desc": "<color=#FFAF2C>「本」</color>\n<color=#2BAD00>攻击力：2，生命值：80</color>\n若珂蕾妲在场，本在攻击时 50% 产生一个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1228206033": {
+    "name": "月城 柳",
+    "desc": "<color=#FFAF2C>「月城柳」</color>\n<color=#2BAD00>攻击力：5，生命值：22</color>\n<color=#FFAF2C>月城柳命中的怪物会产生方框，该怪物只能被月城柳攻击，每次攻击产出相当于杀死怪物的经验</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1228206034": {
+    "name": "莱特",
+    "desc": "<color=#FFAF2C>「莱特」</color>\n<color=#2BAD00>攻击力：5，生命值：40</color>\n主角生命低于 20 时，莱特<color=#2BAD00> + 20 </color>攻击力",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1228206101": {
+    "name": "[通用]出刃刀",
+    "desc": "攻击时，20% <color=#FFAF2C>将怪物变为以太结晶</color>（不产生经验）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard31.png"
+  },
+  "1228206102": {
+    "name": "[通用]刺身刀",
+    "desc": "击碎以太结晶时，30% <color=#CF4029>产生一个怪物</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard32.png"
+  },
+  "1228206103": {
+    "name": "[支援]以太反应装置",
+    "desc": "立刻产生<color=#2BAD00> 4 </color>个随机的邦布芯片",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic04.png"
+  },
+  "1228206104": {
+    "name": "[支援]冲力反馈装置",
+    "desc": "立刻获得<color=#2BAD00> 5 </color>个炸弹",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic05.png"
+  },
+  "1228206105": {
+    "name": "[支援]动态校准装置",
+    "desc": "立刻获得<color=#2BAD00> 10 </color>个钥匙",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic06.png"
+  },
+  "1228206106": {
+    "name": "[支援]手动发电器",
+    "desc": "立刻获得<color=#2BAD00> 99 </color>个钥匙",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic09.png"
+  },
+  "1228206107": {
+    "name": "[通用]果蔬刨皮器",
+    "desc": "门锁改为<color=#2BAD00>用 1 金币开启</color>，不再消耗钥匙",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse19.png"
+  },
+  "1228206108": {
+    "name": "[支援]全息诱饵",
+    "desc": "立刻获得<color=#2BAD00> 888 </color>金币",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic10.png"
+  },
+  "1228206109": {
+    "name": "[支援]活性传递装置",
+    "desc": "立刻获得<color=#2BAD00> 3000 </color>金币",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic08.png"
+  },
+  "1228206110": {
+    "name": "[通用]军用战术武器",
+    "desc": "立刻产生一堆<color=#2BAD00>好东西</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse32.png"
+  },
+  "1228206111": {
+    "name": "[通用]强效杀虫剂",
+    "desc": "炸弹爆炸时，30% 产生 1 个<color=#FFAF2C>引爆的炸弹</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse24.png"
+  },
+  "1228206112": {
+    "name": "[通用]一次性手套",
+    "desc": "主角受到伤害时，对本层所有怪物造成<color=#2BAD00> 1 </color>伤害",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse22.png"
+  },
+  "1228206113": {
+    "name": "[通用]多功能军刀",
+    "desc": "主角<color=#2BAD00> +5 </color>攻击力，<color=#CF4029>所有炸弹不会爆炸</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse27.png"
+  },
+  "1228206114": {
+    "name": "[通用]香氛蜡烛",
+    "desc": "<color=#2BAD00>+100% </color>获得的经验",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse12.png"
+  },
+  "1228206115": {
+    "name": "[通用]古旧怀表",
+    "desc": "拾取金币时，25% 生成一个<color=#2BAD00>以太结晶</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse26.png"
+  },
+  "1228206116": {
+    "name": "[通用]变焦镜头",
+    "desc": "击碎以太结晶时，50% 产生 1 次<color=#FFAF2C>按钮的效果</color>（很难预计会发生什么）",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse14.png"
+  },
+  "1228206117": {
+    "name": "[通用]殷红之杯",
+    "desc": "升级时，主角<color=#2BAD00> +20 </color>生命值",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse25.png"
+  },
+  "1228206119": {
+    "name": "[通用]枯枝弹弓",
+    "desc": "升级时，产生<color=#2BAD00> 2 </color>个邦布插件",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse21.png"
+  },
+  "1228206120": {
+    "name": "[通用]热水壶",
+    "desc": "升级时，主角<color=#2BAD00> +1 </color>攻击力，<color=#CF4029>-5 </color>生命值",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse20.png"
+  },
+  "1228206121": {
+    "name": "[通用]伴郎领结",
+    "desc": "购买时，每消耗 100 金币，主角<color=#2BAD00> +1 </color>生命",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse30.png"
+  },
+  "1228206122": {
+    "name": "[通用]锤骨刀",
+    "desc": "<color=#FFAF2C>主角的攻击力始终为持有的齿轮硬币数/200，不受其他任何影响</color>。（例如持有400齿轮硬币，则攻击力为2）",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard33.png"
+  },
+  "1228206123": {
+    "name": "[通用]奇迹星徽",
+    "desc": "生命耗尽时，重新站起的概率变为<color=#2BAD00> 50%</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse34.png"
+  },
+  "1370201": {
+    "name": "[击破：叩击]微型手锯",
+    "desc": "使敌人失衡时，敌人的<color=#2BAD00>失衡易伤倍率提升37.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS201.png"
+  },
+  "1370202": {
+    "name": "[击破：叩击]便携角磨机",
+    "desc": "使敌人进入失衡状态时，全队代理人<color=#2BAD00>回复5点能量</color>、<color=#2BAD00>6点闪能</color>或<color=#2BAD00>5点锐能</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS202.png"
+  },
+  "1370203": {
+    "name": "[击破：叩击]多功能圆锯",
+    "desc": "代理人对失衡状态下的敌人<color=#2BAD00>造成的伤害提升45%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS203.png"
+  },
+  "1370204": {
+    "name": "[击破：叩击]高转电锯",
+    "desc": "使敌人进入失衡状态时，其<color=#2BAD00>失衡持续时间提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS204.png"
+  },
+  "1370205": {
+    "name": "[击破：叩击]工程炸药",
+    "desc": "代理人造成的<color=#2BAD00>失衡值提升10%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS205.png"
+  },
+  "1370206": {
+    "name": "[击破：叩击]强力冲击钻",
+    "desc": "从失衡状态恢复时，敌人<color=#2BAD00>累积10%失衡值</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS206.png"
+  },
+  "1370301": {
+    "name": "[异常：附加]战术震爆弹",
+    "desc": "施加[紊乱]效果时，全队<color=#2BAD00>异常精通提升25点</color>，最多叠加3层，持续15秒，重复触发时刷新持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS201.png"
+  },
+  "1370302": {
+    "name": "[异常：附加]重型喷火枪",
+    "desc": "代理人攻击处于属性异常状态下的敌人时，<color=#2BAD00>穿透率提升20%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS202.png"
+  },
+  "1370303": {
+    "name": "[异常：附加]强效胡椒喷雾",
+    "desc": "施加属性异常效果时为全队代理人<color=#2BAD00>回复7点能量</color>、<color=#2BAD00>回复9点闪能</color>或<color=#2BAD00>回复7点锐能</color>，5秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS203.png"
+  },
+  "1370304": {
+    "name": "[异常：附加]捕网发射器",
+    "desc": "代理人的<color=#2BAD00>异常掌控提升60点</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS204.png"
+  },
+  "1370305": {
+    "name": "[异常：附加]高压电击枪",
+    "desc": "代理人的<color=#2BAD00>异常精通提升45点</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS205.png"
+  },
+  "1370306": {
+    "name": "[异常：附加]电磁干扰仪",
+    "desc": "代理人造成的<color=#2BAD00>所有属性异常伤害和[紊乱]伤害提升18%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS206.png"
+  },
+  "1370401": {
+    "name": "[支援：饱和]幸运饼干",
+    "desc": "代理人发动<color=#FFFFFF>[终结技]</color>时，全队<color=#2BAD00>回复17点能量</color>、<color=#2BAD00>21点闪能</color>或<color=#2BAD00>17点锐能</color>，20秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS201.png"
+  },
+  "1370402": {
+    "name": "[支援：饱和]营养罐头",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>时，代理人<color=#2BAD00>造成的伤害提升5%</color>，持续10秒，最多叠加5次，重复触发时刷新持续时间。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS202.png"
+  },
+  "1370403": {
+    "name": "[支援：饱和]能量汽水",
+    "desc": "<color=#FFFFFF>[强化特殊技]</color>造成的<color=#2BAD00>伤害提升44%</color>，<color=#FFFFFF>[终结技]</color>造成的<color=#2BAD00>伤害提升44%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS203.png"
+  },
+  "1370404": {
+    "name": "[支援：饱和]星光棒棒糖",
+    "desc": "喧响值的<color=#2BAD00>获取效率提升23%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS204.png"
+  },
+  "1370405": {
+    "name": "[支援：饱和]速热火锅",
+    "desc": "能量、闪能与锐能的<color=#2BAD00>获取效率提升18%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS205.png"
+  },
+  "1370406": {
+    "name": "[支援：饱和]无糖巧克力",
+    "desc": "代理人<color=#2BAD00>造成的伤害提升15%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS206.png"
+  },
+  "1370501": {
+    "name": "[命破：激活]持之以恒",
+    "desc": "代理人的生命值低于70%时，<color=#2BAD00>暴击伤害提升60%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS201.png"
+  },
+  "1370502": {
+    "name": "[命破：激活]势大力沉",
+    "desc": "代理人的生命值低于70%时，<color=#2BAD00>造成的伤害提升37.5%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS202.png"
+  },
+  "1370503": {
+    "name": "[命破：激活]攻守平衡",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>时，全队代理人<color=#2BAD00>回复4%生命值</color>，10秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS203.png"
+  },
+  "1370504": {
+    "name": "[命破：激活]冠军凭证",
+    "desc": "代理人的<color=#2BAD00>生命值上限提升25%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS204.png"
+  },
+  "1370505": {
+    "name": "[命破：激活]整装待发",
+    "desc": "损失生命值时，命破代理人的<color=#2BAD00>贯穿力提升270点</color>，非命破代理人的<color=#2BAD00>攻击力提升324点</color>，持续5秒，重复触发时刷新持续时间。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS205.png"
+  },
+  "1370506": {
+    "name": "[命破：激活]腾挪步法",
+    "desc": "损失生命值时，代理人的<color=#2BAD00>暴击伤害提升30%</color>，持续20秒，重复触发时刷新持续时间。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS206.png"
+  },
+  "1370601": {
+    "name": "[防护：斗盾]制式警棍",
+    "desc": "拥有护盾时，代理人<color=#2BAD00>造成的伤害提升25%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS201.png"
+  },
+  "1370602": {
+    "name": "[防护：斗盾]MX7战术手套",
+    "desc": "拥有护盾时，代理人<color=#2BAD00>造成的暴击伤害提升40%</color>。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS202.png"
+  },
+  "1370603": {
+    "name": "[防护：斗盾]Ⅲ型战斗头盔",
+    "desc": "发动<color=#FFFFFF>[极限支援]</color>时，全队<color=#2BAD00>获得150点喧响值</color>，5秒内最多触发一次。",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS203.png"
+  },
+  "1370604": {
+    "name": "[防护：斗盾]军用防毒面具",
+    "desc": "<color=#FFFFFF>[招架支援]</color><color=#2BAD00>造成的失衡值提升25%</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS204.png"
+  },
+  "1370605": {
+    "name": "[防护：斗盾]第四代防爆盾",
+    "desc": "进入接战状态时，全队<color=#2BAD00>获得等同于自身10%生命值的护盾</color>。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS205.png"
+  },
+  "1370606": {
+    "name": "[防护：斗盾]轻型防弹护甲",
+    "desc": "触发<color=#FFFFFF>[极限闪避]</color>时，代理人<color=#2BAD00>获得3%生命值的护盾</color>，5秒内最多触发一次，重复触发时刷新护盾量。",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS206.png"
+  }
+}

@@ -1,0 +1,15 @@
+
+> sayari-project@0.0.0 build
+> tsc -b && vite build
+
+vite v5.3.4 building for production...
+transforming...
+✓ 912 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.46 kB │ gzip:   0.30 kB
+dist/assets/index-CVuAwv93.css    1.03 kB │ gzip:   0.46 kB
+dist/assets/index-BupqqTUO.css   16.91 kB │ gzip:   4.30 kB
+dist/assets/index-CGvkX36j.js    40.33 kB │ gzip:  13.74 kB
+dist/assets/index-BbfzAobY.js   316.90 kB │ gzip: 103.42 kB
+✓ built in 21.96s

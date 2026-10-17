@@ -1,0 +1,1562 @@
+{
+  "1000943": {
+    "name": "[Affinity] Fully Charged",
+    "desc": "Anby has evoked the Mindscape: <color=#FFAF2C>[Charging Field]</color> After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nCharging Field: When Anby uses her <color=#FFFFFF>EX Special Attack</color>, she gains 8 stacks of Charge (max 8 stacks). When she hits an enemy with her <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>Dash Attack</color>, 1 stack of Charge is consumed, increasing that attack's DMG by 45%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1000944": {
+    "name": "[Affinity] Apex Predator",
+    "desc": "Nekomata has evoked the Mindscape: <color=#FFAF2C>[Bird Hunter]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nBird Hunter: When Nekomata hits an enemy from behind, she ignores 16% of her target's <color=#F0D12B>Physical RES</color>. If the enemy is Stunned, all Nekomata's attacks against them are considered back attacks.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1000945": {
+    "name": "[Affinity] Full Firepower",
+    "desc": "Nicole has evoked the Mindscape: <color=#FFAF2C>[Field Expansion]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nField Expansion: When Nicole uses her <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, the diameter of the energy field generated at the target location is increased by 3m.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1000946": {
+    "name": "[Affinity] Absolutely Flawless",
+    "desc": "Soldier 11 has evoked the Mindscape: <color=#FFAF2C>[Indulgent Blaze]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nIndulgent Blaze: If <color=#FFFFFF>Fire Suppression</color> is triggered during the 1st, 2nd, or 3rd hit of Soldier 11's <color=#FFFFFF>Basic Attack</color> or a <color=#FFFFFF>Dash Attack</color>, Anti-Interrupt Level increases and DMG received is reduced by 18% during skill activation.\nIf <color=#FFFFFF>Fire Suppression</color> is triggered during the 4th hit of her <color=#FFFFFF>Basic Attack</color>, she becomes invulnerable during skill activation.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1000947": {
+    "name": "[Affinity] My BGM is On",
+    "desc": "Billy has evoked the Mindscape: <color=#FFAF2C>[Roaming Gunslinger]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nRoaming Gunslinger: Billy's <color=#FFFFFF>Dodge Counter</color> DMG increases by 25%. Rolling Shots during his <color=#FFFFFF>Basic Attacks</color> count as dodges, making Billy Invulnerable during skill activation and able to trigger <color=#FFFFFF>Perfect Dodges</color>. When a Rolling Shot triggers a <color=#FFFFFF>Perfect Dodge</color>, it will automatically follow up with a <color=#FFFFFF>Dodge Counter</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1000948": {
+    "name": "[Affinity] Muscle Mayhem",
+    "desc": "Anton has evoked the Mindscape: <color=#FFAF2C>[Warm-Up Exercises]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nWarm-Up Exercises: When <color=#FFFFFF>Drill Attack</color> hits an enemy, Anton gains additional Energy, up to a maximum of 5 Energy per skill use.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1000949": {
+    "name": "[Affinity] Un-Bear-Able Rage",
+    "desc": "Ben has evoked the Mindscape: <color=#FFAF2C>[Agile Adaptation]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nAgile Adaptation: When successfully blocking enemy DMG with Ben's invulnerable effect during his <color=#FFFFFF>Special Attack</color> or <color=#FFFFFF>EX Special Attack</color>, the following counter deals 30% more DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1000950": {
+    "name": "[Affinity] Exercise Before Dinner",
+    "desc": "Soukaku has evoked the Mindscape: <color=#FFAF2C>[Northern Wind]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nNorthern Wind: While in the <color=#FFFFFF>Frosted Banner</color> state, the number of usable enhanced <color=#FFFFFF>Basic Attacks</color> and enhanced <color=#FFFFFF>Dash Attacks</color> is increased to 12, and also deal 45% more DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1131.png"
+  },
+  "1000951": {
+    "name": "[Affinity] Frosty Eviction",
+    "desc": "Lycaon has evoked the Mindscape: <color=#FFAF2C>[Full Moon Momentum]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nFull Moon Momentum: When Lycaon's <color=#FFFFFF>EX Special Attack: Thrill of the Hunt</color> hits an enemy, the attack's Daze increases by 12%. This effect can trigger once every 8s. When he charges his <color=#FFFFFF>EX Special Attack: Thrill of the Hunt</color> to completion, this buff will increase by an additional 10%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1141.png"
+  },
+  "1000952": {
+    "name": "[Affinity] Bangboo Give Me Strength",
+    "desc": "Grace has evoked the Mindscape: <color=#FFAF2C>[Lightning Piercer]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nLightning Piercer: When Grace's thrown grenade hits an enemy during a <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Special Attack</color>, or <color=#FFFFFF>EX Special Attack</color>, the target's <color=#2EB6FF>Electric RES</color> is reduced by 8.5%, and <color=#2EB6FF>Electric Anomaly Buildup RES</color> is reduced by 8.5%, lasting for 8s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1181.png"
+  },
+  "1000953": {
+    "name": "[Affinity] Hostile Wake-Over",
+    "desc": "Ellen has evoked the Mindscape: <color=#FFAF2C>[Arctic Ocean Predator]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nArctic Ocean Predator: The 3rd hit of <color=#FFFFFF>Basic Attack: Flash Freeze Trimming</color> can be directly followed up with <color=#FFFFFF>EX Special Attack: Sharknami</color>. For each point of <color=#FFFFFF>Flash Freeze Charge</color> when using an <color=#FFFFFF>EX Special Attack</color>, the current attack's CRIT DMG is increased by 20%, up to a max of 60%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1191.png"
+  },
+  "1000954": {
+    "name": "[Affinity] Up to the Task",
+    "desc": "Rina has evoked the Mindscape: <color=#FFAF2C>[Dance Duet]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nDance Duet: After being sent out to launch an attack, Drusilla and Anastella stay in place for an additional 5.5s before returning to Rina.\nThe effect gained from <color=#FFFFFF>Core Passive: Mini Destruction Partner</color> by characters within 10m is increased to 130% of the original value.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1211.png"
+  },
+  "1000955": {
+    "name": "[Affinity] Passionate Cleanup",
+    "desc": "Corin has evoked the Mindscape: <color=#FFAF2C>[Accumulated Release]</color>.\nAccumulated Release: When Corin's extended slash hits an enemy, she obtains a stack of Charge (max 40 stacks).\nDuring a <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>Special Attack</color>, <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Quick Assist</color>, or <color=#FFFFFF>Assist Follow-Up</color>, when her chainsaw detonation hits an enemy, consumes all stacks of Charge. Each stack consumed causes the attack to deal an additional 3% of ATK as DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1000956": {
+    "name": "[Affinity] Hammer Sparks",
+    "desc": "Koleda has evoked the Mindscape: <color=#FFAF2C>[Kinetic Recovery]</color>.\nKinetic Recovery: When Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, she recovers 60 Energy. Can trigger once every 45s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1000957": {
+    "name": "[Affinity] Solid Companionship",
+    "desc": "Zhu Yuan has evoked the Mindscape: <color=#FFAF2C>[Quick Reload]</color>.\nQuick Reload: When Zhu Yuan activates <color=#FFFFFF>Chain Attacks</color>/<color=#FFFFFF>Ultimates</color>, gain the <color=#FFFFFF>Quick Reload</color> effect. When Zhu Yuan has the <color=#FFFFFF>Quick Reload</color> effect and uses up all <color=#FFFFFF>Enhanced Shotshells</color>, the <color=#FFFFFF>Quick Reload</color> effect will be consumed to instantly gain 6/9 <color=#FFFFFF>Enhanced Shotshells</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1241.png"
+  },
+  "1000958": {
+    "name": "[Affinity] Lady-Like Charge",
+    "desc": "Lucy has evoked the Mindscape: <color=#FFAF2C>[Fierce Fangs of Fire]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nFierce Fangs of Fire: When another squad member in the <color=#FFFFFF>Cheer On!</color> state hits an enemy with an <color=#FFFFFF>EX Special Attack</color>, a guard boar will drop from the sky and cause an explosion, dealing <color=#FF5521>Fire DMG</color> equal to 300% of the guard boar's ATK. This will extend the duration of the <color=#FFFFFF>Cheer On!</color> buff for all squad members and Bangboo, and for the guard boars themselves by 5s. The duration can increase up to 3 times, with a maximum duration of 30s. Refreshing the <color=#FFFFFF>Cheer On!</color> state resets the stack count. After the guard boar's explosion, it will launch <color=#FFFFFF>Guard Boars: Spinning Swing!</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1151.png"
+  },
+  "1000959": {
+    "name": "[Affinity] Fighting Style: Mixed Fruit Flavor",
+    "desc": "Lighter has evoked the Mindscape <color=#FFAF2C>The Champion</color>.\nThe Champion：Among the debuffs imposed by <color=#FFFFFF>Core Passive: Accelerant</color>, the <color=#FFFFFF>Collapse</color> effect increases Stun duration by 5s, while further reducing <color=#98EFF0>Ice RES</color> and <color=#FF5521>Fire RES</color> by 10%. The more powerful Finishing Move that follows when Lighter's <color=#FFFFFF>Morale</color> is completely exhausted during a startup light punch or jab combo deals 30% increased DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1000960": {
+    "name": "[Affinity] Power of Hope",
+    "desc": "Piper has evoked the Mindscape: <color=#FFAF2C>[Mild Excitement]</color>.\nMild Excitement: Increases the duration limit of <color=#FFFFFF>EX Special Attack: Engine Spin</color> by 2s and extends the duration of <color=#FFFFFF>Power</color> by 4s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1281.png"
+  },
+  "1000961": {
+    "name": "[Affinity] Like a Fish in Water",
+    "desc": "Qingyi has evoked the Mindscape: <color=#FFAF2C>[Insulation Breakdown]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\n[Insulation Breakdown]：When Qingyi enters combat, <color=#FFFFFF>Flash Connect Voltage</color> is instantly restored to its maximum, and the accumulation rate is increased by 30%. When using her <color=#FFFFFF>Basic Attack: Enchanted Moonlit Blossoms</color>, if <color=#FFFFFF>Flash Connect Voltage</color> is at its maximum, the attack will reduce the DEF of the enemy it hits by 15%, and Qingyi's CRIT Rate against that enemy will increase by 20% for 15s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1251.png"
+  },
+  "1000962": {
+    "name": "[Affinity] Partners in \"Crime\"",
+    "desc": "Jane has evoked the Mindscape: <color=#FFAF2C>[Crime Counsel]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nCrime Counsel: The maximum uses of <color=#FFFFFF>Basic Attack: Salchow Jump</color> are increased by one. While in the <color=#FFFFFF>Passion</color> state, Jane's <color=#F0D12B>Physical Anomaly Buildup Rate</color> increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her DMG by 0.1%, up to a maximum increase of 30%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1261.png"
+  },
+  "1000963": {
+    "name": "[Affinity] Path of Honor",
+    "desc": "Seth has evoked the Mindscape: <color=#FFAF2C>[Idealist]</color>.\nIdealist: When Seth lands a Finishing Move on an enemy with <color=#FFFFFF>Basic Attack: Lightning Strike - Electrified</color>, it deals additional damage equal to 500% of his ATK. The attack is guaranteed to trigger a critical hit, and CRIT DMG is increased by 60%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1271.png"
+  },
+  "1000964": {
+    "name": "[Affinity] Overlord's Accompaniment",
+    "desc": "Caesar has evoked the Mindscape: <color=#FFAF2C>[Spearhead Advance]</color>.\nSpearhead Advance: When Caesar becomes the active character in combat, she instantly buffs all squad members with a <color=#FFFFFF>Radiant Aegis</color> shield. This effect can trigger once every 300s. While <color=#FFFFFF>Radiant Aegis</color> is active, enemies within a 5m radius of the shield bearer suffer a 15% All-Attribute RES reduction.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1000965": {
+    "name": "[Affinity] Nitro-Fuel Feast",
+    "desc": "Burnice has evoked the Mindscape: <color=#FFAF2C>[Extra at No Additional Charge]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\nExtra at No Additional Charge: When triggering the <color=#FFFFFF>Afterburn</color> effect, <color=#FFFFFF>Thermal Penetration</color> is applied to the enemy, stacking up to 5 times and lasting 6s. Repeated triggers reset the duration. When any allied unit in the squad hits the enemy, the attack's PEN Ratio is increased by 4% for each stack of <color=#FFFFFF>Thermal Penetration</color>, up to a max of 20%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1171.png"
+  },
+  "1000966": {
+    "name": "[Affinity] 17-Item Check-Up",
+    "desc": "Yanagi has evoked the Mindscape: <color=#FFAF2C>[Outstanding Adaptability]</color>.\n[Outstanding Adaptability]：During her <color=#FFFFFF>EX Special Attack</color>, the rapid thrust's <color=#2EB6FF>Electric Anomaly Buildup</color> increases by 20%. Holding down the Special Attack button after a rapid thrust hits an enemy will consume 10 additional Energy to launch another thrust. If Energy is insufficient or the button is released, the attack automatically follows up with the downward attack. When the downward attack hits an enemy suffering an Anomaly and triggers <color=#FFFFFF>Polarity Disorder</color>, the DMG multiplier increases to 20% of the original <color=#FFFFFF>Disorder</color> effect. Each additional thrust increases this multiplier by 15%, up to a maximum of 2 extra thrusts.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1000967": {
+    "name": "[Affinity] Haiku Swordplay",
+    "desc": "Hoshimi Miyabi has evoked the Mindscape: <color=#FFAF2C>[Breath Technique]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\n[Breath Technique]: <color=#FFFFFF>Basic Attack: Kazahana</color> and <color=#FFFFFF>Dodge Counter</color> DMG increases by 30%. Hoshimi Miyabi gains 1 point of <color=#FFFFFF>Fallen Frost</color> when the final move of the 5th hit of <color=#FFFFFF>Basic Attack: Kazahana</color> hits an enemy. Upon entering the battlefield, Hoshimi Miyabi immediately obtains 6 points of <color=#FFFFFF>Fallen Frost</color> and her CRIT Rate increases by 15%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1091.png"
+  },
+  "1000968": {
+    "name": "[Affinity] Efficient Surge",
+    "desc": "Asaba Harumasa has evoked the Mindscape: <color=#FFAF2C>[\"High Spirit\"]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\n[\"High Spirit\"]: The maximum stack limit of <color=#FFFFFF>Electro Prison</color> from <color=#FFFFFF>Basic Attack: Ha-Oto no Ya</color> increases to 14 stacks. When an <color=#FFFFFF>Electro Quiver</color> is triggered, 2 consecutive <color=#FFFFFF>Ha-Oto no Ya</color> will be fired at the target.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1201.png"
+  },
+  "1000969": {
+    "name": "[Affinity] Encore Time",
+    "desc": "Astra Yao has evoked the Mindscape <color=#FFAF2C>[Art of Greed]</color>.\n[Art of Greed]: The ATK buff from <color=#FFFFFF>Core Passive: \"Graceful Andante\"</color> is further increased by 19%, with an increased maximum of 400. While in the <color=#FFFFFF>Idyllic Cadenza</color> state, when other squad members switch in through a <color=#FFFFFF>Quick Assist</color>, <color=#FFFFFF>Chain Attack</color>, <color=#FFFFFF>Defensive Assist</color>, or <color=#FFFFFF>Evasive Assist</color>, Astra Yao will additionally follow up with 1 <color=#FFFFFF>Tremolo</color> and 3 <color=#FFFFFF>Tone Clusters</color> to attack. This effect can trigger once every 3s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1311.png"
+  },
+  "1000970": {
+    "name": "[Affinity] Back to Prime",
+    "desc": "Evelyn has evoked the Mindscape: <color=#FFAF2C>[Dance of Fire]</color>. After launching a Dash Attack or Dodge Counter, your character can <color=#2BAD00>immediately follow up with</color> certain attacks near the end of the Basic Attack combo.\n[Dance of Fire]: Evelyn's ATK increases by 15%. When Evelyn uses <color=#FFFFFF>Basic Attack: Garrote - First Form</color> or <color=#FFFFFF>Basic Attack: Garrote - Second Form</color>, the <color=#FFFFFF>Burning Embers</color> consumed will be returned. This effect can trigger once every 25s. When Evelyn consumes <color=#FFFFFF>Burning Tether Point</color> to trigger <color=#FFFFFF>Chain Attack: Lunalux - Snare</color>, the skill's Interrupt Level increases.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1321.png"
+  },
+  "1000971": {
+    "name": "Affinity: Silver Heart's Resonance",
+    "desc": "Soldier 0 - Anby has awakened the Mindscape Cinema: <color=#FFAF2C>[Static Charge]</color>.\n[Static Charge]: When Soldier 0 - Anby uses an <color=#FFFFFF>EX Special Attack</color> to hit an enemy, it triggers the additional DMG from <color=#FFFFFF>White Thunder</color> 3 times. This effect does not consume any <color=#FFFFFF>White Thunder</color> stacks.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1381.png"
+  },
+  "1000972": {
+    "name": "Affinity with Your Rhythm",
+    "desc": "Trigger has awakened the Mindscape Cinema: <color=#FFAF2C>[Sharpened Senses]</color>.\n[Sharpened Senses]: The Stun DMG Multiplier applied through <color=#FFFFFF>Core Passive: Soul-Searching Gaze</color> is increased by an additional 20%. When activating <color=#FFFFFF>Basic Attack: Harmonizing Shot</color>, the cooldown is reduced to 2s. <color=#FFFFFF>Purge</color> gained upon hitting an enemy with the continuous fire or charged counter in <color=#FFFFFF>Sniper Stance</color> increases by 25%. Maximum <color=#FFFFFF>Purge</color> increases to 125.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1361.png"
+  },
+  "1000973": {
+    "name": "[Affinity] Nail It Big Time",
+    "desc": "Pulchra has evoked the Mindscape Cinema: <color=#FFAF2C>[Behind the Mask]</color>.\n[Behind the Mask]: <color=#FFFFFF>Special Attack: Rending Claw - Nightmare Shadow's</color> DMG is increased by 15%, and the number of times the repeated attack can trigger is increased by 2. <color=#FFFFFF>Additional Ability: Business Partner</color>'s <color=#FFFFFF>Binding Trap</color> effect now also applies to all damage types, not just <color=#FFFFFF>Aftershock</color> DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1351.png"
+  },
+  "1000974": {
+    "name": "[Affinity] The Girl's Parasol",
+    "desc": "Vivian has evoked the Mindscape Cinema: <color=#FFAF2C>[\"Walking Into the Orchard in Spring\"]</color>.\n[\"Walking Into the Orchard in Spring\"]: When a total of 4 <color=#FFFFFF>Guard Feathers</color> are consumed, gain 1 <color=#FFFFFF>Flight Feather</color>. All Attribute Anomaly DMG and <color=#FFFFFF>Disorder</color> DMG received by targets under <color=#FFFFFF>Vivian's Prophecy</color> increases by 16%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1331.png"
+  },
+  "1000975": {
+    "name": "[Affinity] The Phantom Thief's Magic",
+    "desc": "Hugo has evoked the Mindscape Cinema: <color=#FFAF2C>[The Child Within]</color>.\n[The Child Within]: When <color=#FFFFFF>Ultimate: Blaspheme</color> triggers <color=#FFFFFF>Totalize</color>, it will not end the enemy's Stunned state. Additionally, when <color=#FFFFFF>Totalize</color> is triggered, the skill will ignore 15% of the enemy's DEF.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1291.png"
+  },
+  "1000976": {
+    "name": "[Affinity] Guarding Tranquility",
+    "desc": "Yixuan has evoked the Mindscape: <color=#FFAF2C>[Spiritual Path]</color>.\n[Spiritual Path]: Upon entering combat, CRIT Rate increases by 10% and immediately gain 120 <color=#FFFFFF>Technique Points</color>. In Investigation Zone Mode, this effect can only trigger once every 180s. When any squad member lands a hit on an enemy, Yixuan automatically summons an extra lightning strike, dealing DMG equal to 50% of her Sheer Force and restoring 5 additional Adrenaline. This can trigger once every 6s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1371.png"
+  },
+  "1000977": {
+    "name": "[Affinity] \"Such Might\"",
+    "desc": "Ju Fufu has evoked the Mindscape: <color=#FFAF2C>[Super Scary Little Tiger]</color>.\n[Super Scary Little Tiger]: Upon entering combat, Ju Fufu's CRIT Rate increases by 12%, and she immediately gains 100 <color=#FFFFFF>Might</color>. When Ju Fufu's <color=#FFFFFF>Chain Attack</color> hits an enemy, when the target is Stunned, the target's Stun DMG Multiplier increases by 35%, lasting for 30s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1391.png"
+  },
+  "1000978": {
+    "name": "[Affinity] A Soup to Bring Everyone Together",
+    "desc": "Pan Yinhu has evoked the Mindscape: <color=#FFAF2C>[Meridian Theory]</color>.\n[Meridian Theory]: The <color=#FFFFFF>Meridian Flow</color> effect provided by <color=#FFFFFF>Core Passive: Meridian Enlightenment</color> increases by an extra 6% of Pan Yinhu's initial ATK. The maximum Sheer Force provided by this effect increases to 720.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1421.png"
+  },
+  "1000979": {
+    "name": "[Affinity] Perfect Symmetry",
+    "desc": "Alice has evoked the Mindscape: <color=#FFAF2C>[Sage at the Sword's Tip]</color>.\n[Sage at the Sword's Tip]: When <color=#FFFFFF>Ultimate: Starfall Finale</color>'s Finishing Move hits an enemy, it triggers <color=#F0D12B>Polarity Assault</color>. All squad members' <color=#F0D12B>Assault</color> DMG increases by 15%. <color=#FFFFFF>Disorder</color> DMG against enemies suffering from <color=#F0D12B>Physical Anomaly</color> increases by 15%. Upon entering the battlefield, Alice immediately gains 1,000 Decibels. Triggers once per 180s in Investigation Zone mode.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1401.png"
+  },
+  "1000980": {
+    "name": "[Affinity] Lucky Plum Cookie",
+    "desc": "Yuzuha has evoked the Mindscape: <color=#FFAF2C>[Full of Colorful Company]</color>.\n[Full of Colorful Company]: When Yuzuha's <color=#FFFFFF>EX Special Attack: Cavity Alert</color>, <color=#FFFFFF>EX Special Attack: Cavity Alert, Right Now!</color>, or <color=#FFFFFF>Ultimate: Surrender or Suffer the Mischief</color> hits an enemy, all squad members' DMG increases by 15% and Anomaly Buildup Rate by 15%, lasting 40s and repeated triggers reset the duration. When a heavy attack hits an enemy that is not Stunned, it will trigger a forced <color=#FFFFFF>Chain Attack</color>. <color=#FFFFFF>Chain Attacks</color> triggered this way have reduced Interrupt Level and forced <color=#FFFFFF>Chain Attacks</color> can only occur once every 20s. Whenever another character enters through a <color=#FFFFFF>Chain Attack</color>, Yuzuha gains 1 <color=#FFFFFF>Sugar Points</color>. Yuzuha's <color=#FFFFFF>Basic Attack: Hard Candy Shot</color> cooldown is reduced by 25%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1411.png"
+  },
+  "1000981": {
+    "name": "[Affinity] Three Musketeers",
+    "desc": "Orphie & \"Magus\" have awakened the Mindscape Cinema: <color=#FFAF2C>Luxurious Cat House</color>.\nLuxurious Cat House: Orphie & Magus' Special Attack: Corrosive Flash, EX Special Attack: Crimson Vortex, EX Special Attack: Heat Charge, and EX Special Attack: Fiery Eruption ignore 15% of target's <color=#FF5521>Fire RES</color>, and Agents with Zeroed In deal 20% increased DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1301.png"
+  },
+  "1000982": {
+    "name": "[Affinity] Flowers on the Ruins",
+    "desc": "Seed has awakened the Mindscape Cinema: <color=#FFAF2C>\"Hibernation Period\"</color>.\n\"Hibernation Period\": When Seed's <color=#FFFFFF>Steel Charge</color> reaches 100, <color=#FFFFFF>Basic Attack: Falling Petals - Downfall</color> can be triggered, and the total <color=#FFFFFF>Steel Charge</color> consumed is reduced to 100. The amount of <color=#FFFFFF>Steel Charge</color> required to gain one chance to quickly release <color=#FFFFFF>Basic Attack: Falling Petals - Slaughter</color> is reduced to 100. Accumulate an additional 40/20 <color=#FFFFFF>Steel Charge</color> when entering the battlefield/using <color=#FFFFFF>Ultimate</color>. Increases <color=#FFFFFF>Basic Attack: Falling Petals - Downfall</color> CRIT DMG by 30%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1461.png"
+  },
+  "1000983": {
+    "name": "[Affinity] Changing Tides",
+    "desc": "Yidhari has evoked the Mindscape: <color=#FFAF2C>The Past Lost Beneath the Abyss</color>.\nThe Past Lost Beneath the Abyss: The Adrenaline cost to activate Yidhari's <color=#FFFFFF>EX Special Attack</color> is reduced by 10. After using <color=#FFFFFF>EX Special Attack: Frost Coil</color> or <color=#FFFFFF>EX Special Attack: Glacial Crush</color>, keeping hold of the Basic Attack or Special Attack button consumes 35 Adrenaline to forgo healing and immediately chain into another <color=#FFFFFF>EX Special Attack: Glacial Crush</color>. The HP restored by this <color=#FFFFFF>EX Special Attack: Glacial Crush</color> is increased by 100% of the original value. Yidhari's <color=#FFFFFF>Basic Attacks</color> and <color=#FFFFFF>EX Special Attacks</color> ignore 20% of targets' <color=#98EFF0>Ice RES</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1051.png"
+  },
+  "1000984": {
+    "name": "[Affinity] Moonlit Adventure",
+    "desc": "Lucia has evoked the Mindscape: <color=#FFAF2C>Secret Friend</color>.\nSecret Friend: When <color=#FFFFFF>Dreamer's Nursery Rhyme</color> deals additional DMG, ignore 18% of enemy All-Attribute RES and have 5% increased Decibel Generation Rate. Each time Lucia performs a skill upgrade, she gains 1 stack of <color=#FFFFFF>Echo</color>, stacking up to 4 times. When <color=#FFFFFF>Dreamer's Nursery Rhyme</color> ends, if Lucia has any <color=#FFFFFF>Echo</color> stacks, 1 stack is consumed to reapply <color=#FFFFFF>Dreamer's Nursery Rhyme</color> to all squad members.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1451.png"
+  },
+  "1000985": {
+    "name": "[Affinity] Tempered Blade",
+    "desc": "Komano has evoked the Mindscape: <color=#FFAF2C>Beyond Dreams of the Past</color>.\nBeyond Dreams of the Past: When <color=#FFFFFF>Special Attack: Return to Ashes</color> hits a Stunned enemy, Manato gains 75 Blazing Heart and 4 stacks of Remnant Flame, and pressing <IconMap:Icon_Normal> will launch an <color=#FFFFFF>Assist Follow-Up</color>. This Remnant Flame effect can trigger once every 20s. When his <color=#FFFFFF>Assist Follow-Up</color> hits an enemy, Manato's <color=#FF5521>Fire DMG</color> increases by 3% for 8s, stacking up to 5 times. Repeated triggers reset the duration.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1441.png"
+  },
+  "1000986": {
+    "name": "[Affinity] The Dead Dials",
+    "desc": "Dialyn has evoked the Mindscape: <color=#FFAF2C>[24/7 Hotline]</color>.\n24/7 Hotline: Enemies affected by <color=#FFFFFF>Malicious Complaint</color> gain an additional 20% Stun DMG Multiplier when Stunned, and all units deal 15% increased DMG to targets affected by <color=#FFFFFF>Malicious Complaint</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1481.png"
+  },
+  "1000987": {
+    "name": "[Affinity] Greater Heights",
+    "desc": "Banyue has evoked the Mindscape: <color=#FFAF2C>[Greed Burns Like Fire]</color>.\nGreed Burns Like Fire: When Banyue hits an enemy with <color=#FFFFFF>EX Special Attack: One's Path</color> or <color=#FFFFFF>EX Special Attack: Earth Shaker</color>, he inflicts the <color=#FFFFFF>Tremor</color> state. In this state, enemies' <color=#FF5521>Fire RES</color> is reduced by 10%, lasting 30s. When <color=#FFFFFF>EX Special Attack: Lion's Roar</color>, <color=#FFFFFF>EX Special Attack: Lion's Roar - Wrath</color>, <color=#FFFFFF>EX Special Attack: Mountain Tremor</color>, <color=#FFFFFF>EX Special Attack: Mountain Tremor - Wrath</color>, <color=#FFFFFF>Basic Attack: Toppling Mountain</color>, and <color=#FFFFFF>Basic Attack: Crushing Peaks</color> hits an enemy in the <color=#FFFFFF>Tremor</color> state, the Sheer DMG dealt is increased by 10%. When <color=#FFFFFF>Basic Attack: Crushing Peaks</color> hits a Stunned enemy, the current Stun duration is extended by 2s. This effect can only trigger once per Stun and does not stack with similar effects.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1471.png"
+  },
+  "1000988": {
+    "name": "Sword of the Solitary Heart",
+    "desc": "Ye Shunguang has evoked the Mindscape: <color=#FFAF2C>Light & Shadow</color>.\n[Light & Shadow]: The max stack count of <color=#FFFFFF>Bearer</color> increases to 6, and <color=#FFFFFF>Culmination</color> can stack up to 9 times. While in the <color=#FFFFFF>Enlightened Mind</color> state, each point of <color=#FFFFFF>Qingming Sword Force</color> consumed grants 1 stack of <color=#FFFFFF>Culmination</color>. <color=#FFFFFF>EX Special Attack: Enlightened Mind - Soaring Light</color> and <color=#FFFFFF>Ultimate: Cleaving Heavens</color>'s DMG ignore 40% of the target's DEF.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1431.png"
+  },
+  "1000989": {
+    "name": "Double Lucky Bunny Ears",
+    "desc": "Zhao has evoked the Mindscape: <color=#FFAF2C>Righteous Verdict</color>.\n[Righteous Verdict]: When Zhao switches out of being the active character, all squad members' DMG ignores 15% of the target's All-Attribute RES for 50s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1341.png"
+  },
+  "1000990": {
+    "name": "Wings of Steel",
+    "desc": "Aria has evoked the Mindscape: <color=#FFAF2C>Energetic Sound Waves</color>.\nEnergetic Sound Waves：When Aria's <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Special Attack</color>, or <color=#FFFFFF>EX Special Attack</color> deals DMG to enemies, it ignores 10% of the target's <color=#FE437E>Ether Anomaly Buildup RES</color>. Additionally, when Aria triggers <color=#FFFFFF>Abloom</color>, it has a chance to trigger a critical hit. The base CRIT Rate is 25%, and CRIT DMG is 25%. If initial Anomaly Mastery exceeds 100, each additional point of initial Anomaly Mastery increases this effect's CRIT Rate by 0.5%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1501.png"
+  },
+  "1000991": {
+    "name": "Strawberry Paradise",
+    "desc": "Sunna has evoked the Mindscape: <color=#FFAF2C>\"Feline Go-With-the-Flow\"</color>.\n\"Feline Go-With-the-Flow\"：While Sunna is within any <color=#FFFFFF>Ether Veil</color>, all squad members gain 10% ATK and she obtains 1 <color=#FFFFFF>Claw Sharpener</color> every 10s. The number of attacks required to trigger <color=#FFFFFF>Cat's Gaze</color> is reduced, and the DMG Multiplier on trigger is increased:\nWhen triggered by an <color=#FFFFFF>Attack</color> character, the DMG Multiplier is increased by 200%.\nWhen triggered by an <color=#FFFFFF>Anomaly</color> character, the DMG Multiplier is increased by 300%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1491.png"
+  },
+  "1000992": {
+    "name": "Flawless Plumage",
+    "desc": "Nangong Yu has evoked the Mindscape: <color=#FFAF2C>[Lazy Spotlight]</color>.\n[Lazy Spotlight]: When <color=#FFFFFF>EX Special Attack: The Unbearable Weight of Love</color> or <color=#FFFFFF>Basic Attack: Adorable Explosive Impact</color> hits an enemy, the enemy's All-Attribute RES decreases by 18% for 40s. Repeated triggers refresh the duration. When entering the battlefield, Nangong Yu's <color=#FFFFFF>Downbeat</color> is restored to the maximum. In Investigation Zone Mode, this effect can trigger once every 180s.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1511.png"
+  },
+  "1000993": {
+    "name": "Guidepost Home",
+    "desc": "Cissia has evoked the Mindscape: <color=#FFAF2C>[Hunger and Hard Truths]</color>.\n[Hunger and Hard Truths]: After a <color=#FFFFFF>Chain Attack: Gang Operation</color> or <color=#FFFFFF>Ultimate: Ophidiophobia</color> hits a Stunned enemy, gain an additional 3 <color=#FFFFFF>Venom</color>. <color=#FFFFFF>Basic Attack: Serpent's Kiss</color> deals 35% increased DMG.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1521.png"
+  },
+  "1000994": {
+    "name": "Beyond the Shackles",
+    "desc": "Promeia has evoked the Mindscape: <color=#FFAF2C>[Faltering Conviction]</color>.\nFaltering Conviction: Promeia's Anomaly Proficiency increases by 40. The multiplier of <color=#FFFFFF>Abloom</color> triggered by consuming <color=#FFFFFF>Trial by Cold</color> increases by 120%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1541.png"
+  },
+  "1000995": {
+    "name": "Starlight Beacon",
+    "desc": "Starlight - Billy has evoked the Mindscape: <color=#FFAF2C>[Wasteland Automaton]</color>.\nWasteland Automaton：Increases the DMG dealt by <color=#FFFFFF>Basic Attack: Full-Throttle Starlight</color>, <color=#FFFFFF>EX Special Attack: Cool Wheelie</color>, and <color=#FFFFFF>Ultimate: Starlight Knight Flying Kick</color> by 50%. Activating <color=#FFFFFF>EX Special Attack: Rocking Footwork</color>, <color=#FFFFFF>EX Special Attack: High-Traction Wheels</color>, or hitting a Stunned enemy with <color=#FFFFFF>Special Attack: Drive Suppression</color> grants the <color=#FFFFFF>Turbocharged</color> effect: <color=#FFFFFF>Special Attack: Drive Suppression</color> consumes this effect to immediately follow up with <color=#FFFFFF>EX Special Attack: Cool Wheelie</color>, and increases that instance's CRIT DMG by 50%. Only 1 stack of <color=#FFFFFF>Turbocharged</color> can be held.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1531.png"
+  },
+  "1000996": {
+    "name": "Like the Spring Breeze",
+    "desc": "Velina has evoked the Mindscape: <color=#FFAF2C>[Saturation Project]</color>.\n[Saturation Project]：When Velina triggers <color=#A6C5FD>Windswept</color>, she can also gain 1 point of <color=#FFFFFF>Windbite</color>. This effect can trigger once every 5s. After <color=#FFFFFF>Sweeping Cyclone</color> triggers the <color=#FFFFFF>Chromatic Tint</color> effect, it can accumulate the corresponding attribute's Anomaly Buildup. The buildup accumulated by this attack is excluded from Anomaly DMG calculations. The DMG increase effects of Velina's <color=#A6C5FD>Windswept</color> and <color=#FFFFFF>Vortex</color> from <color=#FFFFFF>Additional Ability: Tea Party Etiquette</color> are further increased by 15%.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1561.png"
+  },
+  "1000997": {
+    "name": "En-Nah Laureate",
+    "desc": "Norma has evoked the Mindscape: <color=#FFAF2C>[Visionary Extremism]</color>.\n[Visionary Extremism]: The duration of the En-Nah Turret's missile bay deployed by <color=#FFFFFF>EX Special Attack: Explosive Experiment</color> increases to 12s. When an Armor-Piercing Warhead or High-Explosive Warhead from any skill hits an enemy, the target's All-Attribute RES is reduced by 15% for 15s. Repeated triggers reset the duration.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1571.png"
+  },
+  "1000999": {
+    "name": "Hannibull",
+    "desc": "Remielle has evoked the Mindscape: <color=#FFAF2C>Fall Into the Noise</color>.\nFall Into the Noise: Remielle's <color=#FFA9DD>Refringe Coefficient</color> increases by 20%. When an <color=#FFFFFF>Anomaly</color> character in the squad deals Anomaly DMG to an enemy affected by <color=#FFFFFF>Prismatic</color>, the attack ignores 15% of the target's DEF. This effect persists for an additional 8s after <color=#FFFFFF>Prismatic</color> ends. While Remielle is in the <Term:1000035></Term> state, the frequency at which she automatically attacks to apply <color=#FFA9DD>Lumiflux Buildup</color> to enemies increases.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1581.png"
+  },
+  "1001000": {
+    "name": "Legendary Ascent",
+    "desc": "Sigrid has evoked the Mindscape: <color=#FFAF2C>Long, Long Ago</color>.\nLong, Long Ago: Upon activating the 3rd stage of <color=#FFFFFF>Basic Attack: Converging Spear</color>, enters the <color=#FFFFFF>Aerial Patrol Spear</color> and gains 1 additional activation of <color=#FFFFFF>Basic Attack: Converging Spear</color>. When activations exceed the stored <color=#FFFFFF>Basic Attack: Converging Spear</color>'s activation limit, the next <color=#FFFFFF>Basic Attack: Converging Spear</color>'s final hit deals an additional <color=#FFFFFF>100%</color> of ATK as <color=#98EFF0>Ice DMG</color>. Sigrid's <color=#FFFFFF>ATK</color> increases by <color=#FFFFFF>25%</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1591.png"
+  },
+  "1002001": {
+    "name": "Bloodfire Rose",
+    "desc": "Claret has evoked the Mindscape: <color=#FFAF2C>Bloodstained Chronicle</color>.\nBloodstained Chronicle: When Claret's attacks hit enemies and trigger Laceration, Gash Buildup Rate increases by 20%. The DMG Multiplier of Maim triggered by Claret increases to 130% of its original value.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png"
+  },
+  "1002002": {
+    "name": "Insomnia Syndrome",
+    "desc": "Roxy has evoked the Mindscape: <color=#FFAF2C>Clocking Out Myth</color>.\nClocking Out Myth: <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze.\nFor each <color=#ffffff>Eye of the Storm</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks.\nDuring <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s.\nWhen <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png"
+  },
+  "1002301": {
+    "name": "[Affinity] Attack Tactical Exchange",
+    "desc": "Increases Attack specialty Agent CRIT DMG by <color=#2BAD00>25%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType01.png"
+  },
+  "1002302": {
+    "name": "[Affinity] Stun Tactical Exchange",
+    "desc": "Stun specialty Agents inflict <color=#2BAD00>18%</color> more Daze.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType02.png"
+  },
+  "1002303": {
+    "name": "[Affinity] Anomaly Tactical Exchange",
+    "desc": "Increases Anomaly specialty Agent Anomaly Mastery by <color=#2BAD00>20</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType03.png"
+  },
+  "1002304": {
+    "name": "[Affinity] Support Tactical Exchange",
+    "desc": "Increases Support specialty Agent Energy Regen by <color=#2BAD00>10%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType04.png"
+  },
+  "1002305": {
+    "name": "[Affinity] Defense Tactical Exchange",
+    "desc": "Defense specialty Agents take <color=#2BAD00>15%</color> less DMG.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType05.png"
+  },
+  "1002306": {
+    "name": "[Affinity] Rupture Tactical Exchange",
+    "desc": "Increases Rupture specialty Agent Sheer DMG by <color=#2BAD00>20%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAvatarType06.png"
+  },
+  "1002307": {
+    "name": "[Affinity] Armorer Tactical Exchange",
+    "desc": "Agents with the Armorer specialty deal <color=#2BAD00>15%</color> bonus Sharp DMG.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSharpDMG.png"
+  },
+  "1310101": {
+    "name": "[Ultimate] Echoing Zither",
+    "desc": "When launching an <color=#FFFFFF>Ultimate</color>, the Agent has a 50% chance to <color=#2BAD00>recover 15% of Decibels consumed</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels03.png"
+  },
+  "1310102": {
+    "name": "[Ultimate] Charging Drum",
+    "desc": "When a <color=#FFFFFF>Basic Attack</color> hits an enemy, the Agent <color=#2BAD00>gains 300 additional Decibels</color>. This effect can trigger once every 30s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels04.png"
+  },
+  "1310103": {
+    "name": "[Ultimate] Repeating Synth",
+    "desc": "When an <color=#FFFFFF>Ultimate</color> hits an enemy, <color=#2BAD00>it deals DMG equal to 2,500% of the Agent's ATK</color> to the target. This effect can trigger once every 30s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels05.png"
+  },
+  "1310104": {
+    "name": "[Ultimate] Heavy Drum Sticks",
+    "desc": "<color=#FFFFFF>Ultimate</color> DMG is <color=#2BAD00>increased by 20%</color>. When launching an <color=#FFFFFF>Ultimate</color>, the Agent's <color=#2BAD00>CRIT Rate is increased by 10%</color> for 15s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels06.png"
+  },
+  "1310105": {
+    "name": "[Ultimate] Endless Flute",
+    "desc": "When an <color=#FFFFFF>Ultimate</color> hits an enemy, <color=#2BAD00>it deals DMG over time equal to 20% of the Agent's ATK</color> per second to the target for 10s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels07.png"
+  },
+  "1310106": {
+    "name": "[Ultimate] Remedial Harp",
+    "desc": "When launching an <color=#FFFFFF>Ultimate</color>, if the Agent has a shield, <color=#2BAD00>they recover 5% HP</color>. If not, <color=#2BAD00>they gain a shield equal to 15% of their Max HP</color> for 7s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDecibels08.png"
+  },
+  "1310201": {
+    "name": "[Dexterity] Advanced Chassis",
+    "desc": "The Agent <color=#2BAD00>gains an extra dodge</color>. Their <color=#2BAD00>ATK increases by 300</color> for 5s when a <color=#FFFFFF>Dodge Counter</color> is triggered.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone01.png"
+  },
+  "1310202": {
+    "name": "[Dexterity] Safety Airbag",
+    "desc": "<color=#FFFFFF>Dodge Counter</color> <color=#2BAD00>deals 20% more DMG and inflicts 20% more Daze</color>. When an Agent triggers a <color=#FFFFFF>Dodge Counter</color>, they <color=#2BAD00>gain a shield equal to 10% Max HP</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone02.png"
+  },
+  "1310203": {
+    "name": "[Dexterity] Sensitive Gear",
+    "desc": "When triggering a <color=#FFFFFF>Perfect Dodge</color>, the Agent's <color=#2BAD00>Anomaly Buildup Rate is increased by 10%</color> and <color=#2BAD00>Impact is increased by 5%</color> for 10s, stacking up to 3 times. The duration of each stack is calculated separately.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone03.png"
+  },
+  "1310204": {
+    "name": "[Dexterity] Smart Buffer",
+    "desc": "When an <color=#FFFFFF>EX Special Attack</color> hits an enemy, the Agent <color=#2BAD00>gains a shield equal to 5% of their Max HP</color> for 10s. While the shield is active, the Agent <color=#2BAD00>deals 10% more DMG</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone04.png"
+  },
+  "1310205": {
+    "name": "[Dexterity] Protective Safety Belt",
+    "desc": "The Agent takes <color=#2BAD00>10% less DMG</color>. When shielded, the Agent's <color=#2BAD00>Energy Regen is increased by 10%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone05.png"
+  },
+  "1310206": {
+    "name": "[Dexterity] Efficient Bumper",
+    "desc": "When launching a <color=#FFFFFF>Perfect Assist</color>, the Agent's <color=#2BAD00>CRIT Rate is increased by 10%</color> and <color=#2BAD00>CRIT DMG is increased by 15%</color> for 15s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardZone06.png"
+  },
+  "1310301": {
+    "name": "[Anomaly - Stun] Universal Catalyst",
+    "desc": "When Stunning or inflicting Attribute Anomaly on an enemy, all squad members' <color=#2BAD00>CRIT Rate is increased by 8%</color> and <color=#2BAD00>Anomaly Proficiency is increased by 15</color> for 20s, stacking up to 2 times. The duration of each stack is calculated separately.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly01.png"
+  },
+  "1310302": {
+    "name": "[Anomaly - Stun] Shattered Test Tube",
+    "desc": "When a <color=#FFFFFF>Chain Attack</color> hits an enemy, the target's <color=#2BAD00>Stun DMG Multiplier is increased by 25%</color> and <color=#2BAD00>DMG dealt to the target due to Attribute Anomaly is increased by 25%</color> for 10s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly02.png"
+  },
+  "1310303": {
+    "name": "[Anomaly - Stun] Growth Culture Medium",
+    "desc": "When an enemy is hit, <color=#2BAD00>Daze is increased by 15%</color> and <color=#2BAD00>Anomaly Buildup is increased by 15%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly03.png"
+  },
+  "1310304": {
+    "name": "[Anomaly - Stun] Research Microscope",
+    "desc": "All squad members' <color=#2BAD00>Impact is increased by 10%</color> and <color=#2BAD00>Anomaly Proficiency is increased by 10</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly04.png"
+  },
+  "1310305": {
+    "name": "[Anomaly - Stun] Chaos Measuring Beaker",
+    "desc": "When Stunning or inflicting Disorder on an enemy, the Agent <color=#2BAD00>recovers 2.5% HP</color>, <color=#2BAD00>10 Energy</color>, and <color=#2BAD00>an additional 100 Decibels</color>. This effect can trigger once every 20s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly06.png"
+  },
+  "1310306": {
+    "name": "[Anomaly - Stun] Compound Stimulant",
+    "desc": "<color=#FFFFFF>Chain Attack</color> <color=#2BAD00>deals 15% increased DMG</color> and Attribute Anomaly <color=#2BAD00>deals 15% increased DMG</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomaly05.png"
+  },
+  "1310401": {
+    "name": "[Adversity] Powerful Dialysis Machine",
+    "desc": "When launching an <color=#FFFFFF>Ultimate</color>, the Agent <color=#2BAD00>recovers 10 Energy</color> while <color=#CF4029>consuming 20% of current HP</color>. For every 100 HP consumed, the Agent's <color=#2BAD00>DMG dealt is increased by 1%</color> for 10s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity01.png"
+  },
+  "1310402": {
+    "name": "[Adversity] Pacemaker of Vitality",
+    "desc": "Increases Agent <color=#2BAD00>Max HP by 25%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity02.png"
+  },
+  "1310403": {
+    "name": "[Adversity] Emergency Partition",
+    "desc": "When losing HP, <color=#2BAD00>DMG dealt by the Agent is increased by 20%</color>, <color=#2BAD00>CRIT Rate is increased by 10%</color>, and <color=#2BAD00>Anti-Interrupt Level is increased</color>, lasting for 10s and triggering once every 20s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity03.png"
+  },
+  "1310404": {
+    "name": "[Adversity] Dual Injection Needle",
+    "desc": "DMG dealt by <color=#FFFFFF>Special Attacks</color> and <color=#FFFFFF>EX Special Attacks</color> is <color=#2BAD00>increased by 15%</color>. When the skill hits an enemy, the Agent <color=#2BAD00>recovers 5% HP</color>. This effect can trigger once every 20s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity04.png"
+  },
+  "1310405": {
+    "name": "[Adversity] Targeted Antibodies",
+    "desc": "When attacking enemies with a higher HP percentage than the Agent, the Agent's <color=#2BAD00>DMG dealt is increased by 10%</color> and <color=#2BAD00>Anomaly Buildup is increased by 10%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity06.png"
+  },
+  "1310406": {
+    "name": "[Adversity] Pain-Killer Hormones",
+    "desc": "When losing HP, the Agent's <color=#2BAD00>ATK is increased by 10%</color> for 10s. When recovering HP, the Agent's <color=#2BAD00>Anomaly Buildup Rate is increased by 10%</color> for 10s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAdversity05.png"
+  },
+  "1310901": {
+    "name": "[General] Lucky Stars",
+    "desc": "Launching an <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>increases the Agent's DMG by 5%</color> for 30s, stacking up to 5 times. The duration of each stack is calculated separately.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1310902": {
+    "name": "[General] Energy Restorer MKI",
+    "desc": "When triggering <color=#FFFFFF>Chain Attack</color>, Agents <color=#2BAD00>recover 5 Energy</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard53.png"
+  },
+  "1310903": {
+    "name": "[General] Energy Restorer MKII",
+    "desc": "<color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>DMG increases by 15%</color> and <color=#2BAD00>Daze inflicted increases by 10%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard54.png"
+  },
+  "1310904": {
+    "name": "[General] Water Gun",
+    "desc": "Landing a critical hit <color=#2BAD00>increases the Agent's CRIT DMG by 3%</color> for 10s, stacking up to 10 times. Repeated triggers reset the duration.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard06.png"
+  },
+  "1310905": {
+    "name": "[General] Bubble Gun",
+    "desc": "Landing a critical hit <color=#2BAD00>increases Daze inflicted by the Agent by 15%</color> for 3s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1310906": {
+    "name": "[General] Like & Subscribe Gun",
+    "desc": "Each non-critical hit <color=#2BAD00>increases the Agent's CRIT Rate by 6%</color>. This effect is reset after the Agent triggers a critical hit.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1310907": {
+    "name": "[General] Falling Starsea Armor",
+    "desc": "Hitting an enemy with an <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>generates a Shield equal to 10% of the Agent's Max HP</color>. This effect can trigger once every 10s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1310908": {
+    "name": "[General] Ultra Sacred Sword of Radiance",
+    "desc": "Shielded Agents <color=#2BAD00>deal 30% more DMG</color> to enemies within 6m.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1310909": {
+    "name": "[General] BUG Shield",
+    "desc": "When attacked, if the Agent's HP is below 25%, <color=#2BAD00>a shield that is equal to 15% of Max HP</color> is generated for 10s. (This effect can only be triggered once by each Agent per combat encounter.)",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1310910": {
+    "name": "[General] Tripartite Battle Spinner",
+    "desc": "Activating <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>grants 10% Decibels</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1310911": {
+    "name": "[General] Three Glass Marbles",
+    "desc": "<color=#2BAD00>Increases the duration that enemies are stunned for by 15%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1310912": {
+    "name": "[General] Tri-End Toy Stethoscope",
+    "desc": "<color=#2BAD00>Increases Daze inflicted by <color=#FFFFFF>EX Special Attack</color> by 15%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1310913": {
+    "name": "[General] Bomb Difuser",
+    "desc": "<color=#FFFFFF>Vital View</color> triggered by <color=#FFFFFF>Evasive Assist</color> <color=#2BAD00>lasts 5s longer</color>. <color=#FFFFFF>Defensive Assist</color> <color=#2BAD00>inflicts 30% more Daze</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1310914": {
+    "name": "[General] Demolition Hammer",
+    "desc": "Triggering a <color=#FFFFFF>Perfect Assist</color> <color=#2BAD00>increases all squad members' Anomaly Buildup Rate by 25%</color> for 10s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1310915": {
+    "name": "[General] Hammer Drill",
+    "desc": "Triggering <color=#FFFFFF>Perfect Assist</color> <color=#2BAD00>increases all squad members' CRIT DMG by 20%</color> for 10s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard34.png"
+  },
+  "1310916": {
+    "name": "[General] Untitled Book",
+    "desc": "<color=#FFFFFF>Dodge Counter</color> <color=#2BAD00>DMG increases by 30%</color> and <color=#2BAD00>Daze inflicted increases by 15%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard50.png"
+  },
+  "1310917": {
+    "name": "[General] Secret File",
+    "desc": "When attacked, quickly press Dodge to <color=#2BAD00>immediately break free</color> and <color=#2BAD00>recover 50% of the DMG taken as HP</color>. This effect can trigger once every <color=#2BAD00>4</color>s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard55.png"
+  },
+  "1310918": {
+    "name": "[General] General File",
+    "desc": "<color=#FFFFFF>Perfect Dodge</color> is <color=#2BAD00>easier</color> to trigger, and <color=#FFFFFF>Dodge Counter</color> <color=#2BAD00>DMG is increased by 15%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard56.png"
+  },
+  "1310919": {
+    "name": "[General] Sword Catalog",
+    "desc": "Agents <color=#2BAD00>deal 25% more DMG</color> but also <color=#CF4029>take 15% more DMG</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1310920": {
+    "name": "[General] Insect Catalog",
+    "desc": "Attacks against enemies with less than 50% HP <color=#2BAD00>deal 15% more DMG</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1310921": {
+    "name": "[General] Plant Catalog",
+    "desc": "Off-field Agents with 25% or lower HP <color=#2BAD00>slowly recover HP</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1310932": {
+    "name": "Suction Welding Torch",
+    "desc": "A magical item that maximizes the level of corresponding General Gear in your collectibles.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard61.png"
+  },
+  "1340074": {
+    "name": "Copper Paperweight",
+    "desc": "Agent's reduction efficiency against <color=#FFAF2C>Miasmic Shield</color> increases by 15%.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard62.png"
+  },
+  "1340075": {
+    "name": "Embroidered Sachet",
+    "desc": "When an Agent is attacked by a monster's Miasma Corruption attack, the accumulated <color=#FFAF2C>Miasma Contamination</color> value reduces by 20%.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard63.png"
+  },
+  "1340076": {
+    "name": "Gilded Ink Block",
+    "desc": "When the Agent is inside the <color=#FFAF2C>Miasmic Field</color>, DMG dealt increases by 30%.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard64.png"
+  },
+  "1311001": {
+    "name": "[Mobile] Energy-Saving Vehicle",
+    "desc": "When other characters use <color=#FFFFFF>Tag Assist</color>, the active character <color=#2BAD00>recovers 5 Energy and 200 Decibels</color>. This effect can trigger once every 10s per character.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch01.png"
+  },
+  "1311002": {
+    "name": "[Mobile] Mighty Fists",
+    "desc": "<color=#FFFFFF>Tag Assist</color> will execute normal enemies and Elite enemies with HP below 15%. When triggered, the whole squad's <color=#2BAD00>ATK increases by 10%</color> for 30s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch04.png"
+  },
+  "1311003": {
+    "name": "[Mobile] Carousel",
+    "desc": "<color=#FFFFFF>Aftershocks</color> <color=#2BAD00>DMG increases by 20%, Daze by 15%, and Anomaly Buildup by 30%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch03.png"
+  },
+  "1311004": {
+    "name": "[Mobile] Inflatable Swimming Ring",
+    "desc": "When <color=#FFFFFF>Tag Assist</color> hits enemies, <color=#2BAD00>restores 5% HP</color> for the active character. Each character can trigger this effect once every 15s.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch02.png"
+  },
+  "1311005": {
+    "name": "[Mobile] Kids' Lunchbox",
+    "desc": "The active character's <color=#2BAD00>Energy Generation Rate increases by 10% and Decibel Generation Rate increases by 10%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch05.png"
+  },
+  "1311006": {
+    "name": "[Mobile] Hurricane Swing",
+    "desc": "<color=#FFFFFF>Tag Assist</color> <color=#2BAD00>reduces DEF by 10%</color> for 10s upon hitting an enemy.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSwitch06.png"
+  },
+  "1319901": {
+    "name": "Geppetto - Stable Restraint",
+    "desc": "For every 100 Gear Coins owned, gain a buff that increases DMG dealt by <color=#2BAD00>1%</color> and Energy Generation Rate by <color=#2BAD00>0.5%</color> when dealing DMG to Geppetto.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto01.png"
+  },
+  "1319902": {
+    "name": "Geppetto - Blood for Blood",
+    "desc": "When Geppetto becomes Impaired, all squad members recover <color=#2BAD00>15%</color> HP.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto02.png"
+  },
+  "1319903": {
+    "name": "Geppetto - Melee Thrust",
+    "desc": "Increase DMG dealt to Geppetto by <color=#2BAD00>20%</color> and reduce DMG received from Geppetto by <color=#2BAD00>20%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto03.png"
+  },
+  "1319904": {
+    "name": "Geppetto - Moment of Judgment",
+    "desc": "When Geppetto becomes Impaired, its DEF drops by <color=#2BAD00>15%</color>, stacking up to 2 times.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto04.png"
+  },
+  "1319905": {
+    "name": "Geppetto - Execution Order",
+    "desc": "When Suspended is removed, all squad members gain <color=#2BAD00>300</color> Decibels, and the next <color=#FFFFFF>Ultimate</color> DMG of each Agent is increased by <color=#2BAD00>30%</color>, stacking up to 3 times.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardGeppetto05.png"
+  },
+  "1001057": {
+    "name": "[Hollow] Demolition Axe",
+    "desc": "<color=#FFAF2C>Can break through walls!</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard48.png"
+  },
+  "1001058": {
+    "name": "[Hollow] Koleda's Demolition Hammer",
+    "desc": "<color=#FFAF2C>Spikes no longer deal damage</color>, but instead grant <color=#2BAD00>+3</color> HP.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard47.png"
+  },
+  "1001059": {
+    "name": "[Hollow] Grace's Bomb Defuser",
+    "desc": "<color=#2BAD00>+25% </color>EXP gained from combat",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard46.png"
+  },
+  "1001060": {
+    "name": "[Hollow] Ben's Strength",
+    "desc": "Opening <color=#2BAD00>chests</color> drops more items.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001061": {
+    "name": "[Hollow] VIP Card",
+    "desc": "Receive <color=#2BAD00>50%</color> of spent Coins back when purchasing items.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001062": {
+    "name": "[Hollow] Health Medicine",
+    "desc": "When picking up Coins, there is a 50% chance to generate a <color=#2BAD00>Health Recovery Tile</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001063": {
+    "name": "[Hollow] Combo Sword",
+    "desc": "When picking up coins, there's a 50% chance to generate an <color=#FFAF2C>explosive bomb</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001064": {
+    "name": "[Hollow] Standard Power Medicine",
+    "desc": "When picking up Coins, there is a 50% chance to generate an <color=#2BAD00>EXP Tile</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001065": {
+    "name": "[Hollow] Combat Gloves Module",
+    "desc": "When picking up Coins, there is a 25% chance to spawn a <color=#CF4029>monster</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001066": {
+    "name": "[Hollow] Farewell Paper Cranes",
+    "desc": "Place 1 additional <color=#FFAF2C>explosive bomb</color> above and below when placing bombs.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001067": {
+    "name": "[Hollow] Bangboo Stand-In",
+    "desc": "50% chance to generate a <color=#2BAD00>Coin Tile</color> when defeating monsters.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001068": {
+    "name": "[Hollow] Endgame Wish Star",
+    "desc": "<color=#CF4029>Health Recovery Tiles no longer restore HP</color>, instead giving all squad members <color=#2BAD00>+1</color> ATK",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001069": {
+    "name": "[Hollow] Combo Sword",
+    "desc": "Gain a temporary <color=#2BAD00>+1</color> ATK when killing monsters. Resets at the end of each floor.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001070": {
+    "name": "[Hollow] Enhanced Health Medicine",
+    "desc": "Generate 1 <color=#FFAF2C>explosive bomb</color> every 5 moves and lose <color=#CF4029>3</color> HP.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001071": {
+    "name": "[Hollow] Power Hook",
+    "desc": "<color=#2BAD00>+1</color> bomb explosion length.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard39.png"
+  },
+  "1001072": {
+    "name": "[Hollow] Hollow Robot",
+    "desc": "Significantly increase the chance to generate good items when smashing <color=#2BAD00>Ether crystals</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001073": {
+    "name": "[Hollow] Jackbox Bomb",
+    "desc": "At the start of each floor, generate <color=#CF4029>15 spikes</color> and <color=#2BAD00>2 Resonium Tiles</color> throughout the floor.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard45.png"
+  },
+  "1001074": {
+    "name": "[Hollow] Security Scanner",
+    "desc": "When stepping on spikes, <color=#2BAD00>no HP is lost</color>, but 1 <color=#FFAF2C>explosive bomb</color> is generated.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard44.png"
+  },
+  "1001075": {
+    "name": "[Hollow] Nameless Book",
+    "desc": "When a bomb explodes, random items are generated. (There is a cap on the total output per floor)",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard38.png"
+  },
+  "1001076": {
+    "name": "[Hollow] Blue Shield",
+    "desc": "Each time you collect Coins 10 times, gain <color=#2BAD00>+1</color> ATK",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard43.png"
+  },
+  "1001077": {
+    "name": "[General] Hero's Cape",
+    "desc": "All squad members' ATK <color=#2BAD00>+5</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard41.png"
+  },
+  "1001078": {
+    "name": "[General] Cat Comb",
+    "desc": "The protagonist immediately gains <color=#2BAD00>+15</color> ATK, but for each attack, ATK <color=#CF4029>-1</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard42.png"
+  },
+  "1001079": {
+    "name": "[General] Bag of Salt",
+    "desc": "1 <color=#FFAF2C>explosive bomb</color> is generated instantly when a monster is killed",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard40.png"
+  },
+  "1001080": {
+    "name": "[Hollow] Casino Banknote",
+    "desc": "Protagonist ATK <color=#CF4029>-5</color>, but gains <color=#2BAD00>+1</color> ATK for every 100 Coins held.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard07.png"
+  },
+  "1001081": {
+    "name": "[Hollow] Coin Collection",
+    "desc": "<color=#FFAF2C>Restocking the shop becomes free</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard18.png"
+  },
+  "1001082": {
+    "name": "[Hollow] Paper Airplane",
+    "desc": "Protagonist HP <color=#CF4029>-20</color>, but for every <color=#2BAD00>10</color> HP, ATK increases by <color=#2BAD00>+1</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard05.png"
+  },
+  "1001083": {
+    "name": "[Hollow] Lucky Stars",
+    "desc": "Protagonist gains <color=#2BAD00>+4</color> ATK, but loses <color=#CF4029>-15</color> HP.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard08.png"
+  },
+  "1001084": {
+    "name": "[Hollow] Expired VIP Card",
+    "desc": "When the Protagonist takes DMG, there is a 10% chance of generating 1 <color=#2BAD00>Coin Tile</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard30.png"
+  },
+  "1001085": {
+    "name": "[Hollow] Glass Marbles",
+    "desc": "When the Protagonist attacks, there's a <color=#2BAD00>10%</color> chance to trigger a critical hit, dealing double DMG.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard14.png"
+  },
+  "1001086": {
+    "name": "[Hollow] Mini Punch Bag",
+    "desc": "Protagonist <color=#CF4029>-2</color> ATK, <color=#2BAD00>+30</color> HP.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard01.png"
+  },
+  "1001087": {
+    "name": "[Hollow] Cat Ears Headset",
+    "desc": "Protagonist gains<color=#2BAD00> 100 </color>Gear Coins on CRIT.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard02.png"
+  },
+  "1001089": {
+    "name": "[Hollow] Bubble Gun",
+    "desc": "Protagonist gains <color=#2BAD00>+50%</color> CRIT Rate but <color=#CF4029>cannot recover HP</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard09.png"
+  },
+  "1001090": {
+    "name": "[Hollow] Toy Trumpet",
+    "desc": "Protagonist receives <color=#2BAD00>-1</color> DMG from attacks.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard03.png"
+  },
+  "1001091": {
+    "name": "[Hollow] Spray Paint",
+    "desc": "Squadmate <color=#2BAD00>+2</color> ATK",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard10.png"
+  },
+  "1001092": {
+    "name": "[Hollow] Bangboo Pillow",
+    "desc": "Protagonist gains <color=#2BAD00>+10</color> HP.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard13.png"
+  },
+  "1001093": {
+    "name": "[Hollow] Toy Castle",
+    "desc": "Protagonist gains <color=#2BAD00>+1</color> ATK",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard23.png"
+  },
+  "1001094": {
+    "name": "[Hollow] Sword Catalog",
+    "desc": "Protagonist gains <color=#2BAD00>20%</color> Lifesteal, <color=#CF4029>but current HP becomes 2</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard15.png"
+  },
+  "1001095": {
+    "name": "[Hollow] Herbarium",
+    "desc": "All squad members' ATK <color=#2BAD00>+1</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard16.png"
+  },
+  "1001096": {
+    "name": "[Hollow] Toy Laser Blade",
+    "desc": "Protagonist gains <color=#2BAD00>+3</color> ATK.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard27.png"
+  },
+  "1001097": {
+    "name": "[Hollow] Battle Spinner",
+    "desc": "All squad members' HP <color=#2BAD00>+10</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard22.png"
+  },
+  "1001098": {
+    "name": "[Hollow] Insect Catalog",
+    "desc": "CRIT Rate against bosses <color=#2BAD00>+30%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard17.png"
+  },
+  "1001099": {
+    "name": "[Hollow] Funny Alarm",
+    "desc": "Protagonist HP <color=#2BAD00>+200</color>, HP <color=#CF4029>-3</color> per movement.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard25.png"
+  },
+  "1001100": {
+    "name": "[Hollow] Ordinary Card Pack",
+    "desc": "When the protagonist takes DMG, 10% chance to generate <color=#2BAD00>1 Bangboo Plug-In</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard11.png"
+  },
+  "1370101": {
+    "name": "[Attack: Eradication] Greataxe of Conquest",
+    "desc": "Upon entering combat, gain 3 stacks of <color=#FFFFFF>Enhancement</color>. Each stack of <color=#FFFFFF>Enhancement</color> grants the Agent bonus <color=#2BAD00>16% CRIT DMG</color>. Getting hit removes 1 stack of <color=#FFFFFF>Enhancement</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS201.png"
+  },
+  "1370102": {
+    "name": "[Attack: Eradication] Fluttering Butterfly",
+    "desc": "<color=#FFFFFF>Dodge</color> turns the following <color=#FFFFFF>Dash Attack</color> into a <color=#FFFFFF>Dodge Counter</color>. This effect can trigger once every 5s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS202.png"
+  },
+  "1370103": {
+    "name": "[Attack: Eradication] Total Eradication",
+    "desc": "Agents <color=#2BAD00>ignore 20% of enemy DEF</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS203.png"
+  },
+  "1370104": {
+    "name": "[Attack: Eradication] Hard Knuckles",
+    "desc": "<color=#2BAD00>Increases Agent CRIT DMG by 24%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS204.png"
+  },
+  "1370105": {
+    "name": "[Attack: Eradication] Cutting Gale",
+    "desc": "<color=#2BAD00>Increases Agent ATK by 270</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS205.png"
+  },
+  "1370106": {
+    "name": "[Attack: Eradication] Strike Left and Right",
+    "desc": "<color=#2BAD00>Increases Agent CRIT Rate by 12%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAttackS206.png"
+  },
+  "1228206002": {
+    "name": "[Hollow] Giveaway CD",
+    "desc": "Generates 1 <color=#2BAD00>Treasure Chest Tile</color> upon defeating a boss.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard28.png"
+  },
+  "1228206003": {
+    "name": "[Hollow] Deluxe Surprise Box",
+    "desc": "All squad members gain <color=#2BAD00>+3</color> ATK and <color=#2BAD00>+30</color> HP.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard21.png"
+  },
+  "1228206004": {
+    "name": "[Hollow] Toy Stethoscope",
+    "desc": "Squad members' ATK <color=#CF4029>-5</color>, but the protagonist gains <color=#2BAD00>+15</color> ATK.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard20.png"
+  },
+  "1228206005": {
+    "name": "[Hollow] Kaleido Flashlight",
+    "desc": "Protagonist ATK <color=#CF4029>-10</color>, but squad members gain <color=#2BAD00>+4</color> ATK.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard19.png"
+  },
+  "1228206006": {
+    "name": "[Hollow] Toy Ambulance",
+    "desc": "When the protagonist takes DMG, there's a 20% chance to generate 1 <color=#2BAD00>Health Recovery Tile</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard24.png"
+  },
+  "1228206007": {
+    "name": "[Hollow] Paper Crane",
+    "desc": "Protagonist gains <color=#2BAD00>+15</color> ATK, <color=#CF4029>which is removed when taking DMG</color>, and resets every floor.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard26.png"
+  },
+  "1228206008": {
+    "name": "[Deployed] Penguinboo",
+    "desc": "Penguinboo\n<color=#2BAD00>ATK: 5, HP: 20</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPenguinboo.png"
+  },
+  "1228206009": {
+    "name": "[Deployed] Luckyboo",
+    "desc": "Luckyboo\n<color=#2BAD00>ATK: 3, HP: 30</color>\nConsumes Gear Coins, gaining <color=#2BAD00>+1</color> ATK for every 3 Coins consumed.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooLuckyboo.png"
+  },
+  "1228206010": {
+    "name": "[Deployed] Exploreboo",
+    "desc": "Exploreboo\n<color=#FFAF2C>Consumes key tiles and generates chests.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooExploreboo.png"
+  },
+  "1228206011": {
+    "name": "[Deployed] Sumoboo",
+    "desc": "Sumoboo\n<color=#2BAD00>ATK: 20, HP: 5</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSumoboo.png"
+  },
+  "1228206012": {
+    "name": "[Deployed] Paperboo",
+    "desc": "Paperboo\n<color=#2BAD00>ATK: 4, HP: 20</color>\nGains <color=#2BAD00>+2</color> ATK for each additional Bangboo.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooPaperboo.png"
+  },
+  "1228206013": {
+    "name": "[Deployed] Bagboo",
+    "desc": "Bagboo\n<color=#2BAD00>ATK: 2, HP: 20</color>\n<color=#FF0000>Deals 7x DMG when attacking.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooBagboo.png"
+  },
+  "1228206014": {
+    "name": "[Deployed] Avocaboo",
+    "desc": "Avocaboo\n<color=#2BAD00>ATK: 2, HP: 40</color>\nGains <color=#2BAD00>+5</color> HP when attacking.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAvocaboo.png"
+  },
+  "1228206015": {
+    "name": "[Deployed] Sharkboo",
+    "desc": "Sharkboo\n<color=#2BAD00>ATK: 10, HP: 35</color>\nDoes not follow the Protagonist.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSharkboo.png"
+  },
+  "1228206016": {
+    "name": "[Deployed] Safety",
+    "desc": "Safety\n<color=#FFAF2C>Breaks walls and occasionally finds valuable items.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooSafety.png"
+  },
+  "1228206017": {
+    "name": "[Deployed] Devilboo",
+    "desc": "Devilboo\n<color=#FFAF2C>Consumes health recovery tiles and has a high chance to generate ATK tiles.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooDevilboo.png"
+  },
+  "1228206018": {
+    "name": "[Deployed] Amillion",
+    "desc": "Amillion\n<color=#2BAD00>ATK: 8, HP: 50</color>\n<color=#CF4029>Will attack the shopkeeper.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206019": {
+    "name": "[Deployed] Golden Bangboo",
+    "desc": "Golden Bangboo\n<color=#2BAD00>ATK: 0, HP: 10</color>\n<color=#FFAF2C>ATK equals 1/100 of Coin count.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard29.png"
+  },
+  "1228206020": {
+    "name": "Deployed Officer Cui",
+    "desc": "Cui\n<color=#2BAD00>ATK: 20, HP: 20</color>\n<color=#FFAF2C>DMG taken by Cui is transferred to the protagonist.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooOfficerCui.png"
+  },
+  "1228206021": {
+    "name": "[Deployed] Omnom",
+    "desc": "Omnom\n<color=#2BAD00>ATK: 4, HP: 20</color>\nATK is always equal to 1/5 of its HP.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardToy05.png"
+  },
+  "1228206022": {
+    "name": "Anby Demara",
+    "desc": "<color=#FFAF2C>Anby</color>\n<color=#2BAD00>ATK: 8, HP: 25</color>\nAnby has a <color=#2BAD00>20%</color> CRIT Rate, dealing double DMG upon a critical hit.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1011.png"
+  },
+  "1228206023": {
+    "name": "Nekomiya Mana",
+    "desc": "<color=#FFAF2C>Nekomata</color>\n<color=#2BAD00>ATK: 12, HP: 15</color>\n<color=#FFAF2C>Nekomata generates 100 Gear Coins when attacking.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1021.png"
+  },
+  "1228206024": {
+    "name": "Nicole Demara",
+    "desc": "<color=#FFAF2C>Nicole</color>\n<color=#2BAD00>ATK: 0, HP: 24</color>\n<color=#FFAF2C>Nicole's ATK equals 1/100 of the Coin count.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1031.png"
+  },
+  "1228206025": {
+    "name": "Soldier 11",
+    "desc": "<color=#FFAF2C>Soldier 11</color>\n<color=#2BAD00>ATK: 30, HP: 60</color>\n<color=#CF4029>Soldier 11's ATK will not increase.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1041.png"
+  },
+  "1228206026": {
+    "name": "Corin Wickes",
+    "desc": "<color=#FFAF2C>Corin</color>\n<color=#2BAD00>ATK: 20, HP: 10</color>\nWhen Corin gains ATK, she'll gain <color=#2BAD00>+1</color> additional ATK.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1061.png"
+  },
+  "1228206027": {
+    "name": "Caesar King",
+    "desc": "<color=#FFAF2C>Caesar</color>\n<color=#2BAD00>ATK: 3, HP: 35</color>\nCaesar has a <color=#2BAD00>50%</color> chance to reflect DMG when hit (taking no DMG and returning the DMG to the enemy).",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1071.png"
+  },
+  "1228206028": {
+    "name": "Billy Kid",
+    "desc": "<color=#FFAF2C>Billy</color>\n<color=#2BAD00>ATK: 30, HP: 10</color>\n<color=#FFAF2C>After the Protagonist takes DMG for the first time, Billy's ATK <color=#CF4029>-15</color>.</color> Billy's attack range is <color=#2BAD00>3</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1081.png"
+  },
+  "1228206029": {
+    "name": "Hoshimi Miyabi",
+    "desc": "<color=#FFAF2C>Hoshimi Miyabi</color>\n<color=#2BAD00>ATK: 25, HP: 25</color>\nHoshimi Miyabi has a 10% chance to instantly defeat an enemy when attacking.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooAmillion.png"
+  },
+  "1228206030": {
+    "name": "Koleda Belobog",
+    "desc": "<color=#FFAF2C>Koleda</color>\n<color=#2BAD00>ATK: 10, HP: 12</color>\n<color=#FFAF2C>When Ben is on-field, Koleda's attacks are guaranteed to be critical hits.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1101.png"
+  },
+  "1228206031": {
+    "name": "Anton Ivanov",
+    "desc": "<color=#FFAF2C>Anton</color>\n<color=#2BAD00>ATK: 10, HP: 28</color>\n<color=#FFAF2C>Anton will continue attacking even after his HP drops to 0</color>, each attack thereafter will cause him to lose <color=#CF4029>1</color> ATK.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1111.png"
+  },
+  "1228206032": {
+    "name": "Ben Bigger",
+    "desc": "<color=#FFAF2C>Ben</color>\n<color=#2BAD00>ATK: 2, HP: 80</color>\nWhen Koleda is on-field, Ben has a 50% chance to generate an <color=#FFAF2C>explosive bomb</color> when attacking.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1121.png"
+  },
+  "1228206033": {
+    "name": "Tsukishiro Yanagi",
+    "desc": "<color=#FFAF2C>Tsukishiro Yanagi</color>\n<color=#2BAD00>ATK: 5, HP: 22</color>\n<color=#FFAF2C>Enemies hit by Tsukishiro Yanagi will create a box, making it so that only Yanagi can attack that enemy, and providing EXP equivalent of defeating that enemy everytime she attacks it.</color>",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1221.png"
+  },
+  "1228206034": {
+    "name": "Lighter",
+    "desc": "<color=#FFAF2C>Lighter</color>\n<color=#2BAD00>ATK: 5, HP: 40</color>\nLighter's ATK <color=#2BAD00>+20</color> while the Protagonist has less than 20 HP.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1161.png"
+  },
+  "1228206101": {
+    "name": "[General] Cleavers",
+    "desc": "When attacking, 20% chance to <color=#FFAF2C>turn enemies into Ether crystals</color> (no EXP provided)",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard31.png"
+  },
+  "1228206102": {
+    "name": "[General] Sashimi Knives",
+    "desc": "Upon destroying an Ether crystal, 30% chance to <color=#CF4029>generate an enemy</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard32.png"
+  },
+  "1228206103": {
+    "name": "[Assist] Ether Reaction Device",
+    "desc": "Immediately generate <color=#2BAD00>4</color> random Bangboo chips",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic04.png"
+  },
+  "1228206104": {
+    "name": "[Assist] Impact Feedback Device",
+    "desc": "Immediately obtain <color=#2BAD00>5</color> bombs",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic05.png"
+  },
+  "1228206105": {
+    "name": "[Assist] Dynamic Calibration Device",
+    "desc": "Immediately obtain <color=#2BAD00>10</color> keys",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic06.png"
+  },
+  "1228206106": {
+    "name": "[Assist] Hand Operated Generator",
+    "desc": "Immediately obtain <color=#2BAD00>99</color> keys",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic09.png"
+  },
+  "1228206107": {
+    "name": "[General] Fruit Peeler",
+    "desc": "Doors now open with <color=#2BAD00>1 Coin</color> and no longer consume keys",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse19.png"
+  },
+  "1228206108": {
+    "name": "[Assist] Holographic Decoy",
+    "desc": "Immediately obtain <color=#2BAD00>888</color> Coins",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic10.png"
+  },
+  "1228206109": {
+    "name": "[Assist] Activity Transfer Device",
+    "desc": "Immediately obtain <color=#2BAD00>3,000</color> Coins",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardMagic08.png"
+  },
+  "1228206110": {
+    "name": "[General] Tactical War Weapon",
+    "desc": "Immediately generates a pile of <color=#2BAD00>good things</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse32.png"
+  },
+  "1228206111": {
+    "name": "[General] Insecticide",
+    "desc": "When a bomb explodes, 30% chance to generate 1 <color=#FFAF2C>explosive bomb</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse24.png"
+  },
+  "1228206112": {
+    "name": "[General] Disposable Gloves",
+    "desc": "When the Protagonist takes DMG, deal <color=#2BAD00>1</color> DMG to all enemies on this floor",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse22.png"
+  },
+  "1228206113": {
+    "name": "[General] Multi-Functional Army Knife",
+    "desc": "Protagonist ATK <color=#2BAD00>+5</color>, <color=#CF4029>no bombs will explode</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse27.png"
+  },
+  "1228206114": {
+    "name": "[General] Aromatic Candle",
+    "desc": "<color=#2BAD00>+100%</color> EXP gained",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse12.png"
+  },
+  "1228206115": {
+    "name": "[General] Antique Pocket Watch",
+    "desc": "When picking up Coins, there is a 25% chance to generate an <color=#2BAD00>Ether crystal</color>.",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse26.png"
+  },
+  "1228206116": {
+    "name": "[General] Zoom Lens",
+    "desc": "Upon destroying an Ether crystal, 50% chance to generate 1 <color=#FFAF2C>button effect</color> (who knows what will happen?)",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse14.png"
+  },
+  "1228206117": {
+    "name": "[General] Scarlet Goblet",
+    "desc": "Upon leveling up, Protagonist HP <color=#2BAD00>+20</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse25.png"
+  },
+  "1228206119": {
+    "name": "[General] Wooden Slingshot",
+    "desc": "Upon leveling up, generate <color=#2BAD00>2</color> Bangboo Plug-Ins",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse21.png"
+  },
+  "1228206120": {
+    "name": "[General] Kettle",
+    "desc": "Upon leveling up, Protagonist ATK <color=#2BAD00>+1</color>, HP <color=#CF4029>-5</color>",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse20.png"
+  },
+  "1228206121": {
+    "name": "[General] Best Man's Bowtie",
+    "desc": "Upon making a purchase, for every 100 Coins spent, Protagonist HP <color=#2BAD00>+1</color>",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse30.png"
+  },
+  "1228206122": {
+    "name": "[General] Heavy Knives",
+    "desc": "<color=#FFAF2C>Protagonist ATK will remain equal to Gear Coin count/200 and will not be affected by any other effects</color>. (For example, with 400 Gear Coins, ATK will be 2)",
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardChessboard33.png"
+  },
+  "1228206123": {
+    "name": "[General] Miracle Starlight",
+    "desc": "Upon depleting all HP, <color=#2BAD00>50%</color> chance to revive",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse34.png"
+  },
+  "1370201": {
+    "name": "[Stun: Knock] Mini Handsaw",
+    "desc": "Upon stunning an enemy, that enemy's <color=#2BAD00>Stun DMG Multiplier increases by 37.5%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS201.png"
+  },
+  "1370202": {
+    "name": "[Stun: Knock] Portable Angle Grinder",
+    "desc": "Upon stunning an enemy, the whole squad <color=#2BAD00>recovers 5 Energy</color>, <color=#2BAD00>6 Adrenaline</color>, or <color=#2BAD00>5 Sharpness</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS202.png"
+  },
+  "1370203": {
+    "name": "[Stun: Knock] Multi-Function Circular Saw",
+    "desc": "<color=#2BAD00>Increases Agent DMG dealt to Stunned enemies by 45%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS203.png"
+  },
+  "1370204": {
+    "name": "[Stun: Knock] High-Speed Chainsaw",
+    "desc": "<color=#2BAD00>Increases the duration enemies are stunned by 10%</color>.\n",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS204.png"
+  },
+  "1370205": {
+    "name": "[Stun: Knock] Industrial Explosive",
+    "desc": "Agents <color=#2BAD00>inflict 10% more Daze</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS205.png"
+  },
+  "1370206": {
+    "name": "[Stun: Knock] Power Impact Drill",
+    "desc": "Upon Stun recovery, the enemy <color=#2BAD00>accumulates 10% Daze</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardStunS206.png"
+  },
+  "1370301": {
+    "name": "[Anomaly: Infliction] Tactical Flashbang",
+    "desc": "Inflicting the Disorder effect <color=#2BAD00>increases the whole squad's Anomaly Proficiency by 25</color> for 15s, stacking up to 3 times. Repeated triggers reset the duration.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS201.png"
+  },
+  "1370302": {
+    "name": "[Anomaly: Infliction] Heavy Flamethrower",
+    "desc": "Agent's <color=#2BAD00>Anomaly PEN Ratio increases by 20%</color> when attacking an enemy suffering an Attribute Anomaly.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS202.png"
+  },
+  "1370303": {
+    "name": "[Anomaly: Infliction] High-Strength Pepper Spray",
+    "desc": "When an Attribute Anomaly is triggered, the whole squad either <color=#2BAD00>recovers 7 Energy</color>, <color=#2BAD00>recovers 9 Adrenaline</color>, or <color=#2BAD00>recovers 7 Sharpness</color>. This effect can trigger once every 5s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS203.png"
+  },
+  "1370304": {
+    "name": "[Anomaly: Infliction] Net Launcher",
+    "desc": "Increases Agent <color=#2BAD00>Anomaly Mastery by 60</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS204.png"
+  },
+  "1370305": {
+    "name": "[Anomaly: Infliction] High-Voltage Stun Gun",
+    "desc": "Increases Agent <color=#2BAD00>Anomaly Proficiency by 45</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS205.png"
+  },
+  "1370306": {
+    "name": "[Anomaly: Infliction] EMI Jammer",
+    "desc": "Agent <color=#2BAD00>Attribute Anomaly DMG and Disorder DMG increase by 18%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardAnomalyS206.png"
+  },
+  "1370401": {
+    "name": "[Support: Saturation] Lucky Cookie",
+    "desc": "When an Agent activates <color=#FFFFFF>Ultimate</color>, the whole squad <color=#2BAD00>recovers 17 Energy</color>, <color=#2BAD00>21 Adrenaline</color>, <color=#2BAD00>17 Sharpness</color>. This effect can trigger once every 20s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS201.png"
+  },
+  "1370402": {
+    "name": "[Support: Saturation] Nutritional Can Food",
+    "desc": "Upon launching an <color=#FFFFFF>EX Special Attack</color>, the Agent deals <color=#2BAD00>5% more DMG</color> for 10s, stacking up to 5 times. Repeated triggers reset the duration.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS202.png"
+  },
+  "1370403": {
+    "name": "[Support: Saturation] Energy Drink",
+    "desc": "<color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>DMG increases by 44%</color>, and <color=#FFFFFF>Ultimate</color> <color=#2BAD00>DMG increases by 44%</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS203.png"
+  },
+  "1370404": {
+    "name": "[Support: Saturation] Starlight Lollipop",
+    "desc": "<color=#2BAD00>Increases</color> Decibel Generation Rate by 23%.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS204.png"
+  },
+  "1370405": {
+    "name": "[Support: Saturation] Quick-Heat Hot Pot",
+    "desc": "Energy, Adrenaline, and Sharpness <color=#2BAD00>Generation Rate increase by 18%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS205.png"
+  },
+  "1370406": {
+    "name": "[Support: Saturation] Sugar-Free Chocolate",
+    "desc": "<color=#2BAD00>Increases Agent DMG dealt by 15%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardSupseriesS206.png"
+  },
+  "1370501": {
+    "name": "[Rupture: Activation] Unwavering Resolve",
+    "desc": "<color=#2BAD00>CRIT DMG increases by 60%</color> when Agent HP drops below 70%.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS201.png"
+  },
+  "1370502": {
+    "name": "[Rupture: Activation] Heavy Hitter",
+    "desc": "<color=#2BAD00>DMG increases by 37.5%</color> when Agent HP drops below 70%.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS202.png"
+  },
+  "1370503": {
+    "name": "[Rupture: Activation] Offense-Defense Balance",
+    "desc": "When launching <color=#FFFFFF>EX Special Attack</color>, the whole squad <color=#2BAD00>restores 4% HP</color>. This effect can trigger once every 10s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS203.png"
+  },
+  "1370504": {
+    "name": "[Rupture: Activation] Champion's Proof",
+    "desc": "Increases Agent <color=#2BAD00>Max HP by 25%</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS204.png"
+  },
+  "1370505": {
+    "name": "[Rupture: Activation] Locked and Loaded",
+    "desc": "When HP is lost, Rupture Agents' <color=#2BAD00>Sheer Force increases by 270</color> while non-Rupture Agents' <color=#2BAD00>ATK increases by 324</color> for 5s. Repeated triggers reset the duration.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS205.png"
+  },
+  "1370506": {
+    "name": "[Rupture: Activation] Light of Foot",
+    "desc": "<color=#2BAD00>Increases Agent CRIT DMG by 30%</color> for 20s when losing HP. Repeated triggers reset the duration.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardRuptureS206.png"
+  },
+  "1370601": {
+    "name": "[Defense: Battle Shield] Standard-Issue Baton",
+    "desc": "Shielded Agents <color=#2BAD00>deal 25% more DMG</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS201.png"
+  },
+  "1370602": {
+    "name": "[Defense: Battle Shield] MX7 Tactical Gloves",
+    "desc": "Shielded Agents <color=#2BAD00>deal 40% more CRIT DMG</color>.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS202.png"
+  },
+  "1370603": {
+    "name": "[Defense: Battle Shield] Type-III Combat Helmet",
+    "desc": "Triggering <color=#FFFFFF>Perfect Assist</color> grants <color=#2BAD00>150 Decibels</color> to the whole squad. This effect can trigger once every 5s.",
+    "rarity": 3,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS203.png"
+  },
+  "1370604": {
+    "name": "[Defense: Battle Shield] Military Gas Mask",
+    "desc": "<color=#FFFFFF>Defensive Assist</color> <color=#2BAD00>inflicts 25% more Daze</color>.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS204.png"
+  },
+  "1370605": {
+    "name": "[Defense: Battle Shield] 4th-Gen Blast Shield",
+    "desc": "Upon entering combat, the whole squad <color=#2BAD00>gains a shield</color> equal to 10% of HP.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS205.png"
+  },
+  "1370606": {
+    "name": "[Defense: Battle Shield] Lightweight Bulletproof Armor",
+    "desc": "When triggering <color=#FFFFFF>Perfect Dodge</color>, the Agent <color=#2BAD00>gains a shield equal to 3% of HP</color>. This effect can trigger once every 5s. Repeated triggers refresh shield HP.",
+    "rarity": 2,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardDefenseS206.png"
+  }
+}

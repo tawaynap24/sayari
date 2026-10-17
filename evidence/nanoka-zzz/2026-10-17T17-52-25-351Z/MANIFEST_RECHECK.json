@@ -1,0 +1,69 @@
+{
+  "runId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "checkedAt": "2026-10-17T18:44:25.278Z",
+  "source": {
+    "dataset": "manifest",
+    "kind": "manifest",
+    "version": null,
+    "language": null,
+    "id": null,
+    "referenceUrl": "https://zzz.nanoka.cc/",
+    "url": "https://static.nanoka.cc/manifest.json",
+    "status": "fetched",
+    "httpStatus": 200,
+    "file": "objects/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json",
+    "fetchedAt": "2026-10-17T18:44:25.274Z",
+    "checkedAt": "2026-10-17T18:44:24.554Z",
+    "headers": {
+      "content-type": "application/json",
+      "etag": "W/\"dm63ndxsg9jz-et7\"",
+      "last-modified": "Fri, 16 Oct 2026 07:54:51 GMT",
+      "cache-control": "max-age=120",
+      "date": "Sat, 17 Oct 2026 18:44:25 GMT",
+      "access-control-allow-origin": "*"
+    },
+    "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+    "bytes": 19195,
+    "cacheReadAt": null,
+    "sourceUpdatedAt": null,
+    "jsonShape": {
+      "nodes": 939,
+      "leaves": 897,
+      "types": {
+        "object": 11,
+        "array": 36,
+        "string": 237,
+        "number": 655
+      },
+      "unsafeNumberCount": 0,
+      "topLevelKeys": [
+        "gi",
+        "hsr",
+        "ww",
+        "zzz",
+        "nte"
+      ]
+    }
+  },
+  "selectedVersions": [
+    {
+      "version": "3.2",
+      "channels": [
+        "live"
+      ]
+    },
+    {
+      "version": "3.3.12+19629936",
+      "channels": [
+        "latest"
+      ]
+    }
+  ],
+  "currentChannels": {
+    "live": "3.2",
+    "latest": "3.3.12+19629936"
+  },
+  "matchesSelectedChannels": true,
+  "changes": [],
+  "note": "One no-cache upstream request. This verifies channel selection at check time, not a perpetual real-time guarantee."
+}

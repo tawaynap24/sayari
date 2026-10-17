@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "provider": "ZenlessData",
+  "manifest": "releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+  "sha256": "8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab",
+  "bytes": 180943,
+  "nanokaRunId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "sourceRevision": "462563ec0f8ffc7493f6e2a46f64f8b34ea2d547",
+  "publishedAt": "2026-10-17T19:57:45.251Z"
+}

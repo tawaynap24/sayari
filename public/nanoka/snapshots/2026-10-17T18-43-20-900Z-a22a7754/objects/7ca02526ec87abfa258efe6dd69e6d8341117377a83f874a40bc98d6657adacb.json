@@ -1,0 +1,912 @@
+{
+  "1350001": {
+    "id": 1350001,
+    "name": "[Hoshimi Miyabi] Reflections and Shadows",
+    "desc": "When Hoshimi Miyabi is attacked by an enemy, she will <color=#2BAD00>automatically dodge the attack</color>, triggering <color=#FFFFFF>Perfect Dodge</color> and <color=#FFFFFF>Vital View</color>. <color=#FFFFFF>Vital View</color> lasts for 4s. The automatic dodge effect can trigger once every 12s. When the effect is triggered, Hoshimi Miyabi's <color=#2BAD00>DMG is increased by 40%</color>, lasting for 12s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "branch": {
+      "13500011": "After Hoshimi Miyabi activates <color=#FFFFFF>Dodge Counter: Kan Suzume</color> and <color=#FFFFFF>Quick Assist: Dancing Petals</color>, she will <color=#2BAD00>automatically chain into the ALT</color> <color=#FFFFFF>Frost Storm</color>, and <color=#2BAD00>reduces the target's <color=#98EFF0>Ice RES</color> by 20%</color> for 8s.",
+      "13500012": "When a <color=#FFFFFF>Perfect Dodge</color> is triggered, Hoshimi Miyabi <color=#2BAD00>recovers 6 Energy</color> and <color=#2BAD00>gains 2 points of <color=#FFFFFF>Fallen Frost</color></color>. This effect can trigger once every 8s."
+    }
+  },
+  "1350002": {
+    "id": 1350002,
+    "name": "[Hoshimi Miyabi] Frost Inferno",
+    "desc": "Enemies afflicted with <color=#FFFFFF>Icefire</color> <color=#2BAD00>take <color=#98EFF0>Frost DMG</color> equal to 180% of Hoshimi Miyabi's ATK each second</color>. Upon triggering <color=#FFFFFF>Frostburn - Break</color>, Hoshimi Miyabi can bypass the restrictions of <color=#FFFFFF>Frostburn</color> and <color=#2BAD00>immediately reapply <color=#FFFFFF>Icefire</color> to enemies</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "branch": {
+      "13500021": "Agents <color=#2BAD00>deal 75% increased <color=#F0D12B>Assault</color> and <color=#98EFF0>Shatter</color> DMG</color> to enemies inflicted with <color=#FFFFFF>Icefire</color>.",
+      "13500022": "When enemies affected by <color=#FFFFFF>Icefire</color> are afflicted with <color=#2EB6FF>Electric Attribute Anomaly</color>/<color=#FF5521>Fire Attribute Anomaly</color>, their <color=#2EB6FF>Electric RES</color>/<color=#FF5521>Fire RES</color> is <color=#2BAD00>reduced by 30%</color> for 8s."
+    }
+  },
+  "1350003": {
+    "id": 1350003,
+    "name": "[Hoshimi Miyabi] Autumn Rain's Echo",
+    "desc": "When a squadmate triggers <color=#FFFFFF>Aftershock</color>, Hoshimi Miyabi gains 1 stack of <color=#FFFFFF>Resolution</color>, stacking up to 3 times. After using <color=#FFFFFF>Basic Attack: Shimotsuki</color>, press Basic Attack <IconMap:Icon_Normal> to consume 1 stack of <color=#FFFFFF>Resolution</color> and trigger 1 instance of <color=#FFFFFF>Frost Blade Pursuit</color>, <color=#FFFFFF>Frost Blade Pursuit</color> is an <color=#FFFFFF>Aftershock</color> and can be retriggered by consuming <color=#FFFFFF>Resolution</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "branch": {
+      "13500031": "<color=#FFFFFF>Resolution</color> <color=#2BAD00>stack limit increases to 5</color>. Each time <color=#FFFFFF>Frost Blade Pursuit</color> is activated, Hoshimi Miyabi <color=#2BAD00>gains 130 additional Decibels</color>.",
+      "13500032": "When Hoshimi Miyabi activates Perfect Assist or triggers Perfect Dodge, she gains 1 stack of <color=#FFFFFF>Resolution</color>. When her <color=#FFFFFF>Resolution</color> reaches maximum stacks, the next <color=#FFFFFF>Frost Blade Pursuit</color> will give <color=#2BAD00>65% increased Aftershock DMG</color> for 5s. This effect can trigger up to once per 16s."
+    }
+  },
+  "1350011": {
+    "id": 1350011,
+    "name": "[Billy] Execution Order",
+    "desc": "Replaces <color=#FFFFFF>Basic Attack: Full Firepower</color> with <color=#FFFFFF>Basic Attack: Full Firepower - Modified</color>. This <color=#2BAD00>decreases the rate of fire to increase bullet power</color>. Upon activating this skill, Billy will <color=#2BAD00>directly enter Crouching Shot</color>, triggering <color=#FFFFFF>Core Passive: Steady Shot</color> and <color=#2BAD00>increasing his DMG dealt by an additional 100%</color>. The buff will end when he moves, returns to idle, or is knocked back or launched.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "branch": {
+      "13500111": "When Billy enters <color=#FFFFFF>Crouching Shot</color> during his Basic Attack, he triggers <color=#FFFFFF>Core Passive: Steady Shot</color>. After maintaining the buff for 1.5 seconds, he enters the <color=#FFFFFF>Starlight Descent</color> state, during which his attacks <color=#2BAD00>ignore 30%</color> of the target's <color=#F0D12B>Physical RES</color>. Additionally, he <color=#2BAD00>continuously generates Decibels</color>, <color=#2BAD00>starting at 20 points/second and gradually increasing to 50 points/second</color>, reaching the maximum after 3 seconds. This effect lasts until he is knocked back or launched.",
+      "13500112": "Once Billy lands 8 hits on enemies with <color=#FFFFFF>Basic Attack: Full Firepower - Modified</color>, the next use of his <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>will not consume energy</color>, and the skill's <color=#2BAD00>DMG will be increased by 100%</color>."
+    }
+  },
+  "1350012": {
+    "id": 1350012,
+    "name": "[Billy] Paintball Round",
+    "desc": "When Billy activates <color=#FFFFFF>Quick Assist</color>/<color=#FFFFFF>EX Special Attack</color>/<color=#FFFFFF>Chain Attack</color>/<color=#FFFFFF>Ultimate</color>, he <color=#2BAD00>gains 1/2/2/4 stacks of Charge</color>, stacking up to 4 times. When Billy performs a piercing attack in a large area around him during <color=#FFFFFF>Dash Attack: Starlight Sanction</color>, press Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>consume 1 stack of Charge</color> and trigger the skill repeatedly. Upon hit <color=#2BAD00>the enemy's DEF is reduced by 4%</color> for 12s, stacking up to 12 times, and repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "branch": {
+      "13500121": "When Billy activates <color=#FFFFFF>EX Special Attack</color>/<color=#FFFFFF>Quick Assist</color>/<color=#FFFFFF>Chain Attack</color>/<color=#FFFFFF>Ultimate</color>, the whole squad gains the <color=#FFFFFF>Cheer</color> effect for 12s. While <color=#FFFFFF>Cheer</color> is active, Agent <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> <color=#2BAD00>DMG increases by 50%</color>.",
+      "13500122": "Upon gaining Charge, <color=#2BAD00>both Charge stack number and max Charge increases by 2</color>, <color=#2BAD00>raising the stack limit to 18</color> for enemy DEF reduction. When repeatedly using this skill, the <color=#2BAD00>DMG dealt increases by 30%</color>, and each repeated use additionally <color=#2BAD00>restores 25 Decibels</color> for squadmates."
+    }
+  },
+  "1350021": {
+    "id": 1350021,
+    "name": "[Ellen] Arctic Hunt",
+    "desc": "Every 15s, Ellen applies a <color=#FFFFFF>Hunting</color> mark that lasts for 15 to a random enemy. When hitting an enemy marked with <color=#FFFFFF>Hunting</color> with <color=#FFFFFF>EX Special Attack</color> or Swift Scissors/Charged Scissor Strike from <color=#FFFFFF>Dash Attack: Arctic Ambush</color>, pressing Basic Attack <IconMap:Icon_Normal> or Special Attack <IconMap:Icon_Special> allows Ellen to <color=#2BAD00>immediately trigger the skill again</color> with <color=#2BAD00>no cost or other requirements</color>. When she obtains <color=#FFFFFF>Flash Freeze Charge</color>, each excess point of <color=#FFFFFF>Flash Freeze Charge</color> <color=#2BAD00>increases Ellen's ATK by 12%</color>. This effect lasts for 10s and stacks up to 9 times. The duration of each stack is calculated separately.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "branch": {
+      "13500211": "When applying a <color=#FFFFFF>Hunting</color> mark on enemies, Ellen's <color=#2BAD00>DMG increases by 15%</color> for 15s. When defeating an enemy marked with <color=#FFFFFF>Hunting</color>, Ellen immediately applies <color=#FFFFFF>Hunting</color> to the enemy with lowest HP currently on the field and <color=#2BAD00>further increases the DMG buff by 5%</color> (max additional increase of 60%) for the current Gear in the current Hollow operation.",
+      "13500212": "Reduces the interval and duration of applying <color=#FFFFFF>Hunting</color> mark to 8s. When Ellen attacks enemies marked with <color=#FFFFFF>Hunting</color>, <color=#2BAD00>CRIT DMG increases by 40%</color>. If the target's <color=#FFFFFF>Hunting</color> mark has been applied for less than 4s, <color=#2BAD00>CRIT DMG increases by another 60%</color>."
+    }
+  },
+  "1350022": {
+    "id": 1350022,
+    "name": "[Ellen] Icy Blade Execution",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>Basic Attack: Icy Blade</color> DMG Multiplier significantly increases: After launching <color=#FFFFFF>Quick Assist: Shark Sentinel</color> and <color=#FFFFFF>EX Special Attack: Tail Swipe</color>, <color=#2BAD00>Basic Attack: Icy Blade will be automatically launched</color> to deal <color=#98EFF0>Ice DMG</color> to <color=#2BAD00>enemies in front in a large area</color> and reduces the target's <color=#2BAD00>DEF by 40%</color>, lasting 8s. While launching <color=#FFFFFF>Basic Attack: Icy Blade</color>, Ellen will obtain 3 <color=#FFFFFF>Flash Freeze Charges</color>.}{NOAWAKEN_1191#After activating <color=#FFFFFF>Quick Assist: Shark Sentinel</color>, <color=#FFFFFF>EX Special Attack: Tail Swipe</color>, or <color=#FFFFFF>EX Special Attack: Sharknami</color>, an <color=#2BAD00>Icy Blade will be automatically unleashed</color>, dealing <color=#98EFF0>Ice DMG</color> to <color=#2BAD00>enemies in a large area ahead</color> and <color=#2BAD00>reducing the target's DEF by 40</color>, lasting 8s. When the <color=#FFFFFF>Icy Blade</color> activates, Ellen gains 3<color=#FFFFFF>Flash Freeze Charges</color>; The additional <color=#FFFFFF>Icy Blade</color> does not affect the branch or form of the original skill.}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "branch": {
+      "13500221": "{AWAKEN_1191#When activating <color=#FFFFFF>Basic Attack: Icy Blade</color>, Ellen's <color=#2BAD00>ATK increases by 45%</color>, lasting 4s. Additionally, when activating <color=#FFFFFF>Basic Attack: Icy Blade</color> for the first time after switching in, Ellen gains 3 extra <color=#FFFFFF>Flash Freeze Charges</color>. The extra <color=#FFFFFF>Flash Freeze Charges</color> can only be gained once every 8s.}{NOAWAKEN_1191#When activating <color=#FFFFFF>Icy Blade</color>, Ellen's <color=#2BAD00>ATK increases by 45%</color>, lasting 4. Additionally, when activating <color=#FFFFFF>Icy Blade</color> for the first time after switching in, Ellen gains 3 extra <color=#FFFFFF>Flash Freeze Charges</color>. The extra <color=#FFFFFF>Flash Freeze Charges</color> can only be gained once every 8s.}",
+      "13500222": "{AWAKEN_1191#When activating <color=#FFFFFF>Basic Attack: Icy Blade</color>, Ellen's<color=#98EFF0>Ice DMG</color> <color=#2BAD00>increases by 75%</color>, lasting 6.}{NOAWAKEN_1191#When activating <color=#FFFFFF>Icy Blade</color>, Ellen's <color=#98EFF0>Ice DMG</color><color=#2BAD00>increases by 75%</color>, lasting 6s.}"
+    }
+  },
+  "1350023": {
+    "id": 1350023,
+    "name": "[Ellen] Mist Tide Resurgence",
+    "desc": "When launching an <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, Ellen <color=#2BAD00>leaves behind a patch of Icy Mist</color> on the ground, dealing <color=#98EFF0>Ice DMG over time</color> for 15s. Friendly Agents have <color=#2BAD00>increased Anti-Interrupt Level</color> and <color=#2BAD00>their DMG received reduced by 30%</color> in the <color=#FFFFFF>Icy Mist</color>. Upon leaving the <color=#FFFFFF>Icy Mist</color>, the effect continues for 5s. When Ellen attacks an enemy within the <color=#FFFFFF>Icy Mist</color>, an extra instance of <color=#FFFFFF>Icy Mist</color> DMG will be triggered.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "branch": {
+      "13500231": "Enemies in the <color=#FFFFFF>Icy Mist</color> have <color=#98EFF0>their Ice RES</color> <color=#2BAD00>reduced by 15%</color> and receive <color=#2BAD00>15% increased</color> <color=#98EFF0>Ice Anomaly Buildup Rate</color> when taking DMG. When friendly Agents inflict Attribute Anomaly on enemies in the <color=#FFFFFF>Icy Mist</color>, their <color=#2BAD00>ATK increases by 35%</color> for 8s.",
+      "13500232": "When friendly Agents deal DMG and trigger a critical hit against enemies in the <color=#FFFFFF>Icy Mist</color>, the target's <color=#2BAD00>DEF is reduced by 10%</color> for 8s. If the DMG dealt is <color=#FF5521>Fire DMG</color>, <color=#2BAD00>CRIT DMG increases by 64%</color>."
+    }
+  },
+  "1350031": {
+    "id": 1350031,
+    "name": "[Tsukishiro Yanagi] Moonlit Clarity",
+    "desc": "When using the fifth attack of the <color=#FFFFFF>Basic Attack</color> combo in the <color=#FFFFFF>Jougen</color> Stance or the fourth attack of her <color=#FFFFFF>Basic Attack</color> in the <color=#FFFFFF>Kagen</color> Stance, repeatedly press or hold Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>reactivate the slash</color> up to 4 times. Each reactivation <color=#2BAD00>increases</color> the <color=#2EB6FF>Electric DMG</color> dealt by Tsukishiro Yanagi <color=#2BAD00>by 12.5%</color>, stacking up to 4 times and lasting 8s and repeated triggers reset the duration. During the reactivated slashes, Tsukishiro Yanagi <color=#2BAD00>takes 40% less DMG</color>. After activating <color=#FFFFFF>Swift Ruten</color>, press Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>quickly follow up with the reactived slashes of the other Stance</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "branch": {
+      "13500311": "During her <color=#FFFFFF>Basic Attack</color>, Tsukishiro Yanagi's <color=#2BAD00>takes 12% less DMG</color>. Additionally, Tsukishiro Yanagi can <color=#2BAD00>interrupt the current action at any time</color> to chain into <color=#FFFFFF>Special Attack: Ruten</color>. If an enemy attack is successfully blocked through <color=#FFFFFF>Special Attack: Ruten</color>, Tsukishiro Yanagi gains a <color=#2BAD00>170 increase in Anomaly Proficiency</color> for 12s.",
+      "13500312": "When executing a reactivated slash, if the attack hits an enemy, Tsukishiro Yanagi gains a <color=#FFFFFF>Disorder</color> <color=#2BAD00>DMG increase of 18%</color>. Each reactivated slash grants 1 stack of this effect, up to a maximum of 4 stacks, lasting 12s, and repeated triggers reset the duration."
+    }
+  },
+  "1350032": {
+    "id": 1350032,
+    "name": "[Tsukishiro Yanagi] Awakening Moonlight",
+    "desc": "When squadmates inflict Attribute Anomaly on enemies, it can trigger Tsukishiro Yanagi's <color=#FFFFFF>Quick Assist</color> once every 6s. After triggering <color=#FFFFFF>Quick Assist</color> in this way, Tsukishiro Yanagi will hover in the air and <color=#2BAD00>continuously guide down lightning strike attacks</color>, dealing <color=#2EB6FF>Electric DMG</color> with relatively high <color=#2EB6FF>Electric Anomaly Buildup Rate</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "branch": {
+      "13500321": "During the lightning strike attacks and subsequent downward attack, Tsukishiro Yanagi's <color=#2BAD00>ATK increases by 30%</color> and <color=#2BAD00>Anomaly Proficiency increases by 150</color>. The skill duration can be extended by repeatedly pressing or holding Special Attack <IconMap:Icon_Special>.",
+      "13500322": "When lightning strike attacks hit enemies, they <color=#2BAD00>increase the Attribute Anomaly and Disorder DMG dealt by 5%</color> for all friendly units to the target, stacking up to 10 times and lasting 8s. Additionally, when the downward attack after the lightning strikes hits enemies, it triggers the previous character's <color=#FFFFFF>Quick Assist</color>."
+    }
+  },
+  "1350033": {
+    "id": 1350033,
+    "name": "[Tsukishiro Yanagi] Moonblade Shadow Pursuit",
+    "desc": "When any squad member triggers <color=#FFFFFF>Disorder</color>, Tsukishiro Yanagi gains 1 stack of <color=#FFFFFF>Shadow Pursuit</color>, stacking up to 3 times. When the active character's heavy attack hits an enemy, if Tsukishiro Yanagi has <color=#FFFFFF>Shadow Pursuit</color>, it will automatically consume 1 stack to execute 1 instance of <color=#FFFFFF>Graceful Dance</color> against the enemy. <color=#FFFFFF>Graceful Dance</color> is an <color=#FFFFFF>Aftershock</color> and can be triggered once every 1s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "branch": {
+      "13500331": "<color=#FFFFFF>Shadow Pursuit</color> <color=#2BAD00>stack limit increases to 5</color>, and when Tsukishiro Yanagi launches an <color=#FFFFFF>EX Special Attack</color>, gain 1 stack of <color=#FFFFFF>Shadow Pursuit</color>.",
+      "13500332": "When Tsukishiro Yanagi triggers <color=#FFFFFF>Disorder</color>, the whole squad's <color=#2BAD00>Aftershock DMG increases by 50%</color> for 12s."
+    }
+  },
+  "1350041": {
+    "id": 1350041,
+    "name": "[Jane] Phantasm Strike",
+    "desc": "<color=#2BAD00>Significantly increases the continuous attack duration</color> of <color=#FFFFFF>Basic Attack: Salchow Jump</color>. Triggering the Finishing Move when there is an incoming attack activates <color=#FFFFFF>Perfect Dodge</color>. When the continuous attack duration reaches maximum or <color=#FFFFFF>Perfect Dodge</color> is triggered by the Finishing Move, the Finishing Move will be enhanced to <color=#FFFFFF>Salchow Jump - Airborne</color>. When this skill is activated, own <color=#F0D12B>Physical Anomaly Buildup Rate</color> <color=#2BAD00>increases by 70%</color> for 15s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "branch": {
+      "13500411": "When any squad member inflicts an Attribute Anomaly on enemies, Jane will immediately enter the <color=#FFFFFF>Passion</color> state, gain one usage of <color=#FFFFFF>Basic Attack: Salchow Jump</color>, and restore <color=#FFFFFF>Passion Stream</color> to maximum. This effect can only be triggered once every 10s.",
+      "13500412": "When triggering a <color=#FFFFFF>Perfect Dodge</color> or activating a <color=#FFFFFF>Defensive Assist</color>, <color=#FFFFFF>Passion Stream</color> is <color=#2BAD00>greatly increased</color>, replacing the <color=#FFFFFF>Passion</color> state with the <color=#FFFFFF>Overload Passion</color> state. In this state, Jane's <color=#2BAD00>ATK is additionally increased by 40%</color>. <color=#FFFFFF>Passion Stream</color> will automatically decrease over time, and hitting enemies with attacks <color=#2BAD00>no longer consumes</color> <color=#FFFFFF>Passion Stream</color>."
+    }
+  },
+  "1350042": {
+    "id": 1350042,
+    "name": "[Jane] Encircle and Hunt",
+    "desc": "{AWAKEN_1261#<color=#FFFFFF>EX Special Attack: Aerial Sweep</color> is upgraded to <color=#FFFFFF>EX Special Attack: Aerial Sweep - Onslaught</color>, with its DMG Multiplier and Anomaly Buildup greatly increased}{NOAWAKEN_1261#<color=#FFFFFF>EX Special Attack: Aerial Sweep</color> is upgraded to <color=#FFFFFF>EX Special Attack: Aerial Sweep - Onslaught</color>}. Hitting an enemy with this attack inflicts <color=#FFFFFF>Wound</color> on the target. While in this state, the target takes <color=#F0D12B>Physical DMG</color> equal to 60% of Jian's ATK and accumulates <color=#F0D12B>Physical Anomaly Buildup</color> once per second for 15s. Repeated triggers refresh the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "branch": {
+      "13500421": "When Jane triggers <color=#FFFFFF>Assault</color>, increases the whole squad's <color=#2BAD00>Anomaly Proficiency by 50 and Anomaly Buildup Rate by 70%</color> for 15s. Repeated triggers reset the duration.",
+      "13500422": "When other squad members attack enemies inflicted by <color=#FFFFFF>Wound</color>, <color=#FFFFFF>Wound</color> will be additionally triggered, dealing an instance of DMG based on that character's attribute equal to 120% of Jane's ATK and accumulating Anomaly Buildup. A single character can trigger this effect once every 3s."
+    }
+  },
+  "1350043": {
+    "id": 1350043,
+    "name": "[Jane] Playful Pursuit",
+    "desc": "When other squad members trigger <color=#F0D12B>Assault</color>, Jane will launch an <color=#FFFFFF>EX Special Attack</color> centered around the target enemy. This DMG will be treated as <color=#FFFFFF>Aftershock</color> DMG. This effect can be triggered once every 8s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "branch": {
+      "13500431": "When any squad member triggers <color=#FFFFFF>Assault</color>, it reduces enemy's <color=#F0D12B>Physical RES</color> <color=#2BAD00>by 15%</color> and <color=#F0D12B>Physical Anomaly Buildup RES</color> <color=#2BAD00>by 30%</color> for 15s. Repeated triggers reset the duration.",
+      "13500432": "When other squad members trigger Jane's <color=#FFFFFF>Aftershock</color> twice through <color=#FFFFFF>Playful Pursuit</color>, on the next trigger, Jane will unleash a <color=#FFFFFF>Chain Attack</color> centered around the target enemy. This attack counts as an <color=#FFFFFF>Aftershock</color>. This <color=#FFFFFF>Chain Attack</color> gains <color=#2BAD00>200% increased DMG and 200% increased Anomaly Buildup Rate</color>."
+    }
+  },
+  "1350051": {
+    "id": 1350051,
+    "name": "[Corin] Speed-Cleaning Technique",
+    "desc": "During the 1st, 2nd and 3rd hits of a <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dash Attack</color>, <color=#FFFFFF>Dodge Counter</color>, or <color=#FFFFFF>Quick Assist</color>, repeatedly press or hold Basic Attack <IconMap:Icon_Normal> to <color=#2BAD00>directly follow up with the 4th hit of the Basic Attack</color> and launch a <color=#2BAD00>high-speed spin slash at enemies</color> ahead, and when Corin triggers a <color=#FFFFFF>Perfect Dodge</color>, she <color=#2BAD00>recovers 20 Energy</color> once per 10s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "branch": {
+      "13500511": "During <color=#FFFFFF>EX Special Attack</color>, holding <color=#FFFFFF>Special Attack</color> <IconMap:Icon_Special> to continuously slash enemies for over 0.5 seconds will trigger the <color=#FFFFFF>Overclock State</color>, <color=#2BAD00>continuously gathering enemies</color>. When the attack hits enemies 10 times, it will trigger <color=#FFFFFF>Overclock Overload</color>, <color=#2BAD00>additionally dealing one instance of</color> <color=#F0D12B>Physical DMG</color> <color=#2BAD00>equivalent to 630% of Corin's ATK</color>.",
+      "13500512": "When Corin hits enemies with Chainsaw extended slashes, she gains 1 stack of Charge. At 10 stacks, the next slash applies the <color=#FFFFFF>Laceration</color> effect on enemies, dealing <color=#F0D12B>Physical DMG</color> equivalent to <color=#2BAD00>20% of Corin's ATK</color> every 3s, stacking up to 10 times and lasts 12s. Repeated triggers reset the duration."
+    }
+  },
+  "1350052": {
+    "id": 1350052,
+    "name": "[Corin] Tea Break Time",
+    "desc": "Corin's <color=#FFFFFF>Dash Attack</color> and <color=#FFFFFF>Quick Assist</color> are replaced with <color=#FFFFFF>Dash Attack: Oopsy-Daisy! - Modified</color>. Hold the <color=#FFFFFF>Basic Attack</color> button to maintain sprint state, which ends after hitting enemies 30 times with consecutive chainsaw slashes or upon releasing the button. <color=#FFFFFF>Dash Attack: Oopsy-Daisy! - Modified</color> will <color=#2BAD00>reduce enemy DEF by 3%</color> when it hits, stacking up to 10 times and lasting 15s. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "branch": {
+      "13500521": "When Corin activates <color=#FFFFFF>Quick Assist</color>, <color=#FFFFFF>Perfect Assist</color>, <color=#FFFFFF>Dash Attack</color>, and <color=#FFFFFF>EX Special Attack</color>, the whole squad's <color=#2BAD00>ATK increases by 16%</color> for 15s.",
+      "13500522": "When <color=#FFFFFF>Dash Attack: Oopsy-Daisy! - Modified</color> hits enemies, <color=#2BAD00>DEF reduction effect is increased to 6%</color>."
+    }
+  },
+  "1350061": {
+    "id": 1350061,
+    "name": "[Astra Yao] Rainbow Concerto",
+    "desc": "During <color=#FFFFFF>Idyllic Cadenza</color> state, characters with <color=#FFFFFF>Attack</color> specialty gain <color=#2BAD00>30% increased CRIT DMG</color>, characters with <color=#FFFFFF>Anomaly</color> specialty gain <color=#2BAD00>60 increased Anomaly Proficiency</color>, and characters with Rupture specialty deal <color=#2BAD00>15% increased Sheer DMG</color>. When the active character hits enemies with an <color=#FFFFFF>EX Special Attack</color>, <color=#2BAD00>Astra Yao will recover 4 Energy</color> and <color=#2BAD00>perform an additional attack with <color=#FFFFFF>Tremolo</color></color>. The Energy recovery effect can trigger once per second.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "branch": {
+      "13500611": "During <color=#FFFFFF>Idyllic Cadenza</color> state, <color=#2BAD00>the whole squad gains 20% increased PEN Ratio</color> and <color=#2BAD00>slowly recovers HP</color>.",
+      "13500612": "When <color=#FFFFFF>Tremolo</color> attacks hit enemies, it <color=#2BAD00>reduces their DEF by 30%</color> for 10s."
+    }
+  },
+  "1350062": {
+    "id": 1350062,
+    "name": "[Astra Yao] Crimson Beats",
+    "desc": "With enough energy, releasing or following up with a <color=#FFFFFF>Tremolo</color> attack while in the <color=#FFFFFF>Idyllic Cadenza</color> state will <color=#2BAD00>additionally deal two instances</color> of identical <color=#FFFFFF>Tremolo</color> DMG. When Astra Yao hits enemies with <color=#FFFFFF>Basic Attack: Interlude</color> or <color=#FFFFFF>Basic Attack: Chorus</color>, there's a 20% chance to gain the <color=#FFFFFF>Inspiration</color> effect, allowing her next <color=#FFFFFF>Dodge</color> to <color=#2BAD00>directly trigger</color> <color=#FFFFFF>Perfect Dodge</color>, which can be followed up with <color=#FFFFFF>Basic Attack: Chorus</color>, lasting 30s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "branch": {
+      "13500621": "When other squad members' <color=#FFFFFF>Aftershocks</color> hit enemies, Astra Yao will follow up with a <color=#FFFFFF>Tremolo</color> attack. This effect can only be triggered once every 2s.",
+      "13500622": "<color=#FFFFFF>Tremolo</color> <color=#2BAD00>CRIT Rate increases by 30%</color> and <color=#2BAD00>CRIT DMG increases by 60%</color>, and it <color=#2BAD00>ignores 22% of the enemy's Ether RES</color>."
+    }
+  },
+  "1350063": {
+    "id": 1350063,
+    "name": "[Astra Yao] Starfall Waltz",
+    "desc": "For every 25 Energy consumed, Astra Yao gains 1 stack of <color=#FFFFFF>Starlight</color>, up to 3 stacks. During <color=#FFFFFF>Idyllic Cadenza</color>, hold <IconMap:Icon_Normal> to unleash <color=#FFFFFF>Basic Attack: Radiant Moment</color>, continuously channeling an energy beam to attack enemies. Upon activating this skill, <color=#FFFFFF>Starlight</color> will be consumed, and with each stack consumed <color=#2BAD00>the skill duration will extend by 1s</color>. During this skill, <color=#2BAD00>Anti-Interrupt Level is increased</color>, and <color=#2BAD00>DMG taken is further reduced by 20%</color>. When the skill hits enemies, the <color=#2BAD00>target's DEF is reduced by 20%</color> for 30s. With 3 stacks of <color=#FFFFFF>Starlight</color>, switching back to Astra Yao will automatically trigger <color=#FFFFFF>Basic Attack: Radiant Moment</color>. When Astra Yao's <color=#FFFFFF>Basic Attack: Interlude</color> hits enemies, it will consume 25 additional Energy, and when <color=#FFFFFF>Basic Attack: Chorus</color> hits enemies, it will <color=#2BAD00>restore 5 additional Energy</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "branch": {
+      "13500631": "DMG dealt by <color=#FFFFFF>Basic Attack: Radiant Moment</color> will be <color=#2BAD00>considered as <color=#FFFFFF>EX Special Attack</color> DMG</color>. During this skill, <color=#2BAD00>CRIT Rate increases by 30%</color> and <color=#2BAD00>CRIT DMG increases by 60%</color>.",
+      "13500632": "When holding <IconMap:Icon_Normal> to activate <color=#FFFFFF>Basic Attack: Radiant Moment</color>, it will consume <color=#FFFFFF>Starlight</color>, and with each stack consumed, <color=#2BAD00>skill DMG increases by 15%</color> and Astra Yao <color=#2BAD00>restores 4 Energy</color>."
+    }
+  },
+  "1350071": {
+    "id": 1350071,
+    "name": "[Evelyn] Gilded Spiral Edge",
+    "desc": "When Evelyn exits <color=#FFFFFF>Binding Seal</color>, she enters <color=#FFFFFF>Ignite Preparation</color> for 30s, during which the next <color=#FFFFFF>Dash Attack: Piercing Ambush</color> will be replaced with <color=#FFFFFF>Dash Attack: Ambush Blast</color>. <color=#FFFFFF>Dash Attack: Ambush Blast</color> <color=#2BAD00>is considered a Chain Attack</color>. When Evelyn uses <color=#FFFFFF>Basic Attack: Garrote</color>, <color=#2BAD00>she will exit Binding Seal</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "branch": {
+      "13500711": "When activating a <color=#FFFFFF>Chain Attack</color>, Evelyn gains the <color=#FFFFFF>Swift Blade</color> effect, increasing <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>DMG by 20%</color>. This effect can stack up to 3 times and lasts for the entire combat.",
+      "13500712": "When Evelyn is about to be staggered by a frontal attack, she will consume <color=#FFFFFF>Assist Point</color> to <color=#2BAD00>automatically trigger Defensive Assist</color>, blocking enemy attacks and enabling an ALT <color=#FFFFFF>Assist Follow-Up: Course Disruption</color>. When Evelyn activates <color=#FFFFFF>Defensive Assist</color>, her <color=#2BAD00>CRIT DMG increases by 40%</color>, stacking up to 2 times for 20 seconds. The duration of each stack is calculated separately."
+    }
+  },
+  "1350072": {
+    "id": 1350072,
+    "name": "[Evelyn] Lethal Etiquette",
+    "desc": "When any squad member's <color=#FFFFFF>Aftershock</color>, <color=#FFFFFF>Quick Assist</color>, or <color=#FFFFFF>Perfect Assist</color> hits enemies, Evelyn recovers <color=#FFFFFF>Burning Embers</color>. When Evelyn consumes <color=#FFFFFF>Burning Tether Point</color> to activate <color=#FFFFFF>Chain Attack: Lunalux - Snare</color>, it will be replaced by <color=#FFFFFF>Chain Attack: Lunalux - Entanglement</color>, significantly reducing skill duration. When Evelyn's <color=#FFFFFF>Chain Attack</color> hits enemies, <color=#2BAD00>the attack's DMG increases by 80%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "branch": {
+      "13500721": "When activating <color=#FFFFFF>Ultimate</color>, Evelyn gains 100% <color=#FFFFFF>Burning Embers</color> and 3 <color=#FFFFFF>Burning Tether Points</color>.",
+      "13500722": "When Evelyn launches a <color=#FFFFFF>Chain Attack</color>, her <color=#2BAD00>CRIT Rate increases by 20%</color> and <color=#2BAD00>CRIT DMG increases by 80%</color> for 5s."
+    }
+  },
+  "1350073": {
+    "id": 1350073,
+    "name": "[Evelyn] Rogue Flames",
+    "desc": "When Evelyn's <color=#FFFFFF>Quick Assist</color>, <color=#FFFFFF>Assist Follow-Up</color>, <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Basic Attack: Garrote</color>, and <color=#FFFFFF>Chain Attack</color>'s heavy attacks hit enemies, they apply a <color=#FFFFFF>Burst</color> mark that lasts 8s. Repeated triggers reset the duration. When other squad members' attacks hit an enemy with a <color=#FFFFFF>Burst</color> mark, they deal an additional instance of <color=#FF5521>Fire DMG</color> equal to 370% of Evelyn's ATK and recover 20% of Evelyn's <color=#FFFFFF>Burning Embers</color>, once per 2s. After 3 instances of additional DMG are triggered, the enemy's <color=#FFFFFF>Burst</color> mark is removed.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "branch": {
+      "13500731": "Enemies with a <color=#FFFFFF>Burst</color> mark receive <color=#2BAD00>25% increased Daze</color> and <color=#2BAD00>30% increased DMG</color> from <color=#FFFFFF>Aftershocks</color>.",
+      "13500732": "When Evelyn has more than 50% <color=#FFFFFF>Burning Embers</color> and is not the active character, if the active character lands a heavy attack on an enemy, Evelyn performs <color=#FFFFFF>Basic Attack: Garrote</color> around the enemy, dealing <color=#FFFFFF>Aftershock</color> DMG and <color=#2BAD00>increasing ATK by 16%</color> for the whole squad for 15s."
+    }
+  },
+  "1350081": {
+    "id": 1350081,
+    "name": "[Yixuan] Phoenix Shadow",
+    "desc": "When Yixuan is attacked by enemies, she will automatically dodge the attack, trigger Vital View and leave the Grand Tai Chi Formation in place. Press Basic Attack to chain into Basic Attack: Qingming Eruption. The automatic dodge effect can trigger once every 12s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "branch": {
+      "13500811": "The 5th Basic Attack sequence additionally restores <color=#2BAD00>10 Adrenaline</color>; triggering Perfect Dodge additionally restores <color=#2BAD00>10 Adrenaline</color>.",
+      "13500812": "After triggering Perfect Dodge, Yixuan's <color=#2BAD00>CRIT DMG increases by 96%</color> for 20s."
+    }
+  },
+  "1350082": {
+    "id": 1350082,
+    "name": "[Yixuan] Resonance of the Spirit",
+    "desc": "Replace Quick Assist with EX Special Attack: Qingming Eruption - Break. When Basic Attack: Qingming Eruption hits an enemy or after launching EX Special Attack and Ultimate, Yixuan's <color=#2BAD00>Sheer DMG additionally increases by 20%</color>, stacking up to 3 times and lasting 12s. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic036.png",
+    "branch": {
+      "13500821": "When Basic Attack: Qingming Eruption or EX Special Attack: Qingming Eruption - Break hits an enemy, their <color=#2BAD00>All-Attribute RES reduces by 40%</color>, lasting 15s. Repeated triggers reset the duration.",
+      "13500822": "When launching Basic Attack: Qingming Eruption or EX Special Attack: Qingming Eruption - Break, their corresponding <color=#2BAD00>DMG dealt increases by 18%</color>, stacking up to 4 times. Launching Basic Attack: Qingming Eruption or EX Special Attack: Qingming Eruption - Break directly restores 30 Technique Points."
+    }
+  },
+  "1350083": {
+    "id": 1350083,
+    "name": "[Yixuan] Gold Talisman of Mystic Feathers",
+    "desc": "While charging EX Special Attack: Ink Manifestation, Perfect Block can be triggered, after which additionally restores 15 Technique Points and gains <color=#2BAD00>18% DMG boost</color> that lasts for 15s. Each Perfect Block against an enemy increases the next Ultimate <color=#2BAD00>DMG by 20%</color>, stacking up to 3 times.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic037.png",
+    "branch": {
+      "13500831": "After perfectly blocking an enemy attack with EX Special Attack: Ink Manifestation, <color=#2BAD00>additionally restores 300 Decibels</color>.",
+      "13500832": "After perfectly blocking an enemy attack with EX Special Attack: Ink Manifestation, <color=#2BAD00>the Daze caused by the whole squad increases by 30%</color>, lasting 20s."
+    }
+  },
+  "1350091": {
+    "id": 1350091,
+    "name": "[Ju Fufu] Mountain King Banishes Evil",
+    "desc": "After Ju Fufu activates <color=#FFFFFF>Chain Attack: Suppressing Tiger Cauldron</color>, if she is not the currently active character, it will trigger a <color=#FFFFFF>Tag Assist</color>, performing the 4th hit of her <color=#FFFFFF>Basic Attack</color> around enemies. The skill's DMG is considered <color=#2BAD00>Aftershock DMG</color>. <color=#2BAD00>DMG dealt increases by 75%</color> and <color=#2BAD00>Daze dealt increased by 45%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "branch": {
+      "13500911": "When <color=#2BAD00>Aftershock</color> hits an enemy, <color=#2BAD00>increases DMG dealt to that enemy by 10%</color>. Can stack up to 3 times. This effect can trigger once every 1 second and lasts 15 seconds. Repeated triggers reset the duration.",
+      "13500912": "When <color=#2BAD00>Aftershock</color> hits an enemy, <color=#2BAD00>increases Daze dealt to that enemy by 8%</color>. Can stack up to 3 times. This effect can trigger once every 1 second and lasts 15 seconds. Repeated triggers reset the duration."
+    }
+  },
+  "1350092": {
+    "id": 1350092,
+    "name": "[Ju Fufu] Call of Wind and Thunder",
+    "desc": "After Ju Fufu activates <color=#FFFFFF>Offensive Assist</color> or <color=#FFFFFF>EX Special Attack</color>, she can quickly chain into the 4th hit of her <color=#FFFFFF>Basic Attack</color> and enhance this skill, increasing the <color=#2BAD00>Daze dealt by 60%</color> and triggering an additional strike equivalent to the 4th hit of her <color=#FFFFFF>Basic Attack</color> after the skill ends.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic039.png",
+    "branch": {
+      "13500921": "When Ju Fufu performs the 4th hit of her enhanced <color=#FFFFFF>Basic Attack</color>, <color=#2BAD00>DMG dealt increases by 60%</color> for 20s.",
+      "13500922": "When Ju Fufu performs the 4th hit of her enhanced <color=#FFFFFF>Basic Attack</color>, she <color=#2BAD00>gains additional 50 Might and 150 Decibels</color>."
+    }
+  },
+  "1350093": {
+    "id": 1350093,
+    "name": "[Ju Fufu] Tiger Spirit Talisman",
+    "desc": "When Ju Fufu's 3rd <color=#FFFFFF>Basic Attack</color> sequence hits an enemy, she <color=#2BAD00>gains 3 Might</color>.\nAfter executing the 4th <color=#FFFFFF>Basic Attack</color> sequence, pressing Basic Attack again will trigger <color=#FFFFFF>Basic Attack: Tiger Seven Forms - Flaming Claw - Blazing Will</color>. If Hu Wei is present at this time and <color=#FFFFFF>Might</color> is above 100, it will consume 100 <color=#FFFFFF>Might</color> to trigger Hu Wei's <color=#FFFFFF>Chain Attack: Suppressing Tiger Cauldron</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic040.png",
+    "branch": {
+      "13500931": "Ju Fufu's <color=#FFFFFF>Basic Attack</color> increases <color=#2BAD00>Daze</color> by 45%, and when the 3rd <color=#FFFFFF>Basic Attack</color> sequence hits an enemy, additionally <color=#2BAD00>gains 2 Might</color>.",
+      "13500932": "When Ju Fufu performs <color=#FFFFFF>Basic Attack: Tiger Seven Forms - Flaming Claw - Blazing Will</color>, <color=#2BAD00>CRIT DMG increases by 85%</color> for 20s."
+    }
+  },
+  "1350121": {
+    "id": 1350121,
+    "name": "[Alice] Duelist's Etiquette",
+    "desc": "When Alice lands a hit on the enemy with the 5th hit of her <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack</color>, <color=#FFFFFF>Chain Attack</color>, or <color=#FFFFFF>Ultimate</color>, she accumulates <color=#FFFFFF>Marks</color> on hit targets. When she attacks an enemy with full <color=#FFFFFF>Marks</color>, all <color=#FFFFFF>Marks</color> are consumed to trigger the special <color=#F0D12B>Assault</color> effect, <color=#F0D12B>Polarity Assault</color>. This ignores Anomaly Buildup to deal one instance of DMG equal to 100% of the original <color=#F0D12B>Assault</color> DMG. This can also interact with other Attribute Anomalies, including Physical Attribute Anomaly, to trigger <color=#FFFFFF>Disorder</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic041.png",
+    "branch": {
+      "13501211": "When <color=#F0D12B>Assault</color> is triggered, Alice's <color=#2BAD00>DMG increases by 6%</color>, stacking up to 10 times.",
+      "13501212": "When Alice triggers <color=#F0D12B>Assault</color>, all squad members' <color=#2BAD00>Anomaly Buildup Rate increases by 40%</color> for 15s."
+    }
+  },
+  "1350122": {
+    "id": 1350122,
+    "name": "[Alice] Swiftblade Spin",
+    "desc": "Alice's <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>Quick Assist</color> are replaced with <color=#FFFFFF>Swift Featherblade</color>. When Alice uses <color=#FFFFFF>Swift Featherblade</color>, her <color=#2BAD00>Anomaly Proficiency increases by 150</color> for 15s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic042.png",
+    "branch": {
+      "13501221": "After moving for a while by holding <IconMap:Icon_Evade>, Alice enters <color=#FFFFFF>Vital View</color> for 3s and replaces her next <color=#FFFFFF>Dash Attack</color> with <color=#FFFFFF>Dodge Counter</color>. This effect can trigger once every 10s. When Alice triggers this effect or <color=#FFFFFF>Perfect Dodge</color>, she <color=#2BAD00>reduces the DEF of all enemies on the field by 20%</color> for 15s.",
+      "13501222": "When Alice uses <color=#FFFFFF>Swift Featherblade</color>, she accumulates 30 <color=#FFFFFF>Blade Etiquette</color>."
+    }
+  },
+  "1350123": {
+    "id": 1350123,
+    "name": "[Alice] Aurora Ensemble",
+    "desc": "When Alice uses <color=#FFFFFF>EX Special Attack: Aurora Thrust - Northern Cross</color>, the whole squad's <color=#2BAD00> CRIT Rate increases by 10%</color>, and their <color=#2BAD00>CRIT DMG increases by 20%</color> for 20s. When she uses <color=#FFFFFF>EX Special Attack: Aurora Thrust - Southern Cross</color>, the whole squad's <color=#2BAD00>Anomaly Buildup Rate increases by 35%</color>, and their <color=#2BAD00>Anomaly Proficiency increases by 50</color> for 20s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic043.png",
+    "branch": {
+      "13501231": "When Alice performs a three-stage charged <color=#FFFFFF>Basic Attack: Starshine Waltz</color>, the whole squad <color=#2BAD00>gains 400 Decibels</color>.",
+      "13501232": "When both <color=#FFFFFF>[Alice] Aurora Ensemble</color> buffs are active at the same time, the whole squad's <color=#2BAD00>ATK increases by 10%</color>, and they <color=#2BAD00>deal 16% more DMG</color> for 20s."
+    }
+  },
+  "1350131": {
+    "id": 1350131,
+    "name": "[Yuzuha] Shaman's Charm",
+    "desc": "When Yuzuha uses her <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, her <color=#2BAD00>Anomaly Mastery increases by 40</color> for 30s. Repeated triggers reset the duration. She also reduces the enemy's <color=#2BAD00>DEF by 18%</color> and their <color=#2BAD00>All-Attribute RES by 15%</color> for 30s on hit. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic045.png",
+    "branch": {
+      "13501311": "<color=#FFFFFF>Basic Attack: Sugarburst Sparkles</color> and <color=#FFFFFF>Basic Attack: Sugarburst Sparkles - Max</color> attacks' <color=#2BAD00>Anomaly Buildup Rate increase by 60%</color>.",
+      "13501312": "When a heavy attack from <color=#FFFFFF>Basic Attack: Hard Candy Shot</color> hits an enemy, the whole squad's <color=#2BAD00>Anomaly Proficiency increases by 30</color>, and their <color=#2BAD00>ATK increases by 10%</color> for 30s. Repeated triggers reset the duration."
+    }
+  },
+  "1350132": {
+    "id": 1350132,
+    "name": "[Yuzuha] Secret Technique: Umbrella Smash!",
+    "desc": "After <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>Quick Assist</color>, <color=#FFFFFF>Assist Follow-Up</color>, or the fifth hit of a <color=#FFFFFF>Basic Attack</color>, press <IconMap:Icon_Normal> to make Yuzuha perform <color=#FFFFFF>Umbrella Smash</color>. When this attack lands a heavy attack on enemies affected by <color=#FFFFFF>Sweet Scare</color>, it unleashes one <color=#FFFFFF>Basic Attack: Sugarburst Sparkles - Max</color> attack, <color=#2BAD00>increases her ATK by 20%</color>, and <color=#2BAD00> increases her Anomaly Buildup Rate by 30%</color> for 20s. Repeated triggers reset the duration. Yuzuha will also gain a <color=#FFFFFF>Sugar Point</color> when she lands a hit on the enemy with the fifth hit of her <color=#FFFFFF>Basic Attack</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic044.png",
+    "branch": {
+      "13501321": "When Yuzuha has <color=#FFFFFF>Sugar Points</color>, she may, after her <color=#FFFFFF>Umbrella Smash</color> attack ends, launch another attack at the cost of one <color=#FFFFFF>Sugar Point</color> by pressing Basic Attack <IconMap:Icon_Normal>. Each time Yuzuha uses <color=#FFFFFF>Umbrella Smash</color>, her <color=#2BAD00>Anomaly Proficiency increases by 40 for 10s</color>, stacking up to 3 times, and repeated triggers reset the duration.",
+      "13501322": "Yuzuha may, after her <color=#FFFFFF>Umbrella Smash</color> attack ends, launch another <color=#FFFFFF>Umbrella Smash</color> attack by pressing Basic Attack <IconMap:Icon_Normal>. Each time Yuzuha uses <color=#FFFFFF>Umbrella Smash</color>, her <color=#2BAD00>Anomaly Proficiency increases by 30</color>, stacking up to 6 times and lasting 8s. When <color=#FFFFFF>Umbrella Smash</color> is used while Yuzuha has <color=#FFFFFF>Sugar Points</color>, she consumes 1 <color=#FFFFFF>Sugar Point</color> to <color=#2BAD00>increase the Anomaly Buildup Rate by 40%</color> for the current <color=#FFFFFF>Umbrella Smash</color> and <color=#FFFFFF>Basic Attack: Sugarburst Sparkles - Max</color> attacks."
+    }
+  },
+  "1350133": {
+    "id": 1350133,
+    "name": "[Yuzuha] Tanukis Abound",
+    "desc": "When Yuzuha uses <color=#FFFFFF>Perfect Assist</color> or launches a <color=#FFFFFF>Chain Attack</color>, the whole squad gains 5 Energy and 160 Decibels. This effect can trigger once every 12s. When she lands a heavy attack on the enemy with <color=#FFFFFF>Assist Follow-Up</color>, the whole squad's <color=#2BAD00>DMG increases by 15%</color> for 20s, and repeated triggers reset the duration. It also triggers the <color=#FFFFFF>Quick Assist</color> of the previous character. This <color=#FFFFFF>Quick Assist</color> is upgraded to a Chain Attack. This effect can trigger once every 12s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic046.png",
+    "branch": {
+      "13501331": "When a heavy attack from <color=#FFFFFF>Assist Follow-Up</color> hits an enemy, the whole squad's <color=#2BAD00>Anomaly Proficiency increases by 40</color>, and their <color=#2BAD00>Anomaly Buildup Rate increases by 30%</color> for 30s. Repeated triggers reset the duration.",
+      "13501332": "When a heavy attack from <color=#FFFFFF>Assist Follow-Up</color> hits an enemy, the whole squad's <color=#2BAD00>CRIT Rate increases by 10%</color>, and their <color=#2BAD00>CRIT DMG increases by 24%</color> for 30s. Repeated triggers reset the duration."
+    }
+  },
+  "1350141": {
+    "id": 1350141,
+    "name": "[Lucia] Dream Surge",
+    "desc": "When Lucia upgrades a skill or uses an <color=#FFFFFF>Aftershock</color>, she gains 1 stack of <color=#FFFFFF>Surge</color>, stacking up to 4 times.\nUpon exiting <color=#FFFFFF>Dream</color> state, all <color=#FFFFFF>Surge</color> will be consumed with each stack consumed <color=#2BAD00>restoring 10 Energy for herself</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic048.png",
+    "branch": {
+      "13501411": "When Lucia triggers <color=#FFFFFF>Aftershock</color> from off-field, she <color=#2BAD00>restores 6 Energy or Adrenaline for other squad members</color>.",
+      "13501412": "When Lucia's <color=#FFFFFF>Aftershock</color> from off-field hits an enemy, it reduces the enemy's <color=#2BAD00>All-Attribute RES by 20%</color>, lasting 12s, repeated triggers reset the duration."
+    }
+  },
+  "1350142": {
+    "id": 1350142,
+    "name": "[Lucia] Full Nocturne",
+    "desc": "The <color=#FFFFFF>Starlight Convergence</color> created by Lucia during her <color=#FFFFFF>Ultimate</color> covers a larger area and <color=#2BAD00>its duration increases to 20s</color>. When using <color=#FFFFFF>Harmony</color>, <color=#2BAD00>gain 200 additional Decibels</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "branch": {
+      "13501421": "Enemies within <color=#FFFFFF>Starlight Convergence</color> take 1 instance of <color=#2BAD00>DMG based on 25% of Lucia's Max HP</color> every second. This effect is removed 6s after the target leaves <color=#FFFFFF>Starlight Convergence</color>.",
+      "13501422": "Allied characters in <color=#FFFFFF>Starlight Convergence</color> gain <color=#2BAD00>68% increased CRIT DMG</color>. This effect is removed 6s after the character leaves <color=#FFFFFF>Starlight Convergence</color>."
+    }
+  },
+  "1350143": {
+    "id": 1350143,
+    "name": "[Lucia] Spectral Focus",
+    "desc": "When entering the battlefield, Lucia <color=#2BAD00>gains ATK equal to 3% of her base Max HP</color>, and her <color=#FFFFFF>Harmony</color> <color=#2BAD00>deals 40% increased Ether DMG</color> to enemies.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic049.png",
+    "branch": {
+      "13501431": "After activating <color=#FFFFFF>EX Special Attack</color>, press \"Special Attack\" <IconMap:Icon_Special> again to <color=#2BAD00>trigger an <color=#FFFFFF>Aftershock</color></color>. This <color=#FFFFFF>Aftershock</color> is a <color=#FFFFFF>Harmony</color>. If Lucia is not in <color=#FFFFFF>Dream</color> state, <color=#2BAD00>40 Dream Points will be restored upon activation </color>.",
+      "13501432": "When Lucia upgrades her skills, <color=#2BAD00>the <color=#FFFFFF>Dream Points</color> consumed are reduced by 50%</color>, and when upgraded skills deal DMG, they <color=#2BAD00>ignore the 20% of the target's Ether RES</color>."
+    }
+  },
+  "1350151": {
+    "id": 1350151,
+    "name": "[Yidhari] Piercing Light",
+    "desc": "When Yidhari performs a 3-stage charged attack with <color=#FFFFFF>Basic Attack: Frostbite Embrace</color>, she gains <color=#FFFFFF>Temporary Shield</color> each time she hits an enemy during the spinning horizontal attack. When Yidhari performs the final downward smash of this <color=#FFFFFF>Basic Attack: Frostbite Embrace</color> sequence, or when she performs an ALT <color=#FFFFFF>EX Special Attack: Glacial Crush</color> during the charged attack ALT, all <color=#FFFFFF>Temporary Shield</color> will be consumed to <color=#2BAD00>increase the attack's DMG by up to 240%</color> based on the amount of <color=#FFFFFF>Temporary Shield</color> consumed. The Temporary Shield <color=#2BAD00>caps at 80% of Yidhari's Max HP.</color> All <color=#FFFFFF>Temporary Shield</color> will be reset if the spinning horizontal attack is interrupted.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic050.png",
+    "branch": {
+      "13501511": "During Yidhari's <color=#FFFFFF>Basic Attack: Frostbite Embrace</color> 3-staged charged attack, she can perform infinite horizontal spinning attacks. When Yidhari dodges during the spinning attack of <color=#FFFFFF>Basic Attack: Frostbite Embrace</color>, pressing the Basic Attack button will reactivate the 3-stage charged attack of <color=#FFFFFF>Basic Attack: Frostbite Embrace</color>. Yidhari's <color=#FFFFFF>Basic Attack: Frostbite Embrace</color> 3-staged charged attack <color=#2BAD00>deals 60% more DMG</color>.",
+      "13501512": "When Yidhari exits her spinning horizontal attack, <color=#FFFFFF>Temporary Shield</color> will no longer be reset. The Temporary Shield consumed when performing the downward smash of <color=#FFFFFF>Basic Attack: Frostbite Embrace</color> and <color=#FFFFFF>EX Special Attack: Glacial Crush</color> is <color=#2BAD00>reduced by 50%</color>, while the DMG boost remains unchanged."
+    }
+  },
+  "1350152": {
+    "id": 1350152,
+    "name": "[Yidhari] Biting Frost",
+    "desc": "When Yidhari consumes Adrenaline to activate <color=#FFFFFF>EX Special Attack</color>, she gains 4 stacks of <color=#FFFFFF>Frost Coil</color>: When <color=#FFFFFF>Basic Attacks</color> hit an enemy, consume <color=#FFFFFF>Frost Coil</color> to attack the target enemy. This effect can only be triggered once per 1s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic051.png",
+    "branch": {
+      "13501521": "When <color=#FFFFFF>Frost Coil</color> hits an enemy, it reduces target's <color=#98EFF0>Ice RES</color> by 20% for 15s. Repeated triggers reset the duration.",
+      "13501522": "When Yidhari consumes Adrenaline to activate <color=#FFFFFF>EX Special Attack</color>, the stacks of <color=#FFFFFF>Frost Coil</color> gained are doubled; each time <color=#FFFFFF>Frost Coil</color> attack is triggered, the DMG dealt by <color=#FFFFFF>Frost Coil</color> <color=#2BAD00>increases by 6%</color> for 15s <color=#2BAD00>stacking up to 12 times</color>. Repeated triggers reset the duration."
+    }
+  },
+  "1350153": {
+    "id": 1350153,
+    "name": "[Yidhari] Dreamweaver's Heart",
+    "desc": "When Yidhari becomes the active character in combat, she immediately activates <color=#FFFFFF>Ether Veil: Wellspring</color> (can only be triggered once per 180s). <color=#FFFFFF>Ether Veil: Wellspring</color> <color=#2BAD00>lasts 15s longer</color>, and during <color=#FFFFFF>Ether Veil: Wellspring</color>, her <color=#2BAD00>Sheer Force is increased by 800</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic052.png",
+    "branch": {
+      "13501531": "After Yidhari activates <color=#FFFFFF>Ether Veil: Wellspring</color>, <color=#2BAD00>500 Decibels are returned</color>. Also, <color=#FFFFFF>Chain Attack</color> DMG and <color=#FFFFFF>Ultimate</color> DMG are <color=#2BAD00>increased by 40%</color>.",
+      "13501532": "When triggering <color=#FFFFFF>Surging Cold</color> or <color=#FFFFFF>Crushing Pursuit</color>, <color=#2BAD00>50Decibels are restored</color> for the whole squad (can only be triggered once per 6s). During <color=#FFFFFF>Ether Veil: Wellspring</color>, the squad's <color=#2BAD00>CRIT DMG is increased by 24%</color>."
+    }
+  },
+  "1350161": {
+    "id": 1350161,
+    "name": "[Dialyn] Deathrattle Toll",
+    "desc": "When Dialyn has 90 <color=#FFFFFF>Positive Reviews</color> points, using <color=#FFFFFF>EX Special Attack: Get Lost!</color> will consume 90 <color=#FFFFFF>Positive Reviews</color> and directly replace it with <color=#FFFFFF>Ultimate: Service Stopped for Number Dialed</color>. When <color=#FFFFFF>Ultimate: Service Stopped for Number Dialed</color> hits a Stunned enemy, it will <color=#2BAD00>trigger the Totalize effect, dealing additional DMG equal to 2,700% of Dialyn's ATK</color>, and <color=#FFFFFF>Ultimate: Service Stopped for Number Dialed</color>'s <color=#2BAD00>DMG will increase by 30%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "branch": {
+      "13501611": "When <color=#FFFFFF>Ultimate: Service Stopped for Number Dialed</color> hits enemies, <color=#2BAD00>reduces enemy's All-Attribute RES by 24% for 20s</color>.",
+      "13501612": "<color=#FFFFFF>Ultimate: Service Stopped for Number Dialed</color>'s <color=#2BAD00>CRIT DMG increases by 96%</color>."
+    }
+  },
+  "1350162": {
+    "id": 1350162,
+    "name": "[Dialyn] Ringing Aftertone",
+    "desc": "When activating <color=#FFFFFF>EX Special Attack: Rock</color> or <color=#FFFFFF>EX Special Attack: Scissors</color>, there's a 50% chance to gain 1 <color=#FFFFFF>Charge</color>, up to a maximum of 2 <color=#FFFFFF>Charge</color>. When activating <color=#FFFFFF>EX Special Attack: Paper!</color> with <color=#FFFFFF>Charge</color>, 1 <color=#FFFFFF>Charge</color> can be consumed to activate <color=#FFFFFF>EX Special Attack: Paper!</color> again.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic058.png",
+    "branch": {
+      "13501621": "When landing a heavy attack with <color=#FFFFFF>EX Special Attack: Paper!</color>, the <color=#FFFFFF>Malicious Complaint</color> effect will <color=#2BAD00>additionally increase Stun DMG Multiplier by 20%</color>, stacking up to 3 times.",
+      "13501622": "When activating <color=#FFFFFF>EX Special Attack: Rock</color> and <color=#FFFFFF>EX Special Attack: Scissors</color>, <color=#2BAD00>there's a 80% chance to gain 1 additional Charge, and the Charge limit is increased to 4</color>."
+    }
+  },
+  "1350163": {
+    "id": 1350163,
+    "name": "[Dialyn] Dying Descent",
+    "desc": "When dropping below 90 <color=#FFFFFF>Positive Reviews</color> from above 90, immediately <color=#2BAD00>restore 60 Positive Reviews</color> and <color=#2BAD00>restore teammate's Decibels by 750</color>. This effect can trigger once every 30s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic057.png",
+    "branch": {
+      "13501631": "Teammates' <color=#FFFFFF>Ultimates</color> <color=#2BAD00>ignore 35% All-Attribute RES</color>.",
+      "13501632": "Teammates <color=#2BAD00>restore 25 Energy/25 Adrenaline</color> when activating their <color=#FFFFFF>Ultimates</color>."
+    }
+  },
+  "1350171": {
+    "id": 1350171,
+    "name": "[Banyue] Sever Attachment",
+    "desc": "When not in <color=#FFFFFF>Visage of Wrath</color> state, after Banyue uses <color=#FFFFFF>EX Special Attack: Lion's Roar - Wrath</color> or <color=#FFFFFF>EX Special Attack: Mountain Tremor - Wrath</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>Chain Attack</color>. Banyue's <color=#FFFFFF>Chain Attack</color> deals <color=#2BAD00>60% increased</color> Sheer DMG.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic055.png",
+    "branch": {
+      "13501711": "Banyue's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Chain Attack</color> deal <color=#2BAD00>60% increased DMG</color>.",
+      "13501712": "When Banyue uses <color=#FFFFFF>Chain Attack</color>, he gains a shield <color=#2BAD00>equal to 10% of his Max HP</color>, lasting 15s. While shielded, Banyue's <color=#2BAD00>Anti-Interrupt Level increases</color>."
+    }
+  },
+  "1350172": {
+    "id": 1350172,
+    "name": "[Banyue] The Way of Asura",
+    "desc": "When Banyue uses <color=#FFFFFF>[EX Special Attack]</color>, he gains a shield <color=#2BAD00>equal to 35% of his Max HP</color>, lasting 30s. This effect can trigger once every 30s. While shielded, Banyue's <color=#2BAD00>Anti-Interrupt Level increases</color> and <color=#FF5521>Fire DMG</color> <color=#2BAD00>increases by 15%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic054.png",
+    "branch": {
+      "13501721": "Banyue's <color=#FFFFFF>EX Special Attack</color> and <color=#FFFFFF>Basic Attack</color> DMG <color=#2BAD00>increases by 60%</color>.",
+      "13501722": "If Banyue is not in <color=#FFFFFF>Visage of Wrath</color> state, gain 80 <color=#FFFFFF>Wrathful Fires</color> when using <color=#FFFFFF>Ultimate</color>."
+    }
+  },
+  "1350173": {
+    "id": 1350173,
+    "name": "[Banyue] Scorching Karma",
+    "desc": "For each 1 Energy or Adrenaline other squad members consume, if Banyue is not in <color=#FFFFFF>Visage of Wrath</color> state, he will recover 0.3 <color=#FFFFFF>Wrathful Fires</color>. With at least 120 <color=#FFFFFF>Wrathful Fires</color>, Banyue's next switch-in will directly trigger <color=#FFFFFF>Quick Assist</color>. When coming on-field through this method with at least 120 <color=#FFFFFF>Wrathful Fires</color>, Banyue immediately enters <color=#FFFFFF>Visage of Wrath</color> state and increases his <color=#FF5521>Fire DMG</color> by <color=#2BAD00>60%</color> for 20s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic053.png",
+    "branch": {
+      "13501731": "When Banyue's <color=#FFFFFF>Quick Assist</color> hits an enemy, it <color=#2BAD00>reduces their All-Attribute RES by 18%</color> for 20s.",
+      "13501732": "Everyone 1 point of <color=#FFFFFF>Wrathful Fires</color> consumed by Banyue, other squad members will recover 0.25 Adrenaline or Energy."
+    }
+  },
+  "1350181": {
+    "id": 1350181,
+    "name": "[Ye Shunguang] Frosted Blade",
+    "desc": "After entering Enlightened Mind, upon first using Basic Attack: Enlightened Mind - Sunderlight Maximum, <color=#2BAD00>automatically triggers Chain Attack: Enlightened Mind - Lure Thunder</color>, and <color=#2BAD00>gains 45% Physical RES ignore</color> for 15s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "branch": {
+      "13501811": "EX Special Attack: Enlightened Mind - Soaring Light can trigger Perfect Dodge at the moment of its activation, and if Perfect Dodge is triggered, <color=#2BAD00>gain additional automatic activations of Chain Attack: Enlightened Mind - Lure Thunder</color>.",
+      "13501812": "Chain Attack: Enlightened Mind - Lure Thunder's final hit deals <color=#2BAD00>1,800% of ATK as additional DMG</color>."
+    }
+  },
+  "1350182": {
+    "id": 1350182,
+    "name": "[Ye Shunguang] Clang of Jade",
+    "desc": "After Ye Shunguang activates Ether Veil: Verdict, <color=#2BAD00>all squad members will use Veil Vulnerability bonus when attacking</color>, instead of Stun DMG Multiplier, and the Veil Vulnerability bonus cap is reduced by 85%. Enlightened Mind state duration doesn't pause while off-field anymore.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic062.png",
+    "branch": {
+      "13501821": "Ether Veil: Verdict's <color=#2BAD00>Veil Vulnerability bonus cap reduction is reduced to 65%</color>.",
+      "13501822": "While in Enlightened Mind state, automatically performs <color=#2BAD00>Basic Attack: Enlightened Mind - Sunderlight Maximum when off field, increasing skill requirement and cost to 2 points of Qingming Sword Force and counting as Aftershock DMG</color>, up to once per 3.5s."
+    }
+  },
+  "1350183": {
+    "id": 1350183,
+    "name": "[Ye Shunguang] Case Full of Light",
+    "desc": "Ye Shunguang's <color=#2BAD00>Qingming Sword Force generation rate increases by 100%</color>, Enlightened Mind duration is reduced to 10s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic064.png",
+    "branch": {
+      "13501831": "Each time Ye Shunguang enters Enlightened Mind, she gains <color=#2BAD00>16% increased CRIT DMG</color>, stacking up to 4 times and lasting 15s after exiting the Enlightened Mind state.",
+      "13501832": "EX Special Attack: Enlightened Mind - Soaring Light's <color=#2BAD00>CRIT DMG increases by 75%</color>."
+    }
+  },
+  "1350191": {
+    "id": 1350191,
+    "name": "[Zhao] Cold Moonlight",
+    "desc": "Zhao's <color=#2BAD00>Impact increases by 2</color> for every 1,000 initial max HP she has. All squad members' Ultimates and EX Special Attacks deal <color=#2BAD00>12% increased Daze</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "branch": {
+      "13501911": "When attacks hit Stunned enemies, their <color=#2BAD00>Stun DMG Multiplier increases by 45%</color>.",
+      "13501912": "When any squad member uses Chain Attack, Zhao recovers 15 Frostbite Points. This effect can trigger once every 10s."
+    }
+  },
+  "1350192": {
+    "id": 1350192,
+    "name": "[Zhao] Frostmist Enigma",
+    "desc": "After charging Basic Attack: Final Verdict for 1s, Basic Attack: Final Verdict - Frostgleam can be unleashed, which <color=#2BAD00>increases CRIT Rate by 15% and CRIT DMG by 40%</color> for 15s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic066.png",
+    "branch": {
+      "13501921": "When using Basic Attack: Final Verdict - Frostgleam, Zhao's attacks <color=#2BAD00>ignore 26% of target's Ice RES</color> for 15s.",
+      "13501922": "While Zhao is under any Ether Veil, all squad members' DMG will <color=#2BAD00>ignore 30% of target's DEF</color>."
+    }
+  },
+  "1350193": {
+    "id": 1350193,
+    "name": "[Zhao] Moonlit Dew",
+    "desc": "When Zhao activates Ether Veil, she recovers 30 Frostbite Points and <color=#2BAD00>increases ATK by 25%</color> for all squad members, lasting 50s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic065.png",
+    "branch": {
+      "13501931": "When Zhao is under any Ether Veil, <color=#2BAD00>Decibel Generation Rate increases by 20%</color> for all squad members.",
+      "13501932": "When Zhao is under any Ether Veil, <color=#2BAD00>Energy Regen increases by 0.4/s</color> for all squad members."
+    }
+  },
+  "1350201": {
+    "id": 1350201,
+    "name": "[Aria] Delusion's Glow",
+    "desc": "After Aria completes her EX Special Attack, the <color=#FFFFFF>Fandom Power</color> on the field <color=#2BAD00>increases by 1</color>, and EX Special Attack: Instantly Hooked does not consume Energy.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic074.png",
+    "branch": {
+      "13502011": "The <color=#FE437E>Ether Anomaly Buildup Rate</color> of EX Special Attack: Fall Into Delusion <color=#2BAD00>increases by 20%</color>, and EX Special Attack: Instantly Hooked can trigger the Abloom effect of Core Passive: Innate Stage Presence.",
+      "13502012": "For every 1 <color=#FFFFFF>Fandom Power</color> successfully absorbed, <color=#2BAD00>ATK increases by 6%</color>. This effect lasts for 6s and stacks up to 4 times, with the duration of each stack calculated separately."
+    }
+  },
+  "1350202": {
+    "id": 1350202,
+    "name": "[Aria] Sweetheart Strike",
+    "desc": "Aria's <color=#FFFFFF>Basic Attack: Perfect Pitch</color> <color=#2BAD00>CRIT DMG increases by 20%</color>, and <color=#FFFFFF>Enhanced Basic Attack: Perfect Pitch</color> <color=#2BAD00>CRIT DMG additionally increases by 20%</color>; for every 10 points of initial Anomaly Mastery Aria has, <color=#2BAD00>CRIT Rate increases by 4%</color>; the third hit of <color=#FFFFFF>Basic Attack: Perfect Pitch</color> on a target <color=#2BAD00>deals additional 50% of Aria's ATK</color> as <color=#FE437E>Ether DMG</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic075.png",
+    "branch": {
+      "13502021": "When Aria launches the third hit of <color=#FFFFFF>Basic Attack: Perfect Pitch</color> while not in <color=#FFFFFF>Moment of Delusion</color> state, <color=#2BAD00>there is a/an 50% chance that the enhanced version of the attack occurs instead</color>.",
+      "13502022": "Aria's <color=#FFFFFF>Basic Attack: Perfect Pitch</color> <color=#2BAD00>PEN Ratio increases by 24%</color>. After using the 3rd hit of <color=#FFFFFF>Basic Attack: Perfect Pitch</color>, she can chain directly into the 4th hit of her <color=#FFFFFF>Basic Attack: Sweet Melody</color>."
+    }
+  },
+  "1350203": {
+    "id": 1350203,
+    "name": "[Aria] Hear the Present",
+    "desc": "<color=#2BAD00>Aria's <color=#FFFFFF>Quick Assist: Harmony of Delusion</color> is triggered</color> when an enemy enters an Attribute Anomaly while Aria is off field. When a heavy attack is landed with <color=#FFFFFF>Quick Assist: Harmony of Delusion</color>, it can trigger the Abloom effect of Core Passive: Innate Stage Presence. Further, should the <color=#FFFFFF>Fandom Power</color> nearby be equal or greater than 2, she may proceed to launching the third hit of <color=#FFFFFF>Basic Attack: Perfect Pitch</color> after the attack. <color=#FFFFFF>Quick Assist: Harmony of Delusion</color> can trigger once every 8s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "branch": {
+      "13502031": "<color=#FFFFFF>Quick Assist: Harmony of Delusion</color> generates 4 <color=#2BAD00><color=#FFFFFF>Fandom Power</color></color> on the field when activated.",
+      "13502032": "In the 5s after activating <color=#FFFFFF>Quick Assist: Harmony of Delusion</color>, Aria <color=#2BAD00>recovers an additional 50 Decibels if she triggers Abloom</color>."
+    }
+  },
+  "1350211": {
+    "id": 1350211,
+    "name": "[Sunna] Bubble Planet",
+    "desc": "<color=#2BAD00>Deal 50% more DMG</color> with EX Special Attack: Bubblegum Barrage, EX Special Attack: Special Photography Technique, Chain Attack: Don't Mess With the Cat, and Ultimate: Smash It All!. Bubblegum's Basic Attack: Naughty Cat Spotted is changed to Basic Attack: Bubblegum Barrage. DMG dealt is <color=#2BAD00>regarded as <color=#FFFFFF>EX Special Attack</color> DMG</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic077.png",
+    "branch": {
+      "13502111": "When a heavy attack is landed on the main target with the fourth hit of Basic Attack: Mischief Meteor Hammer, one instance of the <color=#FFFFFF>Cat's Gaze</color> AoE attack is triggered regardless of prevailing conditions. After a/an EX Special Attack, Chain Attack, or Ultimate attack, or after Bubblegum launches Basic Attack: Bubblegum Barrage, Sunna's next Basic Attack will also trigger the fourth hit of Basic Attack: Mischief Meteor Hammer. This effect stacks up to 4 times. Also <color=#2BAD00>increases by 80% the DMG </color> dealt with <color=#FFFFFF>Cat's Gaze</color> triggered by the fourth hit of Basic Attack: Mischief Meteor Hammer or Sunna.",
+      "13502112": "When Sunna deals DMG with EX Special Attack: Bubblegum Barrage, EX Special Attack: Special Photography Technique, Chain Attack: Don't Mess With the Cat, or Ultimate: Smash It All!, or when Bubblegum deals damage with Basic Attack: Bubblegum Barrage, Sunna's <color=#2BAD00>CRIT Rate increases by 6%</color> while her <color=#2BAD00>CRIT DMG increases by 8%</color> for 10s. This effect stacks up to 10 times, and can trigger once every 0.5s. Repeated triggers reset the duration."
+    }
+  },
+  "1350212": {
+    "id": 1350212,
+    "name": "[Sunna] Tour de Rhythm",
+    "desc": "Reduces the number of attacks required to trigger <color=#FFFFFF>Cat's Gaze</color>, and when an enemy is afflicted with <color=#FFFFFF>Cat's Gaze</color>, their <color=#2BAD00>Anomaly Buildup Rate is increased by 20%</color> for 10s. When <color=#FFFFFF>Cat's Gaze</color> hits a target afflicted with <color=#FE437E>Ether Anomaly</color>, <color=#2EB6FF>Electric Attribute Anomaly</color>, <color=#FF5521>Fire Attribute Anomaly</color>, <color=#F0D12B>Physical Attribute Anomaly</color>, <color=#98EFF0>Ice Attribute Anomaly</color> or <color=#A6C5FD>Wind Attribute Anomaly</color>, it also triggers one instance of <color=#FFFFFF>Abloom</color>: applies one additional instance of Attribute Anomaly DMG equal to <color=#FE437E>370%</color>/<color=#2EB6FF>192%</color>/<color=#FF5521>480%</color>/<color=#F0D12B>30%</color>/<color=#98EFF0>48%</color>/<color=#A6C5FD>19%</color> of original Attribute Anomaly DMG.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic078.png",
+    "branch": {
+      "13502121": "When any Agent in the squad inflicts <color=#FE437E>Ether Anomaly</color>, <color=#2EB6FF>Electric Anomaly</color>, <color=#FF5521>Fire Anomaly</color>, <color=#F0D12B>Physical Anomaly</color>, <color=#98EFF0>Ice Anomaly</color>, or <color=#A6C5FD>Wind Anomaly</color>, one instance of the <color=#FFFFFF>Cat's Gaze</color> AoE attack is triggered regardless of prevailing conditions. This effect can trigger only once every 5s.",
+      "13502122": "When any Agent on the squad triggers <color=#FFFFFF>Cat's Gaze</color> and deals to the enemy <color=#FE437E>Ether DMG</color>, <color=#2EB6FF>Electric DMG</color>, <color=#FF5521>Fire DMG</color>, <color=#F0D12B>Physical DMG</color>, <color=#98EFF0>Ice DMG</color>, or <color=#A6C5FD>Wind DMG</color>, <color=#2BAD00>the enemy's corresponding Attribute RES is reduced by 25%</color> for 10s."
+    }
+  },
+  "1350213": {
+    "id": 1350213,
+    "name": "[Sunna] Dream Soundscape",
+    "desc": "BranchRelic_13601020_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic079.png",
+    "branch": {
+      "13502131": "While using <color=#FFFFFF>EX Special Attack: Bubblegum Barrage</color>, Sunna can also activate <color=#2BAD00>Ether Veil: Delusion Reprise</color> ",
+      "13502132": "When 2 types of Ether Veil are active for the whole squad at the same time, <color=#2BAD00>30% of enemy DEF is ignored</color>."
+    }
+  },
+  "1350221": {
+    "id": 1350221,
+    "name": "[Nangong Yu] Focus Shift",
+    "desc": "When other squad members trigger <color=#FFFFFF>Disorder</color> or <color=#FFFFFF>Abloom</color>, Nangong Yu will launch a <color=#FFFFFF>Chain Attack</color> around the target enemy. This attack is an <color=#FFFFFF>Aftershock</color>. This effect can trigger at most once every 6s. When Nangong Yu's <color=#FFFFFF>Chain Attack</color> heavy attack hits a target afflicted with <color=#FE437E>Ether Anomaly</color>, <color=#2EB6FF>Electric Anomaly</color>, <color=#FF5521>Fire Anomaly</color>, <color=#F0D12B>Physical Anomaly</color>, <color=#98EFF0>Ice Anomaly</color>, or <color=#A6C5FD>Wind Anomaly</color> it triggers <color=#FFFFFF>Abloom</color> once, which deals additional Attribute Anomaly DMG equal to <color=#FE437E>230%</color>/<color=#2EB6FF>120%</color>/<color=#FF5521>300%</color>/<color=#F0D12B>20%</color>/<color=#98EFF0>30%</color>/<color=#A6C5FD>12%</color> of the original Attribute Anomaly DMG. This effect can trigger once every 6s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic084.png",
+    "branch": {
+      "13502211": "When Nangong Yu's <color=#FFFFFF>Chain Attack</color> heavy attack hits an enemy, it reduces the enemy's <color=#2BAD00>All-Attribute RES by 18%</color> for 12s. Repeated triggers reset the duration.",
+      "13502212": "When Nangong Yu's <color=#FFFFFF>Chain Attack</color> heavy attack hits an enemy, all squad members' <color=#2BAD00>DMG dealt increases by 30%</color> for 12s. Repeated triggers reset the duration."
+    }
+  },
+  "1350222": {
+    "id": 1350222,
+    "name": "[Nangong Yu] Beat Sync",
+    "desc": "When Nangong Yu triggers a Precise Charging, <color=#2BAD00>restore 4 Energy</color> for all squad members. When any squad member uses a <color=#FFFFFF>Chain Attack</color>, restore120 Decibels for all squad members.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic085.png",
+    "branch": {
+      "13502221": "When Nangong Yu triggers a Precise Charging, the whole squad's <color=#2BAD00>PEN Ratio increases by 20%</color> for 30s. Repeated triggers reset the duration.",
+      "13502222": "When Nangong Yu triggers Precise Charging, <color=#FFFFFF>Basic Attack: Adorable Explosive Impact</color>'s <color=#2BAD00>Daze dealt increases by 35%</color>."
+    }
+  },
+  "1350223": {
+    "id": 1350223,
+    "name": "[Nangong Yu] Spotlight Solo",
+    "desc": "Nangong Yu's Anomaly Proficiency increases by 60. For every 1 <color=#FFFFFF>Downbeat</color> consumed, <color=#2BAD00>she restores 0.15 Energy</color>. After triggering Precise Charging with the first hit of <color=#FFFFFF>Basic Attack: Adorable Explosive Impact</color>, press <IconMap:Icon_Normal> to launch a <color=#FFFFFF>Chain Attack</color>. When Precise Charging is triggered, <color=#2BAD00>Anomaly Buildup Rate increases by 20%</color> for 30s. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "branch": {
+      "13502231": "When <color=#FFFFFF>Basic Attack: Adorable Explosive Impact</color> hits an enemy, <color=#2BAD00>all Anomaly DMG dealt increases by 65%</color> for 30s. Repeated triggers reset the duration.",
+      "13502232": "<color=#FFFFFF>Basic Attack: Adorable Explosive Impact</color> When hitting an enemy, reduces the enemy's <color=#2BAD00>DEF by 20%</color> for 30s. Repeated triggers reset the duration."
+    }
+  },
+  "1350231": {
+    "id": 1350231,
+    "name": "[Cissia] Coiled Strike",
+    "desc": "When activating <color=#FFFFFF>Basic Attack: Serpent's Kiss</color>, based on the time the character is airborne, <color=#2BAD00>the skill's CRIT DMG increases by 15%, and it deals 1 additional instance of <color=#2EB6FF>Electric DMG</color> equal to 450% of ATK</color>. This effect stacks up to 3 times and lasts until the skill ends.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "branch": {
+      "13502311": "During <color=#FFFFFF>Basic Attack: Serpent's Kiss</color>, while airborne, <color=#2BAD00>continuously rain down electric spears on enemies, dealing <color=#2EB6FF>Electric DMG</color> equal to 200% of ATK</color>. Up to 5 spears can be released.",
+      "13502312": "When <color=#FFFFFF>Basic Attack: Serpent's Kiss</color> hits an enemy, it <color=#2BAD00>reduces their DEF by 20%</color> for 20s."
+    }
+  },
+  "1350232": {
+    "id": 1350232,
+    "name": "[Cissia] Venomous Concoction",
+    "desc": "<color=#FFFFFF>Corrode Bone</color> deals <color=#2BAD00>additional <color=#2EB6FF>Electric DMG</color> equal to <color=#2BAD00>300%</color> of own ATK</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic081.png",
+    "branch": {
+      "13502321": "When Cissia is not the currently active character, <color=#FFFFFF>Corrode Bone</color> deals <color=#2BAD00>even more additional <color=#2EB6FF>Electric DMG</color> equal to 450% of own ATK</color>.",
+      "13502322": "With <color=#FFFFFF>Venom</color>, the active character's <color=#2BAD00>DMG dealt increases by 50%</color>, lasting until 30s after <color=#FFFFFF>Venom</color> is depleted."
+    }
+  },
+  "1350233": {
+    "id": 1350233,
+    "name": "[Cissia] Ouroboros Loop",
+    "desc": "After using <color=#FFFFFF>EX Special Attack</color>, gain <color=#FFFFFF>Viper Strike</color>: when any non-<color=#FFFFFF>Corrode Bone</color> attack hits an enemy, it <color=#2BAD00>triggers a free special <color=#FFFFFF>Corrode Bone</color></color> that cannot inflict Daze. This effect can trigger once every 1s, and lasts for 6s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic080.png",
+    "branch": {
+      "13502331": "<color=#FFFFFF>Viper Strike</color><color=#2BAD00> effect duration extended to 10 seconds</color>.",
+      "13502332": "<color=#2BAD00>Teammates also gain <color=#FFFFFF>Viper Strike</color></color>: when any attack hits an enemy, it triggers a free <color=#FFFFFF>Corrode Bone</color>. This effect can trigger once every 1s, and lasts for 6s."
+    }
+  },
+  "1350241": {
+    "id": 1350241,
+    "name": "[Starlight - Billy] Crimson Gun Demon",
+    "desc": "When successfully performing a Block during <color=#FFFFFF>Special Attack: Drive Suppression</color>, gain 1 Charge stack, up to 1 stack max, which <color=#2BAD00>increases the DMG</color> of the next <color=#FFFFFF>EX Special Attack: High-Traction Wheels</color> or <color=#FFFFFF>EX Special Attack: Rocking Footwork</color> <color=#2BAD00>by 100%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic089.png",
+    "branch": {
+      "13502411": "Charge gained from successful Blocks during <color=#FFFFFF>Special Attack: Drive Suppression</color> <color=#2BAD00>can stack</color> up to 2 times. When <color=#FFFFFF>EX Special Attack: High-Traction Wheels</color> or <color=#FFFFFF>EX Special Attack: Rocking Footwork</color> activates, all Charges are consumed. Each consumed Charge <color=#2BAD00>increases that activation's DMG by 100%</color>.",
+      "13502412": "When successfully performing a Block during <color=#FFFFFF>Special Attack: Drive Suppression</color>, <color=#2BAD00>recover 20 Adrenaline</color> up to once every 10s and gain 1 stack of buff. This buff can stack up to 3 times. When <color=#FFFFFF>EX Special Attack: High-Traction Wheels</color> or <color=#FFFFFF>EX Special Attack: Rocking Footwork</color> activates, all stacks are consumed. Each consumed stack <color=#2BAD00>additionally restores 10% of Max HP</color>."
+    }
+  },
+  "1350242": {
+    "id": 1350242,
+    "name": "[Starlight - Billy] Knight's Belt",
+    "desc": "After using <color=#FFFFFF>Dash Attack: Starlight Retribution</color>, hold <IconMap:Icon_Normal> to perform <color=#FFFFFF>Basic Attack: Stunt Show</color>, dealing <color=#F0D12B>Physical DMG</color> to surrounding enemies. This skill is a guaranteed CRIT. During this skill, <color=#2BAD00>CRIT DMG increases by 80%</color>, <color=#2BAD00>recovers 10 <color=#FFFFFF>Determination</color>/s</color>, and <color=#2BAD00>Anti-Interrupt Level increases</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic090.png",
+    "branch": {
+      "13502421": "When using <color=#FFFFFF>Basic Attack: Stunt Show</color>, <color=#2BAD00>DMG dealt increases by 40%</color> for 20s, repeated triggers reset the duration.",
+      "13502422": "After hitting enemies 20 times with <color=#FFFFFF>Basic Attack: Stunt Show</color>, <color=#2BAD00>gain 100 Decibels</color>."
+    }
+  },
+  "1350243": {
+    "id": 1350243,
+    "name": "[Starlight - Billy] Heated Cacophony",
+    "desc": "After using <color=#FFFFFF>Dodge Counter: Duel King</color> or <color=#FFFFFF>Dash Attack: Starlight Retribution</color>, press <IconMap:Icon_Normal> to activate <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color>. This effect can be triggered once every 8s and <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color>'s DMG Multiplier is 1,200%. When successfully performing a Block during <color=#FFFFFF>Special Attack: Drive Suppression</color>, the next <color=#FFFFFF>Dodge Counter: Duel King</color>, <color=#FFFFFF>Dash Attack: Starlight Retribution</color>, or <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color> can trigger an additional <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color>. When <color=#FFFFFF>Dodge Counter: Duel King</color> or <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color> hits an enemy, <color=#2BAD00>DMG dealt against the target increases by 12%</color>, stacking up to 2 times, only one stack can be applied per enemy per use of a skill, lasting 20s, and repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic091.png",
+    "branch": {
+      "13502431": "<color=#FFFFFF>Dodge Counter: Duel King</color> and <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color> <color=#2BAD00>deal 25% increased DMG</color>. When using <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color>, <color=#2BAD00>restore 5 Adrenaline</color>.",
+      "13502432": "When <color=#FFFFFF>Dodge Counter: Duel King</color> and <color=#FFFFFF>Dodge Counter: Follow-up Cannon</color> hit enemies, <color=#2BAD00>reduce the target's All-Attribute RES by 6%</color>, stacking up to 3 times, only one stack can be applied per enemy per use of a skill, lasting 30s, and repeated triggers reset the duration."
+    }
+  },
+  "1350251": {
+    "id": 1350251,
+    "name": "[Promeia] Whirlwind Judgment",
+    "desc": "When Promeia triggers <color=#FFFFFF>EX Special Attack: Execution - Merciless Judgment</color>, she <color=#2BAD00>recovers 15 additional</color> <color=#FFFFFF>Corrosive Chill</color>, and when triggering <color=#FFFFFF>EX Special Attack: Execution - Shrouded in Shadow</color>, she <color=#2BAD00>recovers 15 additional</color> <color=#FFFFFF>Corrosive Chill</color>. When triggering <color=#FFFFFF>Abloom</color>, her <color=#2BAD00>Abloom DMG increases by 6%</color>, stacking up to 10 times, lasting 60s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "branch": {
+      "13502511": "When activating <color=#FFFFFF>EX Special Attack: Execution - Merciless Judgment</color>, <color=#2BAD00>Attribute Anomaly DMG increases by 12%</color>, and <color=#2BAD00>Disorder DMG increases by 12%</color>, stacking up to 5 times, lasting 15s. Repeated triggers reset the duration.",
+      "13502512": "When activating <color=#FFFFFF>EX Special Attack: Execution - Shrouded in Shadow</color>, <color=#2BAD00>Attribute Anomaly DMG increases by 32.5%</color>, and <color=#2BAD00>Disorder DMG increases by 32.5%</color>, stacking up to 2 times, lasting 30s. Repeated triggers reset the duration."
+    }
+  },
+  "1350252": {
+    "id": 1350252,
+    "name": "[Promeia] Frostbound Shadow",
+    "desc": "Attacks no longer recover <color=#FFFFFF>Corrosive Chill</color>. Instead <color=#2BAD00>recover an additional</color> <color=#2BAD00>5/s</color> <color=#FFFFFF>Corrosive Chill</color> . With <color=#FFFFFF>Trial by Cold</color>, <color=#2BAD00>switching on-field replaces the normal switch-in</color> with <color=#FFFFFF>Special Attack: Execution - Layered Frost</color>, this effect can trigger once every 10s. When <color=#FFFFFF>EX Special Attack: Execution - Merciless Judgment</color> hits an enemy, the enemy's <color=#2BAD00>Ice RES is reduced by 24</color> for 20s, repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic087.png",
+    "branch": {
+      "13502521": "When activating <color=#FFFFFF>Special Attack: Execution - Layered Frost</color>, <color=#2BAD00>the whole squad's ATK increases by 300</color> and <color=#2BAD00>Ice DMG increases by 10%</color> for 15s.",
+      "13502522": "When <color=#FFFFFF>Special Attack: Execution - Layered Frost</color> hits an enemy afflicted with <color=#FE437E>Ether Anomaly</color>, <color=#2EB6FF>Electric Attribute Anomaly</color>, <color=#FF5521>Fire Attribute Anomaly</color>, <color=#F0D12B>Physical Attribute Anomaly</color>, <color=#98EFF0>Ice Attribute Anomaly</color>, or <color=#A6C5FD>Wind Attribute Anomaly</color>, <color=#2BAD00>triggers an additional instance of Abloom</color>, dealing a fixed 650% multiplier of the corresponding Attribute Anomaly DMG."
+    }
+  },
+  "1350253": {
+    "id": 1350253,
+    "name": "[Promeia] Execution Finale",
+    "desc": "When a character in the squad Stuns an enemy, Promeia <color=#2BAD00>recovers 5 Corrosive Chill/s</color> for 10s. Promeia's <color=#2BAD00>Attribute Anomaly DMG against Stunned enemies increases by 60%</color>, and <color=#2BAD00>Disorder DMG increases by 60%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic088.png",
+    "branch": {
+      "13502531": "Promeia's <color=#2BAD00>DMG against Stunned enemies ignores 25% DEF</color> and <color=#2BAD00>15% Ice RES</color>.",
+      "13502532": "Promeia's <color=#2BAD00>Disorder DMG additionally increases by 60%</color>, and the whole squad's <color=#2BAD00>Vortex DMG additionally increases by 60%</color>."
+    }
+  },
+  "1350261": {
+    "id": 1350261,
+    "name": "[Velina] Lace-Veiled Blades",
+    "desc": "When Velina inflicts <color=#A6C5FD>Windswept</color> on an enemy, the whole squad's <color=#2BAD00>Attribute Anomaly DMG increases by 30%</color> for 30s. Repeated triggers reset the duration. Additionally, <color=#FFFFFF>Sweeping Cyclone</color> <color=#2BAD00>lasts 3s longer</color> and <color=#2BAD00>deals 20% more Daze</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic100.png",
+    "branch": {
+      "13502611": "When a <color=#FFFFFF>Sweeping Cyclone</color> hits an enemy in the <color=#A6C5FD>Wind Attribute Anomaly state</color>, it triggers an instance of <color=#FFFFFF>Abloom</color>, dealing Attribute Anomaly DMG of the corresponding attribute at a fixed <color=#A6C5FD>420%</color> multiplier. This effect can trigger at most once every 2.5s. ",
+      "13502612": "<color=#2BAD00>Increases the DMG Multiplier</color> of <color=#FFFFFF>Abloom</color> dealt by <color=#FFFFFF>Sweeping Cyclone</color> and <color=#FFFFFF>Condensed Cyclone</color> under <color=#FFFFFF>Core Passive: Breeze in Bloom</color> to 800% and600% respectively."
+    }
+  },
+  "1350262": {
+    "id": 1350262,
+    "name": "[Velina] Graceful Serenade",
+    "desc": "When Velina triggers <color=#A6C5FD>Windswept</color>, she recovers <color=#2BAD00>10 Energy and 200 Decibels</color> and consumes all <color=#FFFFFF>Windbite</color> to <color=#2BAD00>enhance the DMG</color> of this <color=#A6C5FD>Windswept</color> by <color=#2BAD00>20%</color> for each point of <color=#FFFFFF>Windbite</color> consumed. Upon using her <color=#FFFFFF>EX Special Attack</color>, Velina gains 1 point of <color=#FFFFFF>Windbite</color>. If this <color=#FFFFFF>EX Special Attack</color> triggers <color=#FFFFFF>Vital View</color>， recovers 1 additional point of <color=#FFFFFF>Windbite</color> ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic099.png",
+    "branch": {
+      "13502621": "Launching an <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>increases her Anomaly Proficiency</color> for 20s. Repeated triggers reset the duration.",
+      "13502622": "Launching an <color=#FFFFFF>EX Special Attack</color> <color=#2BAD00>increases her Anomaly Mastery by 80</color> for 20s. Repeated triggers reset the duration."
+    }
+  },
+  "1350263": {
+    "id": 1350263,
+    "name": "[Velina] Candescent Wind Crown",
+    "desc": "While <color=#FFFFFF>Sweeping Cyclone</color> is present on the field, the whole squad's <color=#2BAD00>Energy Generation Rate by 40% , Decibel Generation Rate increase</color> by 30%, and <color=#FFFFFF>Sweeping Cyclone</color>'s <color=#2BAD00>duration is extended by 3s.</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic098.png",
+    "branch": {
+      "13502631": "After Velina inflicts the <color=#A6C5FD>[Windswept]</color> state on an enemy, their <color=#FFFFFF>All-Attribute RES</color> is <color=#2BAD00>reduced by 20%</color> for 20s. Repeated triggers reset the duration.",
+      "13502632": "After Velina inflicts enemies with <color=#A6C5FD>Windswept</color>, their <color=#FFFFFF>DEF</color> is <color=#2BAD00>reduced</color> by 22% for 20s. Repeated triggers reset the duration."
+    }
+  },
+  "1350271": {
+    "id": 1350271,
+    "name": "[Norma] En-Nah Frontline",
+    "desc": "When Norma unleashes a <color=#FFFFFF>Dash Attack</color> or <color=#FFFFFF>Dodge Counter</color>, she gains 1 stack of <color=#FFFFFF>Combo</color>, causing her DMG to ignore 6% of the target's <color=#FF5521>Fire RES</color>, stacking up to 5 times. When Norma is hit, she loses 1 stack of <color=#FFFFFF>Combo</color>, with a maximum loss of 1 stack every 5s. Norma's <color=#FFFFFF>Dash Attack</color> can trigger <color=#FFFFFF>Perfect Dodge</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "branch": {
+      "13502711": "When Norma is not the active on-field character, each time the En-nah Turret launches an attack, Norma gains 1 stack of <color=#FFFFFF>Combo</color>. Each stack of <color=#FFFFFF>Combo</color> allows DMG dealt by the En-nah Turret to additionally ignore 4% of the target's <color=#FF5521>Fire RES</color>.",
+      "13502712": "When Norma has 5 stacks of <color=#FFFFFF>Combo</color>, she gains the following effect:\nThe Interrupt Level of <color=#FFFFFF>Dash Attack</color> and <color=#FFFFFF>Dodge Counter</color> is increased;\nAfter unleashing her <color=#FFFFFF>Dash Attack</color> or <color=#FFFFFF>Dodge Counter</color>, press <IconMap:Icon_Normal> to immediately chain into the 4th strike of <color=#FFFFFF>Basic Attack: Engineering Insurance</color>;\nAfter unleashing the 4th hit of her <color=#FFFFFF>Basic Attack: Engineering Insurance</color>, press <IconMap:Icon_Normal> to immediately chain into <color=#FFFFFF>Dash Attack</color>;\nDMG dealt by Norma <color=#2BAD00>ignores 35% of the target's DEF</color>."
+    }
+  },
+  "1350272": {
+    "id": 1350272,
+    "name": "[Norma] Grand Finale",
+    "desc": "When squadmates activate an <color=#FFFFFF>Ultimate</color>, Norma <color=#2BAD00>immediately gains 100% Preheated Chamber</color>. Can be triggered at most once every 40s;\nWhen any Agent in the squad activates a <color=#FFFFFF>Chain Attack</color>, the corresponding Agent's <color=#2BAD00>Decibel Generation Rate increases 25%</color> for 15s. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic092.png",
+    "branch": {
+      "13502721": "While Norma's En-nah Turret's missile pod is deployed, <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> <color=#2BAD00>DMG dealt by the whole squad is increased</color> by 40%.",
+      "13502722": "While Norma's En-nah Turret's missile pod is deployed, the Daze dealt by all Agents' <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> <color=#2BAD00>increases by 22%</color>."
+    }
+  },
+  "1350273": {
+    "id": 1350273,
+    "name": "[Norma] Menacing Bangboo",
+    "desc": "When any Agent in the squad defeats an enemy in the <color=#FFFFFF>Tech Divide</color> state, all Agents in the squad gain <color=#2BAD00>2.5% ATK</color> in the Hollow during this run, stacking up to 10 times.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic093.png",
+    "branch": {
+      "13502731": "When any Agent in the squad hits an enemy in the <color=#FFFFFF>Tech Divide</color> state, <color=#2BAD00>%22 of the target's DEF is ignored</color>.",
+      "13502732": "Agents <color=#2BAD00>deal 18% more</color> Sheer DMG to enemies in the <color=#FFFFFF>Tech Divide</color> state."
+    }
+  },
+  "1350281": {
+    "id": 1350281,
+    "name": "[Pyrois] Sword of Dawn",
+    "desc": "Pyrois gains <color=#2BAD00>20 points of Solar Prominence</color> upon triggering <color=#FFFFFF>Perfect Dodge</color>, up to once every 10s. Hitting enemies with different attacks <color=#2BAD00>improves Pyrois's Solar Prominence recovery efficiency by 30%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "branch": {
+      "13502811": "3rd and 4th hits of Pyrois' <color=#FFFFFF>Basic Attack: Celestial Light</color> gain <color=#2BAD00>60% increased CRIT DMG</color>, and each hit on an enemy <color=#2BAD00>restores 100 Decibels</color>.",
+      "13502812": "After hitting an enemy with <color=#FFFFFF>Basic Attack: Celestial Light</color>, Pyrois's DMG <color=#2BAD00>ignores 32% of the target's DEF</color> for 15 seconds, repeated triggers reset the duration."
+    }
+  },
+  "1350282": {
+    "id": 1350282,
+    "name": "[Pyrois] Ironclad Honor",
+    "desc": "Pyrois's <color=#FFFFFF>Ultimate</color> <color=#2BAD00>DMG is increased by 20%</color>. Unleashing <color=#FFFFFF>Ultimate: Total Annihilation</color> immediately <color=#2BAD00>grants Pyrois 1,500 Decibels</color>. This effect can trigger once every 30s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic096.png",
+    "branch": {
+      "13502821": "Each time Pyrois uses their <color=#FFFFFF>Ultimate</color>, 30<color=#2BAD00>Energy</color> is restored for all squad members.",
+      "13502822": "When Pyrois unleashes their <color=#FFFFFF>Ultimate</color>, their <color=#2BAD00>ATK increases by 700</color> for 30s. Repeated triggers refresh the duration."
+    }
+  },
+  "1350283": {
+    "id": 1350283,
+    "name": "[Pyrois] Flame of Illumination",
+    "desc": "Upon triggering a <color=#FFFFFF>Perfect Block</color> with an <color=#FFFFFF>EX Special Attack</color>, Pyrois <color=#2BAD00>recovers 10 Energy and 20 Solar Prominence</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "branch": {
+      "13502831": "Upon triggering a <color=#FFFFFF>Perfect Block</color>, Pyrois <color=#2BAD00>ignores 25%</color> of the enemy's <color=#FE437E>Ether DMG RES</color> for 15s. Repeated triggers reset the duration.",
+      "13502832": "After Pyrois triggers a <color=#FFFFFF>Perfect Block</color>, <color=#2BAD00>DMG dealt by all squad members increases by 20%</color> for 30s. This effect can stack up to 2 times, and repeated triggers refresh the duration."
+    }
+  },
+  "1350291": {
+    "id": 1350291,
+    "name": "[Remielle] Voidwing Pilgrimage",
+    "desc": "When Remielle is in the <color=#FFFFFF>Phase Flow</color> state, if her Auto-Attack's Finishing Move hits a target afflicted with <color=#FE437E>Ether Attribute Anomaly</color>, <color=#2EB6FF>Electric Attribute Anomaly</color>, <color=#FF5521>Fire Attribute Anomaly</color>, <color=#F0D12B>Physical Attribute Anomaly</color>, <color=#98EFF0>Ice Attribute Anomaly</color>, or <color=#A6C5FD>Wind Attribute Anomaly</color>, she <color=#2BAD00>triggers an additional instance of Abloom</color>, dealing a fixed 220% multiplier of the corresponding Attribute Anomaly DMG.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic102.png",
+    "branch": {
+      "13502911": "While Remielle is in the <color=#FFFFFF>Phase Flow</color> state, when her Auto-Attack hits an enemy, the enemy <color=#2BAD00>takes 10% bonus Attribute Anomaly DMG</color> for 15s, stacking up to 3 times. Repeated triggers reset the duration.",
+      "13502912": "While Remielle is in the <color=#FFFFFF>Phase Flow</color> state, <color=#FFFFFF>Abloom</color> triggered by Auto-Attack <color=#2BAD00>deals 50% bonus DMG</color> and <color=#2BAD00>ignores 30% of enemy DEF</color>."
+    }
+  },
+  "1350292": {
+    "id": 1350292,
+    "name": "[Remielle] Blade Radiance",
+    "desc": "When Remielle is the active character, she <color=#2BAD00>recovers 1.6 Energy per second</color>. When using <color=#FFFFFF>EX Special Attack</color>, she <color=#2BAD00>gains 3</color> special <color=#FFFFFF>Voidflares</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic104.png",
+    "branch": {
+      "13502921": "When attacked, enemies under the <color=#FFFFFF>Prismatic</color> state have their DEF <color=#2BAD00>reduced by 15%</color> and All-Attribute RES <color=#2BAD00>decreased by 10%</color>.",
+      "13502922": "When Remielle launches an <color=#FFFFFF>EX Special Attack</color>, her Anomaly Proficiency increases by 100 for 10s. Repeated triggers reset the duration."
+    }
+  },
+  "1350293": {
+    "id": 1350293,
+    "name": "[Remielle] Petals and Silver",
+    "desc": "When Remielle uses Basic Attack: Fleeting Grace, she does not consume her stored <color=#FFFFFF>Voidflare</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic106.png",
+    "branch": {
+      "13502931": "When Remielle triggers the <color=#FFFFFF>Luminize</color> effect, she can <color=#2BAD00>restore 5 Energy for all Agents in the squad</color> and reduce enemies' <color=#2BAD00>Anomaly Buildup RES by 15%</color> for 20s. Repeated triggers reset the duration.",
+      "13502932": "DMG dealt by Remielle's <color=#FFFFFF>Luminize</color> <color=#2BAD00>increases by 35%</color> and <color=#2BAD00>ignores 25% of the enemy's All-Attribute RES</color>."
+    }
+  },
+  "1350301": {
+    "id": 1350301,
+    "name": "[Sigrid] Invincible Cavalry",
+    "desc": "Unlocks <color=#FFFFFF>Converging Spear: Vanquisher</color>: When there are no remaining uses of <color=#FFFFFF>Basic Attack: Converging Spear</color>, hold <IconMap:Icon_Normal> to unleash <color=#FFFFFF>Converging Spear: Vanquisher</color>, dealing <color=#98EFF0>Ice DMG</color>.\nIf the character gets hit at the moment <color=#FFFFFF>Converging Spear: Vanquisher</color> is activated, block can be triggered. Each successful block trigger negates the incoming attack's DMG, resets <color=#FFFFFF>Aerial Patrol Spear</color>, increases the Daze dealt by the next <color=#FFFFFF>Basic Attack: Converging Spear</color> by 100%, and grants one use of <color=#FFFFFF>Basic Attack: Converging Spear</color>. After a successful block, press <IconMap:Icon_Normal> to trigger the corresponding stage of <color=#FFFFFF>Basic Attack: Converging Spear</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic101.png",
+    "branch": {
+      "13503011": "<color=#FFFFFF>Assist Follow-Up</color> can also trigger block; \nEach successful block trigger resets <color=#FFFFFF>Aerial Patrol Spear Form</color>, grants one use of <color=#FFFFFF>Basic Attack: Converging Spear</color>, and makes the next attack deal <color=#2BAD00>600%</color> ATK of bonus DMG on the first hit; after a successful block, press <IconMap:Icon_Normal> to trigger the corresponding stage of <color=#FFFFFF>Basic Attack: Converging Spear</color>.",
+      "13503012": "Each successful block trigger increases DMG dealt by <color=#2BAD00>10%</color>, stacking up to <color=#FFFFFF>4</color> times and lasting <color=#FFFFFF>20</color>s; repeated triggers reset the duration."
+    }
+  },
+  "1350302": {
+    "id": 1350302,
+    "name": "[Sigrid] Frosty Flourish",
+    "desc": "When launching <color=#FFFFFF>Chain Attack</color>, holding <IconMap:Icon_Normal> will skip the Chain Attack window; <color=#FFFFFF>Unbridled Spear</color> deals 60% bonus CRIT DMG.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic103.png",
+    "branch": {
+      "13503021": "Launching <color=#FFFFFF>Chain Attack</color> boosts ATK by <color=#2BAD00>12%</color>, stacking up to <color=#FFFFFF>2</color> times and lasting <color=#FFFFFF>20</color>s; repeated triggers reset the duration.",
+      "13503022": "On the first hit, <color=#FFFFFF>Chain Attack</color> deals <color=#FFFFFF>1,600%</color> ATK of bonus <color=#98EFF0>Ice DMG</color>."
+    }
+  },
+  "1350303": {
+    "id": 1350303,
+    "name": "[Sigrid] Dancing Spearhead",
+    "desc": "While in the <color=#FFFFFF>Aerial Patrol Spear</color> state, the Energy Cost of <color=#FFFFFF>EX Special Attack</color> is reduced to <color=#FFFFFF>40</color>; when hit by an enemy attack while using <color=#FFFFFF>EX Special Attack</color>, Sigrid will block with her shield. If the block is successful, the incoming attack DMG is negated, her own attacks ignore <color=#2BAD00>12%</color> of the target's DEF for <color=#FFFFFF>30</color>s, the <color=#FFFFFF>Aerial Patrol Spear</color> state is refreshed, and she gains one use of <color=#FFFFFF>Basic Attack: Converging Spear</color>; after a successful block, press <IconMap:Icon_Normal> to trigger the corresponding stage of <color=#FFFFFF>Basic Attack: Converging Spear</color>;",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic105.png",
+    "branch": {
+      "13503031": "Sigrid gains <color=#2BAD00>10</color> Energy when successfully triggering block.",
+      "13503032": "<color=#FFFFFF>EX Special Attack</color> deals <color=#2BAD00>25%</color> bonus DMG;\nAfter using <color=#FFFFFF>EX Special Attack</color>, ATK increases by <color=#2BAD00>15%</color>, stacking up to <color=#FFFFFF>2</color> times and lasting <color=#FFFFFF>15</color>s; repeated triggers reset the duration."
+    }
+  },
+  "1350311": {
+    "id": 1350311,
+    "name": "[Claret] Smashing Onslaught",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK beyond this threshold increases her DEF by 1.3 points. This effect from different armaments cannot stack. Claret's <color=#2BAD00>Maim DMG dealt increases by 20%</color>, and when the target is not Stunned, Maim also factors in the Stun Vulnerability Multiplier.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
+    "branch": {
+      "13503111": "When an attack hits a Stunned enemy, <color=#2BAD00>Gash Buildup Rate increases by 15%</color>. If <color=#FFFFFF>Maim</color> is triggered 3 times within 2s, Claret's <color=#2BAD00>Sharp DMG increases by 25%</color> for 30s. Repeated triggers reset the duration.",
+      "13503112": "When inflicting <color=#FFFFFF>Maim</color> on an enemy, the enemy's <color=#2EB6FF>Electric RES</color> is <color=#2BAD00>reduced by 20%</color> for 20s. Repeated triggers reset the duration."
+    }
+  },
+  "1350312": {
+    "id": 1350312,
+    "name": "[Claret] Crimson-Eyed Bat Shadow",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK above the threshold increases her DEF by 1.3 points. This effect from different armaments cannot stack. Claret's Gash Buildup Rate is reduced by 10%. <color=#FFFFFF>Basic Attack: Bloodbloom Oath - Starforging</color> and <color=#FFFFFF>Basic Attack: Bloodbloom Oath - Subduing Axe</color> deal <color=#2BAD00>40% bonus Sharp DMG</color>. Triggering Perfect Dodge while in the Crimson Inscription state extends the duration of Crimson Inscription by 3s (can only be triggered once per 5s).",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
+    "branch": {
+      "13503121": "Upon triggering Perfect Dodge, Claret's <color=#2BAD00>CRIT Rate increases by 10%</color> for 15s, stacking up to 3 times. Repeated triggers reset the duration. When CRIT Rate exceeds 200%, for every 1% above the threshold, <color=#2BAD00>Laceration DMG increases by 0.25%</color>.",
+      "13503122": "While in the <color=#FFFFFF>Crimson Inscription</color>, <color=#2BAD00>DMG dealt increases by 20%</color>, and further <color=#2BAD00>increases by 5% per second</color>, up to a maximum increase of 50%, until exiting <color=#FFFFFF>Crimson Inscription</color>."
+    }
+  },
+  "1350313": {
+    "id": 1350313,
+    "name": "[Claret] Scarlet Fever Night",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK above the threshold increases her DEF by 1.3 points. This effect from different armaments cannot stack. While in the <color=#FFFFFF>Crimson Inscription</color> state, when an attack hits an enemy, the enemy's <color=#2BAD00>DEF is reduced by 16%</color> for 15s, stacking up to 3 times. Repeated triggers reset the duration. Can only be triggered once every 2s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic109.png",
+    "branch": {
+      "13503131": "Upon entering the <color=#FFFFFF>Crimson Inscription</color> state, consume HP equal to 30% of current HP, and <color=#2BAD00>increase DMG dealt by 45%</color> until the current instance of <color=#FFFFFF>Crimson Inscription</color> ends; upon triggering <color=#FFFFFF>Maim</color>, <color=#2BAD00>restore HP equal to 8% of Max HP</color>.",
+      "13503132": "Upon entering the <color=#FFFFFF>Crimson Inscription</color> state, consume all Sharpness. For each additional point of Sharpness consumed, <color=#2BAD00>DMG dealt increases by 1%</color> until the current instance of <color=#FFFFFF>Crimson Inscription</color> ends. While in the <color=#FFFFFF>Crimson Inscription</color> state, attacks restore 4 Sharpness on hit (can only be triggered once per 0.5s). "
+    }
+  },
+  "1350321": {
+    "id": 1350321,
+    "name": "[Roxy] Hammered to Perfection",
+    "desc": "When <color=#FFFFFF>Cleanse</color> is triggered, <color=#2BAD00>the whole squad's ATK increases by 800</color> for 40s. Repeated triggers reset the duration.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic110.png",
+    "branch": {
+      "13503211": "<color=#FFFFFF>Hammered to Perfection</color> ATK bonus can <color=#2BAD00>stack up to 2 times</color>.",
+      "13503212": "In <color=#FFFFFF>Additional Ability: Porcelloy Heart</color>, when any character hits an enemy, the enemy's <color=#2BAD00>Stun DMG Multiplier additionally increases by 60%</color>."
+    }
+  },
+  "1350322": {
+    "id": 1350322,
+    "name": "[Roxy] Eternal Slumber",
+    "desc": "After holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color>, <color=#2BAD00>additionally generate a Giant Windstorm</color>; enemies hit by the windstorm have their <color=#2BAD00>All-Attribute RES reduced by 24%</color> for 30s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "branch": {
+      "13503221": "After the Giant Windstorm created by <color=#FFFFFF>Eternal Slumber</color> ends, a <color=#2BAD00><color=#FFFFFF>Eye of the Storm</color> emerges</color> at the same location and <color=#2BAD00>restores 10 Energy for herself</color>.",
+      "13503222": "Giant Windstorms generated by any means deal <color=#2BAD00>60% increased Daze</color>; Giant Windstorms generated by <color=#FFFFFF>Eternal Slumber</color> <color=#2BAD00>last 1s longer</color>."
+    }
+  },
+  "1350323": {
+    "id": 1350323,
+    "name": "[Roxy] Lantern Carrying Wanderer",
+    "desc": "After using <color=#FFFFFF>Assist Follow-Up: Midnight Code</color>, <color=#FFFFFF>Assist: More Overtime?</color> can also be <color=#2BAD00>activated</color>. When <color=#FFFFFF>Assist: More Overtime?</color> is triggered, it instead <color=#2BAD00>triggers <color=#FFFFFF>Chain Attack: Gale-Burial Great Hammer</color></color>, triggering up to once every 12s. The DMG dealt by all squad members' <color=#2BAD00><color=#FFFFFF>Chain Attacks</color> increases by 50%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "branch": {
+      "13503231": "<color=#FFFFFF>Lantern Carrying Wanderer</color>'s <color=#2BAD00>trigger interval is reduced by 6s</color>.",
+      "13503232": "When <color=#FFFFFF>Chain Attack: Gale-Burial Great Hammer</color> is activated, <color=#2BAD00>restore 2 <color=#FFFFFF>Wind Energy</color></color>."
+    }
+  }
+}

@@ -1,0 +1,2748 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-17T18:31:03.314Z",
+  "selectedScope": [
+    "3.2",
+    "3.3.12+19629936"
+  ],
+  "controls": [
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "selectorIndex": 2,
+      "value": "id_desc",
+      "kind": "local_sort",
+      "at": "2026-10-17T18:28:52.078Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "selectorIndex": 2,
+      "value": "id_asc",
+      "kind": "local_sort",
+      "at": "2026-10-17T18:28:52.909Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "selectorIndex": 2,
+      "value": "atk_desc",
+      "kind": "local_sort",
+      "at": "2026-10-17T18:28:53.744Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "selectorIndex": 2,
+      "value": "atk_asc",
+      "kind": "local_sort",
+      "at": "2026-10-17T18:28:54.588Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:00.077Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:00.800Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:01.478Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:02.422Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:06.634Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:07.339Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:08.121Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:08.804Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:13.169Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:13.893Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:15.177Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:16.524Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:20.445Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:21.121Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:21.819Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:22.501Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:26.652Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:27.340Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:28.029Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:28.700Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:32.234Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:32.915Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:33.602Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:34.278Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:38.218Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:38.917Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:39.594Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:40.260Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:43.996Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:44.683Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:45.364Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:46.041Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "selectorIndex": 2,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:49.883Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "selectorIndex": 2,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:50.550Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "selectorIndex": 3,
+      "value": "3.3.12+19629936",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:51.239Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "selectorIndex": 3,
+      "value": "3.2",
+      "kind": "selected_scope_version_comparison",
+      "at": "2026-10-17T18:29:51.914Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:55.160Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Physical",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:55.664Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Fire",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:56.090Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Ice",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:56.534Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Electric",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:56.965Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Wind",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:57.346Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Ether",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:57.754Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Attack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:58.085Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Stun",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:58.426Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Anomaly",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:58.764Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Support",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:59.098Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Defense",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:59.403Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Rupture",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:29:59.757Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Armorer",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:00.210Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Slash",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:00.528Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Strike",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:00.834Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Pierce",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:01.176Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Cunning Hares",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:01.510Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Victoria Housekeeping Co.",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:01.814Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Belobog Heavy Industries",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:02.119Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Sons of Calydon",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:02.423Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Obol Squad",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:02.723Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Hollow Special Operations Section 6",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:03.064Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Criminal Investigation Special Response Team",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:03.369Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Stars of Lyra",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:03.669Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Mockingbird",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:03.972Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Yunkui Summit",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:04.280Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Spook Shack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:04.581Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Krampus Compliance Authority",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:04.905Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Angels of Delusion",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:05.222Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:05.565Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:05.907Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:06.616Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:09.227Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Attack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:09.735Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Stun",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:10.116Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Anomaly",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:10.512Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Support",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:10.908Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Defense",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:11.313Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Rupture",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:11.664Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Armorer",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:12.008Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:12.320Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:12.639Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "B-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:12.946Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:13.546Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:16.241Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:16.597Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:17.247Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:17.817Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:20.585Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:23.943Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "6★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:24.454Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "5★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:24.886Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "4★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:25.582Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "3★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:26.045Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "2★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:26.474Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:27.026Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "Show More",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:29.968Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:32.830Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Ether Mutants",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:33.431Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Thugs",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:33.896Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Corrupted",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:34.355Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Public Security",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:34.882Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Rebel Soldiers",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:35.365Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Special",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:35.891Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "S",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:36.201Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "A",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:36.676Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "B",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:37.131Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "C",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:37.589Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:38.360Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Phaethon's Story 0 / 39  0 / 520",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:41.443Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Agent Story 0 / 17  0 / 170",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:41.828Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Special Episode 0 / 3  0 / 60",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:42.164Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Agent Trust 0 / 78  0 / 430",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:42.533Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "When Opportunities Converge 0 / 73  0 / 370",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:42.969Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Inter-Knot Hot Topic 0 / 27  0 / 135",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:43.401Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Enigma of the Labyrinth 0 / 27  0 / 245",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:43.759Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Combat Techniques 0 / 56  0 / 580",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:44.131Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Hostile Targets 0 / 29  0 / 145",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:44.544Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Combat Achievements 0 / 53  0 / 510",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:44.914Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Lost Void 0 / 36  0 / 275",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:45.303Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Withered Domain 0 / 63  0 / 410",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:45.705Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Hollow Exploration Guide 0 / 30  0 / 155",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:46.106Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Zero Key 0 / 17  0 / 135",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:46.504Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Investigation Zone Adventures 0 / 53  0 / 285",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:47.055Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Proxy Business 0 / 65  0 / 525",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:47.681Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Janus Quarter 0 / 76  0 / 385",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:48.097Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Waifei Peninsula 0 / 42  0 / 230",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:48.513Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Outer Ring 0 / 5  0 / 25",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:48.868Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Throne Quarter 0 / 8  0 / 40",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:49.195Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Roscaelifer 0 / 34  0 / 188",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:49.550Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Tactical Prism Program",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:53.250Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Gear Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:53.712Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Card Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:54.141Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Resonium Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:54.664Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:55.245Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "label": "Agents 2",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:30:58.774Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20101 BATTLE 01 Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:31:02.375Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20102 BATTLE 02 Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:31:02.684Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20103 STORY 01 Node Type:\n                  Story",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:31:02.983Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20104 LAST NODE Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:31:03.314Z"
+    }
+  ],
+  "records": [
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:28:49.804Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:28:50.125Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:56.634Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:56.972Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:57.258Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:57.511Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:57.528Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:57.529Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:57.540Z",
+      "isJson": true,
+      "sha256": "1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188",
+      "file": "discovery-bodies/1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.484Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.594Z",
+      "isJson": true,
+      "sha256": "1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188",
+      "file": "discovery-bodies/1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.597Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.617Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.638Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:28:59.642Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.206Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.297Z",
+      "isJson": true,
+      "sha256": "1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188",
+      "file": "discovery-bodies/1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.302Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.311Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.317Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:00.380Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.166Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.179Z",
+      "isJson": true,
+      "sha256": "86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23",
+      "file": "discovery-bodies/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.261Z",
+      "isJson": true,
+      "sha256": "1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188",
+      "file": "discovery-bodies/1c9ae3c9d8c830c927b5af7692d9408fd18d613d09b130558ee0fe8e14516188.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.367Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.483Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.484Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.485Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:01.729Z",
+      "isJson": true,
+      "sha256": "c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8",
+      "file": "discovery-bodies/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:02.090Z",
+      "isJson": true,
+      "sha256": "86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23",
+      "file": "discovery-bodies/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character/1011",
+      "observedAt": "2026-10-17T18:29:02.167Z",
+      "isJson": true,
+      "sha256": "c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8",
+      "file": "discovery-bodies/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.465Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.487Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.492Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.513Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.623Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/character/1011.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:02.722Z",
+      "isJson": false,
+      "error": "response.body: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:04.173Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:04.256Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:04.322Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:04.831Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.046Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.125Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.136Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.713Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.777Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.782Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:06.989Z",
+      "isJson": true,
+      "sha256": "2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376",
+      "file": "discovery-bodies/2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.368Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.540Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.621Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.631Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.815Z",
+      "isJson": true,
+      "sha256": "2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376",
+      "file": "discovery-bodies/2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:07.867Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:08.214Z",
+      "isJson": true,
+      "sha256": "2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376",
+      "file": "discovery-bodies/2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/weapon/12001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:08.284Z",
+      "isJson": true,
+      "sha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "file": "discovery-bodies/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon/12001",
+      "observedAt": "2026-10-17T18:29:08.287Z",
+      "isJson": true,
+      "sha256": "85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54",
+      "file": "discovery-bodies/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:10.631Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:10.735Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:10.990Z",
+      "isJson": true,
+      "sha256": "b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea",
+      "file": "discovery-bodies/b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:12.572Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:12.586Z",
+      "isJson": true,
+      "sha256": "b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea",
+      "file": "discovery-bodies/b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:13.301Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:13.319Z",
+      "isJson": true,
+      "sha256": "b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea",
+      "file": "discovery-bodies/b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:13.899Z",
+      "isJson": true,
+      "sha256": "85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54",
+      "file": "discovery-bodies/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:14.080Z",
+      "isJson": true,
+      "sha256": "421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5",
+      "file": "discovery-bodies/421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:14.621Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:14.622Z",
+      "isJson": true,
+      "sha256": "b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea",
+      "file": "discovery-bodies/b78d45bc7bf94927668f19bd92b08dd1178af3c37100426187ccc11545bb5cea.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:15.448Z",
+      "isJson": true,
+      "sha256": "85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54",
+      "file": "discovery-bodies/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:15.449Z",
+      "isJson": true,
+      "sha256": "421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5",
+      "file": "discovery-bodies/421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:15.949Z",
+      "isJson": true,
+      "sha256": "85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54",
+      "file": "discovery-bodies/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item_all.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item/1",
+      "observedAt": "2026-10-17T18:29:15.962Z",
+      "isJson": true,
+      "sha256": "421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5",
+      "file": "discovery-bodies/421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:17.891Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:18.224Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:18.609Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:19.854Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:19.957Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:20.526Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:20.633Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:21.014Z",
+      "isJson": true,
+      "sha256": "1080bac8101c684c480f84c5f2580591bb5c587a18680899d33fe85b1e2b9288",
+      "file": "discovery-bodies/1080bac8101c684c480f84c5f2580591bb5c587a18680899d33fe85b1e2b9288.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:21.233Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:21.356Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:21.398Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:21.973Z",
+      "isJson": true,
+      "sha256": "1080bac8101c684c480f84c5f2580591bb5c587a18680899d33fe85b1e2b9288",
+      "file": "discovery-bodies/1080bac8101c684c480f84c5f2580591bb5c587a18680899d33fe85b1e2b9288.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:22.048Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:22.114Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/monster/10000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster/10000",
+      "observedAt": "2026-10-17T18:29:22.214Z",
+      "isJson": true,
+      "sha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "file": "discovery-bodies/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:24.309Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:24.650Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:24.755Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:25.027Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.049Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.155Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.156Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.766Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.840Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:26.857Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:27.251Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:27.446Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:27.520Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:27.526Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:27.819Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:28.112Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:28.179Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:28.180Z",
+      "isJson": true,
+      "sha256": "85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54",
+      "file": "discovery-bodies/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:28.388Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/bangboo/53001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo/53001",
+      "observedAt": "2026-10-17T18:29:28.473Z",
+      "isJson": true,
+      "sha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "file": "discovery-bodies/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:29.877Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:29.954Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:30.324Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:31.641Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:31.710Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:32.359Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:32.451Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:32.568Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:32.944Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.004Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.062Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.677Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.739Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.800Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/equipment/31000.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment/31000",
+      "observedAt": "2026-10-17T18:29:33.867Z",
+      "isJson": true,
+      "sha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "file": "discovery-bodies/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:35.561Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:35.929Z",
+      "isJson": true,
+      "sha256": "375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7",
+      "file": "discovery-bodies/375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:36.288Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:37.634Z",
+      "isJson": true,
+      "sha256": "375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7",
+      "file": "discovery-bodies/375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:37.701Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:38.315Z",
+      "isJson": true,
+      "sha256": "375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7",
+      "file": "discovery-bodies/375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:38.388Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:38.744Z",
+      "isJson": true,
+      "sha256": "c2f0d535ecd32b40f6d0b4a4eada80d93867e49bb9761fe1ae42cf97b5b2bd6f",
+      "file": "discovery-bodies/c2f0d535ecd32b40f6d0b4a4eada80d93867e49bb9761fe1ae42cf97b5b2bd6f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.006Z",
+      "isJson": true,
+      "sha256": "375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7",
+      "file": "discovery-bodies/375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.056Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.279Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.707Z",
+      "isJson": true,
+      "sha256": "c2f0d535ecd32b40f6d0b4a4eada80d93867e49bb9761fe1ae42cf97b5b2bd6f",
+      "file": "discovery-bodies/c2f0d535ecd32b40f6d0b4a4eada80d93867e49bb9761fe1ae42cf97b5b2bd6f.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.792Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.868Z",
+      "isJson": true,
+      "sha256": "375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7",
+      "file": "discovery-bodies/375b0726143fda88a8386ca5d0432c48de7d786be5e0d12e2ca3eb5a756bcac7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/61001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/shiyu/61001",
+      "observedAt": "2026-10-17T18:29:39.955Z",
+      "isJson": true,
+      "sha256": "07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084",
+      "file": "discovery-bodies/07fb0c6d2f81a7bf8ccadbde75ea9fe8344d4981fd73b0832c29dee5987fc084.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:41.482Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:41.860Z",
+      "isJson": true,
+      "sha256": "797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe",
+      "file": "discovery-bodies/797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:41.950Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:42.242Z",
+      "isJson": true,
+      "sha256": "d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba",
+      "file": "discovery-bodies/d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:43.400Z",
+      "isJson": true,
+      "sha256": "797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe",
+      "file": "discovery-bodies/797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:43.497Z",
+      "isJson": true,
+      "sha256": "d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba",
+      "file": "discovery-bodies/d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:43.499Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.101Z",
+      "isJson": true,
+      "sha256": "797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe",
+      "file": "discovery-bodies/797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.157Z",
+      "isJson": true,
+      "sha256": "d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba",
+      "file": "discovery-bodies/d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.177Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.519Z",
+      "isJson": true,
+      "sha256": "e73f7ee20e80f95780e2b42dad1187fc479a18f0fc3befdb801872736ea64de1",
+      "file": "discovery-bodies/e73f7ee20e80f95780e2b42dad1187fc479a18f0fc3befdb801872736ea64de1.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.570Z",
+      "isJson": true,
+      "sha256": "551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac",
+      "file": "discovery-bodies/551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.769Z",
+      "isJson": true,
+      "sha256": "797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe",
+      "file": "discovery-bodies/797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.825Z",
+      "isJson": true,
+      "sha256": "d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba",
+      "file": "discovery-bodies/d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.851Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:44.878Z",
+      "isJson": true,
+      "sha256": "2e7335bbd163c9946fa88a7884d3377c57dcc3ed6331342a943f5d101350a12a",
+      "file": "discovery-bodies/2e7335bbd163c9946fa88a7884d3377c57dcc3ed6331342a943f5d101350a12a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.477Z",
+      "isJson": true,
+      "sha256": "e73f7ee20e80f95780e2b42dad1187fc479a18f0fc3befdb801872736ea64de1",
+      "file": "discovery-bodies/e73f7ee20e80f95780e2b42dad1187fc479a18f0fc3befdb801872736ea64de1.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.567Z",
+      "isJson": true,
+      "sha256": "551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac",
+      "file": "discovery-bodies/551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.569Z",
+      "isJson": true,
+      "sha256": "2e7335bbd163c9946fa88a7884d3377c57dcc3ed6331342a943f5d101350a12a",
+      "file": "discovery-bodies/2e7335bbd163c9946fa88a7884d3377c57dcc3ed6331342a943f5d101350a12a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.689Z",
+      "isJson": true,
+      "sha256": "797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe",
+      "file": "discovery-bodies/797c868919c865f3a23328d2237957c4aefd22f34b4ac30bf24d01394d8a2ebe.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.852Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/69001.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/boss/69001",
+      "observedAt": "2026-10-17T18:29:45.852Z",
+      "isJson": true,
+      "sha256": "d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba",
+      "file": "discovery-bodies/d7b08b9bba01021fc4852ffe3cd79ae1032f21af0f5dae72fbb044f8412a4fba.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:47.490Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:47.872Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:47.951Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:48.220Z",
+      "isJson": true,
+      "sha256": "484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8",
+      "file": "discovery-bodies/484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:49.289Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:49.351Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:49.367Z",
+      "isJson": true,
+      "sha256": "484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8",
+      "file": "discovery-bodies/484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:49.967Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.037Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.039Z",
+      "isJson": true,
+      "sha256": "484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8",
+      "file": "discovery-bodies/484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.406Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.491Z",
+      "isJson": true,
+      "sha256": "551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac",
+      "file": "discovery-bodies/551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.651Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.749Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:50.751Z",
+      "isJson": true,
+      "sha256": "484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8",
+      "file": "discovery-bodies/484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.042Z",
+      "isJson": true,
+      "sha256": "7acff99afc98ba41a9eaccf9cd4153c0062c06f96d6c8c93780db256d97859fc",
+      "file": "discovery-bodies/7acff99afc98ba41a9eaccf9cd4153c0062c06f96d6c8c93780db256d97859fc.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.323Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.401Z",
+      "isJson": true,
+      "sha256": "551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac",
+      "file": "discovery-bodies/551be2d61d29f84b6a2241569c66774f4d1d6336bd05c1effb3c33337ee4dbac.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.2/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.404Z",
+      "isJson": true,
+      "sha256": "7acff99afc98ba41a9eaccf9cd4153c0062c06f96d6c8c93780db256d97859fc",
+      "file": "discovery-bodies/7acff99afc98ba41a9eaccf9cd4153c0062c06f96d6c8c93780db256d97859fc.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.519Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.600Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/101.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/101",
+      "observedAt": "2026-10-17T18:29:51.601Z",
+      "isJson": true,
+      "sha256": "484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8",
+      "file": "discovery-bodies/484a9c0d95d0132414ff1807d2ebd27285d5585b7238248e9ddebd6a2fd2b3e8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "observedAt": "2026-10-17T18:29:53.281Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "observedAt": "2026-10-17T18:29:53.609Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:30:07.457Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:30:07.807Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "observedAt": "2026-10-17T18:30:14.634Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "observedAt": "2026-10-17T18:30:14.971Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "observedAt": "2026-10-17T18:30:18.969Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "observedAt": "2026-10-17T18:30:19.337Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "observedAt": "2026-10-17T18:30:22.109Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "observedAt": "2026-10-17T18:30:22.457Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "observedAt": "2026-10-17T18:30:31.238Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "observedAt": "2026-10-17T18:30:31.310Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "observedAt": "2026-10-17T18:30:39.702Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/achievement/achievement.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "observedAt": "2026-10-17T18:30:40.071Z",
+      "isJson": true,
+      "sha256": "37374751e50c80bd2311323ac95298ac602beb6f6ee9aecd02b974357e2dd7f8",
+      "file": "discovery-bodies/37374751e50c80bd2311323ac95298ac602beb6f6ee9aecd02b974357e2dd7f8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:30:50.904Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/tpp.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:30:51.276Z",
+      "isJson": true,
+      "sha256": "ec4c0c3a0dc3bd249b149dac2ecab6d6ec71509b90fc85066703da9785d46687",
+      "file": "discovery-bodies/ec4c0c3a0dc3bd249b149dac2ecab6d6ec71509b90fc85066703da9785d46687.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/card.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:30:51.285Z",
+      "isJson": true,
+      "sha256": "4a2acf379dca3f84d6a0880b7d83eff656168c8943812657283221c0a155e097",
+      "file": "discovery-bodies/4a2acf379dca3f84d6a0880b7d83eff656168c8943812657283221c0a155e097.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/resonium.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:30:51.313Z",
+      "isJson": true,
+      "sha256": "2c64b914f7e0b9bd9df1aebcb2d0cd115846a578b1b628bd1357712d5627f356",
+      "file": "discovery-bodies/2c64b914f7e0b9bd9df1aebcb2d0cd115846a578b1b628bd1357712d5627f356.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/gg.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:30:51.320Z",
+      "isJson": true,
+      "sha256": "3b12ddc8eca5c5cdcdc8059ab583afff9602eaf1e937645db4a7d9f427bba2e6",
+      "file": "discovery-bodies/3b12ddc8eca5c5cdcdc8059ab583afff9602eaf1e937645db4a7d9f427bba2e6.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "observedAt": "2026-10-17T18:30:56.444Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12%2B19629936/diff/en.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "observedAt": "2026-10-17T18:30:56.816Z",
+      "isJson": true,
+      "sha256": "de613471dd1e039af8f2259062f300c902a0ef8f31b8d10b4cfbb99a37a095e3",
+      "file": "discovery-bodies/de613471dd1e039af8f2259062f300c902a0ef8f31b8d10b4cfbb99a37a095e3.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:31:00.869Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:31:00.922Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/201.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:31:01.337Z",
+      "isJson": true,
+      "sha256": "31c17bc99da05dbae37c1ab189ada0fd90b91f2b37a8ee6b48acf8a1529bf1fd",
+      "file": "discovery-bodies/31c17bc99da05dbae37c1ab189ada0fd90b91f2b37a8ee6b48acf8a1529bf1fd.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:31:01.345Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    }
+  ],
+  "note": "Historical comparison options intentionally excluded from downloaded scope. Source shapes preserve all levels; local level controls do not define extra datasets.",
+  "originalCapture": ".nanoka/selector-review/observed-urls.json"
+}

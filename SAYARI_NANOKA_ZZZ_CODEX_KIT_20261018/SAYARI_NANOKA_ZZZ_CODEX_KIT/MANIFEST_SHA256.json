@@ -1,0 +1,191 @@
+{
+  "kit": "SAYARI_NANOKA_ZZZ_CODEX_KIT",
+  "reviewDateAsiaBangkok": "2026-10-18",
+  "createdUtc": "2026-10-17T17:34:46.656584+00:00",
+  "algorithm": "SHA-256",
+  "excludes": [
+    "MANIFEST_SHA256.json"
+  ],
+  "files": [
+    {
+      "path": "CODEX_PASTE_FIRST.txt",
+      "bytes": 1475,
+      "sha256": "220c8dded97b2eb8cc76c5dbf2a1f77ed1d48d22482ad05e20f4063dcfa97d86"
+    },
+    {
+      "path": "CODEX_PROMPT_TH.md",
+      "bytes": 21126,
+      "sha256": "3b6ba97988aa5a64b814ff13473e526cadad9dc6ec88d209330c3c8760ef9e9a"
+    },
+    {
+      "path": "START_HERE_TH.md",
+      "bytes": 8363,
+      "sha256": "d1b3f0a43bbd33f43bfe01027dca30a162cdc255ff0f1e63e68aae3f5a71460e"
+    },
+    {
+      "path": "docs/01_PROJECT_CONTEXT_TH.md",
+      "bytes": 4326,
+      "sha256": "c013d62ae19857a6ed31d3fb5b3c99684a1426b2e00e7db840f05a62f8485abe"
+    },
+    {
+      "path": "docs/02_NANOKA_ZZZ_API_REFERENCE_TH.md",
+      "bytes": 15050,
+      "sha256": "52b039c6e87c6e9a3454da71e777e8ae9e5d563bf2d0162f7a2462dbc0b1e9de"
+    },
+    {
+      "path": "docs/03_DISCOVERY_AND_COMPLETENESS_TH.md",
+      "bytes": 10777,
+      "sha256": "8e97397effcee9fe6910bfa6954ff18bc01299270018c88575c39a3ecc71b36c"
+    },
+    {
+      "path": "docs/04_IMPLEMENTATION_PLAN_TH.md",
+      "bytes": 9163,
+      "sha256": "f09497d0b73ffd3b3487b628a2709b1a4548a7381177566a2c029e8e27fccb0f"
+    },
+    {
+      "path": "docs/05_UI_SPEC_TH.md",
+      "bytes": 8542,
+      "sha256": "3091f308b2e79487af02fc86ed6e9b17c0622c26709b6a60aac1cd20b46cfc68"
+    },
+    {
+      "path": "docs/06_TEST_AND_ACCEPTANCE_TH.md",
+      "bytes": 7683,
+      "sha256": "e991cb3a06bfe2336e959e93fa5920121c37f0c9e41df6d3bfb26495c6ecfd18"
+    },
+    {
+      "path": "docs/07_COMMANDS_WINDOWS_TH.md",
+      "bytes": 8889,
+      "sha256": "8cdc164dc020f20f0564d8ae71395da1786fcab75809df7330c9d62a8d93f87d"
+    },
+    {
+      "path": "docs/08_PROVENANCE_REFRESH_SECURITY_TH.md",
+      "bytes": 5453,
+      "sha256": "f93da6c931f280ebb89da354a7844679d460c8ed8446013817fa78d424c196cd"
+    },
+    {
+      "path": "evidence/LOCAL_TEST_RESULTS.json",
+      "bytes": 1893,
+      "sha256": "15d042f34f37ebf9ff6c292118d8136a54fb5a8474d058dc17cdbbb5ca19cc6f"
+    },
+    {
+      "path": "evidence/PREPARATION_STATUS.json",
+      "bytes": 1681,
+      "sha256": "d5f12a20a491ce39b2b6aa05b42d839ceb401a80dfdb094805dfe581f958354f"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/latest-run.json",
+      "bytes": 189,
+      "sha256": "33cbc1254f6e2e9e3fd766a829b8fab31e05717a6d05d5b8b6a4516796da4400"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/probe-console.log",
+      "bytes": 237,
+      "sha256": "f5f0496ce2b5c3b90159b41010774f7ad2fb712c81254cfd19871927de80d502"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/runs/2026-10-17T17-33-20-466Z-51e8c41b/catalog.json",
+      "bytes": 6042,
+      "sha256": "549ecb0ffd2edeb028528e2d66eef9a36bbd1d1d23519f80a524cac8fd063733"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/runs/2026-10-17T17-33-20-466Z-51e8c41b/coverage.json",
+      "bytes": 1318,
+      "sha256": "736653554a93a608223dbd1e5b7aa05b069dd6f5cff031d80b2f5bc714c31d16"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/runs/2026-10-17T17-33-20-466Z-51e8c41b/field-inventory.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/runs/2026-10-17T17-33-20-466Z-51e8c41b/plan.json",
+      "bytes": 337,
+      "sha256": "808c937da272fbf648372ce318f34401d8a55d538bfeed353aab188b6cdb9fde"
+    },
+    {
+      "path": "evidence/UPSTREAM_PROBE_FROM_PREPARATION/runs/2026-10-17T17-33-20-466Z-51e8c41b/requests.jsonl",
+      "bytes": 158,
+      "sha256": "35c71006f92a8e8f45f92c4b01760cf6f3b9a880eb323ac8ea8cbc1367526058"
+    },
+    {
+      "path": "evidence/unit-tests.tap",
+      "bytes": 5844,
+      "sha256": "811ad5420a1db3563d74c656bde8b8d54a4ec4e4035df1dc8c58b9a89778bfee"
+    },
+    {
+      "path": "input/SAYARI_PROJECT_SUMMARY.txt",
+      "bytes": 23674,
+      "sha256": "cfdf5e0d7992c5c734fd595fa72961c9cd2e78f52c9a8be1f057d9d52cb70bd5"
+    },
+    {
+      "path": "reference/FINAL_REPORT_TEMPLATE_TH.md",
+      "bytes": 2039,
+      "sha256": "df32ec8bd12424e4e0375409d70e0f24788f447c47ef3d3a93550c768ee7377b"
+    },
+    {
+      "path": "reference/discovery-review.template.json",
+      "bytes": 3746,
+      "sha256": "8955a475003b4165dc363bf57218071311bab0f58f6da02c7ed4823b89718be4"
+    },
+    {
+      "path": "reference/endpoints.seed.json",
+      "bytes": 4107,
+      "sha256": "bafc95ee86600b145c0063a66b83544a807c2f29d7b2a4a48e1993de7a0e6138"
+    },
+    {
+      "path": "reference/extensions.template.json",
+      "bytes": 240,
+      "sha256": "b7ae332fab4d1f1aa3078d4360a84a50056fc0665b799c4eabdcac850c82b112"
+    },
+    {
+      "path": "reference/observed-urls.template.json",
+      "bytes": 259,
+      "sha256": "f3f0876fc9bf52a44524ef305e6b183037ebaa9352ba4b675f88a69b54fcf435"
+    },
+    {
+      "path": "reference/sources.json",
+      "bytes": 6238,
+      "sha256": "c09e875047fa13765cb2b96b96ed5fe79a54e5cbdbf4101f1487d192df327fb0"
+    },
+    {
+      "path": "reference/sync.defaults.json",
+      "bytes": 405,
+      "sha256": "38d3640372cdef59754a9fc28427876e6cae14491136884e658c9c7f8ba7037f"
+    },
+    {
+      "path": "reference/ui-data-contract.ts",
+      "bytes": 2737,
+      "sha256": "ada28c99331d6a7ef32a9ace5b72e177cf2c75b6b2b11d1d5e61b6e4f81fccbb"
+    },
+    {
+      "path": "scripts/export-for-vite.mjs",
+      "bytes": 3704,
+      "sha256": "edd3ad02f1017e97ba0e85d9cdde0a330a6889fa033a55a4b8c5cf8c0b63e2d3"
+    },
+    {
+      "path": "scripts/nanoka-sync.mjs",
+      "bytes": 26947,
+      "sha256": "ce87b4a2e0cbf16b9306d8575e95c68f07f6569783cc9d5369d7edf6e319e605"
+    },
+    {
+      "path": "scripts/verify-kit.mjs",
+      "bytes": 1195,
+      "sha256": "71189874c1b6abd4f64b39dacae8879836dc06020fdef2d2a8dba62422969082"
+    },
+    {
+      "path": "tests/nanoka-sync.test.mjs",
+      "bytes": 11021,
+      "sha256": "fd6237abd70aa158b2d806b532a708cc0235049c888bbd6470404ae74c69bcad"
+    },
+    {
+      "path": "tools/network-discovery/discover.mjs",
+      "bytes": 7442,
+      "sha256": "a267291e2541fad3d481586f6c379735fffa8973cb6aad2575f842babaf4f2d2"
+    },
+    {
+      "path": "tools/network-discovery/package.json",
+      "bytes": 257,
+      "sha256": "2b9df42cf0e0b5612b949ffc20a0fba6d4ee3b1f365996ea0300d4d414f5f9d0"
+    }
+  ]
+}

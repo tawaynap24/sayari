@@ -1,0 +1,40 @@
+{
+  "runId": "2026-10-17T18-10-48-763Z-f71d87c9",
+  "startedAt": "2026-10-17T18:10:48.764Z",
+  "finishedAt": "2026-10-17T18:11:59.082Z",
+  "mode": "probe",
+  "status": "PROBE_ONLY_NOT_FULL_SYNC",
+  "registeredScopeComplete": false,
+  "entireProviderApiComplete": false,
+  "entireProviderApiCompleteReason": "No exhaustive provider OpenAPI catalog is assumed. Separate route/selector/family discovery and UI audit are mandatory.",
+  "selectedVersions": [
+    {
+      "version": "3.2",
+      "channels": [
+        "live"
+      ]
+    },
+    {
+      "version": "3.3.12+19629936",
+      "channels": [
+        "latest"
+      ]
+    }
+  ],
+  "selectedLanguages": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "uniqueResourcesAttempted": 107,
+  "successfulResources": 107,
+  "failedResources": 0,
+  "networkAttempts": 90,
+  "cachedResources": 17,
+  "scheduledDetailResources": 5288,
+  "issues": [],
+  "failures": [],
+  "unattemptedDetailsInProbe": 5288,
+  "historicalVersionsDownloaded": false
+}

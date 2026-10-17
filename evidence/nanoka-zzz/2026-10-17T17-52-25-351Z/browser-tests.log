@@ -1,0 +1,23 @@
+BROWSER_TEST_RESULTS.json
+PASS [REAL_APP] Home → database and calculator input regression; black base preserved
+PASS [REAL_DATA] Live list search, rarity/group filters and pagination reach the last record
+PASS [REAL_DATA] Agent sections, every level option, field search, source and exact raw download
+PASS [REAL_DATA] Version and language controls, history and direct link reload
+PASS [REAL_DATA] Every registered category opens a real list and structured detail
+PASS [REAL_DATA] API Explorer paginates, searches and clears an old selection after locale changes
+PASS [REAL_APP] Responsive 390/768/1440 layouts and keyboard dialog
+PASS [REAL_DATA_DELAYED_TRANSPORT] Delayed old locale response cannot replace the selected locale
+PASS [REAL_DATA_DELAYED_TRANSPORT] Delayed Live index cannot replace a selected Latest index
+PASS [INJECTED_FAILURE_ONLY] Missing snapshot and HTML response display errors and retry successfully
+PASS [INJECTED_IMAGE_FAILURE] Image failures keep names and usable cards
+
+BROWSER_EDGE_TEST_RESULTS.json
+PASS [SYNTHETIC_TEST_ONLY] Unknown fields retain 0/false/null/empty containers; literal HTML never executes; array tail reachable
+PASS [SYNTHETIC_TEST_ONLY] Requested JA fallback to EN is explicitly disclosed
+PASS [SYNTHETIC_TEST_ONLY] A null selected record does not fall back to searching the entire resource
+PASS [SYNTHETIC_TEST_ONLY] Valid empty differs from request failure
+PASS [SYNTHETIC_TEST_ONLY] Failed detail keeps the indexed record and explicit error; partial badge visible
+PASS [SYNTHETIC_TEST_ONLY] Unresolved material keeps its ID and zero quantity
+PASS [SYNTHETIC_TEST_ONLY] Damaged object refuses display
+PASS [SYNTHETIC_TEST_ONLY] Changed manifest schema refuses a misleading database
+PASS [SYNTHETIC_TEST_ONLY] Loading state is shown while the pointer is pending

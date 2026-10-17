@@ -1,0 +1,446 @@
+{
+  "1330101": {
+    "id": 1330101,
+    "name": "喧噪を謳う唇",
+    "desc": "チーム全体の<color=#CF4029>エネルギー獲得効率-15%</color>、<color=#2BAD00>デシベル値獲得効率+25%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact001.png"
+  },
+  "1330201": {
+    "id": 1330201,
+    "name": "超機動モード",
+    "desc": "チーム全体の<color=#2BAD00>攻撃力+30%</color>、<color=#2BAD00>会心ダメージ+40%</color>。敵の攻撃を受け、かつHPが減少した時、<color=#CF4029>このバフ効果が切れる</color>。次にエリアに入ると、この効果がリセットされる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact002.png"
+  },
+  "1330301": {
+    "id": 1330301,
+    "name": "混沌異常の仮面",
+    "desc": "チーム全体の<color=#CF4029>攻撃力-15%</color>。敵をブレイク状態または状態異常にした時、チーム全体の<color=#2BAD00>会心ダメージ+40%</color>、<color=#2BAD00>異常マスタリー+40Pt</color>、継続時間20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact003.png"
+  },
+  "1330401": {
+    "id": 1330401,
+    "name": "逆境に打ち勝つ意志",
+    "desc": "現在のHPが80%以上の場合、エージェントの<color=#CF4029>与ダメージが-40%</color>。現在のHPが50%以下の場合、エージェントの<color=#2BAD00>与ダメージ+40%</color>。現在のHPが20%以下の場合、エージェントの<color=#2BAD00>会心率が追加で+15%</color>、<color=#2BAD00>会心ダメージが追加で+30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact004.png"
+  },
+  "1331001": {
+    "id": 1331001,
+    "name": "ニトロフューエルシェアパック",
+    "desc": "エージェントの<color=#CF4029>受けるダメージ+20%</color>、<color=#FFFFFF>『パリィ支援』</color>と<color=#FFFFFF>『回避支援』</color>を発動する時に<color=#FFFFFF>『支援ポイント』</color>が消費されなくなる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339701": {
+    "id": 1339701,
+    "name": "ナビデータセット",
+    "desc": "「ナビデータ」+<color=#2BAD00>3</color>、「親友との会話」エリアのマリーンのところで<color=#2BAD00>「ナビを再設定」</color>できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact023.png"
+  },
+  "1339702": {
+    "id": 1339702,
+    "name": "ナビカード-財テク",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>ギアコイン関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339703": {
+    "id": 1339703,
+    "name": "ナビカード-近道",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>極短ルートの</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339704": {
+    "id": 1339704,
+    "name": "ナビカード-奮戦",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「挑戦」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339705": {
+    "id": 1339705,
+    "name": "ナビカード-呪い",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「代価の間」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339706": {
+    "id": 1339706,
+    "name": "ナビカード-奇遇",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「偶然の出会い」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339707": {
+    "id": 1339707,
+    "name": "ナビカード-霧払い",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>迷霧エリア</color>を含んだマップに更新できる。\n迷霧エリアに入るたびに、今回の零号ホロウ挑戦において、チーム全体の攻撃力+<color=#2BAD00>10%</color>、会心ダメージ+<color=#2BAD00>20%</color>、異常マスタリー+<color=#2BAD00>20</color>Pt。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339708": {
+    "id": 1339708,
+    "name": "ナビカード-財テク",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>ギアコイン関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339709": {
+    "id": 1339709,
+    "name": "ナビカード-近道",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>極短ルートの</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339710": {
+    "id": 1339710,
+    "name": "ナビカード-奮戦",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「挑戦」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339711": {
+    "id": 1339711,
+    "name": "ナビカード-呪い",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「代価の間」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339712": {
+    "id": 1339712,
+    "name": "ナビカード-奇遇",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>「偶然の出会い」関連の</color>エリアマップに更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339713": {
+    "id": 1339713,
+    "name": "ナビカード-霧払い",
+    "desc": "「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、マップを<color=#2BAD00>迷霧エリア</color>を含んだマップに更新できる。\n迷霧エリアに入るたびに、今回の零号ホロウ挑戦において、チーム全体の攻撃力+<color=#2BAD00>10%</color>、会心ダメージ+<color=#2BAD00>20%</color>、異常マスタリー+<color=#2BAD00>20</color>Pt。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339751": {
+    "id": 1339751,
+    "name": "ナビカード-インデックス",
+    "desc": "心優しき救助者に、傭兵隊の隊長が誤ってマップデータを送った。「親友との会話」エリアのマリーンのところで<color=#2BAD00>「指定更新」を1回行い</color>、<color=#2BAD00>指定のマップ</color>に更新できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact030.png"
+  },
+  "1339801": {
+    "id": 1339801,
+    "name": "あいまいな記帳法",
+    "desc": "「ボンプ商店」を出るたびに、<color=#CF4029>所持ギアコインを全て失う</color>。商品購入に使われたギアコイン100枚ごとに、ボスエネミー以外の敵のHP-<color=#2BAD00>0.5%</color>（最大30%まで）。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact041.png"
+  },
+  "1339802": {
+    "id": 1339802,
+    "name": "無謀な勇者",
+    "desc": "現在のHPが<color=#CF4029>HP上限の10%を超えると、10%まで減少し</color>、チーム全体の<color=#CF4029>被ダメージ+50%</color>、その代わり<color=#2BAD00>攻撃が必ず会心になり、攻撃力+100%、異常マスタリー+400Pt</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339803": {
+    "id": 1339803,
+    "name": "潮汐の法則",
+    "desc": "エージェントが与えたダメージに応じて、<color=#2BAD00>チーム全体のHPを一定量回復する</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact043.png"
+  },
+  "1339804": {
+    "id": 1339804,
+    "name": "勇敢なる炬火",
+    "desc": "「迷霧エリア」に入るたびに、今回の零号ホロウ挑戦において、<color=#2BAD00>チーム全体の攻撃力+5%、会心ダメージ+5%、異常マスタリー+10Pt</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339805": {
+    "id": 1339805,
+    "name": "金銭攻撃・強化版",
+    "desc": "ギアコインを100枚所持するごとに、<color=#2BAD00>チーム全体の与ダメージ+1%、会心率+0.5%、会心ダメージ+1%、異常マスタリー+2Pt</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339806": {
+    "id": 1339806,
+    "name": "つぎはぎの防御術",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、敵がエージェントに与えるダメージ-<color=#2BAD00>2.5%</color>、最大<color=#2BAD00>6</color>回まで発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339807": {
+    "id": 1339807,
+    "name": "旧友の痕跡",
+    "desc": "「非戦闘エリア」に入るたびに、ギアコインを<color=#2BAD00>200</color>枚獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339808": {
+    "id": 1339808,
+    "name": "静電気現象",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、チーム全体の会心率+<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339809": {
+    "id": 1339809,
+    "name": "つぎはぎの防御術",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、敵がエージェントに与えるダメージ-<color=#2BAD00>2.5%</color>、最大<color=#2BAD00>6</color>回まで発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339810": {
+    "id": 1339810,
+    "name": "旧友の痕跡",
+    "desc": "「非戦闘エリア」に入るたびに、ギアコインを<color=#2BAD00>200</color>枚獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339811": {
+    "id": 1339811,
+    "name": "静電気現象",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、チーム全体の会心率+<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339812": {
+    "id": 1339812,
+    "name": "高額配当・強化版",
+    "desc": "ギアコインの<color=#2BAD00>獲得数+50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339813": {
+    "id": 1339813,
+    "name": "開幕シールド（混沌）",
+    "desc": "戦闘エリアに入ると、<color=#FFAF2C>敵</color>が最大HPの10%分のシールドを獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample04.png"
+  },
+  "1339814": {
+    "id": 1339814,
+    "name": "アドレナリン（混乱）",
+    "desc": "HPが50%以下の時、<color=#FFAF2C>敵単体</color>の与ダメージが20%アップする。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample02.png"
+  },
+  "1339815": {
+    "id": 1339815,
+    "name": "開幕雷撃（混沌）",
+    "desc": "<color=#FFAF2C>エージェント</color>のHPが75%ダウンする。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample05.png"
+  },
+  "1339816": {
+    "id": 1339816,
+    "name": "三重バッファー（混沌）",
+    "desc": "BOSS戦闘エリアに入った後、最初の20秒間、<color=#FFAF2C>BOSSエネミー</color>の被ダメージ-50%",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample06.png"
+  },
+  "1339817": {
+    "id": 1339817,
+    "name": "マラソン「動かざること山の如し」",
+    "desc": "<color=#FFAF2C>5エリア</color>を通過、かつ途中で吹き飛ばされた回数が計<color=#FFAF2C>5回以下</color>の場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339818": {
+    "id": 1339818,
+    "name": "マラソン「守銭奴」",
+    "desc": "<color=#FFAF2C>5エリア</color>を通過、かつ途中で<color=#FFAF2C>ショップでギアコインを消費して商品を購入していない</color>場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339819": {
+    "id": 1339819,
+    "name": "マラソン「凡なる肉体」",
+    "desc": "<color=#FFAF2C>8エリア</color>を通過、かつ途中で<color=#FFAF2C>汎用レゾブレムを1枚獲得できた</color>場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339820": {
+    "id": 1339820,
+    "name": "マラソン「贅沢三昧」",
+    "desc": "<color=#FFAF2C>8エリア</color>を通過、かつ途中で<color=#FFAF2C>消費したギアコインが計500枚以上</color>の場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339821": {
+    "id": 1339821,
+    "name": "マラソン「疾風オールバック」",
+    "desc": "<color=#FFAF2C>5エリア</color>を通過、かつ途中で<color=#FFAF2C>消費時間が300秒未満（ステージ時間を基に計算）</color>の場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339822": {
+    "id": 1339822,
+    "name": "マラソン「記号学の原理」",
+    "desc": "<color=#FFAF2C>8エリア</color>を通過、かつ途中で<color=#FFAF2C>「偶然の出会い」に1回以上遭遇した</color>場合、<color=#FFAF2C>戦術プリズム構想強化</color>の回数を1回獲得する。挑戦進捗はコレクション画面で確認できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339823": {
+    "id": 1339823,
+    "name": "無謀な勇者・強化版",
+    "desc": "現在のHPが<color=#CF4029>HP上限の30%を超えると、30%まで減少し</color>、<color=#CF4029>チーム全体の被ダメージ+50%</color>。その代わり、<color=#2BAD00>攻撃が必ず会心になり、攻撃力+100%、透徹ダメージ+50%、異常マスタリー+400Pt</color>。溢れた会心率は一定の比率で会心ダメージに変換される（最大150%）。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339825": {
+    "id": 1339825,
+    "name": "金銭攻撃・超強化版",
+    "desc": "ギアコインを100枚所持するごとに、<color=#2BAD00>チーム全体の与ダメージ+1.5%、会心率+0.5%、会心ダメージ+1.5%、異常マスタリー+3Pt</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339826": {
+    "id": 1339826,
+    "name": "大手寡占・変異版",
+    "desc": "ギアコイン獲得時、20%の確率で<color=#2BAD00>300%</color>、20%の確率で<color=#2BAD00>150%</color>、25%の確率で<color=#2BAD00>50%</color>を追加で獲得する。25%の確率で今回の獲得量は変わらず、5%の確率で所持している全ギアコインの<color=#CF4029>10%</color>、5%の確率で<color=#CF4029>20%</color>が差し引かれる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339827": {
+    "id": 1339827,
+    "name": "勇敢なる炬火・強化版",
+    "desc": "「迷霧エリア」に入るたびに、今回のホロウ探索において、<color=#2BAD00>チーム全体の攻撃力+5%、会心ダメージ+10%、異常マスタリー+20Pt、透徹ダメージ+2.5%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339828": {
+    "id": 1339828,
+    "name": "守銭奴・強化版",
+    "desc": "「ボンプ商店」入店後、消費しなかった場合、商店を出る際にギアコインを<color=#2BAD00>40%</color>獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339902": {
+    "id": 1339902,
+    "name": "大手寡占",
+    "desc": "ギアコイン獲得時、40%の確率で<color=#2BAD00>追加で20%獲得する</color>、5%の確率で<color=#2BAD00>追加で50%獲得する</color>、5%の確率で<color=#CF4029>ギアコインの獲得数が1枚になる</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339903": {
+    "id": 1339903,
+    "name": "高額配当",
+    "desc": "ギアコインの<color=#2BAD00>獲得数+20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339904": {
+    "id": 1339904,
+    "name": "金銭攻撃",
+    "desc": "ギアコインを100枚所持するごとに、チーム全体の<color=#2BAD00>与ダメージ+1%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact008.png"
+  },
+  "1339905": {
+    "id": 1339905,
+    "name": "ボロ儲けの手段",
+    "desc": "ただちに所持ギアコイン<color=#2BAD00>30%</color>分のギアコインを獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact031.png"
+  },
+  "1339906": {
+    "id": 1339906,
+    "name": "心のこもった贈り物",
+    "desc": "「ボンプ商店」入店時、<color=#2BAD00>10%</color>の確率で無料な商品が<color=#2BAD00>2</color>個出現する代わりに、商品を更新できなくなる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact032.png"
+  },
+  "1339907": {
+    "id": 1339907,
+    "name": "守銭奴",
+    "desc": "「ボンプ商店」入店後、消費しなかった場合、商店を出る際はギアコインを<color=#2BAD00>20%</color>獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339908": {
+    "id": 1339908,
+    "name": "VIP待遇",
+    "desc": "レゾブレム変換装置の更新チャンスを<color=#2BAD00>5</color>回獲得する。「特派調査」では、レゾブレム変換装置で戦術プリズム構想を更新することもできる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact034.png"
+  },
+  "1339909": {
+    "id": 1339909,
+    "name": "終結の決意",
+    "desc": "ノーダメージで戦闘エリアをクリアすると、今回の零号ホロウ挑戦において、チーム全体の与ダメージ+<color=#2BAD00>5%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact035.png"
+  },
+  "1339910": {
+    "id": 1339910,
+    "name": "棘の鎧（両面）",
+    "desc": "「戦闘エリア」に入った時、チーム全体が現在のHPを<color=#CF4029>20%</color>失い、HP上限+<color=#2BAD00>10%</color>、同時にHP上限<color=#2BAD00>10%</color>分のシールドを生成する。今回の零号ホロウ挑戦において、この効果は<color=#2BAD00>4</color>回まで発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact036.png"
+  },
+  "1339911": {
+    "id": 1339911,
+    "name": "つぎはぎの防御術",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、敵がエージェントに与えるダメージ-<color=#2BAD00>2.5%</color>、最大<color=#2BAD00>6</color>回まで発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339912": {
+    "id": 1339912,
+    "name": "旧友の痕跡",
+    "desc": "「非戦闘エリア」に入るたびに、ギアコインを<color=#2BAD00>200</color>枚獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339913": {
+    "id": 1339913,
+    "name": "静電気現象",
+    "desc": "「非戦闘エリア」に入るたびに、今回の零号ホロウ挑戦において、チーム全体の会心率+<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339914": {
+    "id": 1339914,
+    "name": "実験の「副」産物",
+    "desc": "このカードを<color=#2BAD00>「代価の間」に持ち込むと、予想外のことが起きるかもしれない。</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  },
+  "1339921": {
+    "id": 1339921,
+    "name": "生命喪失の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、エージェントの<color=#CF4029>HP上限-30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339922": {
+    "id": 1339922,
+    "name": "棘枷の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、<color=#FFFFFF>『強化特殊スキル』</color>を発動すると<color=#CF4029>HPが4%減少する</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact010.png"
+  },
+  "1339923": {
+    "id": 1339923,
+    "name": "感知遮断の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、敵が攻撃する時、<color=#CF4029>金色または赤色の閃光が表示されなくなる</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact011.png"
+  },
+  "1339924": {
+    "id": 1339924,
+    "name": "悪辣追撃の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、エージェントの<color=#CF4029>被ダメージ+30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact012.png"
+  },
+  "1339925": {
+    "id": 1339925,
+    "name": "弱点暴露の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、敵の<color=#CF4029>攻撃は確率で会心が発生する</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact013.png"
+  },
+  "1339926": {
+    "id": 1339926,
+    "name": "異常封印の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、敵の<color=#CF4029>全属性の状態異常蓄積耐性+50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact014.png"
+  },
+  "1339927": {
+    "id": 1339927,
+    "name": "難攻不落の印",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}つの戦闘エリアで、敵の<color=#CF4029>ブレイク復帰速度+35%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact015.png"
+  },
+  "1339928": {
+    "id": 1339928,
+    "name": "心霊蘇生の印",
+    "desc": "エージェントの<color=#2BAD00>被ダメージ-20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact016.png"
+  },
+  "1339929": {
+    "id": 1339929,
+    "name": "エネルギー進呈の印",
+    "desc": "エージェントの<color=#2BAD00>エネルギー獲得効率+35%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact017.png"
+  },
+  "1339930": {
+    "id": 1339930,
+    "name": "利剣の印",
+    "desc": "<color=#FFFFFF>『パリィ支援』</color>の<color=#2BAD00>与えるブレイク値+40%</color>、<color=#FFFFFF>『支援突撃』</color>の<color=#2BAD00>与ダメージ+80%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact018.png"
+  },
+  "1339931": {
+    "id": 1339931,
+    "name": "致命反撃の印",
+    "desc": "エージェントの<color=#2BAD00>与ダメージ+40%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact019.png"
+  },
+  "1339932": {
+    "id": 1339932,
+    "name": "精密打撃の印",
+    "desc": "エージェントの<color=#2BAD00>会心ダメージ+65%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact020.png"
+  },
+  "1339933": {
+    "id": 1339933,
+    "name": "異常突破の印",
+    "desc": "エージェントの<color=#2BAD00>状態異常効果によるダメージ+50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact021.png"
+  },
+  "1339934": {
+    "id": 1339934,
+    "name": "ブレイクハンターの印",
+    "desc": "ブレイク状態の敵に対して、エージェントの<color=#2BAD00>与ダメージ+50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact022.png"
+  },
+  "1439914": {
+    "id": 1439914,
+    "name": "実験の「副」産物",
+    "desc": "Artifact_1439914_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  }
+}

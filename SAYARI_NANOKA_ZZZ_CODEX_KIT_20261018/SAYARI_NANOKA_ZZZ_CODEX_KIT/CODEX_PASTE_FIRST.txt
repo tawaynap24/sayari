@@ -1,0 +1,8 @@
+ทำงานในโปรเจกต์ D:\sayari-project
+
+อ่านไฟล์ต่อไปนี้ก่อน แล้วปฏิบัติตามคำสั่งภายในจนลงมือ implement และตรวจผลจริง ไม่หยุดแค่เสนอแผน:
+D:\sayari-project\_handoff\SAYARI_NANOKA_ZZZ_CODEX_KIT\CODEX_PROMPT_TH.md
+
+ชุดนี้มีสรุปโปรเจกต์ เอกสาร API Nanoka ZZZ, source references, endpoint registry, สคริปต์ sync/export, ตัวช่วย Network discovery และ acceptance checklist ครบอยู่แล้ว ให้ใช้ source จริงใน workspace เป็นข้อมูลปัจจุบันที่สุด
+
+เป้าหมายคือเรียก API Nanoka ZZZ ทุกหมวดที่ค้นพบ ดึงทุก ID/ทุก field ในขอบเขตที่กำหนด แล้วสร้างหน้าแสดงข้อมูลจริงทั้งหมดพร้อมลิงก์อ้างอิง Nanoka ในเว็บ Sayari รักษาหน้าคำนวณเดิมและงานที่ค้างอยู่ ห้ามใช้ mock เป็นข้อมูลเกมจริง ห้ามอ้างว่าครบก่อนตรวจ coverage และ UI จริง

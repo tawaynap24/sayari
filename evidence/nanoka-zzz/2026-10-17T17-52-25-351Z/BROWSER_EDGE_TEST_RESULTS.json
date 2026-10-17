@@ -1,0 +1,51 @@
+{
+  "note": "All scenarios are injected tests, not live game/API evidence.",
+  "origin": "http://127.0.0.1:4173",
+  "results": [
+    {
+      "name": "Unknown fields retain 0/false/null/empty containers; literal HTML never executes; array tail reachable",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Requested JA fallback to EN is explicitly disclosed",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "A null selected record does not fall back to searching the entire resource",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid empty differs from request failure",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Failed detail keeps the indexed record and explicit error; partial badge visible",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Unresolved material keeps its ID and zero quantity",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Damaged object refuses display",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Changed manifest schema refuses a misleading database",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    },
+    {
+      "name": "Loading state is shown while the pointer is pending",
+      "kind": "SYNTHETIC_TEST_ONLY",
+      "status": "PASS"
+    }
+  ]
+}

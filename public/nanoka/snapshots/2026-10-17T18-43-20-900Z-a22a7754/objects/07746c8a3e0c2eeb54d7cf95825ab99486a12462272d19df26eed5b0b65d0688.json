@@ -1,0 +1,1209 @@
+{
+  "id": 62054,
+  "name": "격변 구간",
+  "priority": 1,
+  "zone": {
+    "6205401": {
+      "name": "격변 구간 제1방어선",
+      "stage_num": 1,
+      "monster_level": 50,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054011": {
+          "monster_icon": "",
+          "monster_list": {
+            "11114": {
+              "id": 20000,
+              "name": "파르바우티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1550600.7825,
+                "attack": 2394.787878787879,
+                "defence": 639.36,
+                "stun": 7406.58,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11192": {
+              "id": 20003,
+              "name": "무장 하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1195788.2475,
+                "attack": 3019.5151515151515,
+                "defence": 639.36,
+                "stun": 4713.4400000000005,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11682": {
+              "id": 10030,
+              "name": "포소르",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 278912.865,
+                "attack": 1978.3030303030305,
+                "defence": 473.6,
+                "stun": 1765.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11692": {
+              "id": 10031,
+              "name": "소르디두스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 278912.865,
+                "attack": 1796.0909090909092,
+                "defence": 473.6,
+                "stun": 1765.76,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 4
+        },
+        "62054012": {
+          "monster_icon": "",
+          "monster_list": {
+            "11751": {
+              "id": 300004,
+              "name": "플라스마·듀라한",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1307427.0825,
+                "attack": 2524.939393939394,
+                "defence": 686.72,
+                "stun": 6233.56,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11731": {
+              "id": 200004,
+              "name": "플라스마·파르바우티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantEnergy.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1550600.7825,
+                "attack": 2394.787878787879,
+                "defence": 532.8,
+                "stun": 7406.58,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11771": {
+              "id": 30017,
+              "name": "플라스마·세토리아",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Cyrtoidea.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 206881.8675,
+                "attack": 1561.818181818182,
+                "defence": 426.24,
+                "stun": 1068.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11781": {
+              "id": 30018,
+              "name": "플라스마·나실리아",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 206881.8675,
+                "attack": 1561.818181818182,
+                "defence": 426.24,
+                "stun": 1068.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "205": "에테르"
+          },
+          "monster_resistance": {
+            "202": "얼음 속성"
+          },
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6205402": {
+      "name": "격변 구간 제2방어선",
+      "stage_num": 2,
+      "monster_level": 55,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054021": {
+          "monster_icon": "",
+          "monster_list": {
+            "11224": {
+              "id": 20004,
+              "name": "철도 고블린",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinMetro.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2015442.0474999999,
+                "attack": 3071.0,
+                "defence": 620.1,
+                "stun": 7626.24,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11124": {
+              "id": 20001,
+              "name": "하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1661211.1774999998,
+                "attack": 2932.666666666667,
+                "defence": 744.12,
+                "stun": 4721.28,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11294": {
+              "id": 10014,
+              "name": "맨드레이크",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 316120.89249999996,
+                "attack": 1743.0,
+                "defence": 496.08,
+                "stun": 1814.3999999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11204": {
+              "id": 10003,
+              "name": "호플리타이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1660.0,
+                "defence": 633.88,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11097": {
+              "id": 10000,
+              "name": "티르빙",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1826.0,
+                "defence": 496.08,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11104": {
+              "id": 10001,
+              "name": "알페카",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1494.0,
+                "defence": 496.08,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        },
+        "62054022": {
+          "monster_icon": "",
+          "monster_list": {
+            "31554": {
+              "id": 20036,
+              "name": "탈피·성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3829367.3074999996,
+                "attack": 3679.666666666667,
+                "defence": 744.12,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31552": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3829367.3074999996,
+                "attack": 3679.666666666667,
+                "defence": 744.12,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31622": {
+              "id": 10024,
+              "name": "공역 정찰부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BangbooPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31614": {
+              "id": 10039,
+              "name": "탈피·특수 진압부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CorruptedSapper.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 2185.666666666667,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {
+            "200": "물리"
+          },
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6205403": {
+      "name": "격변 구간 제3방어선",
+      "stage_num": 3,
+      "monster_level": 60,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054031": {
+          "monster_icon": "",
+          "monster_list": {
+            "11226": {
+              "id": 20002,
+              "name": "고블린",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4988498.864999999,
+                "attack": 2440.738636363636,
+                "defence": 714.6,
+                "stun": 8182.320000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11185": {
+              "id": 30001,
+              "name": "타나토스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DeathXIIIGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5550392.085,
+                "attack": 2220.8522727272725,
+                "defence": 857.5200000000001,
+                "stun": 5728.860000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11194": {
+              "id": 20003,
+              "name": "무장 하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4404889.965,
+                "attack": 2550.681818181818,
+                "defence": 857.5200000000001,
+                "stun": 5454.88,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11682": {
+              "id": 10030,
+              "name": "포소르",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1027423.1099999999,
+                "attack": 1671.1363636363635,
+                "defence": 635.2,
+                "stun": 2043.52,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11692": {
+              "id": 10031,
+              "name": "소르디두스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1027423.1099999999,
+                "attack": 1517.215909090909,
+                "defence": 635.2,
+                "stun": 2043.52,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        },
+        "62054032": {
+          "monster_icon": "",
+          "monster_list": {
+            "11752": {
+              "id": 300004,
+              "name": "플라스마·듀라한",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4988498.864999999,
+                "attack": 2440.738636363636,
+                "defence": 921.0400000000001,
+                "stun": 8182.320000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11742": {
+              "id": 300014,
+              "name": "플라스마·타나토스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DeathXIIIEnergy.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5550392.085,
+                "attack": 2440.738636363636,
+                "defence": 714.6,
+                "stun": 5728.860000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31302": {
+              "id": 20026,
+              "name": "미아즈믹·광분한 폭도",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6734575.26,
+                "attack": 2924.488636363636,
+                "defence": 857.5200000000001,
+                "stun": 10227.9,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11772": {
+              "id": 30017,
+              "name": "플라스마·세토리아",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Cyrtoidea.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 931738.3949999999,
+                "attack": 1319.3181818181818,
+                "defence": 571.6800000000001,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11782": {
+              "id": 30018,
+              "name": "플라스마·나실리아",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 931738.3949999999,
+                "attack": 1319.3181818181818,
+                "defence": 571.6800000000001,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "205": "에테르"
+          },
+          "monster_resistance": {
+            "202": "얼음 속성"
+          },
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6205404": {
+      "name": "격변 구간 제4방어선",
+      "stage_num": 4,
+      "monster_level": 65,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054041": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HatiArmoredBoss.png",
+          "monster_list": {
+            "11195": {
+              "id": 200034,
+              "name": "노토리우스·무장 하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HatiArmoredBoss.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 11370775.185,
+                "attack": 2785.909090909091,
+                "defence": 952.8000000000001,
+                "stun": 8536.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11124": {
+              "id": 20001,
+              "name": "하티",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4470542.265,
+                "attack": 2460.8863636363635,
+                "defence": 857.5200000000001,
+                "stun": 5409.8,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {},
+          "waves_num": 2
+        },
+        "62054042": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedChelonethid.png",
+          "monster_list": {
+            "31571": {
+              "id": 30050,
+              "name": "탈피·스콥스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedChelonethid.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 14913226.425,
+                "attack": 4457.454545454545,
+                "defence": 952.8000000000001,
+                "stun": 18293.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31551": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5969380.284,
+                "attack": 3590.7272727272725,
+                "defence": 857.5200000000001,
+                "stun": 11556.6,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "203": "전기 속성"
+          },
+          "monster_resistance": {
+            "202": "얼음 속성"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6205405": {
+      "name": "",
+      "stage_num": 5,
+      "monster_level": 0,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        },
+        "62001522": {
+          "title": "종막의 협주",
+          "desc": "· 에이전트의 <color=#FFFFFF>[궁극기]</color>, <color=#FFFFFF>[콤보 스킬]</color>로 주는 피해가 40% 증가한다.\n· <color=#FFFFFF>[콤보 스킬]</color>이 적 명중 후, 해당 적의 그로기 약체화 배율이 20% 증가하고, 그로기 회복 속도가 15% 감소한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001542": {
+          "title": "서리 참격",
+          "desc": "· 에이전트의 <color=#98EFF0>얼음 속성 피해</color>와 <color=#2EB6FF>전기 속성 피해</color>가 30% 증가한다. \n· <color=#FFFFFF>[강공]</color> 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 후, 자신의 치명타 피해가 30% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [
+        62054051,
+        62054052,
+        62054053
+      ],
+      "layer_room": {},
+      "goal_type": 3,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 1270001003,
+      "a_rank_goal": 1270001002,
+      "b_rank_goal": 1270001001
+    },
+    "62054051": {
+      "name": "방 1",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001541": {
+          "title": "무음 공진",
+          "desc": "· 파티에 <color=#FFFFFF>[이상]</color> 특성 에이전트가 2명/3명 있을 경우, 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>10%/60% 증가</color>하고, 모든 파티원이 전장 입장 시 초기 데시벨을 <color=#2BAD00>500pt/1500pt</color> 획득한다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054051": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedAvarus.png",
+          "monster_list": {
+            "31013": {
+              "id": 30049,
+              "name": "탈피·아바루스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedAvarus.png",
+              "element": {
+                "ice": 0,
+                "fire": -1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 37141670.25,
+                "attack": 3179.0909090909095,
+                "defence": 952.8000000000001,
+                "stun": 15486.5,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31552": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 7965170.595,
+                "attack": 3252.454545454546,
+                "defence": 857.5200000000001,
+                "stun": 14001.300000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31612": {
+              "id": 10035,
+              "name": "특수 진압부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sapper.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 1293803.0999999999,
+                "attack": 1931.909090909091,
+                "defence": 682.84,
+                "stun": 3172.5,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31622": {
+              "id": 10024,
+              "name": "공역 정찰부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BangbooPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 1293803.0999999999,
+                "attack": 1589.5454545454547,
+                "defence": 682.84,
+                "stun": 3172.5,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {
+            "201": "불 속성"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62054052": {
+      "name": "방 2",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001522": {
+          "title": "종막의 협주",
+          "desc": "· 에이전트의 <color=#FFFFFF>[궁극기]</color>, <color=#FFFFFF>[콤보 스킬]</color>로 주는 피해가 40% 증가한다.\n· <color=#FFFFFF>[콤보 스킬]</color>이 적 명중 후, 해당 적의 그로기 약체화 배율이 20% 증가하고, 그로기 회복 속도가 15% 감소한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054052": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_InnerKnightSlime.png",
+          "monster_list": {
+            "31462": {
+              "id": 30051,
+              "name": "도플갱어·스타라이트·빌리",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnightSlime.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": 0,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 30388355.28,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 19540.25,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11623": {
+              "id": 200241,
+              "name": "도플갱어·펄크라",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5574907.8,
+                "attack": 2836.727272727273,
+                "defence": 794.0,
+                "stun": 14001.300000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31162": {
+              "id": 10034,
+              "name": "미아즈마 잔병·포수",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 987336.8999999999,
+                "attack": 1589.5454545454547,
+                "defence": 635.2,
+                "stun": 2326.5,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31152": {
+              "id": 10033,
+              "name": "미아즈마 잔병·방패병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 987336.8999999999,
+                "attack": 1760.727272727273,
+                "defence": 730.48,
+                "stun": 2326.5,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "203": "전기 속성"
+          },
+          "monster_resistance": {
+            "200": "물리"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62054053": {
+      "name": "방 3",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001542": {
+          "title": "서리 참격",
+          "desc": "· 에이전트의 <color=#98EFF0>얼음 속성 피해</color>와 <color=#2EB6FF>전기 속성 피해</color>가 30% 증가한다. \n· <color=#FFFFFF>[강공]</color> 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 후, 자신의 치명타 피해가 30% 증가한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62054053": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+          "monster_list": {
+            "31112": {
+              "id": 30035,
+              "name": "새크리파이스·사악한 어릿광대",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": -1,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 39837333.06,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11442": {
+              "id": 200081,
+              "name": "「민첩한 방랑자 Ⅱ형」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "element": {
+                "ice": 0,
+                "fire": -1,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4556701.125,
+                "attack": 2225.3636363636365,
+                "defence": 857.5200000000001,
+                "stun": 9334.2,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31152": {
+              "id": 10033,
+              "name": "미아즈마 잔병·방패병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1086070.59,
+                "attack": 1760.727272727273,
+                "defence": 730.48,
+                "stun": 2326.5,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31162": {
+              "id": 10034,
+              "name": "미아즈마 잔병·포수",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1086070.59,
+                "attack": 1589.5454545454547,
+                "defence": 635.2,
+                "stun": 2326.5,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "203": "전기 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {
+            "205": "에테르"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    }
+  },
+  "begin_time": "2026-08-07 04:00:00",
+  "end_time": "2026-08-21 03:59:59"
+}

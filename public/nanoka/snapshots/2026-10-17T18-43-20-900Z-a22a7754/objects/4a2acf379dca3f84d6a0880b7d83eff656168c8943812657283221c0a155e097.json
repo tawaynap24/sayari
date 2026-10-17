@@ -1,0 +1,446 @@
+{
+  "1330101": {
+    "id": 1330101,
+    "name": "Uproar of Decibels",
+    "desc": "All squad members' <color=#CF4029>Energy Generation Rate is reduced by 15%</color>, while <color=#2BAD00>Decibel Generation Rate is increased by 25%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact001.png"
+  },
+  "1330201": {
+    "id": 1330201,
+    "name": "Overlocked Dexterity Mode",
+    "desc": "All squad members' <color=#2BAD00>ATK increases by 30%</color> and <color=#2BAD00>CRIT DMG increases by 40%</color>. When taking DMG and losing HP, <color=#CF4029>this buff is removed</color>. Effect is reset upon entering the next area.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact002.png"
+  },
+  "1330301": {
+    "id": 1330301,
+    "name": "Face of Chaos and Anomalies",
+    "desc": "All squad members' <color=#CF4029>ATK is reduced by 15%</color>. When Stunning or inflicting Attribute Anomaly on enemies, all squad members' <color=#2BAD00>CRIT DMG is increased by 40%</color>, and <color=#2BAD00>Anomaly Proficiency is increased by 40</color> for 20s. ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact003.png"
+  },
+  "1330401": {
+    "id": 1330401,
+    "name": "Will to Overcome Adversity",
+    "desc": "When the Agent's HP is above 80%, <color=#CF4029>DMG dealt decreases by 40%</color>.\nWhen HP is below 50%, <color=#2BAD00>DMG dealt increases by 40%</color>.\nWhen HP is below 20%, <color=#2BAD00>CRIT Rate increases by an additional 15%</color> and <color=#2BAD00>CRIT DMG increases by an additional 30%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact004.png"
+  },
+  "1331001": {
+    "id": 1331001,
+    "name": "Nitro-Fuel Sharing Pack",
+    "desc": "Agents <color=#CF4029>take 20% increased DMG</color>, but no longer consume <color=#FFFFFF>Assist Points</color> when activating <color=#FFFFFF>Defensive Assist</color> and <color=#FFFFFF>Evasive Assist</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339701": {
+    "id": 1339701,
+    "name": "Navigation Data Set",
+    "desc": "Gain <color=#2BAD00>3</color> Navigation Data, which can be used to <color=#2BAD00>reset navigation</color> at Friendly Talk with Marlene.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact023.png"
+  },
+  "1339702": {
+    "id": 1339702,
+    "name": "Locator Card: Finance",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map that is <color=#2BAD00>related to Gear Coins</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339703": {
+    "id": 1339703,
+    "name": "Locator Card: Shortcut",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map with the <color=#2BAD00>shortest route</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339704": {
+    "id": 1339704,
+    "name": "Locator Card: Power",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Challenge</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339705": {
+    "id": 1339705,
+    "name": "Locator Card: Curse",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Price Difference</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339706": {
+    "id": 1339706,
+    "name": "Locator Card: Serendipity",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Encounter Events</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339707": {
+    "id": 1339707,
+    "name": "Locator Card: Mist Breaker",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to one with <color=#2BAD00>Mist</color> areas.\nFor every Mist area entered in the current Hollow, all squad members' ATK increases by <color=#2BAD00>10%</color>, <color=#2BAD00>CRIT DMG increases by 20%</color>, and Anomaly Proficiency increases by <color=#2BAD00>20</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339708": {
+    "id": 1339708,
+    "name": "Locator Card: Finance",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map that is <color=#2BAD00>related to Gear Coins</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339709": {
+    "id": 1339709,
+    "name": "Locator Card: Shortcut",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map with the <color=#2BAD00>shortest route</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339710": {
+    "id": 1339710,
+    "name": "Locator Card: Power",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Challenge</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339711": {
+    "id": 1339711,
+    "name": "Locator Card: Curse",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Price Difference</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339712": {
+    "id": 1339712,
+    "name": "Locator Card: Serendipity",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to an area map <color=#2BAD00>related to Encounter Events</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339713": {
+    "id": 1339713,
+    "name": "Locator Card: Mist Breaker",
+    "desc": "You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to one with <color=#2BAD00>Mist</color> areas.\nFor every Mist area entered in the current Hollow, all squad members' ATK increases by <color=#2BAD00>10%</color>, <color=#2BAD00>CRIT DMG increases by 20%</color>, and Anomaly Proficiency increases by <color=#2BAD00>20</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339751": {
+    "id": 1339751,
+    "name": "Locator Card: Index",
+    "desc": "The mercenary captain accidentally sent map data to the kind rescuers. You can perform <color=#2BAD00>1 Oriented Iteration</color> with Marlene in Friendly Talk to refresh the map to the <color=#2BAD00>specified map</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact030.png"
+  },
+  "1339801": {
+    "id": 1339801,
+    "name": "Foggy Accounting",
+    "desc": "When leaving a Bangboo Store, <color=#CF4029>all current Gear Coins will be cleared</color>. For every 100 Gear Coins spent on artifacts, enemies (except bosses) will have their HP reduced by <color=#2BAD00>0.5%</color> (up to 30%).",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact041.png"
+  },
+  "1339802": {
+    "id": 1339802,
+    "name": "Reckless Warrior",
+    "desc": "When current HP <color=#CF4029>exceeds 10% of Max HP, it will be reduced to 10%</color>. <color=#CF4029>All squad members take 50% more DMG</color>, but <color=#2BAD00>attacks are guaranteed to trigger critical hits, ATK increases by 100%, and Anomaly Proficiency increases by 400</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339803": {
+    "id": 1339803,
+    "name": "Law of Tides",
+    "desc": "Agents <color=#2BAD00>restore HP to all squad members</color> based on DMG dealt.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact043.png"
+  },
+  "1339804": {
+    "id": 1339804,
+    "name": "Fearless Flame",
+    "desc": "Upon entering each Mist area in the current Hollow, <color=#2BAD00>all squad members' ATK increases by 5%, CRIT DMG increases by 5%, and Anomaly Proficiency increases by 10</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339805": {
+    "id": 1339805,
+    "name": "Bribe Attack: Enhanced",
+    "desc": "For every 100 Gear Coins owned, <color=#2BAD00>all squad members' DMG dealt increases by 1%, CRIT Rate increases by 0.5%, CRIT DMG increases by 1%, and Anomaly Proficiency increases by 2</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339806": {
+    "id": 1339806,
+    "name": "Patchwork Defense",
+    "desc": "For every non-combat area entered in the current Hollow, enemies deal <color=#2BAD00>2.5%</color> less DMG to Agents. This effect can be triggered up to <color=#2BAD00>6</color> times.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339807": {
+    "id": 1339807,
+    "name": "Trace of an Old Friend",
+    "desc": "Each time you enter a non-combat area, gain <color=#2BAD00>200</color> Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339808": {
+    "id": 1339808,
+    "name": "Electrostatic Phenomenon",
+    "desc": "When entering a non-combat area, all squad members' CRIT Rate increases by <color=#2BAD00>2%</color> while in this Hollow.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339809": {
+    "id": 1339809,
+    "name": "Patchwork Defense",
+    "desc": "For every non-combat area entered in the current Hollow, enemies deal <color=#2BAD00>2.5%</color> less DMG to Agents. This effect can be triggered up to <color=#2BAD00>6</color> times.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339810": {
+    "id": 1339810,
+    "name": "Trace of an Old Friend",
+    "desc": "Each time you enter a non-combat area, gain <color=#2BAD00>200</color> Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339811": {
+    "id": 1339811,
+    "name": "Electrostatic Phenomenon",
+    "desc": "When entering a non-combat area, all squad members' CRIT Rate increases by <color=#2BAD00>2%</color> while in this Hollow.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339812": {
+    "id": 1339812,
+    "name": "Generous Dividend: Enhanced",
+    "desc": "Obtain <color=#2BAD00>50% more</color> Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339813": {
+    "id": 1339813,
+    "name": "Initial Barrier (Disordered)",
+    "desc": "When entering battle, <color=#FFAF2C>allies</color> gain a Shield equal to 10% of their Max HP.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample04.png"
+  },
+  "1339814": {
+    "id": 1339814,
+    "name": "Adrenaline (Risky)",
+    "desc": "When HP drops below 50%, increase DMG by 20%",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample02.png"
+  },
+  "1339815": {
+    "id": 1339815,
+    "name": "Opening Thunderstrike",
+    "desc": "<color=#FFAF2C>Agents</color> lose 75% of their Max HP on the field.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample05.png"
+  },
+  "1339816": {
+    "id": 1339816,
+    "name": "Triple Buffering (Disordered)",
+    "desc": "After entering the Boss Domain, the Boss enemy will take 50% less DMG for 20s.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample06.png"
+  },
+  "1339817": {
+    "id": 1339817,
+    "name": "\"Immovable Mountain\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>5 areas</color>, if you get launched no more than <color=#FFAF2C>5 times</color> (total times) along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339818": {
+    "id": 1339818,
+    "name": "\"Stingy\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>5 areas</color>, if you <color=#FFAF2C>didn't spend Gear Coins to buy products in the Store</color> along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339819": {
+    "id": 1339819,
+    "name": "\"Mortal Form\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>8 areas</color>, if you <color=#FFAF2C>obtained 1 General Resonium</color> along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339820": {
+    "id": 1339820,
+    "name": "\"Money to Burn\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>8 areas</color>, if you <color=#FFAF2C>consumed at least 500 Gear Coins</color> along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339821": {
+    "id": 1339821,
+    "name": "\"Run With the Wind\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>5 areas</color>, if your <color=#FFAF2C>time spent is less than 300s (based on stage time)</color> along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339822": {
+    "id": 1339822,
+    "name": "\"Principles of Semiotics\" Marathon",
+    "desc": "After passing through <color=#FFAF2C>8 areas</color>, if you <color=#FFAF2C>experienced at least 1 Encounter</color> along the way, you'll receive a <color=#FFAF2C>Tactical Prism Program upgrade</color>. Challenge progress can be viewed in the Collectibles interface.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339823": {
+    "id": 1339823,
+    "name": "Reckless Warrior: Enhanced Version",
+    "desc": "If current HP <color=#CF4029>exceeds 30% of Max HP, it is reduced to 30%</color>, and <color=#CF4029>the whole squad takes 50% more DMG</color>, though <color=#2BAD00>attacks are guaranteed to trigger CRITs. Additionally, their ATK increases by 100%, Sheer DMG by 50%, and Anomaly Proficiency by 400</color>. Any excess CRIT Rate will also be converted to CRIT DMG at a certain ratio, up to 150%.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339825": {
+    "id": 1339825,
+    "name": "Bribe Attack: Super Enhanced Edition",
+    "desc": "For every 100 Gear Coins owned, <color=#2BAD00>all squad member's DMG increases by 1.5%, CRIT Rate increases by 0.5%, CRIT DMG increases by 1.5%, and Anomaly Proficiency increases by 3</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339826": {
+    "id": 1339826,
+    "name": "The Great Monopoly: Mutated Version",
+    "desc": "When obtaining Gear Coins, there is a 20% chance to gain an additional <color=#2BAD00>300%</color>, 20% chance to gain an additional <color=#2BAD00>150%</color>, 25% chance to gain an additional <color=#2BAD00>50%</color>, 25% chance the Gear Coins obtained remain unchanged, 5% chance to lose <color=#CF4029>10%</color> of all currently held Gear Coins, and 5% chance to lose <color=#CF4029>20%</color> of all currently held Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339827": {
+    "id": 1339827,
+    "name": "Fearless Flame - Enhanced Version",
+    "desc": "Upon entering each Mist area in the current Hollow, <color=#2BAD00>all squad members' ATK increases by 5%, CRIT DMG increases by 10%, and Anomaly Proficiency increases by 20, and Sheer DMG increases by 2.5%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339828": {
+    "id": 1339828,
+    "name": "Stingy - Enhanced Version",
+    "desc": "When entering a Bangboo Store, if no purchase is made, you will receive <color=#2BAD00>40%</color> of Gear Coins upon leaving the store.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339902": {
+    "id": 1339902,
+    "name": "The Great Monopoly",
+    "desc": "When obtaining Gear Coins, there is a 40% chance of <color=#2BAD00>gaining an additional 20%</color>, a 5% chance of <color=#2BAD00>gaining an additional 50%</color>, and a 5% chance of reducing the number of Gear Coins that you receive this time <color=#CF4029>to 1</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339903": {
+    "id": 1339903,
+    "name": "Generous Bonuses",
+    "desc": "Obtain <color=#2BAD00> 20% more</color> Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339904": {
+    "id": 1339904,
+    "name": "Bribe Attack",
+    "desc": "<color=#2BAD00>DMG dealt by all squad members increases by 1%</color> for every 100 Gear Coins you have.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact008.png"
+  },
+  "1339905": {
+    "id": 1339905,
+    "name": "Profit Craft",
+    "desc": "Immediately gain a number of Gear Coins equal to <color=#2BAD00>30%</color> of your current Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact031.png"
+  },
+  "1339906": {
+    "id": 1339906,
+    "name": "Genuine Gift",
+    "desc": "When entering a Bangboo Store, there is a <color=#2BAD00>10%</color> chance to obtain <color=#2BAD00>2</color> free items, but the store cannot be refreshed.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact032.png"
+  },
+  "1339907": {
+    "id": 1339907,
+    "name": "Stingy",
+    "desc": "When entering a Bangboo Store, if no purchase is made, you will receive <color=#2BAD00>20%</color> of Gear Coins upon leaving the store.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339908": {
+    "id": 1339908,
+    "name": "VIP Treatment",
+    "desc": "Obtain <color=#2BAD00>5</color> Resonium Converter refresh chances. In Task Force Investigation, Resonium Converter can be used to refresh Tactical Prism Programs too.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact034.png"
+  },
+  "1339909": {
+    "id": 1339909,
+    "name": "Resolute Determination",
+    "desc": "When completing a Combat area without taking damage, all squad members' DMG is increased by <color=#2BAD00>5%</color> while in the current Hollow.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact035.png"
+  },
+  "1339910": {
+    "id": 1339910,
+    "name": "Double-Sided Armor",
+    "desc": "When entering a Combat area, all squad members lose <color=#CF4029>20%</color> of their current HP, gain <color=#2BAD00>10%</color> Max HP, and receive a shield equal to <color=#2BAD00>10%</color> of their Max HP. This effect can be triggered up to <color=#2BAD00>4</color> times in the current Hollow.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact036.png"
+  },
+  "1339911": {
+    "id": 1339911,
+    "name": "Patchwork Defense",
+    "desc": "For every non-combat area entered in the current Hollow, enemies deal <color=#2BAD00>2.5%</color> less DMG to Agents. This effect can be triggered up to <color=#2BAD00>6</color> times.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339912": {
+    "id": 1339912,
+    "name": "Trace of an Old Friend",
+    "desc": "Each time you enter a non-combat area, gain <color=#2BAD00>200</color> Gear Coins.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339913": {
+    "id": 1339913,
+    "name": "Electrostatic Phenomenon",
+    "desc": "When entering a non-combat area, all squad members' CRIT Rate increases by <color=#2BAD00>2%</color> while in this Hollow.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339914": {
+    "id": 1339914,
+    "name": "Experimental Byproduct",
+    "desc": "Take this card into <color=#2BAD00>Price Difference</color> to trigger unexpected effects.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  },
+  "1339921": {
+    "id": 1339921,
+    "name": "Seal of Plundered Blood",
+    "desc": "The Agent's <color=#CF4029>Max HP is reduced by 30%</color> in {CReplaceCardParam:ProgressLeft,1,2} combat areas.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339922": {
+    "id": 1339922,
+    "name": "Seal of Thorny Shackles",
+    "desc": "Triggering <color=#FFFFFF>EX Special Attack</color> <color=#CF4029>consumes 4% HP</color> for the next {CReplaceCardParam:ProgressLeft,1,2} combat areas.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact010.png"
+  },
+  "1339923": {
+    "id": 1339923,
+    "name": "Seal of Concealment",
+    "desc": "In {CReplaceCardParam:ProgressLeft,1,2} combat areas, <color=#CF4029>golden and red flash prompts will no longer appear</color> when enemies attack.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact011.png"
+  },
+  "1339924": {
+    "id": 1339924,
+    "name": "Seal of Malevolent Pursuit",
+    "desc": "In {CReplaceCardParam:ProgressLeft,1,2} combat areas, <color=#CF4029>DMG taken by Agents is increased by 30%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact012.png"
+  },
+  "1339925": {
+    "id": 1339925,
+    "name": "Seal of Revelation",
+    "desc": "In {CReplaceCardParam:ProgressLeft,1,2} combat areas, enemy <color=#CF4029>attacks have a chance to trigger a critical hit</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact013.png"
+  },
+  "1339926": {
+    "id": 1339926,
+    "name": "Seal of Anomalous Secrecy",
+    "desc": "In {CReplaceCardParam:ProgressLeft,1,2} combat areas, enemy <color=#CF4029>Anomaly Buildup RES increased by 50%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact014.png"
+  },
+  "1339927": {
+    "id": 1339927,
+    "name": "Seal of Enemy Fortitude",
+    "desc": "In {CReplaceCardParam:ProgressLeft,1,2} combat areas, enemy <color=#CF4029>Daze recovery speed is increased by 35%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact015.png"
+  },
+  "1339928": {
+    "id": 1339928,
+    "name": "Seal of Spiritual Rejuvenation",
+    "desc": "Agents <color=#2BAD00>take 20% less DMG</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact016.png"
+  },
+  "1339929": {
+    "id": 1339929,
+    "name": "Seal of Energy Sacrifice",
+    "desc": "Increases Agents' <color=#2BAD00>Energy Generation Rate by 35%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact017.png"
+  },
+  "1339930": {
+    "id": 1339930,
+    "name": "Seal of Bright Awakening",
+    "desc": "<color=#2BAD00>Daze inflicted by <color=#FFFFFF>Defensive Assists</color> is increased by 40%</color>. <color=#2BAD00>DMG dealt by <color=#FFFFFF>Assist Follow-Ups</color> is increased by 80%.</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact018.png"
+  },
+  "1339931": {
+    "id": 1339931,
+    "name": "Seal of Fatal Retaliation",
+    "desc": "<color=#2BAD00>Increases Agent DMG dealt by 40%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact019.png"
+  },
+  "1339932": {
+    "id": 1339932,
+    "name": "Seal of Precision Strikes",
+    "desc": "<color=#2BAD00>Increases Agent CRIT DMG by 65%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact020.png"
+  },
+  "1339933": {
+    "id": 1339933,
+    "name": "Seal of Abnormal Breakthrough",
+    "desc": "<color=#2BAD00>Increases Agent DMG dealt from Attribute Anomaly by 50%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact021.png"
+  },
+  "1339934": {
+    "id": 1339934,
+    "name": "Seal of the Stunned Hunter",
+    "desc": "<color=#2BAD00>Increases Agent DMG dealt to Stunned enemies by 50%</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact022.png"
+  },
+  "1439914": {
+    "id": 1439914,
+    "name": "Experimental Byproduct",
+    "desc": "Artifact_1439914_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  }
+}

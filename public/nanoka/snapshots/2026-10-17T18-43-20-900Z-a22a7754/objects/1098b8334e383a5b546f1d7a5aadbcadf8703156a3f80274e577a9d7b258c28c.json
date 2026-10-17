@@ -1,0 +1,1566 @@
+{
+  "id": 2,
+  "name": "拟境湮灭战",
+  "version": "3.3.0",
+  "banner": "Data/UI/HardCoreBoss/Banner_S2.png",
+  "start_time": "2026-10-21 06:00:00",
+  "end_time": "2027-01-13 05:59:59",
+  "unlock_condition": "30070055&1040141061",
+  "reward_group": [],
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900101": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900102": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900103": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900104": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900105": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900106": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900107": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900108": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900109": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900110": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900111": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900112": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900113": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900114": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900115": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900116": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900117": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900118": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900119": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900120": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900121": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900122": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900123": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900124": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900125": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900126": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900127": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900128": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900129": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900130": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  },
+  "boss": {
+    "100004": {
+      "id": 100004,
+      "name": "异构·赫由托",
+      "icon": "Data/UI/HardCoreBoss/Icon_100004.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_Hayyot.png",
+      "monster_path": "HardCore/HardCore_Monster_Hayyot_HC",
+      "monster_sub_id": 900031197,
+      "avatar_level": 70,
+      "reward_group": [
+        30100105
+      ],
+      "tutorial_id": 1100190,
+      "challenge_group_id": 12770017,
+      "mode": {
+        "200007": {
+          "id": 200007,
+          "difficulty": 1,
+          "version": "3.3.0",
+          "battle_id": 70702083,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】成功击杀1个「异构·赫由托」的<color=#FFAF2C>「分身」</color>\n\n【关卡介绍】\n战斗中，首领敌人将在「癫狂」与「幻影」两种强化形态间交替切换。当首领敌人的<color=#FFAF2C>失衡值</color>积累至一定程度，会<color=#FFAF2C>召唤「分身」</color>，此期间<color=#FFAF2C>无法积累失衡值</color>。代理人需在限定时间内击败其「分身」，每击败一个「分身」，都将积累首领敌人的失衡值，并<color=#FFAF2C>大幅提升其失衡易伤倍率及其所受的贯穿伤害</color>；若未能将「分身」全部击败，首领敌人将「吸收」剩余「分身」并恢复攻势。\n代理人无伤并发动<color=#FFAF2C>「连携招架」</color>应对「分身」的「高危攻击」，可触发<color=#FFAF2C>「完美反制」</color>，额外削减「分身」的生命值与秽盾。",
+          "medal_id": 0,
+          "config_id": 600519,
+          "quest_id": 12770007,
+          "zone_type": 201,
+          "zone": {
+            "7000170": {
+              "name": "异构·赫由托",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702083": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hayyot.png",
+                  "monster_list": {
+                    "31197": {
+                      "id": 30039,
+                      "name": "赫由托",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hayyot.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 17444152.70532,
+                        "attack": 2347.636363636364,
+                        "defence": 1588.0,
+                        "stun": 17585.05,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                },
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69011601": {
+                  "title": "奇巧",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，造成的<color=#F0D12B>物理属性伤害</color>额外<color=#2BAD00>提升20%</color>。\n· 使敌人进入属性异常后，敌人的防御力<color=#2BAD00>降低10%</color>，持续10秒；对敌人施加[紊乱]效果后，敌人的防御力<color=#2BAD00>额外降低25%</color>，持续10秒，两个效果独立刷新持续时间。"
+                },
+                "69012201": {
+                  "title": "极境",
+                  "desc": "· [命破]特性的代理人贯穿伤害<color=#2BAD00>提升10%</color>，造成的秽息盾削减值<color=#2BAD00>提升30%</color>。\n· 处于以太帷幕中的代理人，贯穿伤害额外<color=#2BAD00>提升30%</color>，攻击命中敌人后使其失衡易伤倍率<color=#2BAD00>提升45%</color>，持续10秒，重复触发时刷新持续时间。"
+                }
+              }
+            }
+          }
+        },
+        "200008": {
+          "id": 200008,
+          "difficulty": 2,
+          "version": "3.3.0",
+          "battle_id": 70702084,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】成功击杀1个「异构·赫由托」的<color=#FFAF2C>「分身」</color>\n\n【关卡介绍】\n战斗中，首领敌人将在「癫狂」与「幻影」两种强化形态间交替切换。当首领敌人的<color=#FFAF2C>失衡值</color>积累至一定程度，会<color=#FFAF2C>召唤「分身」</color>，此期间<color=#FFAF2C>无法积累失衡值</color>。代理人需在限定时间内击败其「分身」，每击败一个「分身」，都将积累首领敌人的失衡值，并<color=#FFAF2C>大幅提升其失衡易伤倍率及其所受的贯穿伤害</color>；若未能将「分身」全部击败，首领敌人将「吸收」剩余「分身」并恢复攻势。\n代理人无伤并发动<color=#FFAF2C>「连携招架」</color>应对「分身」的「高危攻击」，可触发<color=#FFAF2C>「完美反制」</color>，额外削减「分身」的生命值与秽盾。",
+          "medal_id": 17001,
+          "config_id": 600520,
+          "quest_id": 12770008,
+          "zone_type": 201,
+          "zone": {
+            "7000171": {
+              "name": "异构·赫由托",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702084": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hayyot.png",
+                  "monster_list": {
+                    "31197": {
+                      "id": 30039,
+                      "name": "赫由托",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hayyot.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 29074142.52288,
+                        "attack": 6338.618181818182,
+                        "defence": 1588.0,
+                        "stun": 17585.05,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                },
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69011601": {
+                  "title": "奇巧",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，造成的<color=#F0D12B>物理属性伤害</color>额外<color=#2BAD00>提升20%</color>。\n· 使敌人进入属性异常后，敌人的防御力<color=#2BAD00>降低10%</color>，持续10秒；对敌人施加[紊乱]效果后，敌人的防御力<color=#2BAD00>额外降低25%</color>，持续10秒，两个效果独立刷新持续时间。"
+                },
+                "69012201": {
+                  "title": "极境",
+                  "desc": "· [命破]特性的代理人贯穿伤害<color=#2BAD00>提升10%</color>，造成的秽息盾削减值<color=#2BAD00>提升30%</color>。\n· 处于以太帷幕中的代理人，贯穿伤害额外<color=#2BAD00>提升30%</color>，攻击命中敌人后使其失衡易伤倍率<color=#2BAD00>提升45%</color>，持续10秒，重复触发时刷新持续时间。"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "100005": {
+      "id": 100005,
+      "name": "异构·熔狱行赭",
+      "icon": "Data/UI/HardCoreBoss/Icon_100005.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_InfernalRevenant.png",
+      "monster_path": "HardCore/HardCore_Monster_InfernalRevenant_HC",
+      "monster_sub_id": 900031636,
+      "avatar_level": 70,
+      "reward_group": [
+        30100106
+      ],
+      "tutorial_id": 1100200,
+      "challenge_group_id": 12770018,
+      "mode": {
+        "200009": {
+          "id": 200009,
+          "difficulty": 1,
+          "version": "3.3.0",
+          "battle_id": 70702081,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】对「异构·熔狱行赭」造成4次<color=#FFAF2C>「骤寒」</color>效果\n\n【关卡介绍】\n首领敌人进入战斗时将会拥有熔晶壁垒，代理人触发「招架支援」、「闪避反击」或对首领敌人施加冰属性异常效果，会削减<color=#FFAF2C>首领敌人的熔晶壁垒</color>。当熔晶壁垒被完全削减至零时，首领敌人会直接进入失衡状态。\n在战斗中，使用特殊技能按钮，会使当前代理人进入<color=#FFAF2C>「零度屏障」</color>状态，持续0.5秒。「零度屏障」持续期间，受到首领的红光攻击时，会抵消此次攻击并削减<color=#FFAF2C>首领敌人的熔晶壁垒</color>，若此时首领敌人处于<color=#FFAF2C>「灼烧」</color>异常状态期间，会额外对其造成基于最大生命值的伤害;\n在首领敌人处于失衡状态下时，使用特殊技能按钮会对首领敌人造成<color=#FFAF2C>「骤寒」</color>效果，使首领敌人受到基于最大生命值的伤害，代理人触发属性异常效果后会额外刷新特殊按钮的冷却时间。",
+          "medal_id": 0,
+          "config_id": 600521,
+          "quest_id": 12770009,
+          "zone_type": 201,
+          "zone": {
+            "7000168": {
+              "name": "异构·熔狱行赭",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702081": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SymbioticEtherealSinner.png",
+                  "monster_list": {
+                    "31636": {
+                      "id": 30052,
+                      "name": "熔狱行赭",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_SymbioticEtherealSinner.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 27129044.14929,
+                        "attack": 2347.636363636364,
+                        "defence": 952.8000000000001,
+                        "stun": 20430.9,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                },
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69011601": {
+                  "title": "奇巧",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，造成的<color=#F0D12B>物理属性伤害</color>额外<color=#2BAD00>提升20%</color>。\n· 使敌人进入属性异常后，敌人的防御力<color=#2BAD00>降低10%</color>，持续10秒；对敌人施加[紊乱]效果后，敌人的防御力<color=#2BAD00>额外降低25%</color>，持续10秒，两个效果独立刷新持续时间。"
+                },
+                "69012201": {
+                  "title": "极境",
+                  "desc": "· [命破]特性的代理人贯穿伤害<color=#2BAD00>提升10%</color>，造成的秽息盾削减值<color=#2BAD00>提升30%</color>。\n· 处于以太帷幕中的代理人，贯穿伤害额外<color=#2BAD00>提升30%</color>，攻击命中敌人后使其失衡易伤倍率<color=#2BAD00>提升45%</color>，持续10秒，重复触发时刷新持续时间。"
+                }
+              }
+            }
+          }
+        },
+        "200010": {
+          "id": 200010,
+          "difficulty": 2,
+          "version": "3.3.0",
+          "battle_id": 70702082,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】对「异构·熔狱行赭」造成4次<color=#FFAF2C>「骤寒」</color>效果\n\n【关卡介绍】\n首领敌人进入战斗时将会拥有熔晶壁垒，代理人触发「招架支援」、「闪避反击」或对首领敌人施加冰属性异常效果，会削减<color=#FFAF2C>首领敌人的熔晶壁垒</color>。当熔晶壁垒被完全削减至零时，首领敌人会直接进入失衡状态。\n在战斗中，使用特殊技能按钮，会使当前代理人进入<color=#FFAF2C>「零度屏障」</color>状态，持续0.5秒。「零度屏障」持续期间，受到首领的红光攻击时，会抵消此次攻击并削减<color=#FFAF2C>首领敌人的熔晶壁垒</color>，若此时首领敌人处于<color=#FFAF2C>「灼烧」</color>异常状态期间，会额外对其造成基于最大生命值的伤害;\n在首领敌人处于失衡状态下时，使用特殊技能按钮会对首领敌人造成<color=#FFAF2C>「骤寒」</color>效果，使首领敌人受到基于最大生命值的伤害，代理人触发属性异常效果后会额外刷新特殊按钮的冷却时间。",
+          "medal_id": 17002,
+          "config_id": 600522,
+          "quest_id": 12770010,
+          "zone_type": 201,
+          "zone": {
+            "7000169": {
+              "name": "异构·熔狱行赭",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702082": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SymbioticEtherealSinner.png",
+                  "monster_list": {
+                    "31636": {
+                      "id": 30052,
+                      "name": "熔狱行赭",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_SymbioticEtherealSinner.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 45215657.322569996,
+                        "attack": 6338.618181818182,
+                        "defence": 952.8000000000001,
+                        "stun": 20430.9,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                },
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69011601": {
+                  "title": "奇巧",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，造成的<color=#F0D12B>物理属性伤害</color>额外<color=#2BAD00>提升20%</color>。\n· 使敌人进入属性异常后，敌人的防御力<color=#2BAD00>降低10%</color>，持续10秒；对敌人施加[紊乱]效果后，敌人的防御力<color=#2BAD00>额外降低25%</color>，持续10秒，两个效果独立刷新持续时间。"
+                },
+                "69012201": {
+                  "title": "极境",
+                  "desc": "· [命破]特性的代理人贯穿伤害<color=#2BAD00>提升10%</color>，造成的秽息盾削减值<color=#2BAD00>提升30%</color>。\n· 处于以太帷幕中的代理人，贯穿伤害额外<color=#2BAD00>提升30%</color>，攻击命中敌人后使其失衡易伤倍率<color=#2BAD00>提升45%</color>，持续10秒，重复触发时刷新持续时间。"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "100006": {
+      "id": 100006,
+      "name": "异构·牲鬼·凶魁愚者",
+      "icon": "Data/UI/HardCoreBoss/Icon_100006.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_HereticJester.png",
+      "monster_path": "HardCore/HardCore_Monster_HereticJester_HC",
+      "monster_sub_id": 900031113,
+      "avatar_level": 70,
+      "reward_group": [
+        30100107
+      ],
+      "tutorial_id": 1100210,
+      "challenge_group_id": 12770019,
+      "mode": {
+        "200011": {
+          "id": 200011,
+          "difficulty": 1,
+          "version": "3.3.0",
+          "battle_id": 70702079,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】在60秒内使「异构·牲鬼·凶魁愚者」失衡\n \n【关卡介绍】\n战斗中，首领会召唤<color=#FFAF2C>奖励魔术箱</color>，<color=#FFAF2C>陷阱魔术箱</color>与<color=#FFAF2C>狂暴魔术箱</color>。\n当代理人触发奖励魔术箱时，首领不会发动攻击且全队代理人会每秒获得<color=#FFAF2C>能量、闪能、锐能和喧响值</color>。\n当代理人触发陷阱魔术箱时，首领会发动攻击，招架首领的所有攻击会<color=#FFAF2C>积累50%失衡值</color>。\n当代理人触发狂暴魔术箱时，首领会开启秽盾并发动猛烈攻击，招架首领的所有攻击来<color=#FFAF2C>破除秽盾</color>并使其<color=#FFAF2C>失衡</color>。\n每当成功招架触发狂暴魔术箱后的攻击并使敌人失衡时，首领<color=#FFAF2C>防御力降低30%</color>，全队代理人<color=#FFAF2C>暴击伤害提升30%</color>，持续至敌人失衡结束。\n每当成功招架触发陷阱魔术箱后的攻击并使敌人失衡时，首领<color=#FFAF2C>防御力降低15%</color>，全队代理人<color=#FFAF2C>暴击伤害提升15%</color>，持续至敌人失衡结束。\n首领从失衡中恢复后会在空中丢出数把飞刀，招架所有飞刀可<color=#FFAF2C>累积大量失衡值</color>。",
+          "medal_id": 0,
+          "config_id": 600523,
+          "quest_id": 12770014,
+          "zone_type": 201,
+          "zone": {
+            "7000166": {
+              "name": "异构·牲鬼·凶魁愚者",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702079": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+                  "monster_list": {
+                    "31113": {
+                      "id": 30035,
+                      "name": "牲鬼·凶魁愚者",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 15565550.604119997,
+                        "attack": 2347.636363636364,
+                        "defence": 952.8000000000001,
+                        "stun": 17585.05,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69010301": {
+                  "title": "异象",
+                  "desc": "· 代理人的属性异常积蓄效率<color=#2BAD00>提升20%</color>。\n· 对敌人施加<color=#FFFFFF>属性异常</color>效果时，全队<color=#2BAD00>提升60点异常精通</color>，<color=#FFFFFF>紊乱</color>造成的伤害<color=#2BAD00>提升40%</color>，持续15秒。"
+                },
+                "69011301": {
+                  "title": "凝神",
+                  "desc": "· 代理人的生命值上限<color=#2BAD00>提升30%</color>，终结技造成的伤害<color=#2BAD00>提升40%</color>。\n· 代理人释放终结技后，能量和闪能获得效率 <color=#2BAD00>提升15%</color>，<color=#FE437E>以太属性伤害</color>和<color=#98EFF0>冰属性伤害</color><color=#2BAD00>提升40%</color>，持续20秒。"
+                },
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                }
+              }
+            }
+          }
+        },
+        "200012": {
+          "id": 200012,
+          "difficulty": 2,
+          "version": "3.3.0",
+          "battle_id": 70702080,
+          "time_limit": 0,
+          "avatar_level": 0,
+          "desc": "【特殊挑战】在60秒内使「异构·牲鬼·凶魁愚者」失衡\n \n【关卡介绍】\n战斗中，首领会召唤<color=#FFAF2C>奖励魔术箱</color>，<color=#FFAF2C>陷阱魔术箱</color>与<color=#FFAF2C>狂暴魔术箱</color>。\n当代理人触发奖励魔术箱时，首领不会发动攻击且全队代理人会每秒获得<color=#FFAF2C>能量、闪能、锐能和喧响值</color>。\n当代理人触发陷阱魔术箱时，首领会发动攻击，招架首领的所有攻击会<color=#FFAF2C>积累50%失衡值</color>。\n当代理人触发狂暴魔术箱时，首领会开启秽盾并发动猛烈攻击，招架首领的所有攻击来<color=#FFAF2C>破除秽盾</color>并使其<color=#FFAF2C>失衡</color>。\n每当成功招架触发狂暴魔术箱后的所有攻击时，首领<color=#FFAF2C>防御力降低30%</color>，全队代理人<color=#FFAF2C>暴击伤害提升30%</color>，持续20秒，重复触发刷新持续时间。\n每当成功招架陷阱魔术箱后的2次攻击时，首领<color=#FFAF2C>防御力降低15%</color>，全队代理人<color=#FFAF2C>暴击伤害提升15%</color>，持续20秒，重复触发刷新持续时间。\n首领从失衡中恢复后会在空中丢出数把飞刀，招架所有飞刀可<color=#FFAF2C>累积大量失衡值</color>。",
+          "medal_id": 17003,
+          "config_id": 600524,
+          "quest_id": 12770015,
+          "zone_type": 201,
+          "zone": {
+            "7000167": {
+              "name": "异构·牲鬼·凶魁愚者",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001007": {
+                  "title": "",
+                  "desc": ""
+                },
+                "8001008": {
+                  "title": "",
+                  "desc": "伊德海莉：贯穿伤害大幅提升"
+                },
+                "8001009": {
+                  "title": "",
+                  "desc": "般岳：普通攻击和强化特殊技造成的贯穿伤害大幅提升"
+                },
+                "8001010": {
+                  "title": "",
+                  "desc": "爱芮：异放伤害大幅提升"
+                },
+                "8001011": {
+                  "title": "",
+                  "desc": "薇薇安：异放和紊乱伤害大幅提升"
+                }
+              },
+              "layer_room": {
+                "70702080": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+                  "monster_list": {
+                    "31113": {
+                      "id": 30035,
+                      "name": "牲鬼·凶魁愚者",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 25942091.97762,
+                        "attack": 6338.618181818182,
+                        "defence": 952.8000000000001,
+                        "stun": 26377.575,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {},
+                  "monster_resistance": {},
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69013101": {
+                  "title": "掠火",
+                  "desc": "· 代理人使敌人进入属性异常状态后，其全属性伤害抗性降低<color=#2BAD00>10%</color>，<color=#FE437E>以太伤害抗性</color>降低<color=#2BAD00>10%</color>，持续15秒，重复触发刷新持续时间。\n· 代理人造成的属性异常伤害<color=#2BAD00>提升15%</color>，异放伤害<color=#2BAD00>提升15%</color>，[连携技]、[终结技]造成的属性异常积蓄值<color=#2BAD00>提升20%</color>。"
+                },
+                "69010301": {
+                  "title": "异象",
+                  "desc": "· 代理人的属性异常积蓄效率<color=#2BAD00>提升20%</color>。\n· 对敌人施加<color=#FFFFFF>属性异常</color>效果时，全队<color=#2BAD00>提升60点异常精通</color>，<color=#FFFFFF>紊乱</color>造成的伤害<color=#2BAD00>提升40%</color>，持续15秒。"
+                },
+                "69011301": {
+                  "title": "凝神",
+                  "desc": "· 代理人的生命值上限<color=#2BAD00>提升30%</color>，终结技造成的伤害<color=#2BAD00>提升40%</color>。\n· 代理人释放终结技后，能量和闪能获得效率 <color=#2BAD00>提升15%</color>，<color=#FE437E>以太属性伤害</color>和<color=#98EFF0>冰属性伤害</color><color=#2BAD00>提升40%</color>，持续20秒。"
+                },
+                "69012702": {
+                  "title": "淬体",
+                  "desc": "· 代理人造成的伤害<color=#2BAD00>提升20%</color>，攻击命中敌人时，无视其<color=#2BAD00>10%</color>的全伤害抗性。\n· [强攻]特性的代理人攻击力<color=#2BAD00>提升20%</color>，[普通攻击]造成的伤害<color=#2BAD00>提升40%</color>，并无视敌人<color=#2BAD00>20%</color>的防御力。"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

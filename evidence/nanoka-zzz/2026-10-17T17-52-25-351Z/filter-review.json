@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-17T18:36:41.555Z",
+  "selectedScope": [
+    "3.2",
+    "3.3.12+19629936"
+  ],
+  "controls": [
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:35.257Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Physical",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:35.809Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Fire",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:36.262Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Ice",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:36.687Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Electric",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:37.144Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Wind",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:37.484Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Ether",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:37.897Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Attack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:38.238Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Stun",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:38.588Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Anomaly",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:38.954Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Support",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:39.339Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Defense",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:39.634Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Rupture",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:39.936Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Armorer",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:40.426Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Slash",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:40.734Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Strike",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:41.037Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Pierce",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:41.359Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Cunning Hares",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:41.672Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Victoria Housekeeping Co.",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:41.979Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Belobog Heavy Industries",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:42.283Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Sons of Calydon",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:42.594Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Obol Squad",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:42.893Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Hollow Special Operations Section 6",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:43.183Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Criminal Investigation Special Response Team",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:43.486Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Stars of Lyra",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:43.780Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Mockingbird",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:44.116Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Yunkui Summit",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:44.430Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Spook Shack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:44.891Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Krampus Compliance Authority",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:45.210Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Angels of Delusion",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:45.509Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:45.808Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:46.100Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:46.770Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:49.735Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Attack",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:50.251Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Stun",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:50.699Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Anomaly",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:51.142Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Support",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:51.516Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Defense",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:51.910Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Rupture",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:52.302Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Armorer",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:52.674Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:53.122Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:53.571Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "B-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:53.887Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:54.699Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:58.038Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "S-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:58.382Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "A-Rank",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:58.801Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:35:59.391Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:02.094Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:05.194Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "6★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:05.865Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "5★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:06.356Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "4★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:06.907Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "3★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:07.443Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "2★",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:07.950Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:08.508Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "label": "Show More",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:09.141Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "All",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:12.420Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Ether Mutants",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:13.034Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Thugs",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:13.531Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Corrupted",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:14.237Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Public Security",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:14.599Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Rebel Soldiers",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:15.512Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Special",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:16.167Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "S",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:16.474Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "A",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:16.968Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "B",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:17.481Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "C",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:17.948Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:18.807Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Phaethon's Story 0 / 39  0 / 520",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:21.885Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Agent Story 0 / 17  0 / 170",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:22.226Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Special Episode 0 / 3  0 / 60",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:22.581Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Agent Trust 0 / 78  0 / 430",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:22.973Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "When Opportunities Converge 0 / 73  0 / 370",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:23.331Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Inter-Knot Hot Topic 0 / 27  0 / 135",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:23.656Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Enigma of the Labyrinth 0 / 27  0 / 245",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:23.983Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Combat Techniques 0 / 56  0 / 580",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:24.489Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Hostile Targets 0 / 29  0 / 145",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:24.990Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Combat Achievements 0 / 53  0 / 510",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:25.329Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Lost Void 0 / 36  0 / 275",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:25.664Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Withered Domain 0 / 63  0 / 410",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:26.024Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Hollow Exploration Guide 0 / 30  0 / 155",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:26.380Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Zero Key 0 / 17  0 / 135",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:26.748Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Investigation Zone Adventures 0 / 53  0 / 285",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:27.093Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Proxy Business 0 / 65  0 / 525",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:27.453Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Janus Quarter 0 / 76  0 / 385",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:27.823Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Waifei Peninsula 0 / 42  0 / 230",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:28.219Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Outer Ring 0 / 5  0 / 25",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:28.617Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Throne Quarter 0 / 8  0 / 40",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:28.949Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "label": "Roscaelifer 0 / 34  0 / 188",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:29.296Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Tactical Prism Program",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:32.202Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Gear Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:32.682Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Card Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:33.091Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Resonium Database",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:33.620Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "label": "Reset filters",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:34.161Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "label": "Agents 2",
+      "kind": "category_filter_or_tab",
+      "at": "2026-10-17T18:36:37.125Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20101 BATTLE 01 Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:36:40.374Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20102 BATTLE 02 Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:36:40.749Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20103 STORY 01 Node Type:\n                  Story",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:36:41.053Z"
+    },
+    {
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "label": "ID 20104 LAST NODE Node Type:\n                  Battle",
+      "kind": "stage_selection",
+      "at": "2026-10-17T18:36:41.555Z"
+    }
+  ],
+  "records": [
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "observedAt": "2026-10-17T18:35:33.455Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/character.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/character",
+      "observedAt": "2026-10-17T18:35:33.790Z",
+      "isJson": true,
+      "sha256": "80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925",
+      "file": "discovery-bodies/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:35:47.906Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/weapon.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/weapon",
+      "observedAt": "2026-10-17T18:35:48.273Z",
+      "isJson": true,
+      "sha256": "8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c",
+      "file": "discovery-bodies/8767140dcd76005d6a7ccc751f887722245e90b1d235878757d2f59a172ee12c.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "observedAt": "2026-10-17T18:35:56.349Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/bangboo.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/bangboo",
+      "observedAt": "2026-10-17T18:35:56.693Z",
+      "isJson": true,
+      "sha256": "788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e",
+      "file": "discovery-bodies/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "observedAt": "2026-10-17T18:36:00.411Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/equipment.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/equipment",
+      "observedAt": "2026-10-17T18:36:00.764Z",
+      "isJson": true,
+      "sha256": "44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7",
+      "file": "discovery-bodies/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "observedAt": "2026-10-17T18:36:03.349Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/item",
+      "observedAt": "2026-10-17T18:36:03.690Z",
+      "isJson": true,
+      "sha256": "0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4",
+      "file": "discovery-bodies/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "observedAt": "2026-10-17T18:36:10.353Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/monster",
+      "observedAt": "2026-10-17T18:36:10.710Z",
+      "isJson": true,
+      "sha256": "d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38",
+      "file": "discovery-bodies/d0530e4ada1777fca3ad55d84ba8e36d77163952d43f108858eafd75e2d67f38.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "observedAt": "2026-10-17T18:36:20.191Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/achievement/achievement.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/achievement",
+      "observedAt": "2026-10-17T18:36:20.565Z",
+      "isJson": true,
+      "sha256": "37374751e50c80bd2311323ac95298ac602beb6f6ee9aecd02b974357e2dd7f8",
+      "file": "discovery-bodies/37374751e50c80bd2311323ac95298ac602beb6f6ee9aecd02b974357e2dd7f8.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:36:30.438Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/tpp.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:36:30.792Z",
+      "isJson": true,
+      "sha256": "ec4c0c3a0dc3bd249b149dac2ecab6d6ec71509b90fc85066703da9785d46687",
+      "file": "discovery-bodies/ec4c0c3a0dc3bd249b149dac2ecab6d6ec71509b90fc85066703da9785d46687.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/card.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:36:30.840Z",
+      "isJson": true,
+      "sha256": "4a2acf379dca3f84d6a0880b7d83eff656168c8943812657283221c0a155e097",
+      "file": "discovery-bodies/4a2acf379dca3f84d6a0880b7d83eff656168c8943812657283221c0a155e097.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/gg.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:36:30.843Z",
+      "isJson": true,
+      "sha256": "3b12ddc8eca5c5cdcdc8059ab583afff9602eaf1e937645db4a7d9f427bba2e6",
+      "file": "discovery-bodies/3b12ddc8eca5c5cdcdc8059ab583afff9602eaf1e937645db4a7d9f427bba2e6.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/resonium.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/hollow",
+      "observedAt": "2026-10-17T18:36:30.843Z",
+      "isJson": true,
+      "sha256": "2c64b914f7e0b9bd9df1aebcb2d0cd115846a578b1b628bd1357712d5627f356",
+      "file": "discovery-bodies/2c64b914f7e0b9bd9df1aebcb2d0cd115846a578b1b628bd1357712d5627f356.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "observedAt": "2026-10-17T18:36:35.397Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12%2B19629936/diff/en.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/diff",
+      "observedAt": "2026-10-17T18:36:35.738Z",
+      "isJson": true,
+      "sha256": "de613471dd1e039af8f2259062f300c902a0ef8f31b8d10b4cfbb99a37a095e3",
+      "file": "discovery-bodies/de613471dd1e039af8f2259062f300c902a0ef8f31b8d10b4cfbb99a37a095e3.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:36:38.364Z",
+      "isJson": true,
+      "sha256": "f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0",
+      "file": "discovery-bodies/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:36:38.703Z",
+      "isJson": true,
+      "sha256": "e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca",
+      "file": "discovery-bodies/e6846e88eb19c04f83210976497f1909c00a562d2bda686b45b4001729e33cca.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/simul/201.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:36:39.058Z",
+      "isJson": true,
+      "sha256": "31c17bc99da05dbae37c1ab189ada0fd90b91f2b37a8ee6b48acf8a1529bf1fd",
+      "file": "discovery-bodies/31c17bc99da05dbae37c1ab189ada0fd90b91f2b37a8ee6b48acf8a1529bf1fd.json"
+    },
+    {
+      "url": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+      "status": 200,
+      "pageUrl": "https://zzz.nanoka.cc/simul/201",
+      "observedAt": "2026-10-17T18:36:39.083Z",
+      "isJson": true,
+      "sha256": "d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a",
+      "file": "discovery-bodies/d11dc7fbb5fcc84ecb55834e1aee9041682cf61d46d34f1325db93c71d9b106a.json"
+    }
+  ],
+  "note": "Historical comparison options intentionally excluded from downloaded scope. Source shapes preserve all levels; local level controls do not define extra datasets.",
+  "originalCapture": ".nanoka/filter-review/observed-urls.json"
+}

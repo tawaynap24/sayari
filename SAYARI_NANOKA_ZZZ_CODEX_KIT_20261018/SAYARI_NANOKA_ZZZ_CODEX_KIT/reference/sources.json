@@ -1,0 +1,153 @@
+{
+  "reviewDateAsiaBangkok": "2026-10-18",
+  "sources": [
+    {
+      "id": "N01",
+      "title": "Nanoka ZZZ website",
+      "url": "https://zzz.nanoka.cc/",
+      "kind": "primary_site",
+      "supports": "Website reference; live/latest display is not a JSON availability guarantee."
+    },
+    {
+      "id": "N02",
+      "title": "Nanoka manifest",
+      "url": "https://static.nanoka.cc/manifest.json",
+      "kind": "data_endpoint_unverified_here",
+      "supports": "Endpoint documented in client; raw response was NOT obtained during preparation."
+    },
+    {
+      "id": "C01",
+      "title": "hakushin-py ZZZ client",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+      "kind": "primary_client_source",
+      "supports": "Four list/detail families and localized item dictionary. A third-party client, NOT an exhaustive Nanoka API contract."
+    },
+    {
+      "id": "C02",
+      "title": "hakushin-py URL builder",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/base.py",
+      "kind": "primary_client_source",
+      "supports": "static.nanoka.cc base; versioned paths; live/latest selection; client-side cache policy."
+    },
+    {
+      "id": "C03",
+      "title": "hakushin-py manifest model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/manifest.py",
+      "kind": "primary_client_source",
+      "supports": "zzz.live, zzz.latest, zzz.available aliases."
+    },
+    {
+      "id": "C04",
+      "title": "hakushin-py constants",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/constants.py",
+      "kind": "primary_client_source",
+      "supports": "ZZZ language mapping en/ja/ko/zh; assets prefix; rarity mapping."
+    },
+    {
+      "id": "M01",
+      "title": "ZZZ character model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/character.py",
+      "kind": "primary_client_source",
+      "supports": "Raw field aliases for agent detail, skills, progression, skins and potential_detail; preserve unknown fields."
+    },
+    {
+      "id": "M02",
+      "title": "ZZZ weapon model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/weapon.py",
+      "kind": "primary_client_source",
+      "supports": "W-Engine fields and asset filename handling."
+    },
+    {
+      "id": "M03",
+      "title": "ZZZ Bangboo model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/bangboo.py",
+      "kind": "primary_client_source",
+      "supports": "Bangboo detail and nested skill levels."
+    },
+    {
+      "id": "M04",
+      "title": "ZZZ Drive Disc model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/disc.py",
+      "kind": "primary_client_source",
+      "supports": "Equipment sets, desc2, desc4, story; not a player inventory."
+    },
+    {
+      "id": "M05",
+      "title": "ZZZ Item model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/items.py",
+      "kind": "primary_client_source",
+      "supports": "Item dictionary fields; no confirmed standalone item-detail endpoint in this client."
+    },
+    {
+      "id": "M06",
+      "title": "ZZZ New model",
+      "url": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/models/zzz/new.py",
+      "kind": "primary_client_source",
+      "supports": "A model exists for new IDs/version. This alone does NOT establish a /new.json endpoint."
+    },
+    {
+      "id": "W01",
+      "title": "Monster page",
+      "url": "https://zzz.nanoka.cc/monster",
+      "kind": "primary_site_search_result",
+      "supports": "Website category observed in indexed primary-site result; data endpoint not verified."
+    },
+    {
+      "id": "W02",
+      "title": "Achievements page",
+      "url": "https://zzz.nanoka.cc/achievement",
+      "kind": "primary_site_search_result",
+      "supports": "Website category observed; data endpoint not verified."
+    },
+    {
+      "id": "W03",
+      "title": "Shiyu Defense page",
+      "url": "https://zzz.nanoka.cc/shiyu",
+      "kind": "primary_site_search_result",
+      "supports": "Website category observed; data endpoint not verified."
+    },
+    {
+      "id": "W04",
+      "title": "Hollow Zero page",
+      "url": "https://zzz.nanoka.cc/hollow",
+      "kind": "primary_site_search_result",
+      "supports": "Website category includes multiple subcategories; inspect all tabs and their actual requests."
+    },
+    {
+      "id": "W05",
+      "title": "Version Changelog page",
+      "url": "https://zzz.nanoka.cc/diff",
+      "kind": "primary_site_search_result",
+      "supports": "Website comparison feature; it may compute locally, not necessarily a separate diff API."
+    },
+    {
+      "id": "W06",
+      "title": "Example Agent source page",
+      "url": "https://zzz.nanoka.cc/character/1261",
+      "kind": "primary_site_search_result",
+      "supports": "Example of human-readable per-agent reference route; use actual IDs from data."
+    },
+    {
+      "id": "T01",
+      "title": "Playwright network documentation",
+      "url": "https://playwright.dev/docs/network",
+      "kind": "official_technical_documentation",
+      "supports": "Response/request observation for optional local discovery; browser success must still be tested."
+    },
+    {
+      "id": "T02",
+      "title": "Firebase Hosting configuration",
+      "url": "https://firebase.google.com/docs/hosting/full-config",
+      "kind": "official_technical_documentation",
+      "supports": "SPA rewrites/static file behavior; a dev proxy is not a deployed backend."
+    },
+    {
+      "id": "T03",
+      "title": "Vite 5 environment variables",
+      "url": "https://v5.vite.dev/guide/env-and-mode",
+      "kind": "official_technical_documentation",
+      "supports": "VITE_ variables are exposed to client bundles; no secrets in browser configuration."
+    }
+  ],
+  "policy": "Client source and public-site metadata were read with web tools. No upstream source code is redistributed. No successful Nanoka JSON HTTP response is bundled."
+}

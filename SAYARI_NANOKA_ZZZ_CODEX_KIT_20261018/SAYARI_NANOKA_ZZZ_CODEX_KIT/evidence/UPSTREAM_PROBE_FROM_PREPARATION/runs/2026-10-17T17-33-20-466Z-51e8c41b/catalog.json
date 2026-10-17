@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "provider": "Nanoka ZZZ",
+  "referenceUrl": "https://zzz.nanoka.cc/",
+  "runId": "2026-10-17T17-33-20-466Z-51e8c41b",
+  "generatedAt": "2026-10-17T17:33:20.566Z",
+  "manifest": null,
+  "versions": [],
+  "languages": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "definitions": [
+    {
+      "key": "character",
+      "label": "Agents",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/character.json",
+      "detailPath": "/zzz/{version}/{lang}/character/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/character",
+      "referenceDetail": "https://zzz.nanoka.cc/character/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "weapon",
+      "label": "W-Engines",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/weapon.json",
+      "detailPath": "/zzz/{version}/{lang}/weapon/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/weapon",
+      "referenceDetail": "https://zzz.nanoka.cc/weapon/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "bangboo",
+      "label": "Bangboo",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/bangboo.json",
+      "detailPath": "/zzz/{version}/{lang}/bangboo/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/bangboo",
+      "referenceDetail": "https://zzz.nanoka.cc/bangboo/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "equipment",
+      "label": "Drive Disc Sets",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/equipment.json",
+      "detailPath": "/zzz/{version}/{lang}/equipment/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/equipment",
+      "referenceDetail": "https://zzz.nanoka.cc/equipment/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "item",
+      "label": "Items / Materials",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/item.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/item",
+      "referenceDetail": null,
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02",
+          "M05"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    }
+  ],
+  "coverage": {
+    "runId": "2026-10-17T17-33-20-466Z-51e8c41b",
+    "startedAt": "2026-10-17T17:33:20.467Z",
+    "finishedAt": "2026-10-17T17:33:20.566Z",
+    "mode": "probe",
+    "status": "PROBE_ONLY_NOT_FULL_SYNC",
+    "registeredScopeComplete": false,
+    "entireProviderApiComplete": false,
+    "entireProviderApiCompleteReason": "No exhaustive provider OpenAPI catalog is assumed. Separate route/selector/family discovery and UI audit are mandatory.",
+    "selectedVersions": [],
+    "selectedLanguages": [
+      "en",
+      "ja",
+      "ko",
+      "zh"
+    ],
+    "uniqueResourcesAttempted": 1,
+    "successfulResources": 0,
+    "failedResources": 1,
+    "networkAttempts": 1,
+    "cachedResources": 0,
+    "scheduledDetailResources": 0,
+    "issues": [
+      {
+        "type": "manifest_unavailable",
+        "error": "TypeError: fetch failed"
+      }
+    ],
+    "failures": [
+      {
+        "dataset": "manifest",
+        "kind": "manifest",
+        "version": null,
+        "language": null,
+        "id": null,
+        "referenceUrl": "https://zzz.nanoka.cc/",
+        "url": "https://static.nanoka.cc/manifest.json",
+        "status": "failed",
+        "httpStatus": null,
+        "file": null,
+        "fetchedAt": null,
+        "checkedAt": "2026-10-17T17:33:20.470Z",
+        "error": "TypeError: fetch failed"
+      }
+    ],
+    "unattemptedDetailsInProbe": 0,
+    "historicalVersionsDownloaded": false
+  },
+  "inventory": [],
+  "resources": [
+    {
+      "dataset": "manifest",
+      "kind": "manifest",
+      "version": null,
+      "language": null,
+      "id": null,
+      "referenceUrl": "https://zzz.nanoka.cc/",
+      "url": "https://static.nanoka.cc/manifest.json",
+      "status": "failed",
+      "httpStatus": null,
+      "file": null,
+      "fetchedAt": null,
+      "checkedAt": "2026-10-17T17:33:20.470Z",
+      "error": "TypeError: fetch failed"
+    }
+  ],
+  "storageNote": "resource.file paths are relative to the collector output directory"
+}

@@ -1,0 +1,972 @@
+{
+  "1350001": {
+    "id": 1350001,
+    "name": "[星見雅]鏡花、影に潜む",
+    "desc": "敵の攻撃を受けた時、星見雅は<color=#2BAD00>自動でその攻撃を回避し</color>、<color=#FFFFFF>『極限回避』</color>と<color=#FFFFFF>「極限視界」</color>を発動する。<color=#FFFFFF>「極限視界」</color>は4秒間継続し、自動回避は12秒に1回のみ発動可能。効果発動時、星見雅の<color=#2BAD00>与ダメージ+40%</color>、継続時間12秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "branch": {
+      "13500011": "星見雅が<color=#FFFFFF>『回避反撃：寒雀』</color>と<color=#FFFFFF>『クイック支援：花信風』</color>を発動すると、<color=#2BAD00>自動で派生スキル</color><color=#FFFFFF>『霜砕雪』</color>に繋げ、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color><color=#2BAD00>-20%</color>、継続時間8秒。",
+      "13500012": "<color=#FFFFFF>『極限回避』</color>発動時、<color=#2BAD00>エネルギーを6Pt回復</color>し、<color=#2BAD00><color=#FFFFFF>「落霜」</color>を2Pt獲得</color>する、8秒に1回のみ発動可能。"
+    }
+  },
+  "1350002": {
+    "id": 1350002,
+    "name": "[星見雅]霜炎烈灼",
+    "desc": "<color=#FFFFFF>「氷焔」</color>を付与された敵は<color=#2BAD00>1秒ごとに星見雅の攻撃力180%分の</color><color=#98EFF0>霜烈属性ダメージ</color>を受ける。<color=#FFFFFF>『霜灼・破』</color>発動後、星見雅は<color=#FFFFFF>「霜灼」</color>状態の制限を無視し、<color=#2BAD00>直ちに</color>敵に<color=#FFFFFF>「氷焔」</color>を<color=#2BAD00>再付与</color>できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "branch": {
+      "13500021": "<color=#FFFFFF>「氷焔」</color>が付与された敵に対し、エージェントが<color=#2BAD00>与える<color=#F0D12B>「強撃」</color>または<color=#98EFF0>「砕氷」</color>のダメージ+75%</color>。",
+      "13500022": "敵に<color=#FFFFFF>「氷焔」</color>が付与されている間、<color=#2EB6FF>電気属性状態異常</color>/<color=#FF5521>炎属性状態異常</color>になると、<color=#2EB6FF>電気属性ダメージ耐性</color>/<color=#FF5521>炎属性ダメージ耐性</color><color=#2BAD00>-30%</color>、継続時間8秒。"
+    }
+  },
+  "1350003": {
+    "id": 1350003,
+    "name": "[星見雅]秋水回鳴",
+    "desc": "他のメンバーが<color=#FFFFFF>『追加攻撃』</color>を発動すると、星見雅は1重の<color=#FFFFFF>「決意」</color>を獲得する、最大3重まで重ね掛け可能。<color=#FFFFFF>『通常攻撃：霜月』</color>発動後に『通常攻撃』 <IconMap:Icon_Normal> を短押しすると、1重の<color=#FFFFFF>「決意」</color>を消費して<color=#FFFFFF>『追い討つ霜刃』</color>を1回発動できる。<color=#FFFFFF>『追い討つ霜刃』</color>は<color=#FFFFFF>『追加攻撃』</color>であり、<color=#FFFFFF>「決意」</color>を消費することで繰り返し発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "branch": {
+      "13500031": "<color=#FFFFFF>「決意」</color>を<color=#2BAD00>最大5重まで重ね掛けできるようになる</color>ほか、<color=#FFFFFF>『追い討つ霜刃』</color>を発動するたびに、星見雅が<color=#2BAD00>デシベル値を追加で130Pt獲得</color>する。",
+      "13500032": "星見雅が『極限支援』または『極限回避』を発動した時、<color=#FFFFFF>「決意」</color>を1重獲得する。また、<color=#FFFFFF>「決意」</color>の重数が上限に達すると、次に<color=#FFFFFF>『追い討つ霜刃』</color>を発動した時、<color=#2BAD00>『追加攻撃』の与ダメージ+65%</color>、継続時間5秒、16秒に1回のみ発動可能。"
+    }
+  },
+  "1350011": {
+    "id": 1350011,
+    "name": "[ビリー]ジャッジメント・オーダー",
+    "desc": "<color=#FFFFFF>『通常攻撃：出力全開』</color>が<color=#FFFFFF>『通常攻撃：出力全開・改』</color>に変わり、<color=#2BAD00>射撃頻度がダウンする代わりに威力がアップする</color>。スキル発動時、<color=#2BAD00>そのまましゃがみ撃ちに入って</color><color=#FFFFFF>「コアパッシブ：射撃姿勢」</color>を発動し、ビリーの<color=#2BAD00>与ダメージが追加で+100%</color>。移動する、直立状態に戻る、ノックバックを受け、または吹き飛ばされた場合、バフ効果が終了する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "branch": {
+      "13500111": "ビリーが<color=#FFFFFF>『通常攻撃』</color>発動中にしゃがみ撃ちに入り、<color=#FFFFFF>「コアパッシブ：射撃姿勢」</color>を発動させてバフ効果を1.5継続させた後、<color=#FFFFFF>「スターライト降臨」</color>状態に入る。状態継続中、攻撃が敵に命中すると、ビリーはターゲットの<color=#F0D12B>物理属性ダメージ耐性</color>を<color=#2BAD00>30%無視</color>し、<color=#2BAD00>デシベル値を持続的に獲得する</color>（<color=#2BAD00>20Pt/秒から徐々に上昇、3秒後に50Pt/秒に達する</color>）。ノックバックされ、または吹き飛ばされるまで、デシベル値獲得効果は継続する。",
+      "13500112": "ビリーの<color=#FFFFFF>『通常攻撃：出力全開・改』</color>の射撃が累計8回敵に命中した時、次の<color=#FFFFFF>『強化特殊スキル』</color>は<color=#2BAD00>エネルギーを消費しなくなり</color>、スキルの<color=#2BAD00>与ダメージ+100%</color>。"
+    }
+  },
+  "1350012": {
+    "id": 1350012,
+    "name": "[ビリー]追加「砲」酬",
+    "desc": "ビリーが<color=#FFFFFF>『クイック支援』</color>/<color=#FFFFFF>『強化特殊スキル』</color>/<color=#FFFFFF>『連携スキル』</color>/<color=#FFFFFF>『終結スキル』</color>を発動すると、<color=#2BAD00>ぞれぞれパワーを1/2/2/4重を獲得する</color>（最大4重まで）。<color=#FFFFFF>『ダッシュ攻撃：スターライトジャッジメント』</color>発動中、周囲広範囲に刺突攻撃を放った後、「通常攻撃」ボタン <IconMap:Icon_Normal> を短押しすると、<color=#2BAD00>パワーを1重消費して当該スキルを再発動でき</color>、発動中の攻撃が敵に命中するたびに、<color=#2BAD00>敵の防御力-4%</color>、継続時間12秒、最大12重まで重ね掛け可能、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "branch": {
+      "13500121": "ビリーが<color=#FFFFFF>『強化特殊スキル』</color>/<color=#FFFFFF>『クイック支援』</color>/<color=#FFFFFF>『連携スキル』</color>/<color=#FFFFFF>『終結スキル』</color>を発動した時、チーム全体に<color=#FFFFFF>「喝采」</color>効果を付与する、継続時間12秒。<color=#FFFFFF>「喝采」</color>効果継続中、エージェントの<color=#FFFFFF>『連携スキル』</color>と<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージ+50%</color>。",
+      "13500122": "パワーを獲得する時の<color=#2BAD00>獲得重数と最大重数+2</color>、敵の防御力ダウン効果を<color=#2BAD00>最大18重まで重ね掛けできるようになる</color>。スキルを繰り返し発動すると、スキルの<color=#2BAD00>与ダメージ+30%</color>、発動するたびに追加で他のメンバーの<color=#2BAD00>デシベル値を25Pt回復</color>する。"
+    }
+  },
+  "1350021": {
+    "id": 1350021,
+    "name": "[エレン]薄氷の巡狩",
+    "desc": "エレンは15秒おきにフィールド内のランダムな敵に継続時間15秒の<color=#FFFFFF>「巡狩」</color>マークを付ける。<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『ダッシュ攻撃：薄氷の急襲』</color>中のクイック鋏撃かチャージ鋏撃で<color=#FFFFFF>「巡狩」</color>マークの敵に命中した時、「通常攻撃」ボタン <IconMap:Icon_Normal> または「特殊攻撃」ボタン <IconMap:Icon_Special> を短押しすると、エレンは<color=#2BAD00>消費なし・条件なし</color>で<color=#2BAD00>当該スキルを再発動できる</color>。<color=#FFFFFF>「急凍パワー」</color>獲得時、上限を超えた分1Ptにつき、エレンの<color=#2BAD00>攻撃力+12%</color>、最大9重まで重ね掛け可能、継続時間10秒、継続時間は1重ずつカウントされていく。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "branch": {
+      "13500211": "敵に<color=#FFFFFF>「巡狩」</color>マークを付けた時、エレンの<color=#2BAD00>与ダメージ+15%</color>、継続時間15秒。<color=#FFFFFF>「巡狩」</color>マークが付与された敵を倒した時、エレンは即座に最もHPの低い敵に<color=#FFFFFF>「巡狩」</color>マークを付けて、今回の零号ホロウ挑戦において、装備中の武装の<color=#2BAD00>ダメージアップ効果が追加で+5%</color>、最大+60%。",
+      "13500212": "<color=#FFFFFF>「巡狩」</color>マークの付与間隔と継続時間が8秒になり、エレンが<color=#FFFFFF>「巡狩」</color>マークが付与された敵を攻撃する時、<color=#2BAD00>会心ダメージ+40%</color>。また、ターゲットの<color=#FFFFFF>「巡狩」</color>マークの継続時間が4秒未満の場合、<color=#2BAD00>会心ダメージが追加で+60%</color>。"
+    }
+  },
+  "1350022": {
+    "id": 1350022,
+    "name": "[エレン]霜鋒の捕縛",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>『通常攻撃：霜鋒』</color>のダメージ倍率が大幅にアップする。<color=#FFFFFF>『クイック支援：護衛シャーク』</color>または<color=#FFFFFF>『強化特殊スキル：一掃』</color>を発動した時も、<color=#2BAD00>自動で『通常攻撃：霜鋒』が発動され</color>、<color=#2BAD00>前方広範囲の敵</color>に<color=#98EFF0>氷属性ダメージ</color>を与え、ターゲットの<color=#2BAD00>防御力-40%</color>、継続時間8秒。<color=#FFFFFF>『通常攻撃：霜鋒』</color>を発動した時、エレンは<color=#FFFFFF>「急凍パワー」</color>を3Pt獲得する。}{NOAWAKEN_1191#<color=#FFFFFF>『クイック支援：護衛シャーク』</color>、<color=#FFFFFF>『強化特殊スキル：一掃』</color>、<color=#FFFFFF>『強化特殊スキル：シャーク・トルネード』</color>などを発動後、<color=#2BAD00>自動で「霜鋒」が発動され</color>、<color=#2BAD00>前方広範囲の敵</color>に<color=#98EFF0>氷属性ダメージ</color>を与え、ターゲットの<color=#2BAD00>防御力-40%</color>、継続時間8秒。<color=#FFFFFF>「霜鋒」</color>が発動された時、エレンは<color=#FFFFFF>「急凍パワー」</color>を3Pt獲得する。<color=#FFFFFF>「霜鋒」</color>の追加発動は元のスキル派生に影響しない。}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "branch": {
+      "13500221": "{AWAKEN_1191#<color=#FFFFFF>『通常攻撃：霜鋒』</color>を発動した時、エレンの<color=#2BAD00>攻撃力+45%</color>、継続時間4秒。また、出場後に初めて<color=#FFFFFF>『通常攻撃：霜鋒』</color>を発動した時、エレンは追加で<color=#FFFFFF>「急凍パワー」</color>を3Pt獲得する。<color=#FFFFFF>「急凍パワー」</color>の追加回復効果は8秒に1回のみ発動可能。}{NOAWAKEN_1191#<color=#FFFFFF>「霜鋒」</color>を発動した時、エレンの<color=#2BAD00>攻撃力+45%</color>、継続時間4秒。また、出場後に初めて<color=#FFFFFF>「霜鋒」</color>を発動した時、エレンは追加で<color=#FFFFFF>「急凍パワー」</color>を3Pt獲得する。<color=#FFFFFF>「急凍パワー」</color>の追加回復効果は8秒に1回のみ発動可能。}",
+      "13500222": "{AWAKEN_1191#<color=#FFFFFF>『通常攻撃：霜鋒』</color>を発動した時、エレンの<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+75%</color>、継続時間6秒。}{NOAWAKEN_1191#<color=#FFFFFF>「霜鋒」</color>を発動した時、エレンの<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+75%</color>、継続時間6秒。}"
+    }
+  },
+  "1350023": {
+    "id": 1350023,
+    "name": "[エレン]潮霧の逆流",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>、<color=#FFFFFF>『終結スキル』</color>発動時、エレンが<color=#2BAD00>地面に「氷霧」を残し</color>、敵に<color=#98EFF0>氷属性ダメージ</color>を持続的に与える、継続時間15秒。また、エージェントが<color=#FFFFFF>「氷霧」</color>内にいる時、<color=#2BAD00>中断耐性レベルがアップ</color>し、<color=#2BAD00>被ダメージ-30%</color>、<color=#FFFFFF>「氷霧」</color>から離れた後も、効果は5秒間継続する。エレンの攻撃が<color=#FFFFFF>「氷霧」</color>中の敵に命中した時、<color=#FFFFFF>「氷霧」</color>によるダメージが追加で1回発生する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "branch": {
+      "13500231": "敵が<color=#FFFFFF>「氷霧」</color>内にいる時、<color=#98EFF0>氷属性ダメージ耐性</color><color=#2BAD00>-15%</color>、ダメージを受けた時の<color=#98EFF0>氷属性状態異常蓄積効率</color><color=#2BAD00>+15%</color>。また、エージェントが<color=#FFFFFF>「氷霧」</color>内にいる敵を状態異常にした時、<color=#2BAD00>攻撃力+35%</color>、継続時間8秒。",
+      "13500232": "エージェントが<color=#FFFFFF>「氷霧」</color>内にいる敵にダメージを与え、会心が発生した場合、ターゲットの<color=#2BAD00>防御力-10%</color>、継続時間8秒。与えたダメージが<color=#FF5521>炎属性</color>の場合、<color=#2BAD00>会心ダメージ+64%</color>。"
+    }
+  },
+  "1350031": {
+    "id": 1350031,
+    "name": "[月城柳]朧月の清き光",
+    "desc": "<color=#FFFFFF>「上弦」</color>構えの<color=#FFFFFF>『通常攻撃』</color>5段目、または<color=#FFFFFF>「下弦」</color>構え<color=#FFFFFF>『通常攻撃』</color>4段目を発動時、「通常攻撃」ボタン <IconMap:Icon_Normal> を連打または長押しすると、最大4回まで<color=#2BAD00>繰り返し斬撃</color>を放てる。繰り返し斬撃を発動するたびに、月城柳の<color=#2EB6FF>電気属性与ダメージ</color><color=#2BAD00>+12.5%</color>、最大4重まで重ね掛け可能、継続時間8秒、重複して発動すると継続時間が更新される。繰り返し斬撃の期間中、月城柳の<color=#2BAD00>被ダメージ-40%</color>。<color=#FFFFFF>「疾速の流転」</color>発動後、「通常攻撃」ボタン <IconMap:Icon_Normal> を短押しすると、<color=#2BAD00>別構えの繰り返し斬撃を素早く発動できる</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "branch": {
+      "13500311": "<color=#FFFFFF>『通常攻撃』</color>発動中、月城柳の<color=#2BAD00>被ダメージ-12%</color>。また、月城柳は<color=#2BAD00>いつでもモーションを中断</color>し、<color=#FFFFFF>『特殊スキル：流転』</color>に繋げることができる。<color=#FFFFFF>『特殊スキル：流転』</color>で敵の攻撃をうまくガードした場合、月城柳の<color=#2BAD00>異常マスタリー+170</color>、継続時間12秒。",
+      "13500312": "繰り返し斬撃発動中、攻撃が敵に命中した場合、月城柳の<color=#FFFFFF>「混沌」</color><color=#2BAD00>ダメージ+18%</color>。繰り返し斬撃1回につき、この効果を1重獲得でき、最大4重まで重ね掛け可能、継続時間12秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350032": {
+    "id": 1350032,
+    "name": "[月城柳]春風月華",
+    "desc": "他のメンバーが敵を状態異常にすると、月城柳の<color=#FFFFFF>『クイック支援』</color>が発動可能になる、6秒に1回のみ発動可能。この方法で<color=#FFFFFF>『クイック支援』</color>を発動すると、月城柳は空中に浮いたまま<color=#2BAD00>地面に連続で落雷攻撃を放ち</color>、<color=#2EB6FF>電気属性ダメージ</color>を与える。スキルの<color=#2EB6FF>電気属性状態異常蓄積効率</color>は比較的高い。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "branch": {
+      "13500321": "落雷攻撃および落雷後の落下攻撃中、月城柳の<color=#2BAD00>攻撃力+30%</color>、<color=#2BAD00>異常マスタリー+150</color>。また、『特殊攻撃』 <IconMap:Icon_Special> を連打または長押しすると、スキルの継続時間が延長される。",
+      "13500322": "落雷攻撃が敵に命中した時、チーム全体のターゲットへの<color=#2BAD00>状態異常または「混沌」ダメージ+5%</color>、最大10重まで重ね掛け可能、継続時間8秒。また、落雷後の落下攻撃が敵に命中した時、前のメンバーの<color=#FFFFFF>『クイック支援』</color>が発動可能になる。"
+    }
+  },
+  "1350033": {
+    "id": 1350033,
+    "name": "[月城柳]月刃追影",
+    "desc": "任意のメンバーが<color=#FFFFFF>「混沌」</color>効果を発動した時、月城柳は1重の<color=#FFFFFF>「追影」</color>を獲得する。<color=#FFFFFF>「追影」</color>は最大3重まで重ね掛け可能。操作しているメンバーの重撃が敵に命中した時、月城柳が<color=#FFFFFF>「追影」</color>を所持している場合、自動的に1重を消費して<color=#FFFFFF>『風華乱舞』</color>を1回発動する。<color=#FFFFFF>『風華乱舞』</color>は<color=#FFFFFF>『追加攻撃』</color>であり、1秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "branch": {
+      "13500331": "<color=#FFFFFF>「追影」</color>を<color=#2BAD00>最大5重まで重ね掛けできるようになり</color>、月城柳が<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#FFFFFF>「追影」</color>を1重獲得する。",
+      "13500332": "月城柳が<color=#FFFFFF>「混沌」</color>効果を発動した時、チーム全体の<color=#2BAD00>『追加攻撃』の与ダメージ+50%</color>、継続時間12秒。"
+    }
+  },
+  "1350041": {
+    "id": 1350041,
+    "name": "[ジェーン]幽影の奇襲",
+    "desc": "<color=#FFFFFF>『通常攻撃：サルコウ・ジャンプ』</color>の<color=#2BAD00>連続攻撃時間が大幅にアップし</color>、攻撃されそうになった瞬間にとどめの一撃を使うと、<color=#FFFFFF>『極限回避』</color>を発動できる。持続攻撃の継続時間が上限に達した、またはとどめの一撃で<color=#FFFFFF>『極限回避』</color>が発動された時、とどめの一撃が<color=#FFFFFF>『サルコウ・ジャンプ・浮遊』</color>に強化され、当該スキル発動時に自身の<color=#F0D12B>物理属性の状態異常蓄積効率</color><color=#2BAD00>+70%</color>、継続時間15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "branch": {
+      "13500411": "任意のメンバーが敵を状態異常にした時、ジェーンはそのまま<color=#FFFFFF>「熱狂」</color>状態に入り、<color=#FFFFFF>『通常攻撃：サルコウ・ジャンプ』</color>の発動可能回数を1回獲得し、<color=#FFFFFF>「熱狂フロウ」</color>が最大まで溜まる。この効果は10秒に1回のみ発動可能。",
+      "13500412": "<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『パリィ支援』</color>発動時、<color=#FFFFFF>「熱狂フロウ」</color>の獲得量が<color=#2BAD00>大幅に増加し</color>、<color=#FFFFFF>「熱狂」</color>状態が<color=#FFFFFF>「限界熱狂」</color>状態に変わる。「限界熱狂」状態継続中、ジェーンの<color=#2BAD00>攻撃力が追加で+40%</color>のほか、<color=#FFFFFF>「熱狂フロウ」</color>は時間とともに減少するようになり、攻撃が敵に命中しても減らない。"
+    }
+  },
+  "1350042": {
+    "id": 1350042,
+    "name": "[ジェーン]追い立てる時間",
+    "desc": "{AWAKEN_1261#<color=#FFFFFF>『強化特殊スキル：空を掠める』</color>が<color=#FFFFFF>『強化特殊スキル：空を掠める・強襲』</color>に強化され、ダメージ倍率と与える状態異常蓄積値が大幅にアップする}{NOAWAKEN_1261#<color=#FFFFFF>『強化特殊スキル：空を掠める』</color>が<color=#FFFFFF>『強化特殊スキル：空を掠める・強襲』</color>に強化される}。このスキルが敵に命中すると、ターゲットを<color=#FFFFFF>「傷跡」</color>状態にし、「傷跡」状態の敵に対し、1秒ごとにジェーンの攻撃力60%分の<color=#F0D12B>物理属性ダメージ</color>を1回与え、<color=#F0D12B>物理属性の状態異常蓄積値</color>を蓄積する、継続時間15秒。重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "branch": {
+      "13500421": "ジェーンが<color=#FFFFFF>「強撃」</color>効果を発動した時、チーム全体の<color=#2BAD00>異常マスタリー+50、状態異常蓄積効率+70%</color>、継続時間15秒。重複して発動すると継続時間が更新される。",
+      "13500422": "他のメンバーの攻撃が<color=#FFFFFF>「傷跡」</color>状態の敵に命中した時、<color=#FFFFFF>「傷跡」</color>が追加で発動され、そのメンバーの属性に応じて、ジェーンの攻撃力120%分に相当する同じ属性のダメージを与え、状態異常蓄積値を増やす。同一のメンバーはこの効果を3秒に1回のみ発動可能。"
+    }
+  },
+  "1350043": {
+    "id": 1350043,
+    "name": "[ジェーン]あざ笑う追跡劇",
+    "desc": "他のメンバーが<color=#F0D12B>「強撃」</color>効果を発動した時、ジェーンはターゲットを中心に<color=#FFFFFF>『強化特殊スキル』</color>を発動する、この攻撃によるダメージは<color=#FFFFFF>『追加攻撃』</color>ダメージとみなされる。この効果は8秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "branch": {
+      "13500431": "任意のメンバーが<color=#FFFFFF>「強撃」</color>効果を発動した時、ターゲットの<color=#F0D12B>物理属性ダメージ耐性</color><color=#2BAD00>-15%</color>、<color=#F0D12B>物理属性の状態異常蓄積耐性</color><color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。",
+      "13500432": "他のメンバーが<color=#FFFFFF>「あざ笑う追跡劇」</color>を通してジェーンの<color=#FFFFFF>『追加攻撃』</color>を2回発動した後、次にこの攻撃を発動した時、ジェーンはターゲットを中心に<color=#FFFFFF>『連携スキル』</color>を発動する。また、この<color=#FFFFFF>『連携スキル』</color>の<color=#2BAD00>ダメージ+200%、状態異常蓄積効率+200%</color>。この攻撃は<color=#FFFFFF>『追加攻撃』</color>とみなされる。"
+    }
+  },
+  "1350051": {
+    "id": 1350051,
+    "name": "[カリン]効率的掃除術",
+    "desc": "<color=#FFFFFF>『通常攻撃』</color>1、2、3段目、<color=#FFFFFF>『ダッシュ攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『クイック支援』</color>発動中、『通常攻撃』<IconMap:Icon_Normal>を連打または長押しすると、<color=#2BAD00>『通常攻撃』の4段目を直接発動でき</color>、同時に前方に<color=#2BAD00>旋風を放って敵に斬撃を与える</color>。カリンが<color=#FFFFFF>『極限回避』</color>を発動した時、<color=#2BAD00>自身のエネルギーを20Pt回復する</color>、10秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "branch": {
+      "13500511": "<color=#FFFFFF>『強化特殊スキル』</color>発動中、<color=#FFFFFF>『特殊攻撃』</color><IconMap:Icon_Special>を長押しして、敵に持続斬撃を0.5秒以上命中させると、<color=#FFFFFF>「ブースト状態」</color>に入り、<color=#2BAD00>敵を持続的に引き寄せる</color>。斬撃が敵に10回命中した後、<color=#FFFFFF>「オーバーブースト」</color>が発生し、<color=#2BAD00>追加でカリンの攻撃力630%分の</color><color=#F0D12B>物理属性ダメージ</color>を<color=#2BAD00>1回与える</color>。",
+      "13500512": "カリンのチェーンソー持続斬撃が敵に命中した時、自身がパワーを1重獲得する。パワーが10重になると、次の斬撃が敵に<color=#FFFFFF>「裂傷」</color>効果を付与し、<color=#2BAD00>3秒に1回カリンの攻撃力20%分の</color><color=#F0D12B>物理属性ダメージ</color>を与える、最大10重まで重ね掛け可能、継続時間12秒。重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350052": {
+    "id": 1350052,
+    "name": "[カリン]ティータイムへ一直線",
+    "desc": "カリンの<color=#FFFFFF>『ダッシュ攻撃』</color>と<color=#FFFFFF>『クイック支援』</color>が<color=#FFFFFF>『ダッシュ攻撃：「断」・改』</color>に変わり、<color=#FFFFFF>『通常攻撃』</color>を長押しするとダッシュ状態が継続する。チェーンソーの持続斬撃が連続で敵に30回命中する、またはボタンを離すとダッシュ状態が終了する。<color=#FFFFFF>『ダッシュ攻撃：「断」・改』</color>が敵に命中すると、<color=#2BAD00>敵の防御力-3%</color>、10重まで重ね掛け可能、継続時間15秒、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "branch": {
+      "13500521": "カリンが<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『極限支援』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、チーム全体の<color=#2BAD00>攻撃力+16%</color>、継続時間15秒。",
+      "13500522": "<color=#FFFFFF>『ダッシュ攻撃：「断」・改』</color>が敵に命中した時、<color=#2BAD00>防御力ダウン効果が1重ごとに6%になる</color>。"
+    }
+  },
+  "1350061": {
+    "id": 1350061,
+    "name": "[アストラ]ネオンのコンチェルト",
+    "desc": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、<color=#FFFFFF>[強攻]</color>エージェントの<color=#2BAD00>会心ダメージ+30%</color>、<color=#FFFFFF>[異常]</color>エージェントの<color=#2BAD00>異常マスタリー+60</color>、[命破]エージェントの与える<color=#2BAD00>透徹ダメージ</color>+15%。操作しているメンバーの<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、<color=#2BAD00>アストラのエネルギーが4Pt回復し</color>、<color=#2BAD00>追加で<color=#FFFFFF>『ビブラート』</color>が発動する</color>。エネルギー回復効果は1秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "branch": {
+      "13500611": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、<color=#2BAD00>チーム全体の貫通率+20%</color>、<color=#2BAD00>HPが徐々に回復する</color>。",
+      "13500612": "<color=#FFFFFF>『ビブラート』</color>が敵に命中した時、ターゲットの<color=#2BAD00>防御力-30%</color>、継続時間10秒。"
+    }
+  },
+  "1350062": {
+    "id": 1350062,
+    "name": "[アストラ]緋色のビート",
+    "desc": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、エネルギーが十分溜まっている状態で<color=#FFFFFF>「ビブラート」</color>を発動/追加発動して攻撃を仕掛けると、同等の<color=#FFFFFF>「ビブラート」</color>ダメージを<color=#2BAD00>追加で2段</color>与える。アストラの<color=#FFFFFF>『通常攻撃：インタールード』</color>または<color=#FFFFFF>『通常攻撃：コーラス』</color>が敵に命中した時、20%の確率で<color=#FFFFFF>「閃き」</color>効果を獲得し、<color=#2BAD00>次に発動する</color><color=#FFFFFF>『回避』</color>が<color=#FFFFFF>『極限回避』</color>を発動可能になり、続いて<color=#FFFFFF>『通常攻撃：コーラス』</color>に繋げられる、継続時間30秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "branch": {
+      "13500621": "他のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、アストラは追加で<color=#FFFFFF>『ビブラート』</color>を発動して敵を攻撃する。この効果は2秒に1回のみ発動可能。",
+      "13500622": "<color=#FFFFFF>『ビブラート』</color>攻撃の<color=#2BAD00>会心率+30%</color>、<color=#2BAD00>会心ダメージ+60%</color>、<color=#2BAD00>敵のエーテル属性ダメージ耐性を22%無視する</color>。"
+    }
+  },
+  "1350063": {
+    "id": 1350063,
+    "name": "[アストラ]星降るワルツ",
+    "desc": "アストラがエネルギーを25Pt消費するごとに、<color=#FFFFFF>「星明かり」</color>を1重獲得する、最大3重まで重ね掛け可能。<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、<IconMap:Icon_Normal> 長押しで<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>を発動すると、持続的にエネルギービームを誘導して敵を攻撃できる。スキル発動時、<color=#FFFFFF>「星明かり」</color>が消費される。消費された<color=#FFFFFF>「星明かり」</color>1重につき、<color=#2BAD00>スキルの継続時間+1秒</color>。スキル継続中に<color=#2BAD00>中断耐性レベルがアップし</color>、<color=#2BAD00>被ダメージが追加で‐20%</color>。スキルが敵に命中した時、<color=#2BAD00>ターゲットの防御力‐20%</color>、継続時間30秒。<color=#FFFFFF>「星明かり」</color>を3重所持している状態でアストラに切り替えると、自動的に<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>が発動される。アストラの<color=#FFFFFF>『通常攻撃：インタールード』</color>が敵に命中した時、追加でエネルギーを25Pt消費し、<color=#FFFFFF>『通常攻撃：コーラス』</color>が敵に命中した時、<color=#2BAD00>追加でエネルギーを5Pt回復する</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "branch": {
+      "13500631": "<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>の与えたダメージが<color=#2BAD00><color=#FFFFFF>『強化特殊スキル』</color>ダメージとみなされる</color>。スキル発動中、<color=#2BAD00>会心率+30%</color>、<color=#2BAD00>会心ダメージ+60%</color>。",
+      "13500632": "<IconMap:Icon_Normal>を長押しして<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>を発動した時、<color=#FFFFFF>「星明かり」</color>が消費される。<color=#FFFFFF>「星明かり」</color>1重につき<color=#2BAD00>スキルの与ダメージ+15%</color>、アストラの<color=#2BAD00>エネルギーを4Pt回復する</color>。"
+    }
+  },
+  "1350071": {
+    "id": 1350071,
+    "name": "[イヴリン]金メッキの刃",
+    "desc": "イヴリンの<color=#FFFFFF>「纏わりつく牽制」</color>状態が終了した時、<color=#FFFFFF>「点火準備タイム」</color>に入る、継続時間30秒。状態継続中、次に発動する<color=#FFFFFF>『ダッシュ攻撃：スリップ・アンブッシュ』</color>が<color=#FFFFFF>『ダッシュ攻撃：アンブッシュ・ブラスト』</color>に変わる。<color=#FFFFFF>『ダッシュ攻撃：アンブッシュ・ブラスト』</color>は<color=#2BAD00>『連携スキル』とみなされる</color>。イヴリンが<color=#FFFFFF>『通常攻撃：絞式』</color>を発動した時、<color=#2BAD00>「纏わりつく牽制」状態が終わる</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "branch": {
+      "13500711": "<color=#FFFFFF>『連携スキル』</color>発動時、イヴリンが<color=#FFFFFF>「神速の刃」</color>効果を獲得し、<color=#FFFFFF>『連携スキル』</color>の<color=#2BAD00>与ダメージ+20%</color>、最大3重まで重ね掛け可能、戦闘が終わるまで継続。",
+      "13500712": "正面からの攻撃で被撃硬直に入る寸前、<color=#FFFFFF>「支援ポイント」</color>を消費して<color=#2BAD00>自動で『パリィ支援』を発動</color>する。敵の攻撃をガードしてから<color=#FFFFFF>『支援突撃：軌道干渉』</color>に繋げることができる。イヴリンが<color=#FFFFFF>『パリィ支援』</color>を発動した時、自身の<color=#2BAD00>会心ダメージ+40%</color>、最大2重まで重ね掛け可能、継続時間20秒、継続時間は1重ごとに独立してカウントされる。"
+    }
+  },
+  "1350072": {
+    "id": 1350072,
+    "name": "[イヴリン]命取りの作法",
+    "desc": "任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>、<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『極限支援』</color>が敵に命中した時、イヴリンの<color=#FFFFFF>「燎火」</color>が回復する。イヴリンが<color=#FFFFFF>「燎索ポイント」</color>を消費して発動した<color=#FFFFFF>『連携スキル：輝夜の糸・絆』</color>が<color=#FFFFFF>『連携スキル：輝夜の糸・絡まる』</color>に変わり、スキルの時間が大幅に短縮される。イヴリンの<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、<color=#2BAD00>スキルの与ダメージ+80%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "branch": {
+      "13500721": "<color=#FFFFFF>『終結スキル』</color>発動時、イヴリンが<color=#FFFFFF>「燎火」</color>を100%、<color=#FFFFFF>「燎索ポイント」</color>を3Pt獲得する。",
+      "13500722": "イヴリンが<color=#FFFFFF>『連携スキル』</color>を発動した時、<color=#2BAD00>会心率+20%</color>、<color=#2BAD00>会心ダメージ+80%</color>、継続時間5秒。"
+    }
+  },
+  "1350073": {
+    "id": 1350073,
+    "name": "[イヴリン]暴走する焔影",
+    "desc": "イヴリンの<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『支援突撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『通常攻撃：絞式』</color>、<color=#FFFFFF>『連携スキル』</color>の重撃が敵に命中した時、敵に<color=#FFFFFF>「炸裂」</color>マークを付与する、継続時間8秒、重複して発動すると継続時間が更新される。他のメンバーの攻撃が<color=#FFFFFF>「炸裂」</color>マークを付与された敵に命中した時、追加でイヴリンの攻撃力370%相当の<color=#FF5521>炎属性ダメージ</color>を与え、<color=#FFFFFF>「燎火」</color>を20%回復する、2秒に1回のみ発動可能。追加ダメージを3回発動すると、敵に付与された<color=#FFFFFF>「炸裂」</color>マークが消える。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "branch": {
+      "13500731": "<color=#FFFFFF>「炸裂」</color>マークが付与された敵の受ける<color=#FFFFFF>『追加攻撃』</color>の<color=#2BAD00>ブレイク値+25%</color>、<color=#2BAD00>ダメージ+30%</color>。",
+      "13500732": "イヴリンの<color=#FFFFFF>「燎火」</color>が50%以上、かつ操作されていない状態で、操作しているメンバーの重撃が敵に命中すると、イヴリンはターゲットを中心に<color=#FFFFFF>『通常攻撃：絞式』</color>を発動する。この攻撃によるダメージは<color=#FFFFFF>『追加攻撃』</color>とみなされるほか、発動時、チーム全体の<color=#2BAD00>攻撃力+16%</color>、継続時間15秒。"
+    }
+  },
+  "1350081": {
+    "id": 1350081,
+    "name": "[儀玄]貫く青溟の影",
+    "desc": "敵の攻撃を受けた時、儀玄は自動でその攻撃を回避し、極限視界を発動し、その場に太極陣法を残す。この時に『通常攻撃』を押すと、『通常攻撃：青溟爆震』に繋げることができる。自動回避は12秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "branch": {
+      "13500811": "『通常攻撃』5段目は追加で<color=#2BAD00>アドレナリンを10Pt回復する</color>。『極限回避』に成功すると、追加で<color=#2BAD00>アドレナリンを10Pt回復する</color>。",
+      "13500812": "極限回避に成功すると、儀玄の<color=#2BAD00>会心ダメージ+96%</color>、継続時間20秒。"
+    }
+  },
+  "1350082": {
+    "id": 1350082,
+    "name": "[儀玄]共鳴せし五銖",
+    "desc": "『クイック支援』が『強化特殊スキル：青溟爆震・破』に変わる。『通常攻撃：青溟爆震』が敵に命中した時、または『強化特殊スキル』あるいは『終結スキル』を発動した後、儀玄の<color=#2BAD00>透徹ダメージが追加で+20%</color>、最大3重まで重ね掛け可能、継続時間12秒、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic036.png",
+    "branch": {
+      "13500821": "『通常攻撃：青溟爆震』または『強化特殊スキル：青溟爆震・破』が敵に命中すると、敵の<color=#2BAD00>全属性耐性-40%</color>、継続時間15秒、重複して発動すると継続時間が更新される。",
+      "13500822": "『通常攻撃：青溟爆震』または『強化特殊スキル：青溟爆震・破』を発動するたびに、『通常攻撃：青溟爆震』または『強化特殊スキル：青溟爆震・破』の<color=#2BAD00>与ダメージ+18%</color>、最大4重まで重ね掛け可能。また、『通常攻撃：青溟爆震』または『強化特殊スキル：青溟爆震・破』を発動した時、「術法値」を30Pt回復する。"
+    }
+  },
+  "1350083": {
+    "id": 1350083,
+    "name": "[儀玄]黒き翼、煌く呪符",
+    "desc": "『強化特殊スキル：具現せし墨跡』のチャージ中、いつでもパーフェクトガードが発動可能になる。パーフェクトガード発動時、追加で「術法値」を15Pt回復し、<color=#2BAD00>与ダメージ+18%</color>、継続時間15秒。敵の攻撃を1回パーフェクトガードするたびに、次の『終結スキル』は<color=#2BAD00>追加で与ダメージ+20%</color>、最大3重まで重ね掛け可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic037.png",
+    "branch": {
+      "13500831": "『強化特殊スキル：具現せし墨跡』で敵の攻撃をパーフェクトガードできた時、<color=#2BAD00>追加でデシベル値を300Pt回復する</color>。",
+      "13500832": "『強化特殊スキル：具現せし墨跡』で敵の攻撃をパーフェクトガードできた時、チーム全体は<color=#2BAD00>追加で与えるブレイク値+30%</color>、継続時間20秒。"
+    }
+  },
+  "1350091": {
+    "id": 1350091,
+    "name": "[橘福福]退魔の猛虎",
+    "desc": "橘福福が<color=#FFFFFF>『連携スキル：虎威の威嚇』</color>を発動後、自身が操作中のメンバーでない場合、<color=#FFFFFF>『追撃支援』</color>を1回発動し、敵を中心に<color=#FFFFFF>『通常攻撃』</color>の4段目を放つ。この時に与えたダメージは<color=#2BAD00>『追加攻撃』によるダメージ</color>とみなされるほか、<color=#2BAD00>与ダメージ+75%</color>、<color=#2BAD00>与えるブレイク値+45%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "branch": {
+      "13500911": "<color=#2BAD00>『追加攻撃』</color>が敵に命中した時、その敵に<color=#2BAD00>与えるダメージ+10%</color>、最大3重まで重ね掛け可能。この効果は1秒に1回のみ発動可能、継続時間15秒、重複して発動すると継続時間が更新される。",
+      "13500912": "<color=#2BAD00>『追加攻撃』</color>が敵に命中時、<color=#2BAD00>与えるブレイク値+8%</color>、最大3重まで重ね掛け可能。この効果は1秒に1回のみ発動可能、継続時間15秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350092": {
+    "id": 1350092,
+    "name": "[橘福福]「風雷」の音",
+    "desc": "橘福福が<color=#FFFFFF>『突撃支援』</color>または<color=#FFFFFF>『強化特殊スキル』</color>を発動した後、強化された<color=#FFFFFF>『通常攻撃』</color>の4段目に素早く繋げることができる。このスキルによる<color=#2BAD00>ブレイク値+60%</color>、スキル終了後に追加で<color=#FFFFFF>『通常攻撃』</color>の4段目と同等の打撃効果が1回発動する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic039.png",
+    "branch": {
+      "13500921": "強化された<color=#FFFFFF>『通常攻撃』</color>の4段目を発動時、橘福福の<color=#2BAD00>与ダメージ+60%</color>、継続時間20秒。",
+      "13500922": "強化された<color=#FFFFFF>『通常攻撃』</color>の4段目を発動時、橘福福は<color=#2BAD00>追加で「威風」を50Pt、デシベル値を150Pt獲得する</color>。"
+    }
+  },
+  "1350093": {
+    "id": 1350093,
+    "name": "[橘福福]霊符・虎魂",
+    "desc": "橘福福の<color=#FFFFFF>『通常攻撃』</color>3段目が敵に命中した時、<color=#2BAD00>「威風」を3Pt獲得</color>する。\n<color=#FFFFFF>『通常攻撃』</color>4段目を発動した後、再び『通常攻撃』を短押しすることで<color=#FFFFFF>『通常攻撃：悪虎の型・燃ゆる爪・熾烈』</color>を発動できる。この時に「虎威」がフィールドにいて、かつ<color=#FFFFFF>「威風」</color>が100Pt以上の場合、<color=#FFFFFF>「威風」</color>を100Pt消費し、「虎威」に<color=#FFFFFF>『連携スキル：虎威の威嚇』</color>を1回発動させる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic040.png",
+    "branch": {
+      "13500931": "橘福福の<color=#FFFFFF>『通常攻撃』</color>が与える<color=#2BAD00>ブレイク値+45</color>。<color=#FFFFFF>『通常攻撃』</color>の3段目が敵に命中した時、追加で<color=#2BAD00>「威風」を2Pt獲得</color>する。",
+      "13500932": "橘福福が<color=#FFFFFF>『通常攻撃：悪虎の型・燃ゆる爪・熾烈』</color>を発動した時、橘福福の<color=#2BAD00>会心ダメージ+85%</color>、継続時間20秒。"
+    }
+  },
+  "1350121": {
+    "id": 1350121,
+    "name": "[アリス]決闘のマナー",
+    "desc": "アリスの<color=#FFFFFF>『通常攻撃』</color>5段目、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、<color=#FFFFFF>「マーク」</color>を蓄積させる。<color=#FFFFFF>「マーク」</color>が最大まで蓄積された敵を攻撃すると、全ての<color=#FFFFFF>「マーク」</color>は消費され、特殊な<color=#F0D12B>「強撃」</color>効果である<color=#F0D12B>「極性強撃」</color>を発動し、状態異常蓄積値に関係なく通常の<color=#F0D12B>「強撃」</color>効果100%分のダメージを与え、さらに物理属性を含む別属性の状態異常効果と共に<color=#FFFFFF>「混沌」</color>を発動させることが可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic041.png",
+    "branch": {
+      "13501211": "<color=#F0D12B>「強撃」</color>発動時、アリスの<color=#2BAD00>与ダメージ+6%</color>、10重まで重ね掛け可能。",
+      "13501212": "アリスが<color=#F0D12B>「強撃」</color>を発動すると、メンバー全員の<color=#2BAD00>状態異常蓄積効率+40%</color>。継続時間15秒。"
+    }
+  },
+  "1350122": {
+    "id": 1350122,
+    "name": "[アリス]ブレードロンド",
+    "desc": "アリスの<color=#FFFFFF>『回避反撃』</color>と<color=#FFFFFF>『クイック支援』</color>が<color=#FFFFFF>『フェザーブレード』</color>に変化し、アリスが<color=#FFFFFF>『フェザーブレード』</color>を発動すると、<color=#2BAD00>異常マスタリー+150</color>、継続時間15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic042.png",
+    "branch": {
+      "13501221": "アリスを操作して<IconMap:Icon_Evade>長押しで移動すると一定時間後に<color=#FFFFFF>「極限視界」</color>状態に入る、継続時間3秒。また、次の<color=#FFFFFF>『ダッシュ攻撃』</color>が<color=#FFFFFF>『回避反撃』</color>に変化する。この効果は10秒に1回のみ発動可能。アリスがこの効果または<color=#FFFFFF>『極限回避』</color>を発動すると、フィールド上の敵の<color=#2BAD00>防御力-20%</color>、継続時間15秒。",
+      "13501222": "アリスが<color=#FFFFFF>『フェザーブレード』</color>を発動すると、<color=#FFFFFF>「剣儀」</color>を30Pt回復する。"
+    }
+  },
+  "1350123": {
+    "id": 1350123,
+    "name": "[アリス]霜芒重奏",
+    "desc": "アリスが<color=#FFFFFF>『強化特殊スキル：オーロラスラスト・北十字』</color>を発動時、チーム全体の<color=#2BAD00>会心率+10%</color>、<color=#2BAD00>会心ダメージ+20%</color>、継続時間20秒。<color=#FFFFFF>『強化特殊スキル：オーロラスラスト・南十字』</color>を発動時、チーム全体の<color=#2BAD00>状態異常蓄積効率+35%</color>、<color=#2BAD00>異常マスタリー+50Pt</color>、継続時間20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic043.png",
+    "branch": {
+      "13501231": "アリスが3段チャージの<color=#FFFFFF>『通常攻撃：輝く星のワルツ』</color>を発動すると、チーム全体の<color=#2BAD00>デシベル値+400Pt</color>。",
+      "13501232": "<color=#FFFFFF>「アリス」霜芒重奏</color>の2つのバフ効果が同時に発動している時、チーム全体の<color=#2BAD00>攻撃力+10%</color>、<color=#2BAD00>与ダメージ+16%</color>、継続時間20秒。"
+    }
+  },
+  "1350131": {
+    "id": 1350131,
+    "name": "[柚葉]霊巫のお守り",
+    "desc": "柚葉が<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>を発動した時、自身の<color=#2BAD00>異常掌握が40アップする</color>。継続時間30秒。重複して発動すると継続時間が更新される。これらが敵に命中すると対象の<color=#2BAD00>防御力が18%ダウンし</color>、<color=#2BAD00>全属性ダメージ耐性が15%ダウンする</color>。継続時間30秒。重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic045.png",
+    "branch": {
+      "13501311": "<color=#FFFFFF>『通常攻撃：スパークルキャンディー』</color>と<color=#FFFFFF>『通常攻撃：スパークルキャンディー・極』</color>の<color=#2BAD00>状態異常蓄積効率+60%</color>。",
+      "13501312": "<color=#FFFFFF>『通常攻撃：キャンディーシュート』</color>の重撃が敵に命中すると、チーム全体の<color=#2BAD00>異常マスタリー+30</color>、<color=#2BAD00>攻撃力+10%</color>。継続時間30秒。重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350132": {
+    "id": 1350132,
+    "name": "[柚葉]秘技・アンブレラアタック！",
+    "desc": "柚葉を操作して<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『支援突撃』</color>、<color=#FFFFFF>『通常攻撃』</color>5段目の後に<IconMap:Icon_Normal>を短押しすると、<color=#FFFFFF>『アンブレラアタック』</color>で敵を攻撃する。この重撃が<color=#FFFFFF>「スイートパニック」</color>状態の敵に命中すると、<color=#FFFFFF>『通常攻撃：スパークルキャンディー・極』</color>攻撃を発動し、自身の<color=#2BAD00>攻撃力+20%</color>、<color=#2BAD00>状態異常蓄積効率+30%</color>、継続時間20秒。重複して発動すると継続時間が更新される。また、柚葉の<color=#FFFFFF>『通常攻撃』</color>の5段目が敵に命中すると、<color=#FFFFFF>「糖度ポイント」</color>を1Pt獲得する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic044.png",
+    "branch": {
+      "13501321": "柚葉が<color=#FFFFFF>「糖度ポイント」</color>を所持している時、<color=#FFFFFF>『アンブレラアタック』</color>の攻撃後に『通常攻撃』<IconMap:Icon_Normal>を短押しすると、<color=#FFFFFF>「糖度ポイント」</color>を1Pt消費して追加攻撃を行う。また、<color=#FFFFFF>『アンブレラアタック』</color>発動のたびに、柚葉の<color=#2BAD00>異常マスタリー+40</color>、最大3重まで重ね掛け可能、継続時間10秒。重複して発動すると継続時間が更新される。",
+      "13501322": "柚葉が<color=#FFFFFF>『アンブレラアタック』</color>で攻撃後、タイミング良く『通常攻撃』<IconMap:Icon_Normal>を短押しすると<color=#FFFFFF>『アンブレラアタック』</color>を再発動できる。また、<color=#FFFFFF>『アンブレラアタック』</color>発動のたびに柚葉の<color=#2BAD00>異常マスタリー+30</color>、最大6重まで重ね掛け可能、継続時間8秒。<color=#FFFFFF>『アンブレラアタック』</color>発動時に<color=#FFFFFF>「糖度ポイント」</color>を所持している場合、自動で1Pt消費し、この<color=#FFFFFF>『アンブレラアタック』</color>と<color=#FFFFFF>『通常攻撃：スパークルキャンディー・極』</color>の<color=#2BAD00>状態異常蓄積効率+40%</color>。"
+    }
+  },
+  "1350133": {
+    "id": 1350133,
+    "name": "[柚葉]狸イリュージョン",
+    "desc": "柚葉が<color=#FFFFFF>『極限支援』</color>と<color=#FFFFFF>『連携スキル』</color>を発動すると、チーム全体のエネルギー+5Pt、デシベル値+160Pt回復する。この効果は12秒ごとに1回まで発動可能。<color=#FFFFFF>『支援突撃』</color>の重撃が敵に命中すると、チーム全体の<color=#2BAD00>ダメージ+15%</color>。継続時間20秒。重複して発動すると継続時間が更新される。同時に前のメンバーの<color=#FFFFFF>『クイック支援』</color>が発動し、この<color=#FFFFFF>『クイック支援』</color>は『連携スキル』にレベルアップする。この効果は12秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic046.png",
+    "branch": {
+      "13501331": "<color=#FFFFFF>『支援突撃』</color>の重撃が敵に命中すると、チーム全体の<color=#2BAD00>異常マスタリー+40</color>、<color=#2BAD00>状態異常蓄積効率+30%</color>。継続時間30秒。重複して発動すると継続時間が更新される。",
+      "13501332": "<color=#FFFFFF>『支援突撃』</color>の重撃が敵に命中すると、チーム全体の<color=#2BAD00>会心率+10%</color>、<color=#2BAD00>会心ダメージ+24%</color>。継続時間30秒。重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350141": {
+    "id": 1350141,
+    "name": "[リュシア]遡る夢の奔流",
+    "desc": "リュシアがスキルグレードアップ、または<color=#FFFFFF>『追加攻撃』</color>を発動時、<color=#FFFFFF>「奔流」</color>を1重獲得する、4重まで重ね掛け可能。\n<color=#FFFFFF>「夢境」</color>状態が解除された時、全ての<color=#FFFFFF>「奔流」</color>を消費し、<color=#FFFFFF>「奔流」</color>1重につき、自身が<color=#2BAD00>エネルギーを10Pt回復</color>する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic048.png",
+    "branch": {
+      "13501411": "リュシアが控えから<color=#FFFFFF>『追加攻撃』</color>を発動した時、<color=#2BAD00>他のメンバーのエネルギーまたはアドレナリンが6Pt回復する</color>。",
+      "13501412": "リュシアが控えから<color=#FFFFFF>『追加攻撃』</color>を発動、かつ敵に命中した時、ターゲットの<color=#2BAD00>全属性耐性‐20%</color>、継続時間12秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350142": {
+    "id": 1350142,
+    "name": "[リュシア]行きわたる夜の息吹",
+    "desc": "リュシアの<color=#FFFFFF>『終結スキル』</color>で生成される<color=#FFFFFF>「星光が集う地」</color>の<color=#2BAD00>継続時間が20秒に延長し、範囲が拡大</color>するほか、<color=#FFFFFF>『合唱』</color>を発動した時、<color=#2BAD00>追加でデシベル値を200Pt獲得</color>する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "branch": {
+      "13501421": "<color=#FFFFFF>「星光が集う地」</color>に入った敵は1秒ごとに<color=#2BAD00>リュシアの最大HP25%分のダメージ</color>を1回受ける、この効果はターゲットが<color=#FFFFFF>「星光が集う地」</color>を離れて6秒後に終了する。",
+      "13501422": "<color=#FFFFFF>「星光が集う地」</color>に入ったメンバーの<color=#2BAD00>会心ダメージ+68%</color>。この効果はメンバーが<color=#FFFFFF>「星光が集う地」</color>を離れて6秒後に終了する。"
+    }
+  },
+  "1350143": {
+    "id": 1350143,
+    "name": "[リュシア]集いし幽々しき魂",
+    "desc": "フィールド入場時、リュシアの<color=#2BAD00>攻撃力が自身の基礎最大HP3%分アップ</color>し、<color=#FFFFFF>『合唱』</color>の与える<color=#2BAD00>エーテル属性ダメージ+40%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic049.png",
+    "branch": {
+      "13501431": "<color=#FFFFFF>『強化特殊スキル』</color>発動後、再び「特殊攻撃」ボタン <IconMap:Icon_Special> を押すことで<color=#2BAD00><color=#FFFFFF>『追加攻撃』</color>を発動できる</color>。この<color=#FFFFFF>『追加攻撃』</color>は<color=#FFFFFF>『合唱』</color>である。リュシアが<color=#FFFFFF>「夢境」</color>状態でない場合、<color=#2BAD00>発動時は「夢境値」を40Pt回復</color>する。",
+      "13501432": "リュシアがスキルグレードアップを発動時、<color=#2BAD00>消費する<color=#FFFFFF>「夢境値」</color>‐50%</color>、強化後のスキルで敵にダメージを与えた際、<color=#2BAD00>ターゲットのエーテル属性ダメージ耐性を20%無視</color>する。"
+    }
+  },
+  "1350151": {
+    "id": 1350151,
+    "name": "[イドリー]堅氷を手に",
+    "desc": "イドリーが<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>の3段チャージ攻撃を発動する際、回転横振りが敵に命中する度に<color=#FFFFFF>「一時シールド」</color>を獲得する。イドリーが今回の<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>のとどめの落下攻撃を発動するか、今回のチャージ中で<color=#FFFFFF>『強化特殊スキル：極寒・重砕』</color>に繋げる場合、全ての<color=#FFFFFF>「一時シールド」</color>を消費し、消費した<color=#FFFFFF>「一時シールド」</color>の量に応じて<color=#2BAD00>与ダメージが最大で+240%</color>。イドリーは最大で<color=#2BAD00>最大HP80%分の「一時シールド」を獲得できる</color>、回転横振りが中断された場合、全ての<color=#FFFFFF>「一時シールド」</color>がリセットされる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic050.png",
+    "branch": {
+      "13501511": "イドリーの<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>で3段チャージ攻撃を発動する際、回転横振りの継続時間が無限になる。イドリーが<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>の回転横振り中に回避を行った際、通常攻撃を押すことで<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>3段チャージ攻撃を再び発動できる。イドリーの<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>3段チャージ攻撃の<color=#2BAD00>与ダメージ+60%</color>。",
+      "13501512": "イドリーが回転横振りを解除する際、<color=#FFFFFF>「一時シールド」</color>がリセットされなくなり、<color=#FFFFFF>『通常攻撃：霜寒の抱擁』</color>のとどめの落下攻撃と<color=#FFFFFF>『強化特殊スキル：極寒・重砕』</color>発動時、<color=#2BAD00>「一時シールド」の消費量-50%</color>、ダメージアップ効果は変わらない。"
+    }
+  },
+  "1350152": {
+    "id": 1350152,
+    "name": "[イドリー]骨に凍みる氷霜",
+    "desc": "イドリーがアドレナリンを消費して<color=#FFFFFF>『強化特殊スキル』</color>を発動すると、<color=#FFFFFF>「氷霜」</color>を4重獲得する。<color=#FFFFFF>『通常攻撃』</color>が敵に命中すると、<color=#FFFFFF>「氷霜」</color>を消費してターゲットを攻撃する。1秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic051.png",
+    "branch": {
+      "13501521": "<color=#FFFFFF>「氷霜」</color>が敵に命中すると、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>‐20%、継続時間15秒、重複して発動すると継続時間が更新される。",
+      "13501522": "イドリーがアドレナリンを消費して<color=#FFFFFF>『強化特殊スキル』</color>を発動する際、獲得する<color=#FFFFFF>「氷霜」</color>の重数が2倍になる。<color=#FFFFFF>「氷霜」</color>攻撃を発動するたびに、<color=#FFFFFF>「氷霜」</color>が<color=#2BAD00>与えるダメージ+6%</color>、<color=#2BAD00>12重まで重ね掛け可能</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350153": {
+    "id": 1350153,
+    "name": "[イドリー]夢づくりに心を込めて",
+    "desc": "接敵状態かつ操作中のメンバーになった時、即座に<color=#FFFFFF>「エーテルベール・湧泉」</color>を展開する、180秒に1回のみ発動可能。<color=#FFFFFF>「エーテルベール・湧泉」</color>の継続時間<color=#2BAD00>+15秒</color>、<color=#FFFFFF>「エーテルベール・湧泉」</color>状態中、イドリーの<color=#2BAD00>透徹力+800Pt</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic052.png",
+    "branch": {
+      "13501531": "イドリーが<color=#FFFFFF>「エーテルベール・湧泉」</color>を展開した後、<color=#2BAD00>デシベル値を500Pt返還</color>し、<color=#FFFFFF>『連携スキル』</color>と<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージ+40%</color>。",
+      "13501532": "<color=#FFFFFF>「寒風」</color>または<color=#FFFFFF>「追砕」</color>が発動する度に、チーム全体の<color=#2BAD00>デシベル値が50Pt回復</color>する、6秒に1回のみ発動可能。<color=#FFFFFF>「エーテルベール・湧泉」</color>展開中、チーム全体の<color=#2BAD00>会心ダメージ+24%</color>。"
+    }
+  },
+  "1350161": {
+    "id": 1350161,
+    "name": "[ダイアリン]死者のコール",
+    "desc": "ダイアリンが<color=#FFFFFF>「高評価」</color>を90Pt所持している時、<color=#FFFFFF>『強化特殊スキル：お見送り！』</color>を発動すると<color=#FFFFFF>「高評価」</color>を90Pt消費し、直接<color=#FFFFFF>『終結スキル：あんたはサービス停止です！』</color>に切り替わる。<color=#FFFFFF>『終結スキル：あんたはサービス停止です！』</color>がブレイク状態の敵に命中すると、<color=#2BAD00>「累算」効果が発動し、ダイアリンの攻撃力2700%分の追加ダメージを与える</color>。さらに<color=#FFFFFF>『終結スキル：あんたはサービス停止です！』</color>の<color=#2BAD00>ダメージ+30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "branch": {
+      "13501611": "<color=#FFFFFF>『終結スキル：あんたはサービス停止です！』</color>が敵に命中した時、<color=#2BAD00>敵の全属性ダメージ耐性-24%。継続時間20秒</color>。",
+      "13501612": "<color=#FFFFFF>『終結スキル：あんたはサービス停止です！』</color>の<color=#2BAD00>会心ダメージ+96%</color>。"
+    }
+  },
+  "1350162": {
+    "id": 1350162,
+    "name": "[ダイアリン]舞い巡る余韻",
+    "desc": "<color=#FFFFFF>『強化特殊スキル：グー』</color>、<color=#FFFFFF>『強化特殊スキル：チョキ』</color>を発動した時、50%の確率で<color=#FFFFFF>「チャージ」</color>を1Pt獲得する。<color=#FFFFFF>「チャージ」</color>は最大2Ptまで所持可能。<color=#FFFFFF>『強化特殊スキル：パー！』</color>を発動した時、<color=#FFFFFF>「チャージ」</color>を所持している場合、<color=#FFFFFF>「チャージ」</color>を1Pt消費して<color=#FFFFFF>『強化特殊スキル：パー！』</color>を再度発動できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic058.png",
+    "branch": {
+      "13501621": "<color=#FFFFFF>『強化特殊スキル：パー！』</color>の重撃が敵に命中した時、<color=#FFFFFF>「悪質クレーム」</color>の効果による<color=#2BAD00>ブレイク弱体倍率上昇値は追加で+20%</color>、最大3重まで重ね掛け可能。",
+      "13501622": "<color=#FFFFFF>『強化特殊スキル：グー』</color>、<color=#FFFFFF>『強化特殊スキル：チョキ』</color>を発動した時、<color=#2BAD00>80%の確率で「チャージ」を1Pt追加で獲得する。「チャージ」は最大4Ptまで所持可能</color>。"
+    }
+  },
+  "1350163": {
+    "id": 1350163,
+    "name": "[ダイアリン]滅びの裁き",
+    "desc": "<color=#FFFFFF>「高評価」</color>が90Pt以上から90Pt未満になった時、即座に<color=#2BAD00>「高評価」を60Pt回復</color>し、さらに<color=#2BAD00>他のメンバーのデシベル値を750Pt回復</color>する。30秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic057.png",
+    "branch": {
+      "13501631": "他のメンバーが発動した<color=#FFFFFF>『終結スキル』</color>が<color=#2BAD00>全属性ダメージ耐性を35%無視する</color>。",
+      "13501632": "他のメンバーが<color=#FFFFFF>『終結スキル』</color>を発動した時、<color=#2BAD00>エネルギーを25Pt/アドレナリンを25Pt回復</color>する。"
+    }
+  },
+  "1350171": {
+    "id": 1350171,
+    "name": "[盤岳]我執を断つ",
+    "desc": "<color=#FFFFFF>「怒髪天」</color>状態でない時、盤岳が<color=#FFFFFF>『強化特殊スキル：獅子の遠吠え・怒』</color>または<color=#FFFFFF>『強化特殊スキル：山崩・怒』</color>を発動した後、<IconMap:Icon_Normal> 長押しで<color=#FFFFFF>『連携スキル』</color>を発動できる。盤岳の<color=#FFFFFF>『連携スキル』</color>による透徹ダメージ+<color=#2BAD00>60%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic055.png",
+    "branch": {
+      "13501711": "盤岳の<color=#FFFFFF>『強化特殊スキル』</color>と<color=#FFFFFF>『連携スキル』</color>の与ダメージ<color=#2BAD00>+60%</color>。",
+      "13501712": "盤岳が<color=#FFFFFF>『連携スキル』</color>を発動した時、<color=#2BAD00>自身の最大HP10%分のシールドを獲得する</color>。継続時間15秒。シールドがある時、盤岳の<color=#2BAD00>中断耐性レベルがアップする</color>。"
+    }
+  },
+  "1350172": {
+    "id": 1350172,
+    "name": "[盤岳]修羅道",
+    "desc": "盤岳が<color=#FFFFFF>『強化特殊スキル』</color>を発動した時、<color=#2BAD00>自身の最大HP35%分のシールドを獲得する</color>。継続時間30秒。この効果は30秒に1回のみ発動可能。シールドがある時、盤岳の<color=#2BAD00>中断耐性レベルがアップ</color>し、与える<color=#FF5521>炎属性ダメージ</color>+<color=#2BAD00>15%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic054.png",
+    "branch": {
+      "13501721": "盤岳の<color=#FFFFFF>『強化特殊スキル』</color>と<color=#FFFFFF>『通常攻撃』</color>の<color=#2BAD00>与ダメージ+60%</color>。",
+      "13501722": "盤岳が<color=#FFFFFF>「怒髪天」</color>状態でない時、<color=#FFFFFF>『終結スキル』</color>を発動すると、<color=#FFFFFF>「怒気」</color>を80Pt獲得できる。"
+    }
+  },
+  "1350173": {
+    "id": 1350173,
+    "name": "[盤岳]灼熱の業身",
+    "desc": "他のメンバーがエネルギーまたはアドレナリンを消費した時、盤岳が<color=#FFFFFF>「怒髪天」</color>状態でない場合、消費1Ptにつき<color=#FFFFFF>「怒気」</color>を0.3Pt回復する。<color=#FFFFFF>「怒気」</color>が十分な時、盤岳は次に交代で出場する際、即座に<color=#FFFFFF>『クイック支援』</color>を発動する。この方法で出場した時に<color=#FFFFFF>「怒気」</color>が120Pt以上の場合、盤岳は即座に<color=#FFFFFF>「怒髪天」</color>状態に入り、自身の<color=#FF5521>炎属性ダメージ</color><color=#2BAD00>+60%</color>、継続時間20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic053.png",
+    "branch": {
+      "13501731": "盤岳の<color=#FFFFFF>『クイック支援』</color>が敵に命中した時、敵の<color=#2BAD00>全属性ダメージ耐性-18%</color>、継続時間20秒。",
+      "13501732": "盤岳が<color=#FFFFFF>「怒気」</color>を1Pt消費するたびに、他のメンバーのアドレナリンまたはエネルギーを0.25Pt回復する。"
+    }
+  },
+  "1350181": {
+    "id": 1350181,
+    "name": "[葉瞬光]青霜を引く剣",
+    "desc": "「澄心境」状態に入り、初めて『通常攻撃：澄心境・光刃斬・極』を発動した後、<color=#2BAD00>自動で『連携スキル：澄心境・驚雷撃』が発動</color>し、<color=#2BAD00>敵の物理属性ダメージ耐性を45%無視する</color>、継続時間15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "branch": {
+      "13501811": "『強化特殊スキル：澄心境・飛光』を発動した瞬間に『極限回避』を発動できるようになる。『極限回避』が発動した場合、<color=#2BAD00>『連携スキル：澄心境・驚雷撃』の自動発動回数を追加で獲得する</color>。",
+      "13501812": "『連携スキル：澄心境・驚雷撃』の最後の一撃が<color=#2BAD00>追加で攻撃力1800%分のダメージを与える</color>。"
+    }
+  },
+  "1350182": {
+    "id": 1350182,
+    "name": "[葉瞬光]鏗然たる刃鳴り",
+    "desc": "葉瞬光が「エーテルベール・決裁」を展開した後、<color=#2BAD00>メンバー全員の攻撃にベール弱体倍率が適用される</color>、ブレイク弱体倍率は適用されなくなり、ベール弱体倍率の上限‐85%。葉瞬光が控えにいる時、「澄心境」の継続時間カウントは一時停止しなくなる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic062.png",
+    "branch": {
+      "13501821": "「エーテルベール・決裁」による<color=#2BAD00>ベール弱体倍率上限のダウン効果が-65%になる</color>。",
+      "13501822": "「澄心境」状態中、控えから<color=#2BAD00>自動で『通常攻撃：澄心境・光刃斬・極』を発動するようになる、発動に必要な「青溟剣勢」は2Ptになり、与えるダメージは『追加攻撃』ダメージとみなされる</color>、3.5秒に1回のみ発動可能。"
+    }
+  },
+  "1350183": {
+    "id": 1350183,
+    "name": "[葉瞬光]剣棺をよぎる瞬光",
+    "desc": "葉瞬光自身による<color=#2BAD00>「青溟剣勢」の獲得効率+100%</color>、「澄心境」の継続時間が10秒に短縮する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic064.png",
+    "branch": {
+      "13501831": "葉瞬光が「澄心境」状態に入るたび、<color=#2BAD00>会心ダメージ+16%</color>、最大4重まで重ね掛け可能、「澄心境」終了より15秒後まで継続する。",
+      "13501832": "『強化特殊スキル：澄心境・飛光』による<color=#2BAD00>会心ダメージ+75%</color>。"
+    }
+  },
+  "1350191": {
+    "id": 1350191,
+    "name": "[照]月魄の凛光",
+    "desc": "照の開幕最大HP1000Ptにつき、<color=#2BAD00>衝撃力+2Pt</color>、メンバー全員の『終結スキル』と『強化特殊スキル』が与える<color=#2BAD00>ブレイク値+12%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "branch": {
+      "13501911": "攻撃がブレイク状態の敵に命中した時、ターゲットの<color=#2BAD00>ブレイク弱体倍率+45%</color>。",
+      "13501912": "任意のメンバーが『連携スキル』を発動した時、照は「氷霜値」を15Pt回復する。この効果は10秒に1回のみ発動可能。"
+    }
+  },
+  "1350192": {
+    "id": 1350192,
+    "name": "[照]幻惑の気嵐",
+    "desc": "『通常攻撃：最終裁決』のチャージ時間が1秒に達すると、『通常攻撃：最終裁決・霜輝』を発動できる。発動時、<color=#2BAD00>会心率+15%、会心ダメージ+40%</color>、継続時間15秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic066.png",
+    "branch": {
+      "13501921": "『通常攻撃：最終裁決・霜輝』発動時、照の攻撃が<color=#2BAD00>ターゲットの氷属性ダメージ耐性を26%無視</color>する、継続時間15秒。",
+      "13501922": "照が任意の「エーテルベール」効果を受けている時、メンバー全員の与ダメージが<color=#2BAD00>ターゲットの防御力を30%無視する</color>。"
+    }
+  },
+  "1350193": {
+    "id": 1350193,
+    "name": "[照]露が軋む月輪",
+    "desc": "照が「エーテルベール」を発動した時、即座に「氷霜値」を30Pt回復し、メンバー全員の<color=#2BAD00>攻撃力+25%</color>、継続時間50秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic065.png",
+    "branch": {
+      "13501931": "照が任意の「エーテルベール」効果を受けている時、メンバー全員の<color=#2BAD00>デシベル値の回復効率+20%</color>。",
+      "13501932": "照が任意の「エーテルベール」効果を受けている時、メンバー全員の<color=#2BAD00>エネルギー自動回復+0.4Pt/秒</color>。"
+    }
+  },
+  "1350201": {
+    "id": 1350201,
+    "name": "[アリア]妄想の輝き",
+    "desc": "アリアが『強化特殊スキル』の攻撃を完了した後、フィールド上に生成される<color=#FFFFFF>「応援エネルギー」</color>が<color=#2BAD00>1つ増加</color>し、『強化特殊スキル：秒でハマって』がエネルギーを消費しなくなる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic074.png",
+    "branch": {
+      "13502011": "『強化特殊スキル：モーソーに落ちて』の<color=#FE437E>エーテル状態異常蓄積効率</color><color=#2BAD00>+20%</color>。『強化特殊スキル：秒でハマって』発動時、『コアパッシブ：スポットライトの中心』の「狂咲」が発動するようになる。",
+      "13502012": "<color=#FFFFFF>「応援エネルギー」</color>を1つ吸収するたび、自身の<color=#2BAD00>攻撃力+6%</color>。4重まで重ね掛け可能、継続時間6秒。継続時間は1重ごとに独立してカウントされる。"
+    }
+  },
+  "1350202": {
+    "id": 1350202,
+    "name": "[アリア]スイート・ストライク",
+    "desc": "アリアの<color=#FFFFFF>『通常攻撃：絶対音感』</color>の<color=#2BAD00>会心ダメージ+20%</color>、<color=#FFFFFF>強化『通常攻撃：絶対音感』</color>の<color=#2BAD00>会心ダメージが追加で+20%</color>。アリアの開幕異常掌握10Ptにつき、自身の<color=#2BAD00>会心率+4%</color>。<color=#FFFFFF>『通常攻撃：絶対音感』</color>の3段目がターゲットに命中すると、<color=#2BAD00>追加でアリアの攻撃力50%分</color>の<color=#FE437E>エーテル属性ダメージ</color>を与える。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic075.png",
+    "branch": {
+      "13502021": "アリアが<color=#FFFFFF>「モーソータイム」</color>状態でない時に<color=#FFFFFF>『通常攻撃：絶対音感』</color>の3段目を発動すると、<color=#2BAD00>50%の確率でスキルが強化版に変わる</color>。",
+      "13502022": "アリアの<color=#FFFFFF>『通常攻撃：絶対音感』</color>の<color=#2BAD00>貫通率+24%</color>。<color=#FFFFFF>『通常攻撃：絶対音感』</color>3段目の後に<color=#FFFFFF>『通常攻撃：スイートリズム』</color>の4段目に繋げることができる。"
+    }
+  },
+  "1350203": {
+    "id": 1350203,
+    "name": "[アリア]この刻を聴く",
+    "desc": "アリアが控えにいる時、敵が状態異常になると、<color=#2BAD00>アリアの<color=#FFFFFF>『クイック支援：妄想ハーモニー』</color>が発動可能になる</color>。<color=#FFFFFF>『クイック支援：妄想ハーモニー』</color>の重撃が敵に命中すると、『コアパッシブ：スポットライトの中心』の「狂咲」効果が発動する。また、近くの<color=#FFFFFF>「応援エネルギー」</color>が2つ以上ある場合、攻撃後に<color=#FFFFFF>『通常攻撃：絶対音感』</color>の3段目を素早く発動できる。<color=#FFFFFF>『クイック支援：妄想ハーモニー』</color>は8秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "branch": {
+      "13502031": "<color=#FFFFFF>『クイック支援：妄想ハーモニー』</color>発動時、フィールド上に<color=#2BAD00><color=#FFFFFF>「応援エネルギー」</color>を4つ生成する</color>。",
+      "13502032": "<color=#FFFFFF>『クイック支援：妄想ハーモニー』</color>発動後の5秒間、アリアが<color=#2BAD00>「狂咲」を発動した際、追加でデシベル値を50Pt回復する</color>。"
+    }
+  },
+  "1350211": {
+    "id": 1350211,
+    "name": "[千夏]バブルプラネット",
+    "desc": "『強化特殊スキル：バブルちゃんボンバー』、『強化特殊スキル：スペシャル・パシャリ』、『連携スキル：ねこを怒らせたらアカンで！』、『終結スキル：ぜんぶ！ぶっ叩いたれ！』の<color=#2BAD00>与ダメージ+50%</color>。また、バブルちゃんが発動する『通常攻撃：いたずらにゃんこおでまし』は『通常攻撃：バブルちゃんボンバー』に強化され、与えるダメージは<color=#2BAD00><color=#FFFFFF>『強化特殊スキル』</color>ダメージとみなされる</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic077.png",
+    "branch": {
+      "13502111": "『通常攻撃：トリックハンマー』の4段目の重撃がメインターゲットに命中した時、発動条件を無視して<color=#FFFFFF>「ねこにらみ」</color>の範囲攻撃が1回発動する。『強化特殊スキル』、『連携スキル』、『終結スキル』を発動、またはバブルちゃんが『通常攻撃：バブルちゃんボンバー』を発動した後、千夏の次の通常攻撃はそのまま『通常攻撃：トリックハンマー』の4段目を発動する。4重まで重ね掛け可能。『通常攻撃：トリックハンマー』の4段目と千夏が発動した<color=#FFFFFF>「ねこにらみ」</color>の<color=#2BAD00>与ダメージ+80%</color>。",
+      "13502112": "千夏が『強化特殊スキル：バブルちゃんボンバー』、『強化特殊スキル：スペシャル・パシャリ』、『連携スキル：ねこを怒らせたらアカンで！』、『終結スキル：ぜんぶ！ぶっ叩いたれ！』を発動してダメージを与えた時、または「バブルちゃん」が『通常攻撃：バブルちゃんボンバー』を発動してダメージを与えた時、千夏の<color=#2BAD00>会心率+6%</color>、<color=#2BAD00>会心ダメージ+8%</color>、継続時間10秒、10重まで重ね掛け可能、0.5秒に1回のみ発動可能、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350212": {
+    "id": 1350212,
+    "name": "[千夏]トラベル・ビート",
+    "desc": "<color=#FFFFFF>「ねこにらみ」</color>の発動に必要な攻撃回数が減少する。敵に<color=#FFFFFF>「ねこにらみ」</color>が付与されると、その敵が受ける<color=#2BAD00>状態異常蓄積効率+20%</color>、継続時間10秒。<color=#FFFFFF>「ねこにらみ」</color>が<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にあるターゲットに命中した時、<color=#FFFFFF>「狂咲」</color>が1回発動する。\n「狂咲」：追加で状態異常ダメージを1回与える。ダメージ量は元の状態異常ダメージの<color=#FE437E>370%</color>/<color=#2EB6FF>192%</color>/<color=#FF5521>480%</color>/<color=#F0D12B>30%</color>/<color=#98EFF0>48%</color>/<color=#A6C5FD>19%</color>となる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic078.png",
+    "branch": {
+      "13502121": "任意のメンバーが<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常を敵に付与した時、発動条件を無視して<color=#FFFFFF>「ねこにらみ」</color>の範囲攻撃が1回発動する。5秒に1回のみ発動可能。",
+      "13502122": "メンバー全員が<color=#FFFFFF>「ねこにらみ」</color>を発動して敵に命中させ、<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかのダメージを与えた時、<color=#2BAD00>その属性の属性ダメージ耐性-25%</color>。継続時間10秒。"
+    }
+  },
+  "1350213": {
+    "id": 1350213,
+    "name": "[千夏]夢のサウンドフィールド",
+    "desc": "BranchRelic_13601020_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic079.png",
+    "branch": {
+      "13502131": "千夏が<color=#FFFFFF>『強化特殊スキル：バブルちゃんボンバー』</color>を発動した時も、<color=#2BAD00>「エーテルベール・妄想協奏曲」</color>が展開可能になる。",
+      "13502132": "メンバー全員が同時に2種類の「エーテルベール」効果を受けている時、<color=#2BAD00>敵の防御力を30%無視する</color>。"
+    }
+  },
+  "1350221": {
+    "id": 1350221,
+    "name": "[南宮羽]フォーカスチェンジ",
+    "desc": "他のメンバーが<color=#FFFFFF>「混沌」</color>または<color=#FFFFFF>「狂咲」</color>を発動させた時、南宮羽はターゲットを中心に<color=#FFFFFF>『連携スキル』</color>を発動する。この攻撃は<color=#FFFFFF>『追加攻撃』</color>となる。この効果は6秒に1回まで発動可能。南宮羽の<color=#FFFFFF>『連携スキル』</color>の重撃が<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にあるターゲットに命中した時、<color=#FFFFFF>「狂咲」</color>が1回発動する。\n「狂咲」：追加で状態異常ダメージを1回与える。ダメージ量は元の状態異常ダメージの<color=#FE437E>230%</color>/<color=#2EB6FF>120%</color>/<color=#FF5521>300%</color>/<color=#F0D12B>20%</color>/<color=#98EFF0>30%</color>/<color=#A6C5FD>12%</color>となる。6秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic084.png",
+    "branch": {
+      "13502211": "南宮羽の<color=#FFFFFF>『連携スキル』</color>の重撃が敵に命中した時、敵の<color=#2BAD00>全属性ダメージ耐性-18%</color>、継続時間12秒、重複して発動すると継続時間が更新される。",
+      "13502212": "南宮羽の<color=#FFFFFF>『連携スキル』</color>の重撃が敵に命中した時、メンバー全員の<color=#2BAD00>与ダメージ+30%</color>、継続時間12秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350222": {
+    "id": 1350222,
+    "name": "[南宮羽]カウンターポイント",
+    "desc": "南宮羽が「ジャストチャージ」を発動した時、メンバー全員の<color=#2BAD00>エネルギーが4Pt回復</color>する。任意のメンバーが<color=#FFFFFF>『連携スキル』</color>を発動した時、メンバー全員のデシベル値が120Pt回復する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic085.png",
+    "branch": {
+      "13502221": "南宮羽が「ジャストチャージ」を発動した時、チーム全体の<color=#2BAD00>貫通率+20%</color>、継続時間30秒、重複して発動すると継続時間が更新される。",
+      "13502222": "南宮羽が「ジャストチャージ」を発動した時、<color=#FFFFFF>『通常攻撃：プリティーマインアタック』</color>の与える<color=#2BAD00>ブレイク値+35%</color>。"
+    }
+  },
+  "1350223": {
+    "id": 1350223,
+    "name": "[南宮羽]目を奪うソロダンス",
+    "desc": "南宮羽の異常マスタリー+60Pt。消費した<color=#FFFFFF>「ビート」</color>1Ptにつき、自身の<color=#2BAD00>エネルギーが0.15Pt回復する</color>。<color=#FFFFFF>『通常攻撃：プリティーマインアタック』</color>の1段目の攻撃で「ジャストチャージ」が発動した後、<IconMap:Icon_Normal> を短押しすると<color=#FFFFFF>『連携スキル』</color>を発動できる。「ジャストチャージ」発動時、自身の<color=#2BAD00>状態異常蓄積効率+20%</color>、継続時間30秒、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "branch": {
+      "13502231": "<color=#FFFFFF>『通常攻撃：プリティーマインアタック』</color>が敵に命中した時、自身の与える<color=#2BAD00>全属性の状態異常ダメージ+65%</color>、継続時間30秒、重複して発動すると継続時間が更新される。",
+      "13502232": "<color=#FFFFFF>『通常攻撃：プリティーマインアタック』</color>が敵に命中した時、ターゲットの<color=#2BAD00>防御力-20%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350231": {
+    "id": 1350231,
+    "name": "[シーシィア]うねうねの構え",
+    "desc": "<color=#FFFFFF>『通常攻撃：ヘビのキッス』</color>発動時、空中にいる時間に応じて<color=#2BAD00>そのスキルの会心ダメージ+15%、さらに攻撃力450%分の<color=#2EB6FF>電気属性ダメージ</color>を追加で1回与える</color>。この効果は最大3重まで重ね掛け可能。スキル終了時まで継続する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "branch": {
+      "13502311": "<color=#FFFFFF>『通常攻撃：ヘビのキッス』</color>で空中にいる間、<color=#2BAD00>雷の矛を落とし続け、敵に攻撃力200%分の<color=#2EB6FF>電気属性ダメージ</color>を与える</color>。雷の矛は最大5本まで落とせる。",
+      "13502312": "<color=#FFFFFF>『通常攻撃：ヘビのキッス』</color>が敵に命中した時、敵の<color=#2BAD00>防御力-20%</color>、継続時間20秒。"
+    }
+  },
+  "1350232": {
+    "id": 1350232,
+    "name": "[シーシィア]猛毒スペシャル",
+    "desc": "<color=#FFFFFF>「骨蝕み」</color>が<color=#2BAD00>追加で自身の攻撃力<color=#2BAD00>300%</color>分の<color=#2EB6FF>電気属性ダメージ</color>を与える</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic081.png",
+    "branch": {
+      "13502321": "シーシィアが操作キャラでない時、<color=#FFFFFF>「骨蝕み」</color>が<color=#2BAD00>さらに追加で自身の攻撃力450%の<color=#2EB6FF>電気属性ダメージ</color>を与える</color>。",
+      "13502322": "<color=#FFFFFF>「毒素」</color>を所持している時、操作しているメンバーの<color=#2BAD00>与ダメージ+50%</color>。この効果は<color=#FFFFFF>「毒素」</color>が尽きてから30秒間継続する。"
+    }
+  },
+  "1350233": {
+    "id": 1350233,
+    "name": "[シーシィア]ウロボロス・サイクル",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>を発動した後、自身は<color=#FFFFFF>「スネークストライク」</color>効果を獲得する：<color=#FFFFFF>「骨蝕み」</color>以外の任意の攻撃が敵に命中した時、<color=#2BAD00>消費なしで特殊な<color=#FFFFFF>「骨蝕み」</color>が1回発動する</color>。この攻撃はブレイク値を与えられない、1秒に1回のみ発動可能、継続時間6秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic080.png",
+    "branch": {
+      "13502331": "<color=#FFFFFF>「スネークストライク」</color><color=#2BAD00>効果の継続時間が10秒になる</color>。",
+      "13502332": "<color=#2BAD00>他のメンバーも<color=#FFFFFF>「スネークストライク」</color>効果を獲得できる</color>：任意の攻撃が敵に命中した時、消費なしの<color=#FFFFFF>「骨蝕み」</color>が1回発動する。この効果は1秒に1回のみ発動可能、継続時間6秒。"
+    }
+  },
+  "1350241": {
+    "id": 1350241,
+    "name": "[スターライト・ビリー]紅き銃の悪魔",
+    "desc": "<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>発動中にガードを成功させると、パワーを1重獲得する。次に<color=#FFFFFF>『強化特殊スキル：これが「グリップ」だ！』</color>または<color=#FFFFFF>『強化特殊スキル：スウィング・ステップ』</color>を発動した時、パワーを1重消費し、対応スキルの<color=#2BAD00>与ダメージ+100%</color>。パワーは1重まで所持可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic089.png",
+    "branch": {
+      "13502411": "<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>発動中にガードを成功させた際、獲得するパワーは<color=#2BAD00>最大2重まで所持できる</color>ようになる。<color=#FFFFFF>『強化特殊スキル：グリップ・ホイール』</color>または<color=#FFFFFF>『強化特殊スキル：スウィング・ステップ』</color>を発動した時、全てのパワーを消費する。消費したパワー1重につき、対応スキルの<color=#2BAD00>与ダメージ+100%</color>。",
+      "13502412": "<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>発動中にガードを成功させると、<color=#2BAD00>アドレナリンを20Pt回復</color>する、10秒に1回のみ発動可能。同時に、バフ効果を1重獲得する、バフ効果最大3重まで所持できる。<color=#FFFFFF>『強化特殊スキル：これが「グリップ」だ！』</color>または<color=#FFFFFF>『強化特殊スキル：スウィング・ステップ』</color>を発動した時、すべてのバフ効果を消費する。消費したバフ効果1重につき、<color=#2BAD00>追加で自身のHP上限10%分のHPを回復する</color>。"
+    }
+  },
+  "1350242": {
+    "id": 1350242,
+    "name": "[スターライト・ビリー]スターライト・ベルト",
+    "desc": "<color=#FFFFFF>『ダッシュ攻撃：スターライト・ジャッジメント！』</color>発動後に <IconMap:Icon_Normal> を長押しすると、<color=#FFFFFF>『通常攻撃：スタントショー』</color>を発動し、周囲の敵に<color=#F0D12B>物理属性ダメージ</color>を与える。このスキルは必ず会心が発生するほか、スキル発動中は<color=#2BAD00>会心ダメージ+80%</color>、<color=#2BAD00>1秒ごとに<color=#FFFFFF>「決意」</color>を10Pt獲得</color>、そして<color=#2BAD00>中断耐性レベルがアップする</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic090.png",
+    "branch": {
+      "13502421": "<color=#FFFFFF>『通常攻撃：スタントショー』</color>発動時、自身の<color=#2BAD00>与ダメージ+40%</color>、継続時間20秒、重複して発動すると継続時間が更新される。",
+      "13502422": "<color=#FFFFFF>『通常攻撃：スタントショー』</color>の攻撃が敵に20回命中するたび、<color=#2BAD00>デシベル値を100Pt獲得</color>する。"
+    }
+  },
+  "1350243": {
+    "id": 1350243,
+    "name": "[スターライト・ビリー]灼熱サウンドウェーブ",
+    "desc": "<color=#FFFFFF>『回避反撃：キング・オブ・デュエル』</color>または<color=#FFFFFF>『ダッシュ攻撃：スターライト・ジャッジメント！』</color>発動後に <IconMap:Icon_Normal> を押すと、追加で<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>を発動できる。この効果は8秒に1回のみ発動可能。<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>のダメージ倍率は1200%となる。<color=#FFFFFF>『特殊スキル：この馬力はどうよ！』</color>発動中にガードを成功させると、次に<color=#FFFFFF>『回避反撃：キング・オブ・デュエル』</color>、<color=#FFFFFF>『ダッシュ攻撃：スターライト・ジャッジメント！』</color>または<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>を発動した後、追加でもう1回<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>を発動できる。<color=#FFFFFF>『回避反撃：キング・オブ・デュエル』</color>または<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>が敵に命中すると、ターゲットが<color=#2BAD00>受けるダメージ+12%</color>。このデバフ効果は最大2重まで重ね掛け可能、継続時間20秒、継続時間内では同一のスキルにつき最大1回まで獲得可能、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic091.png",
+    "branch": {
+      "13502431": "<color=#FFFFFF>『回避反撃：キング・オブ・デュエル』</color>と<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>の<color=#2BAD00>与ダメージ+25%</color>。<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>発動時、<color=#2BAD00>アドレナリンを5Pt回復</color>する。",
+      "13502432": "<color=#FFFFFF>『回避反撃：キング・オブ・デュエル』</color>と<color=#FFFFFF>『回避反撃：おまけのキャノンだ！』</color>が敵に命中した時、ターゲットの<color=#2BAD00>全属性ダメージ耐性-6%</color>。このデバフ効果は最大3重まで重ね掛け可能、継続時間30秒、継続時間内では同一のスキルにつき最大1回まで獲得可能、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350251": {
+    "id": 1350251,
+    "name": "[プロメイア]断罪、風は身を削ぐ",
+    "desc": "プロメイアが<color=#FFFFFF>『強化特殊スキル：処刑式、裁決は下った』</color>を発動した時、<color=#2BAD00>追加で15Ptの</color><color=#FFFFFF>「氷蝕値」</color>を回復し、<color=#FFFFFF>『強化特殊スキル：処刑式、影は晦ます』</color>を発動した時、<color=#2BAD00>追加で15Ptの</color><color=#FFFFFF>「氷蝕値」</color>を回復する。<color=#FFFFFF>「狂咲」</color>を発動した時、自身の与える<color=#2BAD00>「狂咲」ダメージ+6%</color>。最大10重まで重ね掛け可能。継続時間60秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "branch": {
+      "13502511": "<color=#FFFFFF>『強化特殊スキル：処刑式、裁決は下った』</color>を発動した時、自身の与える<color=#2BAD00>状態異常ダメージ+12%</color>、<color=#2BAD00>「混沌」ダメージ+12%</color>。最大5重まで重ね掛け可能。重複して発動すると継続時間が更新される。継続時間15秒。",
+      "13502512": "<color=#FFFFFF>『強化特殊スキル：処刑式、影は晦ます』</color>を発動した時、自身の与える<color=#2BAD00>状態異常ダメージ+32.5%</color>、<color=#2BAD00>「混沌」ダメージ+32.5%</color>。最大2重まで重ね掛け可能。重複して発動すると継続時間が更新される。継続時間30秒。"
+    }
+  },
+  "1350252": {
+    "id": 1350252,
+    "name": "[プロメイア]拘束、氷は影の如く",
+    "desc": "攻撃で<color=#FFFFFF>「氷蝕値」</color>を回復しなくなる代わりに、<color=#2BAD00>1秒ごとに5Ptの</color><color=#FFFFFF>「氷蝕値」</color>を回復する。<color=#FFFFFF>「氷刑」</color>を所持している場合、<color=#2BAD00>プロメイアが交代で入場時、自動で</color><color=#FFFFFF>『特殊スキル：処刑式、薄氷は結ぶ』</color>を発動する、10秒に1回のみ発動可能。<color=#FFFFFF>『強化特殊スキル：処刑式、裁決は下った』</color>が敵に命中した時、敵の<color=#2BAD00>氷属性ダメージ耐性-24%</color>。継続時間20秒。重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic087.png",
+    "branch": {
+      "13502521": "<color=#FFFFFF>『特殊スキル：処刑式、薄氷は結ぶ』</color>を発動した時、<color=#2BAD00>チーム全体の攻撃力+300Pt</color>、<color=#2BAD00>氷属性ダメージ+10%</color>。継続時間15秒。",
+      "13502522": "<color=#FFFFFF>『特殊スキル：処刑式、薄氷は結ぶ』</color>が<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にある敵に命中した時、<color=#2BAD00>追加で「狂咲」が1回発動</color>する\n「狂咲」：追加で対応属性の状態異常ダメージを1回与える。ダメージ倍率は固定で650%となる。"
+    }
+  },
+  "1350253": {
+    "id": 1350253,
+    "name": "[プロメイア]終幕、死を執行する",
+    "desc": "チーム内のメンバーが敵をブレイク状態にした時、プロメイアは<color=#2BAD00>1秒ごとに「氷蝕値」を5Pt回復する</color>、継続時間10秒。プロメイアが<color=#2BAD00>ブレイク状態の敵に与える状態異常ダメージ+60%</color>、<color=#2BAD00>「混沌」ダメージ+60%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic088.png",
+    "branch": {
+      "13502531": "プロメイアが<color=#2BAD00>ブレイク状態の敵に与えるダメージは防御力を25%</color>、<color=#2BAD00>氷属性ダメージ耐性を15%無視する</color>。",
+      "13502532": "プロメイアの<color=#2BAD00>与える「混沌」ダメージが追加で+60%</color>、チーム全体の与える<color=#2BAD00>「乱流」ダメージが追加で+60%</color>。"
+    }
+  },
+  "1350261": {
+    "id": 1350261,
+    "name": "[ヴェリナ]扇裏の刃",
+    "desc": "ヴェリナが敵を<color=#A6C5FD>「風化」</color>状態にした後、チーム全体が与える<color=#2BAD00>状態異常ダメージ+30%</color>、継続時間30秒、重複して発動すると継続時間が更新される。<color=#FFFFFF>「竜巻」</color>の<color=#2BAD00>継続時間+3秒</color>、与える<color=#2BAD00>ブレイク値+20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic100.png",
+    "branch": {
+      "13502611": "<color=#FFFFFF>「竜巻」</color>の攻撃が<color=#A6C5FD>風属性状態異常</color>の敵に命中した時、<color=#FFFFFF>「狂咲」</color>が1回発動し、<color=#A6C5FD>風属性状態異常ダメージ</color>を与える。ダメージ倍率は<color=#A6C5FD>420%</color>となる。この効果は2.5秒に1回のみ発動可能。",
+      "13502612": "<color=#FFFFFF>『コアパッシブ：花風を袖に受けて』</color>における<color=#FFFFFF>「竜巻」</color>と<color=#FFFFFF>「旋風」</color>による<color=#FFFFFF>「狂咲」</color>の<color=#2BAD00>ダメージ倍率がそれぞれ800%・600%にアップ</color>する。"
+    }
+  },
+  "1350262": {
+    "id": 1350262,
+    "name": "[ヴェリナ]閑庭の調べ",
+    "desc": "ヴェリナが<color=#A6C5FD>「風化」</color>を発動させた時、自身のエネルギーを<color=#2BAD00>10Pt、デシベル値を200Pt回復</color>し、すべての<color=#FFFFFF>「風食」</color>を消費して、今回の<color=#A6C5FD>「風化」</color>の<color=#2BAD00>ダメージをアップ</color>させる。消費した<color=#FFFFFF>「風食」</color>1Ptにつき、ダメージ<color=#2BAD00>+20%</color>。ヴェリナが<color=#FFFFFF>『強化特殊スキル』</color>を発動する際、<color=#FFFFFF>「風食」</color>を1Pt獲得する。この<color=#FFFFFF>『強化特殊スキル』</color>で<color=#FFFFFF>「極限視界」</color>が発動した場合、追加で<color=#FFFFFF>「風食」</color>を1Pt回復する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic099.png",
+    "branch": {
+      "13502621": "<color=#FFFFFF>『強化特殊スキル』</color>発動時、自身の<color=#2BAD00>異常マスタリー+120</color>Pt、継続時間20秒。重複して発動すると継続時間が更新される。",
+      "13502622": "<color=#FFFFFF>『強化特殊スキル』</color>発動時、自身の<color=#2BAD00>異常掌握+80</color>Pt、継続時間20秒。重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350263": {
+    "id": 1350263,
+    "name": "[ヴェリナ]風の花冠",
+    "desc": "<color=#FFFFFF>「竜巻」</color>がフィールドに存在している間、チーム全体の<color=#2BAD00>エネルギー獲得効率+40%、デシベル値獲得効率+30%</color>、<color=#FFFFFF>「竜巻」</color>の<color=#2BAD00>継続時間+3秒</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic098.png",
+    "branch": {
+      "13502631": "ヴェリナが敵を<color=#A6C5FD>「風化」</color>状態にした後、敵の<color=#FFFFFF>全属性ダメージ耐性</color>-<color=#2BAD00>20%</color>。継続時間20秒、重複して発動すると継続時間が更新される。",
+      "13502632": "ヴェリナが敵を<color=#A6C5FD>「風化」</color>状態にした時、敵の<color=#FFFFFF>防御力</color><color=#2BAD00>-22%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350271": {
+    "id": 1350271,
+    "name": "[ノルムー]ンナンナ前線！",
+    "desc": "ノルムーが<color=#FFFFFF>『ダッシュ攻撃』</color>または<color=#FFFFFF>『回避反撃』</color>を発動した時、<color=#FFFFFF>「コンボ」</color>を1重獲得し、自身が与えるダメージはターゲットの<color=#FF5521>炎属性ダメージ耐性</color>を6%無視する。最大5重まで重ね掛け可能。ノルムーが攻撃を受けると<color=#FFFFFF>「コンボ」</color>が1重解除される、「コンボ」の解除は5秒に1重まで。ノルムーが<color=#FFFFFF>『ダッシュ攻撃』</color>を発動した際、<color=#FFFFFF>『極限回避』</color>が発動可能になる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "branch": {
+      "13502711": "ノルムーが操作中のメンバーでない場合、「ワタンナタレット」が攻撃を発動した時、ノルムーは1重の<color=#FFFFFF>「コンボ」</color>を獲得する。<color=#FFFFFF>「コンボ」</color>1重につき、「ワタンナタレット」が与えるダメージはターゲットの<color=#FF5521>炎属性ダメージ耐性</color>を追加で4%無視する。",
+      "13502712": "ノルムーが5重の<color=#FFFFFF>「コンボ」</color>状態にある時、以下の効果を獲得する：\n<color=#FFFFFF>『ダッシュ攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>の中断レベルがアップする。\n<color=#FFFFFF>『ダッシュ攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>発動後、<IconMap:Icon_Normal> を押すと即座に<color=#FFFFFF>『通常攻撃：技術保険』</color>4段目に繋げられる。\n<color=#FFFFFF>『通常攻撃：技術保険』</color>4段目の発動後に <IconMap:Icon_Normal> を押すと、即座に<color=#FFFFFF>『ダッシュ攻撃』</color>に繋げられる。\nノルムーが与えるダメージは<color=#2BAD00>ターゲットの防御力を35%無視する</color>。"
+    }
+  },
+  "1350272": {
+    "id": 1350272,
+    "name": "[ノルムー]ドカンと決着！",
+    "desc": "他のメンバーが<color=#FFFFFF>『終結スキル』</color>を発動した時、ノルムーは<color=#2BAD00>即座に100%の「プレヒート」を獲得する</color>。40秒に1回のみ発動可能。\n任意のメンバーが<color=#FFFFFF>『連携スキル』</color>を発動した時、該当メンバーの<color=#2BAD00>デシベル値獲得効率+25%</color>、継続時間15秒、重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic092.png",
+    "branch": {
+      "13502721": "ノルムーの「ワタンナタレット」がミサイルハッチを展開している間、メンバー全員の<color=#FFFFFF>『連携スキル』</color>と<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージ+40%</color>。",
+      "13502722": "ノルムーの「ワタンナタレット」がミサイルハッチを展開している間、メンバー全員の<color=#FFFFFF>『連携スキル』</color>と<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与えるブレイク値+22%</color>。"
+    }
+  },
+  "1350273": {
+    "id": 1350273,
+    "name": "[ノルムー]ハチャメチャワタタ！",
+    "desc": "メンバー全員が<color=#FFFFFF>「技術格差」</color>状態の敵を倒した時、今回のホロウ内において、メンバー全員の<color=#2BAD00>攻撃力+2.5%</color>、最大10重まで重ね掛け可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic093.png",
+    "branch": {
+      "13502731": "メンバー全員の攻撃が<color=#FFFFFF>「技術格差」</color>状態の敵に命中した時、<color=#2BAD00>ターゲットの防御力22%を無視する</color>。",
+      "13502732": "メンバー全員の攻撃が<color=#FFFFFF>「技術格差」</color>状態の敵に命中した時、<color=#2BAD00>与える透徹ダメージ+18%</color>。"
+    }
+  },
+  "1350281": {
+    "id": 1350281,
+    "name": "[ピュロイス]曙光の長剣",
+    "desc": "ピュロイスが<color=#FFFFFF>『極限回避』</color>を発動した時、<color=#2BAD00>20Ptの「紅焔」を獲得</color>する。この効果は10秒に1回のみ発動可能。ピュロイスの各種攻撃が敵に命中した際、<color=#2BAD00>「紅焔」の回復効率+30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "branch": {
+      "13502811": "ピュロイスの<color=#FFFFFF>『通常攻撃：天光』</color>3、4段目の<color=#2BAD00>会心ダメージ+60%</color>。各攻撃が敵に命中すると<color=#2BAD00>デシベル値を100Pt回復</color>する。",
+      "13502812": "<color=#FFFFFF>『通常攻撃：天光』</color>が敵に命中した後、ピュロイスの与ダメージは<color=#2BAD00>敵の防御力を32%無視する</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350282": {
+    "id": 1350282,
+    "name": "[ピュロイス]鉄壁の栄光",
+    "desc": "ピュロイスが<color=#FFFFFF>『終結スキル』</color>を発動した時、<color=#2BAD00>与ダメージ+20%</color>。<color=#FFFFFF>『終結スキル：千軍燼滅』</color>を発動した後、即座に<color=#2BAD00>1500Ptのデシベル値</color>を獲得する。この効果は30秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic096.png",
+    "branch": {
+      "13502821": "ピュロイスが<color=#FFFFFF>『終結スキル』</color>を発動するたび、メンバー全員の<color=#2BAD00>エネルギーが30Pt回復</color>する。",
+      "13502822": "ピュロイスが<color=#FFFFFF>『終結スキル』</color>を発動した時、<color=#2BAD00>自身の攻撃力+700Pt</color>。継続時間30秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350283": {
+    "id": 1350283,
+    "name": "[ピュロイス]炯々たる灯火",
+    "desc": "ピュロイスの<color=#FFFFFF>『強化特殊スキル』</color>で<color=#FFFFFF>パーフェクトガード</color>が発動した時、<color=#2BAD00>エネルギーが10Pt、「紅焔」が20Pt回復する</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "branch": {
+      "13502831": "ピュロイスの<color=#FFFFFF>パーフェクトガード</color>発動後、敵の<color=#FE437E>エーテル属性ダメージ耐性</color>を<color=#2BAD00>25%無視する</color>。継続時間15秒、重複して発動すると継続時間が更新される。",
+      "13502832": "ピュロイスの<color=#FFFFFF>パーフェクトガード</color>発動後、<color=#2BAD00>メンバー全員の与ダメージ+20%</color>。継続時間30秒、最大2重まで重ね掛け可能、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350291": {
+    "id": 1350291,
+    "name": "[レミエール]天翔ける翼の巡礼",
+    "desc": "<color=#FFFFFF>「相転時流」</color>状態中、レミエールが自主的に行う攻撃のとどめの一撃が<color=#FE437E>エーテル属性</color>、<color=#2EB6FF>電気属性</color>、<color=#FF5521>炎属性</color>、<color=#F0D12B>物理属性</color>、<color=#98EFF0>氷属性</color>、<color=#A6C5FD>風属性</color>のいずれかの状態異常にある敵に命中した時、<color=#2BAD00>追加で「狂咲」が1回発動</color>する。\n「狂咲」：追加で対応属性の状態異常ダメージを1回与える。ダメージ倍率は220%となる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic102.png",
+    "branch": {
+      "13502911": "<color=#FFFFFF>「相転時流」</color>状態中、レミエールが自主的に行う攻撃が敵に命中すると、敵の<color=#2BAD00>受ける状態異常ダメージ+10%</color>。継続時間15秒、最大3重まで重ね掛け可能、重複して発動すると継続時間が更新される。",
+      "13502912": "<color=#FFFFFF>「相転時流」</color>状態中、レミエールが自主的に行う攻撃で与える<color=#FFFFFF>「狂咲」</color>の<color=#2BAD00>ダメージ+50%</color>、<color=#2BAD00>敵の防御力を30%無視</color>する。"
+    }
+  },
+  "1350292": {
+    "id": 1350292,
+    "name": "[レミエール]研鑽せし剣の反照",
+    "desc": "レミエールが操作中のメンバーである時、1秒ごとに<color=#2BAD00>1.6Ptのエネルギーを回復</color>し、<color=#FFFFFF>『強化特殊スキル』</color>発動時に特殊<color=#FFFFFF>「虚光」</color>を<color=#2BAD00>3個獲得</color>する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic104.png",
+    "branch": {
+      "13502921": "<color=#FFFFFF>「幻色」</color>状態の敵を攻撃すると、<color=#FFFFFF>「幻色」</color>状態の敵の防御力<color=#2BAD00>-15%</color>、全属性ダメージ耐性<color=#2BAD00>-10%</color>。",
+      "13502922": "レミエールが<color=#FFFFFF>『強化特殊スキル』</color>を発動すると、自身の異常マスタリー+100Pt。継続時間10秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350293": {
+    "id": 1350293,
+    "name": "[レミエール]銀の彩る花と羽片",
+    "desc": "レミエールが『通常攻撃：泡沫に舞う』を発動する時、蓄積された<color=#FFFFFF>「虚光」</color>を消費しない。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic106.png",
+    "branch": {
+      "13502931": "レミエールが<color=#FFFFFF>「耀変」</color>効果を発動した時、<color=#2BAD00>メンバー全員のエネルギーを5Pt回復</color>し、敵の<color=#2BAD00>状態異常蓄積耐性-15%</color>。継続時間20秒、重複して発動すると継続時間が更新される。",
+      "13502932": "レミエールの<color=#FFFFFF>「耀変」</color>の<color=#2BAD00>与ダメージ+35%</color>、<color=#2BAD00>敵の全属性ダメージ耐性を25%無視</color>する。"
+    }
+  },
+  "1350301": {
+    "id": 1350301,
+    "name": "[シグリッド]無欠なり、この騎士は",
+    "desc": "新スキル<color=#FFFFFF>『槍術・円舞の型・破軍』</color>開放：<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数を所持していない時、 <IconMap:Icon_Normal> を長押しすると<color=#FFFFFF>『槍術・円舞の型・破軍』</color>を発動し、<color=#98EFF0>氷属性ダメージ</color>を与える。\n<color=#FFFFFF>『槍術・円舞の型・破軍』</color>を発動した瞬間に攻撃を受けるとガードが発動し、ガード成功のたびに攻撃ダメージを防ぎ、<color=#FFFFFF>「不落の構え」</color>状態の継続時間が更新され、次の<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>が与えるブレイク値+100%、<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数を1回獲得する。ガード成功後に <IconMap:Icon_Normal> を押すと、対応する段数の<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>を発動できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic101.png",
+    "branch": {
+      "13503011": "<color=#FFFFFF>『支援突撃』</color>発動中、ガードの発動が可能になる。ガードに成功するたびに<color=#FFFFFF>「不落の構え」</color>状態の継続時間を更新し、<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数を1回獲得する。次の攻撃が敵に初めて命中した時、追加で攻撃力<color=#2BAD00>600%</color>分のダメージを与える。ガード成功後に <IconMap:Icon_Normal> を押すと、対応する段数の<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>を発動できる。",
+      "13503012": "ガード成功時、自身の与ダメージ+<color=#2BAD00>10%</color>。最大<color=#FFFFFF>4</color>重まで重ね掛け可能。継続時間<color=#FFFFFF>20</color>秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350302": {
+    "id": 1350302,
+    "name": "[シグリッド]凛然たり、その槍術は",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>発動時、 <IconMap:Icon_Normal> を長押しすると、後続の連携スキル交代画面が展開されない。<color=#FFFFFF>『槍術・穿貫の型』</color>の会心ダメージ+60%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic103.png",
+    "branch": {
+      "13503021": "<color=#FFFFFF>『連携スキル』</color>を発動するたびに、自身の攻撃力+<color=#2BAD00>12%</color>。最大<color=#FFFFFF>2</color>重まで重ね掛け可能、継続時間<color=#FFFFFF>20</color>秒、重複して発動すると継続時間が更新される。",
+      "13503022": "<color=#FFFFFF>『連携スキル』</color>が敵に初めて命中した時、追加で攻撃力<color=#FFFFFF>1600%</color>分の<color=#98EFF0>氷属性ダメージ</color>を与える。"
+    }
+  },
+  "1350303": {
+    "id": 1350303,
+    "name": "[シグリッド]絢爛たり、かの穂先は",
+    "desc": "<color=#FFFFFF>「不落の構え」</color>状態中、<color=#FFFFFF>『強化特殊スキル』</color>のエネルギー消費量が<color=#FFFFFF>40</color>Ptになる。<color=#FFFFFF>『強化特殊スキル』</color>発動中に敵の攻撃を受けた場合、シグリッドは盾でガードを行う。ガードに成功すると、その攻撃のダメージを防ぎ、自身の攻撃がターゲットの防御力を<color=#2BAD00>12%</color>無視する、継続時間<color=#FFFFFF>30</color>秒。同時に、<color=#FFFFFF>「不落の構え」</color>状態の継続時間を更新し、<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>の発動可能回数を1回獲得する。ガード成功後に <IconMap:Icon_Normal> を押すと、対応する段数の<color=#FFFFFF>『通常攻撃：槍術・円舞の型』</color>を発動できる。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic105.png",
+    "branch": {
+      "13503031": "シグリッドがガードの発動に成功した時、エネルギーを<color=#2BAD00>10</color>Pt獲得する。",
+      "13503032": "<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ+<color=#2BAD00>25%</color>。\n<color=#FFFFFF>『強化特殊スキル』</color>の発動時、自身の攻撃力+<color=#2BAD00>15%</color>。最大<color=#FFFFFF>2</color>重まで重ね掛け可能、継続時間<color=#FFFFFF>15</color>秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350311": {
+    "id": 1350311,
+    "name": "[クラレッタ]砕き鍛える一撃",
+    "desc": "クラレッタの攻撃力が1500を上回ると、超過分の攻撃力1Ptにつき、防御力+1.3Pt。異なる武装でのこの効果は重ね掛け不可。クラレッタが敵に与える<color=#2BAD00>「重傷」ダメージ+20%</color>。また、ターゲットがブレイク状態でない時でも、「重傷」にブレイク弱体倍率が適用される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
+    "branch": {
+      "13503111": "ブレイク状態の敵に攻撃が命中すると、<color=#2BAD00>残痕蓄積効率+15%</color>。2秒以内に<color=#FFFFFF>「重傷」</color>を3回連続で発生させると、クラレッタの<color=#2BAD00>鋭撃ダメージ+25%</color>。継続時間30秒、重複して発動すると継続時間が更新される。",
+      "13503112": "敵に<color=#FFFFFF>「重傷」</color>を与えた時、ターゲットの<color=#2EB6FF>電気属性ダメージ耐性</color><color=#2BAD00>‐20%</color>。継続時間20秒、重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350312": {
+    "id": 1350312,
+    "name": "[クラレッタ]緋き瞳の蝙蝠",
+    "desc": "クラレッタの攻撃力が1500を上回ると、超過分の攻撃力1Ptにつき、防御力+1.3Pt。異なる武装でのこの効果は重ね掛け不可。クラレッタの残痕蓄積効率-10%。<color=#FFFFFF>『通常攻撃：血の誓約・鍛星』</color>と<color=#FFFFFF>『通常攻撃：血の誓約・斧断』</color>の与える<color=#2BAD00>鋭撃ダメージ+40%</color>。「ブラッドエンブレム」状態中に『極限回避』を発動すると、「ブラッドエンブレム」の継続時間が3秒間延長される。5秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
+    "branch": {
+      "13503121": "『極限回避』を発動すると、クラレッタの<color=#2BAD00>会心率+10%</color>。継続時間15秒、最大3重まで重ね掛け可能。重複して発動すると継続時間が更新される。会心率が200%を超えると、超過1%につき<color=#2BAD00>暴傷ダメージ+0.25%</color>。",
+      "13503122": "<color=#FFFFFF>「ブラッドエンブレム」</color>状態中、与えるダメージ<color=#2BAD00>+20%</color>。さらに、アップ倍率は1秒ごとに追加で<color=#2BAD00>+5%</color>、最大50%までアップ可能。この効果は<color=#FFFFFF>「ブラッドエンブレム」</color>状態が解除されるまで継続する。"
+    }
+  },
+  "1350313": {
+    "id": 1350313,
+    "name": "[クラレッタ]紅蓮の熱夜",
+    "desc": "クラレッタの攻撃力が1500を上回ると、超過分の攻撃力1Ptにつき、防御力+1.3Pt。異なる武装でのこの効果は重ね掛け不可。<color=#FFFFFF>「ブラッドエンブレム」</color>状態中、攻撃が敵に命中した時、ターゲットの<color=#2BAD00>防御力-16%</color>。継続時間15秒、最大3重まで重ね掛け可能。重複して発動すると継続時間が更新される。2秒に1回のみ発動可能。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic109.png",
+    "branch": {
+      "13503131": "<color=#FFFFFF>「ブラッドエンブレム」</color>状態に入る時、現在のHPの30%に相当するHPを消費する。今回の<color=#FFFFFF>「ブラッドエンブレム」</color>状態中に自身の<color=#2BAD00>与ダメージ+45%</color>。<color=#FFFFFF>「ブラッドエンブレム」</color>状態が終了するまで継続する。<color=#FFFFFF>「重傷」</color>を発生させた時、<color=#2BAD00>自身のHP上限の8%に相当するHPを回復する</color>。",
+      "13503132": "<color=#FFFFFF>「ブラッドエンブレム」</color>状態に入る時、すべてのシャープネスを消費する。追加で消費したシャープネス1Ptにつき、今回の<color=#FFFFFF>「ブラッドエンブレム」</color>状態中の<color=#2BAD00>与ダメージ+1%</color>。<color=#FFFFFF>「ブラッドエンブレム」</color>状態が終了するまで継続する。<color=#FFFFFF>「ブラッドエンブレム」</color>状態中に攻撃が敵に命中した時、シャープネスを4Pt回復する。0.5秒に1回のみ発動可能。"
+    }
+  },
+  "1350321": {
+    "id": 1350321,
+    "name": "[ロクシー]百錬の重たき槌",
+    "desc": "<color=#FFFFFF>「清浄」</color>発動時、チーム全体の<color=#2BAD00>攻撃力+800Pt</color>。継続時間40秒。重複して発動すると継続時間が更新される。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic110.png",
+    "branch": {
+      "13503211": "<color=#FFFFFF>『百錬の重たき槌』</color>の攻撃力アップ効果は<color=#2BAD00>最大2重まで重ね掛け</color>可能。",
+      "13503212": "<color=#FFFFFF>「追加能力：合金の心臓」</color>における、チーム内のメンバーの攻撃が敵に命中した時の<color=#2BAD00>ブレイク弱体倍率が追加で+60%</color>。"
+    }
+  },
+  "1350322": {
+    "id": 1350322,
+    "name": "[ロクシー]永き夜の長き眠り",
+    "desc": "<IconMap:Icon_SpecialReady> を長押しして<color=#FFFFFF>『強化特殊スキル：風邪にご注意を』</color>を発動すると、<color=#2BAD00>「巨大な風の渦」を追加で生成する</color>。「巨大な風の渦」が命中した敵の<color=#2BAD00>全属性ダメージ耐性-24%</color>。継続時間30秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "branch": {
+      "13503221": "<color=#FFFFFF>『永き夜の長き眠り』</color>が生成した「巨大な風の渦」が終了すると、その場に<color=#2BAD00><color=#FFFFFF>「嵐の目」</color>が生成され</color>、<color=#2BAD00>自身のエネルギーを10Pt回復する</color>。",
+      "13503222": "任意の方法で生成された「巨大な風の渦」によって与えられる<color=#2BAD00>ブレイク値+60%</color>。<color=#FFFFFF>『永き夜の長き眠り』</color>によって生成された「巨大な風の渦」は<color=#2BAD00>継続時間が1秒延長</color>される。"
+    }
+  },
+  "1350323": {
+    "id": 1350323,
+    "name": "[ロクシー]夜を訪うランタン",
+    "desc": "<color=#FFFFFF>『支援突撃：真夜中の掟』</color>発動後、<color=#FFFFFF>『支援スキル：また残業ですか？』</color>に<color=#2BAD00>繋げる</color>ことが可能になる。<color=#FFFFFF>『支援スキル：また残業ですか？』</color>発動時、代わりに<color=#2BAD00><color=#FFFFFF>『連携スキル：葬風の大槌』</color>を発動する</color>。12秒に1回のみ発動可能。メンバー全員の<color=#2BAD00><color=#FFFFFF>『連携スキル』</color>の与ダメージ+50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "branch": {
+      "13503231": "<color=#FFFFFF>『夜を訪うランタン』</color>の<color=#2BAD00>発動間隔-6秒</color>。",
+      "13503232": "<color=#FFFFFF>『連携スキル：葬風の大槌』</color>発動時、<color=#FFFFFF>「嵐力」</color>を<color=#2BAD00>2Pt回復する</color>。"
+    }
+  },
+  "1350331": {
+    "id": 1350331,
+    "name": "[セヴェリアン]葬凶伏魔",
+    "desc": "<color=#FFFFFF>『通常攻撃：颶風』</color>の<color=#2BAD00>ダメージ+60%</color>。<color=#FFFFFF>『通常攻撃：疾き刃』</color>の最初の3段の発動中、敵の攻撃を受ける直前に<IconMap:Icon_Normal>を短押しすると、現在のアクションを即座に中断し、<color=#FFFFFF>『通常攻撃：颶風』</color>を発動できる。この効果は<color=#FFFFFF>『通常攻撃：疾き刃』</color>の最初の3段で、1段ごとに1回のみ発動する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic115.png",
+    "branch": {
+      "13503311": "<color=#FFFFFF>『通常攻撃：颶風』</color>発動時、<color=#2BAD00>攻撃力+12%</color>。この効果は<color=#2BAD00>最大2重まで重ね掛け</color>でき、1重につき<color=#2BAD00>継続時間20秒</color>。",
+      "13503312": "<color=#FFFFFF>『通常攻撃：颶風』</color>発動時、<color=#2BAD00>エネルギーが6Pt回復する</color>。"
+    }
+  },
+  "1350332": {
+    "id": 1350332,
+    "name": "[セヴェリアン]天網恢恢",
+    "desc": "他のメンバーがエネルギーまたはアドレナリンを1Pt消費するごとに、セヴェリアンが<color=#FFFFFF>「凪」</color>を0.4Pt回復する。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic114.png",
+    "branch": {
+      "13503321": "<color=#FFFFFF>『通常攻撃：蒼き風、影を狩る』</color>の<color=#2BAD00>ダメージ+50%</color>。",
+      "13503322": "出場中に切り替わった時、ターゲットの<color=#2BAD00>風属性耐性25%</color>を無視する。この効果の<color=#2BAD00>継続時間12秒</color>。"
+    }
+  },
+  "1350333": {
+    "id": 1350333,
+    "name": "[セヴェリアン]絶対命令",
+    "desc": "<color=#FFFFFF>『強化特殊スキル：風瞬き、打ち毀す』</color>の<color=#2BAD00>エネルギー消費が35Ptにダウンし</color>、最大までチャージした時の<color=#2BAD00>エネルギー消費が35Ptにダウン</color>、さらに<color=#2BAD00>ダメージ+40%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic113.png",
+    "branch": {
+      "13503331": "<color=#FFFFFF>『強化特殊スキル：風瞬き、打ち毀す』</color>の発動時、自身の<color=#2BAD00>会心ダメージ+60%</color>、継続時間20秒。重複して発動すると継続時間が更新される。",
+      "13503332": "<color=#FFFFFF>『強化特殊スキル：風瞬き、打ち毀す』</color>が敵に命中すると、その敵の<color=#2BAD00>防御力-24%</color>、継続時間20秒。重複して発動すると継続時間が更新される。"
+    }
+  },
+  "1350341": {
+    "id": 1350341,
+    "name": "[フィオニー]運命裁断",
+    "desc": "他のメンバーが敵を状態異常にした時、フィオニーの<color=#FFFFFF>「業火」</color>が15Pt回復する。この効果は5秒に1回のみ発動する。フィオニーの<color=#2BAD00>通常攻撃の与ダメージ+45%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic118.png",
+    "branch": {
+      "13503411": "フィオニーの<color=#2BAD00>通常攻撃の与ダメージが追加で+30%</color>、<color=#FFFFFF>「狂咲」</color>効果は追加で<color=#2BAD00>ターゲットの全属性ダメージ耐性を30%無視する</color>。",
+      "13503412": "他のメンバーの攻撃で敵の状態異常蓄積値が累積されると、フィオニーも<color=#FFFFFF>「業火」</color>を回復できる。回復量は基本効果と同じで、この効果は基本効果と発動クールタイムを共有する。"
+    }
+  },
+  "1350342": {
+    "id": 1350342,
+    "name": "[フィオニー]天穹墜落",
+    "desc": "フィオニーが<color=#FFFFFF>「焦熱攻撃」</color>を敵に命中させると、バフ効果を1重獲得する。この効果は2秒ごとに1回のみ発動し、3重まで重ね掛け可能、継続時間20秒、重複して発動すると継続時間が更新される。バフ効果1重につき、<color=#2BAD00>メンバー全員の与える異常ダメージ+10%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic117.png",
+    "branch": {
+      "13503421": "フィオニーが<color=#FFFFFF>『特殊スキル：火を掠め』</color>または<color=#FFFFFF>『強化特殊スキル』</color>でパーフェクトガード効果を発動した時、敵が異常状態の場合、追加で倍率<color=#2BAD00>300%</color>の<color=#FFFFFF>「狂咲」</color>を1回発動する。",
+      "13503422": "バフ効果の重ね掛け上限が6重にアップする。"
+    }
+  },
+  "1350343": {
+    "id": 1350343,
+    "name": "[フィオニー]起死回生",
+    "desc": "フィオニーが<color=#FFFFFF>「リザレクション」</color>または<color=#FFFFFF>『魂狩る燼火』</color>を発動する際、追加で自身のHP上限<color=#2BAD00>20%</color>分のHPを回復する。<color=#FFFFFF>『強化特殊スキル：燎火一閃』</color>を発動すると、デシベル値を300Pt獲得し、<color=#2BAD00>メンバー全員の異常マスタリー+60Pt</color>、継続時間20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic116.png",
+    "branch": {
+      "13503431": "フィオニーが<color=#FFFFFF>『強化特殊スキル：燎火一閃』</color>を発動した時、メンバー全員は<color=#2BAD00>ターゲットの防御力24%を無視する</color>。継続時間は基礎効果と同じ。",
+      "13503432": "フィオニーの1回のHP変動量がHP上限の<color=#2BAD00>50%</color>を上回る時、自身の与える<color=#2BAD00>状態異常蓄積効率+50%</color>、継続時間60秒。"
+    }
+  }
+}

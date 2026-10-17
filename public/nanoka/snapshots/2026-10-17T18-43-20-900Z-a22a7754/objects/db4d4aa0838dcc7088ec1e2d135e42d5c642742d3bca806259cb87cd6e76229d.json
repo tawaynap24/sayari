@@ -1,0 +1,5001 @@
+{
+  "category": {
+    "1": {
+      "name": "Story",
+      "group": {
+        "1004": {
+          "name": "Agent Trust",
+          "sort": 4
+        },
+        "1005": {
+          "name": "Phaethon's Story",
+          "sort": 1
+        },
+        "1006": {
+          "name": "Agent Story",
+          "sort": 2
+        },
+        "1007": {
+          "name": "Special Episode",
+          "sort": 3
+        },
+        "1008": {
+          "name": "When Opportunities Converge",
+          "sort": 5
+        },
+        "1009": {
+          "name": "Inter-Knot Hot Topic",
+          "sort": 6
+        }
+      }
+    },
+    "2": {
+      "name": "Tactics",
+      "group": {
+        "2001": {
+          "name": "Withered Domain",
+          "sort": 6
+        },
+        "2002": {
+          "name": "Combat Techniques",
+          "sort": 2
+        },
+        "2003": {
+          "name": "Hostile Targets",
+          "sort": 3
+        },
+        "2004": {
+          "name": "Combat Achievements",
+          "sort": 4
+        },
+        "2005": {
+          "name": "Lost Void",
+          "sort": 5
+        },
+        "2006": {
+          "name": "Enigma of the Labyrinth",
+          "sort": 1
+        }
+      }
+    },
+    "3": {
+      "name": "Exploration",
+      "group": {
+        "3001": {
+          "name": "Hollow Exploration Guide",
+          "sort": 1
+        },
+        "3002": {
+          "name": "Zero Key",
+          "sort": 2
+        },
+        "3003": {
+          "name": "Investigation Zone Adventures",
+          "sort": 3
+        }
+      }
+    },
+    "4": {
+      "name": "City",
+      "group": {
+        "4001": {
+          "name": "Proxy Business",
+          "sort": 1
+        },
+        "4002": {
+          "name": "Janus Quarter",
+          "sort": 2
+        },
+        "4003": {
+          "name": "Waifei Peninsula",
+          "sort": 3
+        },
+        "4004": {
+          "name": "Outer Ring",
+          "sort": 4
+        },
+        "4005": {
+          "name": "Throne Quarter",
+          "sort": 5
+        },
+        "4006": {
+          "name": "Roscaelifer",
+          "sort": 6
+        }
+      }
+    }
+  },
+  "achievement": {
+    "1001001": {
+      "group": 4002,
+      "name": "Resonance Chords",
+      "desc": "Unlock Bardic Needle on Sixth Street.",
+      "rarity": 1
+    },
+    "1001002": {
+      "group": 4002,
+      "name": "Resonance Oscillation",
+      "desc": "Tune 10 times at Bardic Needle.",
+      "rarity": 1
+    },
+    "1001003": {
+      "group": 4002,
+      "name": "Nhe-nhe?! Nha-na-neh!",
+      "desc": "Unlock the Turbo remodeling shop on Sixth Street.",
+      "rarity": 1
+    },
+    "1001007": {
+      "group": 4002,
+      "name": "Up Ahead... Is an Abyss!",
+      "desc": "Unlock the Box Galaxy gadget store on Sixth Street.",
+      "rarity": 1
+    },
+    "1001008": {
+      "group": 4002,
+      "name": "Almost Got It All!",
+      "desc": "Purchase 5 W-Engines at the Box Galaxy gadget store.",
+      "rarity": 1
+    },
+    "1001009": {
+      "group": 4002,
+      "name": "Film Aficionado",
+      "desc": "Collect 15 videotapes.",
+      "rarity": 1
+    },
+    "1001010": {
+      "group": 4002,
+      "name": "Film Critic",
+      "desc": "Collect 30 videotapes.",
+      "rarity": 1
+    },
+    "1001011": {
+      "group": 4002,
+      "name": "Qualified Manager",
+      "desc": "Help 3 customers at the video store.",
+      "rarity": 1
+    },
+    "1001012": {
+      "group": 4002,
+      "name": "Regulars Are Important!",
+      "desc": "Help 6 customers at the video store.",
+      "rarity": 1
+    },
+    "1001013": {
+      "group": 4002,
+      "name": "Sixth Street's Five-Star Store",
+      "desc": "Help 10 customers at the video store.",
+      "rarity": 1
+    },
+    "1001014": {
+      "group": 4002,
+      "name": "Please Respect Employment Law!",
+      "desc": "Make the same promoter work for 7 consecutive days at the video store.",
+      "rarity": 1
+    },
+    "1001015": {
+      "group": 4002,
+      "name": "Let's Have a Showdown!",
+      "desc": "Unlock Godfinger Arcade on Sixth Street.",
+      "rarity": 1
+    },
+    "1001016": {
+      "group": 4002,
+      "name": "Self-Motivation",
+      "desc": "Unlock Coff Cafe on Sixth Street.",
+      "rarity": 1
+    },
+    "1001017": {
+      "group": 4002,
+      "name": "No One's Sleeping Tonight",
+      "desc": "Have a coffee at Coff Cafe in the evening or during the late night hours.",
+      "rarity": 1
+    },
+    "1001018": {
+      "group": 4002,
+      "name": "Where Daily Check-Ins Begin",
+      "desc": "Unlock Howl's Newsstand on Sixth Street.",
+      "rarity": 1
+    },
+    "1001019": {
+      "group": 4002,
+      "name": "No Coincidence",
+      "desc": "Win the grand prize with a scratch card from Howl's Newsstand.",
+      "rarity": 1
+    },
+    "1001020": {
+      "group": 4002,
+      "name": "Chips Are 50% Off Here?",
+      "desc": "Unlock the 141 convenience store on Sixth Street.",
+      "rarity": 1
+    },
+    "1001023": {
+      "group": 4002,
+      "name": "Gimme Another Bowl!",
+      "desc": "Unlock the Waterfall Soup noodle shop on Sixth Street.",
+      "rarity": 1
+    },
+    "1001025": {
+      "group": 4002,
+      "name": "Noodle Connoisseur",
+      "desc": "Sample every flavor of noodles at Waterfall Soup on Sixth Street.",
+      "rarity": 1
+    },
+    "1001026": {
+      "group": 3002,
+      "name": "No Bank Robbery in the Apocalypse",
+      "desc": "Complete the Withered Domain hidden commission \"The Hollows Bank.\"",
+      "rarity": 1
+    },
+    "1001027": {
+      "group": 3002,
+      "name": "The Sanctuary",
+      "desc": "Complete the Withered Domain hidden commission \"The Sanctuary.\"",
+      "rarity": 1
+    },
+    "1001028": {
+      "group": 3002,
+      "name": "Shh! Don't Speak to Ethereals!",
+      "desc": "Complete the Withered Domain hidden commission \"Blossoming out of Ruins.\"",
+      "rarity": 1
+    },
+    "1001029": {
+      "group": 3002,
+      "name": "First Symbiotic Ethereal Sighting",
+      "desc": "Complete the Withered Domain hidden commission \"Symbiosis.\"",
+      "rarity": 1
+    },
+    "1001030": {
+      "group": 4002,
+      "name": "Don't Block My Sunlight",
+      "desc": "Uncover Sage in a Barrel's secret.",
+      "rarity": 1
+    },
+    "1001031": {
+      "group": 4002,
+      "name": "Midnight Whispers",
+      "desc": "Use the payphone on Sixth Street at late night.",
+      "rarity": 1
+    },
+    "1001032": {
+      "group": 4002,
+      "name": "Human Catnip",
+      "desc": "Obtain the \"recognition\" of the cats on Sixth Street.",
+      "rarity": 1
+    },
+    "1001033": {
+      "group": 4002,
+      "name": "Sixth Street's Lord of Shadow",
+      "desc": "Observe the many postures of Cookie the cat on Sixth Street.",
+      "rarity": 1
+    },
+    "1001034": {
+      "group": 4002,
+      "name": "I Might As Well",
+      "desc": "Use the bathroom at Brant Street Construction Site.",
+      "rarity": 1
+    },
+    "1001035": {
+      "group": 4002,
+      "name": "Who Is Sus",
+      "desc": "Head to Public Security's Service Area at midnight.",
+      "rarity": 1
+    },
+    "1001036": {
+      "group": 4002,
+      "name": "Should I Check My Fortune Before Heading Out?",
+      "desc": "Miss the appointment after sending an invitation to an Agent.",
+      "rarity": 1
+    },
+    "1001037": {
+      "group": 4002,
+      "name": "Read the Air",
+      "desc": "Trigger a Loss of Trust during a conversation with an Agent.",
+      "rarity": 1
+    },
+    "1001038": {
+      "group": 4002,
+      "name": "Street Life",
+      "desc": "Find Officer Mewmew at Sixth Street and collect all the medals on page 1.",
+      "rarity": 1
+    },
+    "1001039": {
+      "group": 4002,
+      "name": "The Most Familiar Place",
+      "desc": "Find Officer Mewmew on Sixth Street and collect all the medals on page 2.",
+      "rarity": 1
+    },
+    "1001040": {
+      "group": 4002,
+      "name": "Contract Engineer",
+      "desc": "Find Officer Mewmew at Brant Street Construction Site and collect all the medals on page 1.",
+      "rarity": 1
+    },
+    "1001041": {
+      "group": 4002,
+      "name": "Shopping Lover",
+      "desc": "Find Officer Mewmew at Lumina Square and collect all the medals on page 1.",
+      "rarity": 1
+    },
+    "1001042": {
+      "group": 4002,
+      "name": "Shopaholic",
+      "desc": "Find Officer Mewmew at Lumina Square and collect all the medals on page 2.",
+      "rarity": 1
+    },
+    "1001043": {
+      "group": 4002,
+      "name": "Supernatural Enthusiast",
+      "desc": "Find Officer Mewmew at Ballet Twins Road and collect all the medals on page 1.",
+      "rarity": 1
+    },
+    "1001044": {
+      "group": 3002,
+      "name": "A Witness of Wade's Squad",
+      "desc": "Complete the Withered Domain hidden commission \"Measurement Device.\"",
+      "rarity": 1
+    },
+    "1001045": {
+      "group": 3002,
+      "name": "Lucky? Or Unlucky?",
+      "desc": "Complete the Withered Domain hidden commission \"Lucky Ticket.\"",
+      "rarity": 1
+    },
+    "1001046": {
+      "group": 3002,
+      "name": "Handcuff Marriage Proposal",
+      "desc": "Complete the Withered Domain hidden commission \"Hollow Proposal.\"",
+      "rarity": 1
+    },
+    "1001047": {
+      "group": 3002,
+      "name": "Through the Hollow Passage We Go!",
+      "desc": "Complete the Withered Domain hidden commission \"Night of the Hollow Passage.\"",
+      "rarity": 1
+    },
+    "1001048": {
+      "group": 4002,
+      "name": "Ridu Overseer",
+      "desc": "Find Officer Mewmew at Lumina Square and collect all the \"Rebuild Ridu!\" medals.",
+      "rarity": 1
+    },
+    "1001049": {
+      "group": 4002,
+      "name": "Unlucky",
+      "desc": "Scratch off a three bones symbol at the newsstand for 2 consecutive days.",
+      "rarity": 1
+    },
+    "1001050": {
+      "group": 4002,
+      "name": "Pupper Will Always Forgive",
+      "desc": "Visit Howl's newsstand late at night and disturb the sleeping Howl.",
+      "rarity": 1
+    },
+    "1001051": {
+      "group": 4002,
+      "name": "Cola Can Jam",
+      "desc": "Kick the vending machine on Sixth Street.",
+      "rarity": 1
+    },
+    "1001052": {
+      "group": 4002,
+      "name": "Truly Elegant",
+      "desc": "Check out the Bangboo statue on Sixth Street.",
+      "rarity": 1
+    },
+    "1001053": {
+      "group": 4002,
+      "name": "May Everyone Have a Denny",
+      "desc": "Find One-Dennyboo at the video store entrance, there to uphold a promise.",
+      "rarity": 1
+    },
+    "1001054": {
+      "group": 4002,
+      "name": "New Power-Saving Idea",
+      "desc": "Photo the \"customer\" using the Bangboo charging station at Lumina Square's parking lot.",
+      "rarity": 1
+    },
+    "1001055": {
+      "group": 4002,
+      "name": "Think Again and Again",
+      "desc": "Get close to the Think Again statue in front of the Ballet Twins and take a photo of it.",
+      "rarity": 1
+    },
+    "1001056": {
+      "group": 4002,
+      "name": "Next Time, Surely!",
+      "desc": "Check out the \"Stay Away From Hollows\" poster at the main door of the Lumina Square Public Security office.",
+      "rarity": 1
+    },
+    "1001057": {
+      "group": 4004,
+      "name": "...\"Bunless Bae\"?",
+      "desc": "Take a photo of the \"Boundless Blaze\" signpost in Blazewood with peeling paint.",
+      "rarity": 1
+    },
+    "1001058": {
+      "group": 4004,
+      "name": "Impeccable",
+      "desc": "Find the Potted Cactus Toothpicks in Cheesetopia.",
+      "rarity": 1
+    },
+    "1001059": {
+      "group": 4004,
+      "name": "Is This a Legitimate Convenience Store?",
+      "desc": "Find the 747 Convenience Store in Blazewood at night.",
+      "rarity": 1
+    },
+    "1001060": {
+      "group": 4001,
+      "name": "The Seven-Day Sandbox of the Maiden Goddess",
+      "desc": "Advance a total of 28 time periods through the \"Change Time Period\" function.",
+      "rarity": 1
+    },
+    "1001061": {
+      "group": 4004,
+      "name": "A Field Trip to the Wilderness",
+      "desc": "Find Officer Mewmew in Blazewood and collect all the medals.",
+      "rarity": 1
+    },
+    "1001062": {
+      "group": 4002,
+      "name": "Inspiration Store",
+      "desc": "Unlock Sān-Z STUDIO located at Lumina Square.",
+      "rarity": 1
+    },
+    "1001063": {
+      "group": 4002,
+      "name": "I'll Take Them All!",
+      "desc": "Redeem 5 pieces of Yi's work from Sān-Z STUDIO.",
+      "rarity": 1
+    },
+    "1001064": {
+      "group": 4002,
+      "name": "Serial Thefts: Assistant",
+      "desc": "In Ridu Weekly, find Kui's knife, Kaidou's fishing line, Mr. Shang's photo, and Dollie's pulley device.",
+      "rarity": 1
+    },
+    "1001065": {
+      "group": 4002,
+      "name": "Serial Thefts: Truth",
+      "desc": "In Ridu Weekly, find more information about the \"cat thief\" from neighbors and friends.",
+      "rarity": 1
+    },
+    "1001066": {
+      "group": 4004,
+      "name": "Social Death Experience",
+      "desc": "Make the marmot in the corner of Cheesetopia let out a shriek.",
+      "rarity": 1
+    },
+    "1001067": {
+      "group": 4005,
+      "name": "Deep Concern",
+      "desc": "Check through everything on the desk in Section 6's office.",
+      "rarity": 1
+    },
+    "1001068": {
+      "group": 4005,
+      "name": "Photography Prohibited",
+      "desc": "Take a photo of the Photography Prohibited sign by the wall outside the HAND building.",
+      "rarity": 1
+    },
+    "1001069": {
+      "group": 4002,
+      "name": "Fishing Prohibited",
+      "desc": "Attempt to fish by the \"Fishing Prohibited\" sign at Port Elpis.",
+      "rarity": 1
+    },
+    "1001070": {
+      "group": 4002,
+      "name": "DO NOT ENTER",
+      "desc": "Attempt to enter through the door with a \"DO NOT ENTER\" sign at Reverb Arena.",
+      "rarity": 1
+    },
+    "1001071": {
+      "group": 4002,
+      "name": "Nothing Can Stop You",
+      "desc": "Brave violation: interact with the three signs at the Port, Reverb Arena, and HAND Building in reverse.",
+      "rarity": 1
+    },
+    "1001072": {
+      "group": 4002,
+      "name": "Special Music",
+      "desc": "Listen to the recording at the drink stand at the Reverb Arena.",
+      "rarity": 1
+    },
+    "1001073": {
+      "group": 4002,
+      "name": "Tonight the moon... Oh, it's cloudy.",
+      "desc": "Take a photo of the exhaust fan above Reverb Arena late at night.",
+      "rarity": 1
+    },
+    "1001074": {
+      "group": 4002,
+      "name": "When Will We Return to Port?",
+      "desc": "Find the item pick-up code at Port Elpis and attempt to collect the item.",
+      "rarity": 1
+    },
+    "1001075": {
+      "group": 4002,
+      "name": "Order Some Fries!",
+      "desc": "Try feeding fries to the rebellious seagull at Port Elpis.",
+      "rarity": 1
+    },
+    "1001076": {
+      "group": 4002,
+      "name": "When You Gaze at the Empty Room",
+      "desc": "Climb up the building next to the lighthouse at Port Elpis and try to open the window on the top floor.",
+      "rarity": 1
+    },
+    "1001077": {
+      "group": 4002,
+      "name": "Medals Not Fish",
+      "desc": "Find Officer Mewmew at Port Elpis and collect all the medals.",
+      "rarity": 1
+    },
+    "1001078": {
+      "group": 4002,
+      "name": "Great Purr!",
+      "desc": "Become a good citizen trusted by Officer Mewmew.",
+      "rarity": 2
+    },
+    "1001079": {
+      "group": 4002,
+      "name": "Executive Officer's Close Friend",
+      "desc": "Help Tyce and Qiqi solve their troubles in Ridu Weekly.",
+      "rarity": 1
+    },
+    "1001080": {
+      "group": 4002,
+      "name": "Surrounded by Astra!",
+      "desc": "Search around Ridu and take 5 photos of film, advertisement, and concert posters featuring Astra Yao.",
+      "rarity": 1
+    },
+    "1001081": {
+      "group": 4002,
+      "name": "An Attempt at Wealth",
+      "desc": "Test-sit the luxurious sofa in the VIP lounge of the Starloop Tower.",
+      "rarity": 1
+    },
+    "1001082": {
+      "group": 4002,
+      "name": "Another Star",
+      "desc": "\"Overhear\" a conversation about Ms. Monica at the Starloop Tower.",
+      "rarity": 1
+    },
+    "1001083": {
+      "group": 4002,
+      "name": "Gazing at the Light of Dawn",
+      "desc": "\"Overhear\" some information about Angels of Delusion at the Starloop Tower.",
+      "rarity": 1
+    },
+    "1001084": {
+      "group": 4002,
+      "name": "\"That's the design\"",
+      "desc": "In the Luminous Hall of the Starloop Tower, meet a devoted designer working hard to clear the challenge.",
+      "rarity": 1
+    },
+    "1001085": {
+      "group": 4002,
+      "name": "Return of the Traveling Bird",
+      "desc": "Admire McDunn's seagull lantern from the Torchlit Lighthouse in Port Elpis.",
+      "rarity": 1
+    },
+    "1003001": {
+      "group": 4001,
+      "name": "New City Visitor",
+      "desc": "Log in for a total of 7 days.",
+      "rarity": 1
+    },
+    "1003002": {
+      "group": 4001,
+      "name": "See You in New Eridu",
+      "desc": "Log in for a total of 30 days.",
+      "rarity": 2
+    },
+    "1003003": {
+      "group": 4001,
+      "name": "The City's Growth Rings",
+      "desc": "Log in for a total of 365 days.",
+      "rarity": 3
+    },
+    "1003004": {
+      "group": 4001,
+      "name": "No Shortcuts to Leveling Up",
+      "desc": "Reach Inter-Knot Lv. 20.",
+      "rarity": 1
+    },
+    "1003005": {
+      "group": 4001,
+      "name": "I'll Level Up Myself!",
+      "desc": "Reach Inter-Knot Lv. 40.",
+      "rarity": 2
+    },
+    "1003006": {
+      "group": 4001,
+      "name": "Lv. 60! The Return of the King!",
+      "desc": "Reach Inter-Knot Lv. 60.",
+      "rarity": 3
+    },
+    "1003007": {
+      "group": 4001,
+      "name": "You're Here?!",
+      "desc": "Any Agent reaches Lv. 20.",
+      "rarity": 1
+    },
+    "1003008": {
+      "group": 4001,
+      "name": "I Know the Way!",
+      "desc": "Any Agent reaches Lv. 30.",
+      "rarity": 1
+    },
+    "1003009": {
+      "group": 4001,
+      "name": "That's Right!",
+      "desc": "Any Agent reaches Lv. 40.",
+      "rarity": 1
+    },
+    "1003010": {
+      "group": 4001,
+      "name": "That's the Vibe!",
+      "desc": "Any Agent reaches Lv. 50.",
+      "rarity": 1
+    },
+    "1003011": {
+      "group": 4001,
+      "name": "Armed to the Teeth!",
+      "desc": "Any Agent reaches Lv. 60.",
+      "rarity": 2
+    },
+    "1003012": {
+      "group": 4001,
+      "name": "Leave it to me!",
+      "desc": "Any 3 Agents reach Lv. 60.",
+      "rarity": 3
+    },
+    "1003013": {
+      "group": 4001,
+      "name": "Become Stronger, Secretly",
+      "desc": "Enhance an Agent's Skill 5 times.",
+      "rarity": 1
+    },
+    "1003014": {
+      "group": 4001,
+      "name": "More! Bigger! Stronger!",
+      "desc": "Enhance an Agent's Skill 20 times.",
+      "rarity": 2
+    },
+    "1003015": {
+      "group": 4001,
+      "name": "The Best of the Best!",
+      "desc": "Enhance an Agent's Skill 100 times.",
+      "rarity": 3
+    },
+    "1003016": {
+      "group": 4001,
+      "name": "Master Assembler",
+      "desc": "Upgrade any W-Engine to Lv. 20.",
+      "rarity": 1
+    },
+    "1003017": {
+      "group": 4001,
+      "name": "Gadget Lover",
+      "desc": "Upgrade any W-Engine to Lv. 40.",
+      "rarity": 1
+    },
+    "1003018": {
+      "group": 4001,
+      "name": "Just Really Into 3D Puzzles",
+      "desc": "Upgrade any W-Engine to Lv. 60.",
+      "rarity": 2
+    },
+    "1003019": {
+      "group": 4001,
+      "name": "Priceless Display Cabinet",
+      "desc": "Upgrade any 3 W-Engines to Lv. 60.",
+      "rarity": 3
+    },
+    "1003020": {
+      "group": 4001,
+      "name": "Do You Hear the Melody?",
+      "desc": "Upgrade any Drive Disc to Lv. 9.",
+      "rarity": 1
+    },
+    "1003021": {
+      "group": 4001,
+      "name": "Music is Motivation",
+      "desc": "Upgrade any Drive Disc to Lv. 12.",
+      "rarity": 1
+    },
+    "1003022": {
+      "group": 4001,
+      "name": "Tasteful Playlist",
+      "desc": "Upgrade any Drive Disc to Lv. 15.",
+      "rarity": 2
+    },
+    "1003023": {
+      "group": 4001,
+      "name": "Grand Ensemble",
+      "desc": "Upgrade 6 Drive Discs to Lv. 15.",
+      "rarity": 3
+    },
+    "1003025": {
+      "group": 4001,
+      "name": "Just Some Small Change",
+      "desc": "Obtain a total of 1,000,000 Dennies.",
+      "rarity": 1
+    },
+    "1003026": {
+      "group": 4001,
+      "name": "Earning Big in New Eridu",
+      "desc": "Obtain a total of 10,000,000 Dennies.",
+      "rarity": 2
+    },
+    "1003027": {
+      "group": 4001,
+      "name": "So Sorry for Being So Rich!",
+      "desc": "Obtain a total of 100,000,000 Dennies.",
+      "rarity": 3
+    },
+    "1003028": {
+      "group": 4001,
+      "name": "Atypical Extroverted Proxy",
+      "desc": "Obtain 5 Agents",
+      "rarity": 1
+    },
+    "1003029": {
+      "group": 4001,
+      "name": "Party Incoming",
+      "desc": "Obtain 15 Agents",
+      "rarity": 1
+    },
+    "1003030": {
+      "group": 4001,
+      "name": "Hidden Items Incoming",
+      "desc": "Obtain a total of 50 W-Engines.",
+      "rarity": 1
+    },
+    "1003031": {
+      "group": 4001,
+      "name": "Shh! Don't Ask How Much!",
+      "desc": "Obtain a total of 100 W-Engines.",
+      "rarity": 1
+    },
+    "1003032": {
+      "group": 4001,
+      "name": "Into the Bangboo Era!",
+      "desc": "Obtain 1 Bangboo.",
+      "rarity": 1
+    },
+    "1003033": {
+      "group": 4001,
+      "name": "One After Another",
+      "desc": "Obtain 5 Bangboo.",
+      "rarity": 1
+    },
+    "1003034": {
+      "group": 4001,
+      "name": "Bangboo Commander!",
+      "desc": "Obtain 10 Bangboo.",
+      "rarity": 1
+    },
+    "1003037": {
+      "group": 4001,
+      "name": "The Art of Light",
+      "desc": "Snap 3 photos.",
+      "rarity": 1
+    },
+    "1003038": {
+      "group": 4001,
+      "name": "Personal Image Management",
+      "desc": "Change your Inter-Knot avatar.",
+      "rarity": 1
+    },
+    "1003039": {
+      "group": 4001,
+      "name": "\"Hello, I am...\"",
+      "desc": "Change your Inter-Knot namecard.",
+      "rarity": 1
+    },
+    "1003040": {
+      "group": 4001,
+      "name": "With You Here to Accompany Me",
+      "desc": "Change the dynamic wallpaper in the menu.",
+      "rarity": 1
+    },
+    "1003041": {
+      "group": 4001,
+      "name": "Core Strength Training I",
+      "desc": "Enhance Agent Core Skill 5 times.",
+      "rarity": 1
+    },
+    "1003042": {
+      "group": 4001,
+      "name": "Core Strength Training II",
+      "desc": "Enhance Agent Core Skill 20 times.",
+      "rarity": 2
+    },
+    "1003043": {
+      "group": 4001,
+      "name": "Core Strength Training III",
+      "desc": "Enhance Agent Core Skill 50 times.",
+      "rarity": 3
+    },
+    "1003044": {
+      "group": 4001,
+      "name": "Accidental Overachiever",
+      "desc": "Change your Inter-Knot title.",
+      "rarity": 1
+    },
+    "1004001": {
+      "group": 1004,
+      "name": "Movie Lovers Can't be Bad Guys",
+      "desc": "Reach Trust Lv. 4 with Anby.",
+      "rarity": 1
+    },
+    "1004002": {
+      "group": 1004,
+      "name": "Only Second to Denny",
+      "desc": "Reach Trust Lv. 4 with Nicole.",
+      "rarity": 1
+    },
+    "1004003": {
+      "group": 1004,
+      "name": "Starlight Knight - Behind The Scenes",
+      "desc": "Reach Trust Lv. 4 with Billy.",
+      "rarity": 1
+    },
+    "1004004": {
+      "group": 1004,
+      "name": "A Great Pair of Man and Cat",
+      "desc": "Reach Trust Lv. 4 with Nekomata.",
+      "rarity": 1
+    },
+    "1004006": {
+      "group": 1004,
+      "name": "Heart of Machines",
+      "desc": "Reach Trust Lv. 4 with Grace.",
+      "rarity": 1
+    },
+    "1004007": {
+      "group": 1004,
+      "name": "My Bro Is a Little Harsh",
+      "desc": "Reach Trust Lv. 4 with Anton.",
+      "rarity": 1
+    },
+    "1004008": {
+      "group": 1004,
+      "name": "Big Guy's Little Schemes",
+      "desc": "Reach Trust Lv. 4 with Ben.",
+      "rarity": 1
+    },
+    "1004009": {
+      "group": 1004,
+      "name": "Sweet Girl's Best Friend",
+      "desc": "Reach Trust Lv. 4 with Koleda.",
+      "rarity": 1
+    },
+    "1004010": {
+      "group": 1004,
+      "name": "Saw A Comedy",
+      "desc": "Reach Trust Lv. 4 with Corin.",
+      "rarity": 1
+    },
+    "1004011": {
+      "group": 1004,
+      "name": "Non-Employment Relationship",
+      "desc": "Reach Trust Lv. 4 with Lycaon.",
+      "rarity": 1
+    },
+    "1004012": {
+      "group": 1004,
+      "name": "Ellen After Class",
+      "desc": "Reach Trust Lv. 4 with Ellen.",
+      "rarity": 1
+    },
+    "1004013": {
+      "group": 1004,
+      "name": "Closer Than Drusilla",
+      "desc": "Reach Trust Lv. 4 with Rina.",
+      "rarity": 1
+    },
+    "1004014": {
+      "group": 1004,
+      "name": "I Have Connections in Public Security!",
+      "desc": "Reach Trust Lv. 4 with Zhu Yuan.",
+      "rarity": 1
+    },
+    "1004015": {
+      "group": 1004,
+      "name": "Good Night, Sweet Dreams, Good Morning",
+      "desc": "Reach Trust Lv. 4 with Jane.",
+      "rarity": 1
+    },
+    "1004016": {
+      "group": 1004,
+      "name": "\"With Friends, You Are Not Lonely\"",
+      "desc": "Reach Trust Lv. 4 with Seth.",
+      "rarity": 1
+    },
+    "1004017": {
+      "group": 1004,
+      "name": "In the Sweetness of Friendship",
+      "desc": "Reach Trust Lv. 4 with Qingyi.",
+      "rarity": 1
+    },
+    "1004018": {
+      "group": 1004,
+      "name": "Good News! We've Got a Cat!",
+      "desc": "Adopt Inky.",
+      "rarity": 1
+    },
+    "1004019": {
+      "group": 1004,
+      "name": "Don't Make It Bald",
+      "desc": "Pet Inky 3 times at the video store.",
+      "rarity": 1
+    },
+    "1004020": {
+      "group": 1004,
+      "name": "A Practical Guide to Feeding Chonky Cats",
+      "desc": "Feed Inky 3 times at the video store.",
+      "rarity": 1
+    },
+    "1004021": {
+      "group": 1004,
+      "name": "May All Three Hearts Be Won",
+      "desc": "Reach Trust Lv. 4 with 3 Agents.",
+      "rarity": 1
+    },
+    "1004022": {
+      "group": 1004,
+      "name": "I Have Lots of Friends",
+      "desc": "Reach Trust Lv. 4 with 10 Agents.",
+      "rarity": 2
+    },
+    "1004023": {
+      "group": 1004,
+      "name": "I, the King of Group Fights",
+      "desc": "Reach Trust Lv. 4 with 20 Agents.",
+      "rarity": 3
+    },
+    "1004024": {
+      "group": 1004,
+      "name": "Overlord's Guest",
+      "desc": "Reach Trust Lv. 4 with Caesar.",
+      "rarity": 1
+    },
+    "1004025": {
+      "group": 1004,
+      "name": "Happy Blaze Buddy",
+      "desc": "Reach Trust Lv. 4 with Burnice.",
+      "rarity": 1
+    },
+    "1004026": {
+      "group": 1004,
+      "name": "Look Straight Ahead When Driving",
+      "desc": "Reach Trust Lv. 4 with Piper.",
+      "rarity": 1
+    },
+    "1004027": {
+      "group": 1004,
+      "name": "Under Her Starry Sky",
+      "desc": "Reach Trust Lv. 4 with Lucy.",
+      "rarity": 1
+    },
+    "1004028": {
+      "group": 1004,
+      "name": "The Red Scarf",
+      "desc": "Reach Trust Lv. 4 with Lighter.",
+      "rarity": 1
+    },
+    "1004029": {
+      "group": 1004,
+      "name": "Yanagi's Personal Touch",
+      "desc": "Reach Trust Lv. 4 with Tsukishiro Yanagi.",
+      "rarity": 1
+    },
+    "1004030": {
+      "group": 1004,
+      "name": "Astral Vision",
+      "desc": "Reach Trust Lv. 4 with Hoshimi Miyabi.",
+      "rarity": 1
+    },
+    "1004031": {
+      "group": 1004,
+      "name": "Born to Die",
+      "desc": "Reach Trust Lv. 4 with Asaba Harumasa.",
+      "rarity": 1
+    },
+    "1004032": {
+      "group": 1004,
+      "name": "Dependence",
+      "desc": "Reach Trust Lv. 4 with Soukaku.",
+      "rarity": 1
+    },
+    "1004033": {
+      "group": 1004,
+      "name": "Manager With Connections",
+      "desc": "Complete Quality Time Wish Events 20 times.",
+      "rarity": 1
+    },
+    "1004034": {
+      "group": 1004,
+      "name": "Proxy With Connections",
+      "desc": "Complete Quality Time Wish Events 60 times.",
+      "rarity": 2
+    },
+    "1004035": {
+      "group": 1004,
+      "name": "For Every Intention",
+      "desc": "Complete all Quality Time Wish Events for 30 Agents",
+      "rarity": 3
+    },
+    "1004036": {
+      "group": 1004,
+      "name": "Next!",
+      "desc": "Lose a game with Ellen at the Arcade during Quality Time.",
+      "rarity": 1
+    },
+    "1004037": {
+      "group": 1004,
+      "name": "It's Showtime!",
+      "desc": "Win 4 games with Billy at the Arcade during Quality Time.",
+      "rarity": 1
+    },
+    "1004038": {
+      "group": 1004,
+      "name": "Snake Charmers the Four of You!",
+      "desc": "Play Snake Duel at the Arcade with Nekomata, Corin, and Nicole, and win a match together during Quality Time.",
+      "rarity": 1
+    },
+    "1004039": {
+      "group": 1004,
+      "name": "Dog Trainers the Four of You!",
+      "desc": "Play Soul Hounds III at the Arcade with Rina, Seth, and Lucy during Quality Time.",
+      "rarity": 1
+    },
+    "1004040": {
+      "group": 1004,
+      "name": "Life Beyond the Spotlight",
+      "desc": "Reach Trust Lv. 4 with Astra Yao.",
+      "rarity": 1
+    },
+    "1004041": {
+      "group": 1004,
+      "name": "Defenseless Line",
+      "desc": "Reach Trust Lv. 4 with Evelyn.",
+      "rarity": 1
+    },
+    "1004042": {
+      "group": 1004,
+      "name": "Falling into Dreamland With You",
+      "desc": "Play Bizarre Brigade with any Agent in Quality Time Mode.",
+      "rarity": 1
+    },
+    "1004043": {
+      "group": 1004,
+      "name": "Until the Nightmare's End",
+      "desc": "Play Bizarre Brigade and survive more than 15 waves with any Agent in Quality Time mode.",
+      "rarity": 1
+    },
+    "1004044": {
+      "group": 1004,
+      "name": "Who Lit the Nightlight?",
+      "desc": "Play Bizarre Brigade and survive more than 5 waves with Anby, Lycaon, and Asaba Harumasa in Quality Time mode.",
+      "rarity": 1
+    },
+    "1004045": {
+      "group": 1004,
+      "name": "Back to Back With You",
+      "desc": "Reach Trust Lv. 4 with Trigger.",
+      "rarity": 1
+    },
+    "1004046": {
+      "group": 1004,
+      "name": "Your Name",
+      "desc": "Reach Trust Lv. 4 with Soldier 11.",
+      "rarity": 1
+    },
+    "1004047": {
+      "group": 1004,
+      "name": "Friend (Probation)",
+      "desc": "Reach Trust Lv. 4 with Pulchra.",
+      "rarity": 1
+    },
+    "1004048": {
+      "group": 1004,
+      "name": "Blooming in the Dust",
+      "desc": "Reach Trust Lv. 4 with Hugo.",
+      "rarity": 1
+    },
+    "1004049": {
+      "group": 1004,
+      "name": "Where the Bird Rests",
+      "desc": "Reach Trust Lv. 4 with Vivian.",
+      "rarity": 1
+    },
+    "1004050": {
+      "group": 1004,
+      "name": "A Heart of Steel, Smelling Roses",
+      "desc": "In Quality Time, complete the flower arrangement with Anton and Koleda.",
+      "rarity": 1
+    },
+    "1004051": {
+      "group": 1004,
+      "name": "A Gentleman's Essential Course",
+      "desc": "In Quality Time, complete the flower arrangement with Hugo and Lycaon.",
+      "rarity": 1
+    },
+    "1004052": {
+      "group": 1004,
+      "name": "Fragrance Fills the Sleeves",
+      "desc": "In Quality Time, complete the flower arrangement with Zhu Yuan and Hoshimi Miyabi.",
+      "rarity": 1
+    },
+    "1004053": {
+      "group": 1004,
+      "name": "Tiger Descending the Mountain",
+      "desc": "Reach Trust Lv. 4 with Ju Fufu.",
+      "rarity": 1
+    },
+    "1004054": {
+      "group": 1004,
+      "name": "Clouds Dance Through Light and Shadow",
+      "desc": "Reach Trust Lv. 4 with Yixuan.",
+      "rarity": 1
+    },
+    "1004055": {
+      "group": 1004,
+      "name": "Let Your Senior Cook for You",
+      "desc": "Reach Trust Lv. 4 with Pan Yinhu.",
+      "rarity": 1
+    },
+    "1004056": {
+      "group": 1004,
+      "name": "Going With the Flow",
+      "desc": "Reach Trust Lv. 4 with Yuzuha.",
+      "rarity": 1
+    },
+    "1004057": {
+      "group": 1004,
+      "name": "To Alice",
+      "desc": "Reach Trust Lv. 4 with Alice.",
+      "rarity": 1
+    },
+    "1004058": {
+      "group": 1004,
+      "name": "Seed Standing Tall, Upon This Earth",
+      "desc": "Reach Trust Lv. 4 with Seed.",
+      "rarity": 1
+    },
+    "1004059": {
+      "group": 1004,
+      "name": "Why's the Captain Mad Again?",
+      "desc": "Reach Trust Lv. 4 with Orphie & Magus.",
+      "rarity": 1
+    },
+    "1004060": {
+      "group": 1004,
+      "name": "Night Emissary Comes Knocking",
+      "desc": "Reach Trust Lv. 4 with Lucia.",
+      "rarity": 1
+    },
+    "1004061": {
+      "group": 1004,
+      "name": "Even When There's No Rain",
+      "desc": "Reach Trust Lv. 4 with Yidhari.",
+      "rarity": 1
+    },
+    "1004062": {
+      "group": 1004,
+      "name": "Super Company Affiliated School Chef!",
+      "desc": "Reach Trust Lv. 4 with Komano Manato.",
+      "rarity": 1
+    },
+    "1004063": {
+      "group": 1004,
+      "name": "Line Open 24/7 for You",
+      "desc": "Reach Trust Lv. 4 with Dialyn.",
+      "rarity": 1
+    },
+    "1004064": {
+      "group": 1004,
+      "name": "Iron Will and True Heart, Toppling Mountains and Crushing Peaks",
+      "desc": "Reach Trust Lv. 4 with Banyue.",
+      "rarity": 1
+    },
+    "1004065": {
+      "group": 1004,
+      "name": "Toward a Bright and Sunny Tomorrow",
+      "desc": "Reach Trust Lv. 4 with Ye Shunguang.",
+      "rarity": 1
+    },
+    "1004066": {
+      "group": 1004,
+      "name": "True Treasures Are Priceless",
+      "desc": "Reach Trust Lv. 4 with Zhao.",
+      "rarity": 1
+    },
+    "1004067": {
+      "group": 1004,
+      "name": "Midsummer Before the Curtain",
+      "desc": "Reach Trust Lv. 4 with Sunna.",
+      "rarity": 1
+    },
+    "1004068": {
+      "group": 1004,
+      "name": "Backstage Secrets of an Idol",
+      "desc": "Reach Trust Lv. 4 with Aria.",
+      "rarity": 1
+    },
+    "1004069": {
+      "group": 1004,
+      "name": "The Wings Were So Clear in the Dream",
+      "desc": "Reach Trust Lv. 4 with Nangong Yu.",
+      "rarity": 1
+    },
+    "1004070": {
+      "group": 1004,
+      "name": "Don't Chase Me Out",
+      "desc": "Reach Trust Lv. 4 with Cissia.",
+      "rarity": 1
+    },
+    "1004071": {
+      "group": 1004,
+      "name": "Deafeningly Silent Thoughts",
+      "desc": "Reach Trust Lv. 4 with Promeia.",
+      "rarity": 1
+    },
+    "1004072": {
+      "group": 1004,
+      "name": "Special Treatment",
+      "desc": "Reach Trust Lv. 4 with Velina.",
+      "rarity": 1
+    },
+    "1004073": {
+      "group": 1004,
+      "name": "Hands Off Bangboo Ears",
+      "desc": "Reach Trust Lv. 4 with Norma.",
+      "rarity": 1
+    },
+    "1004074": {
+      "group": 1004,
+      "name": "Forget-Me-Not",
+      "desc": "Reach Trust Lv. 4 with Remielle.",
+      "rarity": 1
+    },
+    "1004075": {
+      "group": 1004,
+      "name": "Legendary Knight",
+      "desc": "Reach Trust Lv. 4 with Sigrid.",
+      "rarity": 1
+    },
+    "1004076": {
+      "group": 1004,
+      "name": "My Master Can't Be This Cute",
+      "desc": "Reach Trust Lv. 4 with Claret.",
+      "rarity": 1
+    },
+    "1004077": {
+      "group": 1004,
+      "name": "May you sleep well every night",
+      "desc": "Reach Trust Lv. 4 with Roxy.",
+      "rarity": 1
+    },
+    "1005001": {
+      "group": 1005,
+      "name": "Life of a Proxy: Starting From Zero",
+      "desc": "Complete \"Business x Strangeness x Justness\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005002": {
+      "group": 1005,
+      "name": "Welcome, New Employee!",
+      "desc": "Complete \"Cat's Lost & Found\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005003": {
+      "group": 1006,
+      "name": "Family",
+      "desc": "Complete \"Just Another Day at the Video Store.\"",
+      "rarity": 2
+    },
+    "1005004": {
+      "group": 1005,
+      "name": "The Name of a \"Hero\"",
+      "desc": "Complete \"A Call From the Hollow's Heart\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005005": {
+      "group": 1005,
+      "name": "Public Security Officer's Answer",
+      "desc": "Complete \"Mission Unthinkable\" in Phaethon's Story.",
+      "rarity": 2
+    },
+    "1005006": {
+      "group": 1005,
+      "name": "Knocking on the Door of Destiny",
+      "desc": "Complete \"The Midnight Pursuit\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005007": {
+      "group": 1005,
+      "name": "A Hero is Born",
+      "desc": "Complete \"Tour de Inferno\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005008": {
+      "group": 1005,
+      "name": "Obliterate Despair",
+      "desc": "Complete \"A Storm of Falling Stars\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005009": {
+      "group": 1005,
+      "name": "Here Lies Fate",
+      "desc": "Complete \"Bury Your Tears With the Past (A)\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005010": {
+      "group": 1005,
+      "name": "The Song for Tomorrow",
+      "desc": "Complete \"Bury Your Tears With the Past (B)\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005011": {
+      "group": 1005,
+      "name": "Welcome to Waifei Peninsula",
+      "desc": "Explore the Porcelume Market with Ju Fufu in \"Where Clouds Embrace the Dawn.\"",
+      "rarity": 1
+    },
+    "1005012": {
+      "group": 1005,
+      "name": "Waifei First Aid Master",
+      "desc": "Save the Waifei Peninsula together with Yixuan in \"Where Clouds Embrace the Dawn.\"",
+      "rarity": 1
+    },
+    "1005013": {
+      "group": 1005,
+      "name": "Tonight, Past Dreams Be Whole",
+      "desc": "Resolve the Waifei Peninsula's crisis alongside the members of Yunkui Summit.",
+      "rarity": 3
+    },
+    "1005014": {
+      "group": 1005,
+      "name": "Intuitive Choice - Yuzuha",
+      "desc": "In \"The Impending Crash of Waves\", when searching for the vent in the cell, exchange information with Yuzuha first.",
+      "rarity": 1
+    },
+    "1005015": {
+      "group": 1005,
+      "name": "Intuitive Choice - Alice",
+      "desc": "In \"The Impending Crash of Waves\", when searching for the vent in the cell, exchange information with Alice first.",
+      "rarity": 1
+    },
+    "1005016": {
+      "group": 1005,
+      "name": "Instinctive Choice: Run for It",
+      "desc": "In \"The Impending Crash of Waves\", find the vent in the cell without exchanging information with anyone.",
+      "rarity": 1
+    },
+    "1005017": {
+      "group": 1005,
+      "name": "Journey Back to Shore",
+      "desc": "Complete Phaethon's Story \"The Impending Crash of Waves\".",
+      "rarity": 3
+    },
+    "1005018": {
+      "group": 1005,
+      "name": "Repay With a Night of Sound Sleep",
+      "desc": "Complete \"Do Not Go Gentle Into That Good Night\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005019": {
+      "group": 1005,
+      "name": "Walking With Dreams",
+      "desc": "Complete \"Memories of Dreams Bygone\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005020": {
+      "group": 1005,
+      "name": "Echo of Stone in the Abyss",
+      "desc": "Complete \"On the Precipice of the Abyss\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005021": {
+      "group": 1005,
+      "name": "Chasing Brilliance",
+      "desc": "Catch the falling Ye Shunguang.",
+      "rarity": 1
+    },
+    "1005022": {
+      "group": 1005,
+      "name": "The First Ray of Dawn's Glow",
+      "desc": "Investigate the anomaly in Lemnian Hollow with Ye Shunguang and Zhao.",
+      "rarity": 1
+    },
+    "1005023": {
+      "group": 1005,
+      "name": "Light's Warmth",
+      "desc": "Help Ye Shunguang restore her senses.",
+      "rarity": 1
+    },
+    "1005024": {
+      "group": 1005,
+      "name": "Dispelling the Haze",
+      "desc": "Defeat the source of the chaos that has taken root deep within Lemnian Hollow.",
+      "rarity": 2
+    },
+    "1005025": {
+      "group": 1005,
+      "name": "\"I'll Always Remember You\"",
+      "desc": "Complete \"To Be Fuel for the Night\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005026": {
+      "group": 1005,
+      "name": "Voice Dwelling in Delusion",
+      "desc": "Complete Phaethon's Story: Encore for an Old Dream.",
+      "rarity": 3
+    },
+    "1005027": {
+      "group": 1005,
+      "name": "Black Feather Upon the Chessboard",
+      "desc": "Complete \"New: Eridan Sunset (A)\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005028": {
+      "group": 1005,
+      "name": "White Wings Woven From Clouds",
+      "desc": "Complete \"New: Eridan Sunset (B)\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005029": {
+      "group": 1005,
+      "name": "Day of Awakening",
+      "desc": "Complete \"A Sleepwalker's Confession\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005030": {
+      "group": 1005,
+      "name": "Battlefield Photo Guide",
+      "desc": "Against a cocooning Girtablullu, successfully dodge every explosive shockwave and break the cocoon.",
+      "rarity": 1
+    },
+    "1005031": {
+      "group": 1005,
+      "name": "Battlefield Photo Guide",
+      "desc": "Against a cocooning Girtablullu, take damage from the explosive shockwave.",
+      "rarity": 1
+    },
+    "1005032": {
+      "group": 1005,
+      "name": "Ruler of the Skies",
+      "desc": "Using Remielle, claim victory in an aerial showdown against Girtablullu - Stagnant Aberrant.",
+      "rarity": 1
+    },
+    "1005033": {
+      "group": 1005,
+      "name": "Waltz of Partners-In-Crime",
+      "desc": "Complete \"The Long Goodbye\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005034": {
+      "group": 1005,
+      "name": "An Accomplice's Truth",
+      "desc": "Once the dust settles, find the letter Remielle left in her room.",
+      "rarity": 1
+    },
+    "1005035": {
+      "group": 1005,
+      "name": "With the Past as a Witness",
+      "desc": "Complete \"Their Secret Histories\" in Phaethon's Story.",
+      "rarity": 3
+    },
+    "1005036": {
+      "group": 1005,
+      "name": "Infiltration Search: Stealth Expert",
+      "desc": "Help Claret infiltrate the South Alert Zone and make it into the surveillance room.",
+      "rarity": 1
+    },
+    "1005037": {
+      "group": 1005,
+      "name": "Infiltration Investigation: Leave No Stone Unturned",
+      "desc": "During the infiltration search, take out all guards outside the restricted zone, then move into the surveillance room.",
+      "rarity": 1
+    },
+    "1005038": {
+      "group": 1005,
+      "name": "Infiltration Search: Leave No Trace",
+      "desc": "Enter the surveillance room without taking out any guards (tutorial guards excluded).",
+      "rarity": 1
+    },
+    "1005039": {
+      "group": 1005,
+      "name": "Infiltration Search: Bangboo Savior",
+      "desc": "Rescue the trapped Bangboo in the South Alert Zone, then head into the surveillance room.",
+      "rarity": 1
+    },
+    "1006001": {
+      "group": 1006,
+      "name": "Who Am I?",
+      "desc": "Complete the Soldier 11 Agent Story \"Mole in the Hole.\"",
+      "rarity": 2
+    },
+    "1006002": {
+      "group": 1006,
+      "name": "Kitties Have No Bad Intentions",
+      "desc": "Complete the Nekomata Agent Story \"Cat and Mouse Game.\"",
+      "rarity": 2
+    },
+    "1006003": {
+      "group": 1006,
+      "name": "The Amazing Grace",
+      "desc": "Complete the Grace Agent Story \"The Iron Witch.\"",
+      "rarity": 2
+    },
+    "1006004": {
+      "group": 1006,
+      "name": "Rebel at School",
+      "desc": "Complete the Koleda Agent Story \"Schoolyard Powerhouse.\"",
+      "rarity": 2
+    },
+    "1006005": {
+      "group": 1006,
+      "name": "And You, Are the Companion of Justice",
+      "desc": "Complete the Lycaon Agent Story \"And the True Heroes Are Always Behind the Scenes.\"",
+      "rarity": 2
+    },
+    "1006006": {
+      "group": 1006,
+      "name": "Sweetcakes That Never Expire",
+      "desc": "Complete the Rina Agent Story \"Until Your Memory Fades.\"",
+      "rarity": 2
+    },
+    "1006007": {
+      "group": 1006,
+      "name": "Bing Bing Bong Bong Bang Bangboo...",
+      "desc": "Complete the Qingyi Agent Story \"The Case of a Missing Bangboo.\"",
+      "rarity": 2
+    },
+    "1006008": {
+      "group": 1006,
+      "name": "I Was Rich Once!",
+      "desc": "Complete the Burnice Agent Story \"A Stroke of Luck.\"",
+      "rarity": 2
+    },
+    "1006009": {
+      "group": 1006,
+      "name": "Blazing Fist Frenzy",
+      "desc": "Complete the Lighter Agent Story \"The Unsung Champion.\"",
+      "rarity": 2
+    },
+    "1006010": {
+      "group": 1006,
+      "name": "Per Aspera Ad Astra",
+      "desc": "Complete the Harumasa Agent Story \"A Name Written in Water.\"",
+      "rarity": 2
+    },
+    "1006011": {
+      "group": 1006,
+      "name": "Not Your Average Cold-blooded Shark",
+      "desc": "Complete the Ellen Agent Story \"It's Me... Leave a Message.\"",
+      "rarity": 2
+    },
+    "1006012": {
+      "group": 1006,
+      "name": "Last Glance and First Hello",
+      "desc": "Complete the Trigger Agent Story \"Out of Sight.\"",
+      "rarity": 2
+    },
+    "1006013": {
+      "group": 1006,
+      "name": "Silver's Witness",
+      "desc": "Complete the Soldier 0 - Anby Agent Story \"Echoes of Silver.\"",
+      "rarity": 2
+    },
+    "1006014": {
+      "group": 1006,
+      "name": "Valiant Tiger Warrior, Bane of Demons",
+      "desc": "Complete the Ju Fufu Agent Story \"Legend of the Tiger Warrior!\"",
+      "rarity": 2
+    },
+    "1006015": {
+      "group": 1006,
+      "name": "On a Circle in a Sea of Flowers",
+      "desc": "Complete the Seed Agent Story \"Flora of the Blooming Valley.\"",
+      "rarity": 2
+    },
+    "1006016": {
+      "group": 1006,
+      "name": "Like a Shadow, Fading Into the Night",
+      "desc": "Complete the Lucia Agent Story \"Tales of the Dreamless.\"",
+      "rarity": 2
+    },
+    "1007001": {
+      "group": 3001,
+      "name": "Cat & Mouse Game?",
+      "desc": "Turn the tables on the Silk Tail in a dance-off during \"Path of Advancement.\"",
+      "rarity": 2
+    },
+    "1007002": {
+      "group": 1007,
+      "name": "Fading to Black",
+      "desc": "Complete Jane Doe's Special Episode \"Undercover R&B.\"",
+      "rarity": 3
+    },
+    "1007003": {
+      "group": 1007,
+      "name": "Brains of Section 6",
+      "desc": "Complete Tsukishiro Yanagi's Special Episode \"Virtual Revenge.\"",
+      "rarity": 3
+    },
+    "1007004": {
+      "group": 1007,
+      "name": "Riding the Wings of Songs",
+      "desc": "Complete Astra Yao's Special Episode \"Astra-nomical Moment.\"",
+      "rarity": 3
+    },
+    "1008001": {
+      "group": 1008,
+      "name": "Welcome to Cheesetopia",
+      "desc": "Rebuild Cheesetopia.",
+      "rarity": 1
+    },
+    "1008002": {
+      "group": 1008,
+      "name": "Hidden Menu",
+      "desc": "Manage Cheesetopia and unlock all dishes in the Guestbook.",
+      "rarity": 1
+    },
+    "1008003": {
+      "group": 1008,
+      "name": "A Six Star Rating",
+      "desc": "Run Cheesetopia and earn praise from all your customers.",
+      "rarity": 1
+    },
+    "1008004": {
+      "group": 1008,
+      "name": "Cheese is Power",
+      "desc": "Complete all the to-do tasks in Cheesetopia.",
+      "rarity": 1
+    },
+    "1008005": {
+      "group": 1008,
+      "name": "Across the River of Wailing",
+      "desc": "Complete all the Melinoe key plotlines in \"Into That Pale Wasteland.\"",
+      "rarity": 1
+    },
+    "1008006": {
+      "group": 1008,
+      "name": "Tributary Ferryman",
+      "desc": "Complete all the Melinoe side plotlines in \"Into That Pale Wasteland.\"",
+      "rarity": 1
+    },
+    "1008007": {
+      "group": 1008,
+      "name": "Blade of Desolation",
+      "desc": "Upgrade \"Gear Deployment\" to Lv. 30 in \"Into That Pale Wasteland.\"",
+      "rarity": 1
+    },
+    "1008008": {
+      "group": 1008,
+      "name": "An Ordinary Mission Log",
+      "desc": "Unlock all \"Deputy Chief's Notes\" in \"Into That Pale Wasteland.\"",
+      "rarity": 1
+    },
+    "1008009": {
+      "group": 1008,
+      "name": "Top Seed of the Championship",
+      "desc": "Complete the competition in Elpis Ultimate Angler Championship.",
+      "rarity": 1
+    },
+    "1008010": {
+      "group": 1008,
+      "name": "Fishermen's Tales",
+      "desc": "Complete all Port Anecdote in the Elpis Ultimate Angler Championship.",
+      "rarity": 1
+    },
+    "1008011": {
+      "group": 1008,
+      "name": "Never Go Home Empty-Handed!",
+      "desc": "Collect all 77 stars in the Fishing Encyclopedia of \"Elpis Ultimate Angler Championship.\"",
+      "rarity": 1
+    },
+    "1008012": {
+      "group": 1008,
+      "name": "You Can Catch Anything, Except...",
+      "desc": "Collect all junk items in the Fishing Encyclopedia of the Elpis Ultimate Angler Championship.",
+      "rarity": 1
+    },
+    "1008013": {
+      "group": 1008,
+      "name": "You Can Catch Anything, Including Fish!",
+      "desc": "Collect all fish species in the Fishing Encyclopedia of the \"Elpis Ultimate Angler Championship.\"",
+      "rarity": 1
+    },
+    "1008014": {
+      "group": 1008,
+      "name": "The Wish in the Bottle",
+      "desc": "Complete the commission \"Miracles Never Come Late\" in the Elpis Ultimate Angler Championship.",
+      "rarity": 1
+    },
+    "1008015": {
+      "group": 1008,
+      "name": "Style Above All!",
+      "desc": "In \"The Day of Brilliant Wishes,\" win any stage of Ridu's Got Boo while wearing an outfit that is not related to the stage's theme.",
+      "rarity": 1
+    },
+    "1008016": {
+      "group": 1008,
+      "name": "Dance Trainee",
+      "desc": "In \"The Day of Brilliant Wishes,\" complete all the Extra Training stages of Ridu's Got Boo with an S rating.",
+      "rarity": 1
+    },
+    "1008017": {
+      "group": 1008,
+      "name": "Nothing a Boo Can't Dance",
+      "desc": "In \"The Day of Brilliant Wishes,\" complete all Refinement stages of Ridu's Got Boo with an S rating.",
+      "rarity": 1
+    },
+    "1008018": {
+      "group": 1008,
+      "name": "The Muse's Closet",
+      "desc": "In \"The Day of Brilliant Wishes,\" collect all the performance costumes in Eous Maker.",
+      "rarity": 1
+    },
+    "1008019": {
+      "group": 1008,
+      "name": "Give Me Spring Flowers",
+      "desc": "In \"Say It With Flowers,\" select all the Agents' favorite flowers, accessories, or flowerpots.",
+      "rarity": 1
+    },
+    "1008020": {
+      "group": 1008,
+      "name": "What's This? Let Me Try!",
+      "desc": "In \"Say It With Flowers,\" use all the flowers, accessories, and flowerpots.",
+      "rarity": 1
+    },
+    "1008021": {
+      "group": 1008,
+      "name": "May You Gather More",
+      "desc": "In \"Say It With Flowers,\" press Agents' favorite items 20 times and listen to their reactions.",
+      "rarity": 1
+    },
+    "1008022": {
+      "group": 1008,
+      "name": "Wishing You Prosperity!",
+      "desc": "In \"Say It With Flowers,\" reach a total of 888,888 Dennies in revenue.",
+      "rarity": 1
+    },
+    "1008023": {
+      "group": 1008,
+      "name": "Phantom Thief Extraordinaire",
+      "desc": "In \"Say It With Flowers,\" discover how Hugo found Nineveh.",
+      "rarity": 1
+    },
+    "1008024": {
+      "group": 1008,
+      "name": "\"Bodhi Has No Tree\"",
+      "desc": "In \"Say It With Flowers,\" complete an Agent's floral commission using only flowerpots.",
+      "rarity": 1
+    },
+    "1008025": {
+      "group": 1008,
+      "name": "Connected Hearts, Chance Encounter",
+      "desc": "In \"Gravitational Attraction,\" reach a Gravity Soulmate movie review with 10 friends.",
+      "rarity": 1
+    },
+    "1008026": {
+      "group": 1008,
+      "name": "Let's Just Focus on the Movie...",
+      "desc": "In \"Gravitational Attraction,\" reach a Cinema's First Pact movie review with 1 friend.",
+      "rarity": 1
+    },
+    "1008027": {
+      "group": 1008,
+      "name": "It's Not About What You See",
+      "desc": "In \"Gravitational Attraction\", watch a disliked movie with 1 friend.",
+      "rarity": 1
+    },
+    "1008028": {
+      "group": 1008,
+      "name": "Exclusive Film Banquet",
+      "desc": "In \"Gravitational Attraction,\" reach an S+ rating in 6 \"Light & Shadow Exclusive\" stages.",
+      "rarity": 1
+    },
+    "1008029": {
+      "group": 1008,
+      "name": "Resort's Honorary Partner",
+      "desc": "Successfully revive the Fantasy Resort in \"Tales of Midsummer Dreams\".",
+      "rarity": 1
+    },
+    "1008030": {
+      "group": 1008,
+      "name": "The Legendary Mermaid",
+      "desc": "Complete Yuzuha's summer night side story \"A Mermaid Dream\" in \"Tales of Midsummer Dreams\".",
+      "rarity": 1
+    },
+    "1008031": {
+      "group": 1008,
+      "name": "Heatwave Bunny has arrived!",
+      "desc": "In \"Tales of Midsummer Dreams\", complete Alice's summer night side story \"Windrider, Wavebreaker\".",
+      "rarity": 1
+    },
+    "1008032": {
+      "group": 1008,
+      "name": "Aquascaping Expert",
+      "desc": "In \"Tales of Midsummer Dreams\", display all fish and unlock every decoration in the aquarium.",
+      "rarity": 1
+    },
+    "1008033": {
+      "group": 1008,
+      "name": "Incidental Marine Research",
+      "desc": "In Tales of Midsummer Dreams, unlock all fish species.",
+      "rarity": 1
+    },
+    "1008034": {
+      "group": 1008,
+      "name": "Dancing with the Heatwave",
+      "desc": "Achieve S-Rank on all \"Blazing Waves\" stages in \"Tales of Midsummer Dreams\".",
+      "rarity": 1
+    },
+    "1008035": {
+      "group": 1008,
+      "name": "Sea Sniper God",
+      "desc": "Achieve S-Rank in all \"Archipelago Shoot\" stages in \"Tales of Midsummer Dreams\".",
+      "rarity": 1
+    },
+    "1008036": {
+      "group": 1008,
+      "name": "Angler (A Melancholy Mercy for Fish Edition)",
+      "desc": "In Tales of Midsummer Dreams, release a total of 500 fish.",
+      "rarity": 1
+    },
+    "1008037": {
+      "group": 1008,
+      "name": "Top-Tier Exhibit",
+      "desc": "In Tales of Midsummer Dreams, display 8 rare subspecies in the aquarium.",
+      "rarity": 1
+    },
+    "1008038": {
+      "group": 1008,
+      "name": "A Moment Together!",
+      "desc": "In \"Tales of Midsummer Dreams\", meet up with old friends who you've video called before and after the music festival.",
+      "rarity": 1
+    },
+    "1008039": {
+      "group": 1008,
+      "name": "A Moment Together!",
+      "desc": "In \"Tales of Midsummer Dreams\", meet up with all your old friends who arrive at the resort before and after the music festival.",
+      "rarity": 1
+    },
+    "1008040": {
+      "group": 1008,
+      "name": "A Puzzle of the Truth of the Resort",
+      "desc": "In \"Tales of Midsummer Dreams\", get hidden backstory about the Fantasy Resort from Therese.",
+      "rarity": 1
+    },
+    "1008041": {
+      "group": 1008,
+      "name": "A Puzzle of the Truth of the Resort",
+      "desc": "In \"Tales of Midsummer Dreams\", gather background information about the resort while obtaining additional information from others.",
+      "rarity": 1
+    },
+    "1008042": {
+      "group": 1008,
+      "name": "A Puzzle of the Truth of the Resort",
+      "desc": "In \"Tales of Midsummer Dreams\", while learning about the resort's background, uncover all the extra information.",
+      "rarity": 1
+    },
+    "1008043": {
+      "group": 1008,
+      "name": "The Contract-Binding Proxy",
+      "desc": "In \"When Dreams Remain Unfinished\", form a contract with the Ethereal using Lucia's command.",
+      "rarity": 1
+    },
+    "1008044": {
+      "group": 1008,
+      "name": "Blue Horn, Three Turns!",
+      "desc": "Complete a combat within 3 turns in \"When Dreams Remain Unfinished\".",
+      "rarity": 1
+    },
+    "1008045": {
+      "group": 1008,
+      "name": "Timing Hero",
+      "desc": "Successfully perform 50 quick-time interactions in \"When Dreams Remain Unfinished\".",
+      "rarity": 1
+    },
+    "1008046": {
+      "group": 1008,
+      "name": "Ethereals, I Gotcha!",
+      "desc": "Collect all monster friends in \"When Dreams Remain Unfinished\".",
+      "rarity": 1
+    },
+    "1008047": {
+      "group": 1008,
+      "name": "Dream Simulation Master",
+      "desc": "Achieve S rank in all challenge stages in \"When Dreams Remain Unfinished\".",
+      "rarity": 1
+    },
+    "1008048": {
+      "group": 1008,
+      "name": "End of Unfinished Dreams",
+      "desc": "Wake Yidhari in \"When Dreams Remain Unfinished.\"",
+      "rarity": 1
+    },
+    "1008049": {
+      "group": 1008,
+      "name": "I'm Porter Boyd",
+      "desc": "Learn the real name of a certain \"Port Boy\" in \"When Dreams Remain Unfinished\".",
+      "rarity": 1
+    },
+    "1008050": {
+      "group": 1008,
+      "name": "Qingming Vagrant",
+      "desc": "Gather all three swords required by the trial and gain the approval of the Qingming Sword in \"Sword Seeker Chronicles.\"",
+      "rarity": 1
+    },
+    "1008051": {
+      "group": 1008,
+      "name": "Truth in Ink",
+      "desc": "Gather all the Sword Memories and restore the three swordmasters' past stories in \"Sword Seeker Chronicles.\"",
+      "rarity": 1
+    },
+    "1008052": {
+      "group": 1008,
+      "name": "The Sword Keeper's Full Power!",
+      "desc": "Clear all stages of the Sword Keeper Trial and Nightmare Gauntlet in \"Sword Seeker Chronicles.\"",
+      "rarity": 1
+    },
+    "1008053": {
+      "group": 1008,
+      "name": "Old Friend on the Other Side",
+      "desc": "Find the three notes left by Yijiang in \"Sword Seeker Chronicles.\"",
+      "rarity": 1
+    },
+    "1008054": {
+      "group": 1008,
+      "name": "A Clear New Chapter",
+      "desc": "Help the mysterious elder find the missing draft of his story in \"Sword Seeker Chronicles.\"",
+      "rarity": 1
+    },
+    "1008055": {
+      "group": 1008,
+      "name": "The First Step in Human Evolution",
+      "desc": "Achieve an S+ rating once in any \"Shining Melody\" or \"Solo Note\" stage.",
+      "rarity": 1
+    },
+    "1008056": {
+      "group": 1008,
+      "name": "I Like All of You",
+      "desc": "In \"Shining Melody\" or \"Solo Note\" stages, use 3 different Agents as the stage center 3 times each.",
+      "rarity": 1
+    },
+    "1008057": {
+      "group": 1008,
+      "name": "A New Voyage of \"Delusion\"",
+      "desc": "Witness the new wish of the \"Angels of Delusion.\"",
+      "rarity": 1
+    },
+    "1008058": {
+      "group": 1008,
+      "name": "Perfect Beat",
+      "desc": "In \"A Harmony of Delusions,\" achieve S-Rank on all \"Performance Showdown\" stages.",
+      "rarity": 1
+    },
+    "1008059": {
+      "group": 1008,
+      "name": "Trial After Trial",
+      "desc": "Make glutinous rice cakes with the help of Belobog Industries in \"Chronicle of Simmering Flavors.\"",
+      "rarity": 1
+    },
+    "1008060": {
+      "group": 1008,
+      "name": "Cooking Meister",
+      "desc": "Learn about the past between Stephen and Meister in \"Chronicle of Simmering Flavors.\"",
+      "rarity": 1
+    },
+    "1008061": {
+      "group": 1008,
+      "name": "Nothing Hot Pot Can't Solve",
+      "desc": "Complete all \"Search for Freshness\" stages in \"Chronicle of Simmering Flavors.\"",
+      "rarity": 1
+    },
+    "1008062": {
+      "group": 1008,
+      "name": "I, King of Hot Pot",
+      "desc": "Reach a Deliciousness of 60,000 in any \"Exquisite Tastes\" stage in \"Chronicle of Simmering Flavors.\"",
+      "rarity": 1
+    },
+    "1008063": {
+      "group": 1008,
+      "name": "Then, Onwards to Tomorrow",
+      "desc": "Host a wonderful party with the Bangboo in \"Bangbang! The Genius and the Miracle Chip.\"",
+      "rarity": 1
+    },
+    "1008064": {
+      "group": 1008,
+      "name": "A Good Collaboorator's Good Collaborator",
+      "desc": "Clear stage 60 of Data Domain Training in \"Bangbang! The Genius and the Miracle Chip.\"",
+      "rarity": 1
+    },
+    "1008065": {
+      "group": 1008,
+      "name": "Now, who's the Lord of Pressure?",
+      "desc": "In \"Bangbang! The Genius and the Miracle Chip,\" challenge and obtain a Challenge Score for all 60-Rank tough enemies in Stress Test.",
+      "rarity": 2
+    },
+    "1008066": {
+      "group": 1008,
+      "name": "Spill All the Tea",
+      "desc": "Includes all \"City Anecdotes\" in \"Bangbang! The Genius and the Miracle Chip.\"",
+      "rarity": 1
+    },
+    "1008067": {
+      "group": 1008,
+      "name": "Fashion is Boo's Camouflage",
+      "desc": "Help Jake change outfits in \"Bangbang! The Genius and the Miracle Chip.\"",
+      "rarity": 1
+    },
+    "1008068": {
+      "group": 1008,
+      "name": "Waves and Fireworks",
+      "desc": "In \"Summer Waves Roll In,\" witness the outcome of the bet between Sigrid and Norma.",
+      "rarity": 1
+    },
+    "1008069": {
+      "group": 1008,
+      "name": "Contractor of the Open Sea",
+      "desc": "In \"Summer Waves Roll In,\" collect more than 400 seafood items in a single Beachcombing run.",
+      "rarity": 1
+    },
+    "1008070": {
+      "group": 1008,
+      "name": "Crab Courtesy",
+      "desc": "Catch a Giant Brown Crab in \"Summer Waves Roll In.\"",
+      "rarity": 1
+    },
+    "1008071": {
+      "group": 1008,
+      "name": "Undisputed Sales King",
+      "desc": "In \"Summer Waves Roll In,\" reach a single \"Treasure Trading\" revenue of 80,000.",
+      "rarity": 1
+    },
+    "1008072": {
+      "group": 1008,
+      "name": "Souvenirs Always Sell",
+      "desc": "In \"Summer Waves Roll In,\" accumulate a total of 900,000 Revenue at the souvenir shop.",
+      "rarity": 1
+    },
+    "1008073": {
+      "group": 1008,
+      "name": "Ask the Magic Conch!",
+      "desc": "Listen to the \"Least Boring Performance\" at Fantasy Resort.",
+      "rarity": 1
+    },
+    "1009001": {
+      "group": 1009,
+      "name": "Mind Art Master",
+      "desc": "While using Soldier 11, press Basic Attack at the right moment to consecutively execute Fire Suppression 11 times.",
+      "rarity": 1
+    },
+    "1009002": {
+      "group": 1009,
+      "name": "{M#Attendant's Good Night Wish}{F#Good Night, My Lady.}",
+      "desc": "Encounter Lycaon, who is admiring the moon, at night.",
+      "rarity": 1
+    },
+    "1009003": {
+      "group": 1009,
+      "name": "Witness: Peak of Ten Thousand Floors",
+      "desc": "At the HIA Club, hear discussions about those who cleared all floors of the Simulated Battle Trial.",
+      "rarity": 1
+    },
+    "1009004": {
+      "group": 1009,
+      "name": "Witness: A Hero's Heel",
+      "desc": "At the HIA Club, hear about the retired investigator's experience with the Simulated Battle Trial.",
+      "rarity": 1
+    },
+    "1009005": {
+      "group": 1009,
+      "name": "Troublemaker Bangboo Stumbles",
+      "desc": "In the Luminous Hall of the Starloop Tower, witness the troublemaking Bangboo being caught.",
+      "rarity": 1
+    },
+    "1009006": {
+      "group": 1009,
+      "name": "\"Phaethon, Oh Phaethon!\"",
+      "desc": "In non-Joint Investigation modes, equip three Agents with 6 \"Phaethon's Melody\" Drive Discs each and complete 1 battle.",
+      "rarity": 1
+    },
+    "1009007": {
+      "group": 1009,
+      "name": "\"Change of plans\"",
+      "desc": "Reply to the Inter-Knot thread \"[Post] Hey everyone, does anyone know how to join Mockingbird?\"",
+      "rarity": 1
+    },
+    "1009008": {
+      "group": 1009,
+      "name": "Witness: Aiming for Big Fish",
+      "desc": "At the resort, you run into the first Ultimate Angler contestant who caught a Rank 3 pink octopus, and receive their generous gift.",
+      "rarity": 1
+    },
+    "1009009": {
+      "group": 1009,
+      "name": "Witness: Aiming for Big Fish",
+      "desc": "At the resort, you run into the first Ultimate Angler contestant who caught a Rank 3 pink octopus, and show off your own catch.",
+      "rarity": 1
+    },
+    "1009010": {
+      "group": 1009,
+      "name": "Fierce Office Politics",
+      "desc": "At the HIA club, you witnessed two Overtimeboo elbowing each other while debating Hoshimi Miyabi and Yixuan's combat prowess.",
+      "rarity": 1
+    },
+    "1009011": {
+      "group": 1009,
+      "name": "Sharp-Eyed Bangboo Detective!",
+      "desc": "Find a meticulous Bangboo detective in front of the Echo Chamber.",
+      "rarity": 1
+    },
+    "1009012": {
+      "group": 1009,
+      "name": "If I Had Long Ears",
+      "desc": "In the Section 6 office, hear Hoshimi Miyabi learning about the joint painting event.",
+      "rarity": 1
+    },
+    "1009013": {
+      "group": 1009,
+      "name": "\"Conservative\" Opinion",
+      "desc": "At Failume Heights, overhear two Bangboo discussing game strategies for \"En-Nah\" Chess Legend.",
+      "rarity": 1
+    },
+    "1009014": {
+      "group": 1009,
+      "name": "An Unreachable Reunion",
+      "desc": "At Scott Outpost, meet a soldier who keeps challenging the Miasma Priest to see Isolde again.",
+      "rarity": 1
+    },
+    "1009015": {
+      "group": 1009,
+      "name": "So Did You Do It or Not?",
+      "desc": "Reply to the Inter-Knot post \"First time playing Marcel Maze, doesn't seem too difficult.\"",
+      "rarity": 1
+    },
+    "1009016": {
+      "group": 1009,
+      "name": "Who's Got the Sickest Drilling Skills",
+      "desc": "Reply to the Inter-Knot post \"I'm begging you, Belobog Heavy Industries.\"",
+      "rarity": 1
+    },
+    "1009017": {
+      "group": 1009,
+      "name": "Intense \"404\" Battle",
+      "desc": "In \"404,\" witness three Overtimeboo clash over faith, songs, and idols.",
+      "rarity": 1
+    },
+    "1009018": {
+      "group": 1009,
+      "name": "In Their Prime",
+      "desc": "Run into Grandma Eve streaming late night at \"404.\"",
+      "rarity": 1
+    },
+    "1009019": {
+      "group": 1009,
+      "name": "Having Hot Pot While Singing",
+      "desc": "Discover a group of Astra Yao fans who sing \"Original Me\" together late at night near Simmer.",
+      "rarity": 1
+    },
+    "1009020": {
+      "group": 1009,
+      "name": "The Birth of a \"Pot Hunter\"",
+      "desc": "Near the Simmer hot pot restaurant, witness a legendary foodie earn the title of Pot Hunter.",
+      "rarity": 1
+    },
+    "1009021": {
+      "group": 1009,
+      "name": "\"Starlight Chronicles: Cycle of Destiny\"",
+      "desc": "At Gravity Cinema, bump into Billy chatting with fellow fans about the \"Knight Cup,\" and learn about the story behind the creation of \"Starlight Knights.\"",
+      "rarity": 1
+    },
+    "1009022": {
+      "group": 1009,
+      "name": "Fear Comes From Lack of Firepower",
+      "desc": "Outside Random Play, eavesdrop on three Void Hunter-Rank Bangboo discussing their \"lack of damage output\" during operations.",
+      "rarity": 1
+    },
+    "1009023": {
+      "group": 1009,
+      "name": "The Power of Outposts!",
+      "desc": "Near the metro entrance at Lumina Square, witness the story of two Proxies retrieving lost items through an Outpost.",
+      "rarity": 1
+    },
+    "1009024": {
+      "group": 1009,
+      "name": "\"Better for You to Just Quit Now\"",
+      "desc": "Reply to the Inter-Knot post \"Bizarre Brigade Maintenance Notice.\"",
+      "rarity": 1
+    },
+    "1009025": {
+      "group": 1009,
+      "name": "Just Another Night",
+      "desc": "Outside the Godfinger Arcade, listen to the ramblings of a Bizarre Brigade player.",
+      "rarity": 1
+    },
+    "1009026": {
+      "group": 1009,
+      "name": "Fan Creator Unleashed!",
+      "desc": "Reply to the Inter-Knot post \"The adorable Hoshimi Miyabi makes her grand entrance!\"",
+      "rarity": 1
+    },
+    "1009027": {
+      "group": 1009,
+      "name": "Hey, Fellow Fan!",
+      "desc": "Reply to the Inter-Knot post \"Tell me: Why is Biggest Fan acting kinda weird today?\"",
+      "rarity": 1
+    },
+    "2001001": {
+      "group": 2001,
+      "name": "Any Hope, Doc?",
+      "desc": "Clear Withered Domain with 5 Corruptions.",
+      "rarity": 1
+    },
+    "2001002": {
+      "group": 2001,
+      "name": "Roaring Power",
+      "desc": "Clear Withered Domain with at least 30 Resonia.",
+      "rarity": 1
+    },
+    "2001003": {
+      "group": 2001,
+      "name": "Noisy Miracle",
+      "desc": "Clear Withered Domain with at least 40 Resonia.",
+      "rarity": 2
+    },
+    "2001004": {
+      "group": 2001,
+      "name": "The Great King of Ether",
+      "desc": "Clear Withered Domain with at least 50 Resonia.",
+      "rarity": 3
+    },
+    "2001005": {
+      "group": 2001,
+      "name": "Signature Style",
+      "desc": "Collect all Resonia of any type during a single exploration of Withered Domain.",
+      "rarity": 1
+    },
+    "2001006": {
+      "group": 2001,
+      "name": "Rally! Uhn-ne uhn-ne!",
+      "desc": "Recruit 2 Ally Bangboo during a single exploration of Withered Domain.",
+      "rarity": 1
+    },
+    "2001007": {
+      "group": 2001,
+      "name": "One-Man Show",
+      "desc": "Clear Withered Domain while having only 1 Agent in the squad.",
+      "rarity": 1
+    },
+    "2001008": {
+      "group": 2001,
+      "name": "Gang Crime",
+      "desc": "Clear Withered Domain while having 3 Agents from the same faction in the squad.",
+      "rarity": 1
+    },
+    "2001009": {
+      "group": 2001,
+      "name": "Fundamentals of Elements",
+      "desc": "Clear Withered Domain while having 3 Agents of the same attribute in the squad.",
+      "rarity": 1
+    },
+    "2001012": {
+      "group": 2001,
+      "name": "Steam Economics",
+      "desc": "Obtain a total of 10,000 Gear Coins in Withered Domain.",
+      "rarity": 1
+    },
+    "2001013": {
+      "group": 2001,
+      "name": "Hollow Monopoly",
+      "desc": "Obtain a total of 50,000 Gear Coins in Withered Domain.",
+      "rarity": 2
+    },
+    "2001014": {
+      "group": 2001,
+      "name": "Lord of Bronze and Gears",
+      "desc": "Obtain a total of 200,000 Gear Coins in Withered Domain.",
+      "rarity": 3
+    },
+    "2001015": {
+      "group": 2001,
+      "name": "Counseling Hotline",
+      "desc": "Reduce a total of 300 Pressure in Withered Domain.",
+      "rarity": 1
+    },
+    "2001016": {
+      "group": 2001,
+      "name": "Don't Give Up Yet, Doc!",
+      "desc": "Restore a total of 300% HP for the squad in Withered Domain.",
+      "rarity": 1
+    },
+    "2001017": {
+      "group": 2001,
+      "name": "He is Still Getting Stronger!",
+      "desc": "Catalyze Resonium 5 times in Withered Domain.",
+      "rarity": 1
+    },
+    "2001018": {
+      "group": 2001,
+      "name": "Picky Buyer",
+      "desc": "Refresh Resonium 5 times in Withered Domain.",
+      "rarity": 1
+    },
+    "2001019": {
+      "group": 2001,
+      "name": "I Want This! And That!",
+      "desc": "In Withered Domain, buy a total of 5 Resonia from the Bangboo merchant.",
+      "rarity": 1
+    },
+    "2001020": {
+      "group": 2001,
+      "name": "Rookie's Guide to the Hollow",
+      "desc": "Trigger 10 events in Withered Domain.",
+      "rarity": 1
+    },
+    "2001021": {
+      "group": 2001,
+      "name": "Adventures in Wonderland",
+      "desc": "Enter 3 Special Areas in Withered Domain.",
+      "rarity": 1
+    },
+    "2001022": {
+      "group": 2001,
+      "name": "Breaking In I",
+      "desc": "Defeat the Gatekeeper with Battle Rank S in Withered Domain.",
+      "rarity": 1
+    },
+    "2001023": {
+      "group": 2001,
+      "name": "Breaking In II",
+      "desc": "Defeat the Gatekeeper with Battle Rank S 5 times in Withered Domain.",
+      "rarity": 2
+    },
+    "2001024": {
+      "group": 2001,
+      "name": "Breaking In III",
+      "desc": "Defeat the Gatekeeper with Battle Rank S 20 times in Withered Domain.",
+      "rarity": 3
+    },
+    "2001027": {
+      "group": 2001,
+      "name": "Huge RAM",
+      "desc": "Use 20 Bangboo Plug-Ins in Withered Domain.",
+      "rarity": 1
+    },
+    "2001028": {
+      "group": 2001,
+      "name": "Self-Rescue by Fire",
+      "desc": "Obtain an [Ignite] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001029": {
+      "group": 2001,
+      "name": "Full Battery",
+      "desc": "Obtain an [Energy] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001030": {
+      "group": 2001,
+      "name": "A Crushing Strike",
+      "desc": "Obtain a [Critical] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001031": {
+      "group": 2001,
+      "name": "Three-Dimensional Defense",
+      "desc": "Obtain a [Shield] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001032": {
+      "group": 2001,
+      "name": "Kite Experiment",
+      "desc": "Obtain a [Shock] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001033": {
+      "group": 2001,
+      "name": "Close Combat",
+      "desc": "Obtain a [Duel] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001034": {
+      "group": 2001,
+      "name": "If He's Strong, He's Strong",
+      "desc": "Obtain a [Dodge] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001035": {
+      "group": 2001,
+      "name": "Rapid Freezing",
+      "desc": "Obtain a [Freeze] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001036": {
+      "group": 2001,
+      "name": "Overpower All Odds",
+      "desc": "Obtain an [Onslaught] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001037": {
+      "group": 2001,
+      "name": "Hollow Emergency Hotline",
+      "desc": "Obtain an [Assist] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001038": {
+      "group": 2001,
+      "name": "An Eye for An Eye",
+      "desc": "Obtain an [Ether] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001039": {
+      "group": 2001,
+      "name": "\"Help...!\"",
+      "desc": "Obtain a [Synergy] Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2001040": {
+      "group": 2001,
+      "name": "Say No to Arson",
+      "desc": "Obtain all [Ignite] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001041": {
+      "group": 2001,
+      "name": "Timely Electrolyte Replenishment",
+      "desc": "Obtain all [Energy] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001042": {
+      "group": 2001,
+      "name": "Art of Ammunition",
+      "desc": "Obtain all [Critical] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001043": {
+      "group": 2001,
+      "name": "Armor Master",
+      "desc": "Obtain all [Shield] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001044": {
+      "group": 2001,
+      "name": "Maintain Battery Charge",
+      "desc": "Obtain all [Shock] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001045": {
+      "group": 2001,
+      "name": "The Seventh Weapon",
+      "desc": "Obtain all [Duel] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001046": {
+      "group": 2001,
+      "name": "Invincible Speed",
+      "desc": "Obtain all [Dodge] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001047": {
+      "group": 2001,
+      "name": "Extremely Cold",
+      "desc": "Obtain all [Freeze] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001048": {
+      "group": 2001,
+      "name": "Safety Not Guaranteed",
+      "desc": "Obtain all [Onslaught] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001049": {
+      "group": 2001,
+      "name": "\"Cover Me!\"",
+      "desc": "Obtain all [Assist] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001050": {
+      "group": 2001,
+      "name": "\"New Energy! New Era!\"",
+      "desc": "Obtain all [Ether] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001051": {
+      "group": 2001,
+      "name": "\"BFFs\"",
+      "desc": "Obtain all [Synergy] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001053": {
+      "group": 2001,
+      "name": "Desensitization Therapy",
+      "desc": "Obtain 5 Corruptions in Withered Domain.",
+      "rarity": 1
+    },
+    "2001054": {
+      "group": 2001,
+      "name": "Reformed Hollow Raider",
+      "desc": "Complete the exploration of Withered Domain on Edge difficulty for the first time.",
+      "rarity": 1
+    },
+    "2001055": {
+      "group": 2001,
+      "name": "Association Pioneer",
+      "desc": "Complete the exploration of Withered Domain on Frontline difficulty for the first time.",
+      "rarity": 1
+    },
+    "2001056": {
+      "group": 2001,
+      "name": "Friend of White Star",
+      "desc": "Complete the exploration of Withered Domain on Interior difficulty for the first time.",
+      "rarity": 1
+    },
+    "2001057": {
+      "group": 2001,
+      "name": "Section 6 Certification",
+      "desc": "Complete the exploration of Withered Domain on Heartland difficulty for the first time.",
+      "rarity": 1
+    },
+    "2001058": {
+      "group": 2001,
+      "name": "Scott's Trump Card",
+      "desc": "Complete the exploration of Withered Domain on Core difficulty for the first time.",
+      "rarity": 1
+    },
+    "2001059": {
+      "group": 2001,
+      "name": "Rookie Gardener",
+      "desc": "Deal over 20 million damage to Nineveh in a single match during the Inferno Reap operation.",
+      "rarity": 1
+    },
+    "2001060": {
+      "group": 2001,
+      "name": "Seasoned Gardener",
+      "desc": "Deal over 30 million damage to Nineveh in a single match during the Inferno Reap operation.",
+      "rarity": 2
+    },
+    "2001061": {
+      "group": 2001,
+      "name": "Root Eradication",
+      "desc": "Defeat Nineveh 5 times in the Inferno Reap operation.",
+      "rarity": 3
+    },
+    "2001062": {
+      "group": 2001,
+      "name": "Gimme 60 More Seconds",
+      "desc": "Gain more than 60 seconds of extended time in a single match during the Inferno Reap operation.",
+      "rarity": 1
+    },
+    "2001064": {
+      "group": 2001,
+      "name": "Large Deposit Certificate",
+      "desc": "In Withered Domain, accumulate 2,000 points at Bank Zero.",
+      "rarity": 1
+    },
+    "2001065": {
+      "group": 2001,
+      "name": "I Found a Penny in the Hollow",
+      "desc": "During a single exploration of Withered Domain, accumulate over 30,000 Gear Coins.",
+      "rarity": 1
+    },
+    "2001066": {
+      "group": 2001,
+      "name": "Forcing Growth",
+      "desc": "Clear \"Withering Garden: Seedbed\" at \"Ether Activity: 11.\"",
+      "rarity": 3
+    },
+    "2001067": {
+      "group": 2001,
+      "name": "Weeding Specialist",
+      "desc": "Complete Withering Garden: Seedbed with all Agents' HP greater than 70%.",
+      "rarity": 1
+    },
+    "2001068": {
+      "group": 2001,
+      "name": "Narrow Escape",
+      "desc": "Obtain all [Tenacity] Resonia in Withered Domain.",
+      "rarity": 1
+    },
+    "2001069": {
+      "group": 2001,
+      "name": "Rapid Rescue",
+      "desc": "Obtain a Tenacity Advanced Resonium II in Withered Domain.",
+      "rarity": 1
+    },
+    "2002001": {
+      "group": 2002,
+      "name": "One Hit, One Kill I",
+      "desc": "Deal more than 100,000 DMG in a single attack.",
+      "rarity": 1
+    },
+    "2002002": {
+      "group": 2002,
+      "name": "One Hit, One Kill II",
+      "desc": "Deal more than 500,000 DMG in a single attack.",
+      "rarity": 2
+    },
+    "2002003": {
+      "group": 2002,
+      "name": "One Hit, One Kill III",
+      "desc": "Deal more than 1,000,000 DMG in a single attack.",
+      "rarity": 3
+    },
+    "2002009": {
+      "group": 2002,
+      "name": "Strike of Lifetime I",
+      "desc": "Agents use their Ultimates 10 times.",
+      "rarity": 1
+    },
+    "2002010": {
+      "group": 2002,
+      "name": "Strike of Lifetime II",
+      "desc": "Agents use their Ultimates 50 times.",
+      "rarity": 2
+    },
+    "2002011": {
+      "group": 2002,
+      "name": "Strike of Lifetime III",
+      "desc": "Agents use their Ultimates 200 times.",
+      "rarity": 3
+    },
+    "2002012": {
+      "group": 2002,
+      "name": "Timely Help I",
+      "desc": "Trigger Perfect Assist 10 times.",
+      "rarity": 1
+    },
+    "2002013": {
+      "group": 2002,
+      "name": "Timely Help II",
+      "desc": "Trigger Perfect Assist 50 times.",
+      "rarity": 2
+    },
+    "2002014": {
+      "group": 2002,
+      "name": "Timely Help III",
+      "desc": "Trigger Perfect Assist 200 times.",
+      "rarity": 3
+    },
+    "2002015": {
+      "group": 2002,
+      "name": "Hiding Behind the Blade I",
+      "desc": "Trigger Perfect Dodge 10 times.",
+      "rarity": 1
+    },
+    "2002016": {
+      "group": 2002,
+      "name": "Hiding Behind the Blade II",
+      "desc": "Trigger Perfect Dodge 50 times.",
+      "rarity": 2
+    },
+    "2002017": {
+      "group": 2002,
+      "name": "Hiding Behind the Blade III",
+      "desc": "Trigger Perfect Dodge 200 times.",
+      "rarity": 3
+    },
+    "2002019": {
+      "group": 2002,
+      "name": "Quick Work",
+      "desc": "In non-Joint Investigation modes, Stun 3 different enemies in succession and allow 3 Agents in the squad to take turns providing support.",
+      "rarity": 1
+    },
+    "2002020": {
+      "group": 2002,
+      "name": "Gotta Look Cool in Close-Ups",
+      "desc": "In the HDD System, defeat the final enemy with an Ultimate.",
+      "rarity": 1
+    },
+    "2002023": {
+      "group": 2002,
+      "name": "Swish! Swoosh! Swash!",
+      "desc": "Trigger Perfect Assist 3 times within 10 seconds.",
+      "rarity": 1
+    },
+    "2002024": {
+      "group": 2002,
+      "name": "Forgotten While Saving",
+      "desc": "In the HDD System, complete a combat commission with full Decibels.",
+      "rarity": 1
+    },
+    "2002026": {
+      "group": 2002,
+      "name": "I—It's Burning!",
+      "desc": "In the HDD System, complete 30 combat commissions with 3 Fire Agents.",
+      "rarity": 1
+    },
+    "2002027": {
+      "group": 2002,
+      "name": "Like in a Fridge",
+      "desc": "In the HDD System, complete 30 combat commissions with 3 Ice Agents.",
+      "rarity": 1
+    },
+    "2002028": {
+      "group": 2002,
+      "name": "Oh, So Sore!",
+      "desc": "In the HDD System, complete 30 combat commissions with 3 Electric Agents.",
+      "rarity": 1
+    },
+    "2002029": {
+      "group": 2002,
+      "name": "Ether Studies in Difficult Times",
+      "desc": "In the HDD System, complete 30 combat commissions with 3 Ether Agents.",
+      "rarity": 1
+    },
+    "2002030": {
+      "group": 2002,
+      "name": "Do You Believe in Strength?",
+      "desc": "In the HDD System, complete 30 combat commissions with 3 Physical Agents.",
+      "rarity": 1
+    },
+    "2002034": {
+      "group": 2002,
+      "name": "The Fire Within I",
+      "desc": "Inflict Attribute Anomaly on enemies 10 times with Fire Agents.",
+      "rarity": 1
+    },
+    "2002035": {
+      "group": 2002,
+      "name": "The Fire Within II",
+      "desc": "Inflict Attribute Anomaly on enemies 50 times with Fire Agents.",
+      "rarity": 2
+    },
+    "2002036": {
+      "group": 2002,
+      "name": "The Fire Within III",
+      "desc": "Inflict Attribute Anomaly on enemies 200 times with Fire Agents.",
+      "rarity": 3
+    },
+    "2002037": {
+      "group": 2002,
+      "name": "Chill Out, Please I",
+      "desc": "Inflict Attribute Anomaly on enemies 10 times with Ice Agents.",
+      "rarity": 1
+    },
+    "2002038": {
+      "group": 2002,
+      "name": "Chill Out, Please II",
+      "desc": "Inflict Attribute Anomaly on enemies 50 times with Ice Agents.",
+      "rarity": 2
+    },
+    "2002039": {
+      "group": 2002,
+      "name": "Chill Out, Please III",
+      "desc": "Inflict Attribute Anomaly on enemies 200 times with Ice Agents.",
+      "rarity": 3
+    },
+    "2002040": {
+      "group": 2002,
+      "name": "Shock-Like Sensation I",
+      "desc": "Inflict Attribute Anomaly on enemies 10 times with Electric Agents.",
+      "rarity": 1
+    },
+    "2002041": {
+      "group": 2002,
+      "name": "Shock-Like Sensation II",
+      "desc": "Inflict Attribute Anomaly on enemies 50 times with Electric Agents.",
+      "rarity": 2
+    },
+    "2002042": {
+      "group": 2002,
+      "name": "Shock-Like Sensation III",
+      "desc": "Inflict Attribute Anomaly on enemies 200 times with Electric Agents.",
+      "rarity": 3
+    },
+    "2002043": {
+      "group": 2002,
+      "name": "Seemed Too Difficult I",
+      "desc": "Inflict Attribute Anomaly on enemies 10 times with Ether Agents.",
+      "rarity": 1
+    },
+    "2002044": {
+      "group": 2002,
+      "name": "Seemed Too Difficult II",
+      "desc": "Inflict Attribute Anomaly on enemies 50 times with Ether Agents.",
+      "rarity": 2
+    },
+    "2002045": {
+      "group": 2002,
+      "name": "Seemed Too Difficult III",
+      "desc": "Inflict Attribute Anomaly on enemies 200 times with Ether Agents.",
+      "rarity": 3
+    },
+    "2002046": {
+      "group": 2002,
+      "name": "Logical Argument I",
+      "desc": "Inflict Attribute Anomaly on enemies 10 times with Physical Agents.",
+      "rarity": 1
+    },
+    "2002047": {
+      "group": 2002,
+      "name": "Logical Argument II",
+      "desc": "Inflict Attribute Anomaly on enemies 50 times with Physical Agents.",
+      "rarity": 2
+    },
+    "2002048": {
+      "group": 2002,
+      "name": "Logical Argument III",
+      "desc": "Inflict Attribute Anomaly on enemies 200 times with Physical Agents.",
+      "rarity": 3
+    },
+    "2002049": {
+      "group": 2002,
+      "name": "Electric Dream I",
+      "desc": "Trigger Disorder 10 times.",
+      "rarity": 1
+    },
+    "2002050": {
+      "group": 2002,
+      "name": "Electric Dream II",
+      "desc": "Trigger Disorder 50 times.",
+      "rarity": 2
+    },
+    "2002051": {
+      "group": 2002,
+      "name": "Electric Dream III",
+      "desc": "Trigger Disorder 200 times.",
+      "rarity": 3
+    },
+    "2002052": {
+      "group": 2002,
+      "name": "Little Bangboo, Great Energy",
+      "desc": "Reach 10,000 DMG dealt in a single hit by your deployed Bangboo.",
+      "rarity": 1
+    },
+    "2002053": {
+      "group": 2002,
+      "name": "Family's Fighting Master",
+      "desc": "Reach 50,000 DMG dealt in a single hit by your deployed Bangboo.",
+      "rarity": 2
+    },
+    "2002054": {
+      "group": 2002,
+      "name": "Mini War Machine",
+      "desc": "Reach 100,000 DMG dealt in a single hit by your deployed Bangboo.",
+      "rarity": 3
+    },
+    "2002055": {
+      "group": 2002,
+      "name": "The Rising Winds Ⅰ",
+      "desc": "Trigger Wind Anomaly 10 times.",
+      "rarity": 1
+    },
+    "2002056": {
+      "group": 2002,
+      "name": "The Rising Winds Ⅱ",
+      "desc": "Trigger Wind Anomaly 50 times.",
+      "rarity": 2
+    },
+    "2002057": {
+      "group": 2002,
+      "name": "The Rising Winds Ⅲ",
+      "desc": "Trigger Wind Anomaly 200 times.",
+      "rarity": 3
+    },
+    "2002058": {
+      "group": 2002,
+      "name": "Falling Stars, Scattered Clouds Ⅰ",
+      "desc": "Trigger Vortex 10 times.",
+      "rarity": 1
+    },
+    "2002059": {
+      "group": 2002,
+      "name": "Falling Stars, Scattered Clouds Ⅱ",
+      "desc": "Trigger Vortex 50 times.",
+      "rarity": 2
+    },
+    "2002060": {
+      "group": 2002,
+      "name": "Falling Stars, Scattered Clouds Ⅲ",
+      "desc": "Trigger Vortex 200 times.",
+      "rarity": 3
+    },
+    "2002061": {
+      "group": 2002,
+      "name": "Shattered Reflections Ⅰ",
+      "desc": "Trigger the Lumiflux attribute Refringe effect 10 times in combat.",
+      "rarity": 1
+    },
+    "2002062": {
+      "group": 2002,
+      "name": "Shattered Reflections II",
+      "desc": "Trigger the Lumiflux attribute Refringe effect 50 times in combat.",
+      "rarity": 2
+    },
+    "2002063": {
+      "group": 2002,
+      "name": "Shattered Reflections Ⅲ",
+      "desc": "Trigger the Lumiflux attribute Refringe effect 200 times in combat.",
+      "rarity": 3
+    },
+    "2002064": {
+      "group": 2002,
+      "name": "Shattered Gold I",
+      "desc": "Trigger Maim 10 times.",
+      "rarity": 1
+    },
+    "2002065": {
+      "group": 2002,
+      "name": "Shattered Gold Ⅱ",
+      "desc": "Trigger Maim 50 times.",
+      "rarity": 2
+    },
+    "2002066": {
+      "group": 2002,
+      "name": "Shattered Gold Ⅲ",
+      "desc": "Trigger Maim 200 times.",
+      "rarity": 3
+    },
+    "2003001": {
+      "group": 2003,
+      "name": "Dead End Butcher",
+      "desc": "Make the Dead End Butcher kneel without Stunning it.",
+      "rarity": 1
+    },
+    "2003002": {
+      "group": 2003,
+      "name": "Comminuted Fracture",
+      "desc": "During combat with Corruption Complex, trigger Impaired 3 times in a single phase.",
+      "rarity": 1
+    },
+    "2003003": {
+      "group": 2003,
+      "name": "Curtain Call",
+      "desc": "Prevent any enemy from reviving in a challenge against the Twin Marionettes.",
+      "rarity": 1
+    },
+    "2003004": {
+      "group": 2002,
+      "name": "The Last Hero",
+      "desc": "In the HDD System, complete a combat commission with only 1 Agent left in the squad.",
+      "rarity": 1
+    },
+    "2003005": {
+      "group": 2002,
+      "name": "Demolitions Expert",
+      "desc": "Trigger Impaired in combat 10 times.",
+      "rarity": 1
+    },
+    "2003006": {
+      "group": 2003,
+      "name": "Roadside Stop",
+      "desc": "Use Defensive Assist against Pompey when he uses his hook to make him fall in both phases.",
+      "rarity": 1
+    },
+    "2003007": {
+      "group": 2003,
+      "name": "Who's the Sacrifice?",
+      "desc": "Dodge all attacks from Sacrifice - Bringer while it is using the Sacrificial Knife.",
+      "rarity": 1
+    },
+    "2003008": {
+      "group": 2003,
+      "name": "Sever the Source of Corruption",
+      "desc": "Defeat the Miasma Priest before they activate Miasmic Field.",
+      "rarity": 1
+    },
+    "2003009": {
+      "group": 2003,
+      "name": "\"Drastic Measures\"",
+      "desc": "While fighting Miasmic Fiend - Unfathomable, draw ground-based attacks to detonate all the Miasma Pools.",
+      "rarity": 1
+    },
+    "2003010": {
+      "group": 2003,
+      "name": "The Blasphemous Shall Not Ascend",
+      "desc": "While fighting The Defiler, knock them down twice using Defensive Assist when they are floating in the air.",
+      "rarity": 1
+    },
+    "2003011": {
+      "group": 2003,
+      "name": "No Dangerous Stunts Allowed",
+      "desc": "When fighting the Heretic Jester, activate Defensive Assist to deflect its throwing knives.",
+      "rarity": 1
+    },
+    "2003012": {
+      "group": 2003,
+      "name": "Guest Traffic Public Security Officer",
+      "desc": "Successfully perform 3 Defensive Assists during Avarus's straight-line dash.",
+      "rarity": 1
+    },
+    "2003013": {
+      "group": 2003,
+      "name": "No Supernatural Nonsense!",
+      "desc": "During the battle with Haytor, perform Defensive Assist 3 times against the giant phantom summoned.",
+      "rarity": 1
+    },
+    "2003014": {
+      "group": 2003,
+      "name": "The Final Hide and Seek",
+      "desc": "During the battle with Wandering Hunter, find the wrong Lucia in hide and seek.",
+      "rarity": 1
+    },
+    "2003015": {
+      "group": 2003,
+      "name": "Awful Miasma Crocs!",
+      "desc": "Defeat Sobek once during a battle with {0}.",
+      "rarity": 1
+    },
+    "2003016": {
+      "group": 2003,
+      "name": "Proxy: Covenant Destroyer",
+      "desc": "When fighting Sacrifice - Covenant Guardian, clear its Miasmic Shield within 25s after it enters Miasmic Field.",
+      "rarity": 1
+    },
+    "2003017": {
+      "group": 2003,
+      "name": "Nightmare of Nightmares",
+      "desc": "Avoid all \"{0}\"'s slashes from the Brand of Miasmic Ruin control attack and trigger a Shutdown.",
+      "rarity": 1
+    },
+    "2003018": {
+      "group": 2003,
+      "name": "And Awful Miasma Scorpions Too!",
+      "desc": "During combat with Miasma Walker - Scorpse, use Defensive Assist or Dodge Counter to block four attacks from Mimics.",
+      "rarity": 1
+    },
+    "2003019": {
+      "group": 2003,
+      "name": "With Allies Like These...",
+      "desc": "During combat with Miasmic - Lightfoot Rover and Miasmic- Heavy Striker, witness their \"fatal mistake.\"",
+      "rarity": 1
+    },
+    "2003020": {
+      "group": 2003,
+      "name": "Penetration Intercept Master",
+      "desc": "While in combat with {0}, use Defensive Assist to shut down a Control Skill.",
+      "rarity": 1
+    },
+    "2003021": {
+      "group": 2003,
+      "name": "40-Meter Laser Greatsword",
+      "desc": "Triggers Shutdown when Wishful Finale or Mirage Archer Unit uses a Control Skill.",
+      "rarity": 1
+    },
+    "2003022": {
+      "group": 2003,
+      "name": "Dog Walking Expert",
+      "desc": "In the battle against Sanguine Sweeper, repeatedly launch Perfect Assists to interrupt the boss' shuttle attacks.",
+      "rarity": 1
+    },
+    "2003023": {
+      "group": 2003,
+      "name": "\"Don't Look Directly at the Sun!\"",
+      "desc": "During combat against {0}, successfully counter any skill from all enemy units they've summoned using Defensive Assist.",
+      "rarity": 1
+    },
+    "2003024": {
+      "group": 2003,
+      "name": "Pro Pest Control",
+      "desc": "During the fight against Girtablullu, perform a Chain Defensive against three consecutive attacks after it activates Corruptive Barrier, triggering a Chain Parry on the final one.",
+      "rarity": 1
+    },
+    "2003025": {
+      "group": 2003,
+      "name": "Disassembly Expert - Airspace Edition",
+      "desc": "In a battle against an Airspace Sentinel, attack its core and trigger the Impaired status twice.",
+      "rarity": 1
+    },
+    "2003026": {
+      "group": 2003,
+      "name": "\"They're here!\"",
+      "desc": "Approach and intimidate the same Mutant Formicarrier 3 times in a row.",
+      "rarity": 1
+    },
+    "2003027": {
+      "group": 2003,
+      "name": "Unstoppable",
+      "desc": "While fighting the Stagnant Aberrant, destroy its Corruptive Barrier once during both the first and second phases.",
+      "rarity": 1
+    },
+    "2003028": {
+      "group": 2003,
+      "name": "Keep the Fire from Falling",
+      "desc": "During the battle against the Infernal Revenant, keep the total duration of the Fire Rain state to no more than 20s.",
+      "rarity": 1
+    },
+    "2003029": {
+      "group": 2003,
+      "name": "Can't Touch This",
+      "desc": "Use a Defensive Assist 3 times against Kusarikku's Rift Assault attacks during the battle.",
+      "rarity": 1
+    },
+    "2003030": {
+      "group": 2003,
+      "name": "Nowhere to Hide",
+      "desc": "In battle against the Conqueror, successfully counter attacks made under optical camouflage a total of 2 times.",
+      "rarity": 1
+    },
+    "2004002": {
+      "group": 2004,
+      "name": "Welcome to Virtual World",
+      "desc": "Complete training once in Combat Simulation.",
+      "rarity": 1
+    },
+    "2004003": {
+      "group": 2004,
+      "name": "Warm-Up Exercises",
+      "desc": "Complete training 20 times in Combat Simulation.",
+      "rarity": 1
+    },
+    "2004004": {
+      "group": 2004,
+      "name": "No Match to Me",
+      "desc": "Complete training 100 times in Combat Simulation.",
+      "rarity": 2
+    },
+    "2004005": {
+      "group": 2004,
+      "name": "Device Debugging",
+      "desc": "Complete Area Patrol 1 time.",
+      "rarity": 1
+    },
+    "2004006": {
+      "group": 2004,
+      "name": "Piece of Cake!",
+      "desc": "Complete Area Patrol 20 times.",
+      "rarity": 1
+    },
+    "2004007": {
+      "group": 2004,
+      "name": "Perfect Teamwork",
+      "desc": "Complete Area Patrol 100 times.",
+      "rarity": 2
+    },
+    "2004008": {
+      "group": 2004,
+      "name": "This is What You Call Professionalism!",
+      "desc": "Complete training 1 time in Expert Challenge.",
+      "rarity": 1
+    },
+    "2004009": {
+      "group": 2004,
+      "name": "I'm... Used to It",
+      "desc": "Complete training 20 times in Expert Challenge.",
+      "rarity": 1
+    },
+    "2004010": {
+      "group": 2004,
+      "name": "Pro Player",
+      "desc": "Complete training 100 times in Expert Challenge.",
+      "rarity": 2
+    },
+    "2004011": {
+      "group": 2004,
+      "name": "...Is that it?",
+      "desc": "Complete Notorious Hunt 1 time.",
+      "rarity": 1
+    },
+    "2004012": {
+      "group": 2004,
+      "name": "Master of Stress Management",
+      "desc": "Complete Notorious Hunt 20 times.",
+      "rarity": 1
+    },
+    "2004013": {
+      "group": 2004,
+      "name": "Dancing on the Blade's Edge",
+      "desc": "Complete Notorious Hunt 100 times.",
+      "rarity": 2
+    },
+    "2004014": {
+      "group": 2004,
+      "name": "Extensive Tour",
+      "desc": "Complete all Rally Commissions in Metro Terminal with an S-Rank rating.",
+      "rarity": 2
+    },
+    "2004015": {
+      "group": 2004,
+      "name": "Hide and Seek: Old Metro",
+      "desc": "Find all hidden Mini Cargo Trucks in Metro Terminal.",
+      "rarity": 1
+    },
+    "2004016": {
+      "group": 2004,
+      "name": "You're surrounded!",
+      "desc": "Find and defeat all the enemies waiting in ambush in Metro Terminal.",
+      "rarity": 1
+    },
+    "2004017": {
+      "group": 2004,
+      "name": "All is Safe",
+      "desc": "Complete all Rally Commissions in Old Town District with an S-Rank rating.",
+      "rarity": 2
+    },
+    "2004018": {
+      "group": 2004,
+      "name": "Hide and Seek: Construction Site",
+      "desc": "Find all hidden Mini Cargo Trucks in Old Town District.",
+      "rarity": 1
+    },
+    "2004019": {
+      "group": 2004,
+      "name": "Swift Justice",
+      "desc": "Defeat Typhon Challenger in the first area of the Old Town District - Southern Area.",
+      "rarity": 1
+    },
+    "2004020": {
+      "group": 2004,
+      "name": "Perfection in All Aspects",
+      "desc": "Complete all Rally Commissions in Operation: Purge with an S-rank rating.",
+      "rarity": 2
+    },
+    "2004021": {
+      "group": 2004,
+      "name": "Hide and Seek: Ballet Twins",
+      "desc": "Find all hidden Mini Cargo Trucks in Operation: Purge.",
+      "rarity": 1
+    },
+    "2004022": {
+      "group": 2004,
+      "name": "NEDF! OPEN UP!",
+      "desc": "Rescue all of the Defense Force personnel in Operation: Purge.",
+      "rarity": 1
+    },
+    "2004023": {
+      "group": 2004,
+      "name": "Into the Chaos",
+      "desc": "Clear the Stable Node: Sixth Frontier in Shiyu Defense.",
+      "rarity": 1
+    },
+    "2004024": {
+      "group": 2004,
+      "name": "The Depths of the Deep",
+      "desc": "Clear the Stable Node: Tenth Frontier in Shiyu Defense.",
+      "rarity": 1
+    },
+    "2004025": {
+      "group": 2004,
+      "name": "Crisis Frontline",
+      "desc": "Clear the Critical Node: Third Frontier in Shiyu Defense.",
+      "rarity": 1
+    },
+    "2004026": {
+      "group": 2004,
+      "name": "The Vanguard",
+      "desc": "Clear the Critical Node: Fifth Frontier in Shiyu Defense.",
+      "rarity": 1
+    },
+    "2004027": {
+      "group": 2004,
+      "name": "Deep Into Restricted Area",
+      "desc": "Clear all Critical Node Frontiers in Shiyu Defense.",
+      "rarity": 1
+    },
+    "2004028": {
+      "group": 2004,
+      "name": "Elite Investigator",
+      "desc": "Clear the Stable Nodes in Shiyu Defense with an A-Rank rating on all floors.",
+      "rarity": 2
+    },
+    "2004030": {
+      "group": 2004,
+      "name": "Guardian of Shiyu",
+      "desc": "Clear all Frontiers with an A-Rank rating in Critical Node of Shiyu Defense.",
+      "rarity": 2
+    },
+    "2004031": {
+      "group": 2004,
+      "name": "Conflict Terminator",
+      "desc": "Clear the Disputed Node: Eighth Frontier in Shiyu Defense.",
+      "rarity": 2
+    },
+    "2004032": {
+      "group": 2004,
+      "name": "No Worries When It Rains",
+      "desc": "Complete all Rally Commissions in Cactus Flower's Invitation with an S-Rank rating.",
+      "rarity": 2
+    },
+    "2004033": {
+      "group": 2004,
+      "name": "Loot Thief",
+      "desc": "Find all hidden Mini Cargo Trucks in Cactus Flower's Invitation.",
+      "rarity": 1
+    },
+    "2004034": {
+      "group": 2004,
+      "name": "I'm Shiyu",
+      "desc": "Clear all Frontiers with an S-Rank rating in Critical Node of Shiyu Defense.",
+      "rarity": 3
+    },
+    "2004035": {
+      "group": 2004,
+      "name": "Not a Single Nap!",
+      "desc": "Complete all the Investigator Training Courses.",
+      "rarity": 2
+    },
+    "2004036": {
+      "group": 2004,
+      "name": "United Against a Common Enemy",
+      "desc": "Accept the combat commission from Obsidian Division and complete Opposing the Hollow I and Opposing the Hollow II.",
+      "rarity": 1
+    },
+    "2004037": {
+      "group": 2004,
+      "name": "Old Customer — New Business",
+      "desc": "Accept the combat commission from Rain and complete Night Rain's Request: Phantom Battle I and Night Rain's Request: Phantom Battle II.",
+      "rarity": 1
+    },
+    "2004038": {
+      "group": 2004,
+      "name": "Leaving Noobville",
+      "desc": "Reach Floor 5 in the Simulated Battle Trial.",
+      "rarity": 1
+    },
+    "2004039": {
+      "group": 2004,
+      "name": "Top Investigator",
+      "desc": "Reach Floor 25 in the Simulated Battle Trial.",
+      "rarity": 3
+    },
+    "2004040": {
+      "group": 2004,
+      "name": "Maze Navigator",
+      "desc": "Clear Floor 100 in the Simulated Battle Trial and complete an encounter in virtual space",
+      "rarity": 3
+    },
+    "2004041": {
+      "group": 2004,
+      "name": "Raid Operation",
+      "desc": "Obtain 3 stars in Deadly Assault's Trial Mode.",
+      "rarity": 1
+    },
+    "2004043": {
+      "group": 2004,
+      "name": "Blitz Breaker",
+      "desc": "Obtain 7 stars in Deadly Assault's Trial Mode.",
+      "rarity": 3
+    },
+    "2004044": {
+      "group": 2004,
+      "name": "Sweep the Battlefield",
+      "desc": "Obtain 9 stars in Deadly Assault's Trial Mode.",
+      "rarity": 3
+    },
+    "2004045": {
+      "group": 2004,
+      "name": "No Dead Ends in Life",
+      "desc": "Clear Floor 100 in Battle Trial: The Last Stand.",
+      "rarity": 3
+    },
+    "2004046": {
+      "group": 2004,
+      "name": "Before the Last Stand...",
+      "desc": "Discover the hidden floor in Battle Trial: The Last Stand.",
+      "rarity": 1
+    },
+    "2004047": {
+      "group": 2004,
+      "name": "Demon Lord in Training",
+      "desc": "Obtain 1 \"Demon Lord\" Medal in \"Battle Trial: The Last Stand.\"",
+      "rarity": 2
+    },
+    "2004048": {
+      "group": 2004,
+      "name": "Top Demon Lord Trainee",
+      "desc": "Obtain a total of 10 \"Demon Lord\" Medal in \"Battle Trial: The Last Stand.\"",
+      "rarity": 3
+    },
+    "2004049": {
+      "group": 2004,
+      "name": "Port Elpis Eco Guardian",
+      "desc": "Complete all 3 Rally Commissions at Port Elpis with an S-rank rating.",
+      "rarity": 2
+    },
+    "2004050": {
+      "group": 2004,
+      "name": "All Retrieved!",
+      "desc": "Find all hidden Mini Cargo Trucks in the 3 Rally Commissions at Port Elpis.",
+      "rarity": 1
+    },
+    "2004051": {
+      "group": 2004,
+      "name": "Path to Simplicity",
+      "desc": "Clear floor 50 in any Battle Trial without using Special Attacks or Ultimates.",
+      "rarity": 3
+    },
+    "2004052": {
+      "group": 2004,
+      "name": "Branching Paths of the Garden",
+      "desc": "Clear Easy Mode in \"Threshold Simulation: Branching Echoes\".",
+      "rarity": 2
+    },
+    "2004053": {
+      "group": 2004,
+      "name": "Like It's Your Backyard",
+      "desc": "In Shiyu Defense, clear the Fifth Frontier of Critical Node with an S+ rating.",
+      "rarity": 3
+    },
+    "2004054": {
+      "group": 2004,
+      "name": "Simulated Realm Disintegration Protocol",
+      "desc": "Clear 9 different \"Extreme\" stages within 3 minutes in Annihilation Simulacrum.",
+      "rarity": 3
+    },
+    "2004055": {
+      "group": 2004,
+      "name": "Special Invited Computing Consultant",
+      "desc": "Clear the an \"Extreme\" stage without taking any hits in Annihilation Simulacrum.",
+      "rarity": 2
+    },
+    "2004056": {
+      "group": 2004,
+      "name": "Tactical Analysis Expert",
+      "desc": "Clear the \"Extreme\" stages 10 times without taking any hits in Annihilation Simulacrum.",
+      "rarity": 3
+    },
+    "2005001": {
+      "group": 2005,
+      "name": "Step Beyond \"Lost\"",
+      "desc": "Complete the \"Battlefront Purge: Difficulty V\" commission in \"Lost Void.\"",
+      "rarity": 1
+    },
+    "2005002": {
+      "group": 2005,
+      "name": "Breaking the Strings of Phantoms",
+      "desc": "Clear \"Battlefront Purge: Difficulty V\" at \"Ether Activity: 9.\"",
+      "rarity": 3
+    },
+    "2005003": {
+      "group": 2005,
+      "name": "Lost Investigation Team",
+      "desc": "In Battlefront Purge, reach a total level of 72 for Explorer's Badges.",
+      "rarity": 3
+    },
+    "2005004": {
+      "group": 2005,
+      "name": "Unconventional Gold Rush",
+      "desc": "Clear \"Battlefront Purge: Difficulty V\" with 6,000 Gear Coins.",
+      "rarity": 1
+    },
+    "2005005": {
+      "group": 2005,
+      "name": "The Fastest Route",
+      "desc": "Clear \"Battlefront Purge: Difficulty V\" with less than 7 combat areas.",
+      "rarity": 1
+    },
+    "2005006": {
+      "group": 2005,
+      "name": "Master Craftsman",
+      "desc": "Reach Level 4 of any General Gear when clearing \"Battlefront Purge: Difficulty V.\"",
+      "rarity": 1
+    },
+    "2005007": {
+      "group": 2005,
+      "name": "Silent Journey",
+      "desc": "Clear \"Battlefront Purge: Difficulty V\" with less than 8 Resonia.",
+      "rarity": 1
+    },
+    "2005008": {
+      "group": 2005,
+      "name": "Concerto of Ether",
+      "desc": "Obtain more than 20 Resonia in \"Battlefront Purge: Difficulty V.\"",
+      "rarity": 1
+    },
+    "2005009": {
+      "group": 2005,
+      "name": "No Risk of Getting Lost",
+      "desc": "Clear \"Battlefront Purge: Difficulty VI\" at \"Ether Activity: 12.\"",
+      "rarity": 3
+    },
+    "2005010": {
+      "group": 2005,
+      "name": "Refusing Medical Assistance",
+      "desc": "In a single Battlefront Purge run, enter the Rest and Recuperation area 3 times and choose to obtain a Resonium each time.",
+      "rarity": 1
+    },
+    "2005011": {
+      "group": 2005,
+      "name": "Need Medical Assistance ASAP!",
+      "desc": "In a single Battlefront Purge run, enter the Rest and Recuperation area 3 times and choose to recover HP each time.",
+      "rarity": 1
+    },
+    "2005012": {
+      "group": 2005,
+      "name": "Shopping Maniac",
+      "desc": "In Battlefront Purge, purchase 8 collectibles in a single visit to the Bangboo Store.",
+      "rarity": 1
+    },
+    "2005013": {
+      "group": 2005,
+      "name": "Cautious Consumer",
+      "desc": "In a single Battlefront Purge run, enter the Bangboo Store 3 times and spend fewer than 500 Gear Coins each time.",
+      "rarity": 1
+    },
+    "2005014": {
+      "group": 2005,
+      "name": "Picky Customer",
+      "desc": "In Battlefront Purge, refresh Resonia more than 6 times in a single visit to the Bangboo Store.",
+      "rarity": 1
+    },
+    "2005015": {
+      "group": 2005,
+      "name": "Swift Steps",
+      "desc": "In Battlefront Purge, enter the Challenge - Flawless area and clear it without taking any damage.",
+      "rarity": 1
+    },
+    "2005016": {
+      "group": 2005,
+      "name": "Don't Blink",
+      "desc": "In Battlefront Purge, enter the Challenge - Time Trial area and clear it within 6 seconds.",
+      "rarity": 1
+    },
+    "2005017": {
+      "group": 2005,
+      "name": "Clean Sweep",
+      "desc": "In Battlefront Purge, enter the Challenge - Harvest area and defeat all enemies.",
+      "rarity": 1
+    },
+    "2005018": {
+      "group": 2005,
+      "name": "Precise Shopping Budget",
+      "desc": "In Battlefront Purge, enter the Swindlerboo Encounter, accept its deal, and spend all Gear Coins on the spot.",
+      "rarity": 1
+    },
+    "2005019": {
+      "group": 2005,
+      "name": "Gift of the Great Hollow",
+      "desc": "In Battlefront Purge, enter the \"Mysterious Voice\" Encounter and obtain the provided additional Gear.",
+      "rarity": 1
+    },
+    "2005021": {
+      "group": 2005,
+      "name": "Who's Unlucky?",
+      "desc": "In Battlefront Purge, visit Unlucky's \"Lucky Slots\" and fail to score big 3 times in a row.",
+      "rarity": 1
+    },
+    "2005022": {
+      "group": 2005,
+      "name": "No More Bad Luck!",
+      "desc": "In Battlefront Purge, visit Unlucky's \"Lucky Slots\" and score big 3 times in a row.",
+      "rarity": 1
+    },
+    "2005023": {
+      "group": 2005,
+      "name": "Just Sampling",
+      "desc": "In Battlefront Purge's VIP Customer Service Encounter, obtain 3 Resonia without spending Gear Coins.",
+      "rarity": 1
+    },
+    "2005024": {
+      "group": 2005,
+      "name": "Friends Got Your Back",
+      "desc": "In Battlefront Purge, for a total of 5 times, when entering a Combat area, find the battlefield already cleared by Agents.",
+      "rarity": 1
+    },
+    "2005025": {
+      "group": 2005,
+      "name": "Hollow Finance Tycoon",
+      "desc": "In Battlefront Purge, obtain \"Bribe Attack\" and clear the stage while carrying over 8,000 Gear Coins.",
+      "rarity": 1
+    },
+    "2005026": {
+      "group": 2005,
+      "name": "Finance Tycoon's Slip-up",
+      "desc": "In Battlefront Purge, obtain \"The Great Monopoly\" and trigger the \"Only obtain 1 Gear Coin\" effect.",
+      "rarity": 1
+    },
+    "2005027": {
+      "group": 2005,
+      "name": "This Side Hustle Is Dangerous, But Worth It",
+      "desc": "Clear Task Force Investigation at \"Ether Activity: 15.\"",
+      "rarity": 3
+    },
+    "2005028": {
+      "group": 2005,
+      "name": "Skilled Welder",
+      "desc": "In a single run of Task Force Investigation, obtain a total of 2 Suction Welding Torches.",
+      "rarity": 1
+    },
+    "2005029": {
+      "group": 2005,
+      "name": "Dangerous \"Meet & Greet\"",
+      "desc": "In Task Force Investigation, deploy specific Agents and encounter their fans.",
+      "rarity": 1
+    },
+    "2005030": {
+      "group": 2005,
+      "name": "Defense Force Research Advisor",
+      "desc": "In one run of Task Force Investigation, unlock branches of the Tactical Prism Program for 3 Agents.",
+      "rarity": 1
+    },
+    "2005031": {
+      "group": 2005,
+      "name": "Artful Brutalist",
+      "desc": "In \"Task Force Assault\", achieve a total score of 30,000 points in any Assault Challenge.",
+      "rarity": 3
+    },
+    "2005032": {
+      "group": 2005,
+      "name": "Hollow Consumerism Trap",
+      "desc": "Spend over 6,000 Gear Coins while clearing Operation Matrix: A Costly Trap.",
+      "rarity": 1
+    },
+    "2005033": {
+      "group": 2005,
+      "name": "Glass Cannon",
+      "desc": "Complete Operation Matrix: Candle in the Wind without any Agents falling into an incapacitated state.",
+      "rarity": 1
+    },
+    "2005034": {
+      "group": 2005,
+      "name": "Life as Bargaining Chips",
+      "desc": "When clearing Operation Matrix: Scarlet Craving, buy no less than 10 items at the Bangboo Store.",
+      "rarity": 1
+    },
+    "2005035": {
+      "group": 2005,
+      "name": "Hollow Stroll Enthusiast",
+      "desc": "Clear Operation Matrix: Harmony Above All after passing through more than 10 non-combat areas.",
+      "rarity": 1
+    },
+    "2005036": {
+      "group": 2005,
+      "name": "Against All Odds",
+      "desc": "Complete any Operation Matrix on Ether Activity 12 difficulty.",
+      "rarity": 3
+    },
+    "2005037": {
+      "group": 2005,
+      "name": "Think Outside the Box",
+      "desc": "Clear all 9 different themed Operation Matrix stages.",
+      "rarity": 2
+    },
+    "2006001": {
+      "group": 2006,
+      "name": "A Master's Duty",
+      "desc": "Defeat the Infernal Revenant and rescue Eous.",
+      "rarity": 2
+    },
+    "2006002": {
+      "group": 2006,
+      "name": "See ya!",
+      "desc": "First successful extraction.",
+      "rarity": 1
+    },
+    "2006003": {
+      "group": 2006,
+      "name": "Well Fed",
+      "desc": "First successful full load extraction.",
+      "rarity": 1
+    },
+    "2006004": {
+      "group": 2006,
+      "name": "Lonely Hearts & Sad Songs",
+      "desc": "Achieve full load extractions 5 times.",
+      "rarity": 2
+    },
+    "2006005": {
+      "group": 2006,
+      "name": "This Is My Escape Route",
+      "desc": "Complete an extraction on High-Risk difficulty for the first time.",
+      "rarity": 1
+    },
+    "2006006": {
+      "group": 2006,
+      "name": "Still Chasing? Still Chasing!",
+      "desc": "Knockback Ulidim the Hound 3 times in total.",
+      "rarity": 1
+    },
+    "2006007": {
+      "group": 2006,
+      "name": "Five Gods of Wealth",
+      "desc": "Successfully retrieve 5 collectibles in a single investigation.",
+      "rarity": 2
+    },
+    "2006008": {
+      "group": 2006,
+      "name": "Be Brave, Be Brave, My Friend",
+      "desc": "In High-Risk difficulty, successfully bring back Supplies worth 1,000,000 within 15 minutes.",
+      "rarity": 2
+    },
+    "2006009": {
+      "group": 2006,
+      "name": "Verified Tycoon",
+      "desc": "Reach the highest Level of Labyrinth Fortune badge.",
+      "rarity": 3
+    },
+    "2006010": {
+      "group": 2006,
+      "name": "Changing Sides",
+      "desc": "Defeat the Ulidim the Hound once while it's in the Cacophony state.",
+      "rarity": 2
+    },
+    "2006011": {
+      "group": 2006,
+      "name": "Let's build!",
+      "desc": "Obtain a returning gift crafted by the Fool in a Barrel once.",
+      "rarity": 1
+    },
+    "2006012": {
+      "group": 2006,
+      "name": "That's Not a Stomach",
+      "desc": "Upgrade the Fool in a Barrel to Lv. 3.",
+      "rarity": 2
+    },
+    "2006013": {
+      "group": 2006,
+      "name": "One Small Step for the Research Station",
+      "desc": "Upgrade the Porcelloy Hub to Lv. 1.",
+      "rarity": 1
+    },
+    "2006014": {
+      "group": 2006,
+      "name": "Infrastructure Maniac",
+      "desc": "Upgrade the Porcelloy Hub, Depot Hub, Store, Workshop, and R&D Center to the highest level.",
+      "rarity": 2
+    },
+    "2006015": {
+      "group": 2006,
+      "name": "Tycoon",
+      "desc": "Accumulate assets worth a total of 100,000,000 Gear Coins in the Depot Hub.",
+      "rarity": 3
+    },
+    "2006016": {
+      "group": 2006,
+      "name": "Turn on the TV, Buddy",
+      "desc": "Activate the Omond Research Station's collection display screen for the first time.",
+      "rarity": 1
+    },
+    "2006017": {
+      "group": 2006,
+      "name": "Seasoned Foodie",
+      "desc": "Successfully extract 47 collectibles in Enigma of the Labyrinth.",
+      "rarity": 3
+    },
+    "2006018": {
+      "group": 2006,
+      "name": "Dullahan's Smile",
+      "desc": "Successfully extracted the collectible Mona Dullahana.",
+      "rarity": 1
+    },
+    "2006019": {
+      "group": 2006,
+      "name": "Visitor from Another Barrel",
+      "desc": "Successfully extract the collectible Lordly Trashcan.",
+      "rarity": 1
+    },
+    "2006020": {
+      "group": 2006,
+      "name": "Golden Ice Cream",
+      "desc": "Successfully extract the collectible Golden Ice Cream.",
+      "rarity": 1
+    },
+    "2006021": {
+      "group": 2006,
+      "name": "Charitable Rat King",
+      "desc": "Successfully extract Supplies worth 1,000,000 and deal no damage to enemies throughout the investigation.",
+      "rarity": 2
+    },
+    "2006022": {
+      "group": 2006,
+      "name": "Target is the Etheric Phantom Master",
+      "desc": "Enter the investigation with 12 Etheric Phantoms equipped in the Tactical Item slots.",
+      "rarity": 1
+    },
+    "2006023": {
+      "group": 2006,
+      "name": "Shine my shoes",
+      "desc": "Successfully extract with Supplies worth 10,000,000.",
+      "rarity": 2
+    },
+    "2006024": {
+      "group": 2006,
+      "name": "Going All In Is a Kind of Wisdom",
+      "desc": "Invest 3,000,000 Gear Coins on High-Risk difficulty and successfully extract with Supplies worth over 10,000,000 in total value.",
+      "rarity": 3
+    },
+    "3001000": {
+      "group": 3001,
+      "name": "Effective Utilization",
+      "desc": "Find the W-Engine in \"The Ultimate Collectibles.\"",
+      "rarity": 1
+    },
+    "3001001": {
+      "group": 3001,
+      "name": "Fair Competition",
+      "desc": "Rescue all missing Bangboo merchants in Internship Accident.",
+      "rarity": 1
+    },
+    "3001002": {
+      "group": 3001,
+      "name": "Safe Distance",
+      "desc": "Stay unnoticed by all patrolling enemies in Deep \"Treason.\"",
+      "rarity": 1
+    },
+    "3001003": {
+      "group": 3001,
+      "name": "Pegasos Logistics Can't Do Without Me!",
+      "desc": "Avoid any negative events on the planned route in Survivor Rescue.",
+      "rarity": 1
+    },
+    "3001004": {
+      "group": 3001,
+      "name": "Not A Drop Spilled",
+      "desc": "Avoid any negative events on the planned route in The Last Delivery Order.",
+      "rarity": 1
+    },
+    "3001005": {
+      "group": 3001,
+      "name": "Hero's Journey",
+      "desc": "Win an epic one-on-one battle in The Prophecy.",
+      "rarity": 1
+    },
+    "3001006": {
+      "group": 3001,
+      "name": "Say No to Working",
+      "desc": "In \"Bangboo Golden Town\", proceed through the second floor of the Hollow without doing any work.",
+      "rarity": 1
+    },
+    "3001007": {
+      "group": 3001,
+      "name": "Little Bangboo Hand-in-Hand",
+      "desc": "Save Little Beetroot in Bangboo Limbo.",
+      "rarity": 1
+    },
+    "3001008": {
+      "group": 3001,
+      "name": "Get Up, Time for Work!",
+      "desc": "Awaken Investigator Jeff in Bangboo Limbo.",
+      "rarity": 1
+    },
+    "3001009": {
+      "group": 3001,
+      "name": "Tech That Makes You Rich",
+      "desc": "Collect 9,999 Gear Coins in The Ethereal's Guide.",
+      "rarity": 1
+    },
+    "3001010": {
+      "group": 3001,
+      "name": "Artful Explosion",
+      "desc": "Get a Crystal with a Circular Diffusion conversion effect in \"Scientific Explosion.\"",
+      "rarity": 1
+    },
+    "3001011": {
+      "group": 3001,
+      "name": "Firework Show",
+      "desc": "Unlock all launch buttons in A Memoir of Work Screw-ups.",
+      "rarity": 1
+    },
+    "3001012": {
+      "group": 3001,
+      "name": "Firepower Coverage",
+      "desc": "Enhance all turrets in Career Cover-Up Romance.",
+      "rarity": 1
+    },
+    "3001013": {
+      "group": 3001,
+      "name": "Colossus Bangboo",
+      "desc": "Command a Bangboo with no less than 20 HP in \"To Be a Bangboo Master!\"",
+      "rarity": 1
+    },
+    "3001014": {
+      "group": 3001,
+      "name": "Lone Hero",
+      "desc": "Trigger the Lone Woof Bandana effect 1 time in \"To Be a Bangboo Master!\"",
+      "rarity": 1
+    },
+    "3001016": {
+      "group": 3001,
+      "name": "Amateur Hacker",
+      "desc": "Decode the password in Sweeping Away Secrets.",
+      "rarity": 1
+    },
+    "3001017": {
+      "group": 3001,
+      "name": "Satisfactory Service",
+      "desc": "Complete the commission without the client's assistance in A Life-Risking Celebration of Love.",
+      "rarity": 1
+    },
+    "3001019": {
+      "group": 3001,
+      "name": "Gallery of Silence",
+      "desc": "Find all \"Gentleman With a Bangboo\" paintings in \"The Missing Painting.\"",
+      "rarity": 1
+    },
+    "3001020": {
+      "group": 3001,
+      "name": "With the Truth Often Comes Loneliness",
+      "desc": "Witness Kami North's birth in Detective Rewind.",
+      "rarity": 1
+    },
+    "3001021": {
+      "group": 3001,
+      "name": "Spectral Twin Dancers",
+      "desc": "In the mission \"Yesterday's Stage,\" enjoy the ghosts' performance at the Gemini Theater.",
+      "rarity": 1
+    },
+    "3001022": {
+      "group": 3001,
+      "name": "Dependable Friend",
+      "desc": "In the mission \"Careless Stock Leads to Trouble,\" work closely with the courier during delivery.",
+      "rarity": 1
+    },
+    "3001023": {
+      "group": 3001,
+      "name": "Outer Ring Speed Legend",
+      "desc": "In \"The Race From Which a Hero Was Born,\" complete the Hollow section within 150s.",
+      "rarity": 1
+    },
+    "3001024": {
+      "group": 3001,
+      "name": "Perfect Drift",
+      "desc": "In \"The Race From Which a Hero Was Born,\" crash into less than 5 obstacles on the road.",
+      "rarity": 1
+    },
+    "3001025": {
+      "group": 3001,
+      "name": "Appon and Ono",
+      "desc": "In the Beginning of the Journey, take a photo with Appon and Ono, who are about to set off, and give them the picture.",
+      "rarity": 1
+    },
+    "3001026": {
+      "group": 3001,
+      "name": "Efficient Jailbreak Comes With Fireworks",
+      "desc": "In Redemption in the Rock Quarry, consecutively detonate 10 bombs hidden in the mine.",
+      "rarity": 1
+    },
+    "3001027": {
+      "group": 3001,
+      "name": "Hollow Descent Training",
+      "desc": "Explore floor 30 in the Hollow in the Infinite Abyss.",
+      "rarity": 1
+    },
+    "3001028": {
+      "group": 3001,
+      "name": "Even Faint Light Brings Clarity",
+      "desc": "Meet Venus again at Port Elpis after completely resolving the Black Anchor Gang incident in \"Connecting with the Star.\"",
+      "rarity": 1
+    },
+    "3001029": {
+      "group": 3001,
+      "name": "Cocoon Across the Sea",
+      "desc": "Listen to the conversation between Venus and another Proxy in \"Connecting with the Star.\"",
+      "rarity": 1
+    },
+    "3001030": {
+      "group": 3001,
+      "name": "Longing Parts the Sea Mist",
+      "desc": "Meet the client again at Port Elpis after helping gather all the evidence in \"As Promised, Drowned in the Harbor.\"",
+      "rarity": 1
+    },
+    "3002001": {
+      "group": 3002,
+      "name": "Hitting the Sweet Spot",
+      "desc": "Upgrade your squad 30 times during explorations in \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 1
+    },
+    "3002002": {
+      "group": 3002,
+      "name": "Industrialized Hollow Exploration",
+      "desc": "Upgrade the Tech Tree 30 times in \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 1
+    },
+    "3002003": {
+      "group": 3002,
+      "name": "Expert Navigation, Quick Adaptation",
+      "desc": "Unlock all five Formation Strategies in \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 2
+    },
+    "3002004": {
+      "group": 3002,
+      "name": "Secrets Deep in the Corridor",
+      "desc": "Complete exploration of the Fault Floor of the Turbulent Corridor in \"The Mystery of Arpeggio Fault\"",
+      "rarity": 3
+    },
+    "3002005": {
+      "group": 3002,
+      "name": "Belated Gift",
+      "desc": "Complete the exploration of all hidden areas in \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 3
+    },
+    "3002006": {
+      "group": 3002,
+      "name": "The Edge of the Ruins",
+      "desc": "Complete exploration of the Laboratory Ruins in hard mode of \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 3
+    },
+    "3002007": {
+      "group": 3002,
+      "name": "Preparation for the Long Battle",
+      "desc": "Reach Captain's HP of 300 in the hard mode of \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 1
+    },
+    "3002008": {
+      "group": 3002,
+      "name": "Preparation for the Assault",
+      "desc": "Reach Captain's ATK of 70 in hard mode of \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 1
+    },
+    "3002009": {
+      "group": 3002,
+      "name": "Fault Cleaner",
+      "desc": "Eliminate 250 enemies during exploration in hard mode of \"The Mystery of Arpeggio Fault.\"",
+      "rarity": 1
+    },
+    "3003001": {
+      "group": 3003,
+      "name": "A New Horizon",
+      "desc": "Activate a Perception Technique for the first time.",
+      "rarity": 1
+    },
+    "3003002": {
+      "group": 3003,
+      "name": "\"Try Hitting It\"",
+      "desc": "Defeat Fisher Crab and get a surprise reward.",
+      "rarity": 1
+    },
+    "3003003": {
+      "group": 3003,
+      "name": "The Door Can Be Opened From This Side",
+      "desc": "Open the one-way mechanical door from the correct direction.",
+      "rarity": 1
+    },
+    "3003004": {
+      "group": 3003,
+      "name": "Alternative Stress Relief",
+      "desc": "Use your Perception Technique to quickly break multiple Miasma Tumors in rapid succession.",
+      "rarity": 1
+    },
+    "3003005": {
+      "group": 3003,
+      "name": "A Duel, Fair and Square",
+      "desc": "Successfully shut down the barrier generator.",
+      "rarity": 1
+    },
+    "3003006": {
+      "group": 3003,
+      "name": "No Encore",
+      "desc": "Face off against Arcavor and defeat them again after they resurrect.",
+      "rarity": 1
+    },
+    "3003007": {
+      "group": 3003,
+      "name": "No Hilltop Spectating",
+      "desc": "Face off against Arcavor and defeat them while they're in ranged mode.",
+      "rarity": 1
+    },
+    "3003008": {
+      "group": 3003,
+      "name": "A Good Deed a Day",
+      "desc": "Successfully rescue the trapped TOPS investigator from the Former Research Center.",
+      "rarity": 1
+    },
+    "3003009": {
+      "group": 3003,
+      "name": "Leap of Celebration!",
+      "desc": "In Marcel Files, collect 1 Celebration Flag.",
+      "rarity": 1
+    },
+    "3003011": {
+      "group": 3003,
+      "name": "Mini Adventure Victory!",
+      "desc": "Collect 6 Celebration Flags in Marcel Files.",
+      "rarity": 2
+    },
+    "3003012": {
+      "group": 3003,
+      "name": "Heart of Porcelume",
+      "desc": "Reach 100% exploration progress for the Central Production Area in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003013": {
+      "group": 3003,
+      "name": "The Frozen Clock",
+      "desc": "Reach 100% exploration progress for the Former Employee Community in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003014": {
+      "group": 3003,
+      "name": "Dusty Blueprint",
+      "desc": "Reach 100% exploration progress for the Former Research Center in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003015": {
+      "group": 3003,
+      "name": "Rusted Equipment",
+      "desc": "Reach 100% exploration progress for the Rough Machining Center in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003016": {
+      "group": 3003,
+      "name": "Silent Tape",
+      "desc": "Reach 100% exploration progress for the Carefree Apartments in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003017": {
+      "group": 3003,
+      "name": "Sealed Gaze",
+      "desc": "Reach 100% exploration progress for the Aerospace Station in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003018": {
+      "group": 3003,
+      "name": "\"Once Dreamed of Plucking Stars\"",
+      "desc": "Complete exploration for the first 6 areas of the Aerospace City.",
+      "rarity": 3
+    },
+    "3003019": {
+      "group": 3003,
+      "name": "Echoes of Yesterday",
+      "desc": "In Aerospace City, find and investigate 12 special items that have \"memories of the Aerospace City.\"",
+      "rarity": 1
+    },
+    "3003020": {
+      "group": 3003,
+      "name": "All's Fair in Loot and War",
+      "desc": "Help the two Hollow Raiders defeat the Fisher Crab in the Old Building Complex of Aerospace City.",
+      "rarity": 1
+    },
+    "3003021": {
+      "group": 3003,
+      "name": "Another Good Deed Done",
+      "desc": "Successfully rescue the trapped TOPS investigator in the Old Building Complex.",
+      "rarity": 1
+    },
+    "3003022": {
+      "group": 3003,
+      "name": "Dried-up Reagent",
+      "desc": "Reach 100% exploration progress for the Old Building Complex in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003023": {
+      "group": 3003,
+      "name": "Unclaimed Cargo Box",
+      "desc": "Reach 100% exploration progress of the Community Shipping Depot in Aerospace City.",
+      "rarity": 1
+    },
+    "3003024": {
+      "group": 3003,
+      "name": "Overgrown Wilderness",
+      "desc": "Reach 100% exploration progress for Timesworn Hills in the Aerospace City.",
+      "rarity": 1
+    },
+    "3003025": {
+      "group": 3003,
+      "name": "Another Good Deed",
+      "desc": "Successfully rescue the trapped TOPS investigator in the Timesworn Hills area.",
+      "rarity": 1
+    },
+    "3003027": {
+      "group": 3003,
+      "name": "Corruption From Time",
+      "desc": "In Timesworn Hills, meet a nameless veteran and help him search for his former comrades.",
+      "rarity": 1
+    },
+    "3003028": {
+      "group": 3003,
+      "name": "Witnessing A Sea Change",
+      "desc": "Reach 100% exploration progress for the Old Port Factory.",
+      "rarity": 1
+    },
+    "3003029": {
+      "group": 3003,
+      "name": "Through Rise and Fall",
+      "desc": "Reach 100% exploration progress for the Porcelume Processing Base.",
+      "rarity": 1
+    },
+    "3003030": {
+      "group": 3003,
+      "name": "Scaling Endless Peaks",
+      "desc": "Reach 100% exploration progress for the Lumite Mine.",
+      "rarity": 1
+    },
+    "3003031": {
+      "group": 3003,
+      "name": "Exploring Uninhabited Lands",
+      "desc": "Reach 100% exploration progress for Qingming Realm.",
+      "rarity": 1
+    },
+    "3003032": {
+      "group": 3003,
+      "name": "Secret Technique: The Ol' Switcheroo",
+      "desc": "Successfully switch tracks three times in the \"Aerial Transit\" mode.",
+      "rarity": 1
+    },
+    "3003034": {
+      "group": 3003,
+      "name": "Come On, Seriously?",
+      "desc": "\"Accidentally\" knock other Bangboo mechs flying in the \"Aerial Transit\" mode.",
+      "rarity": 1
+    },
+    "3003035": {
+      "group": 3003,
+      "name": "Targeted Blast",
+      "desc": "Destroy an energy barrier once in the \"Airspace Monitoring\" mode.",
+      "rarity": 1
+    },
+    "3003036": {
+      "group": 3003,
+      "name": "Targeted Detonation",
+      "desc": "Destroy all energy barriers in the \"Airspace Monitoring\" mode.",
+      "rarity": 1
+    },
+    "3003038": {
+      "group": 3003,
+      "name": "Link Start!!",
+      "desc": "Locate and destroy all portable databases in the \"Airspace Monitoring\" mode.",
+      "rarity": 1
+    },
+    "3003039": {
+      "group": 3003,
+      "name": "Now That's What I Call Power!",
+      "desc": "Force your way through the Hollow traps in the Sunken Corridor.",
+      "rarity": 1
+    },
+    "3003040": {
+      "group": 3003,
+      "name": "Please Follow the Safety Codes!",
+      "desc": "Got a \"nudge\" for getting too close to an Agent while piloting the drone.",
+      "rarity": 1
+    },
+    "3003041": {
+      "group": 3003,
+      "name": "The Stairway of Riddles",
+      "desc": "Discover the hidden area in the CCD.",
+      "rarity": 1
+    },
+    "3003042": {
+      "group": 3003,
+      "name": "What the Eye Spies",
+      "desc": "Discover the hidden area in the Energy Hub.",
+      "rarity": 1
+    },
+    "3003043": {
+      "group": 3003,
+      "name": "Where One Rushes To",
+      "desc": "Discover the hidden area in the Sunken Corridor.",
+      "rarity": 1
+    },
+    "3003044": {
+      "group": 3003,
+      "name": "CCD: Fully Explored",
+      "desc": "Reach 100% exploration progress for the CCD.",
+      "rarity": 1
+    },
+    "3003045": {
+      "group": 3003,
+      "name": "Energy Hub: Fully Explored",
+      "desc": "Reach 100% exploration progress for the Energy Hub.",
+      "rarity": 1
+    },
+    "3003046": {
+      "group": 3003,
+      "name": "Sunken Corridor: Fully Explored",
+      "desc": "Reach 100% exploration progress for the Sunken Corridor.",
+      "rarity": 1
+    },
+    "3003047": {
+      "group": 3003,
+      "name": "Walk Right In",
+      "desc": "Decode the Torn Picture Book Page in the Retroflux Zone.",
+      "rarity": 1
+    },
+    "3003048": {
+      "group": 3003,
+      "name": "Just Dropping By",
+      "desc": "Decode the Torn Picture Book Page in Roswick.",
+      "rarity": 1
+    },
+    "3003049": {
+      "group": 3003,
+      "name": "Underground Maze Explorer",
+      "desc": "Reach 100% exploration progress for the Retroflux Zone.",
+      "rarity": 1
+    },
+    "3003050": {
+      "group": 3003,
+      "name": "Warped Space Explorer",
+      "desc": "Reach 100% exploration progress for Roswick.",
+      "rarity": 1
+    },
+    "3003051": {
+      "group": 3003,
+      "name": "Sunlit Reef",
+      "desc": "Reach 100% exploration progress for Shrouded Reef Transfer Station.",
+      "rarity": 1
+    },
+    "3003052": {
+      "group": 3003,
+      "name": "A Researcher's Walking Route",
+      "desc": "Reach 100% exploration progress for the Porcelloy Research Institute.",
+      "rarity": 1
+    },
+    "4001001": {
+      "group": 4001,
+      "name": "When Dying Trees Bloom",
+      "desc": "Reach Suibian Temple Restoration Lv. 35.",
+      "rarity": 1
+    },
+    "4001002": {
+      "group": 4001,
+      "name": "Honest Business Wealth Plan",
+      "desc": "Produce 2,000 products in Suibian Temple.",
+      "rarity": 1
+    },
+    "4001003": {
+      "group": 4001,
+      "name": "Get Rich Step-by-Step Plan",
+      "desc": "Obtain 1500 Cloud Crests through Gathering at Suibian Temple.",
+      "rarity": 1
+    },
+    "4001004": {
+      "group": 4001,
+      "name": "Suibian Temple Management Expert I",
+      "desc": "Reach a total of 4,000 Cloud Crests in revenue for Suibian Temple.",
+      "rarity": 1
+    },
+    "4001005": {
+      "group": 4001,
+      "name": "Suibian Temple Management Expert II",
+      "desc": "Reach a total of 30,000 Cloud Crests in revenue for Suibian Temple.",
+      "rarity": 2
+    },
+    "4001006": {
+      "group": 4001,
+      "name": "Suibian Temple Management Expert III",
+      "desc": "Reach a total of 400,000 Cloud Crests in revenue for Suibian Temple.",
+      "rarity": 3
+    },
+    "4001007": {
+      "group": 4001,
+      "name": "Assembly Line Inspection",
+      "desc": "For Suibian Temple Adventures, score 100 in tabs I, II, and III for all Production Areas.",
+      "rarity": 1
+    },
+    "4001008": {
+      "group": 4001,
+      "name": "Old Community Survey",
+      "desc": "For Suibian Temple Adventures, score 100 in tabs I, II, and III for all Former Communities.",
+      "rarity": 1
+    },
+    "4001009": {
+      "group": 4001,
+      "name": "Research Center Revisited",
+      "desc": "For Suibian Temple Adventures, score 100 in tabs I, II, and III for all Former Research Centers.",
+      "rarity": 1
+    },
+    "4001010": {
+      "group": 4001,
+      "name": "Best Assistant Mini",
+      "desc": "Recruit 1 S-Rank Bangboo from the BooBox to help restore Suibian Temple.",
+      "rarity": 1
+    },
+    "4001011": {
+      "group": 4001,
+      "name": "Mini Assistant Pro",
+      "desc": "Level 1 Bangboo to Lv. 30 to help restore Suibian Temple.",
+      "rarity": 1
+    },
+    "4001012": {
+      "group": 4001,
+      "name": "New Business Launching",
+      "desc": "Complete 5 order submissions at Yum Cha Sin.",
+      "rarity": 1
+    },
+    "4001013": {
+      "group": 4001,
+      "name": "First Step Into Finance",
+      "desc": "Spend 2,500 Omnicoins at Devon Pawnshop.",
+      "rarity": 1
+    },
+    "4001014": {
+      "group": 4001,
+      "name": "Professional Exploration Team",
+      "desc": "For Suibian Temple Adventures, score 100 in all Depths areas.",
+      "rarity": 1
+    },
+    "4001015": {
+      "group": 4001,
+      "name": "Devon Pawnshop VIP Customer",
+      "desc": "Exchange Cloud Crests at Devon Pawnshop for {M#Azure Crane, Jade & Scarlet Knot and Zest Against the Tide}{F#Scarlet Crane Emblem, Jade Tassel Earrings and Zest in Motion}.",
+      "rarity": 3
+    },
+    "4001016": {
+      "group": 4001,
+      "name": "Brand New Look",
+      "desc": "Change your Function Menu theme.",
+      "rarity": 1
+    },
+    "4001017": {
+      "group": 4001,
+      "name": "Trendy",
+      "desc": "Collect six different themed sets or pendants.",
+      "rarity": 1
+    },
+    "4001018": {
+      "group": 4001,
+      "name": "Newbie Here! I Have a Question...",
+      "desc": "Join an Outpost.",
+      "rarity": 1
+    },
+    "4001019": {
+      "group": 4001,
+      "name": "Peer Support",
+      "desc": "Post a commission on the Inter-Knot Intel Board.",
+      "rarity": 1
+    },
+    "4001020": {
+      "group": 4001,
+      "name": "Curated New World",
+      "desc": "Read and reply to one \"Fairy's Picks\" post on Inter-Knot.",
+      "rarity": 1
+    },
+    "4001021": {
+      "group": 4001,
+      "name": "Core Target Audience",
+      "desc": "Read and reply to 10 \"Fairy's Picks\" posts on Inter-Knot.",
+      "rarity": 2
+    },
+    "4001022": {
+      "group": 4001,
+      "name": "A Star Is Boo-rn",
+      "desc": "Reach Interboo Lv. 20.",
+      "rarity": 1
+    },
+    "4002001": {
+      "group": 4002,
+      "name": "\"Documentary Film\"",
+      "desc": "Take a photo with the promotional poster for \"Never Overtime\" at Gravity Cinema.",
+      "rarity": 1
+    },
+    "4002002": {
+      "group": 4002,
+      "name": "Eggs' Time to Shine",
+      "desc": "Help an old lady pick up her eggs at \"404.\"",
+      "rarity": 1
+    },
+    "4002003": {
+      "group": 4002,
+      "name": "Perfect Weather for a Show",
+      "desc": "Watch The Forecasters' performance with the Angels of Delusion crew.",
+      "rarity": 1
+    },
+    "4002004": {
+      "group": 4002,
+      "name": "Tickets Not Available for This Show",
+      "desc": "Following Aria's tip, head to \"404\" in the morning to catch Cecilia's solo performance.",
+      "rarity": 1
+    },
+    "4002005": {
+      "group": 4002,
+      "name": "Gonna Listen to That a Million More Times!",
+      "desc": "At the morning \"404,\" listen to Cecilia's solo once again.",
+      "rarity": 1
+    },
+    "4002006": {
+      "group": 4002,
+      "name": "Cheer Out Loud",
+      "desc": "At the entrance to \"404,\" see fans who couldn't get in but are still pumped as hell.",
+      "rarity": 1
+    },
+    "4002007": {
+      "group": 4002,
+      "name": "Bangboo's Got This",
+      "desc": "On Bangboo Performance Day, find Sharkboo and Builderboo who come with their own step stools.",
+      "rarity": 1
+    },
+    "4002008": {
+      "group": 4002,
+      "name": "Banner Stand Pilgrimage",
+      "desc": "Check out the poster stands for all four idol groups in \"404.\"",
+      "rarity": 1
+    },
+    "4002009": {
+      "group": 4002,
+      "name": "Who Doesn't Love Bangboo?",
+      "desc": "At the \"Satellite\" photo session, snap a group shot with the band members.",
+      "rarity": 1
+    },
+    "4002010": {
+      "group": 4002,
+      "name": "Standard Move for a Core Fan",
+      "desc": "Attend The Forecasters' photo session and snap pics with each of the three members.",
+      "rarity": 1
+    },
+    "4002011": {
+      "group": 4002,
+      "name": "Got Everything I Need!",
+      "desc": "Attend the Angels of Delusion's photo session and snap pics with all three members.",
+      "rarity": 1
+    },
+    "4002012": {
+      "group": 4002,
+      "name": "Murmurs of The Forecasters",
+      "desc": "Trigger 7 dialogues with members of \"The Forecasters\" at \"404\" in the afternoon.",
+      "rarity": 1
+    },
+    "4002013": {
+      "group": 4002,
+      "name": "So Many Familiar Faces",
+      "desc": "Chat with the Agents who came to check out the show at \"404.\"",
+      "rarity": 1
+    },
+    "4003005": {
+      "group": 4003,
+      "name": "Ultimate Calculations",
+      "desc": "Collect all trigrams in the Trigrams Collection of Cyber Divination.",
+      "rarity": 3
+    },
+    "4003006": {
+      "group": 4003,
+      "name": "First Step for Restoration!",
+      "desc": "Reached an agreement with Belion to restore the Suibian Temple.",
+      "rarity": 1
+    },
+    "4003007": {
+      "group": 4003,
+      "name": "Bangboo's Journey",
+      "desc": "Send Bangboo Forfeitboo on an adventure.",
+      "rarity": 1
+    },
+    "4003008": {
+      "group": 4003,
+      "name": "\"Yum Cha Forever!\"",
+      "desc": "Unlock Yum Cha Sin in Failume Heights.",
+      "rarity": 1
+    },
+    "4003009": {
+      "group": 4003,
+      "name": "It's 3? Time for Tea",
+      "desc": "Visit Yum Cha Sin during the afternoon.",
+      "rarity": 1
+    },
+    "4003010": {
+      "group": 4003,
+      "name": "\"Great Value for Money!\"",
+      "desc": "Unlock Good Goods in Failume Heights.",
+      "rarity": 1
+    },
+    "4003011": {
+      "group": 4003,
+      "name": "\"Honest to Goodness!\"",
+      "desc": "Unlock Devon Pawnshop in Failume Heights.",
+      "rarity": 1
+    },
+    "4003012": {
+      "group": 4003,
+      "name": "\"Bangboo, Ready to Work!\"",
+      "desc": "Unlock the BooBox in Failume Heights.",
+      "rarity": 1
+    },
+    "4003013": {
+      "group": 4003,
+      "name": "\"Cool Your Flames With Herbal Tea!\"",
+      "desc": "Go to Peace Herbal and get some herbal tea from Shellboo.",
+      "rarity": 1
+    },
+    "4003014": {
+      "group": 4003,
+      "name": "A Different Path to Motivation",
+      "desc": "Discover the truth about Boocelume.",
+      "rarity": 1
+    },
+    "4003015": {
+      "group": 4003,
+      "name": "Fly to That Place of Longing",
+      "desc": "Restore the Suibian Temple and hold the Tidefaire.",
+      "rarity": 1
+    },
+    "4003016": {
+      "group": 4003,
+      "name": "Who Has the Final Right of Interpretation",
+      "desc": "Overhear a discussion about the strange sculpture's design intentions in front of Suibian Temple.",
+      "rarity": 1
+    },
+    "4003017": {
+      "group": 4003,
+      "name": "Kitty? Wooden Kitty!",
+      "desc": "Have a chance encounter with a cat that looks remarkably similar to a wooden figurine at Buyan.",
+      "rarity": 1
+    },
+    "4003018": {
+      "group": 4003,
+      "name": "\"Watch Out! Slippery Floor!\"",
+      "desc": "Observing the unique galloping horse sculpture at Buyan.",
+      "rarity": 1
+    },
+    "4003019": {
+      "group": 4003,
+      "name": "Dark Business Rivalry",
+      "desc": "Examine the potted plant that looks like a money tree at Yum Cha Sin's counter.",
+      "rarity": 1
+    },
+    "4003020": {
+      "group": 4003,
+      "name": "Please Take Guarding the Temple Seriously!",
+      "desc": "Examine the unusual stone lions in front of Suibian Temple.",
+      "rarity": 1
+    },
+    "4003021": {
+      "group": 4003,
+      "name": "The Unique Waifei Romance Experience",
+      "desc": "In Failume Heights, overhear talk about local tycoons of Waifei Peninsula.",
+      "rarity": 1
+    },
+    "4003022": {
+      "group": 4003,
+      "name": "\"That Doesn't Count, Again!\"",
+      "desc": "In Failume Heights, hear about Zhenglin's multiple unsuccessful encounters with the Lady in White.",
+      "rarity": 1
+    },
+    "4003023": {
+      "group": 4003,
+      "name": "An Ordinary Tale of Waifei Peninsula",
+      "desc": "In Failume Heights, hear about Chunshi and Qiuhua's hard work hustling jobs.",
+      "rarity": 1
+    },
+    "4003024": {
+      "group": 4003,
+      "name": "Missing Old Friends",
+      "desc": "In Failume Heights, hear the story of Qingyun and Canghai — two souls searching for each other, only to miss one another with lingering regrets.",
+      "rarity": 1
+    },
+    "4003025": {
+      "group": 4003,
+      "name": "\"Hero's Path\"",
+      "desc": "Witness Quixie's \"Hero's Path\" in Failume Heights.",
+      "rarity": 1
+    },
+    "4003026": {
+      "group": 4003,
+      "name": "Housebear",
+      "desc": "Learn Pan Yinhu's thrifty methods in Failume Heights.",
+      "rarity": 1
+    },
+    "4003027": {
+      "group": 4003,
+      "name": "\"Resale of Hollow-Derived Items Is Prohibited\"",
+      "desc": "In Failume Heights, someone was buying Lumite ore right next to a sign that says \"Resale of Hollow-Derived Items Is Prohibited\".",
+      "rarity": 1
+    },
+    "4003028": {
+      "group": 4003,
+      "name": "Familiar Stranger",
+      "desc": "In Failume Heights, take a photo with the Belobog Heavy Industries Agents in front of the Belobog Heavy Industries advertisement.",
+      "rarity": 1
+    },
+    "4003029": {
+      "group": 4003,
+      "name": "A Long Time Ago I",
+      "desc": "Observe the lost spacecraft in Sailume Bay.",
+      "rarity": 1
+    },
+    "4003030": {
+      "group": 4003,
+      "name": "A Long Time Ago II",
+      "desc": "In Sailume Bay, listen to the nostalgic elder talk about the history of Aerospace City.",
+      "rarity": 1
+    },
+    "4003031": {
+      "group": 4003,
+      "name": "First Step to Learning a Dialect",
+      "desc": "In Sailume Bay, try to make out the sound from the old radio.",
+      "rarity": 1
+    },
+    "4003032": {
+      "group": 4003,
+      "name": "Featured \"Drinks\"",
+      "desc": "At Failume Heights, overhear people discussing the taste of \"catgrass drinks.\"",
+      "rarity": 1
+    },
+    "4003033": {
+      "group": 4005,
+      "name": "Challenge: Eat your way through the resort!",
+      "desc": "Find 3 \"Signature Dishes\" at Fantasy Resort.",
+      "rarity": 1
+    },
+    "4003034": {
+      "group": 4005,
+      "name": "Also \"Fishing Prohibited\"",
+      "desc": "At Fantasy Resort, come across someone explaining fishing techniques right next to a \"Fishing Prohibited\" sign.",
+      "rarity": 1
+    },
+    "4003035": {
+      "group": 4003,
+      "name": "If I Can Stop One Heart From Breaking",
+      "desc": "In Failume Heights, find the gossip magazine that published Monica's scandal and protect Billy from heartbreak.",
+      "rarity": 1
+    },
+    "4003036": {
+      "group": 4003,
+      "name": "Mahjong: A Way to Turn the Tides",
+      "desc": "In Failume Heights, figure out the mystery in the mahjong game.",
+      "rarity": 1
+    },
+    "4003037": {
+      "group": 4003,
+      "name": "Safety Before Power Lines",
+      "desc": "In Failume Heights, lend a hand to reckless Bangboo, who ignored warnings and passed out after tasting electrical cables.",
+      "rarity": 1
+    },
+    "4003038": {
+      "group": 4003,
+      "name": "\"Good Paying Jobs Are Hard to Find\"",
+      "desc": "In Ridu Weekly, witness the Bangboo multiple skill certificates find a job.",
+      "rarity": 1
+    },
+    "4003039": {
+      "group": 4003,
+      "name": "\"Consequences\" of Trusting Inter-Knot",
+      "desc": "In Failume Heights, find the poster \"Don't Trust Inter-Knot\" and hear about the \"consequences\" of Yidhari trusting Inter-Knot.",
+      "rarity": 1
+    },
+    "4003040": {
+      "group": 4003,
+      "name": "Inner Choice",
+      "desc": "Find Lydia in the \"Echo Chamber\" and try to receive her psychological therapy.",
+      "rarity": 1
+    },
+    "4003041": {
+      "group": 4003,
+      "name": "Had We Never Parted Ways",
+      "desc": "Find a momento of a past friend with Orphie and Magus on the beach of Sailume Bay.",
+      "rarity": 1
+    },
+    "4003042": {
+      "group": 4003,
+      "name": "Like Clouds Chasing the Moon",
+      "desc": "In the corridor of Yum Cha Sin, hear traditional music on the radio and stories about Uncle Kai and his wife.",
+      "rarity": 1
+    },
+    "4003043": {
+      "group": 4003,
+      "name": "Five Flavor Sample",
+      "desc": "Discover 5 signature dishes in the dining area of Yum Cha Sin.",
+      "rarity": 1
+    },
+    "4003044": {
+      "group": 4003,
+      "name": "Seeking Failume Flavors",
+      "desc": "At Yum Cha Sin's table, listen to Mr. Feng the gourmet share his culinary insights.",
+      "rarity": 1
+    },
+    "4003045": {
+      "group": 4003,
+      "name": "Foreign Proxy, Local Boo",
+      "desc": "At Yum Cha Sin's dining area, learn why the local foodie Tastyboo refuses to recommend any dishes.",
+      "rarity": 1
+    },
+    "4003046": {
+      "group": 4003,
+      "name": "Legendary Proxy - Orange Edition",
+      "desc": "Find a fluffy Orange Chonk Proxy in Xiao'Guang's room at Suibian Temple.",
+      "rarity": 1
+    },
+    "4003047": {
+      "group": 4003,
+      "name": "House Full of Heirlooms",
+      "desc": "Obtain all collectibles from Buyan Antique Store.",
+      "rarity": 2
+    },
+    "4003048": {
+      "group": 4003,
+      "name": "Forever in a Moment",
+      "desc": "Check the photo wall in Ye Shunguang's room at Failume Heights.",
+      "rarity": 1
+    },
+    "4005001": {
+      "group": 4005,
+      "name": "I Was Here First",
+      "desc": "At Fantasy Resort, discover through Boonapple that a girl was quietly watching over the Bangboo Wanderer and helping it find its master.",
+      "rarity": 1
+    },
+    "4005002": {
+      "group": 4005,
+      "name": "I Was Here First",
+      "desc": "At Fantasy Resort, find Boonapple and find out that a girl was quietly watching over the Bangboo Wanderer and helping it find its master.",
+      "rarity": 1
+    },
+    "4005003": {
+      "group": 4005,
+      "name": "No Returns",
+      "desc": "Ask Nanson about the collector's edition of \"Return to Giallo City\" and obtain a rental receipt.",
+      "rarity": 1
+    },
+    "4005004": {
+      "group": 4005,
+      "name": "No Returns",
+      "desc": "Obtain a rental receipt for the collector's edition \"Return to Giallo City\" videotape sent by Nanson.",
+      "rarity": 1
+    },
+    "4006001": {
+      "group": 4006,
+      "name": "Universal View, Activate!",
+      "desc": "Unlock Universal Terminal Access in Roscaelifer.",
+      "rarity": 1
+    },
+    "4006002": {
+      "group": 4006,
+      "name": "A Page of Youth",
+      "desc": "Participate in an Aurelia Academy student gathering on the first floor of Amber Hall.",
+      "rarity": 1
+    },
+    "4006003": {
+      "group": 4006,
+      "name": "Radio Ga Ga",
+      "desc": "Listen to 3 different channels on the radio in Amber Hall.",
+      "rarity": 1
+    },
+    "4006004": {
+      "group": 4006,
+      "name": "Forgotten by Time",
+      "desc": "Discover the \"forgotten\" hover bus terminal station in Booastrum.",
+      "rarity": 1
+    },
+    "4006005": {
+      "group": 4006,
+      "name": "Green Commute",
+      "desc": "Wait for the air bus at every bus station on Booastrum.",
+      "rarity": 1
+    },
+    "4006006": {
+      "group": 4006,
+      "name": "Tea & Cats",
+      "desc": "Adopt four kittens at Cuppa Moment and watch the teahouse transform into a cat cafe.",
+      "rarity": 1
+    },
+    "4006007": {
+      "group": 4006,
+      "name": "Yum– The Taste of Happiness!",
+      "desc": "Taste-test Maple Syrup's bold, experimental new bread for the first time at Boom Scones.",
+      "rarity": 1
+    },
+    "4006008": {
+      "group": 4006,
+      "name": "First Pull!",
+      "desc": "Draw a snack surprise box at Roarin' Brekkies and collect the data cards inside.",
+      "rarity": 1
+    },
+    "4006009": {
+      "group": 4006,
+      "name": "ROAR! Full catalog complete!",
+      "desc": "Draw snack surprise boxes at Roarin' Brekkies and complete all data card collection missions.",
+      "rarity": 3
+    },
+    "4006010": {
+      "group": 4006,
+      "name": "Eyes on the Horizon",
+      "desc": "Used the telescope to look at the scenery for the first time in Booastrum.",
+      "rarity": 1
+    },
+    "4006011": {
+      "group": 4006,
+      "name": "Can't Stay Quiet",
+      "desc": "Interfere in two matches of Bangboo King Chess at Emerald Central Park.",
+      "rarity": 1
+    },
+    "4006012": {
+      "group": 4006,
+      "name": "AC or DC?",
+      "desc": "Use Universal Terminal Access to overload Bangboo charging stations four times.",
+      "rarity": 1
+    },
+    "4006013": {
+      "group": 4006,
+      "name": "Answer me, Bottle Cap Fairy!",
+      "desc": "Toss a total of 8 Lucky Bottle Caps into the wishing fountain at Emerald Central Park",
+      "rarity": 1
+    },
+    "4006014": {
+      "group": 4006,
+      "name": "Connoisseur of Refined Arts",
+      "desc": "Watch 3 different Bangboo plays or rehearsals in the Spotlight Theater.",
+      "rarity": 1
+    },
+    "4006015": {
+      "group": 4006,
+      "name": "Gotta Collect 'Em All",
+      "desc": "Talk to all the \"role-playing\" Bangboo at Spotlight Theater.",
+      "rarity": 1
+    },
+    "4006016": {
+      "group": 4006,
+      "name": "Floating Island Bounty Hunter",
+      "desc": "Find all the Mini Cargo Trucks on the map in Booastrum.",
+      "rarity": 1
+    },
+    "4006017": {
+      "group": 4006,
+      "name": "Archaeology Expert",
+      "desc": "Discover all building plaques in Booastrum.",
+      "rarity": 1
+    },
+    "4006018": {
+      "group": 4006,
+      "name": "Amateur Detective's Record of Trivialities",
+      "desc": "Complete all of Crowe and Hobble's commissions in \"Tales of the Hobbling Crow.\"",
+      "rarity": 1
+    },
+    "4006019": {
+      "group": 4006,
+      "name": "No Trouble at All",
+      "desc": "Collect 1 scattered bottle cap in Booastrum.",
+      "rarity": 1
+    },
+    "4006020": {
+      "group": 4006,
+      "name": "Still No Trouble at All",
+      "desc": "Collect 15 scattered bottle caps in Booastrum.",
+      "rarity": 3
+    },
+    "4006021": {
+      "group": 4006,
+      "name": "One Shot to Stardom",
+      "desc": "Score a goal on Gear Street.",
+      "rarity": 1
+    },
+    "4006022": {
+      "group": 4006,
+      "name": "Perfect Golden Spin",
+      "desc": "In Booastrum, accelerate the Ferris Wheel and the Bangboo washing machine once each.",
+      "rarity": 1
+    },
+    "4006023": {
+      "group": 4006,
+      "name": "Wish Crystal Ball",
+      "desc": "Help Boodiac and Divinaboo fulfill their wishes.",
+      "rarity": 1
+    },
+    "4006024": {
+      "group": 4006,
+      "name": "Wolf of Gear Street",
+      "desc": "Invest in Forboos and build a bottle cap empire.",
+      "rarity": 1
+    },
+    "4006025": {
+      "group": 4006,
+      "name": "Under the Table",
+      "desc": "Provide Intelligence to Knowaboo 3 times.",
+      "rarity": 1
+    },
+    "4006026": {
+      "group": 4006,
+      "name": "Subjects 1, 2 & 3",
+      "desc": "Complete all hover bus training courses.",
+      "rarity": 1
+    },
+    "4006027": {
+      "group": 4006,
+      "name": "It's a Carrot! Awesome!",
+      "desc": "Complete all of Crowe and Hobble's commissions in \"Chronicles of the Hobbling Crow.\"",
+      "rarity": 1
+    },
+    "4006028": {
+      "group": 4006,
+      "name": "The Art of Compromise",
+      "desc": "Trim the topiary in the Blazelight Hall courtyard into a shape that satisfies both gardening Bangboo.",
+      "rarity": 1
+    },
+    "4006029": {
+      "group": 4006,
+      "name": "Good night, Lady Bangboo",
+      "desc": "Learn about all the events of two \"Role-Playing\" Bangboo in Vyrium.",
+      "rarity": 1
+    },
+    "4006030": {
+      "group": 4006,
+      "name": "Ifrita's Bookcase",
+      "desc": "Investigate the Bookcase secret door in Blazelight Hall late at night.",
+      "rarity": 1
+    },
+    "4006031": {
+      "group": 4006,
+      "name": "Read and Recklessly Replied",
+      "desc": "Reply to all the drift bottles at Vyrium's beach.",
+      "rarity": 1
+    }
+  },
+  "mutual_type": {}
+}

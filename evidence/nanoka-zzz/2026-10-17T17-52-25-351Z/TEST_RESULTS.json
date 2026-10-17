@@ -1,0 +1,26 @@
+{
+  "note": "Offline unit tests, build and lint. Live coverage and browser evidence are separate.",
+  "results": [
+    {
+      "command": "npm run nanoka:test",
+      "startedAt": "2026-10-17T19:00:05.162Z",
+      "finishedAt": "2026-10-17T19:00:06.594Z",
+      "exitCode": 0,
+      "log": "unit-tests.log"
+    },
+    {
+      "command": "npm run build",
+      "startedAt": "2026-10-17T19:00:06.596Z",
+      "finishedAt": "2026-10-17T19:00:32.351Z",
+      "exitCode": 0,
+      "log": "build.log"
+    },
+    {
+      "command": "npm run lint",
+      "startedAt": "2026-10-17T19:00:32.352Z",
+      "finishedAt": "2026-10-17T19:00:35.712Z",
+      "exitCode": 0,
+      "log": "lint.log"
+    }
+  ]
+}

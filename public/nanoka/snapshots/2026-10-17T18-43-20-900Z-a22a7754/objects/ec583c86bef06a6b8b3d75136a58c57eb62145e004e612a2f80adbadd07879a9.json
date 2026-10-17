@@ -1,0 +1,840 @@
+{
+  "1310501": {
+    "id": 1310501,
+    "name": "[星见雅]无边飞雪",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi01.png",
+    "desc": "触发<color=#FFFFFF>[霜灼·破]</color>后，星见雅下次发动的<color=#FFFFFF>[强化特殊技]</color>无需消耗能量，且对属性异常状态下的敌人<color=#2BAD00>造成的伤害提升50%</color>，30秒内最多触发一次。"
+  },
+  "1310502": {
+    "id": 1310502,
+    "name": "[星见雅]冻炎不灭",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi02.png",
+    "desc": "附着<color=#FFFFFF>[冰焰]</color>的敌人<color=#2BAD00>每秒将承受星见雅50%攻击力的</color><color=#98EFF0>烈霜伤害</color>；触发<color=#FFFFFF>[霜灼·破]</color>后，星见雅可以忽略<color=#FFFFFF>[霜灼]</color>状态的限制，<color=#2BAD00>立即重新对敌人附着</color><color=#FFFFFF>[冰焰]</color>。"
+  },
+  "1310503": {
+    "id": 1310503,
+    "name": "[星见雅]霜月残雪",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi03.png",
+    "desc": "发动<color=#FFFFFF>[终结技：名残雪]</color>时，星见雅将获得6点<color=#FFFFFF>[落霜]</color>；发动<color=#FFFFFF>[普通攻击：霜月]</color>时，星见雅将根据招式的蓄力段数，<color=#2BAD00>获得70/140/210点喧响值</color>。"
+  },
+  "1310601": {
+    "id": 1310601,
+    "name": "[比利]火力压制",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly01.png",
+    "desc": "比利在<color=#FFFFFF>[普通攻击：火力全开]</color>中发动射击累计命中敌人20次，或在<color=#FFFFFF>[普通攻击：火力全开·改]</color>中发动射击累计命中敌人5次时，下次发动的<color=#FFFFFF>[强化特殊技]</color><color=#2BAD00>无需消耗能量</color>，且招式<color=#2BAD00>造成的伤害提升100%</color>。"
+  },
+  "1310602": {
+    "id": 1310602,
+    "name": "[比利]枪手时间",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly02.png",
+    "desc": "比利发动<color=#FFFFFF>[强化特殊技]</color>命中敌人时，会对目标施加减益效果，使自身对目标<color=#2BAD00>造成的伤害提升60%</color>，持续10秒。"
+  },
+  "1310603": {
+    "id": 1310603,
+    "name": "[比利]清场裁决",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly03.png",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>时，可以长按「特殊攻击」 <IconMap:Icon_SpecialReady> 进行蓄力，<color=#2BAD00>提升招式的威力</color>，使<color=#FFFFFF>[强化特殊技]</color>的<color=#2BAD00>伤害倍率提升至原本的200%</color>，且<color=#2BAD00>必定触发暴击</color>。"
+  },
+  "1310701": {
+    "id": 1310701,
+    "name": "[艾莲]雪暴修剪法",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen01.png",
+    "desc": "拥有<color=#FFFFFF>[急冻充能]</color>时，会将<color=#FFFFFF>[冲刺攻击：寒潮]</color>替换为第三段<color=#FFFFFF>[普通攻击：急冻修剪法]</color>，招式发动期间获得<color=#2BAD00>20%生命值上限的护盾</color>，拥有该护盾时艾莲的<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到的伤害降低60%</color>；发动<color=#FFFFFF>[闪避反击：暗礁]</color>时，艾莲将获得1点<color=#FFFFFF>[急冻充能]</color>。"
+  },
+  "1310702": {
+    "id": 1310702,
+    "name": "[艾莲]永冬风迹",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen02.png",
+    "desc": "发动<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[连携技]</color>或<color=#FFFFFF>[终结技]</color>时，艾莲会<color=#2BAD00>在地面留下一片[冰雾]</color>，对敌人造成持续<color=#98EFF0>冰属性伤害</color>，并使目标的<color=#98EFF0>冰属性伤害抗性</color>降低30%，持续10秒；艾莲攻击命中处于<color=#FFFFFF>[冰雾]</color>中的敌人时，会额外触发一次<color=#FFFFFF>[冰雾]</color>的伤害。"
+  },
+  "1310703": {
+    "id": 1310703,
+    "name": "[艾莲]寻血厉齿",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen03.png",
+    "desc": "拥有<color=#FFFFFF>[狩猎背鳍]</color>后，对敌人施加<color=#FFFFFF>[巡猎]</color>标记时，艾莲<color=#2BAD00>造成的伤害提升15%</color>，持续15秒；目标被击败后，本局空洞内，当前武备的<color=#2BAD00>伤害提升效果额外提升5%</color>，最多额外提升150%。"
+  },
+  "1310801": {
+    "id": 1310801,
+    "name": "[月城柳]月转天华",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi01.png",
+    "desc": "每发动三次<color=#FFFFFF>[连携技]</color>，月城柳<color=#2BAD00>下一次发动的[连携技]将被替换为[终结技]</color>。"
+  },
+  "1310802": {
+    "id": 1310802,
+    "name": "[月城柳]流转自如",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi02.png",
+    "desc": "<color=#FFFFFF>[普通攻击：夜见尊神乐]</color>发动期间，月城柳可以<color=#2BAD00>随时打断当前动作</color>，衔接发动<color=#FFFFFF>[特殊技：流转]</color>。"
+  },
+  "1310803": {
+    "id": 1310803,
+    "name": "[月城柳]月幻",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi03.png",
+    "desc": "月城柳攻击命中敌人并触发<color=#FFFFFF>[极性紊乱]</color>时，目标的<color=#2BAD00>全属性伤害抗性降低16%</color>，持续8秒。"
+  },
+  "1312201": {
+    "id": 1312201,
+    "name": "[耀嘉音]完美救场",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra01.png",
+    "desc": "<color=#FFFFFF>[普通攻击：璀璨时刻]</color>造成的伤害将<color=#2BAD00>被视为<color=#FFFFFF>[强化特殊技]</color>伤害</color>，招式发动期间，<color=#2BAD00>全队暴击率提升18%</color>。"
+  },
+  "1312202": {
+    "id": 1312202,
+    "name": "[耀嘉音]散落的旋律",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra02.png",
+    "desc": "<color=#FFFFFF>[咏叹华彩]</color>状态下，能量足够时，释放或追加释放<color=#FFFFFF>[震音]</color>进行攻击时，会<color=#2BAD00>额外追加两段</color>相同的<color=#FFFFFF>[震音]</color>伤害；耀嘉音发动<color=#FFFFFF>[普通攻击：间奏]</color>或<color=#FFFFFF>[普通攻击：副歌]</color>命中敌人时，有20%概率获得<color=#FFFFFF>[灵感]</color>效果，使耀嘉音下一次发动的<color=#FFFFFF>[闪避]</color><color=#2BAD00>能够直接触发</color><color=#FFFFFF>[极限闪避]</color>，后继可衔接发动<color=#FFFFFF>[普通攻击：副歌]</color>，持续10秒。"
+  },
+  "1312203": {
+    "id": 1312203,
+    "name": "[耀嘉音]轻风之咏叹",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra03.png",
+    "desc": "在<color=#FFFFFF>[咏叹华彩]</color>状态下，耀嘉音<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到伤害额外降低20%</color>；<color=#2BAD00>全队穿透率提升15%</color>，<color=#2BAD00>生命值缓慢回复</color>。"
+  },
+  "1312301": {
+    "id": 1312301,
+    "name": "[伊芙琳]袖中捷刃",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn01.png",
+    "desc": "发动<color=#FFFFFF>[连携技]</color>时，伊芙琳获得<color=#FFFFFF>[捷刃]</color>效果，使<color=#FFFFFF>[连携技]</color><color=#2BAD00>造成的伤害提升20%</color>，最多叠加3层，持续整场战斗。"
+  },
+  "1312302": {
+    "id": 1312302,
+    "name": "[伊芙琳]绳缚艺术",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn02.png",
+    "desc": "伊芙琳与目标进入<color=#FFFFFF>[牵缠禁制]</color>时，自身<color=#2BAD00>攻击力提升20%</color>，目标敌人的<color=#2BAD00>攻击力降低20%</color>，退出<color=#FFFFFF>[牵缠禁制]</color>后，伊芙琳仍可继续保有增益，持续10秒；退出<color=#FFFFFF>[牵缠禁制]</color>时，会引爆目标敌人，<color=#2BAD00>造成额外的</color><color=#FF5521>火属性伤害</color>。"
+  },
+  "1312303": {
+    "id": 1312303,
+    "name": "[伊芙琳]特调能量饮料",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn03.png",
+    "desc": "发动<color=#FFFFFF>[终结技]</color>时，伊芙琳将获得100%<color=#FFFFFF>[燎火]</color>和3点<color=#FFFFFF>[燎索点]</color>。"
+  },
+  "1312401": {
+    "id": 1312401,
+    "name": "[简]游戏时间",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane01.png",
+    "desc": "触发<color=#FFFFFF>[核心被动：洞察]</color>的<color=#F0D12B>[强击]</color>暴击效果时，有50%的概率使本次暴击的<color=#2BAD00>暴击伤害额外提升40%</color>。"
+  },
+  "1312402": {
+    "id": 1312402,
+    "name": "[简]格斗技巧",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane02.png",
+    "desc": "<color=#FFFFFF>[闪避反击]</color>命中敌人时，目标的<color=#F0D12B>物理伤害抗性</color><color=#2BAD00>降低20%</color>，持续10秒。"
+  },
+  "1312403": {
+    "id": 1312403,
+    "name": "[简]顽劣追袭",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane03.png",
+    "desc": "队伍中任意角色对敌人施加属性异常效果时，简<color=#2BAD00>额外获得40点喧响值</color>，并使下次发动的<color=#FFFFFF>[终结技]</color>的<color=#2BAD00>暴击率提升5%</color>，<color=#2BAD00>暴击伤害提升20%</color>，最多叠加5层。"
+  },
+  "1312501": {
+    "id": 1312501,
+    "name": "[可琳]女仆小碎步",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine01.png",
+    "desc": "触发<color=#FFFFFF>[极限闪避]</color>时，将会<color=#2BAD00>回复25点能量值</color>，6秒内最多触发一次。"
+  },
+  "1312502": {
+    "id": 1312502,
+    "name": "[可琳]不幸的撕裂伤",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine02.png",
+    "desc": "可琳使用电锯持续斩击命中敌人时，自身将获得1层充能，拥有10层充能后，下次斩击将对敌人施加<color=#FFFFFF>[撕裂]</color>效果，<color=#2BAD00>每3秒造成一次可琳20%攻击力</color>的<color=#F0D12B>物理伤害</color>，最多叠加10层，持续12秒， 重复触发时刷新持续时间。"
+  },
+  "1312503": {
+    "id": 1312503,
+    "name": "[可琳]厄运破伤风",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine03.png",
+    "desc": "<color=#FFFFFF>[普通攻击]</color>或<color=#FFFFFF>[冲刺攻击]</color>命中敌人时，目标的<color=#F0D12B>物理伤害抗性</color><color=#2BAD00>降低20%</color>，持续15秒。"
+  },
+  "1320101": {
+    "id": 1320101,
+    "name": "[终结]养气香囊",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic004.png",
+    "level": {
+      "1": {
+        "id": 132010101,
+        "desc": "全队<color=#2BAD00>喧响值上限提升至6000点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>当前操作中角色回复1500点喧响值</color>。"
+      },
+      "2": {
+        "id": 132010102,
+        "desc": "发动<color=#FFFFFF>[终结技]</color>时，将消耗全部喧响值，并基于<color=#2BAD00>超额消耗提升伤害</color>，每额外消耗1500点喧响值，<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升80%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>当前操作中角色回复1500点喧响值</color>。"
+      },
+      "3": {
+        "id": 132010103,
+        "desc": "全队<color=#2BAD00>喧响值上限提升至9000点</color>；发动<color=#FFFFFF>[邦布支援技]</color>时，将为当前操作中的代理人回复<color=#2BAD00>2000点喧响值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>当前操作中角色回复1500点喧响值</color>。"
+      },
+      "4": {
+        "id": 132010104,
+        "desc": "每额外消耗1500点喧响值，<color=#FFFFFF>[终结技]</color><color=#2BAD00>造成的伤害提升效果从80%提升至160%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>当前操作中角色回复1500点喧响值</color>。"
+      }
+    }
+  },
+  "1320102": {
+    "id": 1320102,
+    "name": "[终结]律动节能器",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic005.png",
+    "level": {
+      "1": {
+        "id": 132010201,
+        "desc": "发动<color=#FFFFFF>[终结技]</color>所需的<color=#2BAD00>喧响值降低至2000点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>全队回复500点喧响值</color>。"
+      },
+      "2": {
+        "id": 132010202,
+        "desc": "发动<color=#FFFFFF>[终结技]</color>时，全队<color=#2BAD00>属性异常积蓄效率提升20%</color>，持续10秒；<color=#FFFFFF>[终结技]</color>命中敌人时，<color=#2BAD00>额外对目标累积属性异常积蓄值</color>，同一招式对相同目标最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>全队回复500点喧响值</color>。"
+      },
+      "3": {
+        "id": 132010203,
+        "desc": "发动<color=#FFFFFF>[邦布支援技]</color>时，全队<color=#2BAD00>获得700点喧响值</color>，<color=#2BAD00>攻击力提升15%</color>，持续15秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>全队回复500点喧响值</color>。"
+      },
+      "4": {
+        "id": 132010204,
+        "desc": "发动<color=#FFFFFF>[终结技]</color>时，全队<color=#2BAD00>属性异常积蓄效率提升效果从20%提升至40%</color>，<color=#2BAD00>持续时间从10秒提升至15秒</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：共鸣布会随时间积攒能量，队伍中任意角色消耗喧响值会额外为共鸣布积攒能量。能量足够时，点按「邦布支援技」召唤共鸣布，凝聚以太黑洞攻击敌人，将造成<color=#FE437E>以太属性伤害</color>，并为<color=#2BAD00>全队回复500点喧响值</color>。"
+      }
+    }
+  },
+  "1320201": {
+    "id": 1320201,
+    "name": "[机敏]五界天符",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic003.png",
+    "level": {
+      "1": {
+        "id": 132020101,
+        "desc": "触发<color=#FFFFFF>[极限闪避]</color>时，全队<color=#2BAD00>获得1层[机敏计数]</color>，最多叠加3层；拥有3层<color=#FFFFFF>[机敏计数]</color>时，将消耗所有层数并<color=#2BAD00>进入[机敏状态]</color>，持续9秒；<color=#FFFFFF>[机敏状态]</color>下，全队<color=#2BAD00>攻击力提升60%</color>，攻击命中敌人时，会对目标施加<color=#FFFFFF>[机敏诅咒]</color>；<color=#FFFFFF>[机敏诅咒]</color>将在退出<color=#FFFFFF>[机敏状态]</color>时进行结算，对敌人造成<color=#FFFFFF>[机敏诅咒]</color>期间<color=#2BAD00>累积伤害量10%的额外伤害</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "2": {
+        "id": 132020102,
+        "desc": "<color=#FFFFFF>[机敏状态]</color>下，触发<color=#FFFFFF>[极限闪避]</color>时，<color=#2BAD00>[机敏状态]的持续时间延长3秒</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "3": {
+        "id": 132020103,
+        "desc": "发动<color=#FFFFFF>[招架支援]</color>或<color=#FFFFFF>[回避支援]</color>时，全队<color=#2BAD00>获得1层[机敏计数]</color>；<color=#FFFFFF>[机敏状态]</color>下，发动<color=#FFFFFF>[招架支援]</color>或<color=#FFFFFF>[回避支援]</color>时，<color=#2BAD00>[机敏状态]的持续时间延长3秒</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "4": {
+        "id": 132020104,
+        "desc": "<color=#FFFFFF>[机敏状态]</color>下，全队<color=#2BAD00>攻击力额外提升75%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      }
+    }
+  },
+  "1320202": {
+    "id": 1320202,
+    "name": "[机敏]机敏蓄能盾",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic007.png",
+    "level": {
+      "1": {
+        "id": 132020201,
+        "desc": "接战状态下，全队每0.5秒<color=#2BAD00>获得1点[机敏充能]</color>（上限32点）；受到敌方攻击并损失生命值时，将消耗所有<color=#FFFFFF>[机敏充能]</color>，消耗大于等于8/16/24点时，将会<color=#2BAD00>进入[机敏状态]</color>，持续2/4/8秒；拥有32点<color=#FFFFFF>[机敏充能]</color>后，攻击命中敌人时，将消耗所有充能并<color=#2BAD00>进入[机敏状态]</color>，持续16秒；<color=#FFFFFF>[机敏状态]</color>下，全队<color=#2BAD00>攻击力提升60%</color>，攻击命中敌人时，会对目标施加<color=#FFFFFF>[机敏诅咒]</color>；<color=#FFFFFF>[机敏诅咒]</color>将在退出<color=#FFFFFF>[机敏状态]</color>时进行结算，对敌人造成<color=#FFFFFF>[机敏诅咒]</color>期间<color=#2BAD00>累积伤害量10%的额外伤害</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "2": {
+        "id": 132020202,
+        "desc": "<color=#FFFFFF>[机敏充能]</color>少于8点时，受到敌方攻击并损失生命值时，<color=#2BAD00>不再消耗当前累积的[机敏充能]</color>，退出<color=#FFFFFF>[机敏状态]</color>时，立即<color=#2BAD00>重新获得4点[机敏充能]</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "3": {
+        "id": 132020203,
+        "desc": "<color=#FFFFFF>[机敏诅咒]</color><color=#2BAD00>造成的伤害提升至累积伤害量的20%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      },
+      "4": {
+        "id": 132020204,
+        "desc": "<color=#FFFFFF>[机敏状态]</color>下，全队<color=#2BAD00>暴击率提升20%</color>，<color=#2BAD00>暴击伤害提升40%</color>，<color=#2BAD00>异常积蓄效率提升40%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：插头布会随时间积攒能量，能量足够时，点按「邦布支援技」召唤插头布，释放连续雷电持续攻击敌人，将造成<color=#2EB6FF>电属性伤害</color>，并<color=#2BAD00>直接触发</color><color=#FFFFFF>[机敏状态]</color>，持续9秒。"
+      }
+    }
+  },
+  "1320301": {
+    "id": 1320301,
+    "name": "[异常·击破]溶剂弹射枪",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic011.png",
+    "level": {
+      "1": {
+        "id": 132030101,
+        "desc": "全队<color=#2BAD00>造成的失衡值提升10%</color>，<color=#2BAD00>异常精通提升30点</color>；造成失衡或对敌人施加属性异常效果时，将会触发一次额外的打击效果，对目标及其周围敌人<color=#2BAD00>造成1100%攻击力的伤害</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加属性异常效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并使全队<color=#2BAD00>攻击力提升15%</color>，持续20秒。"
+      },
+      "2": {
+        "id": 132030102,
+        "desc": "击败处于失衡状态或属性异常状态下的敌人时，本局空洞内，代理人的<color=#2BAD00>攻击力提升30点</color>，最多叠加30层。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加属性异常效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并使全队<color=#2BAD00>攻击力提升15%</color>，持续20秒。"
+      },
+      "3": {
+        "id": 132030103,
+        "desc": "造成失衡或对敌人施加属性异常效果时，<color=#2BAD00>额外打击效果的伤害范围提升</color>，对目标及其周围敌人<color=#2BAD00>造成的伤害从1100%攻击力提升至3700%攻击力</color>；发动<color=#FFFFFF>[邦布支援技]</color>时，<color=#2BAD00>全队攻击力提升效果从15%提升至30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加属性异常效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并使全队<color=#2BAD00>攻击力提升15%</color>，持续20秒。"
+      },
+      "4": {
+        "id": 132030104,
+        "desc": "造成失衡或对敌人施加属性异常效果时，额外的打击效果会在短暂延迟后<color=#2BAD00>再度触发一次</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加属性异常效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并使全队<color=#2BAD00>攻击力提升15%</color>，持续20秒。"
+      }
+    }
+  },
+  "1320302": {
+    "id": 1320302,
+    "name": "[异常·击破]混元丹",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic010.png",
+    "level": {
+      "1": {
+        "id": 132030201,
+        "desc": "造成失衡或对敌人施加<color=#FFFFFF>[紊乱]</color>效果时，代理人将<color=#2BAD00>从6种增益效果中随机抽取3~6次</color>，每种增益效果最多叠加6层，可能的增益效果包括：能量自动回复提升0.02点/秒、防御力提升4%、受到的伤害降低2%、冲击力提升2%、异常精通提升3点、喧响值获得效率提升3%。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加<color=#FFFFFF>[紊乱]</color>效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并为全队代理人<color=#2BAD00>抽取3次随机增益</color>。"
+      },
+      "2": {
+        "id": 132030202,
+        "desc": "攻击命中处于失衡状态下的敌人时，<color=#2BAD00>属性异常积蓄效率提升30%</color>；攻击命中处于属性异常状态下的敌人时，<color=#2BAD00>造成的失衡值提升30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加<color=#FFFFFF>[紊乱]</color>效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并为全队代理人<color=#2BAD00>抽取3次随机增益</color>。"
+      },
+      "3": {
+        "id": 132030203,
+        "desc": "随机抽取的增益效果大于等于3层后，发动<color=#FFFFFF>[邦布支援技]</color>时，将<color=#2BAD00>消耗对应种类的增益效果</color>，并基于消耗的层数提升<color=#FFFFFF>[邦布支援技]</color>造成的伤害，每消耗1层增益效果，<color=#FFFFFF>[邦布支援技]</color><color=#2BAD00>造成的伤害提升10%，并再次为代理人抽取3~6次增益效果</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加<color=#FFFFFF>[紊乱]</color>效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并为全队代理人<color=#2BAD00>抽取3次随机增益</color>。"
+      },
+      "4": {
+        "id": 132030204,
+        "desc": "强化随机抽取的增益效果，使其<color=#2BAD00>提升至原本的150%</color>；发动<color=#FFFFFF>[邦布支援技]</color>时，每消耗1层增益效果，<color=#FFFFFF>[邦布支援技]</color><color=#2BAD00>造成的伤害提升效果从10%提升至20%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：鲨牙布会随时间积攒能量，队伍中任意角色使敌人失衡或对敌人施加<color=#FFFFFF>[紊乱]</color>效果时，会额外为鲨牙布积攒能量。能量足够时，点按「邦布支援技」召唤鲨牙布，释放冰雪风暴持续攻击敌人，将造成<color=#98EFF0>冰属性伤害</color>，并为全队代理人<color=#2BAD00>抽取3次随机增益</color>。"
+      }
+    }
+  },
+  "1320401": {
+    "id": 1320401,
+    "name": "[绝境]战斗维生包",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic008.png",
+    "level": {
+      "1": {
+        "id": 132040101,
+        "desc": "攻击命中敌人时，代理人将进入<color=#FFFFFF>[燃血状态]</color>，持续2秒；<color=#FFFFFF>[燃血状态]</color>下，代理人<color=#2BAD00>造成的伤害提升75%</color>，<color=#2BAD00>受到的伤害降低10%</color>，当前生命值高于20%时，<color=#CF4029>每秒将消耗1%生命值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，当前操作中的角色生命值越低，格斗布能量回复速率越快。能量足够时，点按「邦布支援技」召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并为当前操作中的代理人<color=#2BAD00>回复30%已损失生命值</color>。"
+      },
+      "2": {
+        "id": 132040102,
+        "desc": "<color=#FFFFFF>[燃血状态]</color>下，代理人<color=#2BAD00>造成的伤害提升效果提升至115%</color>，<color=#2BAD00>受到的伤害降低效果提升至20%</color>；发动<color=#FFFFFF>[邦布支援技]</color>时，当前操作中的代理人<color=#2BAD00>回复的生命值提升至40%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，当前操作中的角色生命值越低，格斗布能量回复速率越快。能量足够时，点按「邦布支援技」召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并为当前操作中的代理人<color=#2BAD00>回复30%已损失生命值</color>。"
+      },
+      "3": {
+        "id": 132040103,
+        "desc": "代理人回复至少100点生命值时，将会触发一次<color=#2BAD00>额外的打击效果</color>，10秒内最多触发一次，对全场敌人<color=#2BAD00>造成1800%攻击力的伤害</color>，每<color=#2BAD00>回复100点生命值</color>，额外打击效果<color=#2BAD00>造成的伤害提升2.5%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，当前操作中的角色生命值越低，格斗布能量回复速率越快。能量足够时，点按「邦布支援技」召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并为当前操作中的代理人<color=#2BAD00>回复30%已损失生命值</color>。"
+      },
+      "4": {
+        "id": 132040104,
+        "desc": "生命值从20%以上降低至20%以下时，代理人将<color=#2BAD00>获得20%生命值上限的护盾</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，当前操作中的角色生命值越低，格斗布能量回复速率越快。能量足够时，点按「邦布支援技」召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并为当前操作中的代理人<color=#2BAD00>回复30%已损失生命值</color>。"
+      }
+    }
+  },
+  "1320403": {
+    "id": 1320403,
+    "name": "[绝境]浩劫令牌",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic009.png",
+    "level": {
+      "1": {
+        "id": 132040301,
+        "desc": "代理人将获得<color=#FFFFFF>[燃血祝福]</color>，基于缺失的生命值获得增益，每缺失10%生命值，代理人<color=#2BAD00>受到的伤害降低2.5%</color>，<color=#2BAD00>造成的伤害提升10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，能量足够时，点按「邦布支援技」消耗全队30%当前生命值召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并根据代理人<color=#2BAD00>已损失生命值的20%为代理人提供护盾</color>，首次进入接战状态时，格斗布会充满能量。"
+      },
+      "2": {
+        "id": 132040302,
+        "desc": "发动<color=#FFFFFF>[邦布支援技]</color>时，将获得<color=#FFFFFF>[燃血增幅]</color>，使全队<color=#2BAD00>攻击力提升50%</color>，持续20秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，能量足够时，点按「邦布支援技」消耗全队30%当前生命值召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并根据代理人<color=#2BAD00>已损失生命值的20%为代理人提供护盾</color>，首次进入接战状态时，格斗布会充满能量。"
+      },
+      "3": {
+        "id": 132040303,
+        "desc": "强化<color=#FFFFFF>[燃血祝福]</color>的效果，每缺失10%生命值，代理人<color=#2BAD00>受到的伤害降低效果从2.5%提升至5%</color>，<color=#2BAD00>造成的伤害提升效果从10%提升至20%</color>；发动<color=#FFFFFF>[邦布支援技]</color>时，<color=#2BAD00>获得的护盾量从当前缺失生命值的20%提升至30%</color>，若代理人的生命值低于20%，将会使其<color=#2BAD00>回复至20%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，能量足够时，点按「邦布支援技」消耗全队30%当前生命值召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并根据代理人<color=#2BAD00>已损失生命值的20%为代理人提供护盾</color>，首次进入接战状态时，格斗布会充满能量。"
+      },
+      "4": {
+        "id": 132040304,
+        "desc": "<color=#FFFFFF>[燃血增幅]</color>期间，每缺失1%生命值，代理人的<color=#2BAD00>暴击伤害提升1.6%</color>，<color=#2BAD00>最多提升120%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：格斗布会随时间积攒能量，能量足够时，点按「邦布支援技」消耗全队30%当前生命值召唤格斗布，释放强力火焰持续攻击敌人，将造成<color=#FF5521>火属性伤害</color>，并根据代理人<color=#2BAD00>已损失生命值的20%为代理人提供护盾</color>，首次进入接战状态时，格斗布会充满能量。"
+      }
+    }
+  },
+  "1320501": {
+    "id": 1320501,
+    "name": "[星见雅]花雪憩蜂",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "desc": "将<color=#FFFFFF>[冲刺攻击：冬蜂]</color>替换为<color=#FFFFFF>[冲刺攻击：冬蜂·极]</color>，招式发动时，星见雅将<color=#2BAD00>向前突进</color>并对敌人造成<color=#98EFF0>烈霜伤害</color>；替换招式后，星见雅被重击退或被击飞时，在硬直期间点按「普通攻击」或「特殊攻击」，可以<color=#2BAD00>立即发动</color><color=#FFFFFF>[冲刺攻击：冬蜂·极]</color>，同时<color=#2BAD00>回复本次承受伤害70%的生命值并获得0.5秒的无敌效果</color>。"
+  },
+  "1320502": {
+    "id": 1320502,
+    "name": "[星见雅]心间舞雀",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "desc": "受到敌方攻击时，星见雅将<color=#2BAD00>自动回避本次攻击</color>并触发<color=#FFFFFF>[极限闪避]</color>与<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>持续3秒，自动回避效果12秒内最多触发一次；效果触发时，星见雅<color=#2BAD00>造成的伤害提升80%</color>，持续20秒。"
+  },
+  "1320503": {
+    "id": 1320503,
+    "name": "[星见雅]花间雀",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "desc": "星见雅发动<color=#FFFFFF>[闪避反击：寒雀]</color>和<color=#FFFFFF>[快速支援：花信风]</color>后，将会<color=#2BAD00>自动衔接派生</color><color=#FFFFFF>[霜碎雪]</color>，<color=#2BAD00>爆发气浪攻击周围敌人并累积大量失衡值</color>；使敌人失衡时，星见雅获得3点<color=#FFFFFF>[落霜]</color>，目标的<color=#2BAD00>失衡易伤倍率提升75%</color>。"
+  },
+  "1320601": {
+    "id": 1320601,
+    "name": "[比利]爆裂子弹",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "desc": "将<color=#FFFFFF>[普通攻击：火力全开]</color>替换为<color=#FFFFFF>[普通攻击：火力全开·改]</color>，<color=#2BAD00>降低射击频率以提升子弹威力</color>，招式发动时，将<color=#2BAD00>直接进入蹲姿射击</color>，触发<color=#FFFFFF>[核心被动：稳定据枪]</color>并使比利<color=#2BAD00>造成的伤害额外提升50%</color>，进行移动、回到待机、被击退或被击飞时增益效果结束。"
+  },
+  "1320602": {
+    "id": 1320602,
+    "name": "[比利]旋转传动装置",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "desc": "比利发动<color=#FFFFFF>[强化特殊技]</color>/<color=#FFFFFF>[支援突击]</color>/<color=#FFFFFF>[连携技]</color>/<color=#FFFFFF>[终结技]</color>时，<color=#2BAD00>获得2/2/4/4层充能</color>（上限4层）；在<color=#FFFFFF>[冲刺攻击：星-徽-制-裁]</color>中向周身大范围区域进行穿透攻击后，点按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>消耗1层充能</color>，重复发动招式，并使招式<color=#2BAD00>造成的伤害提升150%</color>；效果触发时，比利的<color=#2BAD00>暴击率提升20%</color>，持续10秒，最多叠加2层，重复触发时刷新持续时间。"
+  },
+  "1320603": {
+    "id": 1320603,
+    "name": "[比利]神秘变身器",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic020.png",
+    "desc": "比利在<color=#FFFFFF>[普通攻击]</color>中进入蹲姿射击时，触发<color=#FFFFFF>[核心被动：稳定据枪]</color>并维持增益效果1.5秒后，将进入<color=#FFFFFF>[星徽降临]</color>状态，期间攻击命中敌人时<color=#2BAD00>无视目标50%</color><color=#F0D12B>物理伤害抗性</color>，同时<color=#2BAD00>持续获得喧响值</color>，<color=#2BAD00>从20点/秒逐渐提升至50点/秒</color>，在3秒后达到最大值，直到自身被击退或被击飞。"
+  },
+  "1320701": {
+    "id": 1320701,
+    "name": "{AWAKEN_1191#[艾莲]冻霜刀刃·进界}{NOAWAKEN_1191#[艾莲]冻霜刀刃}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "desc": "{AWAKEN_1191#发动第三段<color=#FFFFFF>[普通攻击：利齿修剪法]</color>和<color=#FFFFFF>[快速支援]</color>后，也会自动发动<color=#FFFFFF>[霜锋]</color>，对前方大范围敌人造成多段<color=#98EFF0>冰属性伤害</color>；<color=#FFFFFF>[霜锋]</color>命中敌人时，使目标的<color=#2BAD00>防御力降低30%</color>，持续15秒；追加发动<color=#FFFFFF>[霜锋]</color>时，招式的<color=#2BAD00>暴击伤害提升25%</color>，最多叠加3层，持续15秒，重复触发时刷新持续时间。}{NOAWAKEN_1191#第三段<color=#FFFFFF>[普通攻击]</color>、<color=#FFFFFF>[强化特殊技：鲨卷风]</color>、<color=#FFFFFF>[闪避反击：暗礁]</color>、<color=#FFFFFF>[快速支援]</color>、<color=#FFFFFF>[支援突击]</color>发动后，将<color=#2BAD00>额外追加一道[霜锋]</color>，对<color=#2BAD00>前方大范围敌人</color>造成<color=#98EFF0>冰属性伤害</color>，并使目标的<color=#2BAD00>防御力降低30%</color>，持续15秒；追加发动<color=#FFFFFF>[霜锋]</color>时，招式的<color=#2BAD00>暴击伤害提升25%</color>，最多叠加3层，持续15秒，重复触发时刷新持续时间；追加发动<color=#FFFFFF>[霜锋]</color>不影响原本招式派生。}"
+  },
+  "1320702": {
+    "id": 1320702,
+    "name": "[艾莲]凶险轴承",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "desc": "<color=#FFFFFF>[巡游]</color>状态下，艾莲每0.5秒会获得2点<color=#FFFFFF>[急冻充能]</color>和<color=#FFFFFF>[快蓄]</color>效果；在<color=#FFFFFF>[冲刺攻击：冰渊潜袭]</color>中，艾莲发动快速剪击或蓄力剪击命中敌人时，会<color=#2BAD00>在地面留下一片[冰雾]</color>，对敌人造成持续<color=#98EFF0>冰属性伤害</color>，并使目标的<color=#98EFF0>冰属性伤害抗性</color>降低30%，持续10秒；艾莲在<color=#FFFFFF>[冰雾]</color>中时，<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到的伤害降低50%</color>，离开<color=#FFFFFF>[冰雾]</color>后效果持续5秒。"
+  },
+  "1320703": {
+    "id": 1320703,
+    "name": "[艾莲]狩猎背鳍",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "desc": "每间隔15秒，艾莲将会对场上随机敌人施加<color=#FFFFFF>[巡猎]</color>标记，持续15秒；发动<color=#FFFFFF>[强化特殊技]</color>或在<color=#FFFFFF>[冲刺攻击：冰渊潜袭]</color>中发动快速剪击或蓄力剪击命中被施加<color=#FFFFFF>[巡猎]</color>标记的敌人时，再次点按「普通攻击」 <IconMap:Icon_Normal> 或「特殊攻击」 <IconMap:Icon_SpecialReady> ，艾莲可以<color=#2BAD00>无消耗、无条件</color>，<color=#2BAD00>直接再次发动该招式</color>，并使招式的<color=#2BAD00>暴击伤害提升25%</color>；目标被击败后，艾莲将立即对下一名敌人施加<color=#FFFFFF>[巡猎]</color>标记；获得<color=#FFFFFF>[急冻充能]</color>时，每溢出1点<color=#FFFFFF>[急冻充能]</color>，艾莲的<color=#2BAD00>攻击力提升5%</color>，最多叠加9层，持续10秒，每层效果逐个结算持续时间。"
+  },
+  "1320801": {
+    "id": 1320801,
+    "name": "[月城柳]凌空月华",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "desc": "在<color=#FFFFFF>[强化特殊技：月华流转]</color>中发动快速突刺后，月城柳将悬停在空中，<color=#2BAD00>持续向地面引导落雷攻击</color>，造成<color=#2EB6FF>电属性伤害</color>，松开或再次点按「特殊攻击」 <IconMap:Icon_SpecialReady> 或到达持续时间上限后，月城柳将发动<color=#FFFFFF>[强化特殊技：月华流转]</color>中的下砸攻击。落雷攻击命中敌人时，将会使月城柳<color=#2BAD00>对目标造成的[紊乱]伤害提升3%</color>，最多叠加20层，持续6秒，重复触发时刷新持续时间；<color=#FFFFFF>[强化特殊技：月华流转]</color>重击命中敌人时，会为月城柳提供等同于最大生命值20%的护盾，持续20秒，每20秒最多触发一次。"
+  },
+  "1320802": {
+    "id": 1320802,
+    "name": "[月城柳]翩飞神乐",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "desc": "在<color=#FFFFFF>[上弦]</color>架势下发动第五段<color=#FFFFFF>[普通攻击]</color>或在<color=#FFFFFF>[下弦]</color>架势下发动第四段<color=#FFFFFF>[普通攻击]</color>时，连点或长按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>延长招式的持续时间</color>，重复发动斩击；重复斩击命中敌人时，月城柳造成的<color=#2EB6FF>电属性伤害</color>提升4%，最多叠加15层，持续8秒，重复触发时刷新持续时间；重复发动斩击期间，月城柳<color=#2BAD00>受到的伤害降低40%</color>，触发<color=#FFFFFF>[快速流转]</color>后，点按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>快速衔接另一架势的重复斩击</color>。"
+  },
+  "1320803": {
+    "id": 1320803,
+    "name": "[月城柳]流转映镜",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "desc": "发动<color=#FFFFFF>[特殊技：流转]</color>时，月城柳将<color=#2BAD00>获得1层充能</color>（上限3层）；拥有3层充能时，月城柳触发<color=#FFFFFF>[快速流转]</color>后，点按「普通攻击」 <IconMap:Icon_Normal> ，可以<color=#2BAD00>消耗所有充能</color>，<color=#2BAD00>直接衔接发动[连携技：星月相随]</color>；若在<color=#FFFFFF>[快速流转]</color>发动期间成功格挡敌人的攻击，则在衔接发动<color=#FFFFFF>[连携技：星月相随]</color>时<color=#2BAD00>无需消耗充能层数</color>，<color=#FFFFFF>[连携技：星月相随]</color>的伤害提升50%。"
+  },
+  "1321001": {
+    "id": 1321001,
+    "name": "[携游]敕令玄幡",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic033.png",
+    "level": {
+      "1": {
+        "id": 132100101,
+        "desc": "操作中的角色<color=#FFFFFF>[支援突击]</color>、<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[终结技]</color>重击命中敌人以及触发<color=#FFFFFF>[极限闪避]</color>时，将触发下一位角色的<color=#FFFFFF>[追击支援]</color>，此时点按 <IconMap:Icon_Switch>，下一位角色将会围绕敌人发动<color=#FFFFFF>[快速支援]</color>，<color=#FFFFFF>[追击支援]</color>不会切换当前操作角色，造成的伤害被视为<color=#FFFFFF>[追加攻击]</color>伤害。角色发动<color=#FFFFFF>[追击支援]</color>时，为全队提供一层<color=#FFFFFF>[同袍]</color>，最多叠加5层，持续20秒，重复触发时刷新持续时间。每层<color=#FFFFFF>[同袍]</color>会使<color=#FFFFFF>[异常]</color>特性的代理人的<color=#2BAD00>异常精通提升20点</color>，<color=#2BAD00>异常积蓄效率提升10%</color>；使[击破]特性代理人的<color=#2BAD00>冲击力提升4%</color>；使[强攻]特性代理人的<color=#2BAD00>暴击率提升5%</color>，<color=#2BAD00>暴击伤害提升10%</color>；[支援]特性代理人的<color=#2BAD00>能量获取效率提升7.5%</color>；使[防护]特性代理人<color=#2BAD00>施加护盾效率提升10%</color>；使[命破]特性代理人的<color=#2BAD00>贯穿伤害提升7%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，并<color=#2BAD00>为全队提供3层<color=#FFFFFF>[同袍]</color></color>。"
+      },
+      "2": {
+        "id": 132100102,
+        "desc": "操作中的角色触发其他角色的<color=#FFFFFF>[追击支援]</color>时，短时间内点按换人按钮，将会触发<color=#FFFFFF>[精准·追击支援]</color>，为全队提供2层<color=#FFFFFF>[同袍]</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，并<color=#2BAD00>为全队提供3层<color=#FFFFFF>[同袍]</color></color>。"
+      },
+      "3": {
+        "id": 132100103,
+        "desc": "<color=#FFFFFF>[同袍]</color>的增益效果<color=#2BAD00>提升40%</color>，<color=#2BAD00>持续时间提升至30秒</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，并<color=#2BAD00>为全队提供3层<color=#FFFFFF>[同袍]</color></color>。"
+      },
+      "4": {
+        "id": 132100104,
+        "desc": "每层<color=#FFFFFF>[同袍]</color>还会使角色的<color=#2BAD00>攻击力提升5%</color>，<color=#2BAD00>造成的伤害提升10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，并<color=#2BAD00>为全队提供3层<color=#FFFFFF>[同袍]</color></color>。"
+      }
+    }
+  },
+  "1321002": {
+    "id": 1321002,
+    "name": "[携游]破军鸣铎",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic034.png",
+    "level": {
+      "1": {
+        "id": 132100201,
+        "desc": "操作中的角色<color=#FFFFFF>[支援突击]</color>、<color=#FFFFFF>[强化特殊技]</color>、<color=#FFFFFF>[终结技]</color>重击命中敌人以及触发<color=#FFFFFF>[极限闪避]</color>时，将触发下一位角色的<color=#FFFFFF>[追击支援]</color>，此时点按 <IconMap:Icon_Switch>，下一位角色将会围绕敌人发动<color=#FFFFFF>[快速支援]</color>，<color=#FFFFFF>[追击支援]</color>不会切换当前操作角色，造成的伤害被视为<color=#FFFFFF>[追加攻击]</color>伤害。<color=#FFFFFF>[追击支援]</color>造成的<color=#2BAD00>伤害提升200%、失衡值提升50%、累积的异常积蓄值提升100%</color>。全队每发动3次<color=#FFFFFF>[追击支援]</color>，下一次发动<color=#FFFFFF>[追击支援]</color>时将会触发<color=#FFFFFF>[极限视域]</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，<color=#2BAD00>为全队恢复250点喧响值和6点能量</color>，并使队伍中任意角色下一次发动<color=#FFFFFF>[追击支援]</color>时，释放<color=#FFFFFF>[连携技]</color>攻击敌人，且会触发<color=#FFFFFF>[极限视域]</color>。"
+      },
+      "2": {
+        "id": 132100202,
+        "desc": "全队每发动3次<color=#FFFFFF>[追击支援]</color>，下一次发动<color=#FFFFFF>[追击支援]</color>时，下一位角色将发动<color=#FFFFFF>[连携技]</color>攻击敌人。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，<color=#2BAD00>为全队恢复250点喧响值和6点能量</color>，并使队伍中任意角色下一次发动<color=#FFFFFF>[追击支援]</color>时，释放<color=#FFFFFF>[连携技]</color>攻击敌人，且会触发<color=#FFFFFF>[极限视域]</color>。"
+      },
+      "3": {
+        "id": 132100203,
+        "desc": "<color=#FFFFFF>[极限视域]</color>内，全队的<color=#2BAD00>攻击力提升50%、冲击力提升40%、异常掌控提升100点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，<color=#2BAD00>为全队恢复250点喧响值和6点能量</color>，并使队伍中任意角色下一次发动<color=#FFFFFF>[追击支援]</color>时，释放<color=#FFFFFF>[连携技]</color>攻击敌人，且会触发<color=#FFFFFF>[极限视域]</color>。"
+      },
+      "4": {
+        "id": 132100204,
+        "desc": "全队每发动2次<color=#FFFFFF>[追击支援]</color>，下一次发动<color=#FFFFFF>[追击支援]</color>时，角色将发动<color=#FFFFFF>[连携技]</color>攻击敌人并触发<color=#FFFFFF>[极限视域]</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[邦布支援技]</color>：招财布会随时间积攒能量，任意角色<color=#FFFFFF>[追加攻击]</color>命中敌人时，会为招财布额外积攒能量，该效果每3秒最多触发一次。能量足够时，点按「邦布支援技」召唤招财布，召唤大量丁尼持续攻击敌人，将造成<color=#F0D12B>物理伤害</color>，<color=#2BAD00>为全队恢复250点喧响值和6点能量</color>，并使队伍中任意角色下一次发动<color=#FFFFFF>[追击支援]</color>时，释放<color=#FFFFFF>[连携技]</color>攻击敌人，且会触发<color=#FFFFFF>[极限视域]</color>。"
+      }
+    }
+  },
+  "1322201": {
+    "id": 1322201,
+    "name": "[耀嘉音]璀璨时刻",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "desc": "耀嘉音每累计消耗25点能量，则获得1层<color=#FFFFFF>[星光]</color>，最多叠加3层；<color=#FFFFFF>[咏叹华彩]</color>状态下，长按 <IconMap:Icon_Normal> 可发动<color=#FFFFFF>[普通攻击：璀璨时刻]</color>，持续引导能量光束攻击敌人；招式发动时，将消耗<color=#FFFFFF>[星光]</color>，每层<color=#FFFFFF>[星光]</color>会使招式的<color=#2BAD00>持续时间延长1秒</color>；招式发动期间<color=#2BAD00>抗打断等级提升</color>，<color=#2BAD00>受到伤害额外降低20%</color>；招式命中敌人时，<color=#2BAD00>目标的防御力降低40%</color>，持续15秒；拥有3层<color=#FFFFFF>[星光]</color>后，切换回耀嘉音时，将会自动衔接发动<color=#FFFFFF>[普通攻击：璀璨时刻]</color>。"
+  },
+  "1322202": {
+    "id": 1322202,
+    "name": "[耀嘉音]空洞交响曲",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "desc": "耀嘉音每累计消耗25点能量，则获得1层<color=#FFFFFF>[星光]</color>，最多叠加3层，每拥有1层<color=#FFFFFF>[星光]</color>，<color=#FFFFFF>[咏叹华彩]</color>状态下释放和追加释放的<color=#2BAD00><color=#FFFFFF>[震音]</color>造成的伤害提升15%</color>；长按 <IconMap:Icon_Normal> 发动<color=#FFFFFF>[普通攻击：终曲]</color>或<color=#FFFFFF>[普通攻击：璀璨时刻]</color>时，将消耗<color=#FFFFFF>[星光]</color>，每层<color=#FFFFFF>[星光]</color>会使<color=#2BAD00>招式造成的伤害提升15%</color>，并为耀嘉音<color=#2BAD00>回复4点能量</color>；耀嘉音发动<color=#FFFFFF>[普通攻击：间奏]</color>命中敌人时，将额外消耗25点能量，发动<color=#FFFFFF>[普通攻击：副歌]</color>命中敌人时，将<color=#2BAD00>额外回复4点能量</color>。"
+  },
+  "1322203": {
+    "id": 1322203,
+    "name": "[耀嘉音]和声回响",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "desc": "<color=#FFFFFF>[咏叹华彩]</color>状态下，<color=#2BAD00>全队暴击率提升20%</color>，若暴击率高于100%，每超过1%暴击率会使<color=#2BAD00>暴击伤害提升2%</color>，最高不超过100%；当前操作中的角色发动<color=#FFFFFF>[强化特殊技]</color>命中敌人时，耀嘉音将<color=#2BAD00>回复1点能量</color>，并<color=#2BAD00>追加释放<color=#FFFFFF>[震音]</color>进行攻击</color>，能量回复效果1秒内最多触发一次。"
+  },
+  "1322301": {
+    "id": 1322301,
+    "name": "[伊芙琳]低燃点涂装",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "desc": "伊芙琳消耗<color=#FFFFFF>[燎索点]</color>发动的<color=#FFFFFF>[连携技：月辉丝·绊]</color>将被替换为<color=#FFFFFF>[连携技：月辉丝·萦牵]</color>，招式时长大幅缩短；伊芙琳发动<color=#FFFFFF>[连携技]</color>命中敌人时，<color=#2BAD00>招式造成的伤害提升80%</color>。"
+  },
+  "1322302": {
+    "id": 1322302,
+    "name": "[伊芙琳]便携式雷管",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "desc": "伊芙琳退出<color=#FFFFFF>[牵缠禁制]</color>时，会进入<color=#FFFFFF>[引燃预备时间]</color>，持续20秒，期间发动的下一个<color=#FFFFFF>[冲刺攻击：穿梭潜袭]</color>将被替换为<color=#FFFFFF>[冲刺攻击：潜袭爆破]</color>，<color=#FFFFFF>[冲刺攻击：潜袭爆破]</color><color=#2BAD00>被视为[连携技]</color>；伊芙琳发动<color=#FFFFFF>[普通攻击：绞勒式]</color>时，<color=#2BAD00>将会退出[牵缠禁制]</color>。"
+  },
+  "1322303": {
+    "id": 1322303,
+    "name": "[伊芙琳]最高应急预案",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "desc": "伊芙琳受到来自正面的攻击，且即将进入受击硬直时，会消耗<color=#FFFFFF>[支援点数]</color>，<color=#2BAD00>自动发动[招架支援]</color>，格挡敌人的攻击，且可以衔接派生<color=#FFFFFF>[支援突击：轨迹干涉]</color>；伊芙琳发动<color=#FFFFFF>[招架支援]</color>时，自身<color=#2BAD00>暴击伤害提升50%</color>，最多叠加2层，持续20秒，每层效果单独结算持续时间。"
+  },
+  "1322401": {
+    "id": 1322401,
+    "name": "[简]诡步轻甲",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "desc": "<color=#FFFFFF>[普通攻击：萨霍夫跳]</color>的<color=#2BAD00>持续攻击时间大幅提升</color>，在即将受到攻击时发动终结一击，可以触发<color=#FFFFFF>[极限闪避]</color>，持续攻击时间达到最大或终结一击触发<color=#FFFFFF>[极限闪避]</color>时，会将终结一击强化为<color=#FFFFFF>[萨霍夫跳·凌空]</color>，发动该招式时，自身<color=#F0D12B>物理异常积蓄效率</color><color=#2BAD00>提升50%</color>，持续10秒。"
+  },
+  "1322402": {
+    "id": 1322402,
+    "name": "[简]沸腾猎意",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "desc": "触发<color=#FFFFFF>[极限闪避]</color>或发动<color=#FFFFFF>[招架支援]</color>时获得的<color=#FFFFFF>[狂热心流]</color><color=#2BAD00>大幅提升</color>，将<color=#FFFFFF>[狂热]</color>状态替换为<color=#FFFFFF>[过载狂热]</color>状态，该状态下简的<color=#2BAD00>攻击力额外提升35%</color>，<color=#FFFFFF>[狂热心流]</color>会随时间自动降低，攻击命中敌人<color=#2BAD00>不再消耗</color><color=#FFFFFF>[狂热心流]</color>。"
+  },
+  "1322403": {
+    "id": 1322403,
+    "name": "[简]尖锋毒獠",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "desc": "<color=#FFFFFF>[狂热]</color>或<color=#FFFFFF>[过载狂热]</color>状态下，<color=#FFFFFF>[强化特殊技：掠空]</color>会被强化为<color=#FFFFFF>[强化特殊技：掠空-强袭]</color>，发动该招式时，简会重新进入<color=#FFFFFF>[狂热]</color>或<color=#FFFFFF>[过载狂热]</color>状态，该招式命中敌人时，目标的<color=#2BAD00>全属性异常积蓄抗性降低40%</color>，持续15秒。"
+  },
+  "1322501": {
+    "id": 1322501,
+    "name": "[可琳]锯片驾驶指南",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "desc": "将<color=#FFFFFF>[冲刺攻击：[断]]</color>替换为<color=#FFFFFF>[冲刺攻击：[断]改]</color>，长按[普通攻击]<IconMap:Icon_Normal>可持续保持疾行形态，电锯连续斩击命中敌人30次或松开按键后结束。"
+  },
+  "1322502": {
+    "id": 1322502,
+    "name": "[可琳]过载驱动",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "desc": "在<color=#FFFFFF>[强化特殊技]</color>发动期间，长按<color=#FFFFFF>[特殊攻击]</color> <IconMap:Icon_SpecialReady>持续斩击敌人超过0.5秒时，会触发<color=#FFFFFF>[超频状态]</color>，<color=#2BAD00>持续聚集敌人</color>，且当斩击命中敌人10次时，将触发<color=#FFFFFF>[超频过载]</color>，<color=#2BAD00>额外造成一次可琳400%攻击力</color>的<color=#F0D12B>物理伤害</color>。"
+  },
+  "1322503": {
+    "id": 1322503,
+    "name": "[可琳]特型鼓风机",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic032.png",
+    "desc": "在第一，二，三段<color=#FFFFFF>[普通攻击]</color>，<color=#FFFFFF>[冲刺攻击]</color>，<color=#FFFFFF>[闪避反击]</color>或<color=#FFFFFF>[快速支援]</color>发动期间，连点或长按[普通攻击]<IconMap:Icon_Normal>，<color=#2BAD00>可直接发动第四段[普通攻击]</color>，并向前方<color=#2BAD00>施放高速气旋斩击敌人</color>。"
+  },
+  "1360101": {
+    "id": 1360101,
+    "name": "[强攻：翦除]冥火回燃",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：奥菲丝& 「鬼火」会随时间积攒能量。能量足够时，点按「协战支援技」召唤奥菲丝& 「鬼火」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人<color=#FFFFFF>获得[准星聚焦]效果</color>，持续15秒，拥有<color=#FFFFFF>[准星聚焦]</color>效果的代理人<color=#2BAD00>攻击力提升500点，攻击无视敌人20%防御力</color>。",
+    "level": {
+      "1": {
+        "id": 136010101,
+        "desc": "任意<color=#FFFFFF>[协战支援技]</color>结束后，代理人将以<color=#FFFFFF>[终结技]</color>重新入场，每20秒最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：奥菲丝& 「鬼火」会随时间积攒能量。能量足够时，点按「协战支援技」召唤奥菲丝& 「鬼火」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人<color=#FFFFFF>获得[准星聚焦]效果</color>，持续15秒，拥有<color=#FFFFFF>[准星聚焦]</color>效果的代理人<color=#2BAD00>攻击力提升500点，攻击无视敌人20%防御力</color>。"
+      },
+      "2": {
+        "id": 136010102,
+        "desc": "<color=#FFFFFF>[准星聚焦]</color>效果额外<color=#2BAD00>提供675点攻击力，额外无视敌人30%防御力</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：奥菲丝& 「鬼火」会随时间积攒能量。能量足够时，点按「协战支援技」召唤奥菲丝& 「鬼火」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人<color=#FFFFFF>获得[准星聚焦]效果</color>，持续15秒，拥有<color=#FFFFFF>[准星聚焦]</color>效果的代理人<color=#2BAD00>攻击力提升500点，攻击无视敌人20%防御力</color>。"
+      },
+      "3": {
+        "id": 136010103,
+        "desc": "代理人攻击造成暴击时，<color=#2BAD00>暴击伤害提升40%，造成的伤害提升25%</color>，持续6秒，重复触发时刷新时间。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：奥菲丝& 「鬼火」会随时间积攒能量。能量足够时，点按「协战支援技」召唤奥菲丝& 「鬼火」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人<color=#FFFFFF>获得[准星聚焦]效果</color>，持续15秒，拥有<color=#FFFFFF>[准星聚焦]</color>效果的代理人<color=#2BAD00>攻击力提升500点，攻击无视敌人20%防御力</color>。"
+      },
+      "4": {
+        "id": 136010104,
+        "desc": "<color=#FFFFFF>[准星聚焦]</color>期间，代理人发动<color=#FFFFFF>[强化特殊技]</color>/<color=#FFFFFF>[连携技]</color>/<color=#FFFFFF>[终结技]</color>时，<color=#FFFFFF>[准星聚焦]</color>的持续时间分别<color=#2BAD00>延长3/3/6秒</color>，最多额外延长30秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：奥菲丝& 「鬼火」会随时间积攒能量。能量足够时，点按「协战支援技」召唤奥菲丝& 「鬼火」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人<color=#FFFFFF>获得[准星聚焦]效果</color>，持续15秒，拥有<color=#FFFFFF>[准星聚焦]</color>效果的代理人<color=#2BAD00>攻击力提升500点，攻击无视敌人20%防御力</color>。"
+      }
+    }
+  },
+  "1360102": {
+    "id": 1360102,
+    "name": "[强攻：翦除]假面舞剧",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：雨果会随时间积攒能量。能量足够时，点按「协战支援技」召唤雨果发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，该招式必定暴击，且重击命中敌人时会<color=#FFFFFF>触发[决算]效果</color>，对普通敌人/精英敌人/首领敌人<color=#2BAD00>造成等同于其最大生命值100%/20%/10%的伤害</color>；雨果的<color=#FFFFFF>[协战支援技]</color>命中处于失衡状态的敌人时会使敌人的失衡状态结束，并根据剩余失衡时间额外对精英敌人/首领敌人<color=#2BAD00>造成其最大生命值一定百分比的伤害</color>，最多额外造成20%/10%。",
+    "level": {
+      "1": {
+        "id": 136010201,
+        "desc": "代理人或协战角色攻击造成暴击时，可直接<color=#2BAD00>击溃生命值低于最大生命值80%/40%/20%的普通敌人/精英敌人/首领敌人</color>，6秒内最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：雨果会随时间积攒能量。能量足够时，点按「协战支援技」召唤雨果发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，该招式必定暴击，且重击命中敌人时会<color=#FFFFFF>触发[决算]效果</color>，对普通敌人/精英敌人/首领敌人<color=#2BAD00>造成等同于其最大生命值100%/20%/10%的伤害</color>；雨果的<color=#FFFFFF>[协战支援技]</color>命中处于失衡状态的敌人时会使敌人的失衡状态结束，并根据剩余失衡时间额外对精英敌人/首领敌人<color=#2BAD00>造成其最大生命值一定百分比的伤害</color>，最多额外造成20%/10%。"
+      },
+      "2": {
+        "id": 136010202,
+        "desc": "代理人使普通敌人/精英敌人/首领敌人失衡时，<color=#2BAD00>回复25%/63%/100%雨果的[协战支援技]能量</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：雨果会随时间积攒能量。能量足够时，点按「协战支援技」召唤雨果发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，该招式必定暴击，且重击命中敌人时会<color=#FFFFFF>触发[决算]效果</color>，对普通敌人/精英敌人/首领敌人<color=#2BAD00>造成等同于其最大生命值100%/20%/10%的伤害</color>；雨果的<color=#FFFFFF>[协战支援技]</color>命中处于失衡状态的敌人时会使敌人的失衡状态结束，并根据剩余失衡时间额外对精英敌人/首领敌人<color=#2BAD00>造成其最大生命值一定百分比的伤害</color>，最多额外造成20%/10%。"
+      },
+      "3": {
+        "id": 136010203,
+        "desc": "发动<color=#FFFFFF>[协战支援技]</color>时全队代理人<color=#2BAD00>回复30点能量</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：雨果会随时间积攒能量。能量足够时，点按「协战支援技」召唤雨果发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，该招式必定暴击，且重击命中敌人时会<color=#FFFFFF>触发[决算]效果</color>，对普通敌人/精英敌人/首领敌人<color=#2BAD00>造成等同于其最大生命值100%/20%/10%的伤害</color>；雨果的<color=#FFFFFF>[协战支援技]</color>命中处于失衡状态的敌人时会使敌人的失衡状态结束，并根据剩余失衡时间额外对精英敌人/首领敌人<color=#2BAD00>造成其最大生命值一定百分比的伤害</color>，最多额外造成20%/10%。"
+      },
+      "4": {
+        "id": 136010204,
+        "desc": "每击杀一名精英或首领敌人，获得一层<color=#FFFFFF>[强化]</color>，每拥有一层<color=#FFFFFF>[强化]</color>效果，<color=#FFFFFF>[协战支援技]</color>的<color=#FFFFFF>[决算]</color>效果对首领敌人额外<color=#2BAD00>造成等同于其最大生命值2%的伤害</color>，获得该升级效果之前击杀的首领敌人和精英敌人也会在获得该升级效果时被计算<color=#FFFFFF>[强化]</color>层数。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：雨果会随时间积攒能量。能量足够时，点按「协战支援技」召唤雨果发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，该招式必定暴击，且重击命中敌人时会<color=#FFFFFF>触发[决算]效果</color>，对普通敌人/精英敌人/首领敌人<color=#2BAD00>造成等同于其最大生命值100%/20%/10%的伤害</color>；雨果的<color=#FFFFFF>[协战支援技]</color>命中处于失衡状态的敌人时会使敌人的失衡状态结束，并根据剩余失衡时间额外对精英敌人/首领敌人<color=#2BAD00>造成其最大生命值一定百分比的伤害</color>，最多额外造成20%/10%。"
+      }
+    }
+  },
+  "1360103": {
+    "id": 1360103,
+    "name": "[异常：附加]杯中光焰",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：柏妮思会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤柏妮思发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[灼伤]</color>效果，拥有<color=#FFFFFF>[灼伤]</color>效果的敌人<color=#2BAD00>全属性积蓄抗性降低42%</color>，持续40秒。",
+    "level": {
+      "1": {
+        "id": 136010301,
+        "desc": "任意代理人发动<color=#FFFFFF>[强化特殊技]</color>/<color=#FFFFFF>[终结技]</color>命中同时处于属性异常状态下的敌人时，会触发<color=#FFFFFF>[极性紊乱]</color>，对目标<color=#2BAD00>造成原本[紊乱]效果50%的伤害</color>，每3秒最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：柏妮思会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤柏妮思发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[灼伤]</color>效果，拥有<color=#FFFFFF>[灼伤]</color>效果的敌人<color=#2BAD00>全属性积蓄抗性降低42%</color>，持续40秒。"
+      },
+      "2": {
+        "id": 136010302,
+        "desc": "柏妮思发动<color=#FFFFFF>[协战支援技]</color>时，全队代理人获得<color=#FFFFFF>[燃油特调]</color>状态，<color=#FFFFFF>[燃油特调]</color>期间，代理人施加的<color=#FFFFFF>[紊乱]</color>效果<color=#2BAD00>伤害增加100%</color>，<color=#FFFFFF>[燃油特调]</color>状态持续15秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：柏妮思会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤柏妮思发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[灼伤]</color>效果，拥有<color=#FFFFFF>[灼伤]</color>效果的敌人<color=#2BAD00>全属性积蓄抗性降低42%</color>，持续40秒。"
+      },
+      "3": {
+        "id": 136010303,
+        "desc": "任意代理人施加<color=#FFFFFF>[紊乱]</color>效果时，直接<color=#2BAD00>累积敌人10%失衡值</color>，6秒内最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：柏妮思会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤柏妮思发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[灼伤]</color>效果，拥有<color=#FFFFFF>[灼伤]</color>效果的敌人<color=#2BAD00>全属性积蓄抗性降低42%</color>，持续40秒。"
+      },
+      "4": {
+        "id": 136010304,
+        "desc": "使首领敌人失衡时，全队代理人获得<color=#FFFFFF>[协战支援技]</color>带来的<color=#FFFFFF>[燃油特调]</color>状态，且<color=#FFFFFF>[燃油特调]</color>状态下，代理人的<color=#2BAD00>异常精通提升90点，异常掌控提升80点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：柏妮思会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤柏妮思发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[灼伤]</color>效果，拥有<color=#FFFFFF>[灼伤]</color>效果的敌人<color=#2BAD00>全属性积蓄抗性降低42%</color>，持续40秒。"
+      }
+    }
+  },
+  "1360104": {
+    "id": 1360104,
+    "name": "[异常：附加]轻羽流霰",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：薇薇安会随时间积攒能量。能量足够时，点按「协战支援技」召唤薇薇安发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中处于属性异常状态的敌人时，对其施加<color=#FFFFFF>[异放]</color>效果，额外<color=#2BAD00>结算一次属性异常伤害</color>，相对于原属性异常伤害的比例为<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>。",
+    "level": {
+      "1": {
+        "id": 136010401,
+        "desc": "全队代理人与协战角色<color=#2BAD00>异常精通提升75点，造成的属性异常的伤害提升30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：薇薇安会随时间积攒能量。能量足够时，点按「协战支援技」召唤薇薇安发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中处于属性异常状态的敌人时，对其施加<color=#FFFFFF>[异放]</color>效果，额外<color=#2BAD00>结算一次属性异常伤害</color>，相对于原属性异常伤害的比例为<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>。"
+      },
+      "2": {
+        "id": 136010402,
+        "desc": "任意代理人造成属性异常时，薇薇安<color=#2BAD00>获得30点[协战支援技]充能</color>，每6秒最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：薇薇安会随时间积攒能量。能量足够时，点按「协战支援技」召唤薇薇安发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中处于属性异常状态的敌人时，对其施加<color=#FFFFFF>[异放]</color>效果，额外<color=#2BAD00>结算一次属性异常伤害</color>，相对于原属性异常伤害的比例为<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>。"
+      },
+      "3": {
+        "id": 136010403,
+        "desc": "全队代理人或协战角色造成<color=#FFFFFF>[异放]</color>效果时，全队代理人<color=#2BAD00>穿透率提升20%，造成的伤害提升25%</color>，持续30秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：薇薇安会随时间积攒能量。能量足够时，点按「协战支援技」召唤薇薇安发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中处于属性异常状态的敌人时，对其施加<color=#FFFFFF>[异放]</color>效果，额外<color=#2BAD00>结算一次属性异常伤害</color>，相对于原属性异常伤害的比例为<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>。"
+      },
+      "4": {
+        "id": 136010404,
+        "desc": "薇薇安发动<color=#FFFFFF>[协战支援技]</color>造成的<color=#FFFFFF>[异放]</color>效果的<color=#2BAD00>伤害比例提升至原来的两倍，且无视目标11%全属性伤害抗性</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：薇薇安会随时间积攒能量。能量足够时，点按「协战支援技」召唤薇薇安发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中处于属性异常状态的敌人时，对其施加<color=#FFFFFF>[异放]</color>效果，额外<color=#2BAD00>结算一次属性异常伤害</color>，相对于原属性异常伤害的比例为<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>。"
+      }
+    }
+  },
+  "1360105": {
+    "id": 1360105,
+    "name": "[击破：叩击]一击决胜",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：莱特会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤莱特发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[溃败]</color>效果，拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>失衡后的失衡时间延长3秒</color>，从失衡状态恢复时其<color=#FFFFFF>[溃败]</color>效果结束；莱特的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。",
+    "level": {
+      "1": {
+        "id": 136010501,
+        "desc": "<color=#FFFFFF>[协战支援技]</color>命中敌人时，敌人直接<color=#2BAD00>累积的失衡值提升（普通/精英/首领）100%/40%/20%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：莱特会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤莱特发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[溃败]</color>效果，拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>失衡后的失衡时间延长3秒</color>，从失衡状态恢复时其<color=#FFFFFF>[溃败]</color>效果结束；莱特的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "2": {
+        "id": 136010502,
+        "desc": "拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>全属性抗性降低30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：莱特会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤莱特发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[溃败]</color>效果，拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>失衡后的失衡时间延长3秒</color>，从失衡状态恢复时其<color=#FFFFFF>[溃败]</color>效果结束；莱特的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "3": {
+        "id": 136010503,
+        "desc": "使敌人失衡时，敌人获得一层<color=#FFFFFF>[脆弱]</color>效果，全队代理人和协战角色对其<color=#2BAD00>在失衡期间造成的伤害提升50%</color>，同一敌人最多叠加3层<color=#FFFFFF>[脆弱]</color>效果。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：莱特会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤莱特发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[溃败]</color>效果，拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>失衡后的失衡时间延长3秒</color>，从失衡状态恢复时其<color=#FFFFFF>[溃败]</color>效果结束；莱特的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "4": {
+        "id": 136010504,
+        "desc": "拥有<color=#FFFFFF>[溃败]</color>效果的普通/精英/首领敌人失衡结束后<color=#2BAD00>累积100%/40%/20%失衡值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：莱特会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤莱特发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[溃败]</color>效果，拥有<color=#FFFFFF>[溃败]</color>效果的敌人<color=#2BAD00>失衡后的失衡时间延长3秒</color>，从失衡状态恢复时其<color=#FFFFFF>[溃败]</color>效果结束；莱特的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      }
+    }
+  },
+  "1360106": {
+    "id": 1360106,
+    "name": "[击破：叩击]幽明洞穿",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：「扳机」会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤「扳机」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[穿透]</color>效果，拥有<color=#FFFFFF>[穿透]</color>效果的敌人<color=#2BAD00>失衡易伤倍率提升20%</color>，失衡结束时其<color=#FFFFFF>[穿透]</color>效果结束；「扳机」的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。",
+    "level": {
+      "1": {
+        "id": 136010601,
+        "desc": "代理人使首领敌人失衡时，全队<color=#2BAD00>回复48点能量、60点闪能、48点锐能和800点喧响值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：「扳机」会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤「扳机」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[穿透]</color>效果，拥有<color=#FFFFFF>[穿透]</color>效果的敌人<color=#2BAD00>失衡易伤倍率提升20%</color>，失衡结束时其<color=#FFFFFF>[穿透]</color>效果结束；「扳机」的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "2": {
+        "id": 136010602,
+        "desc": "代理人命中拥有<color=#FFFFFF>[穿透]</color>效果的敌人时，<color=#2BAD00>无视其30%全属性抗性</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：「扳机」会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤「扳机」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[穿透]</color>效果，拥有<color=#FFFFFF>[穿透]</color>效果的敌人<color=#2BAD00>失衡易伤倍率提升20%</color>，失衡结束时其<color=#FFFFFF>[穿透]</color>效果结束；「扳机」的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "3": {
+        "id": 136010603,
+        "desc": "代理人或协战角色使敌人失衡时，敌人的<color=#2BAD00>失衡易伤倍率提升75%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：「扳机」会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤「扳机」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[穿透]</color>效果，拥有<color=#FFFFFF>[穿透]</color>效果的敌人<color=#2BAD00>失衡易伤倍率提升20%</color>，失衡结束时其<color=#FFFFFF>[穿透]</color>效果结束；「扳机」的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      },
+      "4": {
+        "id": 136010604,
+        "desc": "非<color=#FFFFFF>[命破]</color>特性代理人命中拥有<color=#FFFFFF>[穿透]</color>效果的敌人时，<color=#2BAD00>无视其40%防御力</color>；<color=#FFFFFF>[命破]</color>特性代理人命中拥有<color=#FFFFFF>[穿透]</color>效果的敌人时，<color=#2BAD00>贯穿伤害提升30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：「扳机」会随时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤「扳机」发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，命中敌人时对其施加<color=#FFFFFF>[穿透]</color>效果，拥有<color=#FFFFFF>[穿透]</color>效果的敌人<color=#2BAD00>失衡易伤倍率提升20%</color>，失衡结束时其<color=#FFFFFF>[穿透]</color>效果结束；「扳机」的<color=#FFFFFF>[协战支援技]</color>命中普通敌人/精英敌人/首领敌人时<color=#2BAD00>直接累积100%/30%/15%失衡值</color>。"
+      }
+    }
+  },
+  "1360107": {
+    "id": 1360107,
+    "name": "[支援：饱和]优雅信条",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：丽娜不会随时间积攒能量，但会随队伍中任意代理人消耗能量/闪能/锐能而积攒能量。能量足够时，点按「协战支援技」召唤丽娜发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>期间<color=#2BAD00>全队代理人造成的伤害提升70%</color>，持续10秒。",
+    "level": {
+      "1": {
+        "id": 136010701,
+        "desc": "进入接战状态时，全队代理人<color=#2BAD00>回复52点能量、65点闪能或52点锐能</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：丽娜不会随时间积攒能量，但会随队伍中任意代理人消耗能量/闪能/锐能而积攒能量。能量足够时，点按「协战支援技」召唤丽娜发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>期间<color=#2BAD00>全队代理人造成的伤害提升70%</color>，持续10秒。"
+      },
+      "2": {
+        "id": 136010702,
+        "desc": "丽娜发动<color=#FFFFFF>[协战支援技]</color>时进入的<color=#FFFFFF>[极限视域]</color>期间，当前操作中的角色<color=#2BAD00>每秒回复8点能量、10点闪能或8点锐能</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：丽娜不会随时间积攒能量，但会随队伍中任意代理人消耗能量/闪能/锐能而积攒能量。能量足够时，点按「协战支援技」召唤丽娜发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>期间<color=#2BAD00>全队代理人造成的伤害提升70%</color>，持续10秒。"
+      },
+      "3": {
+        "id": 136010703,
+        "desc": "全队代理人发动<color=#FFFFFF>[终结技]</color><color=#2BAD00>所需的喧响值降低至1800点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：丽娜不会随时间积攒能量，但会随队伍中任意代理人消耗能量/闪能/锐能而积攒能量。能量足够时，点按「协战支援技」召唤丽娜发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>期间<color=#2BAD00>全队代理人造成的伤害提升70%</color>，持续10秒。"
+      },
+      "4": {
+        "id": 136010704,
+        "desc": "丽娜发动<color=#FFFFFF>[协战支援技]</color>时进入的<color=#FFFFFF>[极限视域]</color>期间，代理人发动<color=#FFFFFF>[终结技]</color>时，该<color=#FFFFFF>[极限视域]</color><color=#2BAD00>时间延长2秒</color>，同一个<color=#FFFFFF>[极限视域]</color>期间最多延长3次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：丽娜不会随时间积攒能量，但会随队伍中任意代理人消耗能量/闪能/锐能而积攒能量。能量足够时，点按「协战支援技」召唤丽娜发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，<color=#FFFFFF>[极限视域]</color>期间<color=#2BAD00>全队代理人造成的伤害提升70%</color>，持续10秒。"
+      }
+    }
+  },
+  "1360108": {
+    "id": 1360108,
+    "name": "[支援：饱和]聚财有道",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：妮可会随时间积攒能量。能量足够时，点按「协战支援技」召唤妮可发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，持续10秒，<color=#FFFFFF>[极限视域]</color>期间全队代理人<color=#2BAD00>无视敌人50%防御力</color>。",
+    "level": {
+      "1": {
+        "id": 136010801,
+        "desc": "任意<color=#FFFFFF>[协战支援技]</color>结束后，代理人将以<color=#FFFFFF>[连携技]</color>出场，全队代理人下3次发动的<color=#FFFFFF>[快速支援]</color>升级为<color=#FFFFFF>[连携技]</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：妮可会随时间积攒能量。能量足够时，点按「协战支援技」召唤妮可发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，持续10秒，<color=#FFFFFF>[极限视域]</color>期间全队代理人<color=#2BAD00>无视敌人50%防御力</color>。"
+      },
+      "2": {
+        "id": 136010802,
+        "desc": "妮可发动<color=#FFFFFF>[协战支援技]</color>进入<color=#FFFFFF>[极限视域]</color>期间，每3秒会触发一次<color=#FFFFFF>[快速支援]</color>窗口。<color=#2BAD00>连携技造成的伤害提升80%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：妮可会随时间积攒能量。能量足够时，点按「协战支援技」召唤妮可发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，持续10秒，<color=#FFFFFF>[极限视域]</color>期间全队代理人<color=#2BAD00>无视敌人50%防御力</color>。"
+      },
+      "3": {
+        "id": 136010803,
+        "desc": "代理人发动<color=#FFFFFF>[连携技]</color>时，全队<color=#2BAD00>获得150点喧响值</color>，发动<color=#FFFFFF>[终结技]</color>造成的伤害额外<color=#2BAD00>无视20%防御力</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：妮可会随时间积攒能量。能量足够时，点按「协战支援技」召唤妮可发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，持续10秒，<color=#FFFFFF>[极限视域]</color>期间全队代理人<color=#2BAD00>无视敌人50%防御力</color>。"
+      },
+      "4": {
+        "id": 136010804,
+        "desc": "妮可发动<color=#FFFFFF>[协战支援技]</color>进入<color=#FFFFFF>[极限视域]</color>期间，代理人每发动一次<color=#FFFFFF>[连携技]</color>，全队代理人获得一层<color=#FFFFFF>[充能]</color>，最多拥有5层，持续15秒，重复触发时刷新持续时间，每层<color=#FFFFFF>[充能]</color>使得<color=#FFFFFF>[终结技]</color>额外<color=#2BAD00>造成20%伤害</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：妮可会随时间积攒能量。能量足够时，点按「协战支援技」召唤妮可发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并进入<color=#FFFFFF>[极限视域]</color>，持续10秒，<color=#FFFFFF>[极限视域]</color>期间全队代理人<color=#2BAD00>无视敌人50%防御力</color>。"
+      }
+    }
+  },
+  "1360109": {
+    "id": 1360109,
+    "name": "[命破：激活]灼魂角斗",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic073.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：真斗会随时间积攒能量，当前操作中的角色生命值越低，真斗能量回复速率越快。能量足够时，点按「协战支援技」召唤真斗发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，平分全队代理人生命值并<color=#2BAD00>回复20%生命值</color>，全队代理人获得<color=#FFFFFF>[熔锋]</color>状态，<color=#FFFFFF>[熔锋]</color>状态下代理人<color=#2BAD00>暴击伤害提升50%</color>，持续40秒。",
+    "level": {
+      "1": {
+        "id": 136010901,
+        "desc": "代理人攻击命中敌人时将进入<color=#FFFFFF>[燃血状态]</color>，持续2秒；<color=#FFFFFF>[燃血状态]</color>下，代理人<color=#2BAD00>造成的伤害提升75%</color>，当前生命值高于20%时，<color=#CF4029>每秒将消耗2%生命值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：真斗会随时间积攒能量，当前操作中的角色生命值越低，真斗能量回复速率越快。能量足够时，点按「协战支援技」召唤真斗发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，平分全队代理人生命值并<color=#2BAD00>回复20%生命值</color>，全队代理人获得<color=#FFFFFF>[熔锋]</color>状态，<color=#FFFFFF>[熔锋]</color>状态下代理人<color=#2BAD00>暴击伤害提升50%</color>，持续40秒。"
+      },
+      "2": {
+        "id": 136010902,
+        "desc": "<color=#FFFFFF>[熔锋]</color>状态下，非<color=#FFFFFF>[命破]</color>特性代理人<color=#2BAD00>攻击力提升1350点</color>；<color=#FFFFFF>[命破]</color>特性代理人<color=#2BAD00>贯穿力提升1125点</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：真斗会随时间积攒能量，当前操作中的角色生命值越低，真斗能量回复速率越快。能量足够时，点按「协战支援技」召唤真斗发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，平分全队代理人生命值并<color=#2BAD00>回复20%生命值</color>，全队代理人获得<color=#FFFFFF>[熔锋]</color>状态，<color=#FFFFFF>[熔锋]</color>状态下代理人<color=#2BAD00>暴击伤害提升50%</color>，持续40秒。"
+      },
+      "3": {
+        "id": 136010903,
+        "desc": "每场战斗中首次受到致命伤害时，生命值最多降低至1，<color=#2BAD00>在2秒内不会战败退场并持续回复50%生命值</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：真斗会随时间积攒能量，当前操作中的角色生命值越低，真斗能量回复速率越快。能量足够时，点按「协战支援技」召唤真斗发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，平分全队代理人生命值并<color=#2BAD00>回复20%生命值</color>，全队代理人获得<color=#FFFFFF>[熔锋]</color>状态，<color=#FFFFFF>[熔锋]</color>状态下代理人<color=#2BAD00>暴击伤害提升50%</color>，持续40秒。"
+      },
+      "4": {
+        "id": 136010904,
+        "desc": "<color=#FFFFFF>[熔锋]</color>状态下，若生命值高于40%，即使喧响值不足也可<color=#CF4029>消耗20%生命值</color>释放<color=#FFFFFF>[终结技]</color>，每名代理人每次<color=#FFFFFF>[熔锋]</color>持续期间最多触发一次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：真斗会随时间积攒能量，当前操作中的角色生命值越低，真斗能量回复速率越快。能量足够时，点按「协战支援技」召唤真斗发动<color=#FFFFFF>[协战支援技]</color>攻击敌人，平分全队代理人生命值并<color=#2BAD00>回复20%生命值</color>，全队代理人获得<color=#FFFFFF>[熔锋]</color>状态，<color=#FFFFFF>[熔锋]</color>状态下代理人<color=#2BAD00>暴击伤害提升50%</color>，持续40秒。"
+      }
+    }
+  },
+  "1360110": {
+    "id": 1360110,
+    "name": "[防护：斗盾]霸气驰援",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic069.png",
+    "desc": "<color=#FFFFFF>[协战支援技]</color>：凯撒会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤凯撒发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人获得6000点护盾<color=#FFFFFF>[荣光之盾]</color>，代理人拥有<color=#FFFFFF>[荣光之盾]</color>时<color=#FFFFFF>[支援点数]</color><color=#2BAD00>无限，造成的伤害提升35%，单次受到的伤害不会超过护盾值</color>。",
+    "level": {
+      "1": {
+        "id": 136011001,
+        "desc": "触发<color=#FFFFFF>[招架支援]</color>时，被招架的敌人直接<color=#2BAD00>累积5%失衡值</color>，15秒内最多触发3次。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：凯撒会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤凯撒发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人获得6000点护盾<color=#FFFFFF>[荣光之盾]</color>，代理人拥有<color=#FFFFFF>[荣光之盾]</color>时<color=#FFFFFF>[支援点数]</color><color=#2BAD00>无限，造成的伤害提升35%，单次受到的伤害不会超过护盾值</color>。"
+      },
+      "2": {
+        "id": 136011002,
+        "desc": "拥有<color=#FFFFFF>[荣光之盾]</color>时，代理人的<color=#2BAD00>抗打断等级提升，攻击无视敌人20%全属性抗性</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：凯撒会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤凯撒发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人获得6000点护盾<color=#FFFFFF>[荣光之盾]</color>，代理人拥有<color=#FFFFFF>[荣光之盾]</color>时<color=#FFFFFF>[支援点数]</color><color=#2BAD00>无限，造成的伤害提升35%，单次受到的伤害不会超过护盾值</color>。"
+      },
+      "3": {
+        "id": 136011003,
+        "desc": "触发<color=#FFFFFF>[招架支援]</color>时，为敌人施加一层<color=#FFFFFF>[敏锐]</color>，最多叠加5层，每层<color=#FFFFFF>[敏锐]</color>使其<color=#2BAD00>失衡易伤倍率提升10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：凯撒会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤凯撒发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人获得6000点护盾<color=#FFFFFF>[荣光之盾]</color>，代理人拥有<color=#FFFFFF>[荣光之盾]</color>时<color=#FFFFFF>[支援点数]</color><color=#2BAD00>无限，造成的伤害提升35%，单次受到的伤害不会超过护盾值</color>。"
+      },
+      "4": {
+        "id": 136011004,
+        "desc": "触发<color=#FFFFFF>[招架支援]</color>或触发<color=#FFFFFF>[极限闪避]</color>时，额外获得1000点护盾<color=#FFFFFF>[荣光之盾]</color>，<color=#FFFFFF>[荣光之盾]</color>最多获得15000点，代理人根据当前<color=#FFFFFF>[荣光之盾]</color>的护盾量获得<color=#2BAD00>暴击伤害提升</color>，每1000点护盾提升5%。",
+        "relic_proactive_skill": "<color=#FFFFFF>[协战支援技]</color>：凯撒会随着时间积攒能量，初始获得75点充能。能量足够时，点按「协战支援技」召唤凯撒发动<color=#FFFFFF>[协战支援技]</color>攻击敌人并使全队代理人获得6000点护盾<color=#FFFFFF>[荣光之盾]</color>，代理人拥有<color=#FFFFFF>[荣光之盾]</color>时<color=#FFFFFF>[支援点数]</color><color=#2BAD00>无限，造成的伤害提升35%，单次受到的伤害不会超过护盾值</color>。"
+      }
+    }
+  }
+}

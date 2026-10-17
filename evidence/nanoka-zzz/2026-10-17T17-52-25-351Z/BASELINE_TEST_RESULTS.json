@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-17T17:52:55.612Z",
+  "build": {
+    "command": "npm.cmd run build",
+    "exitCode": 0
+  },
+  "lint": {
+    "command": "npm.cmd run lint",
+    "exitCode": 0
+  },
+  "node": "v22.14.0"
+}

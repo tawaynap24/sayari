@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "key": "monster",
+      "label": "Monsters",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/monster.json",
+      "detailPath": "/zzz/{version}/{lang}/monster/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/monster",
+      "referenceDetail": "https://zzz.nanoka.cc/monster/{id}",
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/monster.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/",
+        "observedAt": "2026-10-17T17:55:50.600Z"
+      }
+    },
+    {
+      "key": "achievement",
+      "label": "Achievements",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "/achievement",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/achievement/achievement.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/achievement",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/achievement/achievement.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/achievement",
+        "observedAt": "2026-10-17T17:56:15.955Z"
+      }
+    },
+    {
+      "key": "shiyu",
+      "label": "Shiyu Defense",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/shiyu.json",
+      "detailPath": "/zzz/{version}/{lang}/shiyu/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/shiyu",
+      "referenceDetail": "https://zzz.nanoka.cc/shiyu/{id}",
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/shiyu.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/shiyu",
+        "observedAt": "2026-10-17T17:56:19.515Z"
+      }
+    },
+    {
+      "key": "boss",
+      "label": "Deadly Assault",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/boss.json",
+      "detailPath": "/zzz/{version}/{lang}/boss/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/boss",
+      "referenceDetail": "https://zzz.nanoka.cc/boss/{id}",
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/boss.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/boss",
+        "observedAt": "2026-10-17T17:56:52.892Z"
+      }
+    },
+    {
+      "key": "simul",
+      "label": "Threshold Simulation",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/simul.json",
+      "detailPath": "/zzz/{version}/{lang}/simul/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/simul",
+      "referenceDetail": "https://zzz.nanoka.cc/simul/{id}",
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/simul.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/simul",
+        "observedAt": "2026-10-17T17:56:56.219Z"
+      }
+    },
+    {
+      "key": "hard",
+      "label": "Annihilation Simulacrum",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/hard.json",
+      "detailPath": "/zzz/{version}/{lang}/hard/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/hard",
+      "referenceDetail": "https://zzz.nanoka.cc/hard/{id}",
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/hard.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/hard",
+        "observedAt": "2026-10-17T17:57:00.012Z"
+      }
+    },
+    {
+      "key": "hollow_card",
+      "label": "Hollow Zero / card",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/hollow/card.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/hollow",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/card.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/hollow",
+        "observedAt": "2026-10-17T17:56:22.987Z"
+      }
+    },
+    {
+      "key": "hollow_tpp",
+      "label": "Hollow Zero / tpp",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/hollow/tpp.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/hollow",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/tpp.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/hollow",
+        "observedAt": "2026-10-17T17:56:22.992Z"
+      }
+    },
+    {
+      "key": "hollow_gg",
+      "label": "Hollow Zero / gg",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/hollow/gg.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/hollow",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/gg.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/hollow",
+        "observedAt": "2026-10-17T17:56:23.015Z"
+      }
+    },
+    {
+      "key": "hollow_resonium",
+      "label": "Hollow Zero / resonium",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/hollow/resonium.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/hollow",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/hollow/resonium.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/hollow",
+        "observedAt": "2026-10-17T17:56:23.017Z"
+      }
+    },
+    {
+      "key": "item_all",
+      "label": "Items / full records",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/item_all.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/item",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/item_all.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/item/218",
+        "observedAt": "2026-10-17T17:56:37.084Z"
+      }
+    },
+    {
+      "key": "noun",
+      "label": "Skill terminology",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/noun.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/character",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/noun.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/character/1631",
+        "observedAt": "2026-10-17T17:56:30.250Z"
+      }
+    },
+    {
+      "key": "shiyu_versions",
+      "label": "Shiyu version map",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[A-Za-z0-9._+-]+$",
+      "indexPath": "/zzz/{version}/{lang}/shiyu/version.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/shiyu",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/shiyu/version.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/shiyu",
+        "observedAt": "2026-10-17T17:56:19.514Z"
+      }
+    },
+    {
+      "key": "boss_versions",
+      "label": "Deadly Assault version map",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[A-Za-z0-9._+-]+$",
+      "indexPath": "/zzz/{version}/{lang}/boss/version.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/boss",
+      "referenceDetail": null,
+      "allowEmpty": false,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12+19629936/en/boss/version.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/boss",
+        "observedAt": "2026-10-17T17:56:52.921Z"
+      }
+    },
+    {
+      "key": "diff",
+      "label": "Version changes",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "/items",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/diff/{lang}.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/diff",
+      "referenceDetail": null,
+      "allowEmpty": true,
+      "evidence": {
+        "kind": "browser_observed",
+        "sourceUrl": "https://static.nanoka.cc/zzz/3.3.12%2B19629936/diff/en.json",
+        "evidenceFile": ".nanoka/discovery/observed-urls.json",
+        "pageUrl": "https://zzz.nanoka.cc/diff",
+        "observedAt": "2026-10-17T17:56:26.309Z"
+      }
+    }
+  ],
+  "rawUrls": [
+    {
+      "url": "https://zzz.nanoka.cc/__data.json?x-sveltekit-trailing-slash=1&x-sveltekit-invalidated=10",
+      "dataset": "site_preferences",
+      "referenceUrl": "https://zzz.nanoka.cc/",
+      "sourceId": "browser_observed",
+      "evidence": "Observed in .nanoka/review/observed-urls.json while switching public selectors. Contains locale, enableBgShadow and dataVersion UI preferences; retain as unversioned framework raw, never infer a game patch or account identity."
+    }
+  ]
+}

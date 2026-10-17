@@ -1,0 +1,1135 @@
+{
+  "id": 620611,
+  "name": "격변 구간",
+  "priority": 1,
+  "zone": {
+    "6206101": {
+      "name": "격변 구간 제1방어선",
+      "stage_num": 1,
+      "monster_level": 50,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061011": {
+          "monster_icon": "",
+          "monster_list": {
+            "11511": {
+              "id": 200131,
+              "name": "분노한 조폭",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1627605.7874999999,
+                "attack": 2290.666666666667,
+                "defence": 592.0,
+                "stun": 6233.56,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11501": {
+              "id": 200121,
+              "name": "광분한 폭도",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FrenziedManiacPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1120625.4675,
+                "attack": 2394.787878787879,
+                "defence": 592.0,
+                "stun": 4749.04,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "악독한 싸움꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1405.6363636363637,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "탐욕스러운 총잡이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1718.0,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성"
+          },
+          "monster_resistance": {
+            "203": "전기 속성"
+          },
+          "waves_num": 4
+        },
+        "62061012": {
+          "monster_icon": "",
+          "monster_list": {
+            "31553": {
+              "id": 20036,
+              "name": "탈피·성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 2484056.19,
+                "attack": 3019.5151515151515,
+                "defence": 639.36,
+                "stun": 9350.34,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31641": {
+              "id": 20035,
+              "name": "탈피·타라스크 화물차",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MoltTarasqueMixer.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3092358.885,
+                "attack": 2759.2121212121215,
+                "defence": 639.36,
+                "stun": 9350.34,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31583": {
+              "id": 10036,
+              "name": "쿠루루",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Minion.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 375629.6775,
+                "attack": 1874.1818181818182,
+                "defence": 426.24,
+                "stun": 1441.8,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31744": {
+              "id": 10042,
+              "name": "순찰국 창병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 431449.095,
+                "attack": 2056.3939393939395,
+                "defence": 509.12,
+                "stun": 1762.2,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31762": {
+              "id": 10041,
+              "name": "순찰국 선봉대",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 480636.5025,
+                "attack": 2056.3939393939395,
+                "defence": 509.12,
+                "stun": 2403.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31752": {
+              "id": 10043,
+              "name": "순찰국 근위병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 480636.5025,
+                "attack": 2056.3939393939395,
+                "defence": 544.64,
+                "stun": 2403.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {
+            "200": "물리"
+          },
+          "waves_num": 4
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206102": {
+      "name": "격변 구간 제2방어선",
+      "stage_num": 2,
+      "monster_level": 55,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061021": {
+          "monster_icon": "",
+          "monster_list": {
+            "11522": {
+              "id": 200141,
+              "name": "흉악한 미치광이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RuthlessFiendPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2395170.96,
+                "attack": 2628.3333333333335,
+                "defence": 620.1,
+                "stun": 9125.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11512": {
+              "id": 200131,
+              "name": "분노한 조폭",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2491679.6799999997,
+                "attack": 2794.3333333333335,
+                "defence": 689.0,
+                "stun": 7626.24,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "악독한 싸움꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1494.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "탐욕스러운 총잡이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1826.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성"
+          },
+          "monster_resistance": {
+            "203": "전기 속성"
+          },
+          "waves_num": 4
+        },
+        "62061022": {
+          "monster_icon": "",
+          "monster_list": {
+            "31554": {
+              "id": 20036,
+              "name": "탈피·성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3829367.3074999996,
+                "attack": 3679.666666666667,
+                "defence": 744.12,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31551": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3696941.9899999998,
+                "attack": 3209.3333333333335,
+                "defence": 744.12,
+                "stun": 10085.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31652": {
+              "id": 10037,
+              "name": "탈피·비홀더 엔진",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EyeEngine.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31622": {
+              "id": 10024,
+              "name": "공역 정찰부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BangbooPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31624": {
+              "id": 10038,
+              "name": "탈피·공역 정찰부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CorruptedPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "205": "에테르"
+          },
+          "monster_resistance": {
+            "200": "물리"
+          },
+          "waves_num": 4
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206103": {
+      "name": "격변 구간 제3방어선",
+      "stage_num": 3,
+      "monster_level": 60,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061031": {
+          "monster_icon": "",
+          "monster_list": {
+            "31322": {
+              "id": 20031,
+              "name": "미아즈믹·분노한 조폭",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaWickedWraith.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6882377.607,
+                "attack": 3899.3181818181815,
+                "defence": 794.0,
+                "stun": 11045.720000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11352": {
+              "id": 200171,
+              "name": "지명수배 행동대원",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerPro.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3524047.695,
+                "attack": 2814.5454545454545,
+                "defence": 794.0,
+                "stun": 7792.9800000000005,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11342": {
+              "id": 100151,
+              "name": "노략꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaiderPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 657577.9349999999,
+                "attack": 1847.0454545454545,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11332": {
+              "id": 100161,
+              "name": "방화광",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPyromaniacPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 559043.037,
+                "attack": 1583.181818181818,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {
+            "203": "전기 속성"
+          },
+          "waves_num": 3
+        },
+        "62061032": {
+          "monster_icon": "",
+          "monster_list": {
+            "31552": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5686929.4229999995,
+                "attack": 3899.3181818181815,
+                "defence": 857.5200000000001,
+                "stun": 12273.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31553": {
+              "id": 20036,
+              "name": "탈피·성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5490266.796,
+                "attack": 3400.9090909090905,
+                "defence": 857.5200000000001,
+                "stun": 10821.18,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31482": {
+              "id": 20033,
+              "name": "라흐무",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Arbiter.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5686929.4229999995,
+                "attack": 3547.5,
+                "defence": 714.6,
+                "stun": 12273.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31744": {
+              "id": 10042,
+              "name": "순찰국 창병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 953589.798,
+                "attack": 2316.1363636363635,
+                "defence": 682.84,
+                "stun": 2039.4,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31752": {
+              "id": 10043,
+              "name": "순찰국 근위병",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 1062303.921,
+                "attack": 2316.1363636363635,
+                "defence": 730.48,
+                "stun": 2781.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "203": "전기 속성"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206104": {
+      "name": "격변 구간 제4방어선",
+      "stage_num": 4,
+      "monster_level": 65,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061041": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaTerrorBird.png",
+          "monster_list": {
+            "31262": {
+              "id": 30036,
+              "name": "미아즈믹·「테러 랩터」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaTerrorBird.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": -1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 13657325.85,
+                "attack": 4457.454545454545,
+                "defence": 952.8000000000001,
+                "stun": 13413.400000000001,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "203": "전기 속성"
+          },
+          "monster_resistance": {
+            "205": "에테르"
+          },
+          "waves_num": 1
+        },
+        "62061042": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedChelonethid.png",
+          "monster_list": {
+            "31571": {
+              "id": 30050,
+              "name": "탈피·스콥스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedChelonethid.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 14913226.425,
+                "attack": 4457.454545454545,
+                "defence": 952.8000000000001,
+                "stun": 18293.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31551": {
+              "id": 20019,
+              "name": "성곽 수호부",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5969380.284,
+                "attack": 3590.7272727272725,
+                "defence": 857.5200000000001,
+                "stun": 11556.6,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "바람 속성",
+            "203": "전기 속성"
+          },
+          "monster_resistance": {
+            "202": "얼음 속성"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206105": {
+      "name": "",
+      "stage_num": 5,
+      "monster_level": 0,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001612": {
+          "title": "불타는 태양이 밤을 삼키다",
+          "desc": "· <color=#FFFFFF>[이상]</color> 특성 에이전트가 <color=#FFFFFF>속성 이상</color> 피해를 주고 치명타를 발동한 후, 모든 파티원의 공격력이 10% 증가하고, 속성 이상 피해가 20% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 적을 <color=#FF5521>불 속성 이상</color> 상태로 만든 후, 해당 적의 <color=#FF5521>불 속성 피해 저항</color>이 10% 감소한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001613": {
+          "title": "극린파계",
+          "desc": "· 에이전트의 관입 피해가 35% 증가한다.\n· <color=#FFFFFF>[명파]</color> 특성 에이전트가 <color=#FFFFFF>[궁극기]</color>를 시전한 후, 해당 에이전트의 <color=#FF5521>불 속성 피해</color>와 <color=#98EFF0>얼음 속성 피해</color>가 50% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        }
+      },
+      "child": [
+        62061051,
+        62061052,
+        62061053
+      ],
+      "layer_room": {},
+      "goal_type": 3,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 1270001013,
+      "a_rank_goal": 1270001012,
+      "b_rank_goal": 1270001011
+    },
+    "62061051": {
+      "name": "방 1",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001611": {
+          "title": "하늘을 태우는 산바람의 불길",
+          "desc": "· <color=#FFFFFF>[강공]</color> 특성 에이전트의 공격력이 35% 증가하고, <color=#A6C5FD>바람 속성 피해</color>가 20% 증가한다.\n· 에이전트의 <color=#FFFFFF>[궁극기]</color>가 적에게 명중하면, 해당 적의 <color=#A6C5FD>바람 속성 피해 저항</color>이 15% 감소한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061051": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Sentinel.png",
+          "monster_list": {
+            "31531": {
+              "id": 30048,
+              "name": "「공역 수호자」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Sentinel.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": -1,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 50615124.48,
+                "attack": 3179.0909090909095,
+                "defence": 952.8000000000001,
+                "stun": 21119.45,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31303": {
+              "id": 20026,
+              "name": "미아즈믹·광분한 폭도",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4276096.109999999,
+                "attack": 2836.727272727273,
+                "defence": 857.5200000000001,
+                "stun": 10285.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31313": {
+              "id": 20027,
+              "name": "미아즈믹·트리녹스",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaTrinox.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6176484.09,
+                "attack": 2836.727272727273,
+                "defence": 857.5200000000001,
+                "stun": 11829.9,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "얼음 속성",
+            "204": "바람 속성"
+          },
+          "monster_resistance": {
+            "205": "에테르"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62061052": {
+      "name": "방 2",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001612": {
+          "title": "불타는 태양이 밤을 삼키다",
+          "desc": "· <color=#FFFFFF>[이상]</color> 특성 에이전트가 <color=#FFFFFF>속성 이상</color> 피해를 주고 치명타를 발동한 후, 모든 파티원의 공격력이 10% 증가하고, 속성 이상 피해가 20% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 적을 <color=#FF5521>불 속성 이상</color> 상태로 만든 후, 해당 적의 <color=#FF5521>불 속성 피해 저항</color>이 10% 감소한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061052": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+          "monster_list": {
+            "31214": {
+              "id": 300372,
+              "name": "미아즈믹·도플갱어·「변절자」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": -1,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 52688085.66,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31491": {
+              "id": 20034,
+              "name": "무슈후슈",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 10698744.96,
+                "attack": 2592.1818181818185,
+                "defence": 714.6,
+                "stun": 12344.550000000001,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "200": "물리"
+          },
+          "monster_resistance": {
+            "205": "에테르"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62061053": {
+      "name": "방 3",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001613": {
+          "title": "극린파계",
+          "desc": "· 에이전트의 관입 피해가 35% 증가한다.\n· <color=#FFFFFF>[명파]</color> 특성 에이전트가 <color=#FFFFFF>[궁극기]</color>를 시전한 후, 해당 에이전트의 <color=#FF5521>불 속성 피해</color>와 <color=#98EFF0>얼음 속성 피해</color>가 50% 증가한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+        },
+        "62001001": {
+          "title": "",
+          "desc": "· 이번 스테이지에서 적에게 피해를 주면 <color=#FFAF2C>피해 점수</color>를 획득할 수 있다. 단일 <color=#FFFFFF>일반/정예 적</color>을 처치할 시 <color=#FFAF2C>처치 점수</color>를 한 번에 획득한다.\n· 이번 스테이지에서 각 시간 구간마다 획득하는 점수가 추가로 <color=#FFAF2C>배율 보너스</color>를 가진다. 시간이 짧을수록 보너스 계수가 높아지며, 보너스를 포함한 <color=#FFAF2C>총점 상한은 50,000점</color>이다."
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061053": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hayyot.png",
+          "monster_list": {
+            "31192": {
+              "id": 30039,
+              "name": "헤이토",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hayyot.png",
+              "element": {
+                "ice": 1,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 47174967.0,
+                "attack": 3521.454545454546,
+                "defence": 1588.0,
+                "stun": 16283.150000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11522": {
+              "id": 200141,
+              "name": "흉악한 미치광이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RuthlessFiendPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5848446.24,
+                "attack": 2323.1818181818185,
+                "defence": 714.6,
+                "stun": 11169.550000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "악독한 싸움꾼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 919175.4450000001,
+                "attack": 1320.5454545454547,
+                "defence": 635.2,
+                "stun": 2115.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "탐욕스러운 총잡이",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 919175.4450000001,
+                "attack": 1614.0000000000002,
+                "defence": 635.2,
+                "stun": 2115.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "불 속성",
+            "202": "얼음 속성"
+          },
+          "monster_resistance": {
+            "203": "전기 속성"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    }
+  },
+  "begin_time": "2026-09-03 04:00:00",
+  "end_time": "2026-11-11 03:59:59"
+}

@@ -1,0 +1,446 @@
+{
+  "1330101": {
+    "id": 1330101,
+    "name": "시끄러운 입술",
+    "desc": "모든 파티원의 <color=#CF4029>에너지 획득 효율이 15% 감소하고</color>, <color=#2BAD00>데시벨 획득 효율이 25% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact001.png"
+  },
+  "1330201": {
+    "id": 1330201,
+    "name": "오버클럭 민첩 모드",
+    "desc": "모든 파티원의 <color=#2BAD00>공격력이 30% 증가하고</color>, <color=#2BAD00>치명타 피해가 40% 증가한다</color>. 적의 공격을 받고 HP 상실 시 <color=#CF4029>해당 버프 효과가 사라지며</color>, 다음번에 구역 진입 시 효과가 초기화된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact002.png"
+  },
+  "1330301": {
+    "id": 1330301,
+    "name": "혼돈과 이상의 면",
+    "desc": "모든 파티원의 <color=#CF4029>공격력이 15% 감소한다</color>. 그로기를 주거나 적에게 속성 이상 효과 부여 시 모든 파티원의 <color=#2BAD00>치명타 피해가 40% 증가하고</color>, <color=#2BAD00>이상 마스터리가 40pt 증가한다</color>. 지속 시간: 20초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact003.png"
+  },
+  "1330401": {
+    "id": 1330401,
+    "name": "절망을 초월한 의지",
+    "desc": "현재 HP 80% 초과 시 에이전트가 <color=#CF4029>주는 피해가 40% 감소한다</color>. 현재 HP 50% 미만 시 에이전트가 <color=#2BAD00>주는 피해가 40% 증가한다</color>. 현재 HP 20% 미만 시 에이전트의 <color=#2BAD00>치명타 확률이 추가로 15% 증가하고</color>, <color=#2BAD00>치명타 피해가 추가로 30% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact004.png"
+  },
+  "1331001": {
+    "id": 1331001,
+    "name": "니트로 퓨엘 패키지",
+    "desc": "에이전트가 <color=#CF4029>받는 피해가 20% 증가하고</color>, 에이전트가 <color=#FFFFFF>[패링 지원]</color> 및 <color=#FFFFFF>[회피 지원]</color> 시전 시 더 이상 <color=#FFFFFF>[지원 포인트]</color>를 소모하지 않는다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339701": {
+    "id": 1339701,
+    "name": "내비게이션 데이터 세트",
+    "desc": "[내비게이션 데이터]가 <color=#2BAD00>3</color>개 추가되며, [친우 회담]의 마를렌에게서 <color=#2BAD00>[내비게이션 재설정]</color>을 진행할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact023.png"
+  },
+  "1339702": {
+    "id": 1339702,
+    "name": "정향 카드-재테크",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>기어 코인 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339703": {
+    "id": 1339703,
+    "name": "정향 카드-지름길",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>최단 경로</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339704": {
+    "id": 1339704,
+    "name": "정향 카드-분투",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[도전] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339705": {
+    "id": 1339705,
+    "name": "정향 카드-저주",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[대가의 순간] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339706": {
+    "id": 1339706,
+    "name": "정향 카드-기연",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[우연 이벤트] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339707": {
+    "id": 1339707,
+    "name": "정향 카드-안개",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, <color=#2BAD00>[안개 구역]</color>이 포함된 맵으로 새로고침할 수 있다.\n안개 구역에 진입할 때마다 이번 공동 내 모든 파티원의 공격력이 <color=#2BAD00>10% 증가하고</color>, <color=#2BAD00>치명타 피해가 20% 증가하며</color>, 이상 마스터리가 <color=#2BAD00>20</color>pt 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339708": {
+    "id": 1339708,
+    "name": "정향 카드-재테크",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>기어 코인 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339709": {
+    "id": 1339709,
+    "name": "정향 카드-지름길",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>최단 경로</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339710": {
+    "id": 1339710,
+    "name": "정향 카드-분투",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[도전] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339711": {
+    "id": 1339711,
+    "name": "정향 카드-저주",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[대가의 순간] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339712": {
+    "id": 1339712,
+    "name": "정향 카드-기연",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, 맵을 <color=#2BAD00>[우연 이벤트] 관련</color> 구역으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339713": {
+    "id": 1339713,
+    "name": "정향 카드-안개",
+    "desc": "[친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, <color=#2BAD00>[안개 구역]</color>이 포함된 맵으로 새로고침할 수 있다.\n안개 구역에 진입할 때마다 이번 공동 내 모든 파티원의 공격력이 <color=#2BAD00>10% 증가하고</color>, <color=#2BAD00>치명타 피해가 20% 증가하며</color>, 이상 마스터리가 <color=#2BAD00>20</color>pt 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339751": {
+    "id": 1339751,
+    "name": "정향 카드-색인",
+    "desc": "용병 대장이 친절한 구조자에게 전송한 맵 데이터. [친우 회담]의 마를렌에게서 <color=#2BAD00>[정향 변경] 1회</color>를 진행하고, <color=#2BAD00>지정된 맵</color>으로 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact030.png"
+  },
+  "1339801": {
+    "id": 1339801,
+    "name": "얼렁뚱땅 장부",
+    "desc": "[「Bangboo」 상점]을 떠날 때마다 <color=#CF4029>현재 보유한 모든 기어 코인이 사라진다</color>. 수집품 구매 시 기어 코인을 100개 소모할 때마다 보스를 제외한 적의 HP가 <color=#2BAD00>0.5%</color> 감소한다. 최대 감소: 30%",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact041.png"
+  },
+  "1339802": {
+    "id": 1339802,
+    "name": "무모한 용사",
+    "desc": "현재 HP가 <color=#CF4029>HP 최대치의 10%를 초과할 시 10%까지 차감되며</color>, <color=#CF4029>모든 파티원이 받는 피해가 50% 증가한다</color>. 단, <color=#2BAD00>공격이 반드시 치명타를 발동하고, 공격력이 100% 증가하며 이상 마스터리가 400pt 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339803": {
+    "id": 1339803,
+    "name": "물결의 규율",
+    "desc": "에이전트가 준 피해에 따라 <color=#2BAD00>모든 파티원이 일정 HP를 회복한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact043.png"
+  },
+  "1339804": {
+    "id": 1339804,
+    "name": "용맹한 횃불",
+    "desc": "[안개 구역]에 진입할 때마다 이번 공동 내 <color=#2BAD00>모든 파티원의 공격력이 5% 증가하고, 치명타 피해가 5% 증가하며 이상 마스터리가 10pt 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339805": {
+    "id": 1339805,
+    "name": "금전 공세·강화",
+    "desc": "보유한 기어 코인 100개당, <color=#2BAD00>모든 파티원이 주는 피해가 1% 증가하고, 치명타 확률이 0.5% 증가하며, 치명타 피해가 1% 증가하고, 이상 마스터리가 2pt 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339806": {
+    "id": 1339806,
+    "name": "기워낸 방어술",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 적이 에이전트에게 주는 피해가 <color=#2BAD00>2.5%</color> 감소한다. 최대 <color=#2BAD00>6</color>회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339807": {
+    "id": 1339807,
+    "name": "옛 친구의 흔적",
+    "desc": "[비전투 구역]에 진입할 때마다 기어 코인을 <color=#2BAD00>200</color>개 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339808": {
+    "id": 1339808,
+    "name": "정전기 현상",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 모든 파티원의 치명타 확률이 <color=#2BAD00>2%</color> 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339809": {
+    "id": 1339809,
+    "name": "기워낸 방어술",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 적이 에이전트에게 주는 피해가 <color=#2BAD00>2.5%</color> 감소한다. 최대 <color=#2BAD00>6</color>회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339810": {
+    "id": 1339810,
+    "name": "옛 친구의 흔적",
+    "desc": "[비전투 구역]에 진입할 때마다 기어 코인을 <color=#2BAD00>200</color>개 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339811": {
+    "id": 1339811,
+    "name": "정전기 현상",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 모든 파티원의 치명타 확률이 <color=#2BAD00>2%</color> 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339812": {
+    "id": 1339812,
+    "name": "푸짐한 배당·강화",
+    "desc": "기어 코인 <color=#2BAD00>획득량이 50% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339813": {
+    "id": 1339813,
+    "name": "오프닝 실드(혼돈 버전)",
+    "desc": "전투 구역 진입 시 <color=#FFAF2C>적 유닛</color>이 HP 최대치의 10%에 해당하는 실드를 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample04.png"
+  },
+  "1339814": {
+    "id": 1339814,
+    "name": "아드레날린(혼란 버전)",
+    "desc": "HP가 50% 미만일 시, <color=#FFAF2C>적</color>이 가하는 피해가 20% 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample02.png"
+  },
+  "1339815": {
+    "id": 1339815,
+    "name": "오프닝 뇌격(혼돈 버전)",
+    "desc": "전장 진입 시 <color=#FFAF2C>에이전트</color>의 HP가 75% 감소한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample05.png"
+  },
+  "1339816": {
+    "id": 1339816,
+    "name": "삼중 완충(혼란 버전)",
+    "desc": "보스 전투 구역에 진입 후 20초 동안 <color=#FFAF2C>보스 적</color>이 받는 피해가 50% 감소한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample06.png"
+  },
+  "1339817": {
+    "id": 1339817,
+    "name": "「산처럼 굳건한」 마라톤",
+    "desc": "<color=#FFAF2C>5개 구역</color>을 지난 후, 만약 도중에 넉업 총횟수가 <color=#FFAF2C>5회 이하인 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339818": {
+    "id": 1339818,
+    "name": "「구두쇠」 마라톤",
+    "desc": "<color=#FFAF2C>5개 구역</color>을 지난 후, 만약 도중에 <color=#FFAF2C>상점에서 기어 코인을 소모해 상품을 구매하지 않은 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339819": {
+    "id": 1339819,
+    "name": "「범인의 육체」 마라톤",
+    "desc": "<color=#FFAF2C>8개 구역</color>을 지난 후, 만약 도중에 <color=#FFAF2C>공용 레조니움을 1개 획득한 적이 있는 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339820": {
+    "id": 1339820,
+    "name": "「흥청망청」 마라톤",
+    "desc": "<color=#FFAF2C>8개 구역</color>을 지난 후, 만약 도중에 <color=#FFAF2C>소모한 기어 코인이 500개 이상인 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339821": {
+    "id": 1339821,
+    "name": "「강풍이 불다」 마라톤",
+    "desc": "<color=#FFAF2C>5개 구역</color>을 지난 후, 만약 도중에 <color=#FFAF2C>소모한 시간이 300초(스테이지 시간 기준) 미만인 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339822": {
+    "id": 1339822,
+    "name": "「기호학 원리」 마라톤",
+    "desc": "<color=#FFAF2C>8개 구역</color>을 지난 후, 만약 도중에 <color=#FFAF2C>「우연 이벤트」를 1개 이상 지나온 경우</color>, <color=#FFAF2C>전술 프리즘 플랜 업그레이드</color>를 1회 획득한다. 도전 진도는 수집품 화면에서 확인할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339823": {
+    "id": 1339823,
+    "name": "무모한 용사·강화",
+    "desc": "현재 HP가 <color=#CF4029>HP 최대치의 30%를 초과할 시 30%까지 차감되며</color>, <color=#CF4029>모든 파티원이 받는 피해가 50% 증가한다</color>. 단, <color=#2BAD00>공격이 반드시 치명타를 발동하고, 공격력이 100% 증가하며, 관입 피해가 50% 증가하고, 이상 마스터리가 400pt 증가한다</color>. 초과한 치명타 확률은 동일 비율로 치명타 피해로 전환된다. 최대 전환: 150%",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339825": {
+    "id": 1339825,
+    "name": "금전 공세·초월",
+    "desc": "보유한 기어 코인 100개당 <color=#2BAD00>모든 파티원이 주는 피해가 1.5% 증가하고, 치명타 확률이 0.5% 증가하며, 치명타 피해가 1.5% 증가하고, 이상 마스터리가 3pt 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339826": {
+    "id": 1339826,
+    "name": "독점의 대가·변이",
+    "desc": "기어 코인을 획득할 때마다 20% 확률로 <color=#2BAD00>300%</color>를 추가 획득하고, 20% 확률로 <color=#2BAD00>150%</color>를 추가 획득하며, 25% 확률로 <color=#2BAD00>50%</color>를 추가 획득하고, 25% 확률로 이번에 획득하는 기어 코인이 변하지 않으며, 5% 확률로 현재 보유한 모든 기어 코인의 <color=#CF4029>10%</color>를 잃고, 5% 확률로 현재 보유한 모든 기어 코인의 <color=#CF4029>20%</color>를 잃는다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339827": {
+    "id": 1339827,
+    "name": "용맹한 횃불·강화",
+    "desc": "[안개 구역]에 진입할 때마다 이번 공동 내 <color=#2BAD00>모든 파티원의 공격력이 5% 증가하고, 치명타 피해가 10% 증가하며, 이상 마스터리가 20pt 증가하고, 관입 피해가 2.5% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339828": {
+    "id": 1339828,
+    "name": "구두쇠·강화",
+    "desc": "[「Bangboo」 상점] 진입 후 소비하지 않으면, 상점을 떠날 때 기어 코인을 <color=#2BAD00>40%</color> 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339902": {
+    "id": 1339902,
+    "name": "독점의 대가",
+    "desc": "기어 코인 획득 시 40% 확률로 기어 코인을 <color=#2BAD00>20% 추가 획득</color>하고, 5% 확률로 기어 코인을 <color=#2BAD00>50% 추가 획득</color>하며, 5% 확률로 이번에 획득하는 기어 코인이 <color=#CF4029>1개가 된다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339903": {
+    "id": 1339903,
+    "name": "푸짐한 배당",
+    "desc": "기어 코인 <color=#2BAD00>획득량이 20% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339904": {
+    "id": 1339904,
+    "name": "금전 공세",
+    "desc": "보유한 기어 코인 100개당 모든 파티원이 <color=#2BAD00>주는 피해가 1% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact008.png"
+  },
+  "1339905": {
+    "id": 1339905,
+    "name": "부를 쌓는 수단",
+    "desc": "즉시 현재 기어 코인 수량의 <color=#2BAD00>30%</color>만큼 기어 코인을 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact031.png"
+  },
+  "1339906": {
+    "id": 1339906,
+    "name": "진심이 담긴 선물",
+    "desc": "[「Bangboo」 상점] 진입 시 <color=#2BAD00>10%</color> 확률로 무료 상품이 <color=#2BAD00>2</color>개 등장한다. 단, 상점을 새로고침할 수 없다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact032.png"
+  },
+  "1339907": {
+    "id": 1339907,
+    "name": "구두쇠",
+    "desc": "[「Bangboo」 상점] 진입 후 소비하지 않으면, 상점을 떠날 때 기어 코인을 <color=#2BAD00>20%</color> 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339908": {
+    "id": 1339908,
+    "name": "귀빈의 대접",
+    "desc": "레조니움 변환기 새로고침 기회를 <color=#2BAD00>5</color>회 획득한다. 「특파 조사」에서도 레조니움 변환기를 사용해 전술 프리즘 플랜을 새로고침할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact034.png"
+  },
+  "1339909": {
+    "id": 1339909,
+    "name": "궁극의 결의",
+    "desc": "피해를 받지 않고 전투 구역 완료 시, 이번 공동 내 모든 파티원이 주는 피해가 <color=#2BAD00>5%</color> 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact035.png"
+  },
+  "1339910": {
+    "id": 1339910,
+    "name": "양면 가시 갑옷",
+    "desc": "[전투 구역] 진입 시 모든 파티원의 현재 HP가 <color=#CF4029>20%</color> 감소하고, 모든 파티원의 HP 최대치가 <color=#2BAD00>10%</color> 증가하며, HP 최대치의 <color=#2BAD00>10%</color>만큼 실드를 획득한다. 해당 효과는 이번 공동에서 최대 <color=#2BAD00>4</color>회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact036.png"
+  },
+  "1339911": {
+    "id": 1339911,
+    "name": "기워낸 방어술",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 적이 에이전트에게 주는 피해가 <color=#2BAD00>2.5%</color> 감소한다. 최대 <color=#2BAD00>6</color>회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339912": {
+    "id": 1339912,
+    "name": "옛 친구의 흔적",
+    "desc": "[비전투 구역]에 진입할 때마다 기어 코인을 <color=#2BAD00>200</color>개 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339913": {
+    "id": 1339913,
+    "name": "정전기 현상",
+    "desc": "[비전투 구역]에 진입할 때마다 이번 공동 내 모든 파티원의 치명타 확률이 <color=#2BAD00>2%</color> 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339914": {
+    "id": 1339914,
+    "name": "실험 「부」산물",
+    "desc": "해당 카드를 <color=#2BAD00>[대가의 순간]에 가지고 들어가면 예상치 못한 효과를 얻는다.</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  },
+  "1339921": {
+    "id": 1339921,
+    "name": "심혈 탈취 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 에이전트의 <color=#CF4029>HP 최대치가 30% 감소한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339922": {
+    "id": 1339922,
+    "name": "가시 족쇄 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 <color=#CF4029>HP를 4% 소모한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact010.png"
+  },
+  "1339923": {
+    "id": 1339923,
+    "name": "맹목 추구 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 적이 공격할 때 <color=#CF4029>금빛 알림과 붉은빛 알림이 나타나지 않는다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact011.png"
+  },
+  "1339924": {
+    "id": 1339924,
+    "name": "악행 추격 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 에이전트가 <color=#CF4029>받는 피해가 30% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact012.png"
+  },
+  "1339925": {
+    "id": 1339925,
+    "name": "핵심 포착 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 적의 <color=#CF4029>공격이 일정 확률로 치명타를 발동한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact013.png"
+  },
+  "1339926": {
+    "id": 1339926,
+    "name": "이상 봉인 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 적의 <color=#CF4029>모든 속성 이상 축적 저항이 50% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact014.png"
+  },
+  "1339927": {
+    "id": 1339927,
+    "name": "난공불락 인장",
+    "desc": "{CReplaceCardParam:ProgressLeft,1,2}개의 전투 구역에서 적의 <color=#CF4029>그로기 회복 속도가 35% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact015.png"
+  },
+  "1339928": {
+    "id": 1339928,
+    "name": "영혼 부흥 인장",
+    "desc": "에이전트가 <color=#2BAD00>받는 피해가 20% 감소</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact016.png"
+  },
+  "1339929": {
+    "id": 1339929,
+    "name": "에너지 헌납 인장",
+    "desc": "에이전트의 <color=#2BAD00>에너지 획득 효율이 35% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact017.png"
+  },
+  "1339930": {
+    "id": 1339930,
+    "name": "밝은 각성 인장",
+    "desc": "<color=#FFFFFF>[패링 지원]</color>으로 <color=#2BAD00>주는 그로기 수치가 40% 증가하고</color>, <color=#FFFFFF>[지원 돌격]</color>으로 <color=#2BAD00>주는 피해가 80% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact018.png"
+  },
+  "1339931": {
+    "id": 1339931,
+    "name": "치명 반격 인장",
+    "desc": "에이전트가 <color=#2BAD00>주는 피해가 40% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact019.png"
+  },
+  "1339932": {
+    "id": 1339932,
+    "name": "정밀 타격 인장",
+    "desc": "에이전트의 <color=#2BAD00>치명타 피해가 65% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact020.png"
+  },
+  "1339933": {
+    "id": 1339933,
+    "name": "이상 돌파 인장",
+    "desc": "에이전트의 <color=#2BAD00>속성 이상 효과로 주는 피해가 50% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact021.png"
+  },
+  "1339934": {
+    "id": 1339934,
+    "name": "그로기 사냥 인장",
+    "desc": "에이전트가 그로기 상태인 적에게 <color=#2BAD00>주는 피해가 50% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact022.png"
+  },
+  "1439914": {
+    "id": 1439914,
+    "name": "실험 「부」산물",
+    "desc": "Artifact_1439914_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  }
+}

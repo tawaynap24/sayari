@@ -1,0 +1,1029 @@
+{
+  "id": 69031,
+  "name": "시련",
+  "priority": 9,
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  },
+  "zone_type": 1001,
+  "modes": [
+    {
+      "id": 69031,
+      "zone_type": 1001,
+      "zone": {
+        "6903101": {
+          "name": "고독한 불협의 노래·베스퍼",
+          "stage_num": 1,
+          "monster_level": 70,
+          "layer_buff": {
+            "69013003": {
+              "title": "",
+              "desc": "· <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>[이상]</color> 특성의 에이전트에게 적합한 도전"
+            },
+            "69013103": {
+              "title": "",
+              "desc": "· 에이전트 이상 축적 효율이 <color=#FFAF2C>15% 증가하고</color>, 고독한 불협의 노래에게 주는 이상 피해가 <color=#FFAF2C>30% 증가하며</color>, 전투 중 에이전트가 [에테르 장막] 상태에 놓일 시 고독한 불협의 노래 그로기 약체화 배율이 <color=#FFAF2C>30% 증가한다</color>."
+            },
+            "69013104": {
+              "title": "",
+              "desc": "<color=#FFAF2C>[제어 스킬]</color> 기간 중 보스의 공격에 성공적으로 대응할 때마다 <color=#FFAF2C>조작 점수 350점</color>을 획득한다. 보스의 <color=#FFAF2C>[제어 스킬]</color>에 <color=#FFAF2C>[완벽 대응]</color>하거나 일부 스킬의 마지막 공격을 패링할 때 보스에게 <color=#FFAF2C>[부위 파괴]</color> 효과를 주고 <color=#FFAF2C>조작 점수 750점</color>을 획득한다. <Term:2000003></Term> 기간 중 <color=#FFAF2C>[반격 지원]</color>을 통해 <color=#FFAF2C>[완벽 대응]</color> 시, 해당 <color=#FFAF2C>[제어 스킬]</color>의 남은 대응 성공 점수를 획득한다. 조작 점수 최대 획득: 5,000점"
+            }
+          },
+          "layer_room": {
+            "69031011": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vesper.png",
+              "monster_list": {
+                "31451": {
+                  "id": 40001,
+                  "name": "고독한 불협의 노래·베스퍼",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vesper.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": -1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 26271294.299999997,
+                    "attack": 2967.1515151515155,
+                    "defence": 476.40000000000003,
+                    "stun": 19977.350000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "에테르",
+                "204": "바람 속성"
+              },
+              "monster_resistance": {
+                "201": "불 속성",
+                "202": "얼음 속성"
+              },
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69013102": {
+              "title": "파세",
+              "desc": "· 에이전트의 <color=#2EB6FF>전기 속성 피해</color>와 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color> <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>가 적 명중 시 치명타 피해가 <color=#2BAD00>30% 증가한다</color>.\n· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>10% 증가하고</color>, 공격이 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012101": {
+              "title": "명료한 사고",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>25% 증가하고</color>, 관입 피해가 <color=#2BAD00>15% 증가한다</color>.\n· [명파] 특성 에이전트가 주는 피해가 <color=#2BAD00>15% 증가하고</color>, 궁극기로 주는 피해가 추가로 <color=#2BAD00>15% 증가한다</color>."
+            }
+          }
+        },
+        "6903102": {
+          "name": "「모독자」",
+          "stage_num": 2,
+          "monster_level": 70,
+          "layer_buff": {
+            "69013001": {
+              "title": "",
+              "desc": "· <IconMap:Icon_AvatarClass_Attack><color=#FFAF2C>[강공]</color> 특성의 에이전트에게 적합한 도전"
+            },
+            "69011902": {
+              "title": "",
+              "desc": "· 에이전트가 시전한 패링 지원이 모독자 명중 시 모든 파티원이 <color=#FFFFFF>[결단]</color>을 1스택 획득한다. 에이전트가 공중에서 공격하는 모독자를 격추시킬 시 모든 파티원이 <color=#FFFFFF>[결단]</color>을 4스택 획득한다. [결단] 최대 중첩: 6스택, 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.\n· 보유한 <color=#FFFFFF>[결단]</color> 1스택당 에이전트의 치명타 피해가 <color=#2BAD00>5% 증가하고</color>, 물리 피해가 <color=#2BAD00>5% 증가하며</color>, 전기 속성 피해가 <color=#2BAD00>5% 증가한다</color>.\n· 모독자가 받는 속성 이상 피해가 25% 감소한다."
+            },
+            "69011903": {
+              "title": "",
+              "desc": "· 에이전트가 <color=#FFAF2C>부위 파괴 시</color>, <color=#FFAF2C>조작 점수를 2,500점</color> 획득할 수 있다. 에이전트가 <color=#FFAF2C>공중에서 공격하는 모독자를 격추 시</color>, <color=#FFAF2C>조작 점수를 1,500점</color> 획득할 수 있다. 조작 점수 최대 획득: 5,000점"
+            },
+            "69012102": {
+              "title": "",
+              "desc": ""
+            }
+          },
+          "layer_room": {
+            "69031021": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_IsoldetheDefiler.png",
+              "monster_list": {
+                "31142": {
+                  "id": 30038,
+                  "name": "「모독자」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_IsoldetheDefiler.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 15375924.989999998,
+                    "attack": 2967.1515151515155,
+                    "defence": 952.8000000000001,
+                    "stun": 19977.350000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "전기 속성",
+                "200": "물리"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69013102": {
+              "title": "파세",
+              "desc": "· 에이전트의 <color=#2EB6FF>전기 속성 피해</color>와 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color> <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>가 적 명중 시 치명타 피해가 <color=#2BAD00>30% 증가한다</color>.\n· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>10% 증가하고</color>, 공격이 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012101": {
+              "title": "명료한 사고",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>25% 증가하고</color>, 관입 피해가 <color=#2BAD00>15% 증가한다</color>.\n· [명파] 특성 에이전트가 주는 피해가 <color=#2BAD00>15% 증가하고</color>, 궁극기로 주는 피해가 추가로 <color=#2BAD00>15% 증가한다</color>."
+            }
+          }
+        },
+        "6903103": {
+          "name": "방황하는 사냥꾼",
+          "stage_num": 3,
+          "monster_level": 70,
+          "layer_buff": {
+            "69013002": {
+              "title": "",
+              "desc": "· <IconMap:Icon_AvatarClass_Rupture><color=#FFAF2C>[명파]</color> 특성의 에이전트에게 적합한 도전"
+            },
+            "69012302": {
+              "title": "",
+              "desc": "· 방황하는 사냥꾼이 [미아즈마 영역]에 있을 때 기본 방어가 40% 증가한다. 에이전트의 <color=#FFAF2C>[지원 돌격] 혹은 [회피 반격]</color>이 방황하는 사냥꾼 명중 시, 해당 적에게 <color=#FFFFFF>[동요]</color>를 1스택 부여한다. <color=#FFFFFF>[동요]</color> 최대 중첩: 5스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트의 공격이 방황하는 사냥꾼 명중 시, 대상이 보유한 [동요] 1스택당 에이전트의 관입 피해가 <color=#FFAF2C>7% 증가한다</color>."
+            },
+            "69012303": {
+              "title": "",
+              "desc": "· 숨바꼭질 단계에서 <color=#FFAF2C>[통찰술]</color>을 사용하여 <color=#FFAF2C>꿈잡이·루시아의 본체</color>를 파괴하면 <color=#FFAF2C>조작 점수 3,000점</color>을 획득할 수 있다. 본체를 파괴한 후 <color=#FFAF2C>[패링 지원] 혹은 [지원 돌격]</color>으로 방황하는 사냥꾼 명중 시, 해당 적의 기습을 막고 <color=#FFAF2C>조작 점수 2,000점</color>을 획득할 수 있다. 조작 점수 최대 획득: 5,000점"
+            },
+            "69012102": {
+              "title": "",
+              "desc": ""
+            }
+          },
+          "layer_room": {
+            "69031031": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WanderingHunter.png",
+              "monster_list": {
+                "11842": {
+                  "id": 30041,
+                  "name": "방황하는 사냥꾼",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_WanderingHunter.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 17971564.77,
+                    "attack": 3286.6909090909094,
+                    "defence": 1588.0,
+                    "stun": 16283.150000000001,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "불 속성",
+                "202": "얼음 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69013102": {
+              "title": "파세",
+              "desc": "· 에이전트의 <color=#2EB6FF>전기 속성 피해</color>와 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color> <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>가 적 명중 시 치명타 피해가 <color=#2BAD00>30% 증가한다</color>.\n· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>10% 증가하고</color>, 공격이 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012101": {
+              "title": "명료한 사고",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>25% 증가하고</color>, 관입 피해가 <color=#2BAD00>15% 증가한다</color>.\n· [명파] 특성 에이전트가 주는 피해가 <color=#2BAD00>15% 증가하고</color>, 궁극기로 주는 피해가 추가로 <color=#2BAD00>15% 증가한다</color>."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "begin_time": "2026-02-27 04:00:00",
+  "end_time": "2026-03-13 03:59:59"
+}

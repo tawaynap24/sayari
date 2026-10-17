@@ -5,7 +5,7 @@ import { routeList } from "./routeList";
 export default function MainRouter() {
   return (
     <>
-      <Grid style={{ minHeight: "100vh" }} p={4}>
+      <Grid style={{ minHeight: "100vh", boxSizing: "border-box" }} p={4}>
         <Router>
           <Routes>
             {routeList.map((item, index) => {

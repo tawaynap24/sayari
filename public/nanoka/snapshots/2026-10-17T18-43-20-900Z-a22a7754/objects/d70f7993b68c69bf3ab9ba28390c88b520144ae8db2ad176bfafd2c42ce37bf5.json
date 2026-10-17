@@ -1,0 +1,912 @@
+{
+  "1350001": {
+    "id": 1350001,
+    "name": "[호시미 미야비] 거울꽃의 그림자",
+    "desc": "적의 공격을 받을 시, 호시미 미야비는 <color=#2BAD00>자동으로 이번 공격을 회피</color>하고 <color=#FFFFFF>[극한 회피]</color> 및 <color=#FFFFFF>[극한 시야]</color>를 발동한다. <color=#FFFFFF>[극한 시야]</color> 지속 시간: 4초, 자동 회피 효과는 12초 동안 최대 1회 발동한다. 효과 발동 시, 호시미 미야비가 <color=#2BAD00>주는 피해가 40% 증가</color>한다. 지속 시간: 12초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "branch": {
+      "13500011": "호시미 미야비가 <color=#FFFFFF>[회피 반격: 겨울 참새]</color> 및 <color=#FFFFFF>[빠른 지원: 꽃소식을 알리는 바람]</color> 시전 후, <color=#2BAD00>자동으로 이어서</color> <color=#FFFFFF>[부서진 눈서리]</color>가 파생되며, 타깃의 <color=#98EFF0>얼음 속성 피해 저항</color>이 <color=#2BAD00>20% 감소한다</color>. 지속 시간: 8초",
+      "13500012": "<color=#FFFFFF>[극한 회피]</color> 발동 시 호시미 미야비가 <color=#2BAD00>에너지를 6pt 회복하고</color>, <color=#2BAD00><color=#FFFFFF>[내리는 서리]</color>를 2pt 획득한다</color>. 효과는 8초 동안 최대 1회 발동한다."
+    }
+  },
+  "1350002": {
+    "id": 1350002,
+    "name": "[호시미 미야비] 서리화염",
+    "desc": "<color=#FFFFFF>[빙염]</color>이 부착된 적은 <color=#2BAD00>매초마다 호시미 미야비 공격력의 180%</color>에 해당하는 <color=#98EFF0>서리 피해</color>를 받는다. <color=#FFFFFF>[서리열·파괴]</color> 발동 후, 호시미 미야비는 <color=#FFFFFF>[서리열]</color> 상태의 제약을 무시하고, <color=#2BAD00>즉시 적에게 다시</color> <color=#FFFFFF>[빙염]</color>을 부착할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "branch": {
+      "13500021": "아군 에이전트가 <color=#FFFFFF>[빙염]</color>이 부착된 적에게 <color=#2BAD00>주는 <color=#F0D12B>[강타]</color> 혹은 <color=#98EFF0>[쇄빙]</color> 피해가 75% 증가한다</color>.",
+      "13500022": "적에게 <color=#FFFFFF>[빙염]</color>이 부착되어 있는 동안 <color=#2EB6FF>전기 속성 이상 상태</color>/<color=#FF5521>불 속성 이상 상태</color>에 진입할 경우, <color=#2EB6FF>전기 속성 피해 저항</color>/<color=#FF5521>불 속성 피해 저항</color>이 <color=#2BAD00>30% 감소한다</color>. 지속 시간: 8초"
+    }
+  },
+  "1350003": {
+    "id": 1350003,
+    "name": "[호시미 미야비] 맑은 잔물결",
+    "desc": "파티원이 <color=#FFFFFF>[여진 공격]</color> 시전 시, 호시미 미야비가 <color=#FFFFFF>[결심]</color>을 1스택 획득한다. <color=#FFFFFF>[결심]</color> 최대 중첩: 3스택. <color=#FFFFFF>[일반 공격: 서리와 달]</color> 시전 후 <IconMap:Icon_Normal>「일반 공격」을 누르면 <color=#FFFFFF>[결심]</color>을 1스택 소모해 <color=#FFFFFF>[서리의 습격]</color>을 1회 시전할 수 있다. <color=#FFFFFF>[서리의 습격]</color>은 <color=#FFFFFF>[여진 공격]</color>이며 <color=#FFFFFF>[결심]</color>을 소모해 중복 시전할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "branch": {
+      "13500031": "<color=#FFFFFF>[결심]</color> <color=#2BAD00>중첩 최대치가 5스택까지 증가하고</color>, <color=#FFFFFF>[서리의 습격]</color>을 시전할 때마다 호시미 미야비가 <color=#2BAD00>추가로 데시벨을 130pt 획득한다</color>.",
+      "13500032": "호시미 미야비가 [극한 지원] 시전 혹은 [극한 회피] 발동 시, <color=#FFFFFF>[결심]</color>을 1스택 획득할 수 있다. 또한, 자신의 <color=#FFFFFF>[결심]</color> 스택이 최대치에 도달하면 다음번 <color=#FFFFFF>[서리의 습격]</color> 시전 시 <color=#2BAD00>[여진 공격] 피해 65% 증가</color> 효과를 획득한다. 지속 시간: 5초, 16초 동안 최대 1회 발동한다."
+    }
+  },
+  "1350011": {
+    "id": 1350011,
+    "name": "[빌리] 심판 명령",
+    "desc": "<color=#FFFFFF>[일반 공격: 화력 전개]</color>가 <color=#FFFFFF>[일반 공격: 화력 전개·개조]</color>로 대체되고, <color=#2BAD00>사격 빈도를 낮춰 총알의 위력을 높인다</color>. 스킬 시전 시 <color=#2BAD00>바로 무릎쏴 사격에 진입</color>해 <color=#FFFFFF>[핵심 패시브: 안정 사격]</color>을 발동하고, 빌리가 <color=#2BAD00>주는 피해가 추가로 100% 증가한다</color>. 빌리가 이동하거나 대기 모션에 진입 혹은 넉백/넉업되면 버프 효과가 종료된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "branch": {
+      "13500111": "빌리가 <color=#FFFFFF>[일반 공격]</color> 중 무릎쏴 사격에 진입했을 때, <color=#FFFFFF>[핵심 패시브: 안정 사격]</color>을 발동하고 버프 효과를 1.5초 동안 유지하면, <color=#FFFFFF>[별빛 강림]</color> 상태에 진입하며, 해당 기간 동안 공격이 적에게 명중 시 타깃의 <color=#F0D12B>물리 피해 저항</color>을 <color=#2BAD00>30% 무시</color>하고, 동시에 <color=#2BAD00>지속적으로 데시벨을 획득</color>하며 <color=#2BAD00>20pt/초부터 50pt/초까지</color> 점차 증가해 3초 후 최대치에 도달한다. 자신이 넉백 혹은 넉업되기 전까지 유지된다.",
+      "13500112": "빌리가 <color=#FFFFFF>[일반 공격: 화력 전개·개조]</color>에서 시전한 사격이 적에게 누적 8회 명중 시, 다음번 시전하는 <color=#FFFFFF>[강화 특수 스킬]</color>은 <color=#2BAD00>에너지를 소모하지 않으며</color>, <color=#2BAD00>스킬로 주는 피해가 100% 증가한다</color>."
+    }
+  },
+  "1350012": {
+    "id": 1350012,
+    "name": "[빌리] 페인트탄 타임",
+    "desc": "빌리가 <color=#FFFFFF>[빠른 지원]</color>/<color=#FFFFFF>[강화 특수 스킬]</color>/<color=#FFFFFF>[콤보 스킬]</color>/<color=#FFFFFF>[궁극기]</color> 시전 시, <color=#2BAD00>충전을 1/2/2/4스택 획득한다(최대치: 4스택)</color>. <color=#FFFFFF>[대시 공격: 별-빛-제-재]</color>에서 주변 넓은 범위 구역에 꿰뚫기 공격 후, 「일반 공격」<IconMap:Icon_Normal>을 누르면 <color=#2BAD00>충전을 1스택 소모해</color> 스킬을 중복으로 시전할 수 있으며, 시전 시 공격이 명중할 때마다 <color=#2BAD00>적의 방어력이 4% 감소한다</color>. 지속 시간: 12초, 최대 중첩: 12스택, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "branch": {
+      "13500121": "빌리가 <color=#FFFFFF>[강화 특수 스킬]</color>/<color=#FFFFFF>[빠른 지원]</color>/<color=#FFFFFF>[콤보 스킬]</color>/<color=#FFFFFF>[궁극기]</color> 시전 시, 모든 파티원에게 <color=#FFFFFF>[박수갈채]</color> 효과를 부여한다. <color=#FFFFFF>[박수갈채]</color> 지속 시간: 12초, 지속 시간 동안 아군 에이전트가 시전하는 <color=#FFFFFF>[콤보 스킬]</color> 혹은 <color=#FFFFFF>[궁극기]</color><color=#2BAD00>로 주는 피해가 50% 증가한다</color>.",
+      "13500122": "충전을 획득할 때마다 <color=#2BAD00>충전 스택 및 충전 최대치가 2스택 증가하며</color> 적의 방어력 감소 효과 <color=#2BAD00>중첩 최대치가 18스택까지 증가한다</color>. 스킬 중복 시전 시, 스킬로 <color=#2BAD00>주는 피해가 30% 증가하며</color> 중복 시전할 때마다 추가로 파티원의 <color=#2BAD00>데시벨을 25pt 회복한다</color>."
+    }
+  },
+  "1350021": {
+    "id": 1350021,
+    "name": "[엘렌] 살얼음판 사냥",
+    "desc": "엘렌은 15초 간격으로 전장 위의 랜덤 적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식을 부착한다. 지속 시간: 15초. <color=#FFFFFF>[강화 특수 스킬]</color>을 시전하거나 <color=#FFFFFF>[대시 공격: 살얼음 잠습]</color>에서 시전한 빠른 가위질 혹은 차지 가위질이 <color=#FFFFFF>[사냥 순찰]</color> 표식이 부여된 적에게 명중 시, 다시 <IconMap:Icon_Normal>「일반 공격」 혹은 <IconMap:Icon_Special>「특수 공격」을 누르면 <color=#2BAD00>소모 없이, 조건 없이</color> <color=#2BAD00>다시 바로 해당 스킬을 시전</color>할 수 있다. <color=#FFFFFF>[급랭 충전]</color> 획득 시, 초과한 <color=#FFFFFF>[급랭 충전]</color> 1pt당 엘렌의 <color=#2BAD00>공격력이 12% 증가</color>한다. 최대 중첩: 9스택, 지속 시간: 10초, 스택 효과의 지속 시간은 하나씩 계산된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "branch": {
+      "13500211": "적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식 부여 시, 엘렌이 <color=#2BAD00>피해 증가 효과를 15%</color> 획득한다. 지속 시간: 15초. <color=#FFFFFF>[사냥 순찰]</color> 표식이 부여된 적 처치 시, 엘렌이 즉시 현재 전장 위의 HP가 가장 낮은 적에게 <color=#FFFFFF>[사냥 순찰]</color> 표식을 부여하고 이번 공동에서 현재 무장의 <color=#2BAD00>피해 증가 효과가 추가로 5% 증가한다</color>. 최대 추가 증가: 60%",
+      "13500212": "<color=#FFFFFF>[사냥 순찰]</color> 표식의 부여 간격 및 지속 시간이 8초까지 감소하며, 엘렌이 <color=#FFFFFF>[사냥 순찰]</color> 표식이 부여된 적을 공격할 시, <color=#2BAD00>치명타 피해가 40% 증가한다</color>. 또한 타깃에게 부여된 <color=#FFFFFF>[사냥 순찰]</color> 표식의 지속 시간이 4초 미만이면 <color=#2BAD00>치명타 피해가 추가로 60% 증가한다</color>."
+    }
+  },
+  "1350022": {
+    "id": 1350022,
+    "name": "[엘렌] 서리 칼날의 속박",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>[일반 공격: 서리 칼날]</color> 피해 배율이 대폭 증가한다. <color=#FFFFFF>[빠른 지원: 상어 경호원]</color> 및 <color=#FFFFFF>[강화 특수 스킬: 휩쓸기]</color> 시전 후에도 <color=#2BAD00>[일반 공격: 서리 칼날]이 자동으로 시전</color>되어 <color=#2BAD00>전방 넓은 범위 내 적</color>에게 <color=#98EFF0>얼음 속성 피해</color>를 주고 타깃의 <color=#2BAD00>방어력을 40% 감소</color>시킨다. 지속 시간: 8초. <color=#FFFFFF>[일반 공격: 서리 칼날]</color> 시전 시 엘렌이 <color=#FFFFFF>[급랭 충전]</color>을 3pt 획득한다.}{NOAWAKEN_1191#<color=#FFFFFF>[빠른 지원: 상어 경호원]</color>, <color=#FFFFFF>[강화 특수 스킬: 휩쓸기]</color>, <color=#FFFFFF>[강화 특수 스킬: 샤크나미]</color> 시전 후 <color=#2BAD00>자동으로 [서리 칼날]을 시전</color>하여 <color=#2BAD00>전방 넓은 범위 내 적</color>에게 <color=#98EFF0>얼음 속성 피해</color>를 주고 타깃의 <color=#2BAD00>방어력을 40% 감소</color>시킨다. 지속 시간: 8초. <color=#FFFFFF>[서리 칼날]</color> 시전 시 엘렌이 <color=#FFFFFF>[급랭 충전]</color>을 3pt 획득한다. 추가로 시전한 <color=#FFFFFF>[서리 칼날]</color>은 기존 스킬 파생에 영향을 주지 않는다.}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "branch": {
+      "13500221": "{AWAKEN_1191#<color=#FFFFFF>[일반 공격: 서리 칼날]</color> 시전 시 엘렌의 <color=#2BAD00>공격력이 45% 증가한다</color>. 지속 시간: 4초. 또한 전장 진입 후 처음 <color=#FFFFFF>[일반 공격: 서리 칼날]</color> 시전 시 엘렌이 <color=#FFFFFF>[급랭 충전]</color>을 추가로 3pt 획득한다. <color=#FFFFFF>[급랭 충전]</color> 추가 회복 효과는 8초 동안 최대 1회 획득할 수 있다.}{NOAWAKEN_1191#<color=#FFFFFF>[서리 칼날]</color> 시전 시 엘렌의 <color=#2BAD00>공격력이 45% 증가한다</color>. 지속 시간: 4초. 또한 전장 진입 후 처음 <color=#FFFFFF>[서리 칼날]</color> 시전 시 엘렌이 <color=#FFFFFF>[급랭 충전]</color>을 추가로 3pt 획득한다. <color=#FFFFFF>[급랭 충전]</color> 추가 회복 효과는 8초 동안 최대 1회 획득할 수 있다.}",
+      "13500222": "{AWAKEN_1191#<color=#FFFFFF>[일반 공격: 서리 칼날]</color> 시전 시 엘렌이 <color=#98EFF0>얼음 속성 피해</color> <color=#2BAD00>증가</color> 효과를 75% 획득한다. 지속 시간: 6초}{NOAWAKEN_1191#<color=#FFFFFF>[서리 칼날]</color> 시전 시 엘렌이 <color=#98EFF0>얼음 속성 피해</color> <color=#2BAD00>증가</color> 효과를 75% 획득한다. 지속 시간: 6초}"
+    }
+  },
+  "1350023": {
+    "id": 1350023,
+    "name": "[엘렌] 안개 역류",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[콤보 스킬]</color> 혹은 <color=#FFFFFF>[궁극기]</color> 시전 시 엘렌이 <color=#2BAD00>지면에 [얼음 안개]를 남겨</color> 적에게 지속적으로 <color=#98EFF0>얼음 속성 피해</color>를 준다. 지속 시간: 15초. 아군 에이전트가 <color=#FFFFFF>[얼음 안개]</color> 위에 있을 시, <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 30% 감소한다</color>. <color=#FFFFFF>[얼음 안개]</color>를 벗어난 후에도 효과는 5초 동안 지속된다. 엘렌의 공격이 <color=#FFFFFF>[얼음 안개]</color> 위에 있는 적에게 명중할 시 추가로 <color=#FFFFFF>[얼음 안개]</color>의 피해를 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "branch": {
+      "13500231": "<color=#FFFFFF>[얼음 안개]</color> 위에 있는 적의 <color=#98EFF0>얼음 속성 피해 저항</color>이 <color=#2BAD00>15% 감소하고</color>, 피해를 받을 시 <color=#98EFF0>얼음 속성 이상 축적 효율</color>이 <color=#2BAD00>15% 증가한다</color>. 아군 에이전트가 <color=#FFFFFF>[얼음 안개]</color> 위에 있는 적을 속성 이상 상태에 빠뜨릴 시 <color=#2BAD00>공격력이 35% 증가한다</color>. 지속 시간: 8초",
+      "13500232": "아군 에이전트가 <color=#FFFFFF>[얼음 안개]</color> 위에 있는 적에게 피해를 주고 치명타를 발동할 시, 타깃의 <color=#2BAD00>방어력이 10% 감소한다</color>. 지속 시간: 8초. 해당 피해가 <color=#FF5521>불 속성 피해</color>인 경우, <color=#2BAD00>치명타 피해가 64% 증가한다</color>."
+    }
+  },
+  "1350031": {
+    "id": 1350031,
+    "name": "[츠키시로 야나기] 청명한 달빛",
+    "desc": "<color=#FFFFFF>[상현달]</color> 자세에서 다섯 번째 <color=#FFFFFF>[일반 공격]</color> 시전 혹은 <color=#FFFFFF>[하현달]</color> 자세에서 네 번째 <color=#FFFFFF>[일반 공격]</color> 시전 시, <IconMap:Icon_Normal>「일반 공격」을 연타 혹은 홀드하면 <color=#2BAD00>중복으로 베기를 시전할 수 있다</color>. 최대 중복 시전: 4회. 중복으로 베기를 시전할 때마다 츠키시로 야나기가 주는 <color=#2EB6FF>전기 속성 피해</color>가 <color=#2BAD00>12.5% 증가한다</color>. 최대 중첩: 4스택, 지속 시간: 8초, 중복 발동 시 지속 시간이 갱신된다. 베기를 중복 시전하는 동안 츠키시로 야나기가 <color=#2BAD00>받는 피해가 40% 감소하며</color>, <color=#FFFFFF>[빠른 변천]</color> 발동 후 <IconMap:Icon_Normal>「일반 공격」을 누르면 <color=#2BAD00>빠르게 다른 자세의 중복 베기를 이어서 시전할 수 있다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "branch": {
+      "13500311": "<color=#FFFFFF>[일반 공격]</color>을 시전하는 동안 츠키시로 야나기가 <color=#2BAD00>받는 피해가 12% 감소한다</color>. 또한 츠키시로 야나기는 <color=#2BAD00>언제든지 현재 동작을 중단하고</color> <color=#FFFFFF>[특수 스킬: 변천]</color>을 이어서 시전할 수 있다. <color=#FFFFFF>[특수 스킬: 변천]</color>을 통해 적의 공격을 가드하는 데 성공하면 츠키시로 야나기가 <color=#2BAD00>이상 마스터리 170pt 증가</color> 효과를 획득한다. 지속 시간: 12초",
+      "13500312": "베기 중복 시전 중 공격이 적에게 명중하면 츠키시로 야나기가 <color=#FFFFFF>[혼돈]</color> <color=#2BAD00>피해 18% 증가</color> 효과를 획득한다. 베기를 중복 시전할 때마다 효과를 최대 1스택 획득할 수 있다. 최대 중첩: 4스택, 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350032": {
+    "id": 1350032,
+    "name": "[츠키시로 야나기] 봄바람과 달",
+    "desc": "파티원이 적을 속성 이상 상태에 빠뜨릴 시 츠키시로 야나기의 <color=#FFFFFF>[빠른 지원]</color>을 발동할 수 있다. 6초 동안 최대 1회 발동한다. 해당 방식을 통해 <color=#FFFFFF>[빠른 지원]</color> 발동 후, 츠키시로 야나기는 공중에 머물며 <color=#2BAD00>지속적으로 지면에 낙뢰 공격을 펼쳐</color> <color=#2EB6FF>전기 속성 피해</color>를 준다. 스킬은 비교적 높은 <color=#2EB6FF>전기 속성 이상 축적 효율</color>을 지닌다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "branch": {
+      "13500321": "낙뢰 공격 및 낙뢰 후의 낙하 공격 기간 동안 츠키시로 야나기의 <color=#2BAD00>공격력이 30% 증가하고</color>, <color=#2BAD00>이상 마스터리가 150pt 증가한다</color>. 또한 「특수 공격」<IconMap:Icon_Special> 버튼을 연타 혹은 홀드하면 스킬의 시전 시간이 늘어난다.",
+      "13500322": "낙뢰 공격이 적에게 명중 시, 아군 전체가 타깃에게 주는 <color=#2BAD00>속성 이상 혹은 [혼돈] 피해가 5% 증가한다</color>. 최대 중첩: 10스택, 지속 시간: 8초. 또한, 낙뢰 후 낙하 공격이 적에게 명중할 시 파티 내 이전 캐릭터의 <color=#FFFFFF>[빠른 지원]</color>을 발동한다."
+    }
+  },
+  "1350033": {
+    "id": 1350033,
+    "name": "[츠키시로 야나기] 그림자를 쫓는 달",
+    "desc": "파티 내 임의의 캐릭터가 <color=#FFFFFF>[혼돈]</color> 효과 발동 시, 츠키시로 야나기가 <color=#FFFFFF>[추적]</color>을 1스택 획득한다. <color=#FFFFFF>[추적]</color> 최대 중첩: 3스택. 현재 조작 중인 캐릭터의 강공격이 적에게 명중했을 때, 츠키시로 야나기가 <color=#FFFFFF>[추적]</color>을 보유하고 있으면 자동으로 1스택을 소모하고 적에게 <color=#FFFFFF>[달빛 춤사위]</color>를 1회 시전한다. <color=#FFFFFF>[달빛 춤사위]</color>는 <color=#FFFFFF>[여진 공격]</color>이며 1초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "branch": {
+      "13500331": "<color=#FFFFFF>[추적]</color> <color=#2BAD00>중첩 최대치가 5스택까지 증가하며</color>, 츠키시로 야나기가 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 <color=#FFFFFF>[추적]</color>을 1스택 획득할 수 있다.",
+      "13500332": "츠키시로 야나기가 <color=#FFFFFF>[혼돈]</color> 효과 발동 시, 모든 파티원이 <color=#2BAD00>[여진 공격] 피해 50% 증가</color> 효과를 획득한다. 지속 시간: 12초"
+    }
+  },
+  "1350041": {
+    "id": 1350041,
+    "name": "[제인] 기만의 그림자 급습",
+    "desc": "<color=#FFFFFF>[일반 공격: 살코 점프]</color>의 <color=#2BAD00>지속 공격 시간이 대폭 증가하고</color>, 피격 직전에 종결의 일격을 시전해 <color=#FFFFFF>[극한 회피]</color>를 발동할 수 있다. 지속 공격 시간이 최대치에 도달하거나 종결의 일격으로 <color=#FFFFFF>[극한 회피]</color> 발동 시, 종결의 일격이 <color=#FFFFFF>[살코 점프·비상]</color>으로 강화된다. 해당 스킬 시전 시 자신의 <color=#F0D12B>물리 이상 축적 효율</color>이 <color=#2BAD00>70% 증가한다</color>. 지속 시간: 15초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "branch": {
+      "13500411": "파티 내 임의의 캐릭터가 적에게 [속성 이상] 효과 부여 시, 제인이 바로 <color=#FFFFFF>[열광]</color> 상태에 진입하고, <color=#FFFFFF>[일반 공격: 살코 점프]</color>의 사용 가능 횟수를 1회 획득한다. 또한 <color=#FFFFFF>[열광적 몰입]</color>을 최대치까지 회복한다. 해당 효과는 10초 동안 최대 1회 발동한다.",
+      "13500412": "<color=#FFFFFF>[극한 회피]</color> 발동 혹은 <color=#FFFFFF>[패링 지원]</color> 시전 시 획득하는 <color=#FFFFFF>[열광적 몰입]</color>이 <color=#2BAD00>대폭 증가하고</color>, <color=#FFFFFF>[열광]</color> 상태가 <color=#FFFFFF>[열광 과부하]</color> 상태로 대체된다. 해당 상태에서 제인의 <color=#2BAD00>공격력이 추가로 40% 증가하고</color>, <color=#FFFFFF>[열광적 몰입]</color>은 시간이 지남에 따라 자동으로 감소하며, 공격이 적에게 명중해도 <color=#FFFFFF>[열광적 몰입]</color>은 <color=#2BAD00>소모되지 않는다</color>."
+    }
+  },
+  "1350042": {
+    "id": 1350042,
+    "name": "[제인] 사냥 시간",
+    "desc": "{AWAKEN_1261#<color=#FFFFFF>[강화 특수 스킬: 공중 도약]</color>이 <color=#FFFFFF>[강화 특수 스킬: 공중 도약-강습]</color>으로 강화되며, 해당 스킬의 피해 배율과 이상 축적이 대폭 증가한다}{NOAWAKEN_1261#<color=#FFFFFF>[강화 특수 스킬: 공중 도약]</color>이 <color=#FFFFFF>[강화 특수 스킬: 공중 도약-강습]</color>으로 강화된다}. 해당 스킬이 적에게 명중 시, 타깃을 <color=#FFFFFF>[상처]</color> 상태로 만든다. 해당 상태의 타깃은 1초마다 1회씩 제인 공격력의 60%에 해당하는 <color=#F0D12B>물리 피해</color>를 받으며 <color=#F0D12B>물리 이상 축적치</color>를 누적한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "branch": {
+      "13500421": "제인이 <color=#FFFFFF>[강타]</color> 발동 시 모든 파티원의 <color=#2BAD00>이상 마스터리 50pt 및 이상 축적 효율 70%가 증가한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13500422": "파티 내 다른 캐릭터가 <color=#FFFFFF>[상처]</color> 상태의 적 공격 시, <color=#FFFFFF>[상처]</color>가 추가로 자극되어 해당 캐릭터의 속성에 따라 제인 공격력의 120%만큼 상응하는 속성의 피해를 1회 준다. 또한 속성 이상 축적치를 누적한다. 해당 효과는 동일한 캐릭터마다 3초 동안 최대 1회 발동할 수 있다."
+    }
+  },
+  "1350043": {
+    "id": 1350043,
+    "name": "[제인] 즐거운 추적",
+    "desc": "파티 내 다른 캐릭터가 <color=#F0D12B>[강타]</color> 발동 시, 제인이 타깃 적을 에워싸고 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전하며, 주는 피해는 <color=#FFFFFF>[여진 공격]</color> 피해로 간주된다. 해당 효과는 8초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "branch": {
+      "13500431": "파티 내 임의의 캐릭터가 <color=#FFFFFF>[강타]</color> 발동 시 적의 <color=#F0D12B>물리 피해 저항</color>이 <color=#2BAD00>15% 감소하고</color>, <color=#F0D12B>물리 이상 축적 저항</color>이 <color=#2BAD00>30% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13500432": "파티 내 다른 캐릭터가 <color=#FFFFFF>[즐거운 추적]</color>을 통해 제인의 <color=#FFFFFF>[여진 공격]</color>을 2회 발동하면 다음번 발동 시, 제인이 타깃 적을 에워싸고 <color=#FFFFFF>[콤보 스킬]</color>을 시전한다. 해당 공격은 <color=#FFFFFF>[여진 공격]</color>으로 간주되며 이번 <color=#FFFFFF>[콤보 스킬]</color>의 <color=#2BAD00>피해가 200% 증가하고, 이상 축적 효율이 200% 증가한다</color>."
+    }
+  },
+  "1350051": {
+    "id": 1350051,
+    "name": "[코린] 효율적인 청소법",
+    "desc": "첫 번째, 두 번째, 세 번째 <color=#FFFFFF>[일반 공격]</color>, <color=#FFFFFF>[대시 공격]</color>, <color=#FFFFFF>[회피 반격]</color> 혹은 <color=#FFFFFF>[빠른 지원]</color>을 시전하는 동안 [일반 공격]<IconMap:Icon_Normal>을 연타 혹은 홀드하면 <color=#2BAD00>바로 네 번째 [일반 공격]</color>을 시전할 수 있으며, 전방에 <color=#2BAD00>고속 사이클론을 날려 적을 벨 수 있다</color>. 코린이 <color=#FFFFFF>[극한 회피]</color> 발동 시 <color=#2BAD00>자신이 에너지를 20pt 회복하며</color> 해당 효과는 10초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "branch": {
+      "13500511": "<color=#FFFFFF>[강화 특수 스킬]</color>을 시전하는 동안 <color=#FFFFFF>[특수 공격]</color><IconMap:Icon_Special>을 홀드해 적을 0.5초 넘게 벨 시 <color=#FFFFFF>[오버클럭 상태]</color>를 발동하고 <color=#2BAD00>지속적으로 적을 모으며</color>, 베기가 적에게 10회 명중 시 <color=#FFFFFF>[오버클럭 과부하]</color>를 발동해 <color=#2BAD00>추가로 코린 공격력의 630%</color>에 해당하는 <color=#F0D12B>물리 피해</color>를 1회 준다.",
+      "13500512": "코린이 전기톱 지속 베기로 적 명중 시 자신이 충전을 1스택 획득한다. 충전을 10스택 보유하면 다음번 베기가 적에게 <color=#FFFFFF>[찰과상]</color> 효과를 부여하고, <color=#2BAD00>3초마다 코린 공격력의 20%에 해당하는</color> <color=#F0D12B>물리 피해</color>를 1회 준다. 최대 중첩: 10스택, 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350052": {
+    "id": 1350052,
+    "name": "[코린] 티타임이에요",
+    "desc": "코린의 <color=#FFFFFF>[대시 공격]</color> 및 <color=#FFFFFF>[빠른 지원]</color>이 <color=#FFFFFF>[대시 공격: [끊기] 개조]</color>로 대체되며, <color=#FFFFFF>[일반 공격]</color> 버튼 홀드 시 속행 형태를 유지할 수 있다. 전기톱 연속 베기가 적에게 30회 명중하거나 버튼에서 손을 떼면 종료된다. <color=#FFFFFF>[대시 공격: [끊기] 개조]</color>가 적에게 명중하면 <color=#2BAD00>적의 방어력이 3% 감소한다</color>. 최대 중첩: 10스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "branch": {
+      "13500521": "코린이 <color=#FFFFFF>[빠른 지원]</color>, <color=#FFFFFF>[극한 지원]</color>, <color=#FFFFFF>[대시 공격]</color>, <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 모든 파티원의 <color=#2BAD00>공격력이 16% 증가한다</color>. 지속 시간: 15초",
+      "13500522": "<color=#FFFFFF>[대시 공격: [끊기] 개조]</color>가 적에게 명중 시, 적의 <color=#2BAD00>스택당 방어력 감소 효과가 6%까지 증가한다</color>."
+    }
+  },
+  "1350061": {
+    "id": 1350061,
+    "name": "[아스트라 야오] 무지개 협주",
+    "desc": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 <color=#FFFFFF>[강공]</color> 특성 캐릭터의 <color=#2BAD00>치명타 피해가 30% 증가하고</color>, <color=#FFFFFF>[이상]</color> 특성 캐릭터의 <color=#2BAD00>이상 마스터리가 60pt 증가하며</color>, [명파] 특성 캐릭터가 주는 <color=#2BAD00>관입 피해가 15% 증가한다</color>. 현재 조작 중인 캐릭터가 시전한 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 아스트라 야오가 <color=#2BAD00>에너지를 4pt 회복하고</color>, <color=#2BAD00>추가로 <color=#FFFFFF>[트레몰로]</color>를 방출해 공격한다</color>. 에너지 회복 효과는 1초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "branch": {
+      "13500611": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 <color=#2BAD00>모든 파티원의 관통률이 20% 증가하고</color>, <color=#2BAD00>HP가 천천히 회복된다</color>.",
+      "13500612": "<color=#FFFFFF>[트레몰로]</color> 공격이 적에게 명중 시, 적의 <color=#2BAD00>방어력이 30% 감소한다</color>. 지속 시간: 10초"
+    }
+  },
+  "1350062": {
+    "id": 1350062,
+    "name": "[아스트라 야오] 진홍의 리듬",
+    "desc": "<color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 에너지가 충분할 때, 방출 혹은 추가 방출한 <color=#FFFFFF>[트레몰로]</color>로 공격 시 <color=#2BAD00>2단</color>의 동일한 <color=#FFFFFF>[트레몰로]</color> 피해를 추가한다. 아스트라 야오가 시전한 <color=#FFFFFF>[일반 공격: 간주]</color> 혹은 <color=#FFFFFF>[일반 공격: 코러스]</color>가 적에게 명중 시, 20% 확률로 <color=#FFFFFF>[영감]</color> 효과를 획득해 아스트라 야오가 다음번에 시전하는 <color=#FFFFFF>[회피]</color>가 <color=#2BAD00>바로</color> <color=#FFFFFF>[극한 회피]</color>를 발동할 수 있으며 <color=#FFFFFF>[일반 공격: 코러스]</color>를 이어서 시전할 수 있다. 지속 시간: 30초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "branch": {
+      "13500621": "파티 내 다른 캐릭터의 <color=#FFFFFF>[여진 공격]</color>이 적에게 명중 시, 아스트라 야오가 추가로 <color=#FFFFFF>[트레몰로]</color>를 방출해 적을 공격한다. 해당 효과는 2초 동안 최대 1회 발동한다.",
+      "13500622": "<color=#FFFFFF>[트레몰로]</color> 공격의 <color=#2BAD00>치명타 확률이 30% 증가하고</color>, <color=#2BAD00>치명타 피해가 60% 증가하며</color>, <color=#2BAD00>적의 에테르 피해 저항을 22% 무시한다</color>."
+    }
+  },
+  "1350063": {
+    "id": 1350063,
+    "name": "[아스트라 야오] 별빛 왈츠",
+    "desc": "아스트라 야오가 에너지를 25pt 누적 소모할 때마다 <color=#FFFFFF>[별빛]</color>을 1스택 획득한다. 최대 중첩: 3스택. <color=#FFFFFF>[아이들릭 카덴차]</color> 상태에서 <IconMap:Icon_Normal>을 홀드하면 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color>을 시전하고 지속적으로 에너지 레이저를 유도해 적을 공격할 수 있다. 스킬 시전 시 <color=#FFFFFF>[별빛]</color>을 소모하며 <color=#FFFFFF>[별빛]</color> 스택당 스킬의 <color=#2BAD00>지속 시간이 1초 연장된다</color>. 스킬을 시전하는 동안 <color=#2BAD00>경직 저항 레벨이 증가하고</color>, <color=#2BAD00>받는 피해가 추가로 20% 감소한다</color>. 스킬이 적에게 명중 시 <color=#2BAD00>타깃의 방어력이 20% 감소한다</color>. 지속 시간: 30초. <color=#FFFFFF>[별빛]</color> 3스택 보유 후 다시 아스트라 야오로 교체 시 자동으로 이어서 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color>을 시전하며, 아스트라 야오가 시전한 <color=#FFFFFF>[일반 공격: 간주]</color>가 적에게 명중 시 추가로 에너지를 25pt 소모하고, 시전한 <color=#FFFFFF>[일반 공격: 코러스]</color>가 적에게 명중 시 <color=#2BAD00>추가로 에너지를 5pt 회복한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "branch": {
+      "13500631": "<color=#FFFFFF>[일반 공격: 찬란한 순간]</color>으로 주는 피해가 <color=#FFFFFF>[강화 특수 스킬]</color> 피해로 <color=#2BAD00>간주되며</color>, 스킬을 시전하는 동안 <color=#2BAD00>치명타 확률이 30% 증가하고</color>, <color=#2BAD00>치명타 피해가 60% 증가한다</color>.",
+      "13500632": "<IconMap:Icon_Normal>을 홀드하여 <color=#FFFFFF>[일반 공격: 찬란한 순간]</color> 시전 시 <color=#FFFFFF>[별빛]</color>을 소모하며, <color=#FFFFFF>[별빛]</color> 스택당 <color=#2BAD00>스킬로 주는 피해가 15% 증가한다</color>. 또한 아스트라 야오가 <color=#2BAD00>에너지를 4pt 회복한다</color>."
+    }
+  },
+  "1350071": {
+    "id": 1350071,
+    "name": "[이블린] 금빛 회전날",
+    "desc": "<color=#FFFFFF>[뒤엉킨 금제]</color> 종료 시 이블린이 <color=#FFFFFF>[기폭 준비 시간]</color>에 진입한다. 지속 시간: 30초, 해당 기간 동안 시전하는 다음번 <color=#FFFFFF>[대시 공격: 잠행 습격]</color>이 <color=#FFFFFF>[대시 공격: 잠행 폭파]</color>로 대체된다. <color=#FFFFFF>[대시 공격: 잠행 폭파]</color>는 <color=#2BAD00>[콤보 스킬]로 간주된다</color>. 이블린이 <color=#FFFFFF>[일반 공격: 교살식]</color> 시전 시 <color=#2BAD00>[뒤엉킨 금제]</color>가 종료된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "branch": {
+      "13500711": "<color=#FFFFFF>[콤보 스킬]</color> 시전 시 이블린이 <color=#FFFFFF>[날랜 칼날]</color> 효과를 획득해 <color=#FFFFFF>[콤보 스킬]</color>로 <color=#2BAD00>주는 피해가 20% 증가한다</color>. 최대 중첩: 3스택, 전투 종료까지 지속된다.",
+      "13500712": "이블린이 정면 공격을 받고 피격 스턴에 진입하기 직전에 <color=#FFFFFF>[지원 포인트]</color>를 소모하고 <color=#2BAD00>자동으로 [패링 지원]을 시전해</color> 적의 공격을 가드한다. 또한 <color=#FFFFFF>[지원 돌격: 궤적 교란]</color>이 이어서 파생될 수 있다. 이블린이 <color=#FFFFFF>[패링 지원]</color> 시전 시 자신의 <color=#2BAD00>치명타 피해가 40% 증가한다</color>. 최대 중첩: 2스택, 지속 시간: 20초, 각 스택의 지속 시간은 따로 계산된다."
+    }
+  },
+  "1350072": {
+    "id": 1350072,
+    "name": "[이블린] 치명적인 매너",
+    "desc": "파티 내 임의 캐릭터의 <color=#FFFFFF>[여진 공격]</color>, <color=#FFFFFF>[빠른 지원]</color>, <color=#FFFFFF>[극한 지원]</color>이 적에게 명중 시 이블린이 <color=#FFFFFF>[잉걸불]</color>을 회복하며, 이블린이 <color=#FFFFFF>[화승점]</color>을 소모해 시전한 <color=#FFFFFF>[콤보 스킬: 달빛타래·올가미]</color>가 <color=#FFFFFF>[콤보 스킬: 달빛타래·얽힘]</color>으로 대체되고, 스킬 시간이 대폭 단축된다. 이블린이 시전한 <color=#FFFFFF>[콤보 스킬]</color>이 적에게 명중 시 <color=#2BAD00>스킬로 주는 피해가 80% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "branch": {
+      "13500721": "<color=#FFFFFF>[궁극기]</color> 시전 시, 이블린이 <color=#FFFFFF>[잉걸불]</color> 100% 및 <color=#FFFFFF>[화승점]</color> 3pt를 획득한다.",
+      "13500722": "이블린이 <color=#FFFFFF>[콤보 스킬]</color> 시전 시, <color=#2BAD00>치명타 확률이 20% 증가하고</color>, <color=#2BAD00>치명타 피해가 80% 증가한다</color>. 지속 시간: 5초"
+    }
+  },
+  "1350073": {
+    "id": 1350073,
+    "name": "[이블린] 폭주하는 화염",
+    "desc": "이블린의 <color=#FFFFFF>[빠른 지원]</color>, <color=#FFFFFF>[지원 돌격]</color>, <color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[일반 공격: 교살식]</color> 및 <color=#FFFFFF>[콤보 스킬]</color> 강공격이 적에게 명중 시 적에게 <color=#FFFFFF>[폭렬]</color> 표식을 부여한다. 지속 시간: 8초, 중복 발동 시 지속 시간이 갱신된다. 파티 내 다른 캐릭터의 공격이 <color=#FFFFFF>[폭렬]</color> 표식을 보유한 적에게 명중하면 추가로 이블린 공격력의 370%에 해당하는 <color=#FF5521>불 속성 피해</color>를 1회 준다. 또한 이블린이 <color=#FFFFFF>[잉걸불]</color>을 20% 회복한다. 해당 효과는 2초 동안 최대 1회 발동하며, 피해 3회 발동 후 적에게 부여된 <color=#FFFFFF>[폭렬]</color> 표식이 제거된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "branch": {
+      "13500731": "<color=#FFFFFF>[폭렬]</color> 표식을 지닌 적이 받는 <color=#FFFFFF>[여진 공격]</color>의 <color=#2BAD00>그로기 수치가 25% 증가하고</color>, <color=#2BAD00>피해가 30% 증가한다</color>.",
+      "13500732": "이블린의 <color=#FFFFFF>[잉걸불]</color>이 50%를 넘고 이블린이 조작 중인 캐릭터가 아닌 상태에서 조작 중인 캐릭터의 강공격이 적에게 명중 시, 이블린이 적을 에워싸고 <color=#FFFFFF>[일반 공격: 교살식]</color>을 시전하며, 주는 피해는 <color=#FFFFFF>[여진 공격]</color> 피해로 간주된다. 또한 모든 파티원의 <color=#2BAD00>공격력이 16% 증가한다</color>. 지속 시간: 15초"
+    }
+  },
+  "1350081": {
+    "id": 1350081,
+    "name": "[의현] 난새의 그림자",
+    "desc": "의현이 적의 공격을 받을 시 자동으로 이번 공격을 회피하고, 극한 시야를 발동하며 제자리에 대태극진을 남긴다. [일반 공격] 버튼을 누른 후 [일반 공격: 청명의 뇌동]을 이어서 사용할 수 있다. 자동 회피 효과는 12초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic035.png",
+    "branch": {
+      "13500811": "다섯 번째 일반 공격이 추가로 <color=#2BAD00>기운을 10pt</color> 회복한다. 극한 회피 발동 시 추가로 <color=#2BAD00>기운을 10pt</color> 회복한다.",
+      "13500812": "극한 회피 발동 후 의현의 <color=#2BAD00>치명타 피해가 96% 증가한다</color>. 지속 시간: 20초"
+    }
+  },
+  "1350082": {
+    "id": 1350082,
+    "name": "[의현] 신묘한 공명",
+    "desc": "[빠른 지원]이 [강화 특수 스킬: 청명의 뇌동-파괴]로 대체된다. [일반 공격: 청명의 뇌동]이 적에게 명중하거나 [강화 특수 스킬], [궁극기] 시전 후 의현의 <color=#2BAD00>관입 피해가 추가로 20% 증가한다</color>. 최대 중첩: 3스택, 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic036.png",
+    "branch": {
+      "13500821": "[일반 공격: 청명의 뇌동] 혹은 [강화 특수 스킬: 청명의 뇌동-파괴]가 적에게 명중 후 적의 <color=#2BAD00>모든 속성 저항이 40% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13500822": "[일반 공격: 청명의 뇌동] 혹은 [강화 특수 스킬: 청명의 뇌동-파괴]를 1회 시전할 때마다 [일반 공격: 청명의 뇌동] 혹은 [강화 특수 스킬: 청명의 뇌동-파괴]로 <color=#2BAD00>주는 피해가 18% 증가한다</color>. 최대 중첩: 4스택, [일반 공격: 청명의 뇌동] 혹은 [강화 특수 스킬: 청명의 뇌동-파괴] 시전 시 술법을 30 회복한다."
+    }
+  },
+  "1350083": {
+    "id": 1350083,
+    "name": "[의현] 검은 깃털의 칙서",
+    "desc": "[강화 특수 스킬: 먹빛 흔적의 형체] 차지 중 완벽 가드를 발동할 수 있으며, 완벽 가드 발동 후 추가로 술법을 15 회복하고 <color=#2BAD00>피해 증가 버프 18%</color>를 획득한다. 지속 시간: 15초. 완벽 가드 1회마다 다음번 [궁극기]로 <color=#2BAD00>주는 피해가 추가로 20% 증가한다</color>. 최대 중첩: 3스택",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic037.png",
+    "branch": {
+      "13500831": "[강화 특수 스킬: 먹빛 흔적의 형체]로 적을 완벽 가드한 후 <color=#2BAD00>추가로 데시벨을 300pt 회복한다</color>.",
+      "13500832": "[강화 특수 스킬: 먹빛 흔적의 형체]로 적을 완벽 가드한 후 모든 파티원이 <color=#2BAD00>주는 그로기 수치가 추가로 30% 증가한다</color>. 지속 시간: 20초"
+    }
+  },
+  "1350091": {
+    "id": 1350091,
+    "name": "[귤복복] 산군파살",
+    "desc": "귤복복이 <color=#FFFFFF>[콤보 스킬: 호랑솥·진살]</color> 시전 후, 만약 자신이 현재 조작 중인 캐릭터가 아닌 경우, <color=#FFFFFF>[추격 지원]</color>을 1회 발동하며, 발동 시 적을 에워싸고 네 번째 <color=#FFFFFF>[일반 공격]</color>을 시전한다. 스킬로 주는 피해는 <color=#2BAD00>[여진 공격]</color> 피해로 간주되며 <color=#2BAD00>주는 피해가 75% 증가하고</color>, <color=#2BAD00>그로기 수치가 45% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic038.png",
+    "branch": {
+      "13500911": "<color=#2BAD00>[여진 공격]</color>이 적에게 명중 시 해당 적에게 <color=#2BAD00>주는 피해가 10% 증가한다</color>. 최대 중첩: 3스택, 1초 동안 최대 1회 발동한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13500912": "<color=#2BAD00>[여진 공격]</color>이 적에게 명중 시 <color=#2BAD00>주는 그로기 수치가 8% 증가한다</color>. 최대 중첩: 3스택, 1초 동안 최대 1회 발동한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350092": {
+    "id": 1350092,
+    "name": "[귤복복] 「풍뢰」의 소리",
+    "desc": "귤복복이 <color=#FFFFFF>[돌격 지원]</color> 혹은 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 후, 빠르게 네 번째 <color=#FFFFFF>[일반 공격]</color>을 이어서 사용할 수 있으며, 해당 스킬이 강화되어 이번 스킬로 주는 <color=#2BAD00>그로기 수치가 60% 증가하고</color> 스킬 종료 후 추가로 네 번째 <color=#FFFFFF>[일반 공격]</color>을 1회 시전한 것과 동일한 타격 효과를 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic039.png",
+    "branch": {
+      "13500921": "귤복복이 강화된 네 번째 <color=#FFFFFF>[일반 공격]</color> 시전 시, 귤복복이 <color=#2BAD00>주는 피해가 60% 증가한다</color>. 지속 시간: 20초",
+      "13500922": "귤복복이 강화된 네 번째 <color=#FFFFFF>[일반 공격]</color> 시전 시, 귤복복이 <color=#2BAD00>추가로 [위풍] 50pt 및 데시벨 150pt를 획득한다</color>."
+    }
+  },
+  "1350093": {
+    "id": 1350093,
+    "name": "[귤복복] 영험한 호부",
+    "desc": "귤복복의 세 번째 <color=#FFFFFF>[일반 공격]</color>이 적에게 명중 시 <color=#2BAD00>[위풍]을 3pt 획득한다</color>.\n네 번째 <color=#FFFFFF>[일반 공격]</color> 시전 후, 다시 「일반 공격」을 눌러 <color=#FFFFFF>[일반 공격: 대호칠식·강렬한 발톱·열의]</color>를 시전할 수 있으며, 만약 이때 「호위」가 전장에 있으며 <color=#FFFFFF>[위풍]</color>이 100pt를 넘는 경우, <color=#FFFFFF>[위풍]</color>을 100pt 소모해 「호위」가 <color=#FFFFFF>[콤보 스킬: 호랑솥·진살]</color>을 1회 시전할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic040.png",
+    "branch": {
+      "13500931": "귤복복의 <color=#FFFFFF>[일반 공격]</color>으로 주는 <color=#2BAD00>그로기 수치가 45% 증가하고</color>, 세 번째 <color=#FFFFFF>[일반 공격]</color>이 적에게 명중 시 추가로 <color=#2BAD00>[위풍]을 2pt 획득한다</color>.",
+      "13500932": "귤복복이 <color=#FFFFFF>[일반 공격: 대호칠식·강렬한 발톱·열의]</color> 시전 시 귤복복의 <color=#2BAD00>치명타 피해가 85% 증가한다</color>. 지속 시간: 20초"
+    }
+  },
+  "1350121": {
+    "id": 1350121,
+    "name": "[앨리스] 결투 예법",
+    "desc": "앨리스의 <color=#FFFFFF>[일반 공격]</color> 다섯 번째, <color=#FFFFFF>[강화 특수 스킬]</color>, <color=#FFFFFF>[콤보 스킬]</color> 혹은 <color=#FFFFFF>[궁극기]</color>가 적에게 명중 시 <color=#FFFFFF>[표식]</color>을 누적하며, 공격이 <color=#FFFFFF>[표식]</color>이 가득 찬 적에게 명중 시 모든 <color=#FFFFFF>[표식]</color>을 소모해 특수한 <color=#F0D12B>[강타]</color> 효과인 <color=#F0D12B>[극성 강타]</color>를 발동하고, 속성 축적 진도를 무시하고 기존 <color=#F0D12B>[강타]</color> 효과 100%만큼의 피해를 1회 준다. 또한 물리 속성 이상 효과를 포함한 다른 속성 이상 효과와 함께 <color=#FFFFFF>[혼돈]</color>을 결산한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic041.png",
+    "branch": {
+      "13501211": "<color=#F0D12B>[강타]</color> 발동 시 앨리스가 주는 <color=#2BAD00>피해가 6% 증가한다</color>. 최대 중첩: 10스택",
+      "13501212": "앨리스가 <color=#F0D12B>[강타]</color> 발동 시, 파티 내 모든 캐릭터의 <color=#2BAD00>이상 축적 효율이 40% 증가한다</color>. 지속 시간: 15초"
+    }
+  },
+  "1350122": {
+    "id": 1350122,
+    "name": "[앨리스] 신속한 검날의 회전",
+    "desc": "앨리스의 <color=#FFFFFF>[회피 반격]</color> 및 <color=#FFFFFF>[빠른 지원]</color>이 <color=#FFFFFF>[신속한 검날]</color>로 대체되고, 앨리스가 <color=#FFFFFF>[신속한 검날]</color> 시전 시 <color=#2BAD00>이상 마스터리가 150pt 증가한다</color>. 지속 시간: 15초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic042.png",
+    "branch": {
+      "13501221": "앨리스가 <IconMap:Icon_Evade>을 홀드해 일정 시간 이동 후 <color=#FFFFFF>[극한 시야]</color>에 진입한다. 지속 시간: 3초, 또한 다음번 <color=#FFFFFF>[대시 공격]</color>이 <color=#FFFFFF>[회피 반격]</color>으로 대체된다. 해당 효과는 10초 동안 최대 1회 발동한다. 앨리스가 해당 효과 혹은 <color=#FFFFFF>[극한 회피]</color> 발동 시 전장 위 적의 <color=#2BAD00>방어력이 20% 감소한다</color>. 지속 시간: 15초",
+      "13501222": "앨리스가 <color=#FFFFFF>[신속한 검날]</color> 시전 시 <color=#FFFFFF>[검의]</color>를 30pt 회복한다."
+    }
+  },
+  "1350123": {
+    "id": 1350123,
+    "name": "[앨리스] 날카로운 앙상블",
+    "desc": "앨리스가 <color=#FFFFFF>[강화 특수 스킬: 오로라 찌르기·북십자성]</color> 시전 시 모든 파티원의 <color=#2BAD00>치명타 확률이 10% 증가하고</color>, <color=#2BAD00>치명타 피해가 20% 증가한다</color>. 지속 시간: 20초. <color=#FFFFFF>[강화 특수 스킬: 오로라 찌르기·남십자성]</color> 시전 시 모든 파티원의 <color=#2BAD00>이상 축적 효율이 35% 증가하고</color>, <color=#2BAD00>이상 마스터리가 50pt 증가한다</color>. 지속 시간: 20초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic043.png",
+    "branch": {
+      "13501231": "앨리스가 3단 차지한 <color=#FFFFFF>[일반 공격: 별빛 원무곡]</color> 시전 시 모든 파티원이 <color=#2BAD00>데시벨을 400pt 획득한다</color>.",
+      "13501232": "<color=#FFFFFF>[앨리스] 날카로운 앙상블</color>의 두 가지 버프 효과가 동시에 존재하면, 모든 파티원의 <color=#2BAD00>공격력이 10% 증가하고</color>, <color=#2BAD00>주는 피해가 16% 증가한다</color>. 지속 시간: 20초"
+    }
+  },
+  "1350131": {
+    "id": 1350131,
+    "name": "[유즈하] 영험한 수호",
+    "desc": "유즈하가 <color=#FFFFFF>[강화 특수 스킬]</color> 혹은 <color=#FFFFFF>[궁극기]</color> 시전 시 자신의 <color=#2BAD00>이상 장악력이 40 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다. 적에게 명중 시 적의 <color=#2BAD00>방어력이 18% 감소하고</color>, <color=#2BAD00>모든 속성 피해 저항이 15% 감소한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic045.png",
+    "branch": {
+      "13501311": "<color=#FFFFFF>[일반 공격: 스프링클 버스트]</color> 및 <color=#FFFFFF>[일반 공격: 스프링클 버스트·맥스]</color> 공격의 <color=#2BAD00>이상 축적 효율이 60% 증가한다</color>.",
+      "13501312": "<color=#FFFFFF>[일반 공격: 하드 캔디 샷]</color>의 강공격이 적에게 명중 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 30pt 증가하고</color>, <color=#2BAD00>공격력이 10% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350132": {
+    "id": 1350132,
+    "name": "[유즈하] 비기·우산 해머!",
+    "desc": "유즈하가 <color=#FFFFFF>[회피 반격]</color>, <color=#FFFFFF>[빠른 지원]</color>, <color=#FFFFFF>[지원 돌격]</color>, <color=#FFFFFF>[일반 공격]</color> 다섯 번째 후 <IconMap:Icon_Normal>을 누르면 <color=#FFFFFF>[우산 해머]</color>를 시전해 적을 공격한다. 해당 공격의 강공격이 <color=#FFFFFF>[달콤한 공포]</color> 상태인 적에게 명중 시 <color=#FFFFFF>[일반 공격: 스프링클 버스트·맥스]</color> 공격을 1회 주며, 자신의 <color=#2BAD00>공격력이 20% 증가하고</color>, <color=#2BAD00>이상 축적 효율이 30% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다. 유즈하의 <color=#FFFFFF>[일반 공격]</color> 다섯 번째가 적에게 명중 시 <color=#FFFFFF>[달콤 포인트]</color>를 1pt 획득한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic044.png",
+    "branch": {
+      "13501321": "유즈하가 <color=#FFFFFF>[달콤 포인트]</color>를 보유한 경우, 유즈하는 <color=#FFFFFF>[우산 해머]</color> 공격이 끝난 후 <IconMap:Icon_Normal>일반 공격을 눌러 <color=#FFFFFF>[달콤 포인트]</color>를 1pt 소모하고 다시 공격을 시전할 수 있다. <color=#FFFFFF>[우산 해머]</color>를 시전할 때마다 유즈하의 <color=#2BAD00>이상 마스터리가 40 증가한다</color>. 최대 중첩: 3스택, 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13501322": "유즈하의 <color=#FFFFFF>[우산 해머]</color> 공격이 끝난 후 타이밍에 맞춰 <IconMap:Icon_Normal>일반 공격을 눌러 다시 <color=#FFFFFF>[우산 해머]</color>를 시전할 수 있다. <color=#FFFFFF>[우산 해머]</color>를 시전할 때마다 유즈하의 <color=#2BAD00>이상 마스터리가 30 증가한다</color>. 최대 중첩: 6스택, 지속 시간: 8초, <color=#FFFFFF>[우산 해머]</color> 시전 시 만약 유즈하가 <color=#FFFFFF>[달콤 포인트]</color>를 보유하고 있으면, 자동으로 <color=#FFFFFF>[달콤 포인트]</color>를 1pt 소모해 이번 <color=#FFFFFF>[우산 해머]</color> 및 <color=#FFFFFF>[일반 공격: 스프링클 버스트·맥스]</color> 공격의 <color=#2BAD00>이상 축적 효율이 40% 증가한다</color>."
+    }
+  },
+  "1350133": {
+    "id": 1350133,
+    "name": "[유즈하] 너구리의 그림자",
+    "desc": "유즈하가 <color=#FFFFFF>[극한 지원]</color> 및 <color=#FFFFFF>[콤보 스킬]</color> 시전 시 모든 파티원의 에너지 5pt 및 데시벨 160pt를 회복한다. 해당 효과는 12초 동안 최대 1회 발동한다. <color=#FFFFFF>[지원 돌격]</color>의 강공격이 적에게 명중 시 모든 파티원의 <color=#2BAD00>피해가 15% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다. 또한 이전 캐릭터의 <color=#FFFFFF>[빠른 지원]</color>을 발동하며, 이번 <color=#FFFFFF>[빠른 지원]</color>은 콤보 스킬로 업그레이드된다. 해당 효과는 12초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic046.png",
+    "branch": {
+      "13501331": "<color=#FFFFFF>[지원 돌격]</color>의 강공격이 적에게 명중 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 40 증가하고</color>, <color=#2BAD00>이상 축적 효율이 30% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13501332": "<color=#FFFFFF>[지원 돌격]</color>의 강공격이 적에게 명중 시 모든 파티원의 <color=#2BAD00>치명타 확률이 10% 증가하고</color>, <color=#2BAD00>치명타 피해가 24% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350141": {
+    "id": 1350141,
+    "name": "[루시아] 거슬러 흐르는 꿈",
+    "desc": "루시아가 스킬 업그레이드 혹은 <color=#FFFFFF>[여진 공격]</color> 시전 시 <color=#FFFFFF>[홍류]</color>를 1스택 획득한다. 최대 중첩: 4스택\n<color=#FFFFFF>[꿈세계]</color> 상태 종료 시, 모든 <color=#FFFFFF>[홍류]</color>를 소모하며, 소모한 <color=#FFFFFF>[홍류]</color> 1스택당 <color=#2BAD00>자신의 에너지를 10pt 회복한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic048.png",
+    "branch": {
+      "13501411": "루시아가 대기 캐릭터일 때 <color=#FFFFFF>[여진 공격]</color> 시전 시, <color=#2BAD00>파티원의 에너지 또는 기운을 6pt 회복한다</color>.",
+      "13501412": "루시아가 대기 캐릭터일 때 시전한 <color=#FFFFFF>[여진 공격]</color>이 적 명중 시, 적의 <color=#2BAD00>모든 속성 저항이 20% 감소한다</color>. 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350142": {
+    "id": 1350142,
+    "name": "[루시아] 생명을 품은 밤의 숨결",
+    "desc": "루시아가 <color=#FFFFFF>[궁극기]</color> 시전 시 생성하는 <color=#FFFFFF>[별빛이 모이는 곳]</color>의 <color=#2BAD00>지속 시간이 20초까지 연장되며, 범위 또한 확장된다</color>. <color=#FFFFFF>[합창]</color> 시전 시 <color=#2BAD00>추가로 데시벨을 200pt 획득한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic047.png",
+    "branch": {
+      "13501421": "<color=#FFFFFF>[별빛이 모이는 곳]</color>에 진입한 적은 매초마다 <color=#2BAD00>루시아 HP 최대치의 25%에 해당하는 피해</color>를 1회 받으며, 해당 효과는 타깃이 <color=#FFFFFF>[별빛이 모이는 곳]</color>을 벗어난 후 6초가 지나면 사라진다.",
+      "13501422": "<color=#FFFFFF>[별빛이 모이는 곳]</color>에 진입한 아군 캐릭터의 <color=#2BAD00>치명타 피해가 68% 증가한다</color>. 해당 효과는 캐릭터가 <color=#FFFFFF>[별빛이 모이는 곳]</color>을 벗어난 후 6초 뒤에 사라진다."
+    }
+  },
+  "1350143": {
+    "id": 1350143,
+    "name": "[루시아] 영혼 집중",
+    "desc": "전장 진입 시 루시아 <color=#2BAD00>자신의 기본 HP 최대치의 3%에 기반하여 자신의 공격력이 증가한다</color>. 루시아의 <color=#FFFFFF>[합창]</color>이 적에게 주는 <color=#2BAD00>에테르 피해가 40% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic049.png",
+    "branch": {
+      "13501431": "<color=#FFFFFF>[강화 특수 스킬]</color> 시전 후 다시 <IconMap:Icon_Special>「특수 공격」을 짧게 탭하여 <color=#2BAD00><color=#FFFFFF>[여진 공격]</color>을 시전할 수 있다</color>. 해당<color=#FFFFFF>[여진 공격]</color>은 <color=#FFFFFF>[합창]</color>이다. 만약 루시아가 <color=#FFFFFF>[꿈세계]</color> 상태이면 <color=#2BAD00>시전 시 꿈세계 게이지를 40pt 회복한다</color>.",
+      "13501432": "루시아 스킬 업그레이드 시 <color=#2BAD00>소모하는 <color=#FFFFFF>[꿈세계 게이지]</color>가 50% 감소한다</color>. 업그레이드 이후의 스킬로 피해를 줄 때 <color=#2BAD00>타깃의 에테르 저항을 20% 무시한다</color>."
+    }
+  },
+  "1350151": {
+    "id": 1350151,
+    "name": "[이드하리] 차가운 빛과 함께",
+    "desc": "이드하리가 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 3단 차지 공격 시전 시, 회전 가로베기 도중 공격이 적을 명중할 때마다 <color=#FFFFFF>[임시 실드]</color>를 획득한다. 이드하리가 이번 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 종결의 내려찍기 공격을 시전하거나, 이번 차지 중 <color=#FFFFFF>[강화 특수 스킬: 극한의 중압]</color>을 시전할 때, 모든 <color=#FFFFFF>[임시 실드]</color>를 소모하고 소모한 <color=#FFFFFF>[임시 실드]</color>에 따라 공격이 <color=#2BAD00>주는 피해가 최대 240% 증가한다</color>. 이드하리는 최대 <color=#2BAD00>HP 최대치의 80%만큼 [임시 실드]</color>를 획득하고, 회전 가로베기가 중단되면 모든 <color=#FFFFFF>[임시 실드]</color>가 사라진다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic050.png",
+    "branch": {
+      "13501511": "이드하리가 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 3단 차지 공격 시, 무제한으로 회전 가로베기를 진행한다. 이드하리가 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 회전 가로베기 기간에 회피를 시전할 때, 일반 공격을 탭하면 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 3단 차지 공격을 다시 시전할 수 있다. 이드하리의 <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color> 3단 차지 공격으로 <color=#2BAD00>주는 피해가 60% 증가한다</color>.",
+      "13501512": "이드하리의 회전 가로베기 종료 시, 더 이상 <color=#FFFFFF>[임시 실드]</color>가 사라지지 않고, <color=#FFFFFF>[일반 공격: 서릿발의 포옹]</color>의 종결의 내려찍기 공격, <color=#FFFFFF>[강화 특수 스킬: 극한의 중압]</color> 시전 시 <color=#2BAD00>소모하는 임시 실드가 50% 감소하며</color>, 증가하는 피해는 변하지 않는다."
+    }
+  },
+  "1350152": {
+    "id": 1350152,
+    "name": "[이드하리] 뼛속까지 스며드는 서리",
+    "desc": "이드하리가 기운을 소모하여 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 후 <color=#FFFFFF>[서리감기]</color>를 4스택 획득한다. <color=#FFFFFF>[일반 공격]</color>이 적에게 명중 시 <color=#FFFFFF>[서리감기]</color>를 소모해 타깃 적을 공격한다. 1초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic051.png",
+    "branch": {
+      "13501521": "<color=#FFFFFF>[서리감기]</color>가 적 명중 후, 타깃의 <color=#98EFF0>얼음 속성 피해 저항</color>이 20% 감소한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13501522": "이드하리가 기운을 소모해 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전한 후 획득하는 <color=#FFFFFF>[서리감기]</color> 스택이 2배가 된다. <color=#FFFFFF>[서리감기]</color> 공격을 시전한 후 <color=#FFFFFF>[서리감기]</color>로 <color=#2BAD00>주는 피해가 6% 증가한다</color>. <color=#2BAD00>최대 중첩: 12스택</color>, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350153": {
+    "id": 1350153,
+    "name": "[이드하리] 마음을 담은 꿈",
+    "desc": "교전 상태에서 현재 조작 중인 캐릭터가 될 시, 즉시 <color=#FFFFFF>[에테르 장막·용천]</color>을 발동한다. 180초 동안 최대 1회 발동한다. 또한, <color=#FFFFFF>[에테르 장막·용천]</color>의 <color=#2BAD00>지속 시간이 15초 연장된다</color>. <color=#FFFFFF>[에테르 장막·용천]</color> 기간 동안 이드하리의 <color=#2BAD00>관입력이 800pt 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic052.png",
+    "branch": {
+      "13501531": "이드하리가 <color=#FFFFFF>[에테르 장막·용천]</color>을 발동한 후, <color=#2BAD00>데시벨을 500pt 반환하고</color> <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>로 <color=#2BAD00>주는 피해가 40% 증가한다</color>.",
+      "13501532": "<color=#FFFFFF>[한기]</color> 혹은 <color=#FFFFFF>[추격]</color>을 발동할 때마다 모든 파티원이 <color=#2BAD00>[데시벨]을 50pt 회복한다</color>. 6초 동안 최대 1회 발동한다. <color=#FFFFFF>[에테르 장막·용천]</color> 기간 동안 모든 파티원의 <color=#2BAD00>치명타 피해가 24% 증가한다</color>."
+    }
+  },
+  "1350161": {
+    "id": 1350161,
+    "name": "[다이아린] 망령의 소리",
+    "desc": "다이아린이 <color=#FFFFFF>[호평]</color>을 90pt 보유한 상태에서 <color=#FFFFFF>[강화 특수 스킬: 고객 배웅!]</color> 시전 시, <color=#FFFFFF>[호평]</color>을 90pt 소모해 <color=#FFFFFF>[궁극기: 고객님의 번호가 정지되었습니다]</color>로 변경되며 <color=#FFFFFF>[궁극기: 고객님의 번호가 정지되었습니다]</color>가 그로기 상태의 적에게 명중 시 <color=#2BAD00>[결산] 효과를 발동해 추가로 다이아린 공격력의 2700%에 해당하는 피해를 준다</color>. 또한 <color=#FFFFFF>[궁극기: 고객님의 번호가 정지되었습니다]</color>의 <color=#2BAD00>피해가 30% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic056.png",
+    "branch": {
+      "13501611": "<color=#FFFFFF>[궁극기: 고객님의 번호가 정지되었습니다]</color>가 적 명중 시, <color=#2BAD00>적의 모든 속성 피해 저항이 24% 감소한다. 지속 시간: 20초</color>",
+      "13501612": "<color=#FFFFFF>[궁극기: 고객님의 번호가 정지되었습니다]</color>의 <color=#2BAD00>치명타 피해가 96% 증가한다</color>."
+    }
+  },
+  "1350162": {
+    "id": 1350162,
+    "name": "[다이아린] 여음의 고리",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬: 바위]</color>, <color=#FFFFFF>[강화 특수 스킬: 가위]</color> 시전 시 50% 확률로 <color=#FFFFFF>[충전]</color>을 1pt 획득한다. <color=#FFFFFF>[충전]</color> 최대 보유: 2pt. <color=#FFFFFF>[강화 특수 스킬: 보!]</color> 시전 시 <color=#FFFFFF>[충전]</color>을 보유하고 있으면 <color=#FFFFFF>[충전]</color>을 1pt 소모해 <color=#FFFFFF>[강화 특수 스킬: 보!]</color>를 한 번 더 시전할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic058.png",
+    "branch": {
+      "13501621": "<color=#FFFFFF>[강화 특수 스킬: 보!]</color> 강공격이 적 명중 시, <color=#FFFFFF>[악성 클레임]</color> 효과의 <color=#2BAD00>그로기 약체화가 추가로 20% 증가한다</color>. 최대 중첩: 3스택",
+      "13501622": "<color=#FFFFFF>[강화 특수 스킬: 바위]</color>, <color=#FFFFFF>[강화 특수 스킬: 가위]</color> 시전 시 <color=#2BAD00>80% 확률로 [충전]을 1pt 추가 획득한다. [충전] 최대 보유: 4pt</color>"
+    }
+  },
+  "1350163": {
+    "id": 1350163,
+    "name": "[다이아린] 떨어지는 심판",
+    "desc": "<color=#FFFFFF>[호평]</color>이 90pt 이상에서 90pt 미만이 되는 즉시 <color=#2BAD00>[호평]을 60pt 회복하며</color>, <color=#2BAD00>파티원의 데시벨을 750pt 회복한다</color>. 30초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic057.png",
+    "branch": {
+      "13501631": "파티원이 시전한 <color=#FFFFFF>[궁극기]</color>가 <color=#2BAD00>모든 속성 피해 저항을 35% 무시한다</color>.",
+      "13501632": "파티원이 <color=#FFFFFF>[궁극기]</color> 시전 시 <color=#2BAD00>에너지 25pt/기운 25pt를 회복한다</color>."
+    }
+  },
+  "1350171": {
+    "id": 1350171,
+    "name": "[반악] 아집 단절",
+    "desc": "<color=#FFFFFF>[노상]</color> 상태가 아닐 때, 반악이 <color=#FFFFFF>[강화 특수 스킬: 사자후·분노]</color> 혹은 <color=#FFFFFF>[강화 특수 스킬: 요동치는 산·분노]</color>를 시전한 후, <IconMap:Icon_Normal>을 홀드하면 <color=#FFFFFF>[콤보 스킬]</color>을 시전할 수 있다. 반악의 <color=#FFFFFF>[콤보 스킬]</color>로 주는 <color=#2BAD00>관입 피해가 60% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic055.png",
+    "branch": {
+      "13501711": "반악의 <color=#FFFFFF>[강화 특수 스킬]</color>과 <color=#FFFFFF>[콤보 스킬]</color>로 <color=#2BAD00>주는 피해가 60% 증가한다</color>.",
+      "13501712": "반악이 <color=#FFFFFF>[콤보 스킬]</color> 시전 시, <color=#2BAD00>자신 HP 최대치의 10%만큼 실드를 획득한다</color>. 지속 시간: 15초, 실드 보유 시 반악의 <color=#2BAD00>경직 저항 레벨이 증가한다</color>."
+    }
+  },
+  "1350172": {
+    "id": 1350172,
+    "name": "[반악] 수라도",
+    "desc": "반악이 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시, <color=#2BAD00>자신 HP 최대치의 35%만큼 실드를 획득한다</color>. 지속 시간: 30초, 해당 효과는 30초 동안 최대 1회 발동한다. 실드 보유 시 반악의 <color=#2BAD00>경직 저항 레벨이 증가하고</color> 주는 <color=#FF5521>불 속성 피해</color>가 <color=#2BAD00>15% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic054.png",
+    "branch": {
+      "13501721": "반악의 <color=#FFFFFF>[강화 특수 스킬]</color>과 <color=#FFFFFF>[일반 공격]</color>으로 주는 <color=#2BAD00>피해가 60% 증가한다</color>.",
+      "13501722": "반악이 <color=#FFFFFF>[노상]</color> 상태가 아닐 때, <color=#FFFFFF>[궁극기]</color> 시전 시 <color=#FFFFFF>[분개]</color>를 80pt 획득한다."
+    }
+  },
+  "1350173": {
+    "id": 1350173,
+    "name": "[반악] 업에 불타는 몸",
+    "desc": "파티 내 다른 캐릭터가 에너지 혹은 기운을 1pt 소모할 때, 반악이 <color=#FFFFFF>[노상]</color> 상태가 아니라면 <color=#FFFFFF>[분개]</color>를 0.3pt 회복한다. <color=#FFFFFF>[분개]</color>가 120pt 이상일 때 반악이 다음번에 교체 출전 시 바로 <color=#FFFFFF>[빠른 지원]</color>을 시전한다. 해당 방식으로 전장 진입 시 <color=#FFFFFF>[분개]</color>가 120pt 이상이면 반악은 즉시 <color=#FFFFFF>[노상]</color> 상태에 진입하고, 자신의 <color=#FF5521>불 속성 피해</color>가 <color=#2BAD00>60% 증가한다</color>. 지속 시간: 20초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic053.png",
+    "branch": {
+      "13501731": "반악의 <color=#FFFFFF>[빠른 지원]</color>이 적 명중 시, 적의 <color=#2BAD00>모든 속성 피해 저항이 18% 감소한다</color>. 지속 시간: 20초",
+      "13501732": "반악이 소모하는 <color=#FFFFFF>[분개]</color> 1pt당 파티 내 다른 캐릭터가 기운 혹은 에너지를 0.25pt 회복한다."
+    }
+  },
+  "1350181": {
+    "id": 1350181,
+    "name": "[엽빛나] 푸른 검날의 빛",
+    "desc": "[명심경] 진입 후 처음 [일반 공격: 명심경·참광·극]을 시전하면 <color=#2BAD00>자동으로 [콤보 스킬: 명심경·거친 우레]를 시전하고</color>, <color=#2BAD00>적의 물리 속성 피해 저항 무시 효과를 45% 획득한다</color>. 지속 시간: 15초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic063.png",
+    "branch": {
+      "13501811": "[강화 특수 스킬: 명심경·섬광]을 시전하는 순간 [극한 회피]를 발동할 수 있으며, [극한 회피] 발동 시 <color=#2BAD00>추가로 [콤보 스킬: 명심경·거친 우레] 자동 시전 횟수를 획득한다</color>.",
+      "13501812": "[콤보 스킬: 명심경·거친 우레]의 마지막 일격이 <color=#2BAD00>공격력의 1800%만큼 추가 피해를 준다</color>."
+    }
+  },
+  "1350182": {
+    "id": 1350182,
+    "name": "[엽빛나] 아름다운 울림",
+    "desc": "엽빛나가 [에테르 장막·결단] 발동 후 <color=#2BAD00>파티 내 모든 캐릭터가 공격 시 장막 약체화 보너스를 계산하며</color>, 그로기 약체화 보너스는 계산하지 않는다. 또한, 장막 약체화 보너스 최대치가 85% 감소하고, 대기 캐릭터일 때 [명심경] 지속 시간이 정지하지 않는다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic062.png",
+    "branch": {
+      "13501821": "[에테르 장막·결단]의 <color=#2BAD00>장막 약체화 최대치 감소 폭이 65%로 줄어든다</color>.",
+      "13501822": "[명심경] 상태에서 대기 캐릭터일 때 <color=#2BAD00>자동으로 [일반 공격: 명심경·참광·극]을 사용하며, 스킬 시전 조건 및 소모하는 [청명검세]가 2pt까지 증가하고 주는 피해는 [여진 공격] 피해로 간주한다</color>. 3.5초마다 최대 1회 발동한다."
+    }
+  },
+  "1350183": {
+    "id": 1350183,
+    "name": "[엽빛나] 빛나는 귀걸이",
+    "desc": "엽빛나 자신의 <color=#2BAD00>[청명검세] 획득 효율이 100% 증가하고</color> [명심경] 지속 시간이 10초로 감소한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic064.png",
+    "branch": {
+      "13501831": "엽빛나가 [명심경]에 진입할 때마다 <color=#2BAD00>치명타 피해 16% 증가</color> 효과를 획득한다. 최대 중첩: 4스택, [명심경] 상태 종료 후 15초까지 지속된다.",
+      "13501832": "[강화 특수 스킬: 명심경·섬광]으로 주는 <color=#2BAD00>치명타 피해가 75% 증가한다</color>."
+    }
+  },
+  "1350191": {
+    "id": 1350191,
+    "name": "[자오] 시린 달빛",
+    "desc": "자오의 초기 HP 최대치 1,000pt당 <color=#2BAD00>충격력이 2pt 증가한다</color>. 파티 내 모든 캐릭터의 [궁극기] 및 [강화 특수 스킬]로 주는 <color=#2BAD00>그로기 수치가 12% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic067.png",
+    "branch": {
+      "13501911": "그로기 상태의 적에게 공격 명중 시, 적의 <color=#2BAD00>그로기 약체화 배율이 45% 증가</color>한다.",
+      "13501912": "파티 내 임의의 캐릭터가 [콤보 스킬] 시전 시, 자오가 [서릿발 게이지]를 15pt 회복한다. 10초 동안 최대 1회 발동한다."
+    }
+  },
+  "1350192": {
+    "id": 1350192,
+    "name": "[자오] 짙게 낀 서리",
+    "desc": "[일반 공격: 최후의 심판]을 1초까지 차지하면 [일반 공격: 최후의 심판·서리빛]을 시전할 수 있으며, 시전 시 <color=#2BAD00>치명타 확률이 15% 증가하고 치명타 피해가 40% 증가한다</color>. 지속 시간: 15초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic066.png",
+    "branch": {
+      "13501921": "[일반 공격: 최후의 심판·서리빛] 시전 시, 자오의 공격이 <color=#2BAD00>타깃의 얼음 속성 피해 저항을 26% 무시</color>한다. 지속 시간: 15초",
+      "13501922": "자오가 임의의 [에테르 장막] 중에 있을 때, 파티 내 모든 캐릭터가 주는 피해가 <color=#2BAD00>타깃의 방어력을 30% 무시한다</color>."
+    }
+  },
+  "1350193": {
+    "id": 1350193,
+    "name": "[자오] 이슬을 밟은 달",
+    "desc": "자오가 [에테르 장막]을 발동할 시 즉시 [서릿발 게이지]를 30pt 회복하고, 파티 내 모든 캐릭터의 <color=#2BAD00>공격력이 25% 증가한다</color>. 지속 시간: 50초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic065.png",
+    "branch": {
+      "13501931": "자오가 임의의 [에테르 장막] 중에 있을 때, 파티 내 모든 캐릭터의 <color=#2BAD00>데시벨 회복 효율이 20% 증가한다</color>.",
+      "13501932": "자오가 임의의 [에테르 장막] 중에 있을 때 파티 내 모든 캐릭터의 <color=#2BAD00>에너지 자동 회복이 초당 0.4pt 증가한다</color>."
+    }
+  },
+  "1350201": {
+    "id": 1350201,
+    "name": "[아리아] 눈부신 망상",
+    "desc": "아리아의 [강화 특수 스킬] 공격 완료 후, 전장에 생성되는 <color=#FFFFFF>[응원 에너지]</color>가 <color=#2BAD00>1개 증가</color>하며, [강화 특수 스킬: 빛의 속도로 입덕]은 에너지를 소모하지 않는다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic074.png",
+    "branch": {
+      "13502011": "[강화 특수 스킬: 망상에 빠지다]로 주는 <color=#FE437E>에테르 이상 축적 효율</color>이 <color=#2BAD00>20% 증가</color>하며, [강화 특수 스킬: 빛의 속도로 입덕]은 [핵심 패시브: 무대를 뒤집는 핵심]의 난개 효과를 발동할 수 있다.",
+      "13502012": "<color=#FFFFFF>[응원 에너지]</color>를 1개 흡수할 때마다 자신의 <color=#2BAD00>공격력이 6% 증가한다</color>. 최대 중첩: 4스택, 지속 시간: 6초, 각 스택의 지속 시간은 따로 계산된다."
+    }
+  },
+  "1350202": {
+    "id": 1350202,
+    "name": "[아리아] 달콤한 일격",
+    "desc": "아리아의 <color=#FFFFFF>[일반 공격: 절대 음감]</color> <color=#2BAD00>치명타 피해가 20% 증가하고</color>, <color=#FFFFFF>강화된 [일반 공격: 절대 음감]</color>은 <color=#2BAD00>치명타 피해가 추가로 20% 증가한다</color>. 아리아가 보유한 초기 이상 장악력 10pt당 <color=#2BAD00>치명타 확률이 4% 증가한다</color>. 3레벨 <color=#FFFFFF>[일반 공격: 절대 음감]</color>이 타깃에 명중하면 <color=#2BAD00>추가로 아리아 공격력의 50%만큼</color> <color=#FE437E>에테르 피해</color>를 1회 준다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic075.png",
+    "branch": {
+      "13502021": "아리아가 <color=#FFFFFF>[망상의 시간]</color> 상태가 아닐 때 3레벨 <color=#FFFFFF>[일반 공격: 절대 음감]</color>을 시전하면 <color=#2BAD00>50%의 확률로 강화 버전으로 업그레이드된다</color>.",
+      "13502022": "아리아의 <color=#FFFFFF>[일반 공격: 절대 음감]</color> <color=#2BAD00>관통률이 24% 증가</color>하며, 3레벨 <color=#FFFFFF>[일반 공격: 절대 음감]</color> 후 <color=#FFFFFF>[일반 공격: 감미로운 멜로디]</color> 네 번째를 이어서 사용할 수 있다."
+    }
+  },
+  "1350203": {
+    "id": 1350203,
+    "name": "[아리아] 이 순간의 경청",
+    "desc": "아리아가 대기 캐릭터일 때 적이 속성 이상 상태가 되면 <color=#2BAD00>아리아의 <color=#FFFFFF>[빠른 지원: 망상 화음]</color>이 발동한다</color>. <color=#FFFFFF>[빠른 지원: 망상 화음]</color> 강공격이 명중하면 [핵심 패시브: 무대를 뒤집는 핵심]의 난개 효과를 발동할 수 있고, 주변의 <color=#FFFFFF>[응원 에너지]</color>가 2개 이상이면 공격 후 빠르게 3레벨 <color=#FFFFFF>[일반 공격: 절대 음감]</color>을 시전할 수 있다. <color=#FFFFFF>[빠른 지원: 망상 화음]</color>은 8초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic076.png",
+    "branch": {
+      "13502031": "<color=#FFFFFF>[빠른 지원: 망상 화음]</color> 시전 시 전장에 <color=#2BAD00><color=#FFFFFF>[응원 에너지]</color>를 4개 생성한다</color>.",
+      "13502032": "<color=#FFFFFF>[빠른 지원: 망상 화음]</color> 시전 후 5초 내에 아리아가 <color=#2BAD00>난개 발동 시 데시벨을 추가로 50pt 회복한다</color>."
+    }
+  },
+  "1350211": {
+    "id": 1350211,
+    "name": "[수나] 버블 행성",
+    "desc": "[강화 특수 스킬: 방울껌 폭격], [강화 특수 스킬: 특별한 촬영 기법], [콤보 스킬: 고양이를 화나게 하지 마], [궁극기: 전부 부숴버리겠어!]로 주는 <color=#2BAD00>피해가 50% 증가한다</color>. 방울이가 시전하는 [일반 공격: 짓궂은 고양이, 등장!]이 [일반 공격: 방울껌 폭격]으로 업그레이드되고, 주는 피해가 <color=#2BAD00><color=#FFFFFF>[강화 특수 스킬]</color> 피해로 간주된다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic077.png",
+    "branch": {
+      "13502111": "[일반 공격: 장난스런 별망치] 네 번째 강공격이 주요 공격 타깃에 명중 시, 조건을 무시하고 <color=#FFFFFF>[고양이의 응시]</color> 범위 공격을 1회 발동한다. [강화 특수 스킬], [콤보 스킬], [궁극기] 시전 혹은 방울이가 [일반 공격: 방울껌 폭격] 시전 후, 수나의 다음번 일반 공격은 [일반 공격: 장난스런 별망치] 네 번째를 즉시 시전한다. 최대 중첩: 4회. [일반 공격: 장난스런 별망치] 네 번째와 수나가 발동한 <color=#FFFFFF>[고양이의 응시]</color>로 주는 <color=#2BAD00>피해가 80% 증가한다</color>.",
+      "13502112": "수나가 [강화 특수 스킬: 방울껌 폭격], [강화 특수 스킬: 특별한 촬영 기법], [콤보 스킬: 고양이를 화나게 하지 마], [궁극기: 전부 부숴버리겠어!]를 시전하여 피해를 주거나, 방울이가 시전한 [일반 공격: 방울껌 폭격]으로 피해를 줄 시, 수나의 <color=#2BAD00>치명타 확률이 6% 증가하고</color>, <color=#2BAD00>치명타 피해가 8% 증가한다</color>. 지속 시간: 10초, 최대 중첩: 10스택, 0.5초 동안 최대 1회 발동하며, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350212": {
+    "id": 1350212,
+    "name": "[수나] 여행하는 박자",
+    "desc": "<color=#FFFFFF>[고양이의 응시]</color> 발동에 필요한 공격 횟수가 감소한다. 적에게 <color=#FFFFFF>[고양이의 응시]</color>가 부여되면 받는 <color=#2BAD00>이상 축적 효율이 20% 증가한다</color>. 지속 시간: 10초. <color=#FFFFFF>[고양이의 응시]</color> 피해가 <color=#FE437E>에테르 이상 상태</color>, <color=#2EB6FF>전기 속성 이상 상태</color>, <color=#FF5521>불 속성 이상 상태</color>, <color=#F0D12B>물리 속성 이상 상태</color>, <color=#98EFF0>얼음 속성 이상 상태</color>, <color=#A6C5FD>바람 속성 이상 상태</color>인 타깃에 명중 시 <color=#FFFFFF>[난개]</color>가 1회 발동하여 속성 이상 피해를 추가로 1회 더 결산하며, 피해량은 기존 속성 이상 피해의 <color=#FE437E>370%</color>/<color=#2EB6FF>192%</color>/<color=#FF5521>480%</color>/<color=#F0D12B>30%</color>/<color=#98EFF0>48%</color>/<color=#A6C5FD>19%</color>이다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic078.png",
+    "branch": {
+      "13502121": "파티 내 모든 에이전트가 <color=#FE437E>에테르 이상 상태</color>, <color=#2EB6FF>전기 속성 이상 상태</color>, <color=#FF5521>불 속성 이상 상태</color>, <color=#F0D12B>물리 속성 이상 상태</color>, <color=#98EFF0>얼음 속성 이상 상태</color>, <color=#A6C5FD>바람 속성 이상 상태</color>를 줄 시, 조건을 무시하고 <color=#FFFFFF>[고양이의 응시]</color> 범위 공격을 1회 발동한다. 5초 동안 최대 1회 발동한다.",
+      "13502122": "파티 내 모든 에이전트가 <color=#FFFFFF>[고양이의 응시]</color>를 발동해 적을 명중하고 <color=#FE437E>에테르 피해</color>, <color=#2EB6FF>전기 속성 피해</color>, <color=#FF5521>불 속성 피해</color>, <color=#F0D12B>물리 피해</color>, <color=#98EFF0>얼음 속성 피해</color>, <color=#A6C5FD>바람 속성 피해</color>를 줄 시 <color=#2BAD00>해당 적의 상응하는 속성 피해 저항이 25% 감소한다</color>. 지속 시간: 10초"
+    }
+  },
+  "1350213": {
+    "id": 1350213,
+    "name": "[수나] 몽환의 음장",
+    "desc": "BranchRelic_13601020_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic079.png",
+    "branch": {
+      "13502131": "수나가 <color=#FFFFFF>[강화 특수 스킬: 방울껌 폭격]</color>을 시전할 때, <color=#2BAD00>[에테르 장막·망상 앙상블]</color>도 발동할 수 있다.",
+      "13502132": "파티 내 모든 캐릭터가 동시에 2가지 [에테르 장막] 중에 있을 때, <color=#2BAD00>적의 방어력을 30% 무시한다</color>."
+    }
+  },
+  "1350221": {
+    "id": 1350221,
+    "name": "[남궁우] 포커스 전환",
+    "desc": "파티 내 다른 캐릭터가 <color=#FFFFFF>[혼돈]</color> 혹은 <color=#FFFFFF>[난개]</color> 발동 시, 남궁우는 타깃 적을 중심으로 <color=#FFFFFF>[콤보 스킬]</color>을 시전하며, 해당 공격은 <color=#FFFFFF>[여진 공격]</color>이다. 해당 효과는 6초마다 최대 1회 발동한다. 남궁우의 <color=#FFFFFF>[콤보 스킬]</color> 강공격이 <color=#FE437E>에테르 이상 상태</color>, <color=#2EB6FF>전기 속성 이상 상태</color>, <color=#FF5521>불 속성 이상 상태</color>, <color=#F0D12B>물리 속성 이상 상태</color>, <color=#98EFF0>얼음 속성 이상 상태</color>, <color=#A6C5FD>바람 속성 이상 상태</color>의 타깃에 명중 시 <color=#FFFFFF>[난개]</color>를 1회 발동하여 속성 이상 피해를 추가로 1회 더 결산한다. 추가 속성 이상 피해 비율은 기존 속성 이상 피해의 <color=#FE437E>230%</color>/<color=#2EB6FF>120%</color>/<color=#FF5521>300%</color>/<color=#F0D12B>20%</color>/<color=#98EFF0>30%</color>/<color=#A6C5FD>12%</color>이다. 해당 효과는 6초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic084.png",
+    "branch": {
+      "13502211": "남궁우 <color=#FFFFFF>[콤보 스킬]</color>의 강공격이 적 명중 시, 적의 <color=#2BAD00>모든 속성 피해 저항이 18% 감소</color>한다. 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502212": "남궁우 <color=#FFFFFF>[콤보 스킬]</color>의 강공격이 적 명중 시, 파티 내 모든 캐릭터가 <color=#2BAD00>주는 피해가 30% 증가</color>한다. 지속 시간: 12초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350222": {
+    "id": 1350222,
+    "name": "[남궁우] 박자 정렬",
+    "desc": "남궁우가 정밀 차지 발동 시, 파티 내 모든 캐릭터가 <color=#2BAD00>에너지를 4pt 회복</color>하며, 파티 내 임의의 캐릭터가 <color=#FFFFFF>[콤보 스킬]</color> 시전 시, 파티 내 모든 캐릭터가 데시벨을 120pt 회복한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic085.png",
+    "branch": {
+      "13502221": "남궁우가 정밀 차지 발동 시, 모든 파티원의 <color=#2BAD00>관통률이 20% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502222": "남궁우가 정밀 차지 발동 시, <color=#FFFFFF>[일반 공격: 날아라, 귀여운 지뢰]</color>로 주는 <color=#2BAD00>그로기 수치가 35% 증가한다</color>."
+    }
+  },
+  "1350223": {
+    "id": 1350223,
+    "name": "[남궁우] 솔로 댄스",
+    "desc": "남궁우의 이상 마스터리가 60pt 증가하고, <color=#FFFFFF>[악센트]</color>를 1pt 소모할 때마다 자신의 에너지를 <color=#2BAD00>0.15pt 회복한다</color>. <color=#FFFFFF>[일반 공격: 날아라, 귀여운 지뢰]</color> 첫 번째 공격에서 정밀 차지 발동 후 <IconMap:Icon_Normal>을 짧은 탭하면 <color=#FFFFFF>[콤보 스킬]</color>을 시전할 수 있으며, 정밀 차지 발동 시 자신의 <color=#2BAD00>이상 축적 효율이 20% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic083.png",
+    "branch": {
+      "13502231": "<color=#FFFFFF>[일반 공격: 날아라, 귀여운 지뢰]</color>로 적 명중 시, 자신이 주는 <color=#2BAD00>모든 속성 이상 피해가 65% 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502232": "<color=#FFFFFF>[일반 공격: 날아라, 귀여운 지뢰]</color>로 적 명중 시, 적의 <color=#2BAD00>방어력이 20% 감소한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350231": {
+    "id": 1350231,
+    "name": "[시시아] 보강 준비",
+    "desc": "<color=#FFFFFF>[일반 공격: 뱀의 입맞춤]</color> 시전 시, 체공 시간에 따라 <color=#2BAD00>해당 스킬의 치명타 피해가 15% 증가하며, 추가로 공격력의 450%만큼 <color=#2EB6FF>전기 속성 피해</color>를 1회 준다</color>. 해당 효과는 최대 3스택까지 중첩되며, 해당 스킬이 종료될 때까지 지속된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic082.png",
+    "branch": {
+      "13502311": "<color=#FFFFFF>[일반 공격: 뱀의 입맞춤]</color> 체공 기간 동안 <color=#2BAD00>지속적으로 전기 창을 내리꽂아 적에게 공격력의 200%만큼 <color=#2EB6FF>전기 속성 피해</color>를 준다</color>. 전기 창은 최대 5개 내리꽂는다.",
+      "13502312": "<color=#FFFFFF>[일반 공격: 뱀의 입맞춤]</color>으로 적 명중 시, 적의 <color=#2BAD00>방어력이 20% 감소한다</color>. 지속 시간: 20초"
+    }
+  },
+  "1350232": {
+    "id": 1350232,
+    "name": "[시시아] 맹독 스페셜",
+    "desc": "<color=#FFFFFF>[침투]</color>가 <color=#2BAD00>추가로 자신 공격력의 <color=#2BAD00>300%</color>만큼 <color=#2EB6FF>전기 속성 피해</color>를 준다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic081.png",
+    "branch": {
+      "13502321": "시시아가 조작 중인 캐릭터가 아닐 때, <color=#FFFFFF>[침투]</color>가 <color=#2BAD00>추가로 자신 공격력의 450%만큼 <color=#2EB6FF>전기 속성 피해</color>를 준다</color>.",
+      "13502322": "<color=#FFFFFF>[독소]</color> 보유 시, 조작 중인 캐릭터로 <color=#2BAD00>주는 피해가 50% 증가하며</color>, <color=#FFFFFF>[독소]</color> 소진 후 30초까지 지속된다."
+    }
+  },
+  "1350233": {
+    "id": 1350233,
+    "name": "[시시아] 우로보로스",
+    "desc": "<color=#FFFFFF>[강화 특수 스킬]</color> 시전 후 자신이 <color=#FFFFFF>[독사 습격]</color> 효과를 획득하며, <color=#FFFFFF>[침투]</color>가 아닌 임의의 공격이 적 명중 시 <color=#2BAD00>소모 없이 특수 <color=#FFFFFF>[침투]</color>를 1회 발동하며</color>, 그로기 수치는 누적시킬 수 없다. 해당 효과는 1초 동안 최대 1회 발동한다. 지속 시간: 6초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic080.png",
+    "branch": {
+      "13502331": "<color=#FFFFFF>[독사 습격]</color><color=#2BAD00> 효과 지속 시간이 10초 증가한다</color>.",
+      "13502332": "<color=#2BAD00>파티원도 <color=#FFFFFF>[독사 습격]</color> 효과를 획득하고</color>, 임의의 공격이 적 명중 시 소모 없이 <color=#FFFFFF>[침투]</color>를 1회 발동한다. 해당 효과는 1초마다 최대 1회 발동한다. 지속 시간: 6초"
+    }
+  },
+  "1350241": {
+    "id": 1350241,
+    "name": "[스타라이트·빌리] 붉은 총의 악마",
+    "desc": "<color=#FFFFFF>[특수 스킬: 동력 제어]</color> 시전 중 가드 성공 시, 충전 1스택을 획득한다. 최대 중첩: 1스택, 다음번 <color=#FFFFFF>[강화 특수 스킬: 이게 「그립」이다!]</color> 혹은 <color=#FFFFFF>[강화 특수 스킬: 요동치는 발걸음]</color>으로 <color=#2BAD00>주는 피해가 100% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic089.png",
+    "branch": {
+      "13502411": "<color=#FFFFFF>[특수 스킬: 동력 제어]</color> 시전 중 가드 성공 시 획득하는 충전 효과는 <color=#2BAD00>여러 번 중첩</color>할 수 있다. 최대 중첩: 2스택, <color=#FFFFFF>[강화 특수 스킬: 이게 「그립」이다!]</color> 혹은 <color=#FFFFFF>[강화 특수 스킬: 요동치는 발걸음]</color> 시전 시 모든 충전을 소모하며, 소모한 충전 1스택당 해당 스킬로 <color=#2BAD00>주는 피해가 100% 증가</color>한다.",
+      "13502412": "<color=#FFFFFF>[특수 스킬: 동력 제어]</color> 시전 중 가드 성공 시 <color=#2BAD00>기운을 20pt 회복</color>한다. 해당 효과는 10초 동안 최대 1회 발동한다. 또한, 버프 1스택을 획득한다. 버프 효과 최대 중첩: 3스택. <color=#FFFFFF>[강화 특수 스킬: 이게 「그립」이다!]</color> 혹은 <color=#FFFFFF>[강화 특수 스킬: 요동치는 발걸음]</color> 시전 시 모든 버프를 소모하고, 소모한 버프 1스택당 <color=#2BAD00>추가로 자신 HP 최대치의 10%만큼 HP를 회복</color>한다."
+    }
+  },
+  "1350242": {
+    "id": 1350242,
+    "name": "[스타라이트·빌리] 기사의 벨트",
+    "desc": "<color=#FFFFFF>[대시 공격: 별-빛-징-벌]</color> 시전 후 <IconMap:Icon_Normal>을 홀드하면 <color=#FFFFFF>[일반 공격: 특별 공연]</color>을 시전해 주변 적에게 <color=#F0D12B>물리 피해</color>를 줄 수 있다. 해당 스킬은 반드시 치명타가 발생하며, 스킬 시전 중 <color=#2BAD00>치명타 피해가 80% 증가</color>하고, <color=#2BAD00>매초 <color=#FFFFFF>[다짐]</color>을 10pt 회복</color>하며, <color=#2BAD00>경직 저항 레벨이 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic090.png",
+    "branch": {
+      "13502421": "<color=#FFFFFF>[일반 공격: 특별 공연]</color> 시전 시, 자신이 <color=#2BAD00>주는 피해가 40% 증가</color>한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502422": "<color=#FFFFFF>[일반 공격: 특별 공연]</color>이 적에게 20회 명중한 후마다 <color=#2BAD00>데시벨을 100pt 획득</color>한다."
+    }
+  },
+  "1350243": {
+    "id": 1350243,
+    "name": "[스타라이트·빌리] 뜨거운 음파",
+    "desc": "<color=#FFFFFF>[회피 반격: 결투의 왕]</color> 혹은 <color=#FFFFFF>[대시 공격: 별-빛-징-벌]</color> 시전 후 <IconMap:Icon_Normal>을 짧게 탭하여 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color>을 시전할 수 있다. 해당 효과는 8초 동안 최대 1회 발동하며, <color=#FFFFFF>[회피 반격: 추가 수류탄]</color> 피해 배율은 1200%이다. <color=#FFFFFF>[특수 스킬: 동력 제어]</color> 시전 중 가드 성공 시 다음번에 <color=#FFFFFF>[회피 반격: 결투의 왕]</color>, <color=#FFFFFF>[대시 공격: 별-빛-징-벌]</color> 혹은 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color> 시전 후 추가로 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color>을 1회 더 시전할 수 있다. <color=#FFFFFF>[회피 반격: 결투의 왕]</color> 혹은 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color>으로 적 명중 시 타깃에게 디버프 효과가 부여되고, 타깃이 <color=#2BAD00>받는 피해가12% 증가</color>한다. 최대 중첩: 2스택, 동일한 공격 한 번에 동일한 적은 효과를 최대 1스택 획득한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic091.png",
+    "branch": {
+      "13502431": "<color=#FFFFFF>[회피 반격: 결투의 왕]</color>과 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color>으로 <color=#2BAD00>주는 피해가 25% 증가</color>한다. <color=#FFFFFF>[회피 반격: 추가 수류탄]</color> 시전 시 <color=#2BAD00>기운을 5pt 회복</color>한다.",
+      "13502432": "<color=#FFFFFF>[회피 반격: 결투의 왕]</color> 및 <color=#FFFFFF>[회피 반격: 추가 수류탄]</color>이 적 명중 시 타깃의 <color=#2BAD00>모든 속성 피해 저항이 6% 감소</color>한다. 최대 중첩: 3스택, 동일한 공격 한 번에 동일한 적은 효과를 최대 1스택 획득한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350251": {
+    "id": 1350251,
+    "name": "[프로미아] 선풍의 단죄",
+    "desc": "프로미아가 <color=#FFFFFF>[강화 특수 스킬: 처형식·단행]</color> 발동 시 <color=#FFFFFF>[한랭 침식]</color>을 <color=#2BAD00>15pt 추가로 회복</color>하며, <color=#FFFFFF>[강화 특수 스킬: 처형식·은신]</color> 발동 시 <color=#FFFFFF>[한랭 침식]</color>을 15pt <color=#2BAD00>추가로 회복</color>한다. <color=#FFFFFF>[난개]</color> 발동 시 자신이 주는 <color=#2BAD00>[난개] 피해가 6% 증가</color>한다. 최대 중첩: 10스택, 지속 시간: 60초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic086.png",
+    "branch": {
+      "13502511": "<color=#FFFFFF>[강화 특수 스킬: 처형식·단행]</color> 시전 시, 자신이 <color=#2BAD00>주는 속성 이상 피해가 12% 증가</color>하고, <color=#2BAD00>주는 [혼돈] 피해가 12% 증가</color>한다. 최대 중첩: 5스택, 중복 발동 시 지속 시간이 갱신된다. 지속 시간: 15초",
+      "13502512": "<color=#FFFFFF>[강화 특수 스킬: 처형식·은신]</color> 시전 시, 자신이 <color=#2BAD00>주는 속성 이상 피해가 32.5% 증가</color>하고, <color=#2BAD00>주는 [혼돈] 피해가 32.5% 증가</color>한다. 최대 중첩: 2스택, 중복 발동 시 지속 시간이 갱신된다. 지속 시간: 30초"
+    }
+  },
+  "1350252": {
+    "id": 1350252,
+    "name": "[프로미아] 서리에 묶인 그림자",
+    "desc": "공격 시 더 이상 <color=#FFFFFF>[한랭 침식]</color>을 회복하지 않지만, <color=#2BAD00>초당 추가로 5pt</color>의 <color=#FFFFFF>[한랭 침식]</color>을 회복한다. <color=#FFFFFF>[서리 형벌]</color>을 보유한 경우, <color=#2BAD00>출전 시 교체가</color> <color=#FFFFFF>[특수 스킬: 처형식·쌓이는 서리]</color>로 대체된다. 10초 동안 최대 1회 발동한다. <color=#FFFFFF>[강화 특수 스킬: 처형식·단행]</color>으로 적 명중 시, 적의 <color=#2BAD00>얼음 속성 피해 저항이 24% 감소</color>한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic087.png",
+    "branch": {
+      "13502521": "<color=#FFFFFF>[특수 스킬: 처형식·쌓이는 서리]</color> 시전 시, <color=#2BAD00>모든 파티원의 공격력이 300pt 증가</color>하고, <color=#2BAD00>얼음 속성 피해가 10% 증가</color>한다. 지속 시간: 15초",
+      "13502522": "<color=#FFFFFF>[특수 스킬: 처형식·쌓이는 서리]</color>로 <color=#FE437E>에테르 이상 상태</color>, <color=#2EB6FF>전기 속성 이상 상태</color>, <color=#FF5521>불 속성 이상 상태</color>, <color=#F0D12B>물리 속성 이상 상태</color>, <color=#98EFF0>얼음 속성 이상 상태</color>, <color=#A6C5FD>바람 속성 이상 상태</color>의 적 명중 시, <color=#2BAD00>[난개]를 추가로 1회 발동</color>하여 해당 속성의 속성 이상 피해를 650% 배율로 고정 결산한다."
+    }
+  },
+  "1350253": {
+    "id": 1350253,
+    "name": "[프로미아] 처형의 결말",
+    "desc": "파티 내 캐릭터가 적을 그로기 상태로 만들면, 프로미아는 <color=#2BAD00>매초 [한랭 침식]을 5pt 회복</color>한다. 지속 시간: 10초. 프로미아가 <color=#2BAD00>그로기 상태의 적에게 주는 속성 이상 피해가 60% 증가</color>하며, 주는 <color=#2BAD00>[혼돈] 피해가 60% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic088.png",
+    "branch": {
+      "13502531": "프로미아가 <color=#2BAD00>그로기 상태의 적에게 주는 피해가 25%의 방어력</color>과 <color=#2BAD00>15%의 얼음 속성 피해 저항</color>을 무시한다.",
+      "13502532": "프로미아가 <color=#2BAD00>주는 [혼돈] 피해가 추가로 60% 증가</color>하고, 모든 파티원이 주는 <color=#2BAD00>[난류] 피해가 추가로 60% 증가</color>한다."
+    }
+  },
+  "1350261": {
+    "id": 1350261,
+    "name": "[벨리나] 부채 그림자 속 검",
+    "desc": "벨리나가 적을 <color=#A6C5FD>[풍화]</color> 상태에 빠뜨린 후, 모든 파티원이 주는 <color=#2BAD00>속성 이상 피해가 30초 동안 30% 증가하고</color>, 중복 발동 시 지속 시간이 갱신된다. 또한 <color=#FFFFFF>[광역 사이클론]</color>의 <color=#2BAD00>지속 시간이 3초 증가하며</color>, 주는 <color=#2BAD00>그로기 수치가 20% 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic100.png",
+    "branch": {
+      "13502611": "<color=#FFFFFF>[광역 사이클론]</color> 공격이 <color=#A6C5FD>바람 속성 이상 상태</color>의 적 명중 시 <color=#FFFFFF>[난개]</color>가 1회 발동하여 <color=#A6C5FD>420%</color> 배율의 <color=#A6C5FD>바람 속성 이상 피해</color>를 고정 결산한다. 해당 효과는 2.5초 동안 최대 1회 발동한다.",
+      "13502612": "<color=#FFFFFF>[핵심 패시브: 우아한 소맷자락]</color>의 <color=#FFFFFF>[광역 사이클론]</color>과 <color=#FFFFFF>[국소 사이클론]</color>으로 주는 <color=#FFFFFF>[난개]</color> <color=#2BAD00>피해 배율이 각각 800%와 600%로 증가한다</color>."
+    }
+  },
+  "1350262": {
+    "id": 1350262,
+    "name": "[벨리나] 여유로운 선율",
+    "desc": "벨리나가 <color=#A6C5FD>[풍화]</color> 발동 시, 자신의 <color=#2BAD00>에너지 10pt 및 데시벨 200pt</color>를 회복하며, 모든 <color=#FFFFFF>[풍식]</color>을 소모하여 이번 <color=#A6C5FD>[풍화]</color>의 <color=#2BAD00>피해가 증가한다</color>. 소모한 <color=#FFFFFF>[풍식]</color> 1pt당 <color=#2BAD00>20%</color> 증가한다. 벨리나가 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전하면 <color=#FFFFFF>[풍식]</color>을 1pt 획득하며, 이번 <color=#FFFFFF>[강화 특수 스킬]</color>이 <color=#FFFFFF>[극한 시야]</color>를 발동한 경우, 추가로 <color=#FFFFFF>[풍식]</color>을 1pt 더 회복한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic099.png",
+    "branch": {
+      "13502621": "<color=#FFFFFF>[강화 특수 스킬]</color> 시전 시, 자신의 <color=#2BAD00>이상 마스터리가 120pt 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502622": "<color=#FFFFFF>[강화 특수 스킬]</color> 시전 시, 자신의 <color=#2BAD00>이상 장악력이 80pt 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350263": {
+    "id": 1350263,
+    "name": "[벨리나] 아름다운 바람",
+    "desc": "<color=#FFFFFF>[광역 사이클론]</color>이 전장에 존재할 때, 모든 파티원의 <color=#2BAD00>에너지 획득 효율이 40% 증가하고, 데시벨 획득 효율이 30% 증가하며</color>, <color=#FFFFFF>[광역 사이클론]</color>의 <color=#2BAD00>지속 시간이 3초 증가한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic098.png",
+    "branch": {
+      "13502631": "벨리나가 적을 <color=#A6C5FD>[풍화]</color> 상태로 만든 후, 적의 <color=#FFFFFF>모든 속성 피해 저항</color>이 <color=#2BAD00>20% 감소</color>한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502632": "벨리나가 적을 <color=#A6C5FD>[풍화]</color> 상태로 만든 후, 적의 <color=#FFFFFF>방어력</color>이 <color=#2BAD00>22% 감소</color>한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350271": {
+    "id": 1350271,
+    "name": "[노르마] 웅나 와이어",
+    "desc": "노르마가 <color=#FFFFFF>[대시 공격]</color> 혹은 <color=#FFFFFF>[회피 반격]</color> 시전 시, <color=#FFFFFF>[연격]</color> 1스택을 획득하여 자신이 주는 피해가 타깃의 <color=#FF5521>불 속성 피해 저항</color>을 6% 무시한다. 최대 중첩: 5스택. 노르마가 피격 시 <color=#FFFFFF>[연격]</color>을 1스택 잃으며, 5초 동안 최대 1스택만 잃는다. 노르마의 <color=#FFFFFF>[대시 공격]</color>은 <color=#FFFFFF>[극한 회피]</color>를 발동할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic094.png",
+    "branch": {
+      "13502711": "노르마가 현재 조작 중인 캐릭터가 아닐 때, 웅나 포탑이 공격을 시전하면 노르마가 <color=#FFFFFF>[연격]</color>을 1스택 획득한다. <color=#FFFFFF>[연격]</color> 스택당 웅나 포탑이 주는 피해가 타깃의 <color=#FF5521>불 속성 피해 저항</color>을 추가로 4% 무시한다.",
+      "13502712": "노르마가 <color=#FFFFFF>[연격]</color> 5스택 상태일 때, 다음 효과를 획득한다:\n<color=#FFFFFF>[대시 공격]</color>, <color=#FFFFFF>[회피 반격]</color>의 경직 레벨이 증가한다.\n<color=#FFFFFF>[대시 공격]</color>, <color=#FFFFFF>[회피 반격]</color> 시전 후 <IconMap:Icon_Normal>을 짧게 탭하면 즉시 <color=#FFFFFF>[일반 공격: 공학적 안전장치]</color> 네 번째로 연계할 수 있다.\n<color=#FFFFFF>[일반 공격: 공학적 안전장치]</color> 네 번째 시전 후 <IconMap:Icon_Normal>을 짧게 탭하면 즉시 <color=#FFFFFF>[대시 공격]</color>으로 연계할 수 있다.\n노르마가 주는 피해가 <color=#2BAD00>타깃의 방어력을 35% 무시</color>한다."
+    }
+  },
+  "1350272": {
+    "id": 1350272,
+    "name": "[노르마] 성대한 피날레",
+    "desc": "파티원이 <color=#FFFFFF>[궁극기]</color> 시전 시, 노르마가 <color=#2BAD00>즉시 [약실 예열]을 100% 획득</color>한다. 40초 동안 최대 1회 발동한다.\n파티 내 모든 에이전트가 <color=#FFFFFF>[콤보 스킬]</color> 시전 시, 상응하는 에이전트의 <color=#2BAD00>데시벨 획득 효율이 25% 증가</color>한다. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic092.png",
+    "branch": {
+      "13502721": "노르마의 웅나 포탑이 미사일 격납고를 연 동안, 파티 내 모든 에이전트가 <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>로 <color=#2BAD00>주는 피해가 40% 증가</color>한다.",
+      "13502722": "노르마의 웅나 포탑이 미사일 격납고를 연 동안, 파티 내 모든 에이전트가 <color=#FFFFFF>[콤보 스킬]</color>, <color=#FFFFFF>[궁극기]</color>로 <color=#2BAD00>주는 그로기 수치가 22% 증가</color>한다."
+    }
+  },
+  "1350273": {
+    "id": 1350273,
+    "name": "[노르마] 포악한 악당부",
+    "desc": "파티 내 모든 에이전트가 <color=#FFFFFF>[기술 격차]</color> 상태의 적을 처치할 시, 이번 공동 내에서 파티 내 모든 에이전트의 <color=#2BAD00>공격력이 2.5% 증가</color>한다. 최대 중첩: 10스택",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic093.png",
+    "branch": {
+      "13502731": "파티 내 모든 에이전트의 공격이 <color=#FFFFFF>[기술 격차]</color> 상태의 적에게 명중 시, 타깃의 <color=#2BAD00>방어력을 22% 무시</color>한다.",
+      "13502732": "파티 내 모든 에이전트의 공격이 <color=#FFFFFF>[기술 격차]</color> 상태의 적에게 명중 시, <color=#2BAD00>주는 관입 피해가 18% 증가</color>한다."
+    }
+  },
+  "1350281": {
+    "id": 1350281,
+    "name": "[피로이스] 여명의 검",
+    "desc": "피로이스가 <color=#FFFFFF>[극한 회피]</color>를 발동하면 <color=#2BAD00>[홍염]을 20pt 획득한다</color>. 해당 효과는 10초 동안 최대 1회 발동한다. 피로이스의 각기 다른 공격이 적에게 명중하면 <color=#2BAD00>[홍염] 회복 효율이 30% 증가한다.</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic095.png",
+    "branch": {
+      "13502811": "피로이스의 세 번째, 네 번째 <color=#FFFFFF>[일반 공격: 천광]</color>의 <color=#2BAD00>치명타 피해가 60% 증가하고</color>, 해당 공격들이 적에게 명중한 후 <color=#2BAD00>데시벨을 100pt 회복한다</color>.",
+      "13502812": "<color=#FFFFFF>[일반 공격: 천광]</color>이 적 명중 후, 피로이스가 주는 피해가 <color=#2BAD00>적의 방어력을 32% 무시한다</color>. 해당 효과는 15초 동안 지속되며, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350282": {
+    "id": 1350282,
+    "name": "[피로이스] 영예의 훈장",
+    "desc": "피로이스가 <color=#FFFFFF>[궁극기]</color>를 시전해 <color=#2BAD00>주는 피해가 20% 증가한다</color>. <color=#FFFFFF>[궁극기: 만군주멸]</color>을 사용한 후 즉시 <color=#2BAD00>데시벨을 1500pt 획득한다</color>. 해당 효과는 30초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic096.png",
+    "branch": {
+      "13502821": "피로이스가 <color=#FFFFFF>[궁극기]</color>를 사용할 때마다 파티 내 모든 캐릭터가 <color=#2BAD00>에너지를 30pt 회복한다</color>.",
+      "13502822": "피로이스가 <color=#FFFFFF>[궁극기]</color>를 사용할 때 <color=#2BAD00>자신의 공격력이 700pt 증가한다</color>. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350283": {
+    "id": 1350283,
+    "name": "[피로이스] 통찰의 횃불",
+    "desc": "피로이스가 <color=#FFFFFF>강화 특수 스킬</color>을 사용하여 <color=#FFFFFF>완벽 가드</color>를 발동한 후 <color=#2BAD00>에너지 10pt 및 [홍염] 20pt를 회복한다</color>.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic097.png",
+    "branch": {
+      "13502831": "피로이스가 <color=#FFFFFF>완벽 가드</color>를 발동한 후 적의 <color=#FE437E>에테르 피해 저항</color>을 <color=#2BAD00>25% 무시한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502832": "피로이스가 <color=#FFFFFF>완벽 가드</color>를 발동한 후 <color=#2BAD00>파티 내 모든 캐릭터가 주는 피해가 20% 증가한다</color>. 지속 시간: 30초, 최대 중첩: 2스택, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350291": {
+    "id": 1350291,
+    "name": "[레미엘] 공중 산책",
+    "desc": "레미엘이 <color=#FFFFFF>[상변하는 시류]</color> 상태일 때, 자율 공격의 종결의 일격이 <color=#FE437E>에테르 이상 상태</color>, <color=#2EB6FF>전기 속성 이상 상태</color>, <color=#FF5521>불 속성 이상 상태</color>, <color=#F0D12B>물리 속성 이상 상태</color>, <color=#98EFF0>얼음 속성 이상 상태</color>, <color=#A6C5FD>바람 속성 이상 상태</color>의 타깃 명중 시 <color=#2BAD00>[난개]를 추가로 1회 발동</color>하여 220% 배율의 상응하는 속성 이상 피해를 고정으로 준다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic102.png",
+    "branch": {
+      "13502911": "레미엘이 <color=#FFFFFF>[상변하는 시류]</color> 상태일 때, 자율 공격으로 적에게 명중하면 적의 <color=#2BAD00>받는 속성 이상 피해가 10% 증가</color>한다. 지속 시간: 15초, 최대 중첩: 3스택, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502912": "레미엘이 <color=#FFFFFF>[상변하는 시류]</color> 상태일 때, 자율 공격으로 주는 <color=#FFFFFF>[난개]</color> <color=#2BAD00>피해가 50% 증가</color>하며, <color=#2BAD00>적의 방어력을 30% 무시</color>한다."
+    }
+  },
+  "1350292": {
+    "id": 1350292,
+    "name": "[레미엘] 칼날에 비친 빛",
+    "desc": "레미엘이 조작 중인 캐릭터일 때, 매초 <color=#2BAD00>에너지를 1.6pt 회복</color>하며, <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 특수 <color=#FFFFFF>[허무]</color>를 <color=#2BAD00>3개 획득</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic104.png",
+    "branch": {
+      "13502921": "<color=#FFFFFF>[프리즘]</color> 상태의 적을 공격하면, <color=#FFFFFF>[프리즘]</color> 상태인 적의 방어력이 <color=#2BAD00>15% 감소</color>하고, 모든 속성 피해 저항이 <color=#2BAD00>10% 감소</color>한다.",
+      "13502922": "레미엘이 <color=#FFFFFF>[강화 특수 스킬]</color> 시전 후, 자신의 이상 마스터리가 100pt 증가한다. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350293": {
+    "id": 1350293,
+    "name": "[레미엘] 은빛 꽃의 물결",
+    "desc": "레미엘이 [일반 공격: 우아한 날갯짓]을 시전할 때, 보유 중인 <color=#FFFFFF>[허무]</color>를 소모하지 않는다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic106.png",
+    "branch": {
+      "13502931": "레미엘이 <color=#FFFFFF>[휘광]</color> 효과를 발동하면, <color=#2BAD00>파티 내 모든 에이전트의 에너지를 5pt 회복</color>시키고, 적의 <color=#2BAD00>이상 축적 저항을 15% 감소</color>시킨다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13502932": "레미엘이 <color=#FFFFFF>[휘광]</color>으로 주는 <color=#2BAD00>피해가 35% 증가</color>하며, <color=#2BAD00>적의 모든 속성 피해 저항을 25% 무시</color>한다."
+    }
+  },
+  "1350301": {
+    "id": 1350301,
+    "name": "[시그리드] 무적의 기마병",
+    "desc": "<color=#FFFFFF>[창술·회수·파군]</color>이 해제된다: <color=#FFFFFF>[일반 공격: 창술·회수]</color> 시전 횟수가 없을 때 <IconMap:Icon_Normal>을 홀드하면 <color=#FFFFFF>[창술·회수·파군]</color>을 시전하여 <color=#98EFF0>얼음 속성 피해</color>를 줄 수 있다.\n<color=#FFFFFF>[창술·회수·파군]</color> 시전 순간에 공격을 받으면 가드를 발동하고, 가드를 성공적으로 발동할 때마다 이번 공격 피해를 막고 <color=#FFFFFF>[하늘을 지키는 창]</color> 상태를 새로고침하며, 다음번 <color=#FFFFFF>[일반 공격: 창술·회수]</color>로 주는 그로기 수치가 100% 증가하고, <color=#FFFFFF>[일반 공격: 창술·회수]</color> 시전 기회를 1회 획득한다. 가드 성공 후 <IconMap:Icon_Normal>을 누르면 상응하는 단수의 <color=#FFFFFF>[일반 공격: 창술·회수]</color>를 시전할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic101.png",
+    "branch": {
+      "13503011": "<color=#FFFFFF>[지원 돌격]</color> 시전 중에도 가드를 발동할 수 있다.\n가드 발동에 성공할 때마다 <color=#FFFFFF>[하늘을 지키는 창]</color> 상태를 새로고침하고, <color=#FFFFFF>[일반 공격: 창술·회수]</color> 시전 기회를 1회 획득하며, 다음 공격이 적에게 최초 명중할 때 공격력의 <color=#2BAD00>600%</color>만큼 추가 피해를 준다. 가드 성공 후 <IconMap:Icon_Normal>을 짧게 탭하면 상응하는 단수의 <color=#FFFFFF>[일반 공격: 창술·회수]</color>를 시전할 수 있다.",
+      "13503012": "가드 발동에 성공할 때마다 자신이 주는 피해가 <color=#2BAD00>10%</color> 증가한다. 최대 중첩: <color=#FFFFFF>4</color>스택, 지속 시간: <color=#FFFFFF>20</color>초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350302": {
+    "id": 1350302,
+    "name": "[시그리드] 냉혹한 속임수",
+    "desc": "<color=#FFFFFF>[콤보 스킬]</color> 시전 시, <IconMap:Icon_Normal>을 홀드하면 콤보 스킬 창이 오픈되지 않는다. <color=#FFFFFF>[겨눠진 창]</color>의 치명타 피해가 60% 증가한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic103.png",
+    "branch": {
+      "13503021": "<color=#FFFFFF>[콤보 스킬]</color>을 시전할 때마다 자신의 공격력이 <color=#2BAD00>12%</color> 증가한다. 최대 중첩: <color=#FFFFFF>2</color>스택, 지속 시간: <color=#FFFFFF>20</color>초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13503022": "<color=#FFFFFF>[콤보 스킬]</color>이 최초로 적 명중 시, 공격력의 <color=#FFFFFF>1600%</color>만큼 추가 <color=#98EFF0>얼음 속성 피해</color>를 준다."
+    }
+  },
+  "1350303": {
+    "id": 1350303,
+    "name": "[시그리드] 어지러진 창끝",
+    "desc": "<color=#FFFFFF>[하늘을 지키는 창]</color> 상태일 때, <color=#FFFFFF>[강화 특수 스킬]</color>의 에너지 소모가 <color=#FFFFFF>40</color>pt로 감소한다. <color=#FFFFFF>[강화 특수 스킬]</color> 시전 시 적의 공격을 받으면, 시그리드가 방패로 가드하며, 가드 성공 시 해당 공격의 피해를 막고, 자신의 공격이 타깃의 방어력을 <color=#2BAD00>12%</color> 무시한다. 지속 시간: <color=#FFFFFF>30</color>초, 동시에 <color=#FFFFFF>[하늘을 지키는 창]</color> 상태를 새로고침하고, <color=#FFFFFF>[일반 공격: 창술·회수]</color> 시전 기회를 1회 획득한다. 가드 성공 후 <IconMap:Icon_Normal>을 짧게 탭하면 상응하는 단수의 <color=#FFFFFF>[일반 공격: 창술·회수]</color>를 시전할 수 있다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic105.png",
+    "branch": {
+      "13503031": "시그리드가 가드 발동에 성공하면 <color=#2BAD00>10</color>pt의 에너지를 획득한다.",
+      "13503032": "<color=#FFFFFF>[강화 특수 스킬]</color>로 주는 피해가 <color=#2BAD00>25%</color> 증가한다.\n<color=#FFFFFF>[강화 특수 스킬]</color> 시전 후, 자신의 공격력이 <color=#2BAD00>15%</color> 증가한다. 최대 중첩: <color=#FFFFFF>2</color>스택, 지속 시간: <color=#FFFFFF>15</color>초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350311": {
+    "id": 1350311,
+    "name": "[클라렛] 파열 강습",
+    "desc": "클라렛은 공격력이 1500 초과 시 초과한 공격력 1pt당 방어력이 1.3pt 증가하며, 해당 효과는 무장별로 중첩되지 않는다. 클라렛이 적에게 주는 <color=#2BAD00>[파상] 피해가 20% 증가</color>하며, 타깃이 그로기 상태에 진입하지 않은 경우에도 [파상]에 그로기 약체화 보너스가 적용된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
+    "branch": {
+      "13503111": "그로기 상태의 적에게 공격이 명중하면 <color=#2BAD00>잔흔 축적 효율이 15% 증가</color>하며, 2초 내에 <color=#FFFFFF>[파상]</color>을 연속 3회 발동하면 클라렛의 <color=#2BAD00>예리 피해가 25% 증가</color>한다. 지속 시간: 30초, 중복 발동 시 지속 시간이 갱신된다.",
+      "13503112": "적에게 <color=#FFFFFF>[파상]</color> 피해를 줄 때, 타깃의 <color=#2EB6FF>전기 속성 피해 저항</color>이 <color=#2BAD00>20% 감소</color>한다. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+    }
+  },
+  "1350312": {
+    "id": 1350312,
+    "name": "[클라렛] 붉은 눈의 박쥐",
+    "desc": "클라렛은 공격력이 1500 초과 시 초과한 공격력 1pt당 방어력이 1.3pt 증가하며, 해당 효과는 무장별로 중첩되지 않는다. 클라렛의 잔흔 축적 효율이 10% 감소하고, <color=#FFFFFF>[일반 공격: 피의 맹세·단조의 별]</color>과 <color=#FFFFFF>[일반 공격: 피의 맹세·도끼의 처단]</color>으로 주는 <color=#2BAD00>예리 피해가 40% 증가</color>한다. [진홍 각인] 상태에서 극한 회피를 발동하면 [진홍 각인]의 지속 시간이 3초 연장된다. 5초 동안 최대 1회 발동한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
+    "branch": {
+      "13503121": "극한 회피 발동 시, 클라렛의 <color=#2BAD00>치명타 확률이 10% 증가</color>한다. 지속 시간: 15초, 최대 중첩: 3스택, 중복 발동 시 지속 시간이 갱신된다. 치명타 확률 200% 초과 시, 초과한 1%마다 <color=#2BAD00>절상 피해가 0.25% 증가</color>한다.",
+      "13503122": "<color=#FFFFFF>[진홍 각인]</color> 상태에서 주는 <color=#2BAD00>피해가 20% 증가</color>하고, 매초마다 <color=#2BAD00>5%씩</color> 최대 50%까지 증가하며, <color=#FFFFFF>[진홍 각인]</color> 종료 시 효과가 사라진다."
+    }
+  },
+  "1350313": {
+    "id": 1350313,
+    "name": "[클라렛] 진홍빛 밤",
+    "desc": "클라렛은 공격력이 1500 초과 시 초과한 공격력 1pt당 방어력이 1.3pt 증가하며, 해당 효과는 무장별로 중첩되지 않는다. <color=#FFFFFF>[진홍 각인]</color> 상태에서 공격이 적에게 명중 시, 타깃의 <color=#2BAD00>방어력이 16% 감소</color>한다. 지속 시간: 15초, 최대 중첩: 3스택, 중복 발동 시 지속 시간이 갱신되며, 2초 동안 최대 1회 발동된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic109.png",
+    "branch": {
+      "13503131": "<color=#FFFFFF>[진홍 각인]</color> 상태에 진입하면 현재 HP의 30%를 소모하고 이번 <color=#FFFFFF>[진홍 각인]</color> 상태에서 자신이 <color=#2BAD00>주는 피해가 45% 증가</color>한다. 해당 효과는 <color=#FFFFFF>[진홍 각인]</color> 상태가 종료될 때까지 유지된다. <color=#FFFFFF>[파상]</color> 발동 시 <color=#2BAD00>자신의 HP를 8% 회복</color>한다.",
+      "13503132": "<color=#FFFFFF>[진홍 각인]</color> 상태에 진입 시 모든 예리를 소모하고, 소모한 예리 1pt마다 이번 <color=#FFFFFF>[진홍 각인]</color> 상태에서 <color=#2BAD00>주는 피해가 1% 증가</color>한다. 해당 효과는 <color=#FFFFFF>[진홍 각인]</color> 상태가 종료될 때까지 유지되며, <color=#FFFFFF>[진홍 각인]</color>상태에서 공격이 적에게 명중하면 예리를 4pt 회복한다. 해당 효과는 0.5초 동안 최대 1회 발동한다."
+    }
+  },
+  "1350321": {
+    "id": 1350321,
+    "name": "[록시] 끝없는 제련",
+    "desc": "<color=#FFFFFF>[속성 정화]</color> 발동 시 모든 파티원의 <color=#2BAD00>공격력이 800pt 증가</color>한다. 지속 시간: 40초, 중복 발동 시 지속 시간이 갱신된다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic110.png",
+    "branch": {
+      "13503211": "<color=#FFFFFF>[끝없는 제련]</color>의 공격력 증가 효과가 최대 <color=#2BAD00>2스택</color>까지 중첩된다.",
+      "13503212": "<color=#FFFFFF>[추가 능력：포르셀로이 심장]</color> 발동 중 임의 캐릭터가 적을 명중하면, 적의 <color=#2BAD00>그로기 약체화 비율이 추가로 60% 증가</color>한다."
+    }
+  },
+  "1350322": {
+    "id": 1350322,
+    "name": "[록시] 영원한 잠",
+    "desc": "<IconMap:Icon_SpecialReady>을 홀드해 <color=#FFFFFF>[강화 특수 스킬: 감기 조심하세요]</color>를 발동하면 <color=#2BAD00>추가로 대형 소용돌이를 생성</color>하고, 대형 소용돌이에 명중한 적은 <color=#2BAD00>모든 속성 저항이 24% 감소</color>한다. 지속 시간: 30초",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "branch": {
+      "13503221": "<color=#FFFFFF>[영원한 잠]</color>으로 생성된 대형 소용돌이가 사라지면, 해당 자리에 <color=#2BAD00><color=#FFFFFF>[바람의 눈]</color></color> 1개를 생성하고 <color=#2BAD00>자신의 에너지를 10pt 회복</color>한다.",
+      "13503222": "임의의 방식으로 생성된 대형 소용돌이가 주는 <color=#2BAD00>그로기 수치가 60% 증가</color>하고, <color=#FFFFFF>[영원한 잠]</color>으로 생성된 대형 소용돌이의 지속 시간이 <color=#2BAD00>1초 연장</color>된다."
+    }
+  },
+  "1350323": {
+    "id": 1350323,
+    "name": "[록시] 등불을 든 밤손",
+    "desc": "<color=#FFFFFF>[지원 돌격: 자정 수칙]</color> 시전 후에도 <color=#FFFFFF>[지원 스킬: 또 야근이요?]</color>를 <color=#2BAD00>시전</color>할 수 있다. <color=#FFFFFF>[지원 스킬: 또 야근이요?]</color> 시전 시, 대신 <color=#2BAD00><color=#FFFFFF>[콤보 스킬: 장송의 망치]</color></color>를 시전하며 12초마다 최대 1회 발동한다. 파티 내 모든 캐릭터의 <color=#2BAD00><color=#FFFFFF>[콤보 스킬]</color>이 주는 피해가 50% 증가</color>한다.",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "branch": {
+      "13503231": "<color=#FFFFFF>[등불을 든 밤손]</color>의 <color=#2BAD00>발동 간격이 6초 감소</color>한다.",
+      "13503232": "<color=#FFFFFF>[콤보 스킬: 장송의 망치]</color> 시전 시, <color=#2BAD00><color=#FFFFFF>[바람 에너지]</color>를 2pt 회복한다</color>."
+    }
+  }
+}

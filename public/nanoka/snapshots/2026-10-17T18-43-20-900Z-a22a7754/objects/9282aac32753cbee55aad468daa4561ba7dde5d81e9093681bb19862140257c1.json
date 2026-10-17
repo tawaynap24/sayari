@@ -1,0 +1,1247 @@
+{
+  "id": 690481,
+  "name": "試練",
+  "priority": 9,
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900101": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900102": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900103": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900104": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900105": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900106": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900107": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900108": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900109": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900110": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900111": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900112": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900113": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900114": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900115": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900116": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900117": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900118": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900119": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900120": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900121": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900122": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900123": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900124": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900125": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900126": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900127": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900128": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900129": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900130": {
+      "hp": 3000,
+      "atk": 0,
+      "points": 3000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  },
+  "zone_type": 1002,
+  "modes": [
+    {
+      "id": 690482,
+      "zone_type": 1002,
+      "zone": {
+        "69048201": {
+          "name": "異性体・歪みし異獣・ギルタブルル",
+          "stage_num": 1,
+          "monster_level": 70,
+          "layer_buff": {
+            "69014804": {
+              "title": "TBD",
+              "desc": "・エージェントが敵を状態異常にした時、ターゲットに対応する属性の「枯朽の印」を1重付与する。敵の「残痕」が「重傷」によって消費された時、ターゲットに無属性の「枯朽の印」を2重付与する。継続時間10秒。「枯朽の印」は最大3重まで重ね掛け可能。同属性の「枯朽の印」を再度付与すると継続時間が更新される。\n・敵が所持している「枯朽の印」1重につき、ターゲットが受ける<color=#FFAF2C>状態異常ダメージ+15%</color>、<color=#FFAF2C><Term:2000001>「侵蝕障壁」</Term>が受けるダメージ+15%</color>、受ける<color=#FFAF2C>鋭撃ダメージ+35%</color>。\n・敵に「部位破壊」を発生させるか、『完全反撃』を発動した時、<color=#FFAF2C>チーム全体の異常マスタリー+50</color>Pt。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014406": {
+              "title": "69014406_Title",
+              "desc": "・<color=#FFAF2C>「部位破壊」</color>に成功した時、<color=#FFAF2C>1000操作スコア</color>を獲得する。<color=#FFAF2C><Term:2000003></Term></color>への対処に成功するたび、<color=#FFAF2C>500操作スコア</color>を獲得する。<color=#FFAF2C>敵の「侵蝕障壁」のチャージ完了を阻止し、部位破壊を引き起こした</color>時、<color=#FFAF2C>1500操作スコア</color>を獲得する。<Term:2000003></Term>中、<color=#FFAF2C><Term:2000006></Term></color>で<color=#FFAF2C>「完全反撃」</color>を発生させた時、その<color=#FFAF2C>『封殺スキル』</color>の残り対処スコアを獲得する。最大5000操作スコアまで獲得可能。"
+            },
+            "69014807": {
+              "title": "",
+              "desc": ""
+            }
+          },
+          "layer_room": {
+            "690482011": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HoloGirReborn.png",
+              "monster_list": {
+                "31678": {
+                  "id": 40014,
+                  "name": "異性体・歪みし異獣",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_GirReborn_HC.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 37228874.26499999,
+                    "attack": 3286.6909090909094,
+                    "defence": 952.8000000000001,
+                    "stun": 23276.75,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 30000,
+          "a_rank_goal": 20000,
+          "b_rank_goal": 10000,
+          "selectable_buff": {
+            "69014801": {
+              "title": "隕星",
+              "desc": "・チーム内に<color=#FFFFFF>「異常」</color>エージェントが2名/3名いる場合、チーム全体の状態異常マスタリーがそれぞれ<color=#2BAD00>+20/+50Pt</color>。\n・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の与える状態異常ダメージ<color=#2BAD00>+20%</color>、<color=#FF5521>炎属性</color>状態異常ダメージは追加で<color=#2BAD00>+10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014802": {
+              "title": "天光",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントの与えるブレイク値<color=#2BAD00>+20%</color>、エネルギー獲得効率<color=#2BAD00>+20%</color>。\n・エージェントが<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『特殊スキル』</color>を発動した後、鋭撃ダメージ<color=#2BAD00>+30%</color>。攻撃が敵に命中すると、その敵の<color=#2EB6FF>電気属性ダメージ耐性</color>と<color=#FE437E>エーテル属性ダメージ耐性</color>を<color=#2BAD00>20%</color>無視する。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014803": {
+              "title": "極彩",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントが与えるブレイク値<color=#2BAD00>+15%</color>、攻撃がブレイク状態の敵に命中すると、その敵のブレイク復帰速度<color=#2BAD00>-10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが与える状態異常ダメージ<color=#2BAD00>+15%</color>。ブレイク状態の敵に与える状態異常ダメージがさらに<color=#2BAD00>+25%</color>。"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 690481,
+      "zone_type": 1001,
+      "zone": {
+        "69048101": {
+          "name": "僭越者",
+          "stage_num": 1,
+          "monster_level": 70,
+          "layer_buff": {
+            "69013003": {
+              "title": "",
+              "desc": "・<IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>[異常]</color>エージェントでの挑戦を推奨。"
+            },
+            "69014805": {
+              "title": "",
+              "desc": "・ボスエネミーが攻撃を受けると、その攻撃による状態異常蓄積効率<color=#2BAD00>+10%</color>。\n・ボスエネミーを<color=#FFFFFF>状態異常</color>にするたび、<color=#FFFFFF>「残輝の印」</color>を1重付与する。ボスエネミーが所持する「残輝の印」が<color=#2BAD00>3重</color>に達すると、全て消費してボスエネミーを<color=#FFFFFF>「ワックスウィング」</color>状態にする、<color=#2BAD00>継続時間30秒</color>。\n・ボスエネミーが<color=#FFFFFF>「ワックスウィング」</color>状態にある間、受ける<color=#2BAD00>状態異常ダメージ+30%</color>。ボスエネミーを<color=#FFFFFF>状態異常</color>にする際、追加で<color=#2BAD00>5%のブレイク値</color>を蓄積するが、<color=#FFFFFF>「残輝の印」</color>は付与されない。\n・ボスエネミーを<color=#FFFFFF>ブレイク状態</color>にすると、ボスエネミーは即座に<color=#FFFFFF>「ワックスウィング」</color>状態になる。この時すでに「ワックスウィング」状態の場合、継続時間が更新される。"
+            },
+            "69014806": {
+              "title": "",
+              "desc": "・<Term:2000004>『連携パリィ』</Term>で敵の攻撃の対応に成功するたび、追加で<color=#FFAF2C>1000操作スコア</color>を獲得する。\n・敵が空間バリアを展開した後、金色の「耀界」を踏んだ上で『パリィ支援』を発動するたびに、追加で<color=#FFAF2C>1500操作スコア</color>を獲得できる。最大で5000操作スコアまで獲得可能。"
+            }
+          },
+          "layer_room": {
+            "690481011": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HollowVenger.png",
+              "monster_list": {
+                "31734": {
+                  "id": 40012,
+                  "name": "僭越者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_HollowVenger.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 30270529.44,
+                    "attack": 3286.6909090909094,
+                    "defence": 952.8000000000001,
+                    "stun": 20430.9,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎"
+              },
+              "monster_resistance": {
+                "202": "氷"
+              },
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69014801": {
+              "title": "隕星",
+              "desc": "・チーム内に<color=#FFFFFF>「異常」</color>エージェントが2名/3名いる場合、チーム全体の状態異常マスタリーがそれぞれ<color=#2BAD00>+20/+50Pt</color>。\n・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の与える状態異常ダメージ<color=#2BAD00>+20%</color>、<color=#FF5521>炎属性</color>状態異常ダメージは追加で<color=#2BAD00>+10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014802": {
+              "title": "天光",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントの与えるブレイク値<color=#2BAD00>+20%</color>、エネルギー獲得効率<color=#2BAD00>+20%</color>。\n・エージェントが<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『特殊スキル』</color>を発動した後、鋭撃ダメージ<color=#2BAD00>+30%</color>。攻撃が敵に命中すると、その敵の<color=#2EB6FF>電気属性ダメージ耐性</color>と<color=#FE437E>エーテル属性ダメージ耐性</color>を<color=#2BAD00>20%</color>無視する。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014803": {
+              "title": "極彩",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントが与えるブレイク値<color=#2BAD00>+15%</color>、攻撃がブレイク状態の敵に命中すると、その敵のブレイク復帰速度<color=#2BAD00>-10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが与える状態異常ダメージ<color=#2BAD00>+15%</color>。ブレイク状態の敵に与える状態異常ダメージがさらに<color=#2BAD00>+25%</color>。"
+            }
+          }
+        },
+        "69048102": {
+          "name": "未確認複合侵蝕体",
+          "stage_num": 2,
+          "monster_level": 70,
+          "layer_buff": {
+            "69010305": {
+              "title": "",
+              "desc": "・ボスエネミーの脚部に充分なダメージを与えると、「部位破壊」が発生する。<color=#FFAF2C>エージェントがボスエネミーの脚部を破壊した時</color>、<color=#FFAF2C>デシベル値を1000Pt回復し</color>、ボスエネミーが<color=#FFFFFF>「崩壊」</color>を1重獲得する、継続時間20秒、最大4重まで重ね掛け可能。エージェントの攻撃が敵に命中した時、ターゲットの<color=#FFFFFF>「崩壊」</color>1重につき、会心ダメージ<color=#FFAF2C>+25%</color>。"
+            },
+            "69010307": {
+              "title": "",
+              "desc": "・<color=#FFAF2C>部位破壊を起こした時</color>、<color=#FFAF2C>800操作スコア</color>を獲得する、最大5000まで獲得可能。"
+            },
+            "69010306": {
+              "title": "",
+              "desc": ""
+            }
+          },
+          "layer_room": {
+            "690481021": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ComplexCorrupted.png",
+              "monster_list": {
+                "11414": {
+                  "id": 30009,
+                  "name": "未確認複合侵蝕体",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_ComplexCorrupted.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 26639351.279999997,
+                    "attack": 2738.909090909091,
+                    "defence": 952.8000000000001,
+                    "stun": 16894.15,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "電気",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69014801": {
+              "title": "隕星",
+              "desc": "・チーム内に<color=#FFFFFF>「異常」</color>エージェントが2名/3名いる場合、チーム全体の状態異常マスタリーがそれぞれ<color=#2BAD00>+20/+50Pt</color>。\n・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の与える状態異常ダメージ<color=#2BAD00>+20%</color>、<color=#FF5521>炎属性</color>状態異常ダメージは追加で<color=#2BAD00>+10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014802": {
+              "title": "天光",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントの与えるブレイク値<color=#2BAD00>+20%</color>、エネルギー獲得効率<color=#2BAD00>+20%</color>。\n・エージェントが<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『特殊スキル』</color>を発動した後、鋭撃ダメージ<color=#2BAD00>+30%</color>。攻撃が敵に命中すると、その敵の<color=#2EB6FF>電気属性ダメージ耐性</color>と<color=#FE437E>エーテル属性ダメージ耐性</color>を<color=#2BAD00>20%</color>無視する。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014803": {
+              "title": "極彩",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントが与えるブレイク値<color=#2BAD00>+15%</color>、攻撃がブレイク状態の敵に命中すると、その敵のブレイク復帰速度<color=#2BAD00>-10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが与える状態異常ダメージ<color=#2BAD00>+15%</color>。ブレイク状態の敵に与える状態異常ダメージがさらに<color=#2BAD00>+25%</color>。"
+            }
+          }
+        },
+        "69048103": {
+          "name": "プリマ・イコノクラスト・ヴェスポ",
+          "stage_num": 3,
+          "monster_level": 70,
+          "layer_buff": {
+            "69013003": {
+              "title": "",
+              "desc": "・<IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>[異常]</color>エージェントでの挑戦を推奨。"
+            },
+            "69013103": {
+              "title": "",
+              "desc": "・エージェントの状態異常蓄積効率<color=#FFAF2C>+15%</color>、「プリマ・イコノクラスト」に与える異常ダメージ<color=#FFAF2C>+30%</color>。戦闘中、エージェントが「エーテルベール」の効果を受けている間、「プリマ・イコノクラスト」のブレイク弱体倍率<color=#FFAF2C>+30%</color>。"
+            },
+            "69013104": {
+              "title": "",
+              "desc": "<color=#FFAF2C>『封殺スキル』</color>期間中、ボスの攻撃への対処に成功するたび、<color=#FFAF2C>350操作スコア</color>を獲得する。ボスの<color=#FFAF2C>『封殺スキル』</color>を<color=#FFAF2C>『完全反撃』</color>するか、一部スキルの最後の一撃をパリィした時、ボスに<color=#FFAF2C>「部位破壊」</color>効果を与え、<color=#FFAF2C>750操作スコア</color>を獲得できる。<Term:2000003></Term>期間中、<color=#FFAF2C><Term:2000006>『カウンター支援』</Term></color>で<color=#FFAF2C>『完全反撃』</color>を行った時、その<color=#FFAF2C>『封殺スキル』</color>の残り対処成功スコアを獲得する。最大5000操作スコアまで獲得可能。"
+            }
+          },
+          "layer_room": {
+            "690481031": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vesper.png",
+              "monster_list": {
+                "31451": {
+                  "id": 40001,
+                  "name": "プリマ・イコノクラスト・ヴェスポ",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vesper.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": -1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 39406941.449999996,
+                    "attack": 2967.1515151515155,
+                    "defence": 476.40000000000003,
+                    "stun": 19977.350000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル",
+                "204": "風"
+              },
+              "monster_resistance": {
+                "201": "炎",
+                "202": "氷"
+              },
+              "waves_num": 1
+            }
+          },
+          "goal_type": 2,
+          "s_rank_goal": 20000,
+          "a_rank_goal": 14000,
+          "b_rank_goal": 6000,
+          "selectable_buff": {
+            "69014801": {
+              "title": "隕星",
+              "desc": "・チーム内に<color=#FFFFFF>「異常」</color>エージェントが2名/3名いる場合、チーム全体の状態異常マスタリーがそれぞれ<color=#2BAD00>+20/+50Pt</color>。\n・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の与える状態異常ダメージ<color=#2BAD00>+20%</color>、<color=#FF5521>炎属性</color>状態異常ダメージは追加で<color=#2BAD00>+10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014802": {
+              "title": "天光",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントの与えるブレイク値<color=#2BAD00>+20%</color>、エネルギー獲得効率<color=#2BAD00>+20%</color>。\n・エージェントが<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『特殊スキル』</color>を発動した後、鋭撃ダメージ<color=#2BAD00>+30%</color>。攻撃が敵に命中すると、その敵の<color=#2EB6FF>電気属性ダメージ耐性</color>と<color=#FE437E>エーテル属性ダメージ耐性</color>を<color=#2BAD00>20%</color>無視する。継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69014803": {
+              "title": "極彩",
+              "desc": "・<color=#FFFFFF>「撃破」</color>エージェントが与えるブレイク値<color=#2BAD00>+15%</color>、攻撃がブレイク状態の敵に命中すると、その敵のブレイク復帰速度<color=#2BAD00>-10%</color>。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが与える状態異常ダメージ<color=#2BAD00>+15%</color>。ブレイク状態の敵に与える状態異常ダメージがさらに<color=#2BAD00>+25%</color>。"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "begin_time": "2026-09-03 04:00:00",
+  "end_time": "2026-11-11 03:59:59"
+}

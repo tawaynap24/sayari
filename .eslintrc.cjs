@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'public/nanoka', 'public/localization', 'evidence', 'SAYARI_NANOKA_ZZZ_CODEX_KIT_20261018'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {

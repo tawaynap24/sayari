@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "status": "pending",
+  "automaticCaptureIsNotCompletion": true,
+  "routes": [
+    {
+      "url": "https://zzz.nanoka.cc/",
+      "label": "Home/version selection",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/character",
+      "label": "Agents",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/weapon",
+      "label": "W-Engines",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/bangboo",
+      "label": "Bangboo",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/equipment",
+      "label": "Drive Disc sets",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/item",
+      "label": "Items",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/monster",
+      "label": "Monsters",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/achievement",
+      "label": "Achievements",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/shiyu",
+      "label": "Shiyu Defense",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/hollow",
+      "label": "Hollow Zero: all sub-tabs",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    },
+    {
+      "url": "https://zzz.nanoka.cc/diff",
+      "label": "Version comparison",
+      "status": "pending",
+      "jsonUrls": [],
+      "evidenceFiles": [],
+      "allTabsInspected": false,
+      "allVersionsAndLanguagesInScopeInspected": false,
+      "detailFamiliesEnumerated": false,
+      "notes": ""
+    }
+  ],
+  "additionalRoutes": [],
+  "unresolved": [],
+  "scopeNote": "Include all other public navigation categories found in the actual website. Site pages are not asserted REST endpoints."
+}

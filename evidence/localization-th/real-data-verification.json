@@ -1,0 +1,228 @@
+{
+  "at": "2026-10-17T20:00:32.116Z",
+  "nanokaRunId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "sourceRevision": "462563ec0f8ffc7493f6e2a46f64f8b34ea2d547",
+  "resources": 514,
+  "translatedStringOccurrences": 41216,
+  "numericLeavesCompared": 422532,
+  "changedNumericLeaves": 0,
+  "changedNonTextLeaves": 0,
+  "sourceProofsChecked": 41216,
+  "publicBytes": 25299958,
+  "maxOverlayBytes": 7755739,
+  "categories": {
+    "character": 61,
+    "weapon": 101,
+    "bangboo": 43,
+    "equipment": 31,
+    "item": 1,
+    "monster": 270,
+    "achievement": 1,
+    "hollow_card": 1,
+    "hollow_tpp": 1,
+    "hollow_gg": 1,
+    "hollow_resonium": 1,
+    "item_all": 1,
+    "noun": 1
+  },
+  "protectedFiles": [
+    "src/index.css",
+    "src/views/games/zenless-zone-zero/index.tsx",
+    "src/views/games/zenless-zone-zero/card.tsx",
+    "src/views/games/zenless-zone-zero/data.ts",
+    "src/views/games/zenless-zone-zero/type.ts"
+  ],
+  "samples": {
+    "character": {
+      "id": "1011",
+      "version": "3.2",
+      "resourceSha256": "c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8",
+      "mapped": 151,
+      "examples": [
+        [
+          "/weapon_type/2",
+          {
+            "th": "สตั๊น",
+            "en": "Stun",
+            "translationKey": "ProfessionName_BreakStun",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "AvatarProfessionTemplateTb.json",
+              "rowId": "2",
+              "field": "/AHPMICNNCFC",
+              "join": "NJGDHJBKNAJ"
+            }
+          }
+        ],
+        [
+          "/element_type/203",
+          {
+            "th": "ไฟฟ้า",
+            "en": "Electric",
+            "translationKey": "ElementIconTitle_Elec",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "DamageElementConfigTemplateTb.json",
+              "rowId": "203",
+              "field": "/DEFHAEMCCGO",
+              "join": "OAPPMOAPGKN"
+            }
+          }
+        ]
+      ]
+    },
+    "weapon": {
+      "id": "12001",
+      "version": "3.2",
+      "resourceSha256": "1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214",
+      "mapped": 15,
+      "examples": [
+        [
+          "/desc",
+          {
+            "th": "W-Engine ที่มุุ่งเน้นการปรับความสามารถเอาต์พุต โดยไม่คำนึงถึงการลดเสียงรบกวน สามารถสร้างความเสียหายต่อศัตรูโดยรอบได้ นักออกแบบอธิบายว่า: เมื่อแสงจันทร์สว่างมากเกินไป คนที่นอนไม่หลับก็จะรู้สึกทรมาณ และก็ทำอะไรไม่ได้ แต่แสงจันทร์ไม่ได้ตั้งใจนี่นา เพียงทำใจให้ชินก็พอ",
+            "en": "A W-Engine that prioritizes damage output over noise reduction. It can indiscriminately deal considerable damage to all units nearby. Its designer compares it to the full moon. Bright moonlight can interrupt people's sleep, and nothing can be done about it. But the moonlight does not bother anyone on purpose — you just have to get used to it.",
+            "translationKey": "Item_Weapon_B_Common_01_Desc",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "WeaponTemplateTb.json",
+              "rowId": "12001",
+              "field": "/KHDIKLCBGFA",
+              "join": "HJOEBMMFOMB"
+            }
+          }
+        ],
+        [
+          "/desc2",
+          {
+            "th": "หลังติดตั้งจะสามารถเพิ่มความสามารถ ในการต่อสู้ของ Agent สาย [โจมตีรุนแรง] ได้",
+            "en": "Equip to increase Attack Agents' combat capabilities",
+            "translationKey": "Item_Weapon_PowerfulAttack_Des",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "ItemTemplateTb.json",
+              "rowId": "12001",
+              "field": "/MMPIPHLJPEI",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ]
+      ]
+    },
+    "bangboo": {
+      "id": "53001",
+      "version": "3.2",
+      "resourceSha256": "10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e",
+      "mapped": 107,
+      "examples": [
+        [
+          "/desc",
+          {
+            "th": "สั่นๆ ส่ายๆ เย็นๆ หนาวๆ",
+            "en": "Widdly-waddly, icy and chilly.",
+            "translationKey": "Bangboo_Desc_53001",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "BuddyUITemplateTb.json",
+              "rowId": "53001",
+              "field": "/MMPIPHLJPEI",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ],
+        [
+          "/skill/a/level/1/desc",
+          {
+            "th": "<color=#FFFFFF>[สกิลแอคทีฟ]</color>\nเมื่อใช้ท่านี้ จะฟาดฟันดาบน้ำแข็งเพื่อใช้ Slash ใส่ศัตรูอย่างต่อเนื่อง เพื่อสร้าง<color=#98EFF0>ความเสียหายธาตุน้ำแข็ง</color> และสะสม<color=#98EFF0>ค่าการสะสม Ice Anomaly</color>",
+            "en": "<color=#FFFFFF>Active Skill</color>\nExecutes a series of graceful slashes with an ice blade, dealing <color=#98EFF0>Ice DMG</color> and accumulating <color=#98EFF0>Ice Anomaly Buildup</color>.",
+            "translationKey": "Bangboo_ActiveSkill_Des_53001",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "BuddySkillLevelUpTemplateTb.json",
+              "rowId": "53001",
+              "field": "/CGFPDFGBIIF",
+              "join": "APMMJLNHAMB"
+            }
+          }
+        ]
+      ]
+    },
+    "equipment": {
+      "id": "31000",
+      "version": "3.2",
+      "resourceSha256": "6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d",
+      "mapped": 4,
+      "examples": [
+        [
+          "/desc4",
+          {
+            "th": "เมื่อการ <color=#FFFFFF>[โจมตีปกติ]</color>, <color=#FFFFFF>[หลบหลีกสวนกลับ]</color> หรือ <color=#FFFFFF>[สกิลพิเศษ-EX]</color> ถูกศัตรู และทำให้เกิดคริติคอล จะแยกกันมอบเอฟเฟกต์บัฟให้แก่ผู้ใช้ 1 ชั้น โดยที่เอฟเฟกต์บัฟแต่ละชั้น จะทำให้ ATK ของผู้ใช้เพิ่มขึ้น 9% ต่อเนื่อง 6 วินาที และการโจมตีที่ต่างกัน จะคิดช่วงเวลาต่อเนื่องแยกกัน",
+            "en": "Landing a critical hit on an enemy with a <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, or <color=#FFFFFF>EX Special Attack</color> increases the equipper's ATK by 9% for 6s. The buff duration for different skills are calculated separately.",
+            "translationKey": "EquipmentSuit_31000_4_des",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "EquipmentSuitTemplateTb.json",
+              "rowId": "31000",
+              "field": "/LAHGNBGJIOM",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ],
+        [
+          "/story",
+          {
+            "th": "ดิสก์ไดรฟ์ที่ได้รับความนิยมอย่างร้อนแรง ซึ่งแม้แต่ชาวเมืองทั่วไป ที่ไม่ได้ทำงานเกี่ยวกับ Hollow ก็ยังพยายามอย่างสุดความสามารถ เพื่อหาซื้อมาครอบครอง เพียงเพราะว่าท่วงทำนองที่บันทึกอยู่ในนั้น ชวนให้หลงใหลจนเกินไป",
+            "en": "A Drive Disc so hot it's gone viral. Even ordinary citizens who don't enter the Hollows will do anything to get their hands on it. The tunes burned on it are absolutely captivating.",
+            "translationKey": "EquipmentSuit_31000_story",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "EquipmentSuitTemplateTb.json",
+              "rowId": "31000",
+              "field": "/HFFKHCHAMHJ",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ]
+      ]
+    },
+    "monster": {
+      "id": "10000",
+      "version": "3.2",
+      "resourceSha256": "1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f",
+      "mapped": 4,
+      "examples": [
+        [
+          "/desc",
+          {
+            "th": "Hollow Investigative Association ศึกษารูปแบบพฤติกรรมของ Tyrfing มาโดยตลอด ท่าทางที่ดูเหมือนง่อนแง่น และไม่สมดุลนั้น แท้จริงแล้วเป็นท่วงท่าการชาร์จพลังที่มีประสิทธิภาพสูง ซึ่งสามารถปล่อยการฟันโจมตี (Slash) ได้อย่างต่อเนื่อง\nTyrfing ได้รับการประเมินว่าเป็นหนึ่งใน Ethereal ที่มีแนวโน้มที่จะทำให้เกิดการบาดเจ็บล้มตายได้ง่ายที่สุด เนื่องจากการปรากฏตัวอย่างบ่อยครั้ง และนิสัยที่ก้าวร้าวของมัน โดยเฉพาะอย่างยิ่งกับเจ้าหน้าที่บางคนที่ปฏิบัติการใน Hollow\nเมื่อเผชิญหน้ากับศัตรูที่ถือโล่ พวกมันจะโจมตีอย่างบ้าคลั่ง และไม่หยุดยั้ง จนกว่าฝ่ายใดฝ่ายหนึ่งจะล้มตายลง\n\"บางที... พวกเขาอาจไม่ได้เกลียดพวกเราหรอก แต่แค่คิดว่าพวกเราเป็นหุ่นไม้ฝึกซ้อมเฉยๆ ?\"",
+            "en": "The Hollow Investigative Association has been studying Tyrfing's behavioral patterns, and research results show that its seemingly unbalanced stance of swaying and skewing is, in fact, a highly efficient stance for launching successive slashing attacks.\nDue to its frequent appearances and aggressive behavior, Tyrfing has been identified as one of the most deadly Ethereals in the Hollow, particularly for certain Hollow personnel.\nWhen faced with a shielded enemy, it relentlessly launches attacks until either its enemy or itself is destroyed.\n\"Perhaps... they don't actually hate us, but just think of us as punching bags for practice?\"",
+            "translationKey": "CardDesc_10000",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "MonsterCardConfigTemplateTb.json",
+              "rowId": "10000",
+              "field": "/MNBGDCHPFOC",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ],
+        [
+          "/card_skill_desc",
+          {
+            "th": "ในระหว่างการต่อสู้ Tyrfing จะโจมตีระยะประชิด",
+            "en": "During combat, Tyrfing will perform melee attacks.",
+            "translationKey": "CardSkillDesc_10000",
+            "sourceFile": "TextMap/TextMap_THTemplateTb.json",
+            "proof": {
+              "table": "MonsterCardConfigTemplateTb.json",
+              "rowId": "10000",
+              "field": "/LBNDDDJAIJH",
+              "join": "PFOAJKNPCHL"
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "status": "PASS"
+}

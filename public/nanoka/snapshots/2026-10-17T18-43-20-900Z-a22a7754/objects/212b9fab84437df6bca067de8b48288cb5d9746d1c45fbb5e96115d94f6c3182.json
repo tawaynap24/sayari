@@ -1,0 +1,2811 @@
+{
+  "id": 201,
+  "end_time": "2030-02-05 03:59:59",
+  "record": {
+    "4": {
+      "id": 2010401,
+      "name": "결말 1·탐정은 한 명이 아니야!",
+      "desc": "진실은 단 하나지만, 탐정은 한 명이 아니다",
+      "text": "당신과 「AOD」 멤버들이 범인의 음모를 간파한 덕분에 범인은 결국 증거 인멸에 실패했고, 과거에 저지른 범죄에 대한 대가를 치르게 되었다. 그리고 명탐정이 되려면 혼자 힘만으로는 부족하다는 사실을 당신도 깨달았다. 홀로 화려하게 진실을 밝히는 것보다, 동료들과 함께 찾아낸 진실이 훨씬 더 매력적이다.\n그래, 그리고 우주 최강 AI 도우미인 당신의 조수도 있지 않은가! 이들과 함께라면 어떤 어둠이 있더라도 그 뒤에 숨은 진실을 밝혀낼 자신이 있다—— 비록 왜 탐정을 겸업해야 하는지는 모르겠지만, 로프꾼과 비디오 가게 주인 외에 부업을 하나 더 하는 것도 수석 조수의 몸값에 걸맞은 높은 전기 요금을 감당하는 데 도움이 되고, 「AOD」가 라이브 티켓을 팔지 못했을 때 생활비를 보태는 데도 도움이 되니까.\n어쨌든, 당신과 「AOD」는 이렇게 공동 속에서 진실을 찾는 길을—— 가장 중요한 점은 돈을 버는 길을 걷게 되었다는 것이다.\n정말 잘된 일이다!",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss06.png"
+    },
+    "5": {
+      "id": 2010402,
+      "name": "결말 2·진실은 공허 속에",
+      "desc": "소멸하고 흩어져 공허로 돌아간다. 이야기의 진실을 알 길은 없다",
+      "text": "그 의문의 의뢰인은 마치 처음부터 없었던 것처럼 사라졌고, 증거물 역시 찾을 수 없게 되었다… 당신들은 목숨을 구하기 위해 서둘러 공동을 빠져나왔지만, 어쩌면 아직 만회할 방법이 있을지도 모른다—— 그러나 아무리 찾아봐도 단서가 있던 장소로 가는 길을 다시 찾을 수 없었다. 마치 의뢰인이 찾던 증거물과 함께 공허한 공동 심층 어딘가에 숨겨져 버린 것만 같았다.\n당신은 이 일을 잊으려 애쓰며 원래의 업무를 계속했지만, 진실에 대한 갈망은 뼛속 깊이 파고들어 당신을 떠나지 않는다.\n마음의 평화를 되찾기 위해 당신은 사건 뒤에 숨겨진 비밀을 찾아 나선다… 하지만 그 비밀들은 안개 속 풍경처럼 현실과 뒤섞여 엉망이 되어버렸고, 원래의 모습을 알아볼 수 없게 되었다.\n만약 다시 한번 기회가 주어진다면… 아니, 머릿속에서 그 가능성을 되새겨봤자 이제는 아무 의미도 없다",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss07.png"
+    }
+  },
+  "node": {
+    "20101": {
+      "id": 20101,
+      "name": "STAGE 01",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Level01.png",
+      "type": 2,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "2010101": {
+          "id": 2010101,
+          "name": "STAGE 01",
+          "tag": "<color=#ff4e00>최종전</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000142,
+            "monster_level": 60,
+            "layer_buff": {
+              "69013002": {
+                "title": "",
+                "desc": "· <IconMap:Icon_AvatarClass_Rupture><color=#FFAF2C>[명파]</color> 특성의 에이전트에게 적합한 도전"
+              },
+              "69012302": {
+                "title": "",
+                "desc": "· 방황하는 사냥꾼이 [미아즈마 영역]에 있을 때 기본 방어가 40% 증가한다. 에이전트의 <color=#FFAF2C>[지원 돌격] 혹은 [회피 반격]</color>이 방황하는 사냥꾼 명중 시, 해당 적에게 <color=#FFFFFF>[동요]</color>를 1스택 부여한다. <color=#FFFFFF>[동요]</color> 최대 중첩: 5스택, 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트의 공격이 방황하는 사냥꾼 명중 시, 대상이 보유한 [동요] 1스택당 에이전트의 관입 피해가 <color=#FFAF2C>7% 증가한다</color>."
+              },
+              "69012303": {
+                "title": "",
+                "desc": "· 숨바꼭질 단계에서 <color=#FFAF2C>[통찰술]</color>을 사용하여 <color=#FFAF2C>꿈잡이·루시아의 본체</color>를 파괴하면 <color=#FFAF2C>조작 점수 3,000점</color>을 획득할 수 있다. 본체를 파괴한 후 <color=#FFAF2C>[패링 지원] 혹은 [지원 돌격]</color>으로 방황하는 사냥꾼 명중 시, 해당 적의 기습을 막고 <color=#FFAF2C>조작 점수 2,000점</color>을 획득할 수 있다. 조작 점수 최대 획득: 5,000점"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 40000,
+            "a_rank_goal": 28000,
+            "b_rank_goal": 12000
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69012904": {
+              "title": "여세를 몰아",
+              "desc": "· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>15% 증가하고</color>, <color=#FFFFFF>[일반 공격]</color> 및 <color=#FFFFFF>[궁극기]</color>가 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다.\n· [지원] 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전한 후, 모든 파티원의 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color>, 치명타 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702055": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WanderingHunter.png",
+              "monster_list": {
+                "11842": {
+                  "id": 30041,
+                  "name": "방황하는 사냥꾼",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_WanderingHunter.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 14443631.965499999,
+                    "attack": 2744.1818181818185,
+                    "defence": 1588.0,
+                    "stun": 14273.74,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "얼음 속성",
+                "201": "불 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "2010102": {
+          "id": 2010102,
+          "name": "1-1",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000143,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69012904": {
+              "title": "여세를 몰아",
+              "desc": "· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>15% 증가하고</color>, <color=#FFFFFF>[일반 공격]</color> 및 <color=#FFFFFF>[궁극기]</color>가 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다.\n· [지원] 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전한 후, 모든 파티원의 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color>, 치명타 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702056": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MetalGorilla.png",
+              "monster_list": {
+                "31082": {
+                  "id": 930167,
+                  "name": "불꽃의 선창자",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FlameCantor.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 6496771.05,
+                    "attack": 2457.4500000000003,
+                    "defence": 794.0,
+                    "stun": 8238.78,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11063": {
+                  "id": 30008,
+                  "name": "「티폰·챌린저」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MetalGorilla.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9650537.82,
+                    "attack": 2554.2000000000003,
+                    "defence": 952.8000000000001,
+                    "stun": 10975.14,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "201": "불 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010103": {
+          "id": 2010103,
+          "name": "1-2",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000144,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69012904": {
+              "title": "여세를 몰아",
+              "desc": "· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>15% 증가하고</color>, <color=#FFFFFF>[일반 공격]</color> 및 <color=#FFFFFF>[궁극기]</color>가 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다.\n· [지원] 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전한 후, 모든 파티원의 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color>, 치명타 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702057": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CovenantGuardian.png",
+              "monster_list": {
+                "31182": {
+                  "id": 10032,
+                  "name": "미아즈마 스폰",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaSpawn.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1374128.91,
+                    "attack": 1393.2,
+                    "defence": 635.2,
+                    "stun": 1960.2,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31331": {
+                  "id": 30044,
+                  "name": "새크리파이스·약속의 수호자",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_CovenantGuardian.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": -1
+                  },
+                  "stats": {
+                    "hp": 18319226.31,
+                    "attack": 2786.4,
+                    "defence": 952.8000000000001,
+                    "stun": 14816.34,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "201": "불 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010104": {
+          "id": 2010104,
+          "name": "1-3",
+          "tag": "<color=#069eff>선택형</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000145,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69012904": {
+              "title": "여세를 몰아",
+              "desc": "· [에테르 장막] 중에 있는 에이전트의 공격력이 <color=#2BAD00>15% 증가하고</color>, <color=#FFFFFF>[일반 공격]</color> 및 <color=#FFFFFF>[궁극기]</color>가 적 명중 시 해당 적의 방어력을 <color=#2BAD00>15%</color> 무시한다.\n· [지원] 특성 에이전트가 <color=#FFFFFF>[강화 특수 스킬]</color>을 시전한 후, 모든 파티원의 <color=#F0D12B>물리 속성 피해</color>가 <color=#2BAD00>20% 증가하고</color>, 치명타 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702058": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hecate.png",
+              "monster_list": {
+                "11224": {
+                  "id": 20004,
+                  "name": "철도 고블린",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinMetro.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3140964.6840000004,
+                    "attack": 2147.8500000000004,
+                    "defence": 714.6,
+                    "stun": 7864.5599999999995,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11951": {
+                  "id": 30031,
+                  "name": "팔리쿠스",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hecate.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 8779831.632000001,
+                    "attack": 2786.4,
+                    "defence": 952.8000000000001,
+                    "stun": 8450.64,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "얼음 속성",
+                "205": "에테르"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    },
+    "20102": {
+      "id": 20102,
+      "name": "STAGE 02",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Level01.png",
+      "type": 2,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "2010201": {
+          "id": 2010201,
+          "name": "STAGE 02",
+          "tag": "<color=#ff4e00>최종전</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000146,
+            "monster_level": 65,
+            "layer_buff": {
+              "69013004": {
+                "title": "",
+                "desc": "· <IconMap:Icon_AvatarClass_Stun><color=#FFAF2C>[격파]</color> 특성의 에이전트에게 적합한 도전"
+              },
+              "69012602": {
+                "title": "",
+                "desc": "· 소베크와 악몽에 묶인 자가 교대로 출전할 때마다 악몽에 묶인 자가 <color=#FFFFFF>[합심]</color>과 <color=#FFFFFF>[희생]</color>을 1스택씩 획득한다. [합심]과 [희생]은 최대 3스택까지 중첩되며, [합심] 1스택당 모든 속성 이상 축적 저항이 <color=#FFAF2C>15%</color> 증가하고, [희생] 1스택당 악몽에 묶인 자의 방어가 <color=#FFAF2C>8%</color> 감소한다. 악몽에 묶인 자가 그로기 상태가 되면 받는 치명타 피해가 <color=#FFAF2C>50%</color> 증가한다."
+              },
+              "69012603": {
+                "title": "",
+                "desc": "· 에이전트가 소베크 및 악몽에 묶인 자를 <color=#FFAF2C>허약 상태</color>로 만들 시 <color=#FFAF2C>조작 점수 1,500점</color>을 획득한다. 에이전트가 <color=#FFAF2C>소베크를 처치</color>하면 <color=#FFAF2C>조작 점수 2,000점</color>을 획득한다. 조작 점수 최대 획득: 5,000점"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 40000,
+            "a_rank_goal": 28000,
+            "b_rank_goal": 12000
+          },
+          "selectable_buff": {
+            "69012703": {
+              "title": "취기",
+              "desc": "· 에이전트의 공격력이 <color=#2BAD00>16%</color> 증가하며, 적의 그로기 약체화 배율이 <color=#2BAD00>30%</color> 증가한다.\n· 에테르 장막 중에 있는 에이전트의 공격이 적 명중 시, 해당 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 <color=#2BAD00>10%</color>, 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69011001": {
+              "title": "변모",
+              "desc": "· 에이전트의 <color=#FE437E>에테르 속성 이상 축적 효율</color> 및 <color=#F0D12B>물리 속성 이상 축적 효율</color>이 <color=#2BAD00>25% 증가하고</color>, 이상 마스터리가 <color=#2BAD00>60pt 증가한다</color>.\n· 속성 이상 발동 시, 적의 방어력이 <color=#2BAD00>10% 감소하고</color>, 받는 속성 이상 피해가 <color=#2BAD00>30% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69011202": {
+              "title": "소나타",
+              "desc": "· 에이전트의 데시벨 획득 효율이 <color=#2BAD00>20% 증가한다</color>.\n· <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 해당 적의 피해 저항을 <color=#2BAD00>20%</color> 무시하며, <color=#FFFFFF>[궁극기]</color>가 적에게 명중 후 에이전트의 <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>로 주는 피해가 <color=#2BAD00>50% 증가한다</color>. 지속 시간: 30초. 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702059": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Awakener.png",
+              "monster_list": {
+                "31353": {
+                  "id": 30042,
+                  "name": "악몽에 묶인 자·엽석연",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Awakener.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 16583916.756,
+                    "attack": 2897.3454545454547,
+                    "defence": 952.8000000000001,
+                    "stun": 16462.600000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "얼음 속성",
+                "200": "물리",
+                "204": "바람 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "2010202": {
+          "id": 2010202,
+          "name": "2-1",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000147,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012703": {
+              "title": "취기",
+              "desc": "· 에이전트의 공격력이 <color=#2BAD00>16%</color> 증가하며, 적의 그로기 약체화 배율이 <color=#2BAD00>30%</color> 증가한다.\n· 에테르 장막 중에 있는 에이전트의 공격이 적 명중 시, 해당 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 <color=#2BAD00>10%</color>, 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69011001": {
+              "title": "변모",
+              "desc": "· 에이전트의 <color=#FE437E>에테르 속성 이상 축적 효율</color> 및 <color=#F0D12B>물리 속성 이상 축적 효율</color>이 <color=#2BAD00>25% 증가하고</color>, 이상 마스터리가 <color=#2BAD00>60pt 증가한다</color>.\n· 속성 이상 발동 시, 적의 방어력이 <color=#2BAD00>10% 감소하고</color>, 받는 속성 이상 피해가 <color=#2BAD00>30% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69011202": {
+              "title": "소나타",
+              "desc": "· 에이전트의 데시벨 획득 효율이 <color=#2BAD00>20% 증가한다</color>.\n· <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 해당 적의 피해 저항을 <color=#2BAD00>20%</color> 무시하며, <color=#FFFFFF>[궁극기]</color>가 적에게 명중 후 에이전트의 <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>로 주는 피해가 <color=#2BAD00>50% 증가한다</color>. 지속 시간: 30초. 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702060": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Avarus.png",
+              "monster_list": {
+                "31095": {
+                  "id": 930174,
+                  "name": "칭송회 예찬자",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HymnistWar.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1268685.11,
+                    "attack": 1613.97,
+                    "defence": 635.2,
+                    "stun": 2138.4,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31012": {
+                  "id": 930169,
+                  "name": "미아즈마 침식자·아바루스",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Avarus.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 19090174.39,
+                    "attack": 2655.9,
+                    "defence": 952.8000000000001,
+                    "stun": 14234.400000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "불 속성",
+                "205": "에테르"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010203": {
+          "id": 2010203,
+          "name": "2-2",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000148,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012703": {
+              "title": "취기",
+              "desc": "· 에이전트의 공격력이 <color=#2BAD00>16%</color> 증가하며, 적의 그로기 약체화 배율이 <color=#2BAD00>30%</color> 증가한다.\n· 에테르 장막 중에 있는 에이전트의 공격이 적 명중 시, 해당 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 <color=#2BAD00>10%</color>, 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69011001": {
+              "title": "변모",
+              "desc": "· 에이전트의 <color=#FE437E>에테르 속성 이상 축적 효율</color> 및 <color=#F0D12B>물리 속성 이상 축적 효율</color>이 <color=#2BAD00>25% 증가하고</color>, 이상 마스터리가 <color=#2BAD00>60pt 증가한다</color>.\n· 속성 이상 발동 시, 적의 방어력이 <color=#2BAD00>10% 감소하고</color>, 받는 속성 이상 피해가 <color=#2BAD00>30% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69011202": {
+              "title": "소나타",
+              "desc": "· 에이전트의 데시벨 획득 효율이 <color=#2BAD00>20% 증가한다</color>.\n· <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 해당 적의 피해 저항을 <color=#2BAD00>20%</color> 무시하며, <color=#FFFFFF>[궁극기]</color>가 적에게 명중 후 에이전트의 <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>로 주는 피해가 <color=#2BAD00>50% 증가한다</color>. 지속 시간: 30초. 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702061": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+              "monster_list": {
+                "11274": {
+                  "id": 10007,
+                  "name": "신입 엽병",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster-MeleeJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 874889.33,
+                    "attack": 1348.3799999999999,
+                    "defence": 635.2,
+                    "stun": 1944.0000000000002,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11284": {
+                  "id": 10008,
+                  "name": "수비대 엽병",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HeavyJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 874889.33,
+                    "attack": 1225.8,
+                    "defence": 730.48,
+                    "stun": 1944.0000000000002,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31112": {
+                  "id": 30035,
+                  "name": "새크리파이스·사악한 어릿광대",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 16512659.94,
+                    "attack": 2941.92,
+                    "defence": 952.8000000000001,
+                    "stun": 13169.52,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "203": "전기 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010204": {
+          "id": 2010204,
+          "name": "2-3",
+          "tag": "<color=#069eff>선택형</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000149,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69012703": {
+              "title": "취기",
+              "desc": "· 에이전트의 공격력이 <color=#2BAD00>16%</color> 증가하며, 적의 그로기 약체화 배율이 <color=#2BAD00>30%</color> 증가한다.\n· 에테르 장막 중에 있는 에이전트의 공격이 적 명중 시, 해당 적의 <color=#F0D12B>물리 속성 피해 저항</color>을 <color=#2BAD00>10%</color>, 방어력을 <color=#2BAD00>15%</color> 무시한다."
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69011001": {
+              "title": "변모",
+              "desc": "· 에이전트의 <color=#FE437E>에테르 속성 이상 축적 효율</color> 및 <color=#F0D12B>물리 속성 이상 축적 효율</color>이 <color=#2BAD00>25% 증가하고</color>, 이상 마스터리가 <color=#2BAD00>60pt 증가한다</color>.\n· 속성 이상 발동 시, 적의 방어력이 <color=#2BAD00>10% 감소하고</color>, 받는 속성 이상 피해가 <color=#2BAD00>30% 증가한다</color>. 지속 시간: 20초, 중복 발동 시 지속 시간이 갱신된다."
+            },
+            "69011202": {
+              "title": "소나타",
+              "desc": "· 에이전트의 데시벨 획득 효율이 <color=#2BAD00>20% 증가한다</color>.\n· <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>이 적에게 명중 시 해당 적의 피해 저항을 <color=#2BAD00>20%</color> 무시하며, <color=#FFFFFF>[궁극기]</color>가 적에게 명중 후 에이전트의 <color=#FFFFFF>[궁극기]</color> 및 <color=#FFFFFF>[강화 특수 스킬]</color>로 주는 피해가 <color=#2BAD00>50% 증가한다</color>. 지속 시간: 30초. 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702062": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaHugoSlime.png",
+              "monster_list": {
+                "11364": {
+                  "id": 20015,
+                  "name": "덩치 협박자",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3084861.052,
+                    "attack": 1756.98,
+                    "defence": 794.0,
+                    "stun": 6233.76,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31132": {
+                  "id": 930176,
+                  "name": "미아즈믹·암연 징벌자",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaHugoSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 14757820.012,
+                    "attack": 2941.92,
+                    "defence": 952.8000000000001,
+                    "stun": 13169.52,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "204": "바람 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    },
+    "20103": {
+      "id": 20103,
+      "name": "PLOT 01",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Tale_01.png",
+      "type": 5,
+      "prev_node": 0,
+      "story_event": {
+        "2010301": {
+          "201030101": {
+            "id": 201030101,
+            "name": "진실은 단 하나",
+            "desc": "눈앞의 거대한 괴물이 쿵 소리를 내며 쓰러지고, 당신과 에이전트들은 동시에 안도의 한숨을 내쉰다.\n\n「흥! 「AOD」 공동 소대의 힘 앞에서 에테리얼 따윈 별거 아니지!」\n「응? 방금 어느 울보가 놀라서 엉덩방아를 찧었더라~」\n\n시끌벅적하게 다투는 수나와 남궁, 그리고 황급히 말리려는 아리아를 보며, 당신은 턱을 괴고 생각에 잠긴다—— 보아하니 이곳은 단서가 이끈 마지막 장소인 듯하다. 이제 남은 일은 이곳을 샅샅이 뒤져서 의뢰인이 원하는 증거물을 찾는 것뿐이다.\n하지만 어째서인지 일이 너무 순조롭게 흘러간다는 느낌이 든다. 마치 당신은 어떤 힘에 이끌려 모든 결정을 내렸고, 잘 짜인 길을 따라 지금 이 장면에 도착한 것 같다—— 마치 「각본」을 따라 움직이는 인형처럼…\n\n잠깐! 문득 당신은 지금까지의 모든 행동이 누군가의 계획 안에 있었다는 것을 깨달았다. 당신은 한데 뒤엉켜 싸우기 직전의 남궁과 수나를 황급히 막고, 모두에게 당신의 추측을 공유했다——",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story09.png",
+            "choice": [],
+            "next_page": [
+              201030102
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "201030102": {
+            "id": 201030102,
+            "name": "진실은 단 하나",
+            "desc": "「아까부터 줄곧… 일이 너무 순조롭게 진행되고 있다는 강한 예감이 들었어. 지금 이 장소에서 목격한 이상 현상이 그 예감을 증명해 주고 있어——」\n주위를 둘러보니 세 에이전트 모두 진지하게 당신의 말을 경청하고 있다. 좋다! 명탐정의 무대에는 인내심 있는 관객이 필요한 법이다—— 당신은 만족스럽게 고개를 끄덕이며 계속 말을 이어간다.\n\n「잠깐, Fairy! 평소 내 속마음이 그렇게 뒤틀려 있지는 않아」\n「이전 시뮬레이션 단계에서 마스터에게 안내해 드렸듯, 획득한 데이터가 부족할 경우 개연성을 기준으로 서사의 공백을 자동으로 보충해요」\n\n어쩌겠는가… 당신은 자신이 다소 우쭐대는 캐릭터로 설정된 것을 받아들일 수밖에 없었다.\n당신은 배후의 흑막이 바로 의뢰를 준 그 미스터리한 인물일 가능성을 제시했다. 그가 찾는 증거물은 분명 자신에게 불리한 무언가일 것이고, 그걸 파기하려 했지만 개인의 힘만으로는 정확한 위치를 파악할 수 없던 탓에, 당신과 뛰어난 연산 능력을 지닌 수석 조수—— 그리고 당신을 돕기 위해 함께 공동에 들어간 세 명의 에이전트를 이용한 것이다.\n\n바로 그 순간, 갑자기 나타난 공동 균열에서 작은 녹음기 하나가 떨어졌다. 당신은 에이전트들에게 섣불리 접근하지 말라고 경고했다. 그런데 그 녹음기에서 카운트다운 음성이 울리기 시작했다——",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story15.png",
+            "choice": [],
+            "next_page": [
+              201030103
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "201030103": {
+            "id": 201030103,
+            "name": "진실은 단 하나",
+            "desc": "당황할 필요 없다, 당신은 이미 진상을 꿰뚫어 보았으니까! 하지만 막 입을 열려던 그 순간——\n수나가 휙 튀어나와 외친다. 「이, 이, 이, 이 녹음기는 녹음기로 위장한 시한폭탄이 아니야—— 사, 사고의 전환이 필요해, 이건 바로 시한폭탄으로 위장한 녹음기야!」\n\n이 꼬마 탐정은 좀 더듬거리긴 했어도 원래 당신 몫이었던 대사를 힘차게 말해버렸다. 젠장, 분명 탐정이 진실을 밝히는 순간인데, 어떻게 증인 역할에게 중요한 분량을 빼앗겨버린 거지!\n하지만 괜찮다. 이제 사건 배후의 원리를 분석하기만 하면 되니까. 그러면 당신의 분량은 또 다시——\n「그만, Fairy! 이 왜곡된 캐릭터 심리 묘사는 건너뛰어!」\n「네, 마스터. 스킵 프로그램 로딩 중…」",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story13.png",
+            "choice": [],
+            "next_page": [
+              201030104
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "201030104": {
+            "id": 201030104,
+            "name": "진실은 단 하나",
+            "desc": "남궁의 견해에 따르면, 그 수수께끼의 의뢰인은 아무도 모르는 곳에서 녹음기를 완전히 파기하기 위해 녹음기 고유의 특성, 즉 「일정한 주파수로 녹음 파일을 자동 재생한다」는 점을 이용했을 것이다.\n곧이어 아리아가 견해를 보충했다. 의뢰인은 자동 재생 시간대에 맞춰 임무 하달부터 당신들이 녹음기를 찾기까지의 계획을 세웠을 것이다. 카운트다운 음성이 재생될 때 당신들은 필연적으로 신중하게 공동을 떠나기를 선택할 수밖에 없을 테고, 그렇게 되면 당신들을 쫓아내는 계획은 쥐도 새도 모르게 성공했을 것이다.\n\n비록 분량은 이미 「AOD」에게 다 빼앗겼지만 괜찮다. 아직 그 클래식한 대사를 외치지 않았으니까. 그 대사를 외치기만 한다면 당신은 변함없는 공동 내 「최강 탐정」이다!\n\n당신은 수석 조수의 제안에 따라 장갑을 끼고, 언제 준비했는지 모를 증거물 봉투에 녹음기를 조심스럽게 넣은 뒤, 프로 탐정의 자세로 검지를 세우고 유일무이한 진실을 외친다.\n「진실은 단 하나—— 이 시한폭탄이 바로 증거물이야!」",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story14.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              2010401
+            ]
+          }
+        },
+        "2010302": {
+          "201030201": {
+            "id": 201030201,
+            "name": "공동 탐정의 패배",
+            "desc": "눈앞의 거대한 괴물이 쿵 소리를 내며 쓰러지고, 당신과 에이전트들은 동시에 안도의 한숨을 내쉰다.\n\n「흥! 「AOD」 공동 소대의 힘 앞에서 에테리얼 따윈 별거 아니지!」\n「응? 방금 어느 울보가 놀라서 엉덩방아를 찧었더라~」\n\n시끌벅적하게 다투는 수나와 남궁, 그리고 황급히 말리려는 아리아를 보며, 당신은 턱을 괴고 생각에 잠긴다—— 보아하니 이곳은 단서가 이끈 마지막 장소인 듯하다. 이제 남은 일은 이곳을 샅샅이 뒤져서 의뢰인이 원하는 증거물을 찾는 것뿐이다.\n하지만 어째서인지 일이 너무 순조롭게 흘러간다는 느낌이 든다. 마치 당신은 어떤 힘에 이끌려 모든 결정을 내렸고, 잘 짜인 길을 따라 지금 이 장면에 도착한 것 같다—— 마치 「각본」을 따라 움직이는 인형처럼…\n\n그러나 공동에서 내린 모든 결정은 수석 조수의 정밀한 계산을 거친 결과다. 당신은 밀려오는 불안감을 애써 삼킨다. 무슨 일이 있든 경계를 늦춰서는 안 된다…\n\n「너, 너, 너, 내가 널 귀찮게 했단 뜻이야?! 으으! 방울아, 물어——!」\n「난 그런 말 안 했는데, 그치 아리아~」\n고양이들이 뒤엉켜 싸우는 것 같은 소녀들의 다툼으로 인해 당신의 생각이 끊겼다… 크흠, 아무래도 증거물 수색을 계속하기보다는 우선 에이전트간의 불화를 조율해야 할 듯하다…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story09.png",
+            "choice": [],
+            "next_page": [
+              201030202
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "201030202": {
+            "id": 201030202,
+            "name": "공동 탐정의 패배",
+            "desc": "예상대로 계산 밖의 공동 균열이 당신과 에이전트들 앞에 나타났고, 그 속에서 작은 녹음 디스크가 떨어졌다. 혹시 이게 당신들이 찾던 증거물일까? 하지만 당신은 직감적으로 그런 게 아니라는 걸 느낀다.\n\n「점장님, 조심하세요! 뒤로 물러나 주세요—— 이 증거물, 뭔가 이상한 것 같아요!」\n\n아리아의 말이 맞았다. 당신은 다른 두 사람에게도 안전거리를 유지하라고 당부했다. 불길한 삑삑 소리가 멀지 않은 곳의 바닥에서 울려 퍼지기 직전까지. 큰일 났다. 위장된 시한폭탄 같은데——\n「마스터, 실시간 스캔 결과, 전방의 물체에서 에테르 파동이 감지되는 것 같아요」\n\n「저저점장님, 느낌이 너무 안 좋아요… 빨리 도망쳐요, 안 그러면 팬들을 두 번 다시 못 볼지도 몰라요, 으아앙——」\n「수나가 말한 것만큼 심각하진 않은 것 같지만 조심하는 게 좋겠어… 무엇보다, 점장이 위험할까 봐 걱정되는 걸~」\n「점장님… 우리… 떠나야 할까요?」\n\n걱정스러운 눈빛으로 당신을 바라보는 세 명의 에이전트 앞에서, 당신은 이를 악물고 마음속 반대 의견을 무시했다—— 그렇다, 의뢰가 목숨보다 중요할 리 없다. 저울의 반대편에는 마지막 승부수를 걸 만한 칩이 없다. 당신은 여전히 삑삑 소리를 내고 있는 금속 기기를 돌아본 뒤 결국 후퇴를 선택했다",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story16.png",
+            "choice": [],
+            "next_page": [
+              201030203
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "201030203": {
+            "id": 201030203,
+            "name": "공동 탐정의 패배",
+            "desc": "주위의 에테르 반응을 빠르게 측정하고, 시뮬레이션하고, 최단 경로를 제작하는… 이 일련의 과정은 로프꾼인 당신에게 놀랄 만치 익숙하다. 후회는 없다. 그건 시한폭탄이 아닌가… 당신은 「AOD」 삼인방에게 걱정하지 말라는 눈빛을 보낸다. 당신은 반드시 「AOD」를 안전하게 공동 밖으로 인도할 테니까…\n당신과 에이전트들이 공동 균열을 통해 떠나는 순간, 불길한 카운트다운이 드디어 멈췄다… 하지만 예상했던 폭발은 일어나지 않았다.\n\n마음 속이 점점 더 소란스러워진다. 당신들은 모르는 사이에 누군가의 계략에 빠진 듯하다.\n\n「잠깐만, Fairy, 우리 폭탄을 해체할 수는 없었던 거야?」\n「마스터, 정체를 알 수 없는 장치에 함부로 손대는 것보다는 즉시 도망치는 것이 최선의 방법이었습니다. 이는 당시 상황을 토대로 내린 합리적 추론 결과예요」\n\n당신은 조수의 말을 받아들였다. 이런 상황에서 누군가 확고하게 반대 의견을 제시하지 않는 이상, 이건 가장 합리적인 선택이 맞다—— 증거물이 폭발한 건 아쉽지만, 당신과 에이전트의 목숨은 하나뿐이니까",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/story15.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              2010402
+            ]
+          }
+        }
+      },
+      "battle": {}
+    },
+    "20104": {
+      "id": 20104,
+      "name": "LAST STAGE",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss05.png",
+      "type": 3,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "2010401": {
+          "id": 2010401,
+          "name": "LAST STAGE",
+          "tag": "<color=#ff4e00>최종전</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000150,
+            "monster_level": 70,
+            "layer_buff": {
+              "69013103": {
+                "title": "",
+                "desc": "· 에이전트 이상 축적 효율이 <color=#FFAF2C>15% 증가하고</color>, 고독한 불협의 노래에게 주는 이상 피해가 <color=#FFAF2C>30% 증가하며</color>, 전투 중 에이전트가 [에테르 장막] 상태에 놓일 시 고독한 불협의 노래 그로기 약체화 배율이 <color=#FFAF2C>30% 증가한다</color>."
+              },
+              "69013104": {
+                "title": "",
+                "desc": "<color=#FFAF2C>[제어 스킬]</color> 기간 중 보스의 공격에 성공적으로 대응할 때마다 <color=#FFAF2C>조작 점수 350점</color>을 획득한다. 보스의 <color=#FFAF2C>[제어 스킬]</color>에 <color=#FFAF2C>[완벽 대응]</color>하거나 일부 스킬의 마지막 공격을 패링할 때 보스에게 <color=#FFAF2C>[부위 파괴]</color> 효과를 주고 <color=#FFAF2C>조작 점수 750점</color>을 획득한다. <Term:2000003></Term> 기간 중 <color=#FFAF2C>[반격 지원]</color>을 통해 <color=#FFAF2C>[완벽 대응]</color> 시, 해당 <color=#FFAF2C>[제어 스킬]</color>의 남은 대응 성공 점수를 획득한다. 조작 점수 최대 획득: 5,000점"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69011301": {
+              "title": "정신 집중",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>30% 증가하고</color>, 궁극기로 주는 피해가 <color=#2BAD00>40% 증가한다</color>.\n· 에이전트가 궁극기 시전 후, 에너지 및 기운 획득 효율이 <color=#2BAD00>15% 증가하고</color>, <color=#FE437E>에테르 속성 피해</color> 및 <color=#98EFF0>얼음 속성 피해</color>가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초"
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            }
+          },
+          "layer_room": {
+            "70702063": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vesper.png",
+              "monster_list": {
+                "31451": {
+                  "id": 40001,
+                  "name": "고독한 불협의 노래·베스퍼",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vesper.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": -1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 19703470.724999998,
+                    "attack": 2755.2121212121215,
+                    "defence": 476.40000000000003,
+                    "stun": 19977.350000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "에테르",
+                "204": "바람 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "2010402": {
+          "id": 2010402,
+          "name": "LAST STAGE",
+          "tag": "<color=#ff4e00>최종전</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000151,
+            "monster_level": 70,
+            "layer_buff": {
+              "69013001": {
+                "title": "",
+                "desc": "· <IconMap:Icon_AvatarClass_Attack><color=#FFAF2C>[강공]</color> 특성의 에이전트에게 적합한 도전"
+              },
+              "69012704": {
+                "title": "",
+                "desc": "· 보스가 받는 이상 피해가 <color=#2BAD00>30%</color> 감소하고, <Term:2000002></Term> 상태에서 일반 상태로 전환하거나, 일반 상태에서 <color=#FFAF2C>[미아즈마 실드]</color> 상태로 전환할 시, 에이전트가 해당 적에게 주는 치명타 피해가 <color=#2BAD00>20%</color> 증가한다. 최대 중첩: 3스택, 그로기 상태에서 회복될 시 스택이 초기화된다."
+              },
+              "69012705": {
+                "title": "",
+                "desc": "· <color=#FFAF2C>[미아즈마 실드 정화]</color> 발동 시, <color=#FFAF2C>조작 점수 1,000점</color>을 획득한다. <Term:2000003></Term> 기간 동안 보스의 공격에 성공적으로 대응할 때마다 <color=#FFAF2C>조작 점수 500점</color>을 획득한다. 보스의 <color=#FFAF2C>[제어 스킬]</color>에 <color=#FFAF2C>[완벽 대응]</color> 시, <color=#FFAF2C>조작 점수 2,000점</color>을 획득한다. <Term:2000003></Term> 기간 동안 <color=#FFAF2C>[반격 지원]</color>을 통해 <color=#FFAF2C>[완벽 대응]</color> 시, 해당 <color=#FFAF2C>제어 스킬</color>의 남은 대응 성공 점수를 획득한다. 조작 점수 최대 획득: 5,000점"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69011601": {
+              "title": "기교",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 주는 <color=#F0D12B>물리 속성 피해</color>가 추가로 <color=#2BAD00>20% 증가한다</color>.\n· 적을 속성 이상에 빠뜨린 후, 적의 방어력이 10초 동안 <color=#2BAD00>10% 감소한다</color>. 적에게 [혼돈] 효과 부여 후, 적의 방어력이 10초 동안 <color=#2BAD00>추가로 25% 감소한다</color>. 두 효과의 지속 시간은 따로 갱신된다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702064": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vessel.png",
+              "monster_list": {
+                "31412": {
+                  "id": 40000,
+                  "name": "태초의 악몽·「창조주」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vessel.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 27823634.865,
+                    "attack": 3051.9272727272732,
+                    "defence": 476.40000000000003,
+                    "stun": 18236.0,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "2010403": {
+          "id": 2010403,
+          "name": "3-1",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000152,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69011301": {
+              "title": "정신 집중",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>30% 증가하고</color>, 궁극기로 주는 피해가 <color=#2BAD00>40% 증가한다</color>.\n· 에이전트가 궁극기 시전 후, 에너지 및 기운 획득 효율이 <color=#2BAD00>15% 증가하고</color>, <color=#FE437E>에테르 속성 피해</color> 및 <color=#98EFF0>얼음 속성 피해</color>가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초"
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            }
+          },
+          "layer_room": {
+            "70702065": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hayyot.png",
+              "monster_list": {
+                "31192": {
+                  "id": 30039,
+                  "name": "헤이토",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hayyot.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 1,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 18381652.8,
+                    "attack": 3098.88,
+                    "defence": 1588.0,
+                    "stun": 16283.150000000001,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11187": {
+                  "id": 300011,
+                  "name": "타나토스·에너지형",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DeathXIIIGreyPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 4978262.856,
+                    "attack": 2173.52,
+                    "defence": 857.5200000000001,
+                    "stun": 6535.35,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "불 속성",
+                "202": "얼음 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010404": {
+          "id": 2010404,
+          "name": "3-2",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000153,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69011301": {
+              "title": "정신 집중",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>30% 증가하고</color>, 궁극기로 주는 피해가 <color=#2BAD00>40% 증가한다</color>.\n· 에이전트가 궁극기 시전 후, 에너지 및 기운 획득 효율이 <color=#2BAD00>15% 증가하고</color>, <color=#FE437E>에테르 속성 피해</color> 및 <color=#98EFF0>얼음 속성 피해</color>가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초"
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            }
+          },
+          "layer_room": {
+            "70702066": {
+              "monster_icon": "",
+              "monster_list": {
+                "31273": {
+                  "id": 20016,
+                  "name": "미아즈믹·「민첩한 방랑자」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaLightfootRover.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 8948882.459999999,
+                    "attack": 2345.68,
+                    "defence": 857.5200000000001,
+                    "stun": 13068.35,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11052": {
+                  "id": 300021,
+                  "name": "「가디언 Ⅱ형」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": -1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 6646610.88,
+                    "attack": 2281.12,
+                    "defence": 857.5200000000001,
+                    "stun": 11169.550000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "전기 속성",
+                "200": "물리"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010405": {
+          "id": 2010405,
+          "name": "3-3",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000154,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69011301": {
+              "title": "정신 집중",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>30% 증가하고</color>, 궁극기로 주는 피해가 <color=#2BAD00>40% 증가한다</color>.\n· 에이전트가 궁극기 시전 후, 에너지 및 기운 획득 효율이 <color=#2BAD00>15% 증가하고</color>, <color=#FE437E>에테르 속성 피해</color> 및 <color=#98EFF0>얼음 속성 피해</color>가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초"
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            }
+          },
+          "layer_room": {
+            "70702067": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Chelonethid.png",
+              "monster_list": {
+                "31202": {
+                  "id": 30013,
+                  "name": "미아즈마 워커·스콥스",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Chelonethid.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": -1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 25013807.91,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 18236.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31072": {
+                  "id": 930172,
+                  "name": "허스크론",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Huskron.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1060597.02,
+                    "attack": 1549.44,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31182": {
+                  "id": 10032,
+                  "name": "미아즈마 스폰",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaSpawn.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1817622.8699999999,
+                    "attack": 1549.44,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "205": "에테르"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010406": {
+          "id": 2010406,
+          "name": "3-1",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000156,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69011601": {
+              "title": "기교",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 주는 <color=#F0D12B>물리 속성 피해</color>가 추가로 <color=#2BAD00>20% 증가한다</color>.\n· 적을 속성 이상에 빠뜨린 후, 적의 방어력이 10초 동안 <color=#2BAD00>10% 감소한다</color>. 적에게 [혼돈] 효과 부여 후, 적의 방어력이 10초 동안 <color=#2BAD00>추가로 25% 감소한다</color>. 두 효과의 지속 시간은 따로 갱신된다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702069": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaTerrorBird.png",
+              "monster_list": {
+                "11264": {
+                  "id": 20009,
+                  "name": "중무장 사수",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepower.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 4462594.02,
+                    "attack": 2281.12,
+                    "defence": 857.5200000000001,
+                    "stun": 7120.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31262": {
+                  "id": 30036,
+                  "name": "미아즈믹·「테러 랩터」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaTerrorBird.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 16899555.96,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "불 속성",
+                "203": "전기 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010407": {
+          "id": 2010407,
+          "name": "3-2",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000157,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69011601": {
+              "title": "기교",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 주는 <color=#F0D12B>물리 속성 피해</color>가 추가로 <color=#2BAD00>20% 증가한다</color>.\n· 적을 속성 이상에 빠뜨린 후, 적의 방어력이 10초 동안 <color=#2BAD00>10% 감소한다</color>. 적에게 [혼돈] 효과 부여 후, 적의 방어력이 10초 동안 <color=#2BAD00>추가로 25% 감소한다</color>. 두 효과의 지속 시간은 따로 갱신된다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702070": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_BlackMazingerGoldenBomb.png",
+              "monster_list": {
+                "11623": {
+                  "id": 200241,
+                  "name": "도플갱어·펄크라",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 6664870.8,
+                    "attack": 2496.32,
+                    "defence": 794.0,
+                    "stun": 14001.300000000001,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31361": {
+                  "id": 30003,
+                  "name": "록스프링",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_BlackMazingerGoldenBomb.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 17506698.3,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 18236.0,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "전기 속성",
+                "200": "물리"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010408": {
+          "id": 2010408,
+          "name": "3-3",
+          "tag": "<color=#ffef00>전초전</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000158,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69011601": {
+              "title": "기교",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 주는 <color=#F0D12B>물리 속성 피해</color>가 추가로 <color=#2BAD00>20% 증가한다</color>.\n· 적을 속성 이상에 빠뜨린 후, 적의 방어력이 10초 동안 <color=#2BAD00>10% 감소한다</color>. 적에게 [혼돈] 효과 부여 후, 적의 방어력이 10초 동안 <color=#2BAD00>추가로 25% 감소한다</color>. 두 효과의 지속 시간은 따로 갱신된다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702071": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaThracian.png",
+              "monster_list": {
+                "31322": {
+                  "id": 20031,
+                  "name": "미아즈믹·분노한 조폭",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaWickedWraith.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 11023122.42,
+                    "attack": 2862.16,
+                    "defence": 794.0,
+                    "stun": 12600.7,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31102": {
+                  "id": 930178,
+                  "name": "미아즈믹·트라키안",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaThracian.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": -1,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 19038575.16,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "에테르",
+                "204": "바람 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010409": {
+          "id": 2010409,
+          "name": "3-4",
+          "tag": "<color=#069eff>선택형</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000155,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69010301": {
+              "title": "이상 현상",
+              "desc": "· 에이전트의 속성 이상 축적 효율이 <color=#2BAD00>20% 증가한다</color>.\n· 적에게 <color=#FFFFFF>속성 이상</color> 효과 부여 시 모든 파티원의 <color=#2BAD00>이상 마스터리가 60pt 증가하고</color>, <color=#FFFFFF>혼돈</color>으로 주는 피해가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 15초"
+            },
+            "69011301": {
+              "title": "정신 집중",
+              "desc": "· 에이전트의 HP 최대치가 <color=#2BAD00>30% 증가하고</color>, 궁극기로 주는 피해가 <color=#2BAD00>40% 증가한다</color>.\n· 에이전트가 궁극기 시전 후, 에너지 및 기운 획득 효율이 <color=#2BAD00>15% 증가하고</color>, <color=#FE437E>에테르 속성 피해</color> 및 <color=#98EFF0>얼음 속성 피해</color>가 <color=#2BAD00>40% 증가한다</color>. 지속 시간: 20초"
+            },
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            }
+          },
+          "layer_room": {
+            "70702068": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+              "monster_list": {
+                "31214": {
+                  "id": 300372,
+                  "name": "미아즈믹·도플갱어·「변절자」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 14646281.832000002,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31152": {
+                  "id": 10033,
+                  "name": "미아즈마 잔병·방패병",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1125289.308,
+                    "attack": 1549.44,
+                    "defence": 730.48,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31162": {
+                  "id": 10034,
+                  "name": "미아즈마 잔병·포수",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1125289.308,
+                    "attack": 1398.8,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "물리",
+                "201": "불 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "2010410": {
+          "id": 2010410,
+          "name": "3-4",
+          "tag": "<color=#069eff>선택형</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.2 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.1 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「점수 배율」 버프",
+              "desc": "Lv.3 [최종전] 스테이지에서 점수 배율+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000159,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69012702": {
+              "title": "단련",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 공격이 적 명중 시 해당 적의 모든 피해 저항을 <color=#2BAD00>10%</color> 무시한다.\n· [강공] 특성 에이전트의 공격력이 <color=#2BAD00>20% 증가하고</color>, [일반 공격]으로 주는 피해가 <color=#2BAD00>40% 증가하며</color>, 적의 방어력을 <color=#2BAD00>20%</color> 무시한다."
+            },
+            "69013101": {
+              "title": "스치는 불꽃",
+              "desc": "· 에이전트가 적을 속성 이상 상태로 만든 후, 해당 적의 모든 속성 피해 저항이 <color=#2BAD00>10% 감소하며</color>, <color=#FE437E>에테르 피해 저항</color>이 <color=#2BAD00>10% 감소한다</color>. 지속 시간: 15초, 중복 발동 시 지속 시간이 갱신된다.\n· 에이전트가 주는 속성 이상 피해가 <color=#2BAD00>15% 증가하고</color>, 난개 피해가 <color=#2BAD00>15% 증가하며</color>, [콤보 스킬], [궁극기]로 주는 속성 이상 축적치가 <color=#2BAD00>20% 증가한다</color>."
+            },
+            "69011601": {
+              "title": "기교",
+              "desc": "· 에이전트가 주는 피해가 <color=#2BAD00>20% 증가하고</color>, 주는 <color=#F0D12B>물리 속성 피해</color>가 추가로 <color=#2BAD00>20% 증가한다</color>.\n· 적을 속성 이상에 빠뜨린 후, 적의 방어력이 10초 동안 <color=#2BAD00>10% 감소한다</color>. 적에게 [혼돈] 효과 부여 후, 적의 방어력이 10초 동안 <color=#2BAD00>추가로 25% 감소한다</color>. 두 효과의 지속 시간은 따로 갱신된다."
+            },
+            "69012201": {
+              "title": "극의 경지",
+              "desc": "· [명파] 특성 에이전트의 관입 피해가 <color=#2BAD00>10% 증가하고</color>, 주는 미아즈마 실드 감소 수치가 <color=#2BAD00>30% 증가한다</color>.\n· 에테르 장막 중에 있는 에이전트의 관입 피해가 추가로 <color=#2BAD00>30% 증가하고</color>, 공격이 적 명중 후 해당 적의 그로기 약체화 배율이 <color=#2BAD00>45% 증가한다</color>. 지속 시간: 10초, 중복 발동 시 지속 시간이 갱신된다."
+            }
+          },
+          "layer_room": {
+            "70702072": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaNoranoSlime.png",
+              "monster_list": {
+                "11462": {
+                  "id": 10025,
+                  "name": "악령",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Ahriman.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 912778.62,
+                    "attack": 1162.08,
+                    "defence": 571.6800000000001,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31294": {
+                  "id": 300402,
+                  "name": "미아즈믹·코마노 마나토",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaNoranoSlime.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 15190557.875999998,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 16283.150000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "얼음 속성"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  }
+}

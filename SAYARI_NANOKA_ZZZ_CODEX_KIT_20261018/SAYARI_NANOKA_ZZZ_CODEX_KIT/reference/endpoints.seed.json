@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "provider": "Nanoka ZZZ",
+  "baseUrl": "https://static.nanoka.cc",
+  "manifestPath": "/manifest.json",
+  "referenceUrl": "https://zzz.nanoka.cc/",
+  "knownTemplateCountIncludingManifest": 10,
+  "languagesFromClient": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "datasets": [
+    {
+      "key": "character",
+      "label": "Agents",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/character.json",
+      "detailPath": "/zzz/{version}/{lang}/character/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/character",
+      "referenceDetail": "https://zzz.nanoka.cc/character/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "weapon",
+      "label": "W-Engines",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/weapon.json",
+      "detailPath": "/zzz/{version}/{lang}/weapon/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/weapon",
+      "referenceDetail": "https://zzz.nanoka.cc/weapon/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "bangboo",
+      "label": "Bangboo",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/bangboo.json",
+      "detailPath": "/zzz/{version}/{lang}/bangboo/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/bangboo",
+      "referenceDetail": "https://zzz.nanoka.cc/bangboo/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "equipment",
+      "label": "Drive Disc Sets",
+      "required": true,
+      "localizedIndex": false,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/equipment.json",
+      "detailPath": "/zzz/{version}/{lang}/equipment/{id}.json",
+      "localizedDetail": true,
+      "referenceList": "https://zzz.nanoka.cc/equipment",
+      "referenceDetail": "https://zzz.nanoka.cc/equipment/{id}",
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    },
+    {
+      "key": "item",
+      "label": "Items / Materials",
+      "required": true,
+      "localizedIndex": true,
+      "recordsPointer": "",
+      "idField": "id",
+      "idPattern": "^[0-9]+$",
+      "indexPath": "/zzz/{version}/{lang}/item.json",
+      "detailPath": null,
+      "localizedDetail": false,
+      "referenceList": "https://zzz.nanoka.cc/item",
+      "referenceDetail": null,
+      "evidence": {
+        "sourceIds": [
+          "C01",
+          "C02",
+          "M05"
+        ],
+        "kind": "client_source_verified",
+        "sourceUrl": "https://raw.githubusercontent.com/seriaati/hakushin-py/main/hakushin/clients/zzz.py",
+        "httpVerifiedDuringPreparation": false
+      }
+    }
+  ],
+  "notAnExhaustiveProviderCatalog": true
+}

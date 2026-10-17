@@ -1,0 +1,64 @@
+{
+  "testedAtUtc": "2026-10-17T17:34:46.590124+00:00",
+  "environment": {
+    "os": "Linux (preparation container, not user Windows)",
+    "node": "v22.16.0",
+    "typescriptForReferenceTypeCheck": "Version 5.8.3"
+  },
+  "unitTests": {
+    "command": "node --test --test-concurrency=1 tests/nanoka-sync.test.mjs",
+    "passed": 23,
+    "failed": 0,
+    "skipped": 0,
+    "fixtureKind": "synthetic; no upstream HTTP used in unit tests",
+    "evidence": "evidence/unit-tests.tap"
+  },
+  "syntaxChecks": [
+    {
+      "file": "scripts/export-for-vite.mjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "scripts/nanoka-sync.mjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "scripts/verify-kit.mjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "tests/nanoka-sync.test.mjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "tools/network-discovery/discover.mjs",
+      "exitCode": 0,
+      "stderr": ""
+    }
+  ],
+  "referenceTypeCheck": {
+    "command": "tsc --noEmit --strict --skipLibCheck --target ES2020 reference/ui-data-contract.ts",
+    "exitCode": 0
+  },
+  "utf8AndJsonValidation": "PASS",
+  "originalProjectSummaryByteIdentical": true,
+  "networkProbe": {
+    "exitCode": 2,
+    "successfulJsonResponses": 0,
+    "failedResources": 1,
+    "evidenceDirectory": "evidence/UPSTREAM_PROBE_FROM_PREPARATION",
+    "result": "Not accessible from this environment; no raw game data obtained"
+  },
+  "notTested": [
+    "Actual D:\\sayari-project source build/lint/browser UI",
+    "Windows execution",
+    "Successful Nanoka API responses and current entity counts",
+    "Playwright discovery against the live Nanoka site",
+    "Firebase deployment or production CORS"
+  ],
+  "meaning": "Tooling passes the listed offline checks. Not evidence of live API completeness or a completed project implementation."
+}

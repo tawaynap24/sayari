@@ -1,0 +1,1468 @@
+{
+  "id": 1,
+  "name": "Annihilation Simulacrum",
+  "version": "3.0.0",
+  "banner": "Data/UI/HardCoreBoss/Banner_S1.png",
+  "start_time": "2026-06-17 06:00:00",
+  "end_time": "2026-10-21 05:59:59",
+  "unlock_condition": "30070055&1040141061",
+  "reward_group": [
+    30100104
+  ],
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  },
+  "boss": {
+    "100001": {
+      "id": 100001,
+      "name": "Integrated - Primordial Nightmare",
+      "icon": "Data/UI/HardCoreBoss/Icon_100001.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_Vessel.png",
+      "monster_path": "HardCore/HardCore_Monster_Vessel",
+      "monster_sub_id": 900031413,
+      "avatar_level": 60,
+      "reward_group": [
+        30100101
+      ],
+      "tutorial_id": 1100150,
+      "challenge_group_id": 12770011,
+      "mode": {
+        "200001": {
+          "id": 200001,
+          "difficulty": 1,
+          "version": "3.0.0",
+          "battle_id": 70702073,
+          "time_limit": 600,
+          "avatar_level": 55,
+          "desc": "[Special Challenge] Prevent Integrated - Primordial Nightmare from performing no more than 3 State Switches throughout the entire battle.\n\n[Stage Overview]\nAt the start of combat and upon recovering from Stun, the Boss will have half its Daze gauge filled.\nWhen <color=#FFAF2C>Swift Flying Sword</color> hits the Boss, it prevents them from performing a <color=#FFAF2C>State Switch</color> for a period of time.\nWhenever the Boss's <color=#FFAF2C>accumulated Daze</color> or <color=#FFAF2C>reduced Miasmic Shield</color> reaches a certain threshold, it will attempt a <color=#FFAF2C>State Switch</color>. If it succeeds, the Boss's current <color=#FFAF2C>Daze</color> and <color=#FFAF2C>Miasmic Shield</color> values undergo a <color=#FFAF2C>proportional conversion</color>.\nWhen Agents perform a Defensive Assist, Perfect Dodge, or Ultimate, or apply an Attribute Anomaly to the enemy, the cooldown of <color=#FFAF2C>Swift Flying Sword</color> is reduced.\nWhile the Miasmic Shield is active, Agents <color=#FFAF2C>blocking the Boss's attacks will additionally reduce the Miasmic Shield value</color>.",
+          "medal_id": 0,
+          "config_id": 600501,
+          "quest_id": 12770001,
+          "zone_type": 201,
+          "zone": {
+            "7000160": {
+              "name": "Integrated - Primordial Nightmare",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702073": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vessel.png",
+                  "monster_list": {
+                    "31412": {
+                      "id": 40000,
+                      "name": "Primordial Nightmare - \"The Creator\"",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vessel.png",
+                      "element": {
+                        "ice": -1,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": -1,
+                        "physical": 1,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 21465691.319744997,
+                        "attack": 2347.636363636364,
+                        "defence": 476.40000000000003,
+                        "stun": 32241.412500000002,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "200": "Physical"
+                  },
+                  "monster_resistance": {
+                    "202": "Ice",
+                    "205": "Ether"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69010301": {
+                  "title": "Aberration",
+                  "desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+                },
+                "69011301": {
+                  "title": "Meditation",
+                  "desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
+                },
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                }
+              }
+            }
+          }
+        },
+        "200002": {
+          "id": 200002,
+          "difficulty": 2,
+          "version": "3.0.0",
+          "battle_id": 70702074,
+          "time_limit": 300,
+          "avatar_level": 60,
+          "desc": "[Special Challenge] Prevent Integrated - Primordial Nightmare from performing no more than 3 State Switches throughout the entire battle\n\n[Stage Overview]\nAt the start of combat and upon recovering from Stun, the Boss will have half its Daze gauge filled.\nWhen <color=#FFAF2C>Swift Flying Sword</color> hits the Boss, it prevents them from performing a <color=#FFAF2C>State Switch</color> for a period of time.\nWhenever the Boss's <color=#FFAF2C>accumulated Daze</color> or <color=#FFAF2C>reduced Miasmic Shield</color> reaches a certain threshold, it will attempt a <color=#FFAF2C>State Switch</color>. If it succeeds, the Boss's current <color=#FFAF2C>Daze</color> and <color=#FFAF2C>Miasmic Shield</color> values undergo a <color=#FFAF2C>proportional conversion</color>.\nWhen Agents perform a Defensive Assist, Perfect Dodge, or Ultimate, or apply an Attribute Anomaly to the enemy, the cooldown of <color=#FFAF2C>Swift Flying Sword</color> is reduced.\nWhile the Miasmic Shield is active, Agents <color=#FFAF2C>blocking the Boss's attacks will additionally reduce the Miasmic Shield value</color>.",
+          "medal_id": 11001,
+          "config_id": 600502,
+          "quest_id": 12770002,
+          "zone_type": 201,
+          "zone": {
+            "7000161": {
+              "name": "Integrated - Primordial Nightmare",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702074": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vessel.png",
+                  "monster_list": {
+                    "31412": {
+                      "id": 40000,
+                      "name": "Primordial Nightmare - \"The Creator\"",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vessel.png",
+                      "element": {
+                        "ice": -1,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": -1,
+                        "physical": 1,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 39864342.2535,
+                        "attack": 6338.618181818182,
+                        "defence": 476.40000000000003,
+                        "stun": 32241.412500000002,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "200": "Physical"
+                  },
+                  "monster_resistance": {
+                    "202": "Ice",
+                    "205": "Ether"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 1,
+              "s_rank_goal": 0,
+              "a_rank_goal": 1,
+              "b_rank_goal": 4,
+              "selectable_buff": {
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69010301": {
+                  "title": "Aberration",
+                  "desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+                },
+                "69011301": {
+                  "title": "Meditation",
+                  "desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
+                },
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "100002": {
+      "id": 100002,
+      "name": "Integrated: Drowned Ideal - Komano Manato",
+      "icon": "Data/UI/HardCoreBoss/Icon_100002.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_NoranoEgo_Slime.png",
+      "monster_path": "HardCore/HardCore_Monster_NoranoEgo_Slime",
+      "monster_sub_id": 900031295,
+      "avatar_level": 60,
+      "reward_group": [
+        30100102
+      ],
+      "tutorial_id": 1100160,
+      "challenge_group_id": 12770012,
+      "mode": {
+        "200003": {
+          "id": 200003,
+          "difficulty": 1,
+          "version": "3.0.0",
+          "battle_id": 70702075,
+          "time_limit": 600,
+          "avatar_level": 55,
+          "desc": "[Special Challenge] Prevent \"Integrated - Drowned Ideal - Komano Manato\" from ever entering <color=#FFAF2C>Miasmic Shield Frenzy</color>.\n\n[Stage Overview]\nIn combat, the Boss starts with half of its Miasmic Shield value. Agents' attacks will not <color=#FFAF2C> reduce its Miasmic Shield value</color>. Triggering a Defensive Assist, or landing an Ultimate, EX Special Attack, or Assist Follow-Up <color=#FFAF2C>on the Boss while its blocking</color> will <color=#FFAF2C>break the Boss's blocking state and reduce its Miasmic Shield value</color>. When the Miasmic Shield value is reduced to zero, the Boss will immediately become Stunned.\nThe Boss gains Miasmic Shield value when its <color=#FFAF2C>attacks hit</color> an Agent or when it <color=#FFAF2C>blocks</color> an Agent's attack. If the Boss's Miasmic Shield accumulates to its maximum value, he will enter <color=#FFAF2C>Miasmic Shield Frenzy</color>. In this state, \"Integrated - Drowned Ideal - Komano Manato\" <color=#FFAF2C>cannot be interrupted</color>, and his aggression increases.",
+          "medal_id": 0,
+          "config_id": 600503,
+          "quest_id": 12770003,
+          "zone_type": 201,
+          "zone": {
+            "7000162": {
+              "name": "Integrated: Drowned Ideal - Komano Manato",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702075": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Norano.png",
+                  "monster_list": {
+                    "31295": {
+                      "id": 30040,
+                      "name": "Drowned Ideal - Komano Manato",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Norano.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 18180677.667239998,
+                        "attack": 2347.636363636364,
+                        "defence": 952.8000000000001,
+                        "stun": 19540.25,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "202": "Ice"
+                  },
+                  "monster_resistance": {
+                    "200": "Physical"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                },
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69011601": {
+                  "title": "Artful",
+                  "desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+                },
+                "69012201": {
+                  "title": "Pinnacle",
+                  "desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 10%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent Sheer DMG additionally <color=#2BAD00>increases by 30%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 45%</color> for 10s. Repeated triggers reset the duration."
+                }
+              }
+            }
+          }
+        },
+        "200004": {
+          "id": 200004,
+          "difficulty": 2,
+          "version": "3.0.0",
+          "battle_id": 70702076,
+          "time_limit": 300,
+          "avatar_level": 60,
+          "desc": "[Special Challenge] Prevent \"Integrated - Drowned Ideal - Komano Manato\" from ever entering <color=#FFAF2C>Miasmic Shield Frenzy</color>.\n\n[Stage Overview]\nIn combat, the Boss starts with half of its Miasmic Shield value. Agents' attacks will not <color=#FFAF2C> reduce its Miasmic Shield value</color>. Triggering a Defensive Assist, or landing an Ultimate, EX Special Attack, or Assist Follow-Up <color=#FFAF2C>on the Boss while its blocking</color> will <color=#FFAF2C>break the Boss's blocking state and reduce its Miasmic Shield value</color>. When the Miasmic Shield value is reduced to zero, the Boss will immediately become Stunned.\nThe Boss gains Miasmic Shield value when its <color=#FFAF2C>attacks hit</color> an Agent or when it <color=#FFAF2C>blocks</color> an Agent's attack. If the Boss's Miasmic Shield accumulates to its maximum value, he will enter <color=#FFAF2C>Miasmic Shield Frenzy</color>. In this state, \"Integrated - Drowned Ideal - Komano Manato\" <color=#FFAF2C>cannot be interrupted</color>, and his aggression increases.",
+          "medal_id": 11002,
+          "config_id": 600504,
+          "quest_id": 12770004,
+          "zone_type": 201,
+          "zone": {
+            "7000163": {
+              "name": "Integrated: Drowned Ideal - Komano Manato",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702076": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Norano.png",
+                  "monster_list": {
+                    "31295": {
+                      "id": 30040,
+                      "name": "Drowned Ideal - Komano Manato",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Norano.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 33764839.199999996,
+                        "attack": 6338.618181818182,
+                        "defence": 952.8000000000001,
+                        "stun": 19540.25,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "202": "Ice"
+                  },
+                  "monster_resistance": {
+                    "200": "Physical"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                },
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69011601": {
+                  "title": "Artful",
+                  "desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+                },
+                "69012201": {
+                  "title": "Pinnacle",
+                  "desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 10%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent Sheer DMG additionally <color=#2BAD00>increases by 30%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 45%</color> for 10s. Repeated triggers reset the duration."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "100003": {
+      "id": 100003,
+      "name": "Integrated: Shining Promise - Billy",
+      "icon": "Data/UI/HardCoreBoss/Icon_100003.png",
+      "image": "UI/Sprite/A1DynamicLoad/HardCoreBossBattle/UnPacker/HardCore_Monster_InnerKnight.png",
+      "monster_path": "HardCore/HardCore_Monster_InnerKnight",
+      "monster_sub_id": 900031463,
+      "avatar_level": 60,
+      "reward_group": [
+        30100103
+      ],
+      "tutorial_id": 1100170,
+      "challenge_group_id": 12770013,
+      "mode": {
+        "200005": {
+          "id": 200005,
+          "difficulty": 1,
+          "version": "3.0.0",
+          "battle_id": 70702077,
+          "time_limit": 600,
+          "avatar_level": 55,
+          "desc": "[Special Challenge] Don't let Agents accumulate 20 stacks of <color=#FFAF2C>Etch</color>\n\n[Stage Overview]\nDuring combat, the Boss will leave a zone called <color=#FFAF2C>Starlight Arena</color> on the field every 10s. Agents within this zone will gain 1 stack of <color=#FFAF2C>Etch</color> every 1.5s. <color=#FFAF2C>Etch</color> has a maximum of 20 stacks.\nEach stack of <color=#FFAF2C>Etch</color> increases all Agents' Anomaly Buildup Rate by 40% and causes the currently active Agent to continuously lose HP.\nAgents can transfer 2 stacks of <color=#FFAF2C>Etch</color> to the Boss by triggering a Defensive Assist or a block. Triggering a Dodge Counter will transfer 1 stack of Etch to the Boss. Inflicting an Attribute Anomaly on the Boss transfers 4 stacks of <color=#FFAF2C>Etch</color> to the Boss. Stunning the Boss transfers all stacks of <color=#FFAF2C>Etch</color> to the Boss. When the Boss's accumulated <color=#FFAF2C>Etch</color> reaches the maximum number of stacks, all <color=#FFFFFF>Etch</color> stacks are detonated, dealing DMG to Integrated - Shining Promise - Billy equal to a percentage of his Max HP, and restoring HP to all Agents' equal to 50% of their lost HP.\nWhen the Boss successfully deals DMG with certain attacks, 2 stacks of <color=#FFAF2C>Etch</color> are transferred to the Agent.",
+          "medal_id": 0,
+          "config_id": 600505,
+          "quest_id": 12770005,
+          "zone_type": 201,
+          "zone": {
+            "7000164": {
+              "name": "Integrated: Shining Promise - Billy",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702077": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_InnerKnight.png",
+                  "monster_list": {
+                    "31463": {
+                      "id": 30047,
+                      "name": "Shining Promise - Billy",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnight.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 31816607.97816,
+                        "attack": 2347.636363636364,
+                        "defence": 952.8000000000001,
+                        "stun": 19540.25,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "202": "Ice"
+                  },
+                  "monster_resistance": {
+                    "200": "Physical"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 0,
+              "s_rank_goal": 150,
+              "a_rank_goal": 210,
+              "b_rank_goal": 300,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                },
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69011601": {
+                  "title": "Artful",
+                  "desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+                },
+                "69012201": {
+                  "title": "Pinnacle",
+                  "desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 10%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent Sheer DMG additionally <color=#2BAD00>increases by 30%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 45%</color> for 10s. Repeated triggers reset the duration."
+                }
+              }
+            }
+          }
+        },
+        "200006": {
+          "id": 200006,
+          "difficulty": 2,
+          "version": "3.0.0",
+          "battle_id": 70702078,
+          "time_limit": 300,
+          "avatar_level": 60,
+          "desc": "[Special Challenge] Don't let Agents accumulate 20 stacks of <color=#FFAF2C>Etch</color>\n\n[Stage Overview]\nDuring combat, the Boss will leave a zone called <color=#FFAF2C>Starlight Arena</color> on the field every 10s. Agents within this zone will gain 1 stack of <color=#FFAF2C>Etch</color> every 1.5s. <color=#FFAF2C>Etch</color> has a maximum of 20 stacks.\nEach stack of <color=#FFAF2C>Etch</color> increases all Agents' Anomaly Buildup Rate by 40% and causes the currently active Agent to continuously lose HP.\nAgents can transfer 2 stacks of <color=#FFAF2C>Etch</color> to the Boss by triggering a Defensive Assist or a block. Triggering a Dodge Counter will transfer 1 stack of Etch to the Boss. Inflicting an Attribute Anomaly on the Boss transfers 4 stacks of <color=#FFAF2C>Etch</color> to the Boss. Stunning the Boss transfers all stacks of <color=#FFAF2C>Etch</color> to the Boss. When the Boss's accumulated <color=#FFAF2C>Etch</color> reaches the maximum number of stacks, all <color=#FFFFFF>Etch</color> stacks are detonated, dealing DMG to Integrated - Shining Promise - Billy equal to a percentage of his Max HP, and restoring HP to all Agents' equal to 50% of their lost HP.\nWhen the Boss successfully deals DMG with certain attacks, 2 stacks of <color=#FFAF2C>Etch</color> are transferred to the Agent.",
+          "medal_id": 11003,
+          "config_id": 600506,
+          "quest_id": 12770006,
+          "zone_type": 201,
+          "zone": {
+            "7000165": {
+              "name": "Integrated: Shining Promise - Billy",
+              "stage_num": 1,
+              "monster_level": 70,
+              "layer_buff": {
+                "8001001": {
+                  "title": "",
+                  "desc": "Hugo: [Totalize] DMG significantly increased"
+                },
+                "8001002": {
+                  "title": "",
+                  "desc": "Evelyn: Chain Attack DMG significantly increased"
+                },
+                "8001003": {
+                  "title": "",
+                  "desc": "Yidhari: Sheer DMG significantly increased"
+                },
+                "8001004": {
+                  "title": "",
+                  "desc": "Jane: [Assault] CRIT DMG significantly increased"
+                },
+                "8001005": {
+                  "title": "",
+                  "desc": "Yanagi: Anomaly DMG and Disorder DMG significantly increased"
+                },
+                "8001006": {
+                  "title": "",
+                  "desc": "Caesar: While Radiant Aegis is active, the whole squad takes significantly less DMG"
+                }
+              },
+              "layer_room": {
+                "70702078": {
+                  "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_InnerKnight.png",
+                  "monster_list": {
+                    "31463": {
+                      "id": 30047,
+                      "name": "Shining Promise - Billy",
+                      "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnight.png",
+                      "element": {
+                        "ice": 0,
+                        "fire": 0,
+                        "electric": 0,
+                        "ether": 0,
+                        "physical": 0,
+                        "wind": 0
+                      },
+                      "stats": {
+                        "hp": 64744079.166,
+                        "attack": 4695.272727272728,
+                        "defence": 952.8000000000001,
+                        "stun": 19540.25,
+                        "attribute_infliction": 0.0
+                      }
+                    }
+                  },
+                  "monster_weakness": {
+                    "202": "Ice"
+                  },
+                  "monster_resistance": {
+                    "200": "Physical"
+                  },
+                  "waves_num": 1
+                }
+              },
+              "goal_type": 1,
+              "s_rank_goal": 0,
+              "a_rank_goal": 1,
+              "b_rank_goal": 4,
+              "selectable_buff": {
+                "69012702": {
+                  "title": "Tempering Body",
+                  "desc": "· Agents deal <color=#2BAD00>20% more</color> DMG and attacks ignore <color=#2BAD00>10%</color> of enemy All-DMG RES.\n· Attack specialty Agents' ATK <color=#2BAD00>increases by 20%</color>, Basic Attack DMG <color=#2BAD00>increases by 40%</color>, and ignore <color=#2BAD00>20%</color> of enemy DEF."
+                },
+                "69013101": {
+                  "title": "Blazing Sweep",
+                  "desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, their All-Attribute RES <color=#2BAD00>decreases by 10%</color>, and their <color=#FE437E>Ether RES</color> decreases by <color=#2BAD00>10%</color> for 15s. Repeated triggers refresh the duration.\n· Agent's Attribute Anomaly DMG <color=#2BAD00>increases by 15%</color>, their Abloom DMG <color=#2BAD00>increases by 15%</color>, and the Anomaly Buildup from their Chain Attacks and Ultimates <color=#2BAD00>increases by 20%</color>."
+                },
+                "69011601": {
+                  "title": "Artful",
+                  "desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+                },
+                "69012201": {
+                  "title": "Pinnacle",
+                  "desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 10%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent Sheer DMG additionally <color=#2BAD00>increases by 30%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 45%</color> for 10s. Repeated triggers reset the duration."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

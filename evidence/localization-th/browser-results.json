@@ -1,0 +1,4389 @@
+{
+  "at": "2026-10-17T20:09:59.737Z",
+  "origin": "http://127.0.0.1:5174",
+  "nanokaRunId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "sourceRevision": "462563ec0f8ffc7493f6e2a46f64f8b34ea2d547",
+  "results": [
+    {
+      "name": "Thai default ignores the English browser locale",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Agent skill name, description and real game formatting",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "id": "1011",
+        "translationKey": "Anbi_Skill_Normal_Desc"
+      }
+    },
+    {
+      "name": "Mindscape name and description come from the verified Thai key",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Partially translated agent discloses English fallback",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "mapped": 151,
+        "fallback": 13,
+        "missing": 3
+      }
+    },
+    {
+      "name": "W-Engine name and story change to Thai",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Drive Disc set effects use verified Thai text",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "id": "31000",
+        "key": "EquipmentSuit_31000_4_des"
+      }
+    },
+    {
+      "name": "Bangboo description and skill translations are present",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "skillPath": "/skill/a/level/1/desc",
+        "key": "Bangboo_ActiveSkill_Des_53001"
+      }
+    },
+    {
+      "name": "Materials/items list supports Thai names and Thai search",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "id": "1",
+        "name": "เหรียญเฟือง"
+      }
+    },
+    {
+      "name": "Enemy and achievement data retain source references",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Settings changes language immediately and preserves numeric stats",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "numericValues": 32,
+        "reloads": 0
+      }
+    },
+    {
+      "name": "English preference persists across reload and a new page",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Switching back to Thai changes real skill descriptions",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Latest 3.3 never borrows Thai data from 3.2",
+      "kind": "REAL_DATA",
+      "status": "PASS",
+      "detail": {
+        "newAgentId": "1631",
+        "version": "3.3.12+19629936"
+      }
+    },
+    {
+      "name": "Exact raw JSON download remains the original Nanoka bytes",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Translation metadata unavailable: English fallback and retry",
+      "kind": "INJECTED_TRANSPORT_FAILURE_WITH_REAL_NANOKA",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt translation chunk is rejected by hash validation",
+      "kind": "INJECTED_CORRUPTION_WITH_REAL_NANOKA",
+      "status": "PASS"
+    },
+    {
+      "name": "Thai layout and Settings work at mobile/tablet/desktop widths",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "API Explorer still exposes original resources in both site languages",
+      "kind": "REAL_DATA",
+      "status": "PASS"
+    },
+    {
+      "name": "Calculator regression and black base remain intact",
+      "kind": "REAL_APP",
+      "status": "PASS"
+    },
+    {
+      "name": "No upstream TextMaps or provider JSON are requested in the browser",
+      "kind": "REAL_NETWORK_AUDIT",
+      "status": "PASS",
+      "detail": {
+        "requests": 1061,
+        "localizedChunkRequests": 40,
+        "upstreamJsonRequests": 0
+      }
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole11.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole12.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole05.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole52.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole09.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole25.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole10.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole13.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole14.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole15.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole16.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole17.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole18.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole27.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole26.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole32.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole20.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole21.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole35.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole22.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole31.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole23.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole29.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=weapon&id=12001",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/2b31ac63d34a0ff6b85587370972cb536f89559f0b48f59fe0c42af2fed32376.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/1f11c71eea7dfe440b30a8303d2d5789902d78b84805a443bc1830ce4095c214.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/Weapon_B_Common_01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/1008af08ca2741864447846b7bbc06b3d63add6a556f9a3af0224413a62a8298.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/25e3fce6d43b36a80159499b643896f40e8b01a1bc52d21b2a42d99bf5a4c39b.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=equipment&id=31000",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/44257c768809225de33ac50cb08ada9cdea3e0cd6dfdf8b59ed5c8ee20f525f7.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/6490c8c540e75090c20234600f00ffae7c4a7d11c0959cbe495e21c8be53154d.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/SuitWoodpeckerElectro.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/6e432ddff67214d39cab72a123f375feb919c466a3bf4c37bf2d4243fa426a13.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/47d1d36ce79d835834eaa5eee3579e1a12d8b3346bb1574267a95bb6ae95bc51.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=bangboo&id=53001",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/788878bfff6efbb1e6568d6fee4220fb5cf366aa2e39f494188b151d8706a34e.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/10754f2832816a5d2ca5b612ccd71d8470083421d7da2c9c251197899a4d5b1e.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/BangbooGarageRole12.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/bb6f48bfaa39e32ed28b1a174ed83e44ce34e36e9d4492afe4e1d21ca2339900.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/cd48cbcbf7e07c449d9366d5d54b13fc1cbf95ded24cc784ea008f9c9ee4c363.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=item",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconFund.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/ChessBoardItemIcon_Key.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconCoin.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconCurrency.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconCurrency02.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaTicket1.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaTicket2.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaTicket3.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaPoint.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaPoint2.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/GachaPoint3.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/AbyssShopCoin.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/ChallengeShopCoin.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/FashionStoreToken.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/YanagiActivityToken.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/LighterActivityToken.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/HarumasaActivityToken.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/ActivityGildedCarrotDayCoin.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/ArcadeGameToken00.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/141WasteBattery.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/TestItemIcon.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=item_all&id=1",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/421a13e88264f96abe6cd52a29a7b00598b525083a40cb8a0bd1af2e1c46eed5.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconFund.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/9c7a0866504699ccba9cad81f5751e1838fe8efb8407f02704f66613fa0c9b64.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=monster&id=10000",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/1080bac8101c684c480f84c5f2580591bb5c587a18680899d33fe85b1e2b9288.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/1d43d6fa8e25a87dd5b82f5a01d7040f1fec19b238ae1e33bf52e03cae6e2f8f.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/Monster_ClaymoreGrey.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/68cdcdae092559fd415fc4ecce945cccd5b69153303ed4c45c49a594f3c119fb.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/f0d26b416f302d41cd190ca936be489076e1c5f9ef656df81128109b1c0d7492.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=achievement&id=1001001",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/db4d4aa0838dcc7088ec1e2d135e42d5c642742d3bca806259cb87cd6e76229d.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/bd18fa3a4e935c1ccc15ead7deb90ee7b422ffedca52eb6aa722b67edb1122e5.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011&lang=en",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole11.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole12.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole05.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole52.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole09.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole25.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole10.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole13.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole14.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole15.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole16.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole17.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole18.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole27.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole26.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole32.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole20.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole21.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole35.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole22.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole31.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole23.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole29.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole11.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole12.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole05.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole52.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole09.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole25.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole10.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole13.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole14.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole15.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole16.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole17.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole18.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole27.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole26.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole32.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole20.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole21.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole35.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole22.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole31.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole23.webp",
+      "type": "image"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole29.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&version=3.3.12%2B19629936&id=1631",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/80b4fd1f2fa3f1b7ca53428468e12cb74a112e056804def1fed6a0874e701925.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/f47955db84c29245149f126640e4f6cb4f5160efe8ff0f7d8e5fbe18f8bec20a.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/0375799901bb81236d4fac02b4b068a05b42c5e5242afa958202767103819ee4.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole1631.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "edge://downloads-hub/",
+      "type": "document"
+    },
+    {
+      "url": "edge://downloads-hub/downloads-hub-app.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/edge-hub-toolbar.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/downloads-list.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/download-item.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/text.styles.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/button.styles.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/text-input.styles.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/link.styles.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/progress-bar.styles.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/downloads-header.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/edge-hub-header.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-button.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-text-input.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-message-bar.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-text.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/download-group.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-link.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-progress-bar.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/downloads-modal-dialog.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-menu-list.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://downloads-hub/mai-menu-item.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "edge://fileicon/?path=D%3A%5CGoDot%5C.tmp%5Cplaywright-artifacts-FSTpsa%5C71cc4252-b0c4-478b-b72b-c623dd2d17f1",
+      "type": "image"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "edge://resources/js/edge-color-change-listener.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://downloads-hub/hub.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://downloads-hub/chunk-4MIULB4A.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/js/edge-error-reporting.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/js/edge_color_change_listener_browser_proxy-2FITRY4R.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/js/edge_color_change_listener.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo/public/js/bindings.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo_browser_proxy.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/js/load_time_data.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/js/assert.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "edge://downloads-hub/edge_downloads.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo/public/mojom/base/string16.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/url/mojom/url.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo/public/mojom/base/string16.mojom-converters.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/mojo/public/mojom/base/string16_converter.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/url/mojom/url.mojom-converters.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://resources/mojo/url/mojom/url_converter.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://downloads-hub/edge_downloads_btr.mojom-webui.js",
+      "type": "script"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "edge://downloads-hub/icons.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?category=character&id=1011",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/c3c2b449710f3685769b4b115c7236a0e4d60c101687ac012ac57f8f5c1cd2d8.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/85d47b2e683908bb46e1d84991722c67007c95a9e9bf0c3577e9ef13c96dba54.json",
+      "type": "fetch"
+    },
+    {
+      "url": "https://static.nanoka.cc/assets/zzz/IconRole01.webp",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/e21850d36def82c5f0f12823e7c702f07fff11fc9e03f569ca3a819d0a70174c.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/096c1015d7f9e1c690c26df9536c944d0bf0a297684fa6bcedabc5aaf79226fc.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero/database?view=api",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/client.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/components.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/hooks.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/nanoka/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/hooks.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/components.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/ui.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/client.ts?t=1792267397591",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/GameText.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/format.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/discovery.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/86d0bb5bbf18c68da5deb2b82268ca0b0d25a1d9479c429aa1b63141493f3c23.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/current.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/releases/8e9810d872cc6edf866ff3eb4e6231732f12c4bc4b00b07616bfd43fa1005cab/manifest.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/localization/objects/70dceb4207f9ef4c0de7cc87f2e71e3e6fb880b179de7343c26ea7142cfc4558.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/nanoka/snapshots/2026-10-17T18-43-20-900Z-a22a7754/objects/f9d5bd9caedb2b45046a70821e89b67339603396977152423a790ccb666808d0.json",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:5174/game/zenless-zone-zero",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@vite/client",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/main.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/@react-refresh",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/vite/dist/client/env.mjs",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-dom_client.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/App.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/index.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-N6MYFXC3.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-NRYBWBEN.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/LanguageProvider.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/react-router-dom.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/@mui_material.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/routes/routeList.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/node_modules/.vite/deps/chunk-FVZZTKNL.js?v=54289b3d",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/context.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/model.ts",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/features/localization/style.css",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/home/index.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/index.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/database/route.tsx?t=1792267743698",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/src/views/games/zenless-zone-zero/card.tsx",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:5174/vite.svg",
+      "type": "other"
+    }
+  ]
+}

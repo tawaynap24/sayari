@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "provider": "Nanoka ZZZ",
+  "runId": "2026-10-17T18-43-20-900Z-a22a7754",
+  "catalog": "snapshots/2026-10-17T18-43-20-900Z-a22a7754/catalog.json",
+  "publishedAt": "2026-10-17T18:46:38.457Z",
+  "dataStatus": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+  "referenceUrl": "https://zzz.nanoka.cc/"
+}

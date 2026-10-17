@@ -1,0 +1,84 @@
+{
+  "capturedAt": "2026-10-17T19:03:58.456Z",
+  "branch": "main",
+  "head": "161dd6972cbc411f3b4c55860b63f8c5c8b4428b",
+  "remote": "https://github.com/tawaynap24/sayari.git",
+  "status": "M .eslintrc.cjs\n M .gitignore\n M README.md\n M firebase.json\n M package.json\n M src/index.css\n M src/routes/route.tsx\n M src/routes/routeList.tsx\n M vite.config.ts\n?? .gitattributes\n?? SAYARI_NANOKA_ZZZ_CODEX_KIT_20261018/\n?? docs/\n?? evidence/\n?? public/nanoka/\n?? src/features/\n?? src/views/games/zenless-zone-zero/database/\n?? tools/",
+  "preserved": [
+    {
+      "path": "src/App.tsx",
+      "before": "43444dfa08899b9ad76e989fa5f64b3480ac6a2788f0895da1fde3ea0410d23d",
+      "after": "43444dfa08899b9ad76e989fa5f64b3480ac6a2788f0895da1fde3ea0410d23d",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/react.svg",
+      "before": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "after": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "unchanged": true
+    },
+    {
+      "path": "src/index.css",
+      "before": "7fae9fa328cc4f0deb6230408607782c0a798fdf26e55533fe7cc8ff95eeb99f",
+      "after": "7fae9fa328cc4f0deb6230408607782c0a798fdf26e55533fe7cc8ff95eeb99f",
+      "unchanged": true
+    },
+    {
+      "path": "src/main.tsx",
+      "before": "abe0edc1f91f5d414bbfb8f335f8871b4bf4edf07a861ab225e368a8319cdb6b",
+      "after": "abe0edc1f91f5d414bbfb8f335f8871b4bf4edf07a861ab225e368a8319cdb6b",
+      "unchanged": true
+    },
+    {
+      "path": "src/routes/route.tsx",
+      "before": "f3bd841d64317f8c17ff3e24e9efbfbc06e83d837bd80a87ca322bf9c31ab1f0",
+      "after": "f75e0b593725b5afe68432907dd4b57cfc7508d292b419d27dadb038593cf441",
+      "unchanged": false
+    },
+    {
+      "path": "src/routes/routeList.tsx",
+      "before": "ff845f725d1a74c7461f2f291567a7c63eea2db01b6c6526e02c80bce19e7285",
+      "after": "753dbd67b90b4ef8bd8216811da15ae85893acd67ce6f93e41ca83c3e4dc1e85",
+      "unchanged": false
+    },
+    {
+      "path": "src/views/games/zenless-zone-zero/card.tsx",
+      "before": "28cbb69cb84c1a4b8fd1a369bedc1a4f61c8f487393feaee18e69b655569cc85",
+      "after": "28cbb69cb84c1a4b8fd1a369bedc1a4f61c8f487393feaee18e69b655569cc85",
+      "unchanged": true
+    },
+    {
+      "path": "src/views/games/zenless-zone-zero/data.ts",
+      "before": "403f8705d4d8d4f29ed7317f8d1c7515b94e467bb45abfba708f6569c07e4352",
+      "after": "403f8705d4d8d4f29ed7317f8d1c7515b94e467bb45abfba708f6569c07e4352",
+      "unchanged": true
+    },
+    {
+      "path": "src/views/games/zenless-zone-zero/index.tsx",
+      "before": "82ea68666b824b794059418e56d75c498e08cee3a3e171f2c3b0f1891380a5bd",
+      "after": "82ea68666b824b794059418e56d75c498e08cee3a3e171f2c3b0f1891380a5bd",
+      "unchanged": true
+    },
+    {
+      "path": "src/views/games/zenless-zone-zero/type.ts",
+      "before": "c6415254e9f8c34036d03263956da79e60bee925407b8412e6399e373843b399",
+      "after": "c6415254e9f8c34036d03263956da79e60bee925407b8412e6399e373843b399",
+      "unchanged": true
+    },
+    {
+      "path": "src/views/home/index.tsx",
+      "before": "31647c8aa5bd815dcb67b089fcc9af9ca9968516c3732d0a9d2501f1f0b8cb39",
+      "after": "31647c8aa5bd815dcb67b089fcc9af9ca9968516c3732d0a9d2501f1f0b8cb39",
+      "unchanged": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "before": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "after": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "unchanged": true
+    }
+  ],
+  "calculatorUnchanged": true,
+  "originalBlackCssPreserved": true,
+  "homeUnchanged": true
+}

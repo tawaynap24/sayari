@@ -1,0 +1,4267 @@
+{
+  "id": 102,
+  "end_time": "2026-02-05 03:59:59",
+  "record": {
+    "1": {
+      "id": 1020803,
+      "name": "エンディング1・導き手",
+      "desc": "あなたの導きなら、誰も道を見失わない",
+      "text": "<color=#FFAF2C>予想以上の</color>人員と時間を費やしたが、少なくとも悪くない結末に辿り着くことができた…共生ホロウの異常な拡張は徐々に抑え込まれ、残りは後片付けだけだった。\n\nあなたはホロウに迷い込んだ人々を救うことを決して諦めない。なぜなら、伝説プロキシがホロウの中で決して迷わない唯一の秘訣、それは——差し伸べられた手を<color=#FFAF2C>決して</color>離さないことだと、あなたは知っているからだ。\n\nそうして、あなたは何度でも人助けの依頼を引き受ける。果てしない宇宙から、光らない惑星を探しつづけるように。\n\n…物語は続く。長く、素晴らしい物語が、これからも続いていく。",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss04.png"
+    },
+    "2": {
+      "id": 1020802,
+      "name": "エンディング2・呑み込まれて…",
+      "desc": "悲しみと後悔を、もう一度もがくための力に",
+      "text": "ホロウが街のほぼ半分を呑み込んだあの災厄の日から、あなたは崖を落ち続けるような感覚に襲われてきた。\n\nあなたはプロキシ——ホロウの内外にいるすべての人々を繋ぐ存在だ。\n<color=#FFAF2C>あなたが不注意で自分の命綱を切ってしまえば、すべての人々はあなたと共に、奈落へ落ちることになる。</color>\n\nあなたは後始末をしながら、どこで最後のチャンスを逃したのかと考え…やがて、答えを探すことをやめた。今さら、何の意味もないのだ。\nホロウは混沌で無秩序、理解する必要などない。やるべきことはただ一つ、征服すること。\n\n——この街が、完全に崩壊する前に。",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss02.png"
+    },
+    "3": {
+      "id": 1020801,
+      "name": "エンディング3・伝説の名のもとに",
+      "desc": "汚名返上、新エリー都の救世主",
+      "text": "おかえりなさい、<color=#FFAF2C>「パエトーン」</color>！\nこの伝説の称号が何事もなく日の目を浴びていることを、あなたは不思議に思うかもしれない…しかし事実、あなたは讃頌会の恐るべき陰謀のうごめくホロウを鎮圧し、新エリー都に平和と繁栄、そして安全を取り戻したのだ。これほど偉大な功績は、一切の汚名を洗い流してなお余るだろう。\n<color=#FFAF2C>「旧都陥落の秘密」</color>や<color=#FFAF2C>「行方不明の先生」</color>については…今は考えないでおこう！真相をすべて同時に解明する必要はない。それに、今からそれらに取り掛かるととんでもない残業になってしまう。\n\n今は、六分街のビデオ屋に戻って、殺到する会員カードの申し込みに応えよう。\nそして、最も信頼のおける筆頭助手に、新しい設備を揃えてあげよう。電気代を気にする必要はもうない、なぜなら、率先してその費用を負担してくれる人が多く現れるはずだから。\n最後に、あなたの大切な家族とともに、取材や撮影に応じよう。\n…そうだ、もうひとつ！TOPS財政ユニオンのスカウトには、高額オファーでも軽い口調で断って、「ただ普通の暮らしがしたいだけ{M#なんだ}{F#なの}」と言っておこう。\n\nあなたはこの先も、街を救う旅を続けるだろう。しかし今後、あなたがビデオ屋に戻るたびに、きっと六分街中のささやきが聞こえてくるはずだ。\n\n<color=#FFAF2C>伝説のプロキシ——「パエトーン」</color>が帰ってきた、と。",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss03.png"
+    }
+  },
+  "node": {
+    "10201": {
+      "id": 10201,
+      "name": "INTRO",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Tale_01.png",
+      "type": 4,
+      "prev_node": 0,
+      "story_event": {
+        "1020101": {
+          "1000501": {
+            "id": 1000501,
+            "name": "Fairyからの注意",
+            "desc": "「マスター、<color=#FFAF2C>ホロウ</color>へようこそ」\nいつものように、Fairyの声が耳元で響く。\n\n「これより、貴方様の心身の健康のため、どのような状況に遭遇してもパニックを起こさないよう願います。なお、すでに私の方で<color=#FFAF2C>不安をかき立てるシーン</color>は事前にブロックいたしました」\n「同時に、歓声も上げないようお願いします。<color=#FFAF2C>過度に刺激的なシーン</color>と判断した場合も、ブロックの対象となりえますので」\n\n「ご案内：今回の推演ではエージェントたちの実際の外見を借りていますが、以降はマスターが下す決断と、私の人間社会への理解を元に、発生しうる状況を自動生成いたします。<color=#FFAF2C>違和感がありましたらお伝えください。次回の改善の参考にいたします</color>」",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          }
+        }
+      },
+      "battle": {}
+    },
+    "10202": {
+      "id": 10202,
+      "name": "STAGE 01",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Level01.png",
+      "type": 2,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "1020201": {
+          "id": 1020201,
+          "name": "STAGE 01",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000114,
+            "monster_level": 60,
+            "layer_buff": {
+              "69010106": {
+                "title": "",
+                "desc": "・ボスエネミーの与ダメージ+25%。<color=#FFAF2C>分身が撃破</color>された/<color=#FFAF2C>本体がブレイク状態に入った</color>時、ボスエネミーに<color=#FFFFFF>「パニック」</color>を1重/5重付与する。<color=#FFFFFF>「パニック」</color>1重につき、ボスエネミーの与ダメージ-5%、エージェントから受ける<color=#98EFF0>氷属性ダメージ</color>と<color=#2EB6FF>電気属性ダメージ</color><color=#FFAF2C>+10%</color>。敵がブレイク状態から復帰した時、<color=#FFFFFF>「パニック」</color>の重数がリセットされる。"
+              },
+              "69010109": {
+                "title": "",
+                "desc": "・<color=#FFAF2C>ダンサーの分身を撃破する</color>と、<color=#FFAF2C>200操作スコア</color>を獲得する、最大5000まで獲得可能。"
+              },
+              "69012103": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 40000,
+            "a_rank_goal": 28000,
+            "b_rank_goal": 12000
+          },
+          "selectable_buff": {
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69010103": {
+              "title": "看破",
+              "desc": "・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『極限支援』</color>発動後、チーム全体の攻撃力が<color=#2BAD00>+10%</color>、会心ダメージ<color=#2BAD00>+10%</color>、継続時間15秒、最大3重まで重ね掛け可能、継続時間は1重ごとに独立してカウントされる。"
+            },
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702027": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousMarionette.png",
+              "monster_list": {
+                "11861": {
+                  "id": 300121,
+                  "name": "要警戒・マリオネット",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousMarionette.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 11426209.146,
+                    "attack": 2744.1818181818185,
+                    "defence": 952.8000000000001,
+                    "stun": 12559.82,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020202": {
+          "id": 1020202,
+          "name": "1-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000115,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69010103": {
+              "title": "看破",
+              "desc": "・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『極限支援』</color>発動後、チーム全体の攻撃力が<color=#2BAD00>+10%</color>、会心ダメージ<color=#2BAD00>+10%</color>、継続時間15秒、最大3重まで重ね掛け可能、継続時間は1重ごとに独立してカウントされる。"
+            },
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702028": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Thracian.png",
+              "monster_list": {
+                "11711": {
+                  "id": 30023,
+                  "name": "トラキアン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Thracian.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9099177.120000001,
+                    "attack": 2554.2000000000003,
+                    "defence": 952.8000000000001,
+                    "stun": 11523.6,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11115": {
+                  "id": 20000,
+                  "name": "ファールバウティ",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 4307022.72,
+                    "attack": 2051.1000000000004,
+                    "defence": 857.5200000000001,
+                    "stun": 9410.94,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020203": {
+          "id": 1020203,
+          "name": "1-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000116,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69010103": {
+              "title": "看破",
+              "desc": "・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『極限支援』</color>発動後、チーム全体の攻撃力が<color=#2BAD00>+10%</color>、会心ダメージ<color=#2BAD00>+10%</color>、継続時間15秒、最大3重まで重ね掛け可能、継続時間は1重ごとに独立してカウントされる。"
+            },
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702029": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaTerrorBird.png",
+              "monster_list": {
+                "31262": {
+                  "id": 30036,
+                  "name": "ミアズミック・テラー・ラプトル",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaTerrorBird.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 12776120.280000001,
+                    "attack": 2786.4,
+                    "defence": 952.8000000000001,
+                    "stun": 12072.06,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11197": {
+                  "id": 200031,
+                  "name": "アーマーハティ・蓄エネ型",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGreyPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": -1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3200192.8200000003,
+                    "attack": 2244.6000000000004,
+                    "defence": 857.5200000000001,
+                    "stun": 5243.04,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020204": {
+          "id": 1020204,
+          "name": "1-3",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000117,
+            "monster_level": 60,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69010103": {
+              "title": "看破",
+              "desc": "・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『極限支援』</color>発動後、チーム全体の攻撃力が<color=#2BAD00>+10%</color>、会心ダメージ<color=#2BAD00>+10%</color>、継続時間15秒、最大3重まで重ね掛け可能、継続時間は1重ごとに独立してカウントされる。"
+            },
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702030": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaHugoSlime.png",
+              "monster_list": {
+                "31132": {
+                  "id": 930176,
+                  "name": "ミアズミック・深淵の断罪者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaHugoSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 11271981.996000001,
+                    "attack": 2786.4,
+                    "defence": 952.8000000000001,
+                    "stun": 12072.06,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11355": {
+                  "id": 20017,
+                  "name": "殴り屋",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3129197.94,
+                    "attack": 1857.6000000000001,
+                    "defence": 794.0,
+                    "stun": 7490.34,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11324": {
+                  "id": 10018,
+                  "name": "密猟者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 496405.4040000001,
+                    "attack": 1044.9,
+                    "defence": 635.2,
+                    "stun": 1782.0,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "204": "風"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    },
+    "10203": {
+      "id": 10203,
+      "name": "PLOT 01",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Tale_01.png",
+      "type": 1,
+      "prev_node": 0,
+      "story_event": {
+        "1020301": {
+          "1000601": {
+            "id": 1000601,
+            "name": "救助要請に応じたら",
+            "desc": "ホロウでの公演は幕を閉じた。エージェントたちはマリオネットのカーテンコールを名残惜しそうに眺めながら、都市伝説に語られる「バレエツインズ」の舞台裏について、そのピースを埋めるべく想像を巡らせ始めていた。\nしかし、あなたはそれをすぐ止めさせた——ホロウでは別れがつきもの。生きている者は、ただ悲しみを抱きとめ、未来へ歩むことができるだけなのだから。\n\n少し考えた後、あなたは仲間を慰めるべく口を開いた。\n「会いたくなったら<color=#FFAF2C>要警戒狩り</color>に行こ{M#う}。毎週会える{M#さ}{F#よ}」\n…怪訝な顔をされたが、慰めの意図は伝わったようだ。あなたたちは前を向いて再び歩み始めた。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [
+              1000602
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000602": {
+            "id": 1000602,
+            "name": "救助要請に応じたら",
+            "desc": "「た、助けてくれ…！」\n助けを求める声が響く——ホロウではお馴染みの光景だ。そして、この霧の奥にいるのは本当に悲惨な負傷者なのか、それとも未知の危険なのか、まだ不明であることもお馴染みの話だった。\n「簡単にでいいから、何があったか教えて{M#くれ}！」\nあなたはホロウの深層に向かって、大声で問いかけた。\n\n「ここは危険だ、あのエーテリアス…げほっ…」\nすぐに弱々しい、咳の混ざった返答が聞こえてきた。\n「…唱えてるんだ」\n「唱えて？なにを——」\n\n「<color=#FFAF2C>…始まりの主よ、再創を！</color>ってな…」",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story04.png",
+            "choice": [],
+            "next_page": [
+              1000603
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000603": {
+            "id": 1000603,
+            "name": "救助要請に応じたら",
+            "desc": "…その言葉を復唱するエーテリアスは、決して少なくはない。\n\nあなたは負傷者の話を一旦信じることにしたが、重要な任務もあるため、あまり時間を無駄にはできない。\n\nここで、先に目の前にいる負傷者を助けるか——\n計画通り前進し、この共生ホロウのコアを探すか——\n\n——あなたの選択が、<color=#FFAF2C>PLOT 2</color>の運命を分岐させるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story04.png",
+            "choice": [
+              {
+                "id": 1,
+                "name": "先に負傷者を助ける",
+                "desc": ""
+              },
+              {
+                "id": 2,
+                "name": "先にホロウを制圧する",
+                "desc": "STAGE 01の[決戦]で28000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [
+              1000604,
+              1000605
+            ],
+            "next_node_unlock": [
+              1020501,
+              1020502
+            ],
+            "next_record_unlock": []
+          },
+          "1000604": {
+            "id": 1000604,
+            "name": "救助要請に応じたら",
+            "desc": "迎えてくれたのは、銃撃の嵐だった。\n助けを求めていたのは負傷者ではなく、悪辣なホロウレイダーの一味だった。彼らは讃頌会のメンバーと激戦を繰り広げた後に敗走し、通りがかったあなたたちから物資を巻きあげようとしたのだ。\n\n——しかし、その判断は間違いだった！ホロウ内で最も恐ろ…いや、最も<color=#FFAF2C>正義心</color>溢れるあなたとエージェントたちに手を出してしまったのは。ホロウレイダーたちはコテンパンにされ、逆に物資をすべて差し出すしかなかった。\n\n「『今夜ホロウで何を食べる？エーテリアス調理ブック』って…何{M#だ}？捨てよ{M#う}。『妄想エンジェル』のサイン入り写真…これは一時没収{M#だな}{F#だね}。他には…うん、これは役に立ちそう{M#だ}！」\n\n——<color=#FFAF2C>「トドメ用拳銃」</color>を手に入れた。これを持って、次の危機を解決しに行こう。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000605": {
+            "id": 1000605,
+            "name": "救助要請に応じたら",
+            "desc": "あなたは元の計画を貫くことにした。経験豊富なプロキシとして、ホロウでは誰であろうと安易に信用すべきでないと、身に沁みて知っているから。\n\n——そして、この慎重さがあるからこそ、あなたはホロウを制し続けてきたのだ！あなたが罠に踏み入れないことを悟ると、負傷者を装っていた讃頌会のメンバーたちが霧の奥から現れ、あなたたちを包囲した。\n\nそして、少し遠くに倒れているたくさんの人影を見て、あなたは息を呑んだ…それは以前会ったことのある治安官たちの姿だった。\n彼らは讃頌会の陰謀に巻き込まれ、サクリファイスの実験台にされたのだ…このような極悪非道を、許すわけにはいかない。\n\n——<color=#FFAF2C>「激情」</color>を獲得した。この怒りは、復讐によってのみ鎮められるだろう。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story02.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          }
+        }
+      },
+      "battle": {}
+    },
+    "10204": {
+      "id": 10204,
+      "name": "STAGE 02",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Level01.png",
+      "type": 2,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "1020401": {
+          "id": 1020401,
+          "name": "STAGE 02",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000118,
+            "monster_level": 63,
+            "layer_buff": {
+              "69010505": {
+                "title": "",
+                "desc": "・ボスエネミーを<color=#FFAF2C>状態異常にした、または「混沌」効果を付与した時</color>、チーム全体が<color=#FFFFFF>「一心不乱」</color>を1重獲得する、最大6重まで重ね掛け可能。<color=#FFFFFF>「一心不乱」</color>1重につき、エージェントの<color=#FFAF2C>攻撃力+8%</color>。<color=#FFFFFF>「一心不乱」</color>を3重以上所持する場合、任意メンバーが敵を<color=#FFAF2C>状態異常にした時、「一心不乱」効果の継続時間が5秒延長される</color>。サクリファイス・ブリンガーが「牲祭の刃」を召喚して攻撃を発動する時、チーム全体の<color=#FFFFFF>「一心不乱」</color>の重数がリセットされる。"
+              },
+              "69010107": {
+                "title": "",
+                "desc": "・<color=#FFAF2C>詠唱を中断させる</color>と、<color=#FFAF2C>2000操作スコア</color>を獲得する、最大5000まで獲得可能。"
+              },
+              "69010506": {
+                "title": "",
+                "desc": ""
+              },
+              "69011203": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 40000,
+            "a_rank_goal": 28000,
+            "b_rank_goal": 12000
+          },
+          "selectable_buff": {
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69010302": {
+              "title": "霜雷",
+              "desc": "・エージェントの<color=#2EB6FF>電気属性</color>と<color=#98EFF0>氷属性</color>の与ダメージ<color=#2BAD00>+25%</color>。\n・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+40%</color>、敵の防御力を<color=#2BAD00>15%</color>無視する。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702031": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
+              "monster_list": {
+                "11818": {
+                  "id": 30024,
+                  "name": "サクリファイス・ブリンガー",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 14790360.76,
+                    "attack": 3407.575757575758,
+                    "defence": 952.8000000000001,
+                    "stun": 15230.599999999999,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020402": {
+          "id": 1020402,
+          "name": "2-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000119,
+            "monster_level": 63,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69010302": {
+              "title": "霜雷",
+              "desc": "・エージェントの<color=#2EB6FF>電気属性</color>と<color=#98EFF0>氷属性</color>の与ダメージ<color=#2BAD00>+25%</color>。\n・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+40%</color>、敵の防御力を<color=#2BAD00>15%</color>無視する。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702032": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TacticalAssaultGunner.png",
+              "monster_list": {
+                "11971": {
+                  "id": 200092,
+                  "name": "特戦強襲爆撃手",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TacticalAssaultGunner.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": -1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9759438.0,
+                    "attack": 2880.0,
+                    "defence": 952.8000000000001,
+                    "stun": 12742.73,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11052": {
+                  "id": 300021,
+                  "name": "「ガーディアンⅡ型」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": -1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 4579848.0,
+                    "attack": 2120.0,
+                    "defence": 857.5200000000001,
+                    "stun": 9933.769999999999,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020403": {
+          "id": 1020403,
+          "name": "2-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000120,
+            "monster_level": 63,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69010302": {
+              "title": "霜雷",
+              "desc": "・エージェントの<color=#2EB6FF>電気属性</color>と<color=#98EFF0>氷属性</color>の与ダメージ<color=#2BAD00>+25%</color>。\n・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+40%</color>、敵の防御力を<color=#2BAD00>15%</color>無視する。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702033": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_DubiousHero.png",
+              "monster_list": {
+                "11671": {
+                  "id": 30019,
+                  "name": "剛力横暴者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DubiousHero.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 11434416.75,
+                    "attack": 2640.0,
+                    "defence": 952.8000000000001,
+                    "stun": 11584.869999999999,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11342": {
+                  "id": 100151,
+                  "name": "強奪者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaiderPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 846663.75,
+                    "attack": 1260.0,
+                    "defence": 635.2,
+                    "stun": 1880.9999999999998,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11332": {
+                  "id": 100161,
+                  "name": "焼却狂",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPyromaniacPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 719795.25,
+                    "attack": 1080.0,
+                    "defence": 635.2,
+                    "stun": 1880.9999999999998,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11353": {
+                  "id": 200172,
+                  "name": "元凶・札付き殴り屋",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerBoss.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 10772289.0,
+                    "attack": 2400.0,
+                    "defence": 952.8000000000001,
+                    "stun": 11584.869999999999,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020404": {
+          "id": 1020404,
+          "name": "2-3",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000121,
+            "monster_level": 63,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69010302": {
+              "title": "霜雷",
+              "desc": "・エージェントの<color=#2EB6FF>電気属性</color>と<color=#98EFF0>氷属性</color>の与ダメージ<color=#2BAD00>+25%</color>。\n・<color=#FFFFFF>『通常攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『ダッシュ攻撃』</color>の与ダメージ<color=#2BAD00>+40%</color>、敵の防御力を<color=#2BAD00>15%</color>無視する。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702034": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HansOverclocked.png",
+              "monster_list": {
+                "11752": {
+                  "id": 300004,
+                  "name": "電離体・デュラハン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 2826091.95,
+                    "attack": 2220.0,
+                    "defence": 921.0400000000001,
+                    "stun": 8301.48,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11782": {
+                  "id": 30018,
+                  "name": "電離体・ナセリア",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 527849.8500000001,
+                    "attack": 1200.0,
+                    "defence": 571.6800000000001,
+                    "stun": 1880.9999999999998,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11403": {
+                  "id": 300052,
+                  "name": "ハンス・高周波数型",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HansOverclocked.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 8274517.350000001,
+                    "attack": 2400.0,
+                    "defence": 952.8000000000001,
+                    "stun": 15025.009999999998,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    },
+    "10205": {
+      "id": 10205,
+      "name": "PLOT 02",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Tale_01.png",
+      "type": 1,
+      "prev_node": 0,
+      "story_event": {
+        "1020501": {
+          "1000701": {
+            "id": 1000701,
+            "name": "深淵もまたこちらを…",
+            "desc": "あなたはいびつな腕型サクリファイスを倒し、正気を失ったその口からさらなる情報を引き出そうとした。が、その時、先ほど手に入れた「トドメ用拳銃」に異変が起きた。黒い銃身が勝手にサクリファイスの頭部に向けられ、引き金が作動し…目の前のすべてを吹き飛ばしてしまった。\n\nそのまま消滅しようとしている拳銃に触れると、新たな情報がポップアップされた。\n\n「<color=#FFAF2C>これは自動でトドメを刺す拳銃です。ただし、必要な時には必ず故障しているでしょう。この拳銃の唯一の役割は、倒された相手が死ぬ間際にネタバレをしないよう、迅速にトドメを刺すことです</color>」\nよく見てみると、他のページもある…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [
+              1000702
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000702": {
+            "id": 1000702,
+            "name": "深淵もまたこちらを…",
+            "desc": "「<color=#FFAF2C>筆頭助手</color>より重要なお知らせ：収集データは推演を完了するには不足しています。スムーズな体験を保てるよう、ランダムにプロットを自動生成いたしました。ご満足頂けなかった場合、次回は別のものに変更いたします」\n\nあなたはこの説明を受け入れた。\nとにかく、これでホロウ内の大きな問題が一つ片づいて、先へ進めるようになったのだ。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [
+              1000703
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000703": {
+            "id": 1000703,
+            "name": "深淵もまたこちらを…",
+            "desc": "先へ進むと、ホロウ内で<color=#FFAF2C>預言者</color>を名乗る人物に出会った。彼は讃頌会の<color=#FFAF2C>裏切り者</color>を自称している。\n満足いく報酬を差し出せば、未来を予言してやろう、とのことだが…\n\n「そうだな…超臨界エーテルコアの炭火焼はないか？それか低温熟成されたトラキアンか…難しいなら、エーテル魔花の冷製サラダでもいい…これもない？なら互いに一歩譲って、デザートにしよう——ドッペルゲンガーのミルフィーユは？」\n\nどれも聞いたことさえない料理だが、あなたは解決策を思いついた。\n\n——あなたの選択が、<color=#FFAF2C>PLOT 3</color>の運命を分岐させるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story09.png",
+            "choice": [
+              {
+                "id": 3,
+                "name": "腕型のサクリファイスなら倒したと伝える",
+                "desc": ""
+              },
+              {
+                "id": 4,
+                "name": "力ずくで脅す",
+                "desc": "STAGE 02の[決戦]で28000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [
+              1000704,
+              1000705
+            ],
+            "next_node_unlock": [
+              1020701,
+              1020702
+            ],
+            "next_record_unlock": []
+          },
+          "1000704": {
+            "id": 1000704,
+            "name": "深淵もまたこちらを…",
+            "desc": "「知っているぞ、『サクリファイス・ブリンガー』だな！彼は始まりの主より授かった使命を見事果たした！お前が倒したのなら、私はその後悔と無念を味わわせてもらおう…ああ、既にその芳醇が舌を昇るようだ！」\n\nそう言って預言者は急ぎ足で食事へと向かった。去り際に、不吉な予言を一つ残しながら…\n\n「<color=#FFAF2C>司教様</color>はお前を見ている。大切な<color=#FFAF2C>記憶</color>を隠すといい。それがいつか、お前自身に牙を向けないように…」\n\nあなたはその予言を胸に刻み、ホロウの深層へと進んだ…すると、驚くべきことに、その予言は現実のものとなるのだった…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story12.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000705": {
+            "id": 1000705,
+            "name": "深淵もまたこちらを…",
+            "desc": "ホロウで誰よりも<color=#FFAF2C>正義心</color>溢れるのがあなたとエージェントたちだ、もちろん悪の脅しになど屈しはしない。あなたたちは正体不明の預言者に対し、AIに自動規制されそうな「手段」をさまざまに講じ、その結果、彼は怒りに震えつつも、とうとう力なく口を開いた。\n\n「<color=#FFAF2C>司教様</color>は、げほっ…この街を見ている。<color=#FFAF2C>お前の大切な仲間を奪う、その時まで、ずっとな…</color>」\n\nあなたはその予言を信じることなく、振り返らずホロウの深層へ進んだ…しかし、驚くべきことに、その予言は現実のものとなるのだった…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story06.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          }
+        },
+        "1020502": {
+          "1000801": {
+            "id": 1000801,
+            "name": "過去の幻",
+            "desc": "あなたとエージェントたちは<color=#FFAF2C>激情</color>に駆られ腕型のサクリファイスを討ち倒した！そして、<color=#FFAF2C>激情</color>に駆られその体から情報を引き出そうとし、<color=#FFAF2C>激情</color>に駆られ手を伸ばした――しかし、ついに我を失い、大量のエーテルパワータンクを投げつけてしまった。\n\n大爆発がすべての証拠と、あなたたちの<color=#FFAF2C>激情</color>を跡形もなく消し去った。\n\n冷静さを取り戻し、あなたは考え始めた。\n「Fairy？みんなの感情を過剰に演算しすぎ{M#だ}。エージェントたちのパラメータが上がりすぎて<color=#FFAF2C>暴走</color>{M#してしまったじゃないか}{F#しちゃったんだけど？}」\n「マスター、貴方様が時々ストーリーを『スキップ』したいと仰っていたため、より早く次のイベントノードへ到達できるよう、パラメータのアルゴリズムを自動生成いたしました。ご満足頂けなかった場合、次回は別のものに変更いたします」\n\nあなたはこの説明を受け入れ、再び前へ進み始めた。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [
+              1000802
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000802": {
+            "id": 1000802,
+            "name": "過去の幻",
+            "desc": "進めば進むほど、あなたはこのホロウが異質だと感じる。\n濁ったミアズマ、幻覚、高濃度のエーテル、道中で時々出くわす遭難者、そして軍が戦闘した痕まで…\n\n「一体ここで何があった{M#んだ}{F#の}？この奥にいるのは…本当にただの高活性エーテリアス{M#なのか}{F#…}？」\n\n砲撃の音があなたの思考を遮った。顔を上げると、霧の中に<color=#FFAF2C>かつての防衛軍の制服</color>を着た兵士たちが、まるで幽霊のように、道の奥からゆらりと現れた。\n\nあれは幻か…それとも現実か？\n\n——あなたの選択が、<color=#FFAF2C>PLOT 4</color>の運命を分岐させるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story05.png",
+            "choice": [
+              {
+                "id": 5,
+                "name": "これはミアズマが見せる幻覚だ…",
+                "desc": ""
+              },
+              {
+                "id": 6,
+                "name": "攻撃を仕掛ける",
+                "desc": "STAGE 02の[決戦]で28000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [
+              1000803,
+              1000804
+            ],
+            "next_node_unlock": [
+              1020703,
+              1020704
+            ],
+            "next_record_unlock": []
+          },
+          "1000803": {
+            "id": 1000803,
+            "name": "過去の幻",
+            "desc": "霧の中に揺らめく幻はミアズマが作り出す幻覚にすぎないと、あなたは判断した。ホロウの中では時として、声も、景色さえも、真実ではない。\nそして、そういった虚飾の裏に潜むのは、より恐ろしい存在にほかならない。\n\n「見てください、空が…<color=#FFAF2C>赤い霧</color>に覆われています！」\nそれは、かの存在があなたたちに近づいている証だった。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story02.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1000804": {
+            "id": 1000804,
+            "name": "過去の幻",
+            "desc": "強烈な予感があなたを襲った――あれは危険だ！あの幻は実在していて、その裏にはさらに大きな秘密が隠されている…あなたはそう確信した。\nあなたとエージェントたちは幻に攻撃を仕掛けた…結果、それは確かにミアズマによって作られた存在で、姿形があり、消滅させることができるものだった。\nしかし、これほどの騒ぎを起こせば、裏に潜む者に気づかれないわけがない――讃頌会の信徒たちがここを嗅ぎつけてきた。\n\nやむを得ず、あなたは熟練のホロウレイダーのように、襲いくる敵をまとめて片づけた。\nその後、信徒の持ち物を確認した…あなたはますます、ホロウレイダーらしくなった。\n\n――<color=#FFAF2C>「讃頌会の信徒がよく着ている服」</color>を獲得した。\n\n変装したあなたたちは、道中の讃頌会の信徒たちを無事ごまかすことに成功し、やがて司教のいる深層の祭壇に辿り着いた…\nこの機を逃さず、攻勢に出よう——！",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story07.png",
+            "choice": [],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          }
+        }
+      },
+      "battle": {}
+    },
+    "10206": {
+      "id": 10206,
+      "name": "STAGE 03",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Level01.png",
+      "type": 2,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "1020601": {
+          "id": 1020601,
+          "name": "STAGE 03",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000122,
+            "monster_level": 65,
+            "layer_buff": {
+              "69011302": {
+                "title": "",
+                "desc": "・ミアズマの司祭が段階を切り替えるたびに、自身の状態異常蓄積耐性+10%、受ける会心ダメージ+30%、最大2重まで重ね掛け可能、<Term:2000002>「ミアズマシールド」</Term>が破壊されると、重数をリセットする。"
+              },
+              "69011303": {
+                "title": "",
+                "desc": "・エージェントが<color=#FFAF2C>3秒以内に『パリィ支援』を3回発動</color>すると、<color=#FFAF2C>1000操作スコア</color>を獲得する、最大5000まで獲得可能。"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702035": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MentorMevorakh.png",
+              "monster_list": {
+                "31032": {
+                  "id": 30033,
+                  "name": "ミアズマの司祭",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_MentorMevorakh.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 10221639.3345,
+                    "attack": 2173.009090909091,
+                    "defence": 952.8000000000001,
+                    "stun": 15584.800000000001,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020602": {
+          "id": 1020602,
+          "name": "3-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000123,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702036": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MetalGorilla.png",
+              "monster_list": {
+                "11613": {
+                  "id": 200251,
+                  "name": "ドッペルゲンガー・ベルラム",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 5977940.1,
+                    "attack": 2369.88,
+                    "defence": 794.0,
+                    "stun": 15435.36,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11063": {
+                  "id": 30008,
+                  "name": "「テューポーン・チャレンジャー」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MetalGorilla.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9163808.040000001,
+                    "attack": 2696.7599999999998,
+                    "defence": 952.8000000000001,
+                    "stun": 11972.880000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020603": {
+          "id": 1020603,
+          "name": "3-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000124,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702037": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TerrorBird.png",
+              "monster_list": {
+                "11941": {
+                  "id": 30026,
+                  "name": "テラー・ラプトル",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TerrorBird.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 11743962.36,
+                    "attack": 2941.92,
+                    "defence": 952.8000000000001,
+                    "stun": 13169.52,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31182": {
+                  "id": 10032,
+                  "name": "ミアズマのひな",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaSpawn.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1304824.02,
+                    "attack": 1470.96,
+                    "defence": 635.2,
+                    "stun": 2138.4,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020604": {
+          "id": 1020604,
+          "name": "3-3",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000125,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702038": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_DurahanBoss.png",
+              "monster_list": {
+                "11156": {
+                  "id": 300005,
+                  "name": "要警戒・デュラハン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanBoss.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9163808.040000001,
+                    "attack": 2451.6,
+                    "defence": 952.8000000000001,
+                    "stun": 11972.880000000001,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11194": {
+                  "id": 20003,
+                  "name": "アーマーハティ",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3545254.38,
+                    "attack": 2369.88,
+                    "defence": 857.5200000000001,
+                    "stun": 5719.68,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020605": {
+          "id": 1020605,
+          "name": "3-4",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000126,
+            "monster_level": 65,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69011301": {
+              "title": "精神集中",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+30%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『終結スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+15%</color>、<color=#FE437E>エーテル属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color><color=#2BAD00>+40%</color>、継続時間20秒。"
+            },
+            "69010201": {
+              "title": "遊刃",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+25%</color>、異常マスタリー<color=#2BAD00>+40Pt</color>。\n・敵を状態異常にした時、エージェントは追加で<color=#2BAD00>デシベル値を500獲得し</color>、攻撃力<color=#2BAD00>+30%</color>、継続時間15秒。デシベル値獲得効果は15秒に1回のみ発動可能。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702039": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaJaneSlime.png",
+              "monster_list": {
+                "31122": {
+                  "id": 930175,
+                  "name": "ミアズミック・ジェーン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaJaneSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 12487386.164000003,
+                    "attack": 2941.92,
+                    "defence": 952.8000000000001,
+                    "stun": 13169.52,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11364": {
+                  "id": 20015,
+                  "name": "殴打暴虐者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 2610267.044,
+                    "attack": 1756.98,
+                    "defence": 794.0,
+                    "stun": 6233.76,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "204": "風"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    },
+    "10207": {
+      "id": 10207,
+      "name": "PLOT 03",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Tale_01.png",
+      "type": 1,
+      "prev_node": 0,
+      "story_event": {
+        "1020701": {
+          "1000901": {
+            "id": 1000901,
+            "name": "支援要請",
+            "desc": "行く手を阻む司教は討たれたが、ホロウのエーテル濃度は一向に薄まる気配がなかった。\nあなたは胸に刻んだ予言を思い出し、この先により恐ろしい<color=#FFAF2C>ミアズマの造物</color>が待ち受けているのだと悟った。それは、不幸な記憶を糧に、ミアズマを力に、消え去ったはずの哀れな魂を蘇らせるのだろう…たとえ、本人がそれをまったく望んでいなくとも。\nあなたは深くため息をつく…誰が、かつての友人と闘う覚悟を決められるというのか？\n\n「ふむ、知人を手にかけられないのなら、ターゲットを互いに<color=#FFAF2C>交換</color>しようではないか」\n不意に、奇妙な会話が聞こえてきた。\n\n「お互いのターゲットを倒すことで、お互いにアリバイを作ることができ、動機も疑われなくなる、ですか…正直、確かにご退場願いたい者もいるのです」\n…ありえない。これは<color=#FFAF2C>ミアズマによる幻聴</color>に違いない、こんなところで犯罪の計画が練られているわけはないのだから。\n\n何はともあれ、その「助け合い」に関する会話から、あなたは問題を解決するヒントを得た。もしホロウ拡大の危機がより深刻になり、自分たちの手に負えなくなったのなら、その時は…\n——あなたの選択によって、<color=#FFAF2C>FINAL STAGE</color>で対峙する最後の敵が決まるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story10.png",
+            "choice": [
+              {
+                "id": 7,
+                "name": "筆頭助手に助けを求める",
+                "desc": ""
+              },
+              {
+                "id": 8,
+                "name": "ホロウの外のみんなに助けを求める",
+                "desc": "STAGE 03の[決戦]で35000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              1020803,
+              1020803
+            ]
+          }
+        },
+        "1020702": {
+          "1001001": {
+            "id": 1001001,
+            "name": "凶兆",
+            "desc": "あなたたちはやはり、讃頌会の神秘なる存在に遭遇した…接触するたび、彼らはもはや人ならざる存在なのだと感じる。\n肉体も、理念も、もはや善と悪の概念さえ持たず、ただ恐ろしい熱狂のみが残されている——彼らが信じているのは、一体…\n\n「…<color=#FFAF2C>大切な仲間</color>を奪う、その時まで、ずっとな…」\n\nあの不吉な予言が何度も脳裏をよぎる。讃頌会の司教と対峙した時点で、予言の半分はすでに現実となっていた。残り半分は…\n\nあなたは、今すぐにでも仲間たちの無事を確かめたくなる。しかし、残された時間では、電話をかけられたとしてせいぜい1回までだ…\n\n——あなたの選択によって、<color=#FFAF2C>FINAL STAGE</color>で対峙する最後の敵が決まるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story11.png",
+            "choice": [
+              {
+                "id": 9,
+                "name": "対ホロウ行動部に連絡する",
+                "desc": ""
+              },
+              {
+                "id": 10,
+                "name": "適当観に連絡する",
+                "desc": "STAGE 03の[決戦]で35000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              1020803,
+              1020802
+            ]
+          }
+        },
+        "1020703": {
+          "1001101": {
+            "id": 1001101,
+            "name": "あるべき意志",
+            "desc": "「司教」はすでに倒された。しかし溶けたミアズマは未だに何かの意志に導かれるように、<color=#FFAF2C>未知の深層</color>へと集まっている。\n\n人としての在り方を捨てたその時から、彼らにとって個体としての「死」はもはや「死」ではないのだろう——そう考える。\n\nその存在を真に形作るものは、一種の秘密であり、一種の力であり、そして誰一人知り得ない<color=#FFAF2C>遠大な計画</color>なのだ。\nあなたが触れたのは、その氷山の一角にすぎなかった。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story03.png",
+            "choice": [],
+            "next_page": [
+              1001102
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1001102": {
+            "id": 1001102,
+            "name": "あるべき意志",
+            "desc": "「ミアズマの集結を阻止{M#しなければ}{F#しなきゃ}。このまま{M#だと}{F#じゃ}、ホロウの拡張速度はそのうちゼンレス限界を突破し{M#てしまう}{F#ちゃう}！」\n\nミアズマが集まる原因を調査する時間は、もう残されていないかもしれない。\n「<color=#FFAF2C>でも、まだ方法はある——</color>」\n\n共生ホロウの各所に点在し、ずっと除去できなかった過剰な特異性エーテルが、全て一箇所に集められたのなら…そこにはきっと、<color=#FFAF2C>「コア」</color>が形成される。\n\n「コアを壊すか、ホロウに呑まれるか…決戦の時だ{M#な}{F#ね}」\nしかし、その決意がホロウの「意志」に気づかれたかのように、ミアズマ・フィーンドが、再びあなたの前に立ちはだかった…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story08.png",
+            "choice": [],
+            "next_page": [
+              1001103
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1001103": {
+            "id": 1001103,
+            "name": "あるべき意志",
+            "desc": "「ここは我らに任せろ」\n\n最も信頼するエージェントに、あなたは<color=#FFAF2C>抱きとめられた</color>。\n\n「お前は『コア』を見つけに行け…心配せずとも我らは生き残る。あとで迎えに行こう、共にここを出るぞ」\n\n——あなたの選択によって、<color=#FFAF2C>FINAL STAGE</color>で対峙する最後の敵が決まるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story08.png",
+            "choice": [
+              {
+                "id": 11,
+                "name": "残って一緒に戦う",
+                "desc": ""
+              },
+              {
+                "id": 12,
+                "name": "一人でホロウの「コア」を探しに行く",
+                "desc": "STAGE 03の[決戦]で35000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              1020803,
+              1020802
+            ]
+          }
+        },
+        "1020704": {
+          "1001201": {
+            "id": 1001201,
+            "name": "謳われし賛美",
+            "desc": "「司教」を打ち倒したものの、勝利がもたらす喜びは、すぐに広がった異様な光景によって掻き消された——大量のミアズマが奔流のように、ホロウの未知の深層へと流れ始めたのだ…\n\n「ミアズマの集結を<color=#FFAF2C>阻止</color>{M#しなければ}{F#しなきゃ}。このまま{M#だと}{F#じゃ}、ホロウの拡張速度はそのうちゼンレス限界を突破し{M#てしまう}{F#ちゃう}！」\n\n讃頌会の影は、どうやらここ以外にも及んでいるようだ…あなたたちは再び変装用の服を身にまとい、異変が起きた方角へと向かった。",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story02.png",
+            "choice": [],
+            "next_page": [
+              1001202
+            ],
+            "next_node_unlock": [],
+            "next_record_unlock": []
+          },
+          "1001202": {
+            "id": 1001202,
+            "name": "謳われし賛美",
+            "desc": "あなたたちは、真に恐ろしい光景を目の当たりにした。\n無数のミアズマが逆流し、集結し、変化し…やがて、肉体を仮構してゆく。今は亡き「司教」が、血に染まった醜い姿で<color=#FFAF2C>復活</color>を遂げようとしていた…そう、それが司教の正体だったのだ！\n\nどれだけ栄誉が塵にまみれようと、頑なにかつて歩んだ道を歩み続ける、そんな者もいる…いつか、かつてすべての仲間たちと袂を分かつことになる、その時まで。\n\n「司教」もまたあなたたちに気付いたが、こちらの正体までは見抜けていない。\n\n偽物の信徒として、あなたたちは他の狂信者と同じように、自ら<color=#FFAF2C>何かを捧げなければ</color>、信頼を得て、近づく機会を得られないだろう…\n\n——あなたの選択によって、<color=#FFAF2C>FINAL STAGE</color>で対峙する最後の敵が決まるだろう…",
+            "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Level/Story12.png",
+            "choice": [
+              {
+                "id": 13,
+                "name": "血と肉を捧げる",
+                "desc": ""
+              },
+              {
+                "id": 14,
+                "name": "記憶を捧げる",
+                "desc": "STAGE 03の[決戦]で35000以上のスコアを獲得する"
+              }
+            ],
+            "next_page": [],
+            "next_node_unlock": [],
+            "next_record_unlock": [
+              1020802,
+              1020801
+            ]
+          }
+        }
+      },
+      "battle": {}
+    },
+    "10208": {
+      "id": 10208,
+      "name": "LAST STAGE",
+      "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/VoldFront/UnPacker/Boss/Boss05.png",
+      "type": 3,
+      "prev_node": 0,
+      "story_event": {},
+      "battle": {
+        "1020801": {
+          "id": 1020801,
+          "name": "LAST STAGE",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000127,
+            "monster_level": 70,
+            "layer_buff": {
+              "69011902": {
+                "title": "",
+                "desc": "・エージェントの『パリィ支援』が冒涜者に命中した時、チーム全体が<color=#FFFFFF>「裁断」</color>を1重獲得する。エージェントが空中に浮かんで攻撃している「冒涜者」を撃墜した時、チーム全体が<color=#FFFFFF>「裁断」</color>を4重獲得する。「裁断」は6重まで重ね掛け可能、継続時間30秒。重複して発動すると継続時間が更新される。\n・<color=#FFFFFF>「裁断」</color>1重につき、エージェントの会心ダメージ<color=#2BAD00>+5%</color>、物理属性ダメージ<color=#2BAD00>+5%</color>、電気属性ダメージ<color=#2BAD00>+5%</color>。\n・「冒涜者」が受ける状態異常ダメージ‐25%。"
+              },
+              "69011903": {
+                "title": "",
+                "desc": "・エージェントが<color=#FFAF2C>部位破壊を起こした時</color>、<color=#FFAF2C>2500操作スコア</color>を獲得する。エージェントが<color=#FFAF2C>空中に浮かんで攻撃している「冒涜者」を撃墜すると</color>、<color=#FFAF2C>1500操作スコア</color>を獲得する、最大5000まで獲得可能。"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69011901": {
+              "title": "急襲",
+              "desc": "・チーム内に「強攻」のメンバーが1名/2名いる場合、チーム全体の与ダメージ<color=#2BAD00>+20%/40%</color>。\n・会心が出た後、エージェントの<color=#2EB6FF>電気属性ダメージ</color><color=#2BAD00>+30%</color>、「強攻」メンバーの会心ダメージが<color=#2BAD00>追加で+40%</color>、継続時間5秒、重複して発動すると継続時間が更新される。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69010801": {
+              "title": "疲弊",
+              "desc": "・エージェントの与えるブレイク値<color=#2BAD00>+10%</color>、連携スキルの与ダメージ<color=#2BAD00>+50%</color>。\n・<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>、チーム全体の攻撃力<color=#2BAD00>+20%</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702040": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_IsoldetheDefiler.png",
+              "monster_list": {
+                "31142": {
+                  "id": 30038,
+                  "name": "「冒涜者」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_IsoldetheDefiler.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 13757406.569999998,
+                    "attack": 2755.2121212121215,
+                    "defence": 952.8000000000001,
+                    "stun": 19977.350000000002,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020802": {
+          "id": 1020802,
+          "name": "LAST STAGE",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000128,
+            "monster_level": 70,
+            "layer_buff": {
+              "69011602": {
+                "title": "",
+                "desc": "ミアズマ・フィーンドを<color=#FFAF2C>状態異常</color>にする度、エージェントが与える異常ダメージ+8%、最大6重まで重ね掛け可能。ターゲットが<Term:2000002>「ミアズマシールド」</Term>を発動すると、重数はリセットされる。リセットされたバフ1重につき、<color=#FFAF2C>「ミアズマシールド」</color>への削減効率+2.5%。"
+              },
+              "69011603": {
+                "title": "",
+                "desc": "・エージェントがミアズマ・フィーンドの地面攻撃を誘導し、<color=#FFAF2C>一度に5箇所以上のミアズマの沼を起爆させ</color>、かつ<color=#FFAF2C>その攻撃またはミアズマの沼の爆発に被弾しなかった</color>場合、<color=#FFAF2C>1700の操作スコア</color>を獲得する、最大5000まで獲得可能。"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69011601": {
+              "title": "ビビッドなテクニック",
+              "desc": "・エージェントの与ダメージ<color=#2BAD00>+20%</color>、与える<color=#F0D12B>物理属性ダメージ</color>が追加で<color=#2BAD00>+20%</color>。\n・敵を状態異常にした時、敵の防御力<color=#2BAD00>‐10%</color>、継続時間10秒。敵に「混沌」効果を付与した時、敵の防御力は追加で<color=#2BAD00>‐25%</color>、継続時間10秒。継続時間はそれぞれ独立してカウントされる。"
+            },
+            "69011202": {
+              "title": "奏鳴曲",
+              "desc": "・エージェントのデシベル値獲得効率<color=#2BAD00>+20%</color>。\n・<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、その敵のダメージ耐性を<color=#2BAD00>20%</color>無視する。<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、エージェントの<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+50%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+            },
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702041": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
+              "monster_list": {
+                "31062": {
+                  "id": 30034,
+                  "name": "ミアズマ・フィーンド・名は名なれど",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": -1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 16532165.430000002,
+                    "attack": 2755.2121212121215,
+                    "defence": 952.8000000000001,
+                    "stun": 16647.4,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020803": {
+          "id": 1020803,
+          "name": "LAST STAGE",
+          "tag": "<color=#ff4e00>決戦</color>",
+          "tag_type": 1,
+          "a_rank_score_layer_buff": {},
+          "b_rank_score_layer_buff": {},
+          "s_rank_score_layer_buff": {},
+          "layer": {
+            "id": 7000129,
+            "monster_level": 70,
+            "layer_buff": {
+              "69012302": {
+                "title": "",
+                "desc": "・ ワンダリングハンターは「ミアズマ領域」にいる時、基礎防御力+40%。エージェントの<color=#FFAF2C>『支援突撃』または『回避反撃』</color>がワンダリングハンターに命中した時、<color=#FFFFFF>「動揺」</color>を1重付与する。<color=#FFFFFF>「動揺」</color>は5重まで重ね掛け可能、継続時間15秒。重複して発動すると継続時間が更新される。\n・ エージェントの攻撃がワンダリングハンターに命中した時、「動揺」1重につき、エージェントの透徹ダメージ<color=#FFAF2C>+7%</color>。"
+              },
+              "69012303": {
+                "title": "",
+                "desc": "・「かくれんぼフェーズ」において、<color=#FFAF2C>「覚感の術」</color>で<color=#FFAF2C>夢縋り・リュシアの本体</color>を見破ると、<color=#FFAF2C>3000操作スコア</color>を獲得する。本体を見破った後、<color=#FFAF2C>『パリィ支援』または『支援突撃』</color>でワンダリングハンターの攻撃を受け流す、または命中すると、<color=#FFAF2C>2000操作スコア</color>を獲得する。最大5000まで獲得可能。"
+              },
+              "69012102": {
+                "title": "",
+                "desc": ""
+              },
+              "69013010": {
+                "title": "",
+                "desc": "・追加の<color=#FFAF2C>スコア倍率</color>を所持している場合、操作スコアの上限も同時にアップします。"
+              }
+            },
+            "layer_room": {},
+            "goal_type": 2,
+            "s_rank_goal": 50000,
+            "a_rank_goal": 35000,
+            "b_rank_goal": 15000
+          },
+          "selectable_buff": {
+            "69012401": {
+              "title": "結集",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+20%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『強化特殊スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+20%</color>、<color=#FE437E>エーテル属性ダメージ</color><color=#2BAD00>+35%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69010301": {
+              "title": "異象",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+20%</color>。\n・敵を<color=#FFFFFF>状態異常</color>にした時、チーム全体の<color=#2BAD00>異常マスタリー+60Pt</color>、<color=#FFFFFF>混沌</color>によるダメージ<color=#2BAD00>+40%</color>、継続時間15秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702042": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WanderingHunter.png",
+              "monster_list": {
+                "11842": {
+                  "id": 30041,
+                  "name": "ワンダリングハンター",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_WanderingHunter.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 13977883.709999999,
+                    "attack": 3051.9272727272732,
+                    "defence": 1588.0,
+                    "stun": 16283.150000000001,
+                    "attribute_infliction": 10.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020804": {
+          "id": 1020804,
+          "name": "4-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000130,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012401": {
+              "title": "結集",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+20%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『強化特殊スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+20%</color>、<color=#FE437E>エーテル属性ダメージ</color><color=#2BAD00>+35%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69010301": {
+              "title": "異象",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+20%</color>。\n・敵を<color=#FFFFFF>状態異常</color>にした時、チーム全体の<color=#2BAD00>異常マスタリー+60Pt</color>、<color=#FFFFFF>混沌</color>によるダメージ<color=#2BAD00>+40%</color>、継続時間15秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702043": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaThracian.png",
+              "monster_list": {
+                "31102": {
+                  "id": 930178,
+                  "name": "ミアズミック・トラキアン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaThracian.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": -1,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 19038575.16,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31095": {
+                  "id": 930174,
+                  "name": "礼賛者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HymnistWar.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1298410.74,
+                    "attack": 1700.08,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル",
+                "204": "風"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020805": {
+          "id": 1020805,
+          "name": "4-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000131,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011601": {
+              "title": "ビビッドなテクニック",
+              "desc": "・エージェントの与ダメージ<color=#2BAD00>+20%</color>、与える<color=#F0D12B>物理属性ダメージ</color>が追加で<color=#2BAD00>+20%</color>。\n・敵を状態異常にした時、敵の防御力<color=#2BAD00>‐10%</color>、継続時間10秒。敵に「混沌」効果を付与した時、敵の防御力は追加で<color=#2BAD00>‐25%</color>、継続時間10秒。継続時間はそれぞれ独立してカウントされる。"
+            },
+            "69011202": {
+              "title": "奏鳴曲",
+              "desc": "・エージェントのデシベル値獲得効率<color=#2BAD00>+20%</color>。\n・<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、その敵のダメージ耐性を<color=#2BAD00>20%</color>無視する。<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、エージェントの<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+50%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+            },
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702044": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+              "monster_list": {
+                "31112": {
+                  "id": 30035,
+                  "name": "サクリファイス・ヘレティック・ジェスター",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 16899555.96,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11762": {
+                  "id": 100091,
+                  "name": "爆撃猟兵",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GrenadierJaegerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 984731.4,
+                    "attack": 1269.68,
+                    "defence": 635.2,
+                    "stun": 2220.75,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11272": {
+                  "id": 100071,
+                  "name": "練達猟兵",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MeleeJaegerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 895388.22,
+                    "attack": 1420.32,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020806": {
+          "id": 1020806,
+          "name": "4-1",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003103": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003102": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003104": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000132,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011901": {
+              "title": "急襲",
+              "desc": "・チーム内に「強攻」のメンバーが1名/2名いる場合、チーム全体の与ダメージ<color=#2BAD00>+20%/40%</color>。\n・会心が出た後、エージェントの<color=#2EB6FF>電気属性ダメージ</color><color=#2BAD00>+30%</color>、「強攻」メンバーの会心ダメージが<color=#2BAD00>追加で+40%</color>、継続時間5秒、重複して発動すると継続時間が更新される。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69010801": {
+              "title": "疲弊",
+              "desc": "・エージェントの与えるブレイク値<color=#2BAD00>+10%</color>、連携スキルの与ダメージ<color=#2BAD00>+50%</color>。\n・<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>、チーム全体の攻撃力<color=#2BAD00>+20%</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702045": {
+              "monster_icon": "",
+              "monster_list": {
+                "31313": {
+                  "id": 20027,
+                  "name": "ミアズミック・トリノックス",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaTrinox.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 9024965.459999999,
+                    "attack": 2496.32,
+                    "defence": 857.5200000000001,
+                    "stun": 11829.9,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31303": {
+                  "id": 20026,
+                  "name": "ミアズミック・狂乱暴徒",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": -1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 6248153.34,
+                    "attack": 2496.32,
+                    "defence": 857.5200000000001,
+                    "stun": 10285.95,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 1
+            }
+          }
+        },
+        "1020807": {
+          "id": 1020807,
+          "name": "4-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000133,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011901": {
+              "title": "急襲",
+              "desc": "・チーム内に「強攻」のメンバーが1名/2名いる場合、チーム全体の与ダメージ<color=#2BAD00>+20%/40%</color>。\n・会心が出た後、エージェントの<color=#2EB6FF>電気属性ダメージ</color><color=#2BAD00>+30%</color>、「強攻」メンバーの会心ダメージが<color=#2BAD00>追加で+40%</color>、継続時間5秒、重複して発動すると継続時間が更新される。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69010801": {
+              "title": "疲弊",
+              "desc": "・エージェントの与えるブレイク値<color=#2BAD00>+10%</color>、連携スキルの与ダメージ<color=#2BAD00>+50%</color>。\n・<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>、チーム全体の攻撃力<color=#2BAD00>+20%</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702047": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaThracian.png",
+              "monster_list": {
+                "31102": {
+                  "id": 930178,
+                  "name": "ミアズミック・トラキアン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaThracian.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": -1,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 15230860.127999999,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31095": {
+                  "id": 930174,
+                  "name": "礼賛者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HymnistWar.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1038728.592,
+                    "attack": 1700.08,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "205": "エーテル",
+                "204": "風"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020808": {
+          "id": 1020808,
+          "name": "4-3",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000134,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011601": {
+              "title": "ビビッドなテクニック",
+              "desc": "・エージェントの与ダメージ<color=#2BAD00>+20%</color>、与える<color=#F0D12B>物理属性ダメージ</color>が追加で<color=#2BAD00>+20%</color>。\n・敵を状態異常にした時、敵の防御力<color=#2BAD00>‐10%</color>、継続時間10秒。敵に「混沌」効果を付与した時、敵の防御力は追加で<color=#2BAD00>‐25%</color>、継続時間10秒。継続時間はそれぞれ独立してカウントされる。"
+            },
+            "69011202": {
+              "title": "奏鳴曲",
+              "desc": "・エージェントのデシベル値獲得効率<color=#2BAD00>+20%</color>。\n・<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、その敵のダメージ耐性を<color=#2BAD00>20%</color>無視する。<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、エージェントの<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+50%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+            },
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702048": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hecate.png",
+              "monster_list": {
+                "11482": {
+                  "id": 100271,
+                  "name": "悪辣討手",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 716310.576,
+                    "attack": 1162.08,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11492": {
+                  "id": 100281,
+                  "name": "強欲射手",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 716310.576,
+                    "attack": 1420.32,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11951": {
+                  "id": 30031,
+                  "name": "パリクス",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hecate.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 10720138.175999999,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 10029.800000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020809": {
+          "id": 1020809,
+          "name": "4-3",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000135,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011901": {
+              "title": "急襲",
+              "desc": "・チーム内に「強攻」のメンバーが1名/2名いる場合、チーム全体の与ダメージ<color=#2BAD00>+20%/40%</color>。\n・会心が出た後、エージェントの<color=#2EB6FF>電気属性ダメージ</color><color=#2BAD00>+30%</color>、「強攻」メンバーの会心ダメージが<color=#2BAD00>追加で+40%</color>、継続時間5秒、重複して発動すると継続時間が更新される。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69010801": {
+              "title": "疲弊",
+              "desc": "・エージェントの与えるブレイク値<color=#2BAD00>+10%</color>、連携スキルの与ダメージ<color=#2BAD00>+50%</color>。\n・<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>、チーム全体の攻撃力<color=#2BAD00>+20%</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702049": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Avarus.png",
+              "monster_list": {
+                "31095": {
+                  "id": 930174,
+                  "name": "礼賛者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HymnistWar.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1298410.74,
+                    "attack": 1700.08,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31012": {
+                  "id": 930169,
+                  "name": "ミアズマラヴェジャー・アヴァルス",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Avarus.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 19537462.259999998,
+                    "attack": 2797.6,
+                    "defence": 952.8000000000001,
+                    "stun": 15486.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020810": {
+          "id": 1020810,
+          "name": "4-4",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000136,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69012401": {
+              "title": "結集",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+20%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『強化特殊スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+20%</color>、<color=#FE437E>エーテル属性ダメージ</color><color=#2BAD00>+35%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69010301": {
+              "title": "異象",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+20%</color>。\n・敵を<color=#FFFFFF>状態異常</color>にした時、チーム全体の<color=#2BAD00>異常マスタリー+60Pt</color>、<color=#FFFFFF>混沌</color>によるダメージ<color=#2BAD00>+40%</color>、継続時間15秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702046": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+              "monster_list": {
+                "31214": {
+                  "id": 300372,
+                  "name": "ミアズミック・ドッペルゲンガー・「背信者」",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 12393007.704,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31152": {
+                  "id": 10033,
+                  "name": "ミアズマ・レムナント・ディフェンダー",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 952167.8760000002,
+                    "attack": 1549.44,
+                    "defence": 730.48,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31162": {
+                  "id": 10034,
+                  "name": "ミアズマ・レムナント・キャノニア",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 952167.8760000002,
+                    "attack": 1398.8,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "201": "炎"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020811": {
+          "id": 1020811,
+          "name": "4-4",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000137,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69011901": {
+              "title": "急襲",
+              "desc": "・チーム内に「強攻」のメンバーが1名/2名いる場合、チーム全体の与ダメージ<color=#2BAD00>+20%/40%</color>。\n・会心が出た後、エージェントの<color=#2EB6FF>電気属性ダメージ</color><color=#2BAD00>+30%</color>、「強攻」メンバーの会心ダメージが<color=#2BAD00>追加で+40%</color>、継続時間5秒、重複して発動すると継続時間が更新される。"
+            },
+            "69010101": {
+              "title": "誅心",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+30%</color>、<color=#FFFFFF>「混沌」</color>効果によるダメージ<color=#2BAD00>+40%</color>。敵に<color=#FFFFFF>「混沌」</color>効果を付与した時、チーム全体の<color=#FFFFFF>エネルギーが10Pt回復し</color>、エージェントの攻撃力<color=#FFFFFF>+25%</color>、継続時間30秒。エネルギー回復効果は20秒に1回のみ発動可能。"
+            },
+            "69010801": {
+              "title": "疲弊",
+              "desc": "・エージェントの与えるブレイク値<color=#2BAD00>+10%</color>、連携スキルの与ダメージ<color=#2BAD00>+50%</color>。\n・<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>、チーム全体の攻撃力<color=#2BAD00>+20%</color>、継続時間15秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702050": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaJaneSlime.png",
+              "monster_list": {
+                "11364": {
+                  "id": 20015,
+                  "name": "殴打暴虐者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 3116664.012,
+                    "attack": 1850.72,
+                    "defence": 794.0,
+                    "stun": 6782.1,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31122": {
+                  "id": 930175,
+                  "name": "ミアズミック・ジェーン",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaJaneSlime.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 1
+                  },
+                  "stats": {
+                    "hp": 14909963.772000002,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "204": "風"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020812": {
+          "id": 1020812,
+          "name": "4-4",
+          "tag": "<color=#069eff>任意</color>",
+          "tag_type": 3,
+          "a_rank_score_layer_buff": {
+            "2003127": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.2</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003126": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003128": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "layer": {
+            "id": 7000138,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 1,
+            "s_rank_goal": 0,
+            "a_rank_goal": 1,
+            "b_rank_goal": 4
+          },
+          "selectable_buff": {
+            "69011601": {
+              "title": "ビビッドなテクニック",
+              "desc": "・エージェントの与ダメージ<color=#2BAD00>+20%</color>、与える<color=#F0D12B>物理属性ダメージ</color>が追加で<color=#2BAD00>+20%</color>。\n・敵を状態異常にした時、敵の防御力<color=#2BAD00>‐10%</color>、継続時間10秒。敵に「混沌」効果を付与した時、敵の防御力は追加で<color=#2BAD00>‐25%</color>、継続時間10秒。継続時間はそれぞれ独立してカウントされる。"
+            },
+            "69011202": {
+              "title": "奏鳴曲",
+              "desc": "・エージェントのデシベル値獲得効率<color=#2BAD00>+20%</color>。\n・<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、その敵のダメージ耐性を<color=#2BAD00>20%</color>無視する。<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、エージェントの<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+50%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+            },
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702051": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TerrorBird.png",
+              "monster_list": {
+                "31182": {
+                  "id": 10032,
+                  "name": "ミアズマのひな",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaSpawn.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1142505.804,
+                    "attack": 1549.44,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11941": {
+                  "id": 30026,
+                  "name": "テラー・ラプトル",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TerrorBird.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 10283030.472000001,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020813": {
+          "id": 1020813,
+          "name": "4-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000139,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012401": {
+              "title": "結集",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+20%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『強化特殊スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+20%</color>、<color=#FE437E>エーテル属性ダメージ</color><color=#2BAD00>+35%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69010301": {
+              "title": "異象",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+20%</color>。\n・敵を<color=#FFFFFF>状態異常</color>にした時、チーム全体の<color=#2BAD00>異常マスタリー+60Pt</color>、<color=#FFFFFF>混沌</color>によるダメージ<color=#2BAD00>+40%</color>、継続時間15秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702052": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+              "monster_list": {
+                "31112": {
+                  "id": 30035,
+                  "name": "サクリファイス・ヘレティック・ジェスター",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": -1,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 16899555.96,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 14327.95,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11762": {
+                  "id": 100091,
+                  "name": "爆撃猟兵",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GrenadierJaegerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 984731.4,
+                    "attack": 1269.68,
+                    "defence": 635.2,
+                    "stun": 2220.75,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11272": {
+                  "id": 100071,
+                  "name": "練達猟兵",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MeleeJaegerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 0,
+                    "electric": 1,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 895388.22,
+                    "attack": 1420.32,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "200": "物理",
+                "203": "電気"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020814": {
+          "id": 1020814,
+          "name": "4-3",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003109": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003108": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003110": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000140,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69012401": {
+              "title": "結集",
+              "desc": "・エージェントのHP上限<color=#2BAD00>+20%</color>、『終結スキル』の与ダメージ<color=#2BAD00>+40%</color>。\n・エージェントが『強化特殊スキル』を発動すると、エネルギーとアドレナリンの獲得効率<color=#2BAD00>+20%</color>、<color=#FE437E>エーテル属性ダメージ</color><color=#2BAD00>+35%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            },
+            "69012001": {
+              "title": "追随",
+              "desc": "・エージェントの『追加攻撃』ダメージ<color=#2BAD00>+30%</color>、会心ダメージ<color=#2BAD00>+30%</color>。\n・「強攻」エージェントの<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、ターゲットの全ダメージ耐性<color=#2BAD00>-30%</color>、継続時間15秒。重複して発動すると継続時間が更新される。"
+            },
+            "69010301": {
+              "title": "異象",
+              "desc": "・エージェントの状態異常蓄積効率<color=#2BAD00>+20%</color>。\n・敵を<color=#FFFFFF>状態異常</color>にした時、チーム全体の<color=#2BAD00>異常マスタリー+60Pt</color>、<color=#FFFFFF>混沌</color>によるダメージ<color=#2BAD00>+40%</color>、継続時間15秒。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702053": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hecate.png",
+              "monster_list": {
+                "11482": {
+                  "id": 100271,
+                  "name": "悪辣討手",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 716310.576,
+                    "attack": 1162.08,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11492": {
+                  "id": 100281,
+                  "name": "強欲射手",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 716310.576,
+                    "attack": 1420.32,
+                    "defence": 635.2,
+                    "stun": 2115.0,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "11951": {
+                  "id": 30031,
+                  "name": "パリクス",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hecate.png",
+                  "element": {
+                    "ice": 1,
+                    "fire": 0,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 10720138.175999999,
+                    "attack": 3098.88,
+                    "defence": 952.8000000000001,
+                    "stun": 10029.800000000001,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "202": "氷",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        },
+        "1020815": {
+          "id": 1020815,
+          "name": "4-2",
+          "tag": "<color=#ffef00>前哨戦</color>",
+          "tag_type": 2,
+          "a_rank_score_layer_buff": {
+            "2003106": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.2 [決戦]におけるスコア倍率+<color=#2BAD00>0.3</color>"
+            }
+          },
+          "b_rank_score_layer_buff": {
+            "2003105": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.1 [決戦]におけるスコア倍率+<color=#2BAD00>0.1</color>"
+            }
+          },
+          "s_rank_score_layer_buff": {
+            "2003107": {
+              "title": "「スコア倍率」ボーナス",
+              "desc": "Lv.3 [決戦]におけるスコア倍率+<color=#2BAD00>0.5</color>"
+            }
+          },
+          "layer": {
+            "id": 7000141,
+            "monster_level": 70,
+            "layer_buff": {},
+            "layer_room": {},
+            "goal_type": 0,
+            "s_rank_goal": 150,
+            "a_rank_goal": 210,
+            "b_rank_goal": 300
+          },
+          "selectable_buff": {
+            "69011601": {
+              "title": "ビビッドなテクニック",
+              "desc": "・エージェントの与ダメージ<color=#2BAD00>+20%</color>、与える<color=#F0D12B>物理属性ダメージ</color>が追加で<color=#2BAD00>+20%</color>。\n・敵を状態異常にした時、敵の防御力<color=#2BAD00>‐10%</color>、継続時間10秒。敵に「混沌」効果を付与した時、敵の防御力は追加で<color=#2BAD00>‐25%</color>、継続時間10秒。継続時間はそれぞれ独立してカウントされる。"
+            },
+            "69011202": {
+              "title": "奏鳴曲",
+              "desc": "・エージェントのデシベル値獲得効率<color=#2BAD00>+20%</color>。\n・<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、その敵のダメージ耐性を<color=#2BAD00>20%</color>無視する。<color=#FFFFFF>『終結スキル』</color>が敵に命中した時、エージェントの<color=#FFFFFF>『終結スキル』</color>と<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+50%</color>、継続時間30秒、重複して発動すると継続時間が更新される。"
+            },
+            "69011201": {
+              "title": "瓦解",
+              "desc": "・エージェントの<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>の与ダメージ<color=#2BAD00>+30%</color>。\n・エージェントがブレイク状態でない敵に命中した時、与えるブレイク値<color=#2BAD00>+10%</color>。ブレイク状態の敵に命中した時、会心ダメージ<color=#2BAD00>+30%</color>、ターゲットのブレイク弱体倍率<color=#2BAD00>+25%</color>。"
+            },
+            "69012402": {
+              "title": "怒涛",
+              "desc": "・[命破]のメンバーの現在HPが上限の80%/50%以下の時、攻撃が敵に命中した際、ターゲットの<color=#98EFF0>氷属性ダメージ耐性</color>を<color=#2BAD00>10%/25%</color>無視する。\n・エージェントが「エーテルベール」を展開・延長すると、チーム全体の透徹ダメージ<color=#2BAD00>+20%</color>、会心ダメージ<color=#2BAD00>+30%</color>、継続時間20秒、重複して発動すると継続時間が更新される。"
+            }
+          },
+          "layer_room": {
+            "70702054": {
+              "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Avarus.png",
+              "monster_list": {
+                "31095": {
+                  "id": 930174,
+                  "name": "礼賛者",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HymnistWar.png",
+                  "element": {
+                    "ice": 0,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 0,
+                    "physical": 1,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 1298410.74,
+                    "attack": 1700.08,
+                    "defence": 635.2,
+                    "stun": 2326.5,
+                    "attribute_infliction": 0.0
+                  }
+                },
+                "31012": {
+                  "id": 930169,
+                  "name": "ミアズマラヴェジャー・アヴァルス",
+                  "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Avarus.png",
+                  "element": {
+                    "ice": -1,
+                    "fire": 1,
+                    "electric": 0,
+                    "ether": 1,
+                    "physical": 0,
+                    "wind": 0
+                  },
+                  "stats": {
+                    "hp": 19537462.259999998,
+                    "attack": 2797.6,
+                    "defence": 952.8000000000001,
+                    "stun": 15486.5,
+                    "attribute_infliction": 0.0
+                  }
+                }
+              },
+              "monster_weakness": {
+                "201": "炎",
+                "205": "エーテル"
+              },
+              "monster_resistance": {},
+              "waves_num": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "boss_adjust": {
+    "1001": {
+      "hp": 1200,
+      "atk": -5000,
+      "points": 1000
+    },
+    "1002": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1003": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1004": {
+      "hp": 1200,
+      "atk": -3000,
+      "points": 1000
+    },
+    "1005": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1006": {
+      "hp": 1700,
+      "atk": -2500,
+      "points": 1200
+    },
+    "1007": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1008": {
+      "hp": 1700,
+      "atk": -2000,
+      "points": 1200
+    },
+    "1009": {
+      "hp": 2200,
+      "atk": -1000,
+      "points": 1800
+    },
+    "1010": {
+      "hp": 2200,
+      "atk": 0,
+      "points": 1800
+    },
+    "1011": {
+      "hp": 2200,
+      "atk": 800,
+      "points": 1800
+    },
+    "1012": {
+      "hp": 2200,
+      "atk": 1500,
+      "points": 1800
+    },
+    "1013": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1014": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1015": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1016": {
+      "hp": 2500,
+      "atk": 2000,
+      "points": 2400
+    },
+    "1017": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1018": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1019": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1020": {
+      "hp": 3000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1021": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1022": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1023": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2600
+    },
+    "1024": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1025": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1026": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1027": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1028": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1029": {
+      "hp": 5000,
+      "atk": 2500,
+      "points": 2700
+    },
+    "1301": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1302": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1303": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1304": {
+      "hp": 3600,
+      "atk": 0,
+      "points": 750
+    },
+    "1305": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1306": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1307": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1308": {
+      "hp": 3600,
+      "atk": 1300,
+      "points": 1000
+    },
+    "1309": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1310": {
+      "hp": 3600,
+      "atk": 1500,
+      "points": 1500
+    },
+    "1311": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1312": {
+      "hp": 6000,
+      "atk": 1500,
+      "points": 3500
+    },
+    "1313": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1314": {
+      "hp": 6000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1315": {
+      "hp": 8000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1316": {
+      "hp": 10000,
+      "atk": 2000,
+      "points": 3500
+    },
+    "1317": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1318": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1319": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1320": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1321": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1322": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 3500
+    },
+    "1323": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "1324": {
+      "hp": 10000,
+      "atk": 2500,
+      "points": 4000
+    },
+    "2001": {
+      "hp": 5000,
+      "atk": 8000,
+      "points": 200
+    },
+    "2002": {
+      "hp": 16000,
+      "atk": 11000,
+      "points": 200
+    },
+    "2010": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2011": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2012": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2013": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2014": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2015": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2016": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2017": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2018": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "2019": {
+      "hp": 2500,
+      "atk": 0,
+      "points": 3000
+    },
+    "3011": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3012": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3013": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3014": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3015": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3016": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3017": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3018": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3019": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3020": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3021": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3022": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3023": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3024": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "3025": {
+      "hp": 9000,
+      "atk": 0,
+      "points": 1500
+    },
+    "400101": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400102": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400103": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400104": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400105": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400106": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400107": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400108": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400109": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400110": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400201": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400202": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400203": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400204": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400205": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400206": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400207": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400208": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400209": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400210": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400301": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400302": {
+      "hp": 500,
+      "atk": 0,
+      "points": 5000
+    },
+    "400303": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400304": {
+      "hp": 750,
+      "atk": 0,
+      "points": 7500
+    },
+    "400305": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400306": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 10000
+    },
+    "400307": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400308": {
+      "hp": 1250,
+      "atk": 0,
+      "points": 12500
+    },
+    "400309": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "400310": {
+      "hp": 1500,
+      "atk": 0,
+      "points": 15000
+    },
+    "401101": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401102": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401103": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401104": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401105": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401106": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401107": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401108": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401109": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401110": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401111": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401112": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401113": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401114": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401115": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401201": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401202": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401203": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401204": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401205": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401206": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401207": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401208": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401209": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401210": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401211": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401212": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401213": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401214": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401215": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401301": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401302": {
+      "hp": 250,
+      "atk": 0,
+      "points": 5000
+    },
+    "401303": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401304": {
+      "hp": 375,
+      "atk": 0,
+      "points": 7500
+    },
+    "401305": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401306": {
+      "hp": 500,
+      "atk": 0,
+      "points": 10000
+    },
+    "401307": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401308": {
+      "hp": 625,
+      "atk": 0,
+      "points": 12500
+    },
+    "401309": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401310": {
+      "hp": 750,
+      "atk": 0,
+      "points": 15000
+    },
+    "401311": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401312": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401313": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401314": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "401315": {
+      "hp": 1000,
+      "atk": 0,
+      "points": 100000
+    },
+    "900201": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900202": {
+      "hp": 3300,
+      "atk": 0,
+      "points": 3300
+    },
+    "900203": {
+      "hp": 3400,
+      "atk": 0,
+      "points": 3400
+    }
+  }
+}

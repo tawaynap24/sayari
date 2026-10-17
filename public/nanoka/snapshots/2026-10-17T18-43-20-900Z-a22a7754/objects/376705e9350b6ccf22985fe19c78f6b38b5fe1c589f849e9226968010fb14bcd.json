@@ -1,0 +1,446 @@
+{
+  "1330101": {
+    "id": 1330101,
+    "name": "讴歌喧响之唇",
+    "desc": "全队<color=#CF4029>能量获得效率降低15%</color>，<color=#2BAD00>喧响值获得效率提升25%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact001.png"
+  },
+  "1330201": {
+    "id": 1330201,
+    "name": "超频机敏模式",
+    "desc": "全队<color=#2BAD00>攻击力提升30%</color>，<color=#2BAD00>暴击伤害提升40%</color>，受到敌方攻击并损失生命值时，<color=#CF4029>该增益效果失效</color>，下次进入区域时效果重置。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact002.png"
+  },
+  "1330301": {
+    "id": 1330301,
+    "name": "混沌异常之面",
+    "desc": "全队<color=#CF4029>攻击力降低15%</color>；造成失衡或对敌人施加属性异常效果时，全队<color=#2BAD00>暴击伤害提升40%</color>，<color=#2BAD00>异常精通提升40点</color>，持续20秒。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact003.png"
+  },
+  "1330401": {
+    "id": 1330401,
+    "name": "超越绝境之志",
+    "desc": "当前生命值高于80%时，代理人<color=#CF4029>造成的伤害降低40%</color>；当前生命值低于50%时，代理人<color=#2BAD00>造成的伤害提升40%</color>；当前生命值低于20%时，代理人的<color=#2BAD00>暴击率额外提升15%</color>，<color=#2BAD00>暴击伤害额外提升30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact004.png"
+  },
+  "1331001": {
+    "id": 1331001,
+    "name": "燃油饮分享装",
+    "desc": "代理人<color=#CF4029>受到的伤害提升20%</color>，代理人发动<color=#FFFFFF>[招架支援]</color>和<color=#FFFFFF>[回避支援]</color>时不再消耗<color=#FFFFFF>[支援点数]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339701": {
+    "id": 1339701,
+    "name": "导航数据组",
+    "desc": "增加<color=#2BAD00>3</color>个[导航数据]，可在[挚交会谈]玛琳处进行<color=#2BAD00>[重设导航]</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact023.png"
+  },
+  "1339702": {
+    "id": 1339702,
+    "name": "定位卡-理财",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>齿轮硬币相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339703": {
+    "id": 1339703,
+    "name": "定位卡-捷径",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>路线极短</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339704": {
+    "id": 1339704,
+    "name": "定位卡-力战",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[挑战]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339705": {
+    "id": 1339705,
+    "name": "定位卡-恶咒",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[代价之间]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339706": {
+    "id": 1339706,
+    "name": "定位卡-奇遇",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[偶遇事件]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339707": {
+    "id": 1339707,
+    "name": "定位卡-破雾",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为含有<color=#2BAD00>迷雾区域</color>的地图。\n每进入一个迷雾区域，本局空洞内，全队攻击力提升<color=#2BAD00>10%</color>，<color=#2BAD00>暴击伤害提升20%</color>，异常精通提升<color=#2BAD00>20</color>点。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339708": {
+    "id": 1339708,
+    "name": "定位卡-理财",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>齿轮硬币相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact024.png"
+  },
+  "1339709": {
+    "id": 1339709,
+    "name": "定位卡-捷径",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>路线极短</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact025.png"
+  },
+  "1339710": {
+    "id": 1339710,
+    "name": "定位卡-力战",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[挑战]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact026.png"
+  },
+  "1339711": {
+    "id": 1339711,
+    "name": "定位卡-恶咒",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[代价之间]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact027.png"
+  },
+  "1339712": {
+    "id": 1339712,
+    "name": "定位卡-奇遇",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>[偶遇事件]相关</color>的区域地图。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact028.png"
+  },
+  "1339713": {
+    "id": 1339713,
+    "name": "定位卡-破雾",
+    "desc": "可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为含有<color=#2BAD00>迷雾区域</color>的地图。\n每进入一个迷雾区域，本局空洞内，全队攻击力提升<color=#2BAD00>10%</color>，<color=#2BAD00>暴击伤害提升20%</color>，异常精通提升<color=#2BAD00>20</color>点。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact029.png"
+  },
+  "1339751": {
+    "id": 1339751,
+    "name": "定位卡-索引",
+    "desc": "佣兵队长误把地图数据送给了好心的解救者。可在[挚交会谈]玛琳处进行<color=#2BAD00>1次[定向迭换]</color>，将地图刷新为<color=#2BAD00>指定的地图</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact030.png"
+  },
+  "1339801": {
+    "id": 1339801,
+    "name": "糊涂记账法",
+    "desc": "每次离开[邦布商店]时，<color=#CF4029>清空当前所有齿轮硬币</color>；每购买藏品消耗100齿轮硬币，除首领外的敌人将降低<color=#2BAD00>0.5%</color>生命值（最多降低30%）。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact041.png"
+  },
+  "1339802": {
+    "id": 1339802,
+    "name": "莽撞的勇士",
+    "desc": "当前生命值<color=#CF4029>超过生命值上限的10%时将被扣除至10%</color>，<color=#CF4029>全队受到的伤害提升50%</color>，但<color=#2BAD00>攻击必定触发暴击，且攻击力提升100%，异常精通提升400点</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339803": {
+    "id": 1339803,
+    "name": "潮汐规律",
+    "desc": "代理人会根据造成伤害为<color=#2BAD00>全队回复一定量生命值</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact043.png"
+  },
+  "1339804": {
+    "id": 1339804,
+    "name": "无畏炬火",
+    "desc": "每进入一个[迷雾区域]，本局空洞内，<color=#2BAD00>全队攻击力提升5%，暴击伤害提升5%，异常精通提升10点</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339805": {
+    "id": 1339805,
+    "name": "金钱攻势·强化版",
+    "desc": "每拥有100枚齿轮硬币， <color=#2BAD00>全队造成的伤害提升1%，暴击率提升0.5%，暴击伤害提升1%，异常精通提升2点</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339806": {
+    "id": 1339806,
+    "name": "缝缝补补防御术",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，敌人对代理人造成的伤害降低<color=#2BAD00>2.5%</color>，最多触发<color=#2BAD00>6</color>次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339807": {
+    "id": 1339807,
+    "name": "故友之踪迹",
+    "desc": "每进入一个[非战斗区域]，获得<color=#2BAD00>200</color>枚齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339808": {
+    "id": 1339808,
+    "name": "静电现象",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，全队暴击率提升<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339809": {
+    "id": 1339809,
+    "name": "缝缝补补防御术",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，敌人对代理人造成的伤害降低<color=#2BAD00>2.5%</color>，最多触发<color=#2BAD00>6</color>次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339810": {
+    "id": 1339810,
+    "name": "故友之踪迹",
+    "desc": "每进入一个[非战斗区域]，获得<color=#2BAD00>200</color>枚齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339811": {
+    "id": 1339811,
+    "name": "静电现象",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，全队暴击率提升<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339812": {
+    "id": 1339812,
+    "name": "优厚分红·强化版",
+    "desc": "齿轮硬币<color=#2BAD00>获得量提升50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339813": {
+    "id": 1339813,
+    "name": "开幕护盾（紊乱版）",
+    "desc": "进入战斗区域时，<color=#FFAF2C>敌方单位</color>获得10%生命值上限的护盾。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample04.png"
+  },
+  "1339814": {
+    "id": 1339814,
+    "name": "肾上腺素（紊乱版）",
+    "desc": "生命值低于50%时，<color=#FFAF2C>敌方单位</color>造成的伤害提升20%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample02.png"
+  },
+  "1339815": {
+    "id": 1339815,
+    "name": "开幕雷击（紊乱版）",
+    "desc": "进入战场时，<color=#FFAF2C>代理人</color>的生命值降低75%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample05.png"
+  },
+  "1339816": {
+    "id": 1339816,
+    "name": "三重缓冲（紊乱版）",
+    "desc": "进入首领战斗区域后，前20秒内，<color=#FFAF2C>首领敌人</color>受到的伤害降低50%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSample06.png"
+  },
+  "1339817": {
+    "id": 1339817,
+    "name": "「不动如山」马拉松",
+    "desc": "经过<color=#FFAF2C>5个区域</color>后，若途中被击飞的总次数<color=#FFAF2C>不超过5次</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339818": {
+    "id": 1339818,
+    "name": "「悭吝人」马拉松",
+    "desc": "经过<color=#FFAF2C>5个区域</color>后，若途中<color=#FFAF2C>没有在商店花费齿轮硬币购买商品</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339819": {
+    "id": 1339819,
+    "name": "「凡人之躯」马拉松",
+    "desc": "经过<color=#FFAF2C>8个区域</color>后，若途中<color=#FFAF2C>获得过1个通用鸣徽</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339820": {
+    "id": 1339820,
+    "name": "「挥金如土」马拉松",
+    "desc": "经过<color=#FFAF2C>8个区域</color>后，若途中<color=#FFAF2C>消耗的齿轮硬币大于等于500</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339821": {
+    "id": 1339821,
+    "name": "「强风吹拂」马拉松",
+    "desc": "经过<color=#FFAF2C>5个区域</color>后，若途中<color=#FFAF2C>消耗的时长少于300秒（关卡时间为准）</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339822": {
+    "id": 1339822,
+    "name": "「符号学原理」马拉松",
+    "desc": "经过<color=#FFAF2C>8个区域</color>后，若途中<color=#FFAF2C>经过的「偶遇事件」大于等于1个</color>，则会获得一次<color=#FFAF2C>战术棱镜方案升级</color>。挑战进度可在藏品界面查看。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact047.png"
+  },
+  "1339823": {
+    "id": 1339823,
+    "name": "莽撞的勇士·强化版",
+    "desc": "当前生命值<color=#CF4029>超过生命值上限的30%时将被扣除至30%</color>，<color=#CF4029>全队受到的伤害提升50%</color>，但<color=#2BAD00>攻击必定触发暴击，且攻击力提升100%，贯穿伤害提升50%，异常精通提升400点</color>。溢出的暴击率会等比例转换为暴击伤害，最多转换150%。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact042.png"
+  },
+  "1339825": {
+    "id": 1339825,
+    "name": "金钱攻势·超级强化版",
+    "desc": "每拥有100枚齿轮硬币， <color=#2BAD00>全队造成的伤害提升1.5%，暴击率提升0.5%，暴击伤害提升1.5%，异常精通提升3点</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact045.png"
+  },
+  "1339826": {
+    "id": 1339826,
+    "name": "大垄断家·变异版",
+    "desc": "每次获得齿轮硬币时，20%概率额外获得<color=#2BAD00>300%</color>，20%概率额外获得<color=#2BAD00>150%</color>，25%概率额外获得<color=#2BAD00>50%</color>，25%概率本次获得的齿轮硬币不变，5%概率扣除当前持有的全部齿轮硬币的<color=#CF4029>10%</color>，5%概率扣除当前持有的全部齿轮硬币的<color=#CF4029>20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339827": {
+    "id": 1339827,
+    "name": "无畏炬火·强化版",
+    "desc": "每进入一个[迷雾区域]，本局空洞内，<color=#2BAD00>全队攻击力提升5%，暴击伤害提升10%，异常精通提升20点，贯穿伤害提升2.5%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact044.png"
+  },
+  "1339828": {
+    "id": 1339828,
+    "name": "一毛不拔·强化版",
+    "desc": "进入[邦布商店]时，如果未消费，则离开商店时获得<color=#2BAD00>40%</color>的齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339902": {
+    "id": 1339902,
+    "name": "大垄断家",
+    "desc": "获得齿轮硬币时，有40%概率<color=#2BAD00>额外获得20%</color>，5%概率<color=#2BAD00>额外获得50%</color>，5%概率将本次获得的齿轮硬币<color=#CF4029>变为1枚</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact006.png"
+  },
+  "1339903": {
+    "id": 1339903,
+    "name": "优厚分红",
+    "desc": "齿轮硬币<color=#2BAD00>获得量提升20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact007.png"
+  },
+  "1339904": {
+    "id": 1339904,
+    "name": "金钱攻势",
+    "desc": "每拥有100枚齿轮硬币，全队<color=#2BAD00>造成的伤害提升1%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact008.png"
+  },
+  "1339905": {
+    "id": 1339905,
+    "name": "敛财手段",
+    "desc": "立刻获得当前齿轮硬币数量<color=#2BAD00>30%</color>的齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact031.png"
+  },
+  "1339906": {
+    "id": 1339906,
+    "name": "真诚的赠品",
+    "desc": "进入[邦布商店]时，<color=#2BAD00>10%</color>概率有<color=#2BAD00>2</color>个免费商品，但无法刷新商店。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact032.png"
+  },
+  "1339907": {
+    "id": 1339907,
+    "name": "一毛不拔",
+    "desc": "进入[邦布商店]时，如果未消费，则离开商店时获得<color=#2BAD00>20%</color>的齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact033.png"
+  },
+  "1339908": {
+    "id": 1339908,
+    "name": "贵宾的礼遇",
+    "desc": "获得<color=#2BAD00>5</color>次鸣徽转换器刷新机会。「特遣调查」中鸣徽转换器还可以用于刷新战术棱镜方案。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact034.png"
+  },
+  "1339909": {
+    "id": 1339909,
+    "name": "终结的决心",
+    "desc": "不受伤害完成战斗区域时，本局空洞内，全队造成的伤害提升<color=#2BAD00>5%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact035.png"
+  },
+  "1339910": {
+    "id": 1339910,
+    "name": "双面荆甲",
+    "desc": "进入[战斗区域]时，全队损失<color=#CF4029>20%</color>当前生命值，全队生命上限提升<color=#2BAD00>10%</color>，并获得<color=#2BAD00>10%</color>生命值上限的护盾，本局空洞内该效果最多触发<color=#2BAD00>4</color>次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact036.png"
+  },
+  "1339911": {
+    "id": 1339911,
+    "name": "缝缝补补防御术",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，敌人对代理人造成的伤害降低<color=#2BAD00>2.5%</color>，最多触发<color=#2BAD00>6</color>次。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact037.png"
+  },
+  "1339912": {
+    "id": 1339912,
+    "name": "故友之踪迹",
+    "desc": "每进入一个[非战斗区域]，获得<color=#2BAD00>200</color>枚齿轮硬币。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact038.png"
+  },
+  "1339913": {
+    "id": 1339913,
+    "name": "静电现象",
+    "desc": "每进入一个[非战斗区域]，本局空洞内，全队暴击率提升<color=#2BAD00>2%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact039.png"
+  },
+  "1339914": {
+    "id": 1339914,
+    "name": "实验「副」产物",
+    "desc": "将此卡牌带入<color=#2BAD00>[代价之间]，有意想不到的效果。</color>",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  },
+  "1339921": {
+    "id": 1339921,
+    "name": "掠血夺心之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，代理人的<color=#CF4029>生命值上限降低30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact009.png"
+  },
+  "1339922": {
+    "id": 1339922,
+    "name": "荆刺镣铐之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，发动<color=#FFFFFF>[强化特殊技]</color>时将<color=#CF4029>消耗4%生命值</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact010.png"
+  },
+  "1339923": {
+    "id": 1339923,
+    "name": "障目屏知之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，敌人发动攻击时<color=#CF4029>不再有金色闪光和红色闪光</color>提示。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact011.png"
+  },
+  "1339924": {
+    "id": 1339924,
+    "name": "恶害追打之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，代理人<color=#CF4029>受到的伤害提升30%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact012.png"
+  },
+  "1339925": {
+    "id": 1339925,
+    "name": "关窍显绽之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，敌人的<color=#CF4029>攻击有概率触发暴击</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact013.png"
+  },
+  "1339926": {
+    "id": 1339926,
+    "name": "异常封掩之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，敌人的<color=#CF4029>全属性异常积蓄抗性提升50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact014.png"
+  },
+  "1339927": {
+    "id": 1339927,
+    "name": "敌步稳健之印",
+    "desc": "在{CReplaceCardParam:ProgressLeft,1,2}个战斗区域内，敌人的<color=#CF4029>失衡恢复速度提升35%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact015.png"
+  },
+  "1339928": {
+    "id": 1339928,
+    "name": "心灵复兴之印",
+    "desc": "代理人<color=#2BAD00>受到的伤害降低20%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact016.png"
+  },
+  "1339929": {
+    "id": 1339929,
+    "name": "能量献祭之印",
+    "desc": "代理人的<color=#2BAD00>能量获得效率提升35%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact017.png"
+  },
+  "1339930": {
+    "id": 1339930,
+    "name": "明亮觉醒之印",
+    "desc": "<color=#FFFFFF>[招架支援]</color><color=#2BAD00>造成的失衡值提升40%</color>，<color=#FFFFFF>[支援突击]</color><color=#2BAD00>造成的伤害提升80%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact018.png"
+  },
+  "1339931": {
+    "id": 1339931,
+    "name": "致命回击之印",
+    "desc": "代理人<color=#2BAD00>造成的伤害提升40%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact019.png"
+  },
+  "1339932": {
+    "id": 1339932,
+    "name": "精准打击之印",
+    "desc": "代理人的<color=#2BAD00>暴击伤害提升65%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact020.png"
+  },
+  "1339933": {
+    "id": 1339933,
+    "name": "异常突破之印",
+    "desc": "代理人<color=#2BAD00>属性异常效果造成的伤害提升50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact021.png"
+  },
+  "1339934": {
+    "id": 1339934,
+    "name": "失衡猎杀之印",
+    "desc": "代理人对失衡状态下的敌人<color=#2BAD00>造成的伤害提升50%</color>。",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact022.png"
+  },
+  "1439914": {
+    "id": 1439914,
+    "name": "实验「副」产物",
+    "desc": "Artifact_1439914_des",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Artifact040.png"
+  }
+}

@@ -1,0 +1,1135 @@
+{
+  "id": 620611,
+  "name": "激変ノード",
+  "priority": 1,
+  "zone": {
+    "6206101": {
+      "name": "激変ノード第一防衛線",
+      "stage_num": 1,
+      "monster_level": 50,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061011": {
+          "monster_icon": "",
+          "monster_list": {
+            "11511": {
+              "id": 200131,
+              "name": "憤怒悪鬼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1627605.7874999999,
+                "attack": 2290.666666666667,
+                "defence": 592.0,
+                "stun": 6233.56,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11501": {
+              "id": 200121,
+              "name": "狂乱暴徒",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FrenziedManiacPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 1120625.4675,
+                "attack": 2394.787878787879,
+                "defence": 592.0,
+                "stun": 4749.04,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "悪辣討手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1405.6363636363637,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "強欲射手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 252937.4925,
+                "attack": 1718.0,
+                "defence": 473.6,
+                "stun": 1602.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎"
+          },
+          "monster_resistance": {
+            "203": "電気"
+          },
+          "waves_num": 4
+        },
+        "62061012": {
+          "monster_icon": "",
+          "monster_list": {
+            "31553": {
+              "id": 20036,
+              "name": "羽化・シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 2484056.19,
+                "attack": 3019.5151515151515,
+                "defence": 639.36,
+                "stun": 9350.34,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31641": {
+              "id": 20035,
+              "name": "羽化・タラスクミキサー",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MoltTarasqueMixer.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3092358.885,
+                "attack": 2759.2121212121215,
+                "defence": 639.36,
+                "stun": 9350.34,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31583": {
+              "id": 10036,
+              "name": "クルッル",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Minion.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 375629.6775,
+                "attack": 1874.1818181818182,
+                "defence": 426.24,
+                "stun": 1441.8,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31744": {
+              "id": 10042,
+              "name": "空巡槍兵",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 431449.095,
+                "attack": 2056.3939393939395,
+                "defence": 509.12,
+                "stun": 1762.2,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31762": {
+              "id": 10041,
+              "name": "空巡先遣隊",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 480636.5025,
+                "attack": 2056.3939393939395,
+                "defence": 509.12,
+                "stun": 2403.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31752": {
+              "id": 10043,
+              "name": "空巡近衛兵",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 480636.5025,
+                "attack": 2056.3939393939395,
+                "defence": 544.64,
+                "stun": 2403.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "風",
+            "205": "エーテル"
+          },
+          "monster_resistance": {
+            "200": "物理"
+          },
+          "waves_num": 4
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206102": {
+      "name": "激変ノード第二防衛線",
+      "stage_num": 2,
+      "monster_level": 55,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061021": {
+          "monster_icon": "",
+          "monster_list": {
+            "11522": {
+              "id": 200141,
+              "name": "凶悪狂人",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RuthlessFiendPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2395170.96,
+                "attack": 2628.3333333333335,
+                "defence": 620.1,
+                "stun": 9125.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11512": {
+              "id": 200131,
+              "name": "憤怒悪鬼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 2491679.6799999997,
+                "attack": 2794.3333333333335,
+                "defence": 689.0,
+                "stun": 7626.24,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "悪辣討手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1494.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "強欲射手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 376438.84249999997,
+                "attack": 1826.0,
+                "defence": 551.1999999999999,
+                "stun": 1728.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎"
+          },
+          "monster_resistance": {
+            "203": "電気"
+          },
+          "waves_num": 4
+        },
+        "62061022": {
+          "monster_icon": "",
+          "monster_list": {
+            "31554": {
+              "id": 20036,
+              "name": "羽化・シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3829367.3074999996,
+                "attack": 3679.666666666667,
+                "defence": 744.12,
+                "stun": 11439.359999999999,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31551": {
+              "id": 20019,
+              "name": "シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 3696941.9899999998,
+                "attack": 3209.3333333333335,
+                "defence": 744.12,
+                "stun": 10085.76,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31652": {
+              "id": 10037,
+              "name": "羽化・エンジンビホルダー",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EyeEngine.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31622": {
+              "id": 10024,
+              "name": "エアスペース・パトローリンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BangbooPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31624": {
+              "id": 10038,
+              "name": "羽化・エアスペース・パトローリンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CorruptedPatrolMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 715316.0525,
+                "attack": 1798.3333333333335,
+                "defence": 592.54,
+                "stun": 2592.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "風",
+            "205": "エーテル"
+          },
+          "monster_resistance": {
+            "200": "物理"
+          },
+          "waves_num": 4
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206103": {
+      "name": "激変ノード第三防衛線",
+      "stage_num": 3,
+      "monster_level": 60,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061031": {
+          "monster_icon": "",
+          "monster_list": {
+            "31322": {
+              "id": 20031,
+              "name": "ミアズミック・憤怒悪鬼",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaWickedWraith.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6882377.607,
+                "attack": 3899.3181818181815,
+                "defence": 794.0,
+                "stun": 11045.720000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11352": {
+              "id": 200171,
+              "name": "札付き殴り屋",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerPro.png",
+              "element": {
+                "ice": -1,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 3524047.695,
+                "attack": 2814.5454545454545,
+                "defence": 794.0,
+                "stun": 7792.9800000000005,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11342": {
+              "id": 100151,
+              "name": "強奪者",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaiderPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 657577.9349999999,
+                "attack": 1847.0454545454545,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11332": {
+              "id": 100161,
+              "name": "焼却狂",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPyromaniacPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 559043.037,
+                "attack": 1583.181818181818,
+                "defence": 635.2,
+                "stun": 1854.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎",
+            "200": "物理"
+          },
+          "monster_resistance": {
+            "203": "電気"
+          },
+          "waves_num": 3
+        },
+        "62061032": {
+          "monster_icon": "",
+          "monster_list": {
+            "31552": {
+              "id": 20019,
+              "name": "シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5686929.4229999995,
+                "attack": 3899.3181818181815,
+                "defence": 857.5200000000001,
+                "stun": 12273.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31553": {
+              "id": 20036,
+              "name": "羽化・シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5490266.796,
+                "attack": 3400.9090909090905,
+                "defence": 857.5200000000001,
+                "stun": 10821.18,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31482": {
+              "id": 20033,
+              "name": "ラフム",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Arbiter.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5686929.4229999995,
+                "attack": 3547.5,
+                "defence": 714.6,
+                "stun": 12273.48,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31744": {
+              "id": 10042,
+              "name": "空巡槍兵",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 953589.798,
+                "attack": 2316.1363636363635,
+                "defence": 682.84,
+                "stun": 2039.4,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31752": {
+              "id": 10043,
+              "name": "空巡近衛兵",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 1062303.921,
+                "attack": 2316.1363636363635,
+                "defence": 730.48,
+                "stun": 2781.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "風",
+            "203": "電気"
+          },
+          "monster_resistance": {},
+          "waves_num": 3
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206104": {
+      "name": "激変ノード第四防衛線",
+      "stage_num": 4,
+      "monster_level": 65,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061041": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaTerrorBird.png",
+          "monster_list": {
+            "31262": {
+              "id": 30036,
+              "name": "ミアズミック・テラー・ラプトル",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaTerrorBird.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 1,
+                "ether": -1,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 13657325.85,
+                "attack": 4457.454545454545,
+                "defence": 952.8000000000001,
+                "stun": 13413.400000000001,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎",
+            "203": "電気"
+          },
+          "monster_resistance": {
+            "205": "エーテル"
+          },
+          "waves_num": 1
+        },
+        "62061042": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedChelonethid.png",
+          "monster_list": {
+            "31571": {
+              "id": 30050,
+              "name": "羽化・ムクロサソリ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedChelonethid.png",
+              "element": {
+                "ice": -1,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 14913226.425,
+                "attack": 4457.454545454545,
+                "defence": 952.8000000000001,
+                "stun": 18293.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31551": {
+              "id": 20019,
+              "name": "シティー・ガーディアンナ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 5969380.284,
+                "attack": 3590.7272727272725,
+                "defence": 857.5200000000001,
+                "stun": 11556.6,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "204": "風",
+            "203": "電気"
+          },
+          "monster_resistance": {
+            "202": "氷"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 0,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 300,
+      "a_rank_goal": 420,
+      "b_rank_goal": 600
+    },
+    "6206105": {
+      "name": "",
+      "stage_num": 5,
+      "monster_level": 0,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        },
+        "62001612": {
+          "title": "夜照らす赫耀",
+          "desc": "・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の攻撃力+10%、状態異常ダメージ+20%。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが敵を<color=#FF5521>炎属性状態異常</color>にすると、ターゲットの<color=#FF5521>炎属性ダメージ耐性</color>-10%。継続時間15秒。重複して発動すると継続時間が更新される。"
+        },
+        "62001613": {
+          "title": "天を裂く氷炎",
+          "desc": "・ エージェントの透徹ダメージ+35%。\n・ <color=#FFFFFF>「命破」</color>特性のエージェントが<color=#FFFFFF>『終結スキル』</color>を発動すると、自身の<color=#FF5521>炎属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color>+50%。継続時間15秒。重複して発動すると継続時間が更新される。"
+        }
+      },
+      "child": [
+        62061051,
+        62061052,
+        62061053
+      ],
+      "layer_room": {},
+      "goal_type": 3,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 1270001013,
+      "a_rank_goal": 1270001012,
+      "b_rank_goal": 1270001011
+    },
+    "62061051": {
+      "name": "ステージ1",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001611": {
+          "title": "天駆ける緋炎",
+          "desc": "・<color=#FFFFFF>「強攻」</color>エージェントの攻撃力+35%、<color=#A6C5FD>風属性ダメージ</color>+20%。\n・エージェントの<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、その敵の<color=#A6C5FD>風属性ダメージ耐性</color>-15%。継続時間30秒。重複して発動すると継続時間が更新される。"
+        },
+        "62001001": {
+          "title": "",
+          "desc": "・このステージでは、敵にダメージを与えると<color=#FFAF2C>ダメージスコア</color>を獲得でき、<color=#FFFFFF>通常/精鋭エネミー</color>を1体倒すごとに<color=#FFAF2C>キルスコア</color>をまとめて獲得できる。\n・このステージでは、クリア時間に応じて、スコアに<color=#FFAF2C>ボーナス倍率</color>が適用される。クリア時間が早いほど、倍率は高くなり、ボーナス適用後の<color=#FFAF2C>合計スコア上限は50000Pt</color>。"
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061051": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Sentinel.png",
+          "monster_list": {
+            "31531": {
+              "id": 30048,
+              "name": "「エアスペース・センティネル」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Sentinel.png",
+              "element": {
+                "ice": 1,
+                "fire": 0,
+                "electric": 0,
+                "ether": -1,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 50615124.48,
+                "attack": 3179.0909090909095,
+                "defence": 952.8000000000001,
+                "stun": 21119.45,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31303": {
+              "id": 20026,
+              "name": "ミアズミック・狂乱暴徒",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 4276096.109999999,
+                "attack": 2836.727272727273,
+                "defence": 857.5200000000001,
+                "stun": 10285.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31313": {
+              "id": 20027,
+              "name": "ミアズミック・トリノックス",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaTrinox.png",
+              "element": {
+                "ice": 0,
+                "fire": 0,
+                "electric": 0,
+                "ether": 1,
+                "physical": -1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 6176484.09,
+                "attack": 2836.727272727273,
+                "defence": 857.5200000000001,
+                "stun": 11829.9,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "202": "氷",
+            "204": "風"
+          },
+          "monster_resistance": {
+            "205": "エーテル"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62061052": {
+      "name": "ステージ2",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001612": {
+          "title": "夜照らす赫耀",
+          "desc": "・<color=#FFFFFF>「異常」</color>エージェントの<color=#FFFFFF>状態異常</color>ダメージで会心が発生すると、チーム全体の攻撃力+10%、状態異常ダメージ+20%。継続時間15秒。重複して発動すると継続時間が更新される。\n・エージェントが敵を<color=#FF5521>炎属性状態異常</color>にすると、ターゲットの<color=#FF5521>炎属性ダメージ耐性</color>-10%。継続時間15秒。重複して発動すると継続時間が更新される。"
+        },
+        "62001001": {
+          "title": "",
+          "desc": "・このステージでは、敵にダメージを与えると<color=#FFAF2C>ダメージスコア</color>を獲得でき、<color=#FFFFFF>通常/精鋭エネミー</color>を1体倒すごとに<color=#FFAF2C>キルスコア</color>をまとめて獲得できる。\n・このステージでは、クリア時間に応じて、スコアに<color=#FFAF2C>ボーナス倍率</color>が適用される。クリア時間が早いほど、倍率は高くなり、ボーナス適用後の<color=#FFAF2C>合計スコア上限は50000Pt</color>。"
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061052": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+          "monster_list": {
+            "31214": {
+              "id": 300372,
+              "name": "ミアズミック・ドッペルゲンガー・「背信者」",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": -1,
+                "physical": 1,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 52688085.66,
+                "attack": 3521.454545454546,
+                "defence": 952.8000000000001,
+                "stun": 14327.95,
+                "attribute_infliction": 0.0
+              }
+            },
+            "31491": {
+              "id": 20034,
+              "name": "ムシュフシュ",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 1
+              },
+              "stats": {
+                "hp": 10698744.96,
+                "attack": 2592.1818181818185,
+                "defence": 714.6,
+                "stun": 12344.550000000001,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎",
+            "200": "物理"
+          },
+          "monster_resistance": {
+            "205": "エーテル"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    },
+    "62061053": {
+      "name": "ステージ3",
+      "stage_num": 5,
+      "monster_level": 70,
+      "layer_buff": {
+        "62001613": {
+          "title": "天を裂く氷炎",
+          "desc": "・ エージェントの透徹ダメージ+35%。\n・ <color=#FFFFFF>「命破」</color>特性のエージェントが<color=#FFFFFF>『終結スキル』</color>を発動すると、自身の<color=#FF5521>炎属性ダメージ</color>と<color=#98EFF0>氷属性ダメージ</color>+50%。継続時間15秒。重複して発動すると継続時間が更新される。"
+        },
+        "62001001": {
+          "title": "",
+          "desc": "・このステージでは、敵にダメージを与えると<color=#FFAF2C>ダメージスコア</color>を獲得でき、<color=#FFFFFF>通常/精鋭エネミー</color>を1体倒すごとに<color=#FFAF2C>キルスコア</color>をまとめて獲得できる。\n・このステージでは、クリア時間に応じて、スコアに<color=#FFAF2C>ボーナス倍率</color>が適用される。クリア時間が早いほど、倍率は高くなり、ボーナス適用後の<color=#FFAF2C>合計スコア上限は50000Pt</color>。"
+        },
+        "62001002": {
+          "title": "",
+          "desc": ""
+        }
+      },
+      "child": [],
+      "layer_room": {
+        "62061053": {
+          "monster_icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Hayyot.png",
+          "monster_list": {
+            "31192": {
+              "id": 30039,
+              "name": "ハイヨト",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Hayyot.png",
+              "element": {
+                "ice": 1,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 47174967.0,
+                "attack": 3521.454545454546,
+                "defence": 1588.0,
+                "stun": 16283.150000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11522": {
+              "id": 200141,
+              "name": "凶悪狂人",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RuthlessFiendPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": -1,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 5848446.24,
+                "attack": 2323.1818181818185,
+                "defence": 714.6,
+                "stun": 11169.550000000001,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11482": {
+              "id": 100271,
+              "name": "悪辣討手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ViciousStrikerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 919175.4450000001,
+                "attack": 1320.5454545454547,
+                "defence": 635.2,
+                "stun": 2115.0,
+                "attribute_infliction": 0.0
+              }
+            },
+            "11492": {
+              "id": 100281,
+              "name": "強欲射手",
+              "image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_GreedyRangerPro.png",
+              "element": {
+                "ice": 0,
+                "fire": 1,
+                "electric": 0,
+                "ether": 0,
+                "physical": 0,
+                "wind": 0
+              },
+              "stats": {
+                "hp": 919175.4450000001,
+                "attack": 1614.0000000000002,
+                "defence": 635.2,
+                "stun": 2115.0,
+                "attribute_infliction": 0.0
+              }
+            }
+          },
+          "monster_weakness": {
+            "201": "炎",
+            "202": "氷"
+          },
+          "monster_resistance": {
+            "203": "電気"
+          },
+          "waves_num": 2
+        }
+      },
+      "goal_type": 2,
+      "ss_rank_goal": 0,
+      "s_rank_goal": 25000,
+      "a_rank_goal": 16000,
+      "b_rank_goal": 8000
+    }
+  },
+  "begin_time": "2026-09-03 04:00:00",
+  "end_time": "2026-11-11 03:59:59"
+}

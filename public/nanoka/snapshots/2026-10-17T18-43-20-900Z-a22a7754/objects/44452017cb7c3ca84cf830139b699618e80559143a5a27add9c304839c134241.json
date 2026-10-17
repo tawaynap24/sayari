@@ -1,0 +1,840 @@
+{
+  "1310501": {
+    "id": 1310501,
+    "name": "[星見雅]とめどなき飛雪",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi01.png",
+    "desc": "<color=#FFFFFF>『霜灼・破』</color>発動後、星見雅の次の<color=#FFFFFF>『強化特殊スキル』</color>はエネルギーを消費しなくなり、状態異常の敵に<color=#2BAD00>与えるダメージ+50%</color>、30秒に1回のみ発動可能。"
+  },
+  "1310502": {
+    "id": 1310502,
+    "name": "[星見雅]消えぬ凍炎",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi02.png",
+    "desc": "<color=#FFFFFF>「氷焔」</color>を付与された敵は<color=#2BAD00>1秒ごとに星見雅の攻撃力50%分の</color><color=#98EFF0>霜烈属性ダメージ</color>を受ける。<color=#FFFFFF>『霜灼・破』</color>発動後、星見雅は<color=#FFFFFF>「霜灼」</color>状態の制限を無視し、<color=#2BAD00>直ちに</color>敵に<color=#FFFFFF>「氷焔」</color>を<color=#2BAD00>再付与</color>できる。"
+  },
+  "1310503": {
+    "id": 1310503,
+    "name": "[星見雅]霜月残雪",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardMiyabi03.png",
+    "desc": "<color=#FFFFFF>『終結スキル：なごり雪』</color>発動時、星見雅は<color=#FFFFFF>「落霜」</color>を6Pt獲得する。<color=#FFFFFF>『通常攻撃：霜月』</color>発動時、星見雅はスキルのチャージ段数に応じて<color=#2BAD00>デシベル値を70/140/210Pt獲得する</color>。"
+  },
+  "1310601": {
+    "id": 1310601,
+    "name": "[ビリー]火力制圧",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly01.png",
+    "desc": "ビリーの<color=#FFFFFF>『通常攻撃：出力全開』</color>が敵に20回命中、または<color=#FFFFFF>『通常攻撃：出力全開・改』</color>の射撃が累計5回敵に命中した後、次の<color=#FFFFFF>『強化特殊スキル』</color>は<color=#2BAD00>エネルギーを消費しなくなり</color>、スキルの<color=#2BAD00>与ダメージ+100%</color>。"
+  },
+  "1310602": {
+    "id": 1310602,
+    "name": "[ビリー]ガンマンズタイム",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly02.png",
+    "desc": "ビリーの<color=#FFFFFF>『強化特殊スキル』</color>が命中すると、ターゲットに対してデバフ効果を付与し、自身がターゲットに<color=#2BAD00>与えるダメージ+60%</color>、継続時間10秒。"
+  },
+  "1310603": {
+    "id": 1310603,
+    "name": "[ビリー]スイーパー・ジャッジメント",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardBilly03.png",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>発動時、「特殊攻撃」ボタン <IconMap:Icon_SpecialReady> を長押しするとチャージ状態に入り、<color=#2BAD00>スキルの威力がアップする</color>。<color=#FFFFFF>『強化特殊スキル』</color>の<color=#2BAD00>ダメージ倍率が元の200%になり</color>、<color=#2BAD00>必ず会心が出る</color>。"
+  },
+  "1310701": {
+    "id": 1310701,
+    "name": "[エレン]吹雪剪定法",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen01.png",
+    "desc": "<color=#FFFFFF>「急凍パワー」</color>がある時、<color=#FFFFFF>『ダッシュ攻撃：寒潮』</color>が<color=#FFFFFF>「通常攻撃：急凍剪定法」</color>の3段目に変わる。スキル発動中、<color=#2BAD00>HP上限20%分のシールドを生成する。このシールドがある時、</color>エレンの<color=#2BAD00>中断耐性レベルがアップし</color>、<color=#2BAD00>被ダメージ‐60%</color>。<color=#FFFFFF>『回避反撃：暗礁』</color>発動時、エレンが<color=#FFFFFF>「急凍パワー」</color>を1Pt獲得する。"
+  },
+  "1310702": {
+    "id": 1310702,
+    "name": "[エレン]常冬の嵐跡",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen02.png",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『連携スキル』</color>、<color=#FFFFFF>『終結スキル』</color>発動時、エレンが<color=#2BAD00>地面に「氷霧」を残し</color>、敵に<color=#98EFF0>氷属性ダメージ</color>を持続的に与え、ターゲットの<color=#98EFF0>氷属性ダメージ耐性‐30%</color>、継続時間10秒。エレンの攻撃が<color=#FFFFFF>「氷霧」</color>中の敵に命中した時、<color=#FFFFFF>「氷霧」</color>によるダメージが追加で1回発生する。"
+  },
+  "1310703": {
+    "id": 1310703,
+    "name": "[エレン]血に飢えた牙",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardEllen03.png",
+    "desc": "<color=#FFFFFF>「捕食者の背鰭」</color>獲得後、敵に<color=#FFFFFF>「巡狩」</color>マークを付けた時、エレンの<color=#2BAD00>与ダメージ+15%</color>、継続時間15秒。ターゲットが倒された後、今回の零号ホロウ挑戦において、本武装の<color=#2BAD00>ダメージアップ効果が追加で+5%</color>、最大150%まで追加でアップできる。"
+  },
+  "1310801": {
+    "id": 1310801,
+    "name": "[月城柳]月転天華",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi01.png",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>を3回発動するたびに、月城柳の<color=#2BAD00>次の『連携スキル』が『終結スキル』に変わる</color>。"
+  },
+  "1310802": {
+    "id": 1310802,
+    "name": "[月城柳]変幻流転",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi02.png",
+    "desc": "<color=#FFFFFF>『通常攻撃：月夜見神楽』</color>発動中、月城柳は<color=#2BAD00>いつでもモーションを中断</color>し、<color=#FFFFFF>『特殊スキル：流転』</color>に繋げることができる。"
+  },
+  "1310803": {
+    "id": 1310803,
+    "name": "[月城柳]月幻",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/CardYanagi03.png",
+    "desc": "月城柳の攻撃が敵に命中し、かつ<color=#FFFFFF>『極性混沌』</color>が発生すると、ターゲットの<color=#2BAD00>全属性ダメージ耐性-16%</color>、継続時間8秒。"
+  },
+  "1312201": {
+    "id": 1312201,
+    "name": "[アストラ]完璧なフォロー",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra01.png",
+    "desc": "<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>の与えたダメージが<color=#2BAD00><color=#FFFFFF>『強化特殊スキル』</color>ダメージとみなされる</color>。スキル発動中、<color=#2BAD00>チーム全体の会心率+18%</color>。"
+  },
+  "1312202": {
+    "id": 1312202,
+    "name": "[アストラ]散らばった旋律",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra02.png",
+    "desc": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、エネルギーが十分溜まっている状態で<color=#FFFFFF>「ビブラート」</color>を発動/追加発動して攻撃を仕掛けると、同等の<color=#FFFFFF>「ビブラート」</color>ダメージを<color=#2BAD00>追加で2段</color>与える。アストラの<color=#FFFFFF>『通常攻撃：インタールード』</color>または<color=#FFFFFF>『通常攻撃：コーラス』</color>が敵に命中した時、20%の確率で<color=#FFFFFF>「閃き」</color>効果を獲得し、<color=#2BAD00>次に発動する</color><color=#FFFFFF>『回避』</color>が<color=#FFFFFF>『極限回避』</color>を発動可能になり、続いて<color=#FFFFFF>『通常攻撃：コーラス』</color>に繋げられる、継続時間10秒。"
+  },
+  "1312203": {
+    "id": 1312203,
+    "name": "[アストラ]そよ風のアリア",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardAstra03.png",
+    "desc": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、アストラの<color=#2BAD00>中断耐性レベルがアップする</color>、<color=#2BAD00>被ダメージが追加で-20%</color>、<color=#2BAD00>チーム全体の貫通率+15%</color>、<color=#2BAD00>HPが徐々に回復する</color>。"
+  },
+  "1312301": {
+    "id": 1312301,
+    "name": "[イヴリン]隠し刃",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn01.png",
+    "desc": "<color=#FFFFFF>『連携スキル』</color>発動時、イヴリンが<color=#FFFFFF>「神速の刃」</color>効果を獲得し、<color=#FFFFFF>『連携スキル』</color>の<color=#2BAD00>与ダメージ+20%</color>、最大3重まで重ね掛け可能、戦闘が終わるまで継続。"
+  },
+  "1312302": {
+    "id": 1312302,
+    "name": "[イヴリン]芸術的な糸捌き",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn02.png",
+    "desc": "イヴリンがターゲットと<color=#FFFFFF>「纏わりつく牽制」</color>状態に突入した時、自身の<color=#2BAD00>攻撃力+20%</color>、ターゲットの<color=#2BAD00>攻撃力-20%</color>。<color=#FFFFFF>「纏わりつく牽制」</color>状態が終了してもバフが10秒継続する。<color=#FFFFFF>「纏わりつく牽制」</color>状態終了時、ターゲットを爆発させ、<color=#2BAD00>追加の</color><color=#FF5521>炎属性ダメージ</color>を与える。"
+  },
+  "1312303": {
+    "id": 1312303,
+    "name": "[イヴリン]特製エナドリ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardEvelyn03.png",
+    "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、イヴリンが<color=#FFFFFF>「燎火」</color>を100%、<color=#FFFFFF>「燎索ポイント」</color>を3Pt獲得する。"
+  },
+  "1312401": {
+    "id": 1312401,
+    "name": "[ジェーン]お楽しみの時間",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane01.png",
+    "desc": "<color=#FFFFFF>「コアパッシブ：洞察」</color>により<color=#F0D12B>「強撃」</color>効果で会心が出た時、50%の確率でその回の「強撃」の<color=#2BAD00>会心ダメージを追加で+40%</color>。"
+  },
+  "1312402": {
+    "id": 1312402,
+    "name": "[ジェーン]格闘テクニック",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane02.png",
+    "desc": "<color=#FFFFFF>『回避反撃』</color>が敵に命中した時、ターゲットの<color=#F0D12B>物理属性ダメージ耐性</color><color=#2BAD00>-20%</color>、継続時間10秒。"
+  },
+  "1312403": {
+    "id": 1312403,
+    "name": "[ジェーン]容赦なき追撃",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardJane03.png",
+    "desc": "任意のメンバーが敵を状態異常にした時、ジェーンが<color=#2BAD00>追加でデシベル値を40Pt獲得し</color>、次に発動する<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>会心率+5%</color>、<color=#2BAD00>会心ダメージ+20%</color>、最大で5重まで重ね掛け可能。"
+  },
+  "1312501": {
+    "id": 1312501,
+    "name": "[カリン]メイドのステップ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine01.png",
+    "desc": "<color=#FFFFFF>『極限回避』</color>発動時、<color=#2BAD00>エネルギーを25Pt回復する</color>、6秒に1回のみ発動可能。"
+  },
+  "1312502": {
+    "id": 1312502,
+    "name": "[カリン]不幸な切り傷",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine02.png",
+    "desc": "カリンのチェーンソー持続斬撃が敵に命中した時、自身がパワーを1重獲得する。パワーが10重になると、次の斬撃が敵に<color=#FFFFFF>「裂傷」</color>効果を付与し、<color=#2BAD00>3秒に1回カリンの攻撃力20%分の</color><color=#F0D12B>物理属性ダメージ</color>を与える、最大10重まで重ね掛け可能、継続時間12秒。重複して発動すると継続時間が更新される。"
+  },
+  "1312503": {
+    "id": 1312503,
+    "name": "[カリン]災難の破傷風",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardColine03.png",
+    "desc": "<color=#FFFFFF>『通常攻撃』</color>または<color=#FFFFFF>『ダッシュ攻撃』</color>が敵に命中した時、ターゲットの<color=#F0D12B>物理属性ダメージ耐性</color><color=#2BAD00>-20%</color>、継続時間15秒。"
+  },
+  "1320101": {
+    "id": 1320101,
+    "name": "[終結]養気サシェ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic004.png",
+    "level": {
+      "1": {
+        "id": 132010101,
+        "desc": "チーム全体の<color=#2BAD00>デシベル値上限が6000Ptになる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>操作しているエージェントのデシベル値を1500Pt回復する</color>。"
+      },
+      "2": {
+        "id": 132010102,
+        "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、デシベル値をすべて消費する。<color=#2BAD00>必要を超えた消費分1500Ptにつき</color>、<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージ+80%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>操作しているエージェントのデシベル値を1500Pt回復する</color>。"
+      },
+      "3": {
+        "id": 132010103,
+        "desc": "チーム全体の<color=#2BAD00>デシベル値上限が9000Ptになる</color>。<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、操作しているエージェントの<color=#2BAD00>デシベル値を2000Pt</color>回復する。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>操作しているエージェントのデシベル値を1500Pt回復する</color>。"
+      },
+      "4": {
+        "id": 132010104,
+        "desc": "必要以上のデシベル値消費分1500Ptにつき、<color=#FFFFFF>『終結スキル』</color>の<color=#2BAD00>与ダメージアップ効果が80%から160%にアップする</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>操作しているエージェントのデシベル値を1500Pt回復する</color>。"
+      }
+    }
+  },
+  "1320102": {
+    "id": 1320102,
+    "name": "[終結]律動的省エネ機器",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic005.png",
+    "level": {
+      "1": {
+        "id": 132010201,
+        "desc": "<color=#FFFFFF>『終結スキル』</color>の発動に必要な<color=#2BAD00>デシベル値が2000Ptになる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>チーム全体のデシベル値を500Pt回復する</color>。"
+      },
+      "2": {
+        "id": 132010202,
+        "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、チーム全体の<color=#2BAD00>状態異常蓄積効率+20%</color>、継続時間10秒。<color=#FFFFFF>『終結スキル』</color>が敵に命中すると、<color=#2BAD00>ターゲットの状態異常蓄積値が追加で溜まる</color>、この効果は1回の攻撃で、同一ターゲットに対して1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>チーム全体のデシベル値を500Pt回復する</color>。"
+      },
+      "3": {
+        "id": 132010203,
+        "desc": "<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、チーム全体の<color=#2BAD00>デシベル値+700Pt</color>、<color=#2BAD00>攻撃力+15%</color>、継続時間15秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>チーム全体のデシベル値を500Pt回復する</color>。"
+      },
+      "4": {
+        "id": 132010204,
+        "desc": "<color=#FFFFFF>『終結スキル』</color>発動時、チーム全体の<color=#2BAD00>状態異常蓄積効率が20%から40%になり</color>、<color=#2BAD00>継続時間が10秒から15秒になる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：レゾナンボンプは時間とともにエネルギーを溜める。任意のメンバーがデシベル値を消費すると、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとレゾナンボンプを召喚して、周囲の敵を持続的に引き寄せるエーテルのブラックホールを作り、<color=#FE437E>エーテル属性ダメージを与え</color>、<color=#2BAD00>チーム全体のデシベル値を500Pt回復する</color>。"
+      }
+    }
+  },
+  "1320201": {
+    "id": 1320201,
+    "name": "[機敏]五界天符",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic003.png",
+    "level": {
+      "1": {
+        "id": 132020101,
+        "desc": "<color=#FFFFFF>『極限回避』</color>発動時、チーム全体が<color=#2BAD00>「機敏カウント」を1重獲得する</color>、最大3重まで重ね掛け可能。<color=#FFFFFF>「機敏カウント」</color>が3重になると、重数をすべて消費して<color=#2BAD00>「機敏状態」に入る</color>、継続時間9秒。<color=#FFFFFF>「機敏状態」</color>継続中、チーム全体の<color=#2BAD00>攻撃力+60%</color>、さらに命中した敵に<color=#FFFFFF>「機敏の呪い」</color>を付与する。<color=#FFFFFF>「機敏状態」</color>終了時、敵に<color=#FFFFFF>「機敏の呪い」</color>期間中の<color=#2BAD00>累計被ダメージ10%分の追加ダメージ</color>を与える。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "2": {
+        "id": 132020102,
+        "desc": "<color=#FFFFFF>「機敏状態」</color>継続中、<color=#FFFFFF>『極限回避』</color>を発動すると<color=#2BAD00>「機敏状態」の継続時間が3秒延長される</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "3": {
+        "id": 132020103,
+        "desc": "<color=#FFFFFF>『パリィ支援』</color>または<color=#FFFFFF>『回避支援』</color>発動時、チーム全体が<color=#2BAD00>「機敏カウント」を1重獲得する</color>。<color=#FFFFFF>「機敏状態」</color>継続中、<color=#FFFFFF>『パリィ支援』</color>または<color=#FFFFFF>『回避支援』</color>を発動すると<color=#2BAD00>「機敏状態」の継続時間が3秒延長される</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "4": {
+        "id": 132020104,
+        "desc": "<color=#FFFFFF>「機敏状態」</color>継続中、チーム全体の<color=#2BAD00>攻撃力が追加で+75%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      }
+    }
+  },
+  "1320202": {
+    "id": 1320202,
+    "name": "[機敏]チャージシールド",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic007.png",
+    "level": {
+      "1": {
+        "id": 132020201,
+        "desc": "接敵状態突入時、チーム全体が0.5秒ごとに<color=#2BAD00>「機敏チャージ」を1Pt獲得する</color>（最大32Pt）。敵の攻撃を受け、かつHPが減少した時、<color=#FFFFFF>「機敏チャージ」</color>をすべて消費する。「機敏チャージ」が8/16/24Pt以上消費されると<color=#2BAD00>「機敏状態」</color>に入る、継続時間2/4/8秒。<color=#FFFFFF>「機敏チャージ」</color>を32Pt所持した状態で敵に攻撃が命中すると、「機敏チャージ」をすべて消費して<color=#2BAD00>「機敏状態」に入る</color>、継続時間16秒。<color=#FFFFFF>「機敏状態」</color>継続中、チーム全体の<color=#2BAD00>攻撃力+60%</color>、かつ命中された敵に<color=#FFFFFF>「機敏の呪い」</color>を付与する。<color=#2BAD00>「機敏状態」</color>終了時、敵に<color=#FFFFFF>「機敏の呪い」</color>期間中の<color=#2BAD00>累計ダメージ10%分の追加ダメージ</color>を与える。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "2": {
+        "id": 132020202,
+        "desc": "<color=#FFFFFF>「機敏チャージ」</color>が8Pt以下の場合、敵の攻撃を受けてHPが減少すると、<color=#2BAD00>現在の「機敏チャージ」が消費されなくなる</color>。<color=#FFFFFF>「機敏状態」</color>終了時、直ちに<color=#2BAD00>「機敏チャージ」を4Pt再獲得する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "3": {
+        "id": 132020203,
+        "desc": "<color=#FFFFFF>「機敏の呪い」</color>による<color=#2BAD00>ダメージが累計ダメージの20%になる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      },
+      "4": {
+        "id": 132020204,
+        "desc": "<color=#FFFFFF>「機敏状態」</color>継続中、チーム全体の<color=#2BAD00>会心率+20%</color>、<color=#2BAD00>会心ダメージ+40%</color>、<color=#2BAD00>状態異常蓄積効率+40%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：プラグノボンプは時間とともにエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとプラグノボンプを召喚して、敵に連続の電流攻撃を放って<color=#2EB6FF>電気属性ダメージ</color>を与え、<color=#2BAD00>直ちに</color><color=#FFFFFF>「機敏状態」</color>を発動させる、継続時間9秒。"
+      }
+    }
+  },
+  "1320301": {
+    "id": 1320301,
+    "name": "[異常・撃破]溶剤ランチャー",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic011.png",
+    "level": {
+      "1": {
+        "id": 132030101,
+        "desc": "チーム全体の<color=#2BAD00>与えるブレイク値+10%</color>、<color=#2BAD00>異常マスタリー+30Pt</color>。敵をブレイク状態または状態異常にした時、追加打撃が1回発動され、ターゲットとその周りの敵に<color=#2BAD00>攻撃力1100%分のダメージを与える</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態または状態異常にした時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体の<color=#2BAD00>攻撃力+15%</color>、継続時間20秒。"
+      },
+      "2": {
+        "id": 132030102,
+        "desc": "ブレイク状態または状態異常の敵を倒した時、今回の零号ホロウ挑戦において、エージェントの<color=#2BAD00>攻撃力+30Pt</color>、最大30重まで重ね掛け可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態または状態異常にした時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体の<color=#2BAD00>攻撃力+15%</color>、継続時間20秒。"
+      },
+      "3": {
+        "id": 132030103,
+        "desc": "敵をブレイク状態または状態異常にした時、<color=#2BAD00>追加打撃のダメージ範囲が広くなり</color>、ターゲットとその周りの敵に<color=#2BAD00>与えるダメージが攻撃力1100%分から攻撃力3700%分になる</color>。<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、<color=#2BAD00>チーム全体の攻撃力アップ効果が15%から30%になる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態または状態異常にした時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体の<color=#2BAD00>攻撃力+15%</color>、継続時間20秒。"
+      },
+      "4": {
+        "id": 132030104,
+        "desc": "敵をブレイク状態または状態異常にした時、追加打撃が間をおいて<color=#2BAD00>再度発動される</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態または状態異常にした時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体の<color=#2BAD00>攻撃力+15%</color>、継続時間20秒。"
+      }
+    }
+  },
+  "1320302": {
+    "id": 1320302,
+    "name": "[異常・撃破]混元丹",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic010.png",
+    "level": {
+      "1": {
+        "id": 132030201,
+        "desc": "敵をブレイク状態にした、または<color=#FFFFFF>「混沌」</color>効果を付与した時、<color=#2BAD00>6つのバフ効果から3～6回引いて</color>、エージェントに<color=#2BAD00>ランダムな効果を発動する</color>。1つのバフ効果は最大6重まで重ね掛け可能。発動可能なバフ効果：エネルギー自動回復+0.02Pt/秒、防御力+4%、被ダメージ-2%、衝撃力+2%、異常マスタリー+3Pt、デシベル値獲得効率+3%。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態にし、または<color=#FFFFFF>「混沌」</color>効果を付与した時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体に<color=#2BAD00>ランダムなバフを3回発動する</color>。"
+      },
+      "2": {
+        "id": 132030202,
+        "desc": "ブレイク状態の敵に攻撃が命中すると、<color=#2BAD00>状態異常蓄積効率+30%</color>。状態異常の敵に攻撃が命中すると、<color=#2BAD00>与えるブレイク値+30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態にし、または<color=#FFFFFF>「混沌」</color>効果を付与した時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体に<color=#2BAD00>ランダムなバフを3回発動する</color>。"
+      },
+      "3": {
+        "id": 132030203,
+        "desc": "ランダムに引かれたバフ効果が3重以上の場合、<color=#FFFFFF>『ボンプ支援スキル』</color>を発動すると<color=#2BAD00>対応する種類のバフ効果を消費し</color>、消費された重数に応じて<color=#FFFFFF>『ボンプ支援スキル』</color>の与ダメージがアップする。バフ効果を1重消費するごとに、<color=#FFFFFF>『ボンプ支援スキル』</color>の<color=#2BAD00>与ダメージ+10%、バフ効果を再度3～6回引く</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態にし、または<color=#FFFFFF>「混沌」</color>効果を付与した時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体に<color=#2BAD00>ランダムなバフを3回発動する</color>。"
+      },
+      "4": {
+        "id": 132030204,
+        "desc": "引かれたバフの<color=#2BAD00>効果が元の150%になる</color>。<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、バフ効果を1重消費するごとに、<color=#FFFFFF>『ボンプ支援スキル』</color>の<color=#2BAD00>与ダメージが10%から20%にアップする</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：ガブットボンプは時間とともにエネルギーを溜める。任意のメンバーが敵をブレイク状態にし、または<color=#FFFFFF>「混沌」</color>効果を付与した時、追加でエネルギーを溜める。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとガブットボンプを召喚して、敵に連続の吹雪攻撃を放って<color=#98EFF0>氷属性ダメージ</color>を与え、チーム全体に<color=#2BAD00>ランダムなバフを3回発動する</color>。"
+      }
+    }
+  },
+  "1320401": {
+    "id": 1320401,
+    "name": "[逆境]サバイバルパック",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic008.png",
+    "level": {
+      "1": {
+        "id": 132040101,
+        "desc": "攻撃が敵に命中すると、エージェントが<color=#FFFFFF>「燃血状態」</color>に入る、継続時間2秒。<color=#FFFFFF>「燃血状態」</color>継続中、エージェントの<color=#2BAD00>与ダメージ+75%</color>、<color=#2BAD00>被ダメージ-10%</color>。現在のHPが20%以上の場合、<color=#CF4029>1秒ごとにHPが1%消費される</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜める、操作しているエージェントの現在HPが低いほどエネルギー回復が早くなる。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとカクトウボンプを召喚して、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、操作しているエージェントの<color=#2BAD00>失ったHPの30%分を回復する</color>。"
+      },
+      "2": {
+        "id": 132040102,
+        "desc": "<color=#FFFFFF>「燃血状態」</color>継続中、エージェントの<color=#2BAD00>与ダメージアップ効果が115%になり</color>、<color=#2BAD00>被ダメージダウン効果が20%になる</color>。<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、操作しているエージェントの<color=#2BAD00>HP回復が40%になる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜める、操作しているエージェントの現在HPが低いほどエネルギー回復が早くなる。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとカクトウボンプを召喚して、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、操作しているエージェントの<color=#2BAD00>失ったHPの30%分を回復する</color>。"
+      },
+      "3": {
+        "id": 132040103,
+        "desc": "エージェントがHPを100以上回復した時、<color=#2BAD00>追加打撃</color>が1回発動され、フィールドにいる敵全体に<color=#2BAD00>攻撃力1800%分のダメージを与える</color>、10秒に1回のみ発動可能。<color=#2BAD00>HPを100Pt回復する</color>ごとに、追加打撃の<color=#2BAD00>与ダメージ+2.5%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜める、操作しているエージェントの現在HPが低いほどエネルギー回復が早くなる。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとカクトウボンプを召喚して、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、操作しているエージェントの<color=#2BAD00>失ったHPの30%分を回復する</color>。"
+      },
+      "4": {
+        "id": 132040104,
+        "desc": "HPが20%以上から20%以下になる時、エージェントは<color=#2BAD00>HP上限20%分のシールド</color>を生成する。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜める、操作しているエージェントの現在HPが低いほどエネルギー回復が早くなる。エネルギーが溜まっている状態で『ボンプ支援スキル』を押すとカクトウボンプを召喚して、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、操作しているエージェントの<color=#2BAD00>失ったHPの30%分を回復する</color>。"
+      }
+    }
+  },
+  "1320403": {
+    "id": 1320403,
+    "name": "[逆境]厄災の令牌",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic009.png",
+    "level": {
+      "1": {
+        "id": 132040301,
+        "desc": "エージェントは<color=#FFFFFF>「燃血の祝福」</color>を獲得し、失ったHP10%につき、エージェントの<color=#2BAD00>被ダメージ-2.5%</color>、<color=#2BAD00>与ダメージ+10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜め、エネルギーが溜まっている状態で『ボンプ支援スキル』を押すと、チーム全体の現在のHPを30%消費してカクトウボンプを召喚し、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、エージェントに<color=#2BAD00>失ったHP20%分のシールドを提供する</color>。初めて接敵状態に突入した時、カクトウボンプのエネルギーが満タンになる。"
+      },
+      "2": {
+        "id": 132040302,
+        "desc": "<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、<color=#FFFFFF>「燃血増幅」</color>を獲得し、チーム全体の<color=#2BAD00>攻撃力+50%</color>、継続時間20秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜め、エネルギーが溜まっている状態で『ボンプ支援スキル』を押すと、チーム全体の現在のHPを30%消費してカクトウボンプを召喚し、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、エージェントに<color=#2BAD00>失ったHP20%分のシールドを提供する</color>。初めて接敵状態に突入した時、カクトウボンプのエネルギーが満タンになる。"
+      },
+      "3": {
+        "id": 132040303,
+        "desc": "<color=#FFFFFF>「燃血の祝福」</color>の効果が強化され、失ったHP10%につき、エージェントの<color=#2BAD00>被ダメージダウン効果が2.5%から5%にアップし</color>、<color=#2BAD00>与ダメージアップ効果が10%から20%にアップする</color>。<color=#FFFFFF>『ボンプ支援スキル』</color>発動時、<color=#2BAD00>シールド生成量が失ったHP20%分から30%分になる</color>。エージェントの現在HPが20%以下の場合、<color=#2BAD00>20%まで回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜め、エネルギーが溜まっている状態で『ボンプ支援スキル』を押すと、チーム全体の現在のHPを30%消費してカクトウボンプを召喚し、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、エージェントに<color=#2BAD00>失ったHP20%分のシールドを提供する</color>。初めて接敵状態に突入した時、カクトウボンプのエネルギーが満タンになる。"
+      },
+      "4": {
+        "id": 132040304,
+        "desc": "<color=#FFFFFF>「燃血増幅」</color>継続中、失ったHP1%につき、エージェントの<color=#2BAD00>会心ダメージ+1.6%</color>、<color=#2BAD00>最大120%まで</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：カクトウボンプは時間とともにエネルギーを溜め、エネルギーが溜まっている状態で『ボンプ支援スキル』を押すと、チーム全体の現在のHPを30%消費してカクトウボンプを召喚し、敵に強力な連続火炎攻撃を放って<color=#FF5521>炎属性ダメージ</color>を与え、エージェントに<color=#2BAD00>失ったHP20%分のシールドを提供する</color>。初めて接敵状態に突入した時、カクトウボンプのエネルギーが満タンになる。"
+      }
+    }
+  },
+  "1320501": {
+    "id": 1320501,
+    "name": "[星見雅]花吹雪、蜂の訪い",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic012.png",
+    "desc": "<color=#FFFFFF>『ダッシュ攻撃：冬蜂』</color>が<color=#FFFFFF>『ダッシュ攻撃：冬蜂・極』</color>に変わる。スキル発動時、星見雅は<color=#2BAD00>前方に突進して</color>敵に<color=#98EFF0>霜烈属性ダメージ</color>を与える。スキルが変わった後、星見雅がノックバック大の攻撃を受けた時、または吹き飛ばされた時、硬直時間中に「通常攻撃」または「特殊攻撃」ボタンを短押しすると、<color=#FFFFFF>『ダッシュ攻撃：冬蜂・極』</color>が<color=#2BAD00>直ちに</color>発動されると同時に、<color=#2BAD00>今回受けたダメージ70%分のHPを回復し、かつ0.5秒の無敵効果を得る</color>。"
+  },
+  "1320502": {
+    "id": 1320502,
+    "name": "[星見雅]心に舞う雀",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic013.png",
+    "desc": "敵の攻撃を受けた時、星見雅は<color=#2BAD00>自動でその攻撃を回避し</color>、<color=#FFFFFF>『極限回避』</color>と<color=#FFFFFF>「極限視界」</color>を発動する。<color=#FFFFFF>「極限視界」</color>は3秒間継続し、自動回避は12秒に1回のみ発動可能。効果発動時、星見雅の<color=#2BAD00>与ダメージ+80%</color>、継続時間20秒。"
+  },
+  "1320503": {
+    "id": 1320503,
+    "name": "[星見雅]花間雀",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic014.png",
+    "desc": "星見雅が<color=#FFFFFF>『回避反撃：寒雀』</color>と<color=#FFFFFF>『クイック支援：花信風』</color>を発動すると、<color=#2BAD00>自動で派生スキル</color><color=#FFFFFF>『霜砕雪』</color>に繋げ、<color=#2BAD00>周りの敵に爆風を放ってブレイク値を大幅に増やす</color>。敵をブレイク状態にした時、星見雅が<color=#FFFFFF>「落霜」</color>を3Pt獲得し、ターゲットの<color=#2BAD00>ブレイク弱体倍率+75%</color>。"
+  },
+  "1320601": {
+    "id": 1320601,
+    "name": "[ビリー]炸裂弾",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic018.png",
+    "desc": "<color=#FFFFFF>『通常攻撃：出力全開』</color>が<color=#FFFFFF>『通常攻撃：出力全開・改』</color>に変わり、<color=#2BAD00>射撃頻度が低下する代わりに威力がアップする</color>。スキル発動時、<color=#2BAD00>そのまましゃがみ撃ちに入って</color><color=#FFFFFF>「コアパッシブ：射撃姿勢」</color>を発動し、ビリーの<color=#2BAD00>与ダメージが追加で+50%</color>。移動する、直立状態に戻る、ノックバックを受け、または吹き飛ばされた場合、バフ効果が終了する。"
+  },
+  "1320602": {
+    "id": 1320602,
+    "name": "[ビリー]回転駆動装置",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic019.png",
+    "desc": "ビリーが<color=#FFFFFF>『強化特殊スキル』</color>/<color=#FFFFFF>『支援突撃』</color>/<color=#FFFFFF>『連携スキル』</color>/<color=#FFFFFF>『終結スキル』</color>を発動すると、<color=#2BAD00>ぞれぞれパワーを2/2/4/4重を獲得する</color>（最大4重まで）。<color=#FFFFFF>『ダッシュ攻撃：スターライトジャッジメント』</color>発動中、周囲広範囲に刺突攻撃を放った後、「通常攻撃」ボタン <IconMap:Icon_Normal> を短押しすると、<color=#2BAD00>パワーを1重消費して当該スキルを再発動でき</color>、スキルの<color=#2BAD00>与ダメージ+150%</color>。効果発動時、ビリーの<color=#2BAD00>会心率+20%</color>、継続時間10秒、最大2重まで重ね掛け可能、重複して発動すると継続時間が更新される。"
+  },
+  "1320603": {
+    "id": 1320603,
+    "name": "[ビリー]謎の変身装置",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic020.png",
+    "desc": "ビリーが<color=#FFFFFF>『通常攻撃』</color>発動中にしゃがみ撃ちに入り、<color=#FFFFFF>「コアパッシブ：射撃姿勢」</color>を発動させてバフ効果を1.5継続させた後、<color=#FFFFFF>「スターライト降臨」</color>状態に入る。状態継続中、攻撃が敵に命中すると、ビリーはターゲットの<color=#F0D12B>物理属性ダメージ耐性</color>を<color=#2BAD00>50%無視</color>し、<color=#2BAD00>デシベル値を持続的に獲得する</color>（<color=#2BAD00>20Pt/秒から徐々に上昇、3秒後に50Pt/秒に達する</color>）。ノックバックされ、または吹き飛ばされるまで、デシベル値獲得効果は継続する。"
+  },
+  "1320701": {
+    "id": 1320701,
+    "name": "{AWAKEN_1191#[エレン]フロストバイト・進境}{NOAWAKEN_1191#[エレン]フロストバイト}",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic001.png",
+    "desc": "{AWAKEN_1191#<color=#FFFFFF>『通常攻撃：鋭牙剪定法』</color>の3段目と<color=#FFFFFF>『クイック支援』</color>の発動後、自動的に<color=#FFFFFF>「霜鋒」</color>も発動し、前方の広範囲の敵に複数回の<color=#98EFF0>氷属性ダメージ</color>を与える。<color=#FFFFFF>「霜鋒」</color>が敵に命中すると、ターゲットの<color=#2BAD00>防御力-30%</color>し、継続時間15秒。追加で<color=#FFFFFF>「霜鋒」</color>発動する時、スキルの<color=#2BAD00>会心ダメージ+25%</color>。3重まで重ね掛け可能で、継続時間15秒間、重複して発動すると継続時間が更新される。}{NOAWAKEN_1191#<color=#FFFFFF>『通常攻撃』</color>の3段目、<color=#FFFFFF>『強化特殊スキル：シャーク・トルネード』</color>、<color=#FFFFFF>『回避反撃：暗礁』</color>、<color=#FFFFFF>『クイック支援』</color>、<color=#FFFFFF>『支援突撃』</color>の発動後、<color=#2BAD00>追加で「霜鋒」を1回</color>発動し、<color=#2BAD00>前方の広範囲の敵</color>に<color=#98EFF0>氷属性ダメージ</color>を与え、ターゲットの<color=#2BAD00>防御力-30%</color>、継続時間15秒間。追加で<color=#FFFFFF>「霜鋒」</color>発動する時、スキルの<color=#2BAD00>会心ダメージ+25%</color>。3重まで重ね掛け可能で、継続時間15秒、重複して発動すると継続時間が更新される。<color=#FFFFFF>「霜鋒」</color>の追加発動は、元のスキル派生に影響しない。}"
+  },
+  "1320702": {
+    "id": 1320702,
+    "name": "[エレン]危険なベアリング",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic002.png",
+    "desc": "<color=#FFFFFF>「遊狩」</color>状態にある時、エレンは0.5秒に<color=#FFFFFF>「急凍パワー」</color>を2Pt獲得し、かつ<color=#FFFFFF>「クイックチャージ」</color>を獲得する。<color=#FFFFFF>『ダッシュ攻撃：薄氷の急襲』</color>発動中、クイック鋏撃またはチャージ鋏撃が敵に命中した時、地面に<color=#2BAD00>「氷霧」を残し</color>、敵に持続的な<color=#98EFF0>氷属性ダメージ</color>を与え、ターゲットの<color=#98EFF0>氷属性属性ダメージ耐性</color>-30%、継続時間10秒。<color=#FFFFFF>「氷霧」</color>内にいる時、エレンの<color=#2BAD00>中断耐性レベルがアップし</color>、<color=#2BAD00>被ダメージ-50%</color>。<color=#FFFFFF>「氷霧」</color>から離れた後も、効果は5秒間継続する。"
+  },
+  "1320703": {
+    "id": 1320703,
+    "name": "[エレン]捕食者の背鰭",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic006.png",
+    "desc": "エレンは15秒おきにフィールド内のランダムな敵に継続時間15秒の<color=#FFFFFF>「巡狩」</color>マークを付ける。<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『ダッシュ攻撃：薄氷の急襲』</color>中のクイック鋏撃かチャージ鋏撃で<color=#FFFFFF>「巡狩」</color>マークの敵に命中した時、「通常攻撃」ボタン <IconMap:Icon_Normal> または「特殊攻撃」ボタン <IconMap:Icon_SpecialReady> を短押しすると、エレンは<color=#2BAD00>消費なし・条件なし</color>で<color=#2BAD00>当該スキルを再発動でき</color>、その場合スキルの<color=#2BAD00>会心ダメージ+25%</color>。ターゲットが倒された時、エレンは直ちに次の敵に<color=#FFFFFF>「巡狩」</color>マークを付ける。<color=#FFFFFF>「急凍パワー」</color>獲得時、上限を超えた分1Ptにつき、エレンの<color=#2BAD00>攻撃力+5%</color>、最大9重まで重ね掛け可能、継続時間10秒、継続時間は1重ずつカウントされていく。"
+  },
+  "1320801": {
+    "id": 1320801,
+    "name": "[月城柳]天を舞う月華",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic015.png",
+    "desc": "<color=#FFFFFF>『強化特殊スキル：月華流転』</color>発動中に高速突き刺しを放った後、月城柳は空中に浮いたまま<color=#2BAD00>地面に連続で落雷攻撃を放ち</color>、<color=#2EB6FF>電気属性ダメージ</color>を与える。「特殊攻撃」ボタン <IconMap:Icon_SpecialReady> を離す、もう一度短押し、または継続時間の上限に達した後、月城柳は<color=#FFFFFF>『強化特殊スキル：月華流転』</color>の落下攻撃を放つ。落雷攻撃が敵に命中すると、月城柳の<color=#2BAD00>ターゲットに与える「混沌」ダメージ+3%</color>、最大20重まで重ね掛け可能、継続時間6秒、重複して発動すると継続時間が更新される。<color=#FFFFFF>『強化特殊スキル：月華流転』</color>の重撃が敵に命中した時、月城柳は最大HP20%分のシールドを獲得する、継続時間20秒、20秒に1回のみ発動する。"
+  },
+  "1320802": {
+    "id": 1320802,
+    "name": "[月城柳]神楽舞",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic016.png",
+    "desc": "<color=#FFFFFF>「上弦」</color>構えの<color=#FFFFFF>『通常攻撃』</color>5段目、または<color=#FFFFFF>「下弦」</color>構え<color=#FFFFFF>『通常攻撃』</color>4段目を発動時、「通常攻撃」ボタン <IconMap:Icon_Normal> を連打または長押しすると、<color=#2BAD00>スキルの継続時間を延長させ</color>、繰り返し斬撃を放てる。繰り返し斬撃が敵に命中すると、月城柳の<color=#2EB6FF>電気属性与ダメージ+4%</color>、最大15重まで重ね掛け可能、継続時間8秒、重複して発動すると継続時間が更新される。繰り返し斬撃の期間中、月城柳の<color=#2BAD00>被ダメージ-40%</color>。<color=#FFFFFF>「疾速の流転」</color>発動後、「通常攻撃」ボタン <IconMap:Icon_Normal> を短押しすると、<color=#2BAD00>別構えの繰り返し斬撃を素早く発動できる</color>。"
+  },
+  "1320803": {
+    "id": 1320803,
+    "name": "[月城柳]鏡に映す流転",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic017.png",
+    "desc": "<color=#FFFFFF>『特殊スキル：流転』</color>発動時、月城柳は<color=#2BAD00>パワーを1重獲得する</color>（最大3重まで）。パワーを3重所持する場合、<color=#FFFFFF>「疾速の流転」</color>発動後、「通常攻撃」ボタン <IconMap:Icon_Normal> を短押しすると<color=#2BAD00>すべてのパワーを消費し</color>、<color=#2BAD00>そのまま『連携スキル：月は星とともに』に繋げる</color>。<color=#FFFFFF>「疾速の流転」</color>発動中に敵の攻撃をガードできた場合、<color=#FFFFFF>『連携スキル：月は星とともに』</color>に繋げる時は<color=#2BAD00>パワーを消費しない</color>。<color=#FFFFFF>『連携スキル：月は星とともに』</color>の与ダメージ+50%。"
+  },
+  "1321001": {
+    "id": 1321001,
+    "name": "[持ち遊び]勅令玄幡",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic033.png",
+    "level": {
+      "1": {
+        "id": 132100101,
+        "desc": "操作しているメンバーの<color=#FFFFFF>『支援突撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『終結スキル』</color>の重撃が敵に命中、または<color=#FFFFFF>『極限回避』</color>を発動した時、次のメンバーの<color=#FFFFFF>『追撃支援』</color>が発動可能になる。この時に<IconMap:Icon_Switch>を短押しすると、次のメンバーはターゲットを中心に<color=#FFFFFF>『クイック支援』</color>を発動する。<color=#FFFFFF>『追撃支援』</color>は発動中にメンバーを交代せず、そのダメージは<color=#FFFFFF>『追加攻撃』</color>ダメージとみなされる。エージェントが<color=#FFFFFF>『追撃支援』</color>を発動するたびに、チーム全体に<color=#FFFFFF>「同胞」</color>を1重付与する、最大5重まで重ね掛け可能、継続時間20秒、重複して発動すると継続時間が更新される。<color=#FFFFFF>「同胞」</color>1重につき：<color=#FFFFFF>[異常]</color>エージェントの<color=#2BAD00>異常マスタリー+20</color>、<color=#2BAD00>状態異常蓄積効率+10%</color>。[撃破]エージェントの<color=#2BAD00>衝撃力+4%</color>。[強攻]エージェントの<color=#2BAD00>会心率+5%</color>、<color=#2BAD00>会心ダメージ+10%</color>。[支援]エージェントの<color=#2BAD00>エネルギー獲得効率+7.5%</color>。[防護]エージェントの<color=#2BAD00>シールド付与効率+10%</color>。[命破]エージェントの<color=#2BAD00>透徹ダメージ+7%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体に<color=#FFFFFF>「同胞」</color>を3重付与する</color>。"
+      },
+      "2": {
+        "id": 132100102,
+        "desc": "操作しているメンバーが他のメンバーの<color=#FFFFFF>『追撃支援』</color>を発動可能にした時、キャラ切替のボタンを素早く押すと、<color=#FFFFFF>『精確・追撃支援』</color>が発動し、チーム全体に<color=#FFFFFF>「同胞」</color>を2重付与する。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体に<color=#FFFFFF>「同胞」</color>を3重付与する</color>。"
+      },
+      "3": {
+        "id": 132100103,
+        "desc": "<color=#FFFFFF>「同胞」</color>のバフ効果<color=#2BAD00>+40%</color>、<color=#2BAD00>継続時間が30秒までアップする</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体に<color=#FFFFFF>「同胞」</color>を3重付与する</color>。"
+      },
+      "4": {
+        "id": 132100104,
+        "desc": "<color=#FFFFFF>「同胞」</color>1重につき、追加でエージェントの<color=#2BAD00>攻撃力+5%</color>、<color=#2BAD00>与ダメージ+10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体に<color=#FFFFFF>「同胞」</color>を3重付与する</color>。"
+      }
+    }
+  },
+  "1321002": {
+    "id": 1321002,
+    "name": "[持ち遊び]破軍の鐘",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic034.png",
+    "level": {
+      "1": {
+        "id": 132100201,
+        "desc": "操作しているメンバーの<color=#FFFFFF>『支援突撃』</color>、<color=#FFFFFF>『強化特殊スキル』</color>、<color=#FFFFFF>『終結スキル』</color>の重撃が敵に命中、または<color=#FFFFFF>『極限回避』</color>を発動した時、次のメンバーの<color=#FFFFFF>『追撃支援』</color>が発動可能になる。この時に<IconMap:Icon_Switch>を短押しすると、次のメンバーはターゲットを中心に<color=#FFFFFF>『クイック支援』</color>を発動する。<color=#FFFFFF>『追撃支援』</color>は発動中にメンバーを交代せず、そのダメージは<color=#FFFFFF>『追加攻撃』</color>ダメージとみなされる。<color=#FFFFFF>『追撃支援』</color>による<color=#2BAD00>ダメージ+200%、ブレイク値+50%、状態異常蓄積値+100%</color>。チーム全体で<color=#FFFFFF>『追撃支援』</color>を3回発動するたびに、次に<color=#FFFFFF>『追撃支援』</color>を発動する時、<color=#FFFFFF>『極限視界』</color>が発動するようになる。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体のデシベル値を250Pt、エネルギーを6Pt回復する</color>。また、任意のメンバーが次に発動する<color=#FFFFFF>『追撃支援』</color>は<color=#FFFFFF>『連携スキル』</color>に変わり、発動時は<color=#FFFFFF>「極限視界」に入る</color>。"
+      },
+      "2": {
+        "id": 132100202,
+        "desc": "チーム全体で<color=#FFFFFF>『追撃支援』</color>を3回発動するたびに、次に<color=#FFFFFF>『追撃支援』</color>を発動する時、次のメンバーは<color=#FFFFFF>『連携スキル』</color>を発動して敵を攻撃する。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体のデシベル値を250Pt、エネルギーを6Pt回復する</color>。また、任意のメンバーが次に発動する<color=#FFFFFF>『追撃支援』</color>は<color=#FFFFFF>『連携スキル』</color>に変わり、発動時は<color=#FFFFFF>「極限視界」に入る</color>。"
+      },
+      "3": {
+        "id": 132100203,
+        "desc": "<color=#FFFFFF>『極限視界』</color>継続中、チーム全体の<color=#2BAD00>攻撃力+50%、衝撃力+40%、異常掌握+100Pt</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体のデシベル値を250Pt、エネルギーを6Pt回復する</color>。また、任意のメンバーが次に発動する<color=#FFFFFF>『追撃支援』</color>は<color=#FFFFFF>『連携スキル』</color>に変わり、発動時は<color=#FFFFFF>「極限視界」に入る</color>。"
+      },
+      "4": {
+        "id": 132100204,
+        "desc": "チーム全体で<color=#FFFFFF>『追撃支援』</color>を2回発動するたびに、次に<color=#FFFFFF>『追撃支援』</color>を発動する時、次のメンバーは<color=#FFFFFF>『連携スキル』</color>を発動して敵を攻撃するほか、<color=#FFFFFF>『極限視界』</color>も発動される。",
+        "relic_proactive_skill": "<color=#FFFFFF>『ボンプ支援スキル』</color>：オマネキボンプは時間とともにエネルギーを溜める。任意のメンバーの<color=#FFFFFF>『追加攻撃』</color>が敵に命中した時、追加でエネルギーを溜める。この効果は3秒に1回のみ発動する。エネルギーが溜まっている状態で『ボンプ支援スキル』を短押しするとオマネキボンプを召喚して、大量のディニーで敵を継続的に攻撃し、<color=#F0D12B>物理属性ダメージ</color>を与え、<color=#2BAD00>チーム全体のデシベル値を250Pt、エネルギーを6Pt回復する</color>。また、任意のメンバーが次に発動する<color=#FFFFFF>『追撃支援』</color>は<color=#FFFFFF>『連携スキル』</color>に変わり、発動時は<color=#FFFFFF>「極限視界」に入る</color>。"
+      }
+    }
+  },
+  "1322201": {
+    "id": 1322201,
+    "name": "[アストラ]煌きのモーメント",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic023.png",
+    "desc": "アストラがエネルギーを25Pt消費するごとに、<color=#FFFFFF>「星明かり」</color>を1重獲得する、最大3重まで重ね掛け可能。<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、<IconMap:Icon_Normal> 長押しで<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>を発動すると、持続的にエネルギービームを誘導して敵を攻撃できる。スキル発動時、<color=#FFFFFF>「星明かり」</color>が消費される。消費された<color=#FFFFFF>「星明かり」</color>1重につき、<color=#2BAD00>スキルの継続時間+1秒</color>。スキル継続中に<color=#2BAD00>中断耐性レベルがアップし</color>、<color=#2BAD00>被ダメージが追加で‐20%</color>。スキルが敵に命中した時、<color=#2BAD00>ターゲットの防御力‐40%</color>、継続時間15秒。<color=#FFFFFF>「星明かり」</color>を3重所持している状態でアストラに切り替えると、自動的に<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>が発動される。"
+  },
+  "1322202": {
+    "id": 1322202,
+    "name": "[アストラ]ホロウ交響曲",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic022.png",
+    "desc": "アストラがエネルギーを25Pt消費するごとに、<color=#FFFFFF>「星明かり」</color>を1重獲得する、最大3重まで重ね掛け可能。<color=#FFFFFF>「星明かり」</color>を1重所持するごとに、<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中に発動/追加発動された<color=#2BAD00><color=#FFFFFF>「ビブラート」</color>の与ダメージ+15%</color>。 <IconMap:Icon_Normal> 長押しで<color=#FFFFFF>『通常攻撃：フィナーレ』</color>または<color=#FFFFFF>『通常攻撃：煌きのモーメント』</color>を発動すると、<color=#FFFFFF>「星明かり」</color>が消費される。消費された<color=#FFFFFF>「星明かり」</color>1重につき、<color=#2BAD00>スキルの与ダメージ+15%</color>、同時にアストラの<color=#2BAD00>エネルギーを4Pt回復する</color>。アストラの<color=#FFFFFF>『通常攻撃：インタールード』</color>が敵に命中した時、追加でエネルギーを25Pt消費する。<color=#FFFFFF>『通常攻撃：コーラス』</color>が敵に命中した時、<color=#2BAD00>追加でエネルギーを4Pt回復する</color>。"
+  },
+  "1322203": {
+    "id": 1322203,
+    "name": "[アストラ]反響するハーモニー",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic021.png",
+    "desc": "<color=#FFFFFF>「アイドリック・カデンツァ」</color>状態継続中、<color=#2BAD00>チーム全体の会心率+20%</color>。会心率が100%を上回る場合、1%上回るごとに<color=#2BAD00>会心ダメージ+2%</color>、最大で100%まで上昇可能。操作中のエージェントの<color=#FFFFFF>『強化特殊スキル』</color>が敵に命中した時、<color=#2BAD00>アストラのエネルギーが1Pt回復し</color>、<color=#2BAD00>追加で<color=#FFFFFF>『ビブラート』</color>が発動する</color>。エネルギー回復効果は1秒に1回のみ発動可能。"
+  },
+  "1322301": {
+    "id": 1322301,
+    "name": "[イヴリン]低引火点塗装",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic025.png",
+    "desc": "イヴリンが<color=#FFFFFF>「燎索ポイント」</color>を消費して発動した<color=#FFFFFF>『連携スキル：輝夜の糸・絆』</color>が<color=#FFFFFF>『連携スキル：輝夜の糸・絡まる』</color>に変わり、スキルの時間が大幅に短縮される。イヴリンの<color=#FFFFFF>『連携スキル』</color>が敵に命中した時、<color=#2BAD00>スキルの与ダメージ+80%</color>。"
+  },
+  "1322302": {
+    "id": 1322302,
+    "name": "[イヴリン]ミニダイナマイト",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic024.png",
+    "desc": "イヴリンの<color=#FFFFFF>「纏わりつく牽制」</color>状態が終了した時、<color=#FFFFFF>「点火準備タイム」</color>に入る、継続時間20秒。状態継続中、次に発動する<color=#FFFFFF>『ダッシュ攻撃：スリップ・アンブッシュ』</color>が<color=#FFFFFF>『ダッシュ攻撃：アンブッシュ・ブラスト』</color>に変わる。<color=#FFFFFF>『ダッシュ攻撃：アンブッシュ・ブラスト』</color>は<color=#2BAD00>『連携スキル』とみなされる</color>。イヴリンが<color=#FFFFFF>『通常攻撃：絞式』</color>を発動した時、<color=#2BAD00>「纏わりつく牽制」状態が終わる</color>。"
+  },
+  "1322303": {
+    "id": 1322303,
+    "name": "[イヴリン]緊急プロトコル",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic026.png",
+    "desc": "正面からの攻撃で被撃硬直に入る寸前、<color=#FFFFFF>「支援ポイント」</color>を消費して<color=#2BAD00>自動で『パリィ支援』を発動</color>する。敵の攻撃をガードしてから<color=#FFFFFF>『支援突撃：軌道干渉』</color>に繋げることができる。イヴリンが<color=#FFFFFF>『パリィ支援』</color>を発動した時、自身の<color=#2BAD00>会心ダメージが+50%</color>、最大2重まで重ね掛け可能、継続時間20秒、継続時間は1重ごとに独立してカウントされる。"
+  },
+  "1322401": {
+    "id": 1322401,
+    "name": "[ジェーン]ファントムアーマー",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic028.png",
+    "desc": "<color=#FFFFFF>『通常攻撃：サルコウ・ジャンプ』</color>の<color=#2BAD00>連続攻撃時間が大幅にアップし</color>、攻撃されそうになった瞬間にとどめの一撃を使うと、<color=#FFFFFF>『極限回避』</color>を発動できる。持続攻撃の継続時間が上限に達した、またはとどめの一撃で<color=#FFFFFF>『極限回避』</color>が発動された時、とどめの一撃が<color=#FFFFFF>『サルコウ・ジャンプ・浮遊』</color>に強化され、当該スキル発動時に自身の<color=#F0D12B>物理属性の状態異常蓄積効率</color><color=#2BAD00>+50%</color>、継続時間10秒。"
+  },
+  "1322402": {
+    "id": 1322402,
+    "name": "[ジェーン]高まる猟欲",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic027.png",
+    "desc": "<color=#FFFFFF>『極限回避』</color>または<color=#FFFFFF>『パリィ支援』</color>発動時、<color=#FFFFFF>「熱狂フロウ」</color>の獲得量が<color=#2BAD00>大幅に増加し</color>、<color=#FFFFFF>「熱狂」</color>状態が<color=#FFFFFF>「限界熱狂」</color>状態に変わる。「限界熱狂」状態継続中、ジェーンの<color=#2BAD00>攻撃力が追加で+35%</color>のほか、<color=#FFFFFF>「熱狂フロウ」</color>は時間とともに減少するようになり、攻撃が敵に命中しても減らない。"
+  },
+  "1322403": {
+    "id": 1322403,
+    "name": "[ジェーン]尖った毒牙",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic029.png",
+    "desc": "<color=#FFFFFF>「熱狂」</color>または<color=#FFFFFF>「限界熱狂」</color>状態継続中、<color=#FFFFFF>「強化特殊スキル：空を掠める」</color>が<color=#FFFFFF>「強化特殊スキル：空を掠める・強襲」</color>に強化される。スキル発動時、ジェーンが再び<color=#FFFFFF>「熱狂」</color>または<color=#FFFFFF>「限界熱狂」</color>状態に入る。スキルが敵に命中すると、ターゲットの<color=#2BAD00>全属性の状態異常蓄積耐性-40%</color>、継続時間15秒。"
+  },
+  "1322501": {
+    "id": 1322501,
+    "name": "[カリン]刃のしつけ方",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic031.png",
+    "desc": "<color=#FFFFFF>『ダッシュ攻撃：「断」』</color>が<color=#FFFFFF>『ダッシュ攻撃：「断」・改』</color>に変わり、『通常攻撃』<IconMap:Icon_Normal>を長押しするとダッシュ状態が継続する。チェーンソーの持続斬撃が連続で敵に30回命中する、またはボタンを離すとダッシュ状態が終了する。"
+  },
+  "1322502": {
+    "id": 1322502,
+    "name": "[カリン]オーバードライブ",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic030.png",
+    "desc": "<color=#FFFFFF>『強化特殊スキル』</color>発動中、<color=#FFFFFF>『特殊攻撃』</color><IconMap:Icon_SpecialReady>を長押しして、敵に持続斬撃を0.5秒以上命中させると、<color=#FFFFFF>「ブースト状態」</color>に入り、敵を持続的に引き寄せる。斬撃が敵に10回命中した後、<color=#FFFFFF>「オーバーブースト」</color>が発生し、<color=#2BAD00>追加でカリンの攻撃力400%分の</color><color=#ELEMENT_PHYSiCS>物理属性ダメージ</color>を<color=#2BAD00>1回与える</color>。"
+  },
+  "1322503": {
+    "id": 1322503,
+    "name": "[カリン]特製送風機",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic032.png",
+    "desc": "<color=#FFFFFF>『通常攻撃』</color>1、2、3段目、<color=#FFFFFF>『ダッシュ攻撃』</color>、<color=#FFFFFF>『回避反撃』</color>、<color=#FFFFFF>『クイック支援』</color>発動中、『通常攻撃』<IconMap:Icon_Normal>を連打または長押しすると、<color=#2BAD00>『通常攻撃』の4段目を直接発動でき</color>、同時に前方に<color=#2BAD00>旋風を放って敵に斬撃を与える</color>。"
+  },
+  "1360101": {
+    "id": 1360101,
+    "name": "[強攻：殲滅]冥炎再燃",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：オルペウス＆「鬼火」は時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、オルペウス＆「鬼火」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃すると同時に、メンバー全員に<color=#FFFFFF>「フォーカス」効果を付与する</color>、継続時間15秒。<color=#FFFFFF>「フォーカス」</color>効果を所持しているエージェントは<color=#2BAD00>攻撃力+500Pt、攻撃時に敵の防御力を20%無視する</color>。",
+    "level": {
+      "1": {
+        "id": 136010101,
+        "desc": "任意の<color=#FFFFFF>『サポート支援スキル』</color>終了後、エージェントが<color=#FFFFFF>『終結スキル』</color>で再出場する。20秒に1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：オルペウス＆「鬼火」は時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、オルペウス＆「鬼火」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃すると同時に、メンバー全員に<color=#FFFFFF>「フォーカス」効果を付与する</color>、継続時間15秒。<color=#FFFFFF>「フォーカス」</color>効果を所持しているエージェントは<color=#2BAD00>攻撃力+500Pt、攻撃時に敵の防御力を20%無視する</color>。"
+      },
+      "2": {
+        "id": 136010102,
+        "desc": "<color=#FFFFFF>「フォーカス」</color>効果で、<color=#2BAD00>攻撃力+675Pt、敵の防御力を30%無視する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：オルペウス＆「鬼火」は時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、オルペウス＆「鬼火」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃すると同時に、メンバー全員に<color=#FFFFFF>「フォーカス」効果を付与する</color>、継続時間15秒。<color=#FFFFFF>「フォーカス」</color>効果を所持しているエージェントは<color=#2BAD00>攻撃力+500Pt、攻撃時に敵の防御力を20%無視する</color>。"
+      },
+      "3": {
+        "id": 136010103,
+        "desc": "エージェントの攻撃で会心が発生した時、<color=#2BAD00>会心ダメージ+40%、与ダメージ+25%</color>。継続時間6秒。重複して発動すると継続時間が更新される。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：オルペウス＆「鬼火」は時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、オルペウス＆「鬼火」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃すると同時に、メンバー全員に<color=#FFFFFF>「フォーカス」効果を付与する</color>、継続時間15秒。<color=#FFFFFF>「フォーカス」</color>効果を所持しているエージェントは<color=#2BAD00>攻撃力+500Pt、攻撃時に敵の防御力を20%無視する</color>。"
+      },
+      "4": {
+        "id": 136010104,
+        "desc": "<color=#FFFFFF>「フォーカス」</color>中、エージェントが<color=#FFFFFF>『強化特殊スキル』</color>/<color=#FFFFFF>『連携スキル』</color>/<color=#FFFFFF>『終結スキル』</color>を発動すると、<color=#FFFFFF>「フォーカス」</color>の継続時間がそれぞれ<color=#2BAD00>3/3/6秒延長される</color>。延長時間は最大30秒まで。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：オルペウス＆「鬼火」は時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、オルペウス＆「鬼火」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃すると同時に、メンバー全員に<color=#FFFFFF>「フォーカス」効果を付与する</color>、継続時間15秒。<color=#FFFFFF>「フォーカス」</color>効果を所持しているエージェントは<color=#2BAD00>攻撃力+500Pt、攻撃時に敵の防御力を20%無視する</color>。"
+      }
+    }
+  },
+  "1360102": {
+    "id": 1360102,
+    "name": "[強攻：殲滅]マスカレード",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic072.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：ヒューゴは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ヒューゴが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。このスキルは必ず会心が発生し、重撃が命中すると<color=#FFFFFF>「累算」効果が発動</color>する。通常エネミー/精鋭エネミー/ボスエネミーに<color=#2BAD00>それぞれの最大HPの100%/20%/10%分のダメージを与える</color>。ヒューゴの<color=#FFFFFF>『サポート支援スキル』</color>がブレイク状態の敵に命中すると、敵のブレイク状態を終了させ、残りのブレイク時間に応じて精鋭エネミー/ボスエネミーに<color=#2BAD00>最大HPの一定割合に相当する追加ダメージを与える</color>。追加ダメージは最大20%/10%まで与えられる。",
+    "level": {
+      "1": {
+        "id": 136010201,
+        "desc": "エージェントまたはサポートメンバーの攻撃で会心が発生した時、<color=#2BAD00>最大HPの80%/40%/20%を下回るHPを持つ通常エネミー/精鋭エネミー/ボスエネミーを瞬殺できる</color>。6秒に1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ヒューゴは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ヒューゴが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。このスキルは必ず会心が発生し、重撃が命中すると<color=#FFFFFF>「累算」効果が発動</color>する。通常エネミー/精鋭エネミー/ボスエネミーに<color=#2BAD00>それぞれの最大HPの100%/20%/10%分のダメージを与える</color>。ヒューゴの<color=#FFFFFF>『サポート支援スキル』</color>がブレイク状態の敵に命中すると、敵のブレイク状態を終了させ、残りのブレイク時間に応じて精鋭エネミー/ボスエネミーに<color=#2BAD00>最大HPの一定割合に相当する追加ダメージを与える</color>。追加ダメージは最大20%/10%まで与えられる。"
+      },
+      "2": {
+        "id": 136010202,
+        "desc": "エージェントが通常エネミー/精鋭エネミー/ボスエネミーをブレイク状態にした時、<color=#2BAD00>ヒューゴの『サポート支援スキル』エネルギーを25%/63%/100%回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ヒューゴは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ヒューゴが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。このスキルは必ず会心が発生し、重撃が命中すると<color=#FFFFFF>「累算」効果が発動</color>する。通常エネミー/精鋭エネミー/ボスエネミーに<color=#2BAD00>それぞれの最大HPの100%/20%/10%分のダメージを与える</color>。ヒューゴの<color=#FFFFFF>『サポート支援スキル』</color>がブレイク状態の敵に命中すると、敵のブレイク状態を終了させ、残りのブレイク時間に応じて精鋭エネミー/ボスエネミーに<color=#2BAD00>最大HPの一定割合に相当する追加ダメージを与える</color>。追加ダメージは最大20%/10%まで与えられる。"
+      },
+      "3": {
+        "id": 136010203,
+        "desc": "<color=#FFFFFF>『サポート支援スキル』</color>を発動した時、メンバー全員の<color=#2BAD00>エネルギーが30Pt回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ヒューゴは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ヒューゴが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。このスキルは必ず会心が発生し、重撃が命中すると<color=#FFFFFF>「累算」効果が発動</color>する。通常エネミー/精鋭エネミー/ボスエネミーに<color=#2BAD00>それぞれの最大HPの100%/20%/10%分のダメージを与える</color>。ヒューゴの<color=#FFFFFF>『サポート支援スキル』</color>がブレイク状態の敵に命中すると、敵のブレイク状態を終了させ、残りのブレイク時間に応じて精鋭エネミー/ボスエネミーに<color=#2BAD00>最大HPの一定割合に相当する追加ダメージを与える</color>。追加ダメージは最大20%/10%まで与えられる。"
+      },
+      "4": {
+        "id": 136010204,
+        "desc": "精鋭またはボスエネミーを1体撃破するたび、<color=#FFFFFF>「強化」</color>を1重獲得する。<color=#FFFFFF>「強化」</color>1重につき、<color=#FFFFFF>『サポート支援スキル』</color>の<color=#FFFFFF>「累算」</color>効果はボスエネミーに対し、追加で<color=#2BAD00>その最大HPの2%分のダメージを与える</color>。このレベルアップ効果を獲得する前に撃破したボスエネミーおよび精鋭エネミーも、効果獲得時に<color=#FFFFFF>「強化」</color>の重数として計算される。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ヒューゴは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ヒューゴが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。このスキルは必ず会心が発生し、重撃が命中すると<color=#FFFFFF>「累算」効果が発動</color>する。通常エネミー/精鋭エネミー/ボスエネミーに<color=#2BAD00>それぞれの最大HPの100%/20%/10%分のダメージを与える</color>。ヒューゴの<color=#FFFFFF>『サポート支援スキル』</color>がブレイク状態の敵に命中すると、敵のブレイク状態を終了させ、残りのブレイク時間に応じて精鋭エネミー/ボスエネミーに<color=#2BAD00>最大HPの一定割合に相当する追加ダメージを与える</color>。追加ダメージは最大20%/10%まで与えられる。"
+      }
+    }
+  },
+  "1360103": {
+    "id": 1360103,
+    "name": "[異常：付加]杯の中の輝き",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：バーニスは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、バーニスが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「バーンド」</color>効果を付与する。<color=#FFFFFF>「バーンド」</color>効果を所持している敵の<color=#2BAD00>全属性状態異常蓄積耐性-42%</color>。継続時間40秒。",
+    "level": {
+      "1": {
+        "id": 136010301,
+        "desc": "任意のエージェントが<color=#FFFFFF>『強化特殊スキル』</color>または<color=#FFFFFF>『終結スキル』</color>を発動して状態異常の敵に命中させると、<color=#FFFFFF>「極性混沌」</color>が発動し、ターゲットに<color=#2BAD00>本来の「混沌」効果50%分のダメージを与える</color>。3秒に1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：バーニスは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、バーニスが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「バーンド」</color>効果を付与する。<color=#FFFFFF>「バーンド」</color>効果を所持している敵の<color=#2BAD00>全属性状態異常蓄積耐性-42%</color>。継続時間40秒。"
+      },
+      "2": {
+        "id": 136010302,
+        "desc": "バーニスが<color=#FFFFFF>『サポート支援スキル』</color>を発動した時、メンバー全員に<color=#FFFFFF>「スペシャルフューエル」</color>状態を付与する。<color=#FFFFFF>「スペシャルフューエル」</color>状態中、エージェントが付与した<color=#FFFFFF>「混沌」</color>効果の<color=#2BAD00>ダメージ+100%</color>。<color=#FFFFFF>「スペシャルフューエル」</color>状態の継続時間は15秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：バーニスは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、バーニスが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「バーンド」</color>効果を付与する。<color=#FFFFFF>「バーンド」</color>効果を所持している敵の<color=#2BAD00>全属性状態異常蓄積耐性-42%</color>。継続時間40秒。"
+      },
+      "3": {
+        "id": 136010303,
+        "desc": "任意のエージェントが<color=#FFFFFF>「混沌」</color>効果を付与した時、直接<color=#2BAD00>敵のブレイク値を10%蓄積させる</color>。6秒に1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：バーニスは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、バーニスが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「バーンド」</color>効果を付与する。<color=#FFFFFF>「バーンド」</color>効果を所持している敵の<color=#2BAD00>全属性状態異常蓄積耐性-42%</color>。継続時間40秒。"
+      },
+      "4": {
+        "id": 136010304,
+        "desc": "ボスエネミーをブレイク状態にした時、メンバー全員に<color=#FFFFFF>『サポート支援スキル』</color>による<color=#FFFFFF>「スペシャルフューエル」</color>状態を付与する。<color=#FFFFFF>「スペシャルフューエル」</color>状態中、エージェントの<color=#2BAD00>異常マスタリー+90Pt、異常掌握+80Pt</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：バーニスは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、バーニスが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「バーンド」</color>効果を付与する。<color=#FFFFFF>「バーンド」</color>効果を所持している敵の<color=#2BAD00>全属性状態異常蓄積耐性-42%</color>。継続時間40秒。"
+      }
+    }
+  },
+  "1360104": {
+    "id": 1360104,
+    "name": "[異常：付加]羽に積もる涙",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic071.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：ビビアンは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ビビアンが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。状態異常の敵に命中した時、ターゲットに<color=#FFFFFF>「狂咲」</color>効果を付与し、追加で<color=#2BAD00>状態異常ダメージを1回発生させる</color>。このダメージ倍率は元の状態異常ダメージの<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>となる。",
+    "level": {
+      "1": {
+        "id": 136010401,
+        "desc": "メンバー全員とサポートメンバーの<color=#2BAD00>異常マスタリー+75Pt、状態異常ダメージ+30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ビビアンは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ビビアンが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。状態異常の敵に命中した時、ターゲットに<color=#FFFFFF>「狂咲」</color>効果を付与し、追加で<color=#2BAD00>状態異常ダメージを1回発生させる</color>。このダメージ倍率は元の状態異常ダメージの<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>となる。"
+      },
+      "2": {
+        "id": 136010402,
+        "desc": "任意のエージェントが状態異常を付与した時、ビビアンは<color=#2BAD00>『サポート支援スキル』のエネルギーを30Pt獲得する</color>。6秒に1回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ビビアンは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ビビアンが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。状態異常の敵に命中した時、ターゲットに<color=#FFFFFF>「狂咲」</color>効果を付与し、追加で<color=#2BAD00>状態異常ダメージを1回発生させる</color>。このダメージ倍率は元の状態異常ダメージの<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>となる。"
+      },
+      "3": {
+        "id": 136010403,
+        "desc": "メンバー全員またはサポートメンバーが<color=#FFFFFF>「狂咲」</color>効果を付与した時、メンバー全員の<color=#2BAD00>貫通率+20%、与ダメージ+25%</color>。継続時間30秒。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ビビアンは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ビビアンが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。状態異常の敵に命中した時、ターゲットに<color=#FFFFFF>「狂咲」</color>効果を付与し、追加で<color=#2BAD00>状態異常ダメージを1回発生させる</color>。このダメージ倍率は元の状態異常ダメージの<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>となる。"
+      },
+      "4": {
+        "id": 136010404,
+        "desc": "ビビアンが<color=#FFFFFF>『サポート支援スキル』</color>を発動した際の<color=#FFFFFF>「狂咲」</color>効果の<color=#2BAD00>ダメージ倍率が元の2倍になり、ターゲットの全属性ダメージ耐性を11%無視する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ビビアンは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ビビアンが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。状態異常の敵に命中した時、ターゲットに<color=#FFFFFF>「狂咲」</color>効果を付与し、追加で<color=#2BAD00>状態異常ダメージを1回発生させる</color>。このダメージ倍率は元の状態異常ダメージの<color=#FE437E>6129%</color>/<color=#2EB6FF>3040%</color>/<color=#FF5521>7600%</color>/<color=#F0D12B>533%</color>/<color=#98EFF0>760%</color>/<color=#A6C5FD>304%</color>となる。"
+      }
+    }
+  },
+  "1360105": {
+    "id": 1360105,
+    "name": "[撃破：叩きつけ]一撃必殺",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：ライトは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、ライトが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「壊滅」</color>効果を付与する。<color=#FFFFFF>「壊滅」</color>効果を所持している敵は<color=#2BAD00>ブレイク後のブレイク時間が3秒延長され</color>、ブレイク状態から復帰する時に<color=#FFFFFF>「壊滅」</color>効果は解除される。ライトの<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。",
+    "level": {
+      "1": {
+        "id": 136010501,
+        "desc": "<color=#FFFFFF>『サポート支援スキル』</color>が敵に命中した時、敵に直接<color=#2BAD00>蓄積するブレイク値+100%/40%/20%（通常/精鋭/ボス）</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ライトは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、ライトが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「壊滅」</color>効果を付与する。<color=#FFFFFF>「壊滅」</color>効果を所持している敵は<color=#2BAD00>ブレイク後のブレイク時間が3秒延長され</color>、ブレイク状態から復帰する時に<color=#FFFFFF>「壊滅」</color>効果は解除される。ライトの<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "2": {
+        "id": 136010502,
+        "desc": "<color=#FFFFFF>「壊滅」</color>効果を持つ敵の<color=#2BAD00>全属性耐性-30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ライトは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、ライトが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「壊滅」</color>効果を付与する。<color=#FFFFFF>「壊滅」</color>効果を所持している敵は<color=#2BAD00>ブレイク後のブレイク時間が3秒延長され</color>、ブレイク状態から復帰する時に<color=#FFFFFF>「壊滅」</color>効果は解除される。ライトの<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "3": {
+        "id": 136010503,
+        "desc": "敵をブレイク状態にした時、ターゲットに<color=#FFFFFF>「脆弱」</color>効果を1重付与し、メンバー全員とサポートメンバーの<color=#2BAD00>ブレイク期間中にその敵への与えるダメージ+50%</color>。同一の敵に対しては<color=#FFFFFF>「脆弱」</color>効果を3重まで重ね掛け可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ライトは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、ライトが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「壊滅」</color>効果を付与する。<color=#FFFFFF>「壊滅」</color>効果を所持している敵は<color=#2BAD00>ブレイク後のブレイク時間が3秒延長され</color>、ブレイク状態から復帰する時に<color=#FFFFFF>「壊滅」</color>効果は解除される。ライトの<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "4": {
+        "id": 136010504,
+        "desc": "<color=#FFFFFF>「壊滅」</color>効果を持つ通常/精鋭/ボスエネミーのブレイク終了後、<color=#2BAD00>ブレイク値を100%/40%/20%蓄積させる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ライトは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、ライトが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「壊滅」</color>効果を付与する。<color=#FFFFFF>「壊滅」</color>効果を所持している敵は<color=#2BAD00>ブレイク後のブレイク時間が3秒延長され</color>、ブレイク状態から復帰する時に<color=#FFFFFF>「壊滅」</color>効果は解除される。ライトの<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      }
+    }
+  },
+  "1360106": {
+    "id": 1360106,
+    "name": "[撃破：叩きつけ]幽玄を貫く",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic068.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：「トリガー」は時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、「トリガー」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「刺突」</color>効果を付与する。<color=#FFFFFF>「刺突」</color>効果を所持している敵の<color=#2BAD00>ブレイク弱体倍率+20%</color>。ブレイク状態から復帰する時に<color=#FFFFFF>「刺突」</color>効果は解除される。「トリガー」の<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。",
+    "level": {
+      "1": {
+        "id": 136010601,
+        "desc": "エージェントがボスエネミーをブレイク状態にした時、チーム全体は<color=#2BAD00>エネルギーを48Pt、アドレナリンを60Pt、シャープネスを48Pt、デシベル値を800Pt回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：「トリガー」は時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、「トリガー」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「刺突」</color>効果を付与する。<color=#FFFFFF>「刺突」</color>効果を所持している敵の<color=#2BAD00>ブレイク弱体倍率+20%</color>。ブレイク状態から復帰する時に<color=#FFFFFF>「刺突」</color>効果は解除される。「トリガー」の<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "2": {
+        "id": 136010602,
+        "desc": "エージェントが<color=#FFFFFF>「刺突」</color>効果を持つ敵に命中した時、<color=#2BAD00>ターゲットの全属性耐性を30%無視する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：「トリガー」は時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、「トリガー」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「刺突」</color>効果を付与する。<color=#FFFFFF>「刺突」</color>効果を所持している敵の<color=#2BAD00>ブレイク弱体倍率+20%</color>。ブレイク状態から復帰する時に<color=#FFFFFF>「刺突」</color>効果は解除される。「トリガー」の<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "3": {
+        "id": 136010603,
+        "desc": "エージェントまたはサポートメンバーが敵をブレイク状態にした時、敵の<color=#2BAD00>ブレイク弱体倍率+75%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：「トリガー」は時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、「トリガー」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「刺突」</color>効果を付与する。<color=#FFFFFF>「刺突」</color>効果を所持している敵の<color=#2BAD00>ブレイク弱体倍率+20%</color>。ブレイク状態から復帰する時に<color=#FFFFFF>「刺突」</color>効果は解除される。「トリガー」の<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      },
+      "4": {
+        "id": 136010604,
+        "desc": "<color=#FFFFFF>「命破」</color>特性以外のエージェントが<color=#FFFFFF>「刺突」</color>効果を持つ敵に命中した時、<color=#2BAD00>その防御力を40%無視する</color>。また、<color=#FFFFFF>「命破」</color>特性のエージェントが<color=#FFFFFF>「刺突」</color>効果を持つ敵に命中した時、<color=#2BAD00>透徹ダメージ+30%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：「トリガー」は時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、「トリガー」が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃する。敵に命中した時、ターゲットに<color=#FFFFFF>「刺突」</color>効果を付与する。<color=#FFFFFF>「刺突」</color>効果を所持している敵の<color=#2BAD00>ブレイク弱体倍率+20%</color>。ブレイク状態から復帰する時に<color=#FFFFFF>「刺突」</color>効果は解除される。「トリガー」の<color=#FFFFFF>『サポート支援スキル』</color>が通常エネミー/精鋭エネミー/ボスエネミーに命中した時、<color=#2BAD00>ブレイク値を直接100%/30%/15%蓄積させる</color>。"
+      }
+    }
+  },
+  "1360107": {
+    "id": 1360107,
+    "name": "[支援：飽和]優雅の信条",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：リナは時間経過と共にエネルギーを溜めない代わりに、任意のメンバーがエネルギー/アドレナリン/シャープネスを消費した時にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、リナが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。<color=#FFFFFF>『極限視界』</color>継続中、<color=#2BAD00>メンバー全員の与えるダメージ+70%</color>、継続時間10秒。",
+    "level": {
+      "1": {
+        "id": 136010701,
+        "desc": "接敵状態突入時、メンバー全員が<color=#2BAD00>エネルギーを52Pt、アドレナリンを65Pt、シャープネスを52Pt回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：リナは時間経過と共にエネルギーを溜めない代わりに、任意のメンバーがエネルギー/アドレナリン/シャープネスを消費した時にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、リナが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。<color=#FFFFFF>『極限視界』</color>継続中、<color=#2BAD00>メンバー全員の与えるダメージ+70%</color>、継続時間10秒。"
+      },
+      "2": {
+        "id": 136010702,
+        "desc": "リナが<color=#FFFFFF>『サポート支援スキル』</color>を発動して<color=#FFFFFF>『極限視界』</color>に入っている間、操作しているメンバーは<color=#2BAD00>1秒ごとにエネルギーを8Pt、アドレナリンを10Pt、シャープネスを8Pt回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：リナは時間経過と共にエネルギーを溜めない代わりに、任意のメンバーがエネルギー/アドレナリン/シャープネスを消費した時にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、リナが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。<color=#FFFFFF>『極限視界』</color>継続中、<color=#2BAD00>メンバー全員の与えるダメージ+70%</color>、継続時間10秒。"
+      },
+      "3": {
+        "id": 136010703,
+        "desc": "メンバー全員の<color=#FFFFFF>『終結スキル』</color>の発動<color=#2BAD00>に必要なデシベル値が1800Ptになる</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：リナは時間経過と共にエネルギーを溜めない代わりに、任意のメンバーがエネルギー/アドレナリン/シャープネスを消費した時にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、リナが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。<color=#FFFFFF>『極限視界』</color>継続中、<color=#2BAD00>メンバー全員の与えるダメージ+70%</color>、継続時間10秒。"
+      },
+      "4": {
+        "id": 136010704,
+        "desc": "リナが<color=#FFFFFF>『サポート支援スキル』</color>を発動して<color=#FFFFFF>『極限視界』</color>に入っている間、エージェントが<color=#FFFFFF>『終結スキル』</color>を発動すると、その<color=#FFFFFF>『極限視界』</color>の<color=#2BAD00>継続時間が2秒延長される</color>。同一の<color=#FFFFFF>『極限視界』</color>中、最大3回まで延長可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：リナは時間経過と共にエネルギーを溜めない代わりに、任意のメンバーがエネルギー/アドレナリン/シャープネスを消費した時にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、リナが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。<color=#FFFFFF>『極限視界』</color>継続中、<color=#2BAD00>メンバー全員の与えるダメージ+70%</color>、継続時間10秒。"
+      }
+    }
+  },
+  "1360108": {
+    "id": 1360108,
+    "name": "[支援：飽和]財を成す方法",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic070.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：ニコは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ニコが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。継続時間10秒。<color=#FFFFFF>『極限視界』</color>中、メンバー全員は<color=#2BAD00>敵の防御力を50%無視する</color>。",
+    "level": {
+      "1": {
+        "id": 136010801,
+        "desc": "任意の<color=#FFFFFF>『サポート支援スキル』</color>終了後、エージェントは<color=#FFFFFF>『連携スキル』</color>で出場し、メンバー全員が次に発動する3回の<color=#FFFFFF>『クイック支援』</color>は<color=#FFFFFF>『連携スキル』</color>へと強化される。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ニコは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ニコが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。継続時間10秒。<color=#FFFFFF>『極限視界』</color>中、メンバー全員は<color=#2BAD00>敵の防御力を50%無視する</color>。"
+      },
+      "2": {
+        "id": 136010802,
+        "desc": "ニコが<color=#FFFFFF>『サポート支援スキル』</color>を発動して<color=#FFFFFF>『極限視界』</color>に入っている間、3秒ごとに1回<color=#FFFFFF>『クイック支援』</color>を発動できる。<color=#2BAD00>『連携スキル』の与ダメージ+80%。</color>",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ニコは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ニコが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。継続時間10秒。<color=#FFFFFF>『極限視界』</color>中、メンバー全員は<color=#2BAD00>敵の防御力を50%無視する</color>。"
+      },
+      "3": {
+        "id": 136010803,
+        "desc": "エージェントが<color=#FFFFFF>『連携スキル』</color>を発動した時、チーム全体の<color=#2BAD00>デシベル値+150Pt</color>、<color=#FFFFFF>『終結スキル』の</color>与ダメージが追加で<color=#2BAD00>防御力を20%無視</color>する。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ニコは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ニコが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。継続時間10秒。<color=#FFFFFF>『極限視界』</color>中、メンバー全員は<color=#2BAD00>敵の防御力を50%無視する</color>。"
+      },
+      "4": {
+        "id": 136010804,
+        "desc": "ニコが<color=#FFFFFF>『サポート支援スキル』</color>を発動して<color=#FFFFFF>『極限視界』</color>に入っている間、エージェントが<color=#FFFFFF>『連携スキル』</color>を発動するたび、メンバー全員は<color=#FFFFFF>「チャージ」</color>を1重獲得する。最大5重まで。継続時間15秒、重複して発動すると継続時間が更新される。<color=#FFFFFF>「チャージ」</color>1重につき、<color=#FFFFFF>『終結スキル』</color>は<color=#2BAD00>追加で20%のダメージを与える</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：ニコは時間経過と共にエネルギーを溜める。エネルギーが十分な時、『サポート支援スキル』を押すと、ニコが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃して<color=#FFFFFF>『極限視界』</color>に入る。継続時間10秒。<color=#FFFFFF>『極限視界』</color>中、メンバー全員は<color=#2BAD00>敵の防御力を50%無視する</color>。"
+      }
+    }
+  },
+  "1360109": {
+    "id": 1360109,
+    "name": "[命破：発動]灼魂の決闘",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic073.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：狛野真斗は時間経過と共にエネルギーを溜める。操作しているメンバーのHPが低いほど、狛野真斗のエネルギー回復速度が速くなる。エネルギーが十分な時、『サポート支援スキル』を押すと、狛野真斗が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員のHPを均等化し、<color=#2BAD00>HPを20%回復</color>、さらにメンバー全員に<color=#FFFFFF>「焔刃」</color>状態を付与する。<color=#FFFFFF>「焔刃」</color>状態継続中、エージェントの<color=#2BAD00>会心ダメージ+50%</color>。継続時間40秒。",
+    "level": {
+      "1": {
+        "id": 136010901,
+        "desc": "エージェントの攻撃が敵に命中すると、<color=#FFFFFF>「燃血状態」</color>に入る（継続時間2秒）。<color=#FFFFFF>「燃血状態」</color>継続中、エージェントの<color=#2BAD00>与ダメージ+75%</color>。現在のHPが20%以上の場合、<color=#CF4029>1秒ごとにHPが2%消費される</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：狛野真斗は時間経過と共にエネルギーを溜める。操作しているメンバーのHPが低いほど、狛野真斗のエネルギー回復速度が速くなる。エネルギーが十分な時、『サポート支援スキル』を押すと、狛野真斗が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員のHPを均等化し、<color=#2BAD00>HPを20%回復</color>、さらにメンバー全員に<color=#FFFFFF>「焔刃」</color>状態を付与する。<color=#FFFFFF>「焔刃」</color>状態継続中、エージェントの<color=#2BAD00>会心ダメージ+50%</color>。継続時間40秒。"
+      },
+      "2": {
+        "id": 136010902,
+        "desc": "<color=#FFFFFF>「焔刃」</color>状態中、<color=#FFFFFF>「命破」</color>特性以外のエージェントの<color=#2BAD00>攻撃力+1350Pt</color>、<color=#FFFFFF>「命破」</color>特性エージェントの<color=#2BAD00>透徹力+1125Pt</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：狛野真斗は時間経過と共にエネルギーを溜める。操作しているメンバーのHPが低いほど、狛野真斗のエネルギー回復速度が速くなる。エネルギーが十分な時、『サポート支援スキル』を押すと、狛野真斗が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員のHPを均等化し、<color=#2BAD00>HPを20%回復</color>、さらにメンバー全員に<color=#FFFFFF>「焔刃」</color>状態を付与する。<color=#FFFFFF>「焔刃」</color>状態継続中、エージェントの<color=#2BAD00>会心ダメージ+50%</color>。継続時間40秒。"
+      },
+      "3": {
+        "id": 136010903,
+        "desc": "戦闘中、初めて致命的なダメージを受けた時、HPは1までしか減らず、<color=#2BAD00>2秒間は戦闘不能にならずにHPが50%継続回復する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：狛野真斗は時間経過と共にエネルギーを溜める。操作しているメンバーのHPが低いほど、狛野真斗のエネルギー回復速度が速くなる。エネルギーが十分な時、『サポート支援スキル』を押すと、狛野真斗が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員のHPを均等化し、<color=#2BAD00>HPを20%回復</color>、さらにメンバー全員に<color=#FFFFFF>「焔刃」</color>状態を付与する。<color=#FFFFFF>「焔刃」</color>状態継続中、エージェントの<color=#2BAD00>会心ダメージ+50%</color>。継続時間40秒。"
+      },
+      "4": {
+        "id": 136010904,
+        "desc": "<color=#FFFFFF>「焔刃」</color>状態中、HPが40%より高ければ、デシベル値が不足していても<color=#CF4029>HPを20%消費して</color><color=#FFFFFF>『終結スキル』</color>を発動できる。各エージェントは1回の<color=#FFFFFF>「焔刃」</color>継続期間中、最大1回まで発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：狛野真斗は時間経過と共にエネルギーを溜める。操作しているメンバーのHPが低いほど、狛野真斗のエネルギー回復速度が速くなる。エネルギーが十分な時、『サポート支援スキル』を押すと、狛野真斗が入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員のHPを均等化し、<color=#2BAD00>HPを20%回復</color>、さらにメンバー全員に<color=#FFFFFF>「焔刃」</color>状態を付与する。<color=#FFFFFF>「焔刃」</color>状態継続中、エージェントの<color=#2BAD00>会心ダメージ+50%</color>。継続時間40秒。"
+      }
+    }
+  },
+  "1360110": {
+    "id": 1360110,
+    "name": "[防護：闘盾]熱心な救援",
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic069.png",
+    "desc": "<color=#FFFFFF>『サポート支援スキル』</color>：シーザーは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、シーザーが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員に6000Pt分のシールド<color=#FFFFFF>「栄光の盾」</color>を付与する。エージェントが<color=#FFFFFF>「栄光の盾」</color>を所持している時、<color=#FFFFFF>「支援ポイント」</color><color=#2BAD00>が無限になり、与ダメージ+35%。また、1回に受けるダメージがシールド値を超えない</color>。",
+    "level": {
+      "1": {
+        "id": 136011001,
+        "desc": "<color=#FFFFFF>『パリィ支援』</color>の発動条件を満たした時、『パリィ』された敵は即座に<color=#2BAD00>ブレイク値を5%蓄積する</color>。15秒に3回のみ発動可能。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：シーザーは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、シーザーが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員に6000Pt分のシールド<color=#FFFFFF>「栄光の盾」</color>を付与する。エージェントが<color=#FFFFFF>「栄光の盾」</color>を所持している時、<color=#FFFFFF>「支援ポイント」</color><color=#2BAD00>が無限になり、与ダメージ+35%。また、1回に受けるダメージがシールド値を超えない</color>。"
+      },
+      "2": {
+        "id": 136011002,
+        "desc": "<color=#FFFFFF>「栄光の盾」</color>を所持している時、エージェントの<color=#2BAD00>中断耐性レベルがアップし、攻撃が敵の全属性耐性を20%無視する</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：シーザーは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、シーザーが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員に6000Pt分のシールド<color=#FFFFFF>「栄光の盾」</color>を付与する。エージェントが<color=#FFFFFF>「栄光の盾」</color>を所持している時、<color=#FFFFFF>「支援ポイント」</color><color=#2BAD00>が無限になり、与ダメージ+35%。また、1回に受けるダメージがシールド値を超えない</color>。"
+      },
+      "3": {
+        "id": 136011003,
+        "desc": "<color=#FFFFFF>『パリィ支援』</color>の発動条件を満たした時、敵に<color=#FFFFFF>「鋭敏」</color>を1重付与する。5重まで重ね掛け可能。<color=#FFFFFF>「鋭敏」</color>1重につき、その敵の<color=#2BAD00>ブレイク弱体倍率+10%</color>。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：シーザーは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、シーザーが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員に6000Pt分のシールド<color=#FFFFFF>「栄光の盾」</color>を付与する。エージェントが<color=#FFFFFF>「栄光の盾」</color>を所持している時、<color=#FFFFFF>「支援ポイント」</color><color=#2BAD00>が無限になり、与ダメージ+35%。また、1回に受けるダメージがシールド値を超えない</color>。"
+      },
+      "4": {
+        "id": 136011004,
+        "desc": "<color=#FFFFFF>『パリィ支援』</color>または<color=#FFFFFF>『極限回避』</color>を発動した時、追加でシールド<color=#FFFFFF>「栄光の盾」</color>を1000Pt獲得する。<color=#FFFFFF>「栄光の盾」</color>は最大15000Ptまで獲得可能。エージェントは現在の<color=#FFFFFF>「栄光の盾」</color>のシールド値に応じて<color=#2BAD00>会心ダメージがアップ</color>し、シールド値1000Ptごとに5%アップする。",
+        "relic_proactive_skill": "<color=#FFFFFF>『サポート支援スキル』</color>：シーザーは時間経過と共にエネルギーを溜める。戦闘開始時に75Ptのエネルギーを獲得する。エネルギーが十分な時、『サポート支援スキル』を押すと、シーザーが入場して<color=#FFFFFF>『サポート支援スキル』</color>を発動し、敵を攻撃するほか、メンバー全員に6000Pt分のシールド<color=#FFFFFF>「栄光の盾」</color>を付与する。エージェントが<color=#FFFFFF>「栄光の盾」</color>を所持している時、<color=#FFFFFF>「支援ポイント」</color><color=#2BAD00>が無限になり、与ダメージ+35%。また、1回に受けるダメージがシールド値を超えない</color>。"
+      }
+    }
+  }
+}

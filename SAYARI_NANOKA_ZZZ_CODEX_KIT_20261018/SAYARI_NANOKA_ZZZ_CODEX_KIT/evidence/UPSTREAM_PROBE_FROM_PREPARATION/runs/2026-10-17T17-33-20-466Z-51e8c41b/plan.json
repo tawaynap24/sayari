@@ -1,0 +1,15 @@
+{
+  "runId": "2026-10-17T17-33-20-466Z-51e8c41b",
+  "mode": "probe",
+  "versions": [],
+  "languages": [
+    "en",
+    "ja",
+    "ko",
+    "zh"
+  ],
+  "inventory": [],
+  "discoveredDetailRequestCount": 0,
+  "details": [],
+  "warning": "Discovery count is limited by successfully read indexes. Missing indexes have unknown descendants."
+}

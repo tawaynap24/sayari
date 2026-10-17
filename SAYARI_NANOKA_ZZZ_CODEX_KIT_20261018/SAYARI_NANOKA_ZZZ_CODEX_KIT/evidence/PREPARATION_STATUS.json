@@ -1,0 +1,37 @@
+{
+  "preparedFor": "D:\\sayari-project",
+  "reviewDateAsiaBangkok": "2026-10-18",
+  "projectInput": "input/SAYARI_PROJECT_SUMMARY.txt",
+  "projectInputSha256": "cfdf5e0d7992c5c734fd595fa72961c9cd2e78f52c9a8be1f057d9d52cb70bd5",
+  "localProjectSourceAvailable": false,
+  "localProjectModified": false,
+  "nanokaRawJsonHttpVerified": false,
+  "manifestBodyBundled": false,
+  "rawGameDataBundled": false,
+  "remoteCallsAttemptedDuringPreparation": [
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "tool": "web",
+      "result": "not accessible via this tool; no JSON body"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "tool": "container Python requests",
+      "result": "DNS resolution failed in this environment; no HTTP status"
+    },
+    {
+      "url": "https://zzz.nanoka.cc/",
+      "tool": "container Python requests",
+      "result": "DNS resolution failed in this environment; no HTTP status"
+    },
+    {
+      "url": "https://static.nanoka.cc/manifest.json",
+      "tool": "bundled Node collector probe",
+      "result": "0 successful JSON responses; 1 failed resource; exit code 2",
+      "evidence": "evidence/UPSTREAM_PROBE_FROM_PREPARATION"
+    }
+  ],
+  "sourceResearch": "Primary client source readable via web. Additional website category names obtained from primary-site indexed results; some page fetches timed out or returned no parsed text.",
+  "tests": "See evidence/LOCAL_TEST_RESULTS.json for actual offline test results. Offline tests are not live API verification.",
+  "nextStep": "Codex must run real local API discovery/sync and browser tests; do not claim complete network coverage from this kit alone."
+}
