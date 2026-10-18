@@ -1,9 +1,0 @@
-{
-  "name": "sayari-nanoka-network-discovery",
-  "private": true,
-  "type": "module",
-  "description": "Optional isolated browser observer. Reuse an available Playwright module or install a reviewed version here; no project dependency upgrade is needed.",
-  "devDependencies": {
-    "playwright": "1.64.1"
-  }
-}

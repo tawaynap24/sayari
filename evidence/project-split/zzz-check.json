@@ -1,0 +1,11 @@
+{
+  "name": "zzz-check",
+  "cwd": "zzz",
+  "args": [
+    "tools/nanoka/scripts/verify-project.mjs"
+  ],
+  "startedAt": "2026-10-18T07:06:22.087Z",
+  "finishedAt": "2026-10-18T07:06:45.161Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/zzz-check.log"
+}

@@ -1,0 +1,20 @@
+PASS Thai default ignores the English browser locale
+PASS Agent skill name, description and real game formatting
+PASS Mindscape name and description come from the verified Thai key
+PASS Partially translated agent discloses English fallback
+PASS W-Engine name and story change to Thai
+PASS Drive Disc set effects use verified Thai text
+PASS Bangboo description and skill translations are present
+PASS Materials/items list supports Thai names and Thai search
+PASS Enemy and achievement data retain source references
+PASS Settings changes language immediately and preserves numeric stats
+PASS English preference persists across reload and a new page
+PASS Switching back to Thai changes real skill descriptions
+PASS Latest 3.3 never borrows Thai data from 3.2
+PASS Exact raw JSON download remains the original Nanoka bytes
+PASS Translation metadata unavailable: English fallback and retry
+PASS Corrupt translation chunk is rejected by hash validation
+PASS Thai layout and Settings work at mobile/tablet/desktop widths
+PASS API Explorer still exposes original resources in both site languages
+PASS Calculator regression and black base remain intact
+PASS No upstream TextMaps or provider JSON are requested in the browser

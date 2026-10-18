@@ -1,0 +1,3 @@
+nanoka:test: PASS (unit-tests.log)
+build: PASS (build.log)
+lint: PASS (lint.log)

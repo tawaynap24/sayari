@@ -1,0 +1,122 @@
+{
+  "projectId": "demo-timeline",
+  "runId": "mvdhpsar",
+  "at": "2026-10-18T07:16:10.989Z",
+  "results": [
+    {
+      "name": "atomic duplicate follows increment one UID exactly once",
+      "status": "PASS",
+      "ms": 14745
+    },
+    {
+      "name": "CREATE at49 publishes once with immutable revision; retry idempotent",
+      "status": "PASS",
+      "ms": 11584
+    },
+    {
+      "name": "CREATE at50 snapshot5, own/nonfollower denied and immediate threshold",
+      "status": "PASS",
+      "ms": 1362
+    },
+    {
+      "name": "concurrent sameUID votes, real switch, repeat same choice keeps idle clock",
+      "status": "PASS",
+      "ms": 7817
+    },
+    {
+      "name": "parallel threshold crossing publishes exactly one revision",
+      "status": "PASS",
+      "ms": 4232
+    },
+    {
+      "name": "pending edit archives votes and resnapshots N/time; stale votes denied",
+      "status": "PASS",
+      "ms": 619
+    },
+    {
+      "name": "concurrent EDIT lock, approval history, original author may vote another proposer",
+      "status": "PASS",
+      "ms": 4048
+    },
+    {
+      "name": "HIDE approval cancels pending EDIT; history/public projection denied to guest",
+      "status": "PASS",
+      "ms": 1635
+    },
+    {
+      "name": "EDIT approved first preserves active HIDE targeting current version",
+      "status": "PASS",
+      "ms": 1597
+    },
+    {
+      "name": "negative HIDE leaves published; fresh round snapshots current interest",
+      "status": "PASS",
+      "ms": 968
+    },
+    {
+      "name": "exact expiry commits terminal and releases lock before denied vote",
+      "status": "PASS",
+      "ms": 412
+    },
+    {
+      "name": "CREATE grace72h, later real vote extends to94h, bounded idempotent sweeper",
+      "status": "PASS",
+      "ms": 598
+    },
+    {
+      "name": "stale and missing EDIT locks recover transactionally",
+      "status": "PASS",
+      "ms": 720
+    },
+    {
+      "name": "server rejects self/cross-topic/hidden anchors and approval cycles",
+      "status": "PASS",
+      "ms": 666
+    },
+    {
+      "name": "guest approved-only reads and all direct authority writes denied",
+      "status": "PASS",
+      "ms": 1053
+    },
+    {
+      "name": "privilege checked server-side and audited; normal actor cannot bypass",
+      "status": "PASS",
+      "ms": 422
+    },
+    {
+      "name": "Auth email/password + real callable JWT/unauthenticated/anonymous/nonfollow gates",
+      "status": "PASS",
+      "ms": 7294
+    },
+    {
+      "name": "Storage rules byte cap, private staging, finalize magic, ownership and hide revokes proxy",
+      "status": "PASS",
+      "ms": 10738
+    },
+    {
+      "name": "backend rejects unsafe references, unknown fields/count spoof and cross-topic entities",
+      "status": "PASS",
+      "ms": 128
+    },
+    {
+      "name": "1001 actual memberships cap CREATE at100 and exactly100 votes publish",
+      "status": "PASS",
+      "ms": 12442
+    },
+    {
+      "name": "simultaneous EDIT/HIDE threshold race never resurrects story",
+      "status": "PASS",
+      "ms": 5055
+    },
+    {
+      "name": "private operator restriction denies even member archive and pending reads",
+      "status": "PASS",
+      "ms": 1890
+    },
+    {
+      "name": "exported scheduled handler executes against Emulator, cleanup retries harmless",
+      "status": "PASS",
+      "ms": 1506
+    }
+  ]
+}

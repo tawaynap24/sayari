@@ -1,0 +1,2 @@
+PASS private operator restriction denies even member archive and pending reads
+1/1 emulator scenarios PASS

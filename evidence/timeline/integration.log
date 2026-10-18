@@ -1,0 +1,42 @@
+PASS atomic duplicate follows increment one UID exactly once
+PASS CREATE at49 publishes once with immutable revision; retry idempotent
+PASS CREATE at50 snapshot5, own/nonfollower denied and immediate threshold
+PASS concurrent sameUID votes, real switch, repeat same choice keeps idle clock
+PASS parallel threshold crossing publishes exactly one revision
+PASS pending edit archives votes and resnapshots N/time; stale votes denied
+PASS concurrent EDIT lock, approval history, original author may vote another proposer
+PASS HIDE approval cancels pending EDIT; history/public projection denied to guest
+PASS EDIT approved first preserves active HIDE targeting current version
+PASS negative HIDE leaves published; fresh round snapshots current interest
+PASS exact expiry commits terminal and releases lock before denied vote
+PASS CREATE grace72h, later real vote extends to94h, bounded idempotent sweeper
+PASS stale and missing EDIT locks recover transactionally
+PASS server rejects self/cross-topic/hidden anchors and approval cycles
+[2026-10-18T00:16:41.815Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b125 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.827Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b126 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.836Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b127 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.856Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b128 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.865Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b129 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.873Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b12a error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.885Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b12b error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.896Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b12c error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+[2026-10-18T00:16:41.906Z]  @firebase/firestore: Firestore (10.12.4): GrpcConnection RPC 'Write' stream 0x1601b12d error. Code: 7 Message: 7 PERMISSION_DENIED: 
+false for 'create' @ L37, false for 'update' @ L37
+PASS guest approved-only reads and all direct authority writes denied
+PASS privilege checked server-side and audited; normal actor cannot bypass
+PASS Auth email/password + real callable JWT/unauthenticated/anonymous/nonfollow gates
+PASS Storage rules byte cap, private staging, finalize magic, ownership and hide revokes proxy
+PASS backend rejects unsafe references, unknown fields/count spoof and cross-topic entities
+PASS 1001 actual memberships cap CREATE at100 and exactly100 votes publish
+PASS simultaneous EDIT/HIDE threshold race never resurrects story
+PASS private operator restriction denies even member archive and pending reads
+PASS exported scheduled handler executes against Emulator, cleanup retries harmless
+23/23 emulator scenarios PASS

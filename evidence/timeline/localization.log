@@ -1,0 +1,69 @@
+
+> sayari-project@0.0.0 localization:test
+> node --test tools/localization/*.test.mjs
+
+TAP version 13
+# Subtest: Thai is the default with absent, invalid, or inaccessible browser storage
+ok 1 - Thai is the default with absent, invalid, or inaccessible browser storage
+  ---
+  duration_ms: 0.9119
+  ...
+# Subtest: an ID/foreign-key join plus matching English text is required
+ok 2 - an ID/foreign-key join plus matching English text is required
+  ---
+  duration_ms: 2.2543
+  ...
+# Subtest: similar names and changed English descriptions never produce a translation
+ok 3 - similar names and changed English descriptions never produce a translation
+  ---
+  duration_ms: 0.2612
+  ...
+# Subtest: conflicting translations and missing Thai values fall back
+ok 4 - conflicting translations and missing Thai values fall back
+  ---
+  duration_ms: 0.515
+  ...
+# Subtest: missing or changed placeholders are incompatible
+ok 5 - missing or changed placeholders are incompatible
+  ---
+  duration_ms: 0.3277
+  ...
+# Subtest: only original string leaves change; zero, false, null, arrays, numbers and raw remain intact
+ok 6 - only original string leaves change; zero, false, null, arrays, numbers and raw remain intact
+  ---
+  duration_ms: 1.2842
+  ...
+# Subtest: game markup is allowlisted; executable tags, CSS and malformed tags remain literal
+ok 7 - game markup is allowlisted; executable tags, CSS and malformed tags remain literal
+  ---
+  duration_ms: 0.9532
+  ...
+# Subtest: version validation distinguishes OS/CN metadata and forbids inferred versions
+ok 8 - version validation distinguishes OS/CN metadata and forbids inferred versions
+  ---
+  duration_ms: 0.3514
+  ...
+# Subtest: schema and URL validation reject invalid sources
+ok 9 - schema and URL validation reject invalid sources
+  ---
+  duration_ms: 0.6399
+  ...
+# Subtest: coverage excludes technical fields and non-English source branches
+ok 10 - coverage excludes technical fields and non-English source branches
+  ---
+  duration_ms: 0.8974
+  ...
+# Subtest: invalid source acquisition cannot replace the last published localization
+ok 11 - invalid source acquisition cannot replace the last published localization
+  ---
+  duration_ms: 38.6726
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 696.0931

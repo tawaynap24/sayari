@@ -1,0 +1,11 @@
+{
+  "name": "zzz-browser",
+  "cwd": "zzz",
+  "args": [
+    "tools/nanoka/tools/network-discovery/localization-tests.mjs"
+  ],
+  "startedAt": "2026-10-18T07:07:00.874Z",
+  "finishedAt": "2026-10-18T07:07:51.143Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/zzz-browser.log"
+}

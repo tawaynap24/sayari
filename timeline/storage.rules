@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /staging/{uid}/{draft}/{id} {
+      function descriptor() { return firestore.get(/databases/(default)/documents/media/$(id)).data; }
+      allow create: if resource == null && request.auth != null && request.auth.uid == uid
+        && descriptor().ownerUid == uid && descriptor().draftId == draft && descriptor().status == 'staging'
+        && request.resource.size > 0 && request.resource.size <= 5000000
+        && request.resource.size == descriptor().sizeBytes
+        && request.resource.contentType == descriptor().mimeType
+        && request.resource.contentType.matches('image/(jpeg|png|webp|gif)|application/pdf|application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+      allow read, update, delete: if false;
+    }
+    // All validated bytes are served by timelineMedia after publication/member checks.
+    // No public download-token URLs or direct client metadata writes are used.
+    match /{all=**} { allow read, write: if false; }
+  }
+}

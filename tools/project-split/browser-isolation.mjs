@@ -1,0 +1,44 @@
+import { chromium } from '../../timeline/node_modules/playwright/index.mjs';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const browser = await chromium.launch({ channel: 'msedge', headless: true });
+const results = [];
+try {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  const firebaseRequests = [], pageErrors = [];
+  page.on('request', request => { if (/firebase|firestore|identitytoolkit|securetoken|127\.0\.0\.1:(5000|5001|8080|9099|9199)/i.test(request.url())) firebaseRequests.push(request.url()); });
+  page.on('pageerror', error => pageErrors.push(error.message));
+  await page.goto('http://127.0.0.1:5173');
+  assert.equal(await page.title(), 'Zenless Zone Zero');
+  assert.doesNotMatch(await page.locator('body').innerText(), /sayari|timeline/i);
+  await page.getByText('ฐานข้อมูล Zenless Zone Zero', { exact: true }).click();
+  await page.locator('.nk-entity-card').first().waitFor();
+  assert.doesNotMatch(await page.locator('body').innerText(), /sayari/i);
+  await page.goto('http://127.0.0.1:5173/game/zenless-zone-zero');
+  await page.getByText('Name: Piper', { exact: true }).waitFor();
+  assert.deepEqual(firebaseRequests, []);
+  assert.deepEqual(pageErrors, []);
+  results.push({ check: 'ZZZ home, database and calculator have no Firebase requests or page errors', status: 'PASS' });
+  await page.screenshot({ path: 'evidence/project-split/zzz.png', fullPage: true });
+  const timeline = await context.newPage();
+  const errors = [];
+  timeline.on('pageerror', error => errors.push(error.message));
+  await timeline.goto('http://127.0.0.1:5000');
+  await timeline.locator('.tl-brand').waitFor();
+  await timeline.getByRole('link', { name: /เรื่องราวของชุมชน/ }).first().waitFor();
+  assert.equal(await timeline.title(), 'Timeline');
+  assert.doesNotMatch(await timeline.locator('body').innerText(), /sayari/i);
+  assert.equal(await timeline.locator('.zzz-settings-button').count(), 0);
+  assert.deepEqual(errors, []);
+  const oldGame = await fetch('http://127.0.0.1:5000/game/zenless-zone-zero');
+  assert.equal(oldGame.status, 404, 'Timeline hosting must not serve Calculator routes');
+  const oldData = await fetch('http://127.0.0.1:5000/nanoka/current.json');
+  assert.equal(oldData.status, 404);
+  await timeline.screenshot({ path: 'evidence/project-split/timeline.png', fullPage: true });
+  results.push({ check: 'Timeline independent hosting, branding, navigation; ZZZ routes and data return 404', status: 'PASS' });
+} finally {
+  await fs.writeFile('evidence/project-split/browser-isolation-results.json', JSON.stringify({ at: new Date().toISOString(), results }, null, 2));
+  await browser.close();
+}
+console.log(JSON.stringify(results));

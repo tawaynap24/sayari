@@ -1,0 +1,13 @@
+{
+  "name": "timeline-dependencies",
+  "cwd": "timeline",
+  "args": [
+    "C:/Users/msi i7/AppData/Roaming/npm/node_modules/npm/bin/npm-cli.js",
+    "ls",
+    "--depth=0"
+  ],
+  "startedAt": "2026-10-18T07:13:44.942Z",
+  "finishedAt": "2026-10-18T07:13:45.887Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/timeline-dependencies.log"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "timeline-integration",
+  "cwd": "timeline",
+  "args": [
+    "tools/timeline/integration.mjs"
+  ],
+  "startedAt": "2026-10-18T07:14:22.534Z",
+  "finishedAt": "2026-10-18T07:16:11.081Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/timeline-integration.log"
+}

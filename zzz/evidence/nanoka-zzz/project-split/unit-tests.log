@@ -1,0 +1,282 @@
+
+> zzz@0.0.0 nanoka:test
+> node --test tools/nanoka/tests/*.test.mjs
+
+TAP version 13
+# Subtest: projection keeps every indexed record and leaves its original source intact
+ok 1 - projection keeps every indexed record and leaves its original source intact
+  ---
+  duration_ms: 2.4101
+  ...
+# Subtest: all leaf paths preserve empty containers, zero, false, null and escaped keys
+ok 2 - all leaf paths preserve empty containers, zero, false, null and escaped keys
+  ---
+  duration_ms: 0.7041
+  ...
+# Subtest: locale resolution and resource resolution disclose English fallback
+ok 3 - locale resolution and resource resolution disclose English fallback
+  ---
+  duration_ms: 0.2965
+  ...
+# Subtest: links and asset URLs reject executable, credential, cross-game and external URLs
+ok 4 - links and asset URLs reject executable, credential, cross-game and external URLs
+  ---
+  duration_ms: 0.7054
+  ...
+# Subtest: unsafe integer display tells the reader to use raw rather than rounding silently
+ok 5 - unsafe integer display tells the reader to use raw rather than rounding silently
+  ---
+  duration_ms: 0.1663
+  ...
+# Subtest: client deduplicates requests, verifies hashes, and retains original bytes including BOM
+ok 6 - client deduplicates requests, verifies hashes, and retains original bytes including BOM
+  ---
+  duration_ms: 30.8771
+  ...
+# Subtest: client rejects HTML, HTTP errors, damaged hashes and unsafe paths
+ok 7 - client rejects HTML, HTTP errors, damaged hashes and unsafe paths
+  ---
+  duration_ms: 2.1815
+  ...
+# Subtest: snapshot pointer cannot fetch a catalog outside local nanoka assets
+ok 8 - snapshot pointer cannot fetch a catalog outside local nanoka assets
+  ---
+  duration_ms: 0.6926
+  ...
+# Subtest: template encodes +build, keeps ID as a string
+ok 9 - template encodes +build, keeps ID as a string
+  ---
+  duration_ms: 2.3739
+  ...
+# Subtest: live/latest are deduplicated without inventing a version
+ok 10 - live/latest are deduplicated without inventing a version
+  ---
+  duration_ms: 1.1817
+  ...
+# Subtest: historical versions are opt-in
+ok 11 - historical versions are opt-in
+  ---
+  duration_ms: 0.1521
+  ...
+# Subtest: IDs include MCs and leading zero IDs
+ok 12 - IDs include MCs and leading zero IDs
+  ---
+  duration_ms: 11.6247
+  ...
+# Subtest: invalid index keys and unsafe IDs are reported, not silently hidden
+ok 13 - invalid index keys and unsafe IDs are reported, not silently hidden
+  ---
+  duration_ms: 0.2847
+  ...
+# Subtest: JSON Pointer supports escaped property names and only own fields
+ok 14 - JSON Pointer supports escaped property names and only own fields
+  ---
+  duration_ms: 0.2106
+  ...
+# Subtest: schema inspection does not drop null, false, zero, Tags or empty arrays
+ok 15 - schema inspection does not drop null, false, zero, Tags or empty arrays
+  ---
+  duration_ms: 0.4189
+  ...
+# Subtest: unsafe numbers are flagged while raw storage remains lossless
+ok 16 - unsafe numbers are flagged while raw storage remains lossless
+  ---
+  duration_ms: 0.2293
+  ...
+# Subtest: URL allowlist refuses other games, credentials and unrelated origins
+ok 17 - URL allowlist refuses other games, credentials and unrelated origins
+  ---
+  duration_ms: 0.8085
+  ...
+# Subtest: Retry-After parses both seconds and date
+ok 18 - Retry-After parses both seconds and date
+  ---
+  duration_ms: 0.5323
+  ...
+# Subtest: collector retains original bytes, without assigning sourceUpdatedAt
+ok 19 - collector retains original bytes, without assigning sourceUpdatedAt
+  ---
+  duration_ms: 54.1806
+  ...
+# Subtest: cache reuse preserves original fetchedAt and makes no upstream call
+ok 20 - cache reuse preserves original fetchedAt and makes no upstream call
+  ---
+  duration_ms: 25.142
+  ...
+# Subtest: damaged cached object is rejected and fetched again
+ok 21 - damaged cached object is rejected and fetched again
+  ---
+  duration_ms: 41.4692
+  ...
+# Subtest: HTML with HTTP 200 is not a successful JSON resource
+ok 22 - HTML with HTTP 200 is not a successful JSON resource
+  ---
+  duration_ms: 7.0743
+  ...
+# Subtest: 403 stops subsequent network calls on that origin; no bypass
+ok 23 - 403 stops subsequent network calls on that origin; no bypass
+  ---
+  duration_ms: 3.0298
+  ...
+# Subtest: 429 retries honor Retry-After and clear a recovered error
+ok 24 - 429 retries honor Retry-After and clear a recovered error
+  ---
+  duration_ms: 7.5531
+  ...
+# Subtest: request budget exhaustion is explicit, not silently treated as complete
+ok 25 - request budget exhaustion is explicit, not silently treated as complete
+  ---
+  duration_ms: 7.1256
+  ...
+# Subtest: body byte limit is enforced
+ok 26 - body byte limit is enforced
+  ---
+  duration_ms: 3.317
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-117Z-c8f7661c",
+#   "status": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#   "successful": 6,
+#   "failed": 0,
+#   "issues": 0,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-ftHAx5\\\\out\\\\runs\\\\2026-10-18T07-06-23-117Z-c8f7661c"
+# }
+# Subtest: fake full sync enumerates every ID in every selected language
+ok 27 - fake full sync enumerates every ID in every selected language
+  ---
+  duration_ms: 64.4208
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-160Z-804659e1",
+#   "status": "PARTIAL_OR_BLOCKED",
+#   "successful": 1,
+#   "failed": 1,
+#   "issues": 1,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-9mwdX5\\\\out\\\\runs\\\\2026-10-18T07-06-23-160Z-804659e1"
+# }
+# Subtest: missing index leaves unknown descendants and blocks completion
+ok 28 - missing index leaves unknown descendants and blocks completion
+  ---
+  duration_ms: 20.5137
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-180Z-249951e4",
+#   "status": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#   "successful": 6,
+#   "failed": 0,
+#   "issues": 0,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-pbgvss\\\\out\\\\runs\\\\2026-10-18T07-06-23-180Z-249951e4"
+# }
+# {
+#   "target": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-pbgvss\\\\public\\\\nanoka",
+#   "runId": "2026-10-18T07-06-23-180Z-249951e4",
+#   "objectsCopied": 4,
+#   "pointer": {
+#     "schemaVersion": 1,
+#     "provider": "Nanoka ZZZ",
+#     "runId": "2026-10-18T07-06-23-180Z-249951e4",
+#     "catalog": "snapshots/2026-10-18T07-06-23-180Z-249951e4/catalog.json",
+#     "publishedAt": "2026-10-18T07:06:23.242Z",
+#     "dataStatus": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#     "referenceUrl": "https://zzz.nanoka.cc/"
+#   }
+# }
+# Subtest: publisher verifies objects and only then exposes the pointer
+ok 29 - publisher verifies objects and only then exposes the pointer
+  ---
+  duration_ms: 105.8684
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-286Z-87a7e647",
+#   "status": "PARTIAL_OR_BLOCKED",
+#   "successful": 1,
+#   "failed": 1,
+#   "issues": 1,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-Ys5FPE\\\\out\\\\runs\\\\2026-10-18T07-06-23-286Z-87a7e647"
+# }
+# Subtest: publisher refuses a partial snapshot by default
+ok 30 - publisher refuses a partial snapshot by default
+  ---
+  duration_ms: 54.9024
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-359Z-bbfcc937",
+#   "status": "PARTIAL_OR_BLOCKED",
+#   "successful": 2,
+#   "failed": 0,
+#   "issues": 1,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-r2nKeJ\\\\false\\\\runs\\\\2026-10-18T07-06-23-359Z-bbfcc937"
+# }
+# {
+#   "runId": "2026-10-18T07-06-23-394Z-b0ce36b9",
+#   "status": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#   "successful": 2,
+#   "failed": 0,
+#   "issues": 0,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-r2nKeJ\\\\true\\\\runs\\\\2026-10-18T07-06-23-394Z-b0ce36b9"
+# }
+# Subtest: an observed optional empty dataset is valid only with explicit allowEmpty
+ok 31 - an observed optional empty dataset is valid only with explicit allowEmpty
+  ---
+  duration_ms: 78.5432
+  ...
+# {
+#   "runId": "2026-10-18T07-06-23-419Z-4df7b9da",
+#   "status": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#   "successful": 6,
+#   "failed": 0,
+#   "issues": 0,
+#   "output": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-LMQoTe\\\\out\\\\runs\\\\2026-10-18T07-06-23-419Z-4df7b9da"
+# }
+# {
+#   "target": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-LMQoTe\\\\public\\\\nanoka",
+#   "runId": "2026-10-18T07-06-23-419Z-4df7b9da",
+#   "objectsCopied": 4,
+#   "pointer": {
+#     "schemaVersion": 1,
+#     "provider": "Nanoka ZZZ",
+#     "runId": "2026-10-18T07-06-23-419Z-4df7b9da",
+#     "catalog": "snapshots/2026-10-18T07-06-23-419Z-4df7b9da/catalog.json",
+#     "publishedAt": "2026-10-18T07:06:23.515Z",
+#     "dataStatus": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#     "referenceUrl": "https://zzz.nanoka.cc/"
+#   }
+# }
+# {
+#   "target": "D:\\\\GoDot\\\\.tmp\\\\zzz-nanoka-test-LMQoTe\\\\public\\\\nanoka",
+#   "runId": "2026-10-18T07-06-23-419Z-4df7b9da",
+#   "objectsCopied": 4,
+#   "pointer": {
+#     "schemaVersion": 1,
+#     "provider": "Nanoka ZZZ",
+#     "runId": "2026-10-18T07-06-23-419Z-4df7b9da",
+#     "catalog": "snapshots/2026-10-18T07-06-23-419Z-4df7b9da/catalog.json",
+#     "publishedAt": "2026-10-18T07:06:23.515Z",
+#     "dataStatus": "REGISTERED_SCOPE_COMPLETE_DISCOVERY_SIGNOFF_REQUIRED",
+#     "referenceUrl": "https://zzz.nanoka.cc/"
+#   }
+# }
+# Subtest: re-export preserves immutable catalog bytes and rejects changes to an existing run
+ok 32 - re-export preserves immutable catalog bytes and rejects changes to an existing run
+  ---
+  duration_ms: 189.0958
+  ...
+# Subtest: CLI arguments are strict and split lists
+ok 33 - CLI arguments are strict and split lists
+  ---
+  duration_ms: 0.5751
+  ...
+# Subtest: atomic writer retries a Windows lock and leaves the previous file intact on permanent failure
+ok 34 - atomic writer retries a Windows lock and leaves the previous file intact on permanent failure
+  ---
+  duration_ms: 7.575
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 811.2242

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "CommonJS", "moduleResolution": "node",
+    "rootDir": "src", "outDir": "lib", "strict": true, "esModuleInterop": true,
+    "skipLibCheck": true, "noUnusedLocals": true, "noUnusedParameters": true,
+    "sourceMap": true
+  },
+  "include": ["src"]
+}

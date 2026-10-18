@@ -1,0 +1,11 @@
+{
+  "name": "zzz-calculator",
+  "cwd": "zzz",
+  "args": [
+    "tools/calculator/preservation.mjs"
+  ],
+  "startedAt": "2026-10-18T07:07:00.815Z",
+  "finishedAt": "2026-10-18T07:07:39.912Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/zzz-calculator.log"
+}

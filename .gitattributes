@@ -10,3 +10,12 @@ SAYARI_NANOKA_ZZZ_CODEX_KIT_20261018/** -text
 public/localization/** -text
 # Preserve the Timeline handoff kit's checksummed source bytes.
 _handoff/SAYARI_TIMELINE_CODEX_V5_20261018/** -text
+# Independent ZZZ app: keep all published snapshot/pointer bytes intact.
+zzz/public/nanoka/** -text
+zzz/public/localization/** -text
+zzz/evidence/nanoka-zzz/**/discovery-bodies/*.json -text
+zzz/evidence/nanoka-zzz/**/manifest-recheck-body.json -text
+zzz/evidence/nanoka-zzz/**/sample-*.json -text
+zzz/evidence/nanoka-zzz/**/nanoka-home.html -text
+zzz/evidence/nanoka-zzz/**/nanoka-app-entry.js -text
+timeline/tests/fixtures/vectors.v5.json -text

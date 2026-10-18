@@ -1,0 +1,11 @@
+{
+  "name": "browser-isolation",
+  "cwd": ".",
+  "args": [
+    "tools/project-split/browser-isolation.mjs"
+  ],
+  "startedAt": "2026-10-18T07:19:47.760Z",
+  "finishedAt": "2026-10-18T07:19:53.459Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/browser-isolation.log"
+}

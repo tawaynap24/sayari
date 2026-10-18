@@ -1,0 +1,24 @@
+timeline@0.0.0 D:\sayari-project\timeline
+├── @firebase/rules-unit-testing@3.0.4
+├── @types/react-dom@18.3.0
+├── @types/react@18.3.3
+├── @typescript-eslint/eslint-plugin@7.16.1
+├── @typescript-eslint/parser@7.16.1
+├── @vitejs/plugin-react@4.3.1
+├── eslint-plugin-react-hooks@4.6.2
+├── eslint-plugin-react-refresh@0.4.8
+├── eslint@8.57.0
+├── fflate@0.8.2
+├── firebase-tools@14.22.0
+├── firebase@10.12.4
+├── pdfjs-dist@4.10.38
+├── playwright@1.64.1
+├── react-dom@18.3.1
+├── react-router-dom@6.25.1
+├── react@18.3.1
+├── tsx@4.20.6
+├── typescript@5.5.3
+├── vite@5.3.4
+├── yaml@2.9.1
+└── zod@3.25.76
+

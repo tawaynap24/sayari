@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signed() { return request.auth != null; }
+    function follower(topic) { return signed() && exists(/databases/$(database)/documents/topics/$(topic)/interests/$(request.auth.uid)); }
+    function moderator() { return signed() && request.auth.token.get('timelineModerator', false) == true; }
+    function unrestrictedStory(id) { return get(/databases/$(database)/documents/stories/$(id)).data.get('restricted', false) == false || moderator(); }
+    match /categories/{id} { allow read: if true; }
+    match /topics/{id} {
+      allow read: if true;
+      match /interests/{uid} { allow get: if signed() && request.auth.uid == uid; }
+    }
+    match /topicStats/{id} { allow get: if follower(id); }
+    match /users/{uid} {
+      allow get: if signed() && request.auth.uid == uid;
+      match /followedTopics/{topic} { allow read: if signed() && request.auth.uid == uid; }
+    }
+    match /publicStories/{id} {
+      allow read: if true;
+      match /history/{revision} { allow read: if exists(/databases/$(database)/documents/publicStories/$(id)); }
+    }
+    match /stories/{id} {
+      allow get: if follower(resource.data.topicId) && (resource.data.get('restricted', false) == false || moderator());
+      match /revisions/{revision} { allow read: if follower(get(/databases/$(database)/documents/stories/$(id)).data.topicId) && unrestrictedStory(id); }
+    }
+    match /requests/{id} {
+      allow read: if follower(resource.data.topicId) && (resource.data.get('restricted', false) == false || moderator());
+      match /voteRounds/{round} {
+        allow get: if follower(get(/databases/$(database)/documents/requests/$(id)).data.topicId) && unrestrictedStory(get(/databases/$(database)/documents/requests/$(id)).data.storyId);
+        match /votes/{uid} { allow get: if signed() && request.auth.uid == uid && follower(get(/databases/$(database)/documents/requests/$(id)).data.topicId); }
+      }
+    }
+    match /namedEntities/{id} { allow read: if true; }
+    match /media/{id} {
+      allow get: if signed() && resource.data.ownerUid == request.auth.uid
+        && (resource.data.get('storyId', null) == null
+          || get(/databases/$(database)/documents/stories/$(resource.data.storyId)).data.get('restricted', false) == false);
+    }
+    match /auditLog/{id} { allow read: if moderator(); }
+    match /abuseReports/{id} { allow read: if moderator(); }
+    match /{document=**} { allow write: if false; }
+  }
+}

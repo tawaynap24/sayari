@@ -1,0 +1,61 @@
+{
+  "before": [
+    {
+      "text": "DMG = Base DMG × DMG Bonus Multiplier × CRIT Multiplier × DEF Multiplier × RES Multiplier × DMG Taken Multiplier × Stunned Multiplier",
+      "inputs": []
+    },
+    {
+      "text": "Element: physicalName: PiperLV: 60Atk: 2777CritDmg: 78.8PenPercent: 0PenBonus: 36DmgBonus: 30Multipler: 1.4DmgCal: 5054CritDmgCal: 9037Resistance​Def​​Mons Def Mul: 1.00Mons Resist Mul: 1diff: 193.14​Mons Def Mul Fix: 0.96",
+      "inputs": [
+        "0",
+        "",
+        "63.81",
+        "4861 - 8691.47"
+      ]
+    },
+    {
+      "text": "Element: physicalName: NekoLV: 60Atk: 2948CritDmg: 126.8PenPercent: 0PenBonus: 45DmgBonus: 60Multipler: 1.06DmgCal: 5009CritDmgCal: 11361Resistance​Def​​Mons Def Mul: 1.00Mons Resist Mul: 1diff: 137.24​Mons Def Mul Fix: 0.97",
+      "inputs": [
+        "0",
+        "",
+        "64.72",
+        "4872 - 11049.7"
+      ]
+    },
+    {
+      "text": "Element: iceName: EllenLV: 60Atk: 3358CritDmg: 112.4PenPercent: 0PenBonus: 36DmgBonus: 0Multipler: 0.98DmgCal: 3301CritDmgCal: 7011Resistance​Def​​Mons Def Mul: 1.00Mons Resist Mul: 1diff: -509.09​Mons Def Mul Fix: 1.00",
+      "inputs": [
+        "0",
+        "",
+        "-57.53",
+        "3810 - 8092.44"
+      ]
+    },
+    {
+      "text": "Element: iceName: EllenLV: 60Atk: 3259CritDmg: 64.4PenPercent: 0PenBonus: 36DmgBonus: 0Multipler: 0.98DmgCal: 3204CritDmgCal: 5267Resistance​Def​​Mons Def Mul: 1.00Mons Resist Mul: 1diff: 121.60​Mons Def Mul Fix: 0.96",
+      "inputs": [
+        "0",
+        "",
+        "63.62",
+        "3082 - 5066.81"
+      ]
+    }
+  ],
+  "after": {
+    "text": "Element: physicalName: PiperLV: 60Atk: 2777CritDmg: 78.8PenPercent: 0PenBonus: 36DmgBonus: 30Multipler: 1.4DmgCal: 5054CritDmgCal: 9037Resistance​Def​​Mons Def Mul: 0.42Mons Resist Mul: 0.8diff: 193.14​Mons Def Mul Fix: 1.00",
+    "inputs": [
+      "20",
+      "1000",
+      "-81.75",
+      "4861 - 8691.47"
+    ]
+  },
+  "values": [
+    1700.9125000000001,
+    3203.5969999999998,
+    3300.9139999999998,
+    4043.312,
+    5009.241600000001,
+    5054.139999999999
+  ]
+}

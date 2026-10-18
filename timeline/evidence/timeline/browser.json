@@ -1,0 +1,75 @@
+{
+  "runId": "mvdhs86w",
+  "topicId": "browser-mvdhs86w",
+  "origin": "http://127.0.0.1:5000",
+  "results": [
+    {
+      "name": "guest deep link: public content, no follow count/write/request query",
+      "status": "PASS",
+      "ms": 740
+    },
+    {
+      "name": "same-time grouping, newest3+N preview and marker selects every story",
+      "status": "PASS",
+      "ms": 1175
+    },
+    {
+      "name": "equal/time modes, keyboard pan, zoom/clusters and fit",
+      "status": "PASS",
+      "ms": 794
+    },
+    {
+      "name": "real registration gates signed nonfollower, explicit follow persists",
+      "status": "PASS",
+      "ms": 2818
+    },
+    {
+      "name": "form uploads image/PDF/DOCX, aliases/sources and creates pending at50",
+      "status": "PASS",
+      "ms": 3647
+    },
+    {
+      "name": "overlay ghost opens proposal; self vote blocked; PDF/DOCX inline with no download",
+      "status": "PASS",
+      "ms": 7224
+    },
+    {
+      "name": "pending edit prefilled all fields resets actual old votes and requires confirmation",
+      "status": "PASS",
+      "ms": 1325
+    },
+    {
+      "name": "different account real UI yes/no switch then approval publishes",
+      "status": "PASS",
+      "ms": 2305
+    },
+    {
+      "name": "published edit/hide badge toggles, full prefill, public version history and hide",
+      "status": "PASS",
+      "ms": 3631
+    },
+    {
+      "name": "request hub cursor pagination, type filters, own cancellation and client upload cap",
+      "status": "PASS",
+      "ms": 11447
+    },
+    {
+      "name": "mobile viewport, empty topic and deep-link Hosting rewrite",
+      "status": "PASS",
+      "ms": 1579
+    },
+    {
+      "name": "real touch tap/pan/pinch and keyboard dialog Escape",
+      "status": "PASS",
+      "ms": 2158
+    },
+    {
+      "name": "no uncaught frontend exceptions or forced document downloads",
+      "status": "PASS",
+      "ms": 2
+    }
+  ],
+  "errors": [],
+  "downloads": [],
+  "guestQueries": []
+}

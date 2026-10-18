@@ -1,0 +1,175 @@
+{
+  "at": "2026-10-18T07:19:54.218Z",
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "zzz-check",
+      "cwd": "zzz",
+      "args": [
+        "tools/nanoka/scripts/verify-project.mjs"
+      ],
+      "startedAt": "2026-10-18T07:06:22.087Z",
+      "finishedAt": "2026-10-18T07:06:45.161Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/zzz-check.log"
+    },
+    {
+      "name": "zzz-localization",
+      "cwd": "zzz",
+      "args": [
+        "--test",
+        "tools/localization/localization.test.mjs"
+      ],
+      "startedAt": "2026-10-18T07:07:00.839Z",
+      "finishedAt": "2026-10-18T07:07:01.519Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/zzz-localization.log"
+    },
+    {
+      "name": "zzz-calculator",
+      "cwd": "zzz",
+      "args": [
+        "tools/calculator/preservation.mjs"
+      ],
+      "startedAt": "2026-10-18T07:07:00.815Z",
+      "finishedAt": "2026-10-18T07:07:39.912Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/zzz-calculator.log"
+    },
+    {
+      "name": "zzz-browser",
+      "cwd": "zzz",
+      "args": [
+        "tools/nanoka/tools/network-discovery/localization-tests.mjs"
+      ],
+      "startedAt": "2026-10-18T07:07:00.874Z",
+      "finishedAt": "2026-10-18T07:07:51.143Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/zzz-browser.log"
+    },
+    {
+      "name": "timeline-dependencies",
+      "cwd": "timeline",
+      "args": [
+        "C:/Users/msi i7/AppData/Roaming/npm/node_modules/npm/bin/npm-cli.js",
+        "ls",
+        "--depth=0"
+      ],
+      "startedAt": "2026-10-18T07:13:44.942Z",
+      "finishedAt": "2026-10-18T07:13:45.887Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/timeline-dependencies.log"
+    },
+    {
+      "name": "timeline-integration",
+      "cwd": "timeline",
+      "args": [
+        "tools/timeline/integration.mjs"
+      ],
+      "startedAt": "2026-10-18T07:14:22.534Z",
+      "finishedAt": "2026-10-18T07:16:11.081Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/timeline-integration.log"
+    },
+    {
+      "name": "timeline-browser",
+      "cwd": "timeline",
+      "args": [
+        "tools/timeline/browser.mjs"
+      ],
+      "startedAt": "2026-10-18T07:16:32.264Z",
+      "finishedAt": "2026-10-18T07:17:14.168Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/timeline-browser.log"
+    },
+    {
+      "name": "browser-isolation",
+      "cwd": ".",
+      "args": [
+        "tools/project-split/browser-isolation.mjs"
+      ],
+      "startedAt": "2026-10-18T07:19:47.760Z",
+      "finishedAt": "2026-10-18T07:19:53.459Z",
+      "exitCode": 0,
+      "log": "evidence/project-split/browser-isolation.log"
+    }
+  ],
+  "timelineChecks": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "startedAt": "2026-10-18T07:04:50.702Z",
+      "finishedAt": "2026-10-18T07:05:43.944Z",
+      "log": "evidence/timeline/build.log"
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0,
+      "startedAt": "2026-10-18T07:05:43.964Z",
+      "finishedAt": "2026-10-18T07:06:49.091Z",
+      "log": "evidence/timeline/lint.log"
+    },
+    {
+      "command": "npm run timeline:unit",
+      "exitCode": 0,
+      "startedAt": "2026-10-18T07:06:49.092Z",
+      "finishedAt": "2026-10-18T07:07:38.181Z",
+      "log": "evidence/timeline/unit.log"
+    }
+  ],
+  "integrity": {
+    "at": "2026-10-18T07:16:43.406Z",
+    "status": "PASS",
+    "protectedFiles": 4137,
+    "unchangedPublicDataFiles": 4051,
+    "changed": [],
+    "head": "c8fc5b9e75e7a62eed8bad7efcfeacf7f19df3fe",
+    "firebaseOwner": "timeline",
+    "firebaseProject": "sayari-81b58",
+    "zzzFirebaseDependencies": 0,
+    "originalVectorsPreserved": true
+  },
+  "ready": {
+    "at": "2026-10-18T07:19:11.874Z",
+    "status": "PASS",
+    "project": "demo-timeline",
+    "topics": [
+      "community",
+      "genshin-impact",
+      "zenless-zone-zero"
+    ],
+    "stories": 0,
+    "requests": 0,
+    "accounts": 0,
+    "ports": {
+      "zzz": 5173,
+      "timeline": 5174,
+      "hosting": 5000,
+      "emulatorUI": 4000
+    }
+  },
+  "isolation": {
+    "at": "2026-10-18T07:19:52.752Z",
+    "results": [
+      {
+        "check": "ZZZ home, database and calculator have no Firebase requests or page errors",
+        "status": "PASS"
+      },
+      {
+        "check": "Timeline independent hosting, branding, navigation; ZZZ routes and data return 404",
+        "status": "PASS"
+      }
+    ]
+  },
+  "counts": {
+    "unit": 96,
+    "emulatorIntegration": 23,
+    "appBrowserScenarios": 33,
+    "calculatorBaseline": 1,
+    "isolationChecks": 2
+  },
+  "cloudChanged": false,
+  "committed": false,
+  "pushed": false,
+  "deployed": false
+}

@@ -1,0 +1,12 @@
+{
+  "projectId": "demo-sayari-timeline",
+  "runId": "mvd2u9d6",
+  "at": "2026-10-18T00:18:22.603Z",
+  "results": [
+    {
+      "name": "private operator restriction denies even member archive and pending reads",
+      "status": "PASS",
+      "ms": 8736
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "zzz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "nanoka:probe": "node tools/nanoka/scripts/nanoka-sync.mjs --mode probe --out .nanoka --extensions tools/nanoka/reference/extensions.json",
+    "nanoka:sync": "node tools/nanoka/scripts/nanoka-sync.mjs --mode sync --out .nanoka --extensions tools/nanoka/reference/extensions.json",
+    "nanoka:export": "node tools/nanoka/scripts/export-for-vite.mjs --out .nanoka --dest public/nanoka",
+    "nanoka:test": "node --test tools/nanoka/tests/*.test.mjs",
+    "nanoka:audit": "node tools/nanoka/scripts/audit-snapshot.mjs",
+    "nanoka:verify-manifest": "node tools/nanoka/scripts/verify-manifest.mjs",
+    "nanoka:check": "node tools/nanoka/scripts/verify-project.mjs",
+    "localization:sync": "node tools/localization/sync.mjs",
+    "localization:build": "node tools/localization/sync.mjs --offline",
+    "localization:test": "node --test tools/localization/*.test.mjs",
+    "localization:verify": "node tools/localization/verify.mjs",
+    "localization:browser": "node tools/nanoka/tools/network-discovery/localization-tests.mjs",
+    "localization:preview": "node tools/nanoka/tools/network-discovery/localization-preview.mjs",
+    "test": "npm run nanoka:test && npm run localization:test",
+    "test:calculator": "node tools/calculator/preservation.mjs",
+    "test:browser": "node tools/nanoka/tools/network-discovery/localization-tests.mjs"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.16.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "playwright": "1.64.1"
+  }
+}

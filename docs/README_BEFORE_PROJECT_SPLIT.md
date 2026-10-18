@@ -1,0 +1,23 @@
+# Sayari
+
+เว็บ React + TypeScript + Vite สำหรับเครื่องมือและฐานข้อมูลเกม พื้นหลังหลักสีดำ
+
+- `/` — หน้าหลัก
+- `/game/zenless-zone-zero` — เครื่องคำนวณเดิม
+- `/game/zenless-zone-zero/database` — ฐานข้อมูล ZZZ จาก Nanoka พร้อมภาษา/เวอร์ชัน รายละเอียด และ API Explorer
+
+```powershell
+npm.cmd ci
+npm.cmd run dev
+npm.cmd run nanoka:check
+```
+
+ฐานข้อมูลใช้ JSON snapshot ที่โหลดแยกจาก JavaScript bundle ข้อมูลเกมมาจาก Nanoka และมี source metadata กับ raw download ไม่ใช้ข้อมูลจำลองแทนข้อมูลจริงที่โหลดล้มเหลว
+
+อ่าน [คู่มือฐานข้อมูลและการ sync](docs/NANOKA_DATABASE_TH.md) และ [สรุป implementation ปัจจุบัน](docs/NANOKA_IMPLEMENTATION_SUMMARY_TH.md) ก่อนอัปเดตข้อมูลหรือส่งต่อให้ ChatGPT
+
+หลักฐาน build, unit/browser tests, coverage และ screenshots อยู่ `evidence/nanoka-zzz/` รายงาน summary เดิมที่ root เป็นข้อมูลประวัติของงานก่อนหน้า
+
+เพิ่มภาษาไทยจาก ZenlessData แล้ว: ภาษาเริ่มต้น `th-TH`, เปลี่ยนเป็น English และจำค่าจากปุ่มตั้งค่าได้ ข้อมูลที่ไม่มี mapping ที่ตรวจยืนยันใช้ Nanoka English โดยตัวเลขและ Calculator คงเดิม อ่าน [สรุปภาษาไทยฉบับล่าสุดสำหรับ ChatGPT](docs/THAI_LOCALIZATION_SUMMARY_TH.md) ซึ่งรวม coverage, source revisions, ข้อจำกัด Live/Latest และผลทดสอบ
+
+อัปเดตคำแปลด้วย `npm.cmd run localization:sync` แล้วตรวจ `npm.cmd run localization:verify`, `npm.cmd run localization:test`, `npm.cmd run build` และ `npm.cmd run lint` หลักฐานงานภาษาไทยอยู่ `evidence/localization-th/` หลัง sync ให้ restart Vite dev เพื่อให้รู้จักไฟล์ public ที่เพิ่มใหม่

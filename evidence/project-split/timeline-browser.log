@@ -1,0 +1,14 @@
+PASS guest deep link: public content, no follow count/write/request query
+PASS same-time grouping, newest3+N preview and marker selects every story
+PASS equal/time modes, keyboard pan, zoom/clusters and fit
+PASS real registration gates signed nonfollower, explicit follow persists
+PASS form uploads image/PDF/DOCX, aliases/sources and creates pending at50
+PASS overlay ghost opens proposal; self vote blocked; PDF/DOCX inline with no download
+PASS pending edit prefilled all fields resets actual old votes and requires confirmation
+PASS different account real UI yes/no switch then approval publishes
+PASS published edit/hide badge toggles, full prefill, public version history and hide
+PASS request hub cursor pagination, type filters, own cancellation and client upload cap
+PASS mobile viewport, empty topic and deep-link Hosting rewrite
+PASS real touch tap/pan/pinch and keyboard dialog Escape
+PASS no uncaught frontend exceptions or forced document downloads
+13/13 browser scenarios PASS

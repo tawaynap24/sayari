@@ -1,0 +1,93 @@
+[
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:04:35.389Z",
+    "finishedAt": "2026-10-18T00:05:12.784Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:05:12.792Z",
+    "finishedAt": "2026-10-18T00:05:16.245Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:05:16.269Z",
+    "finishedAt": "2026-10-18T00:05:24.900Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run nanoka:test",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:05:24.905Z",
+    "finishedAt": "2026-10-18T00:05:26.673Z",
+    "log": "evidence/timeline/nanoka.log"
+  },
+  {
+    "command": "npm run localization:test",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:05:26.675Z",
+    "finishedAt": "2026-10-18T00:05:27.857Z",
+    "log": "evidence/timeline/localization.log"
+  },
+  {
+    "command": "npm run timeline:verify",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:05:27.876Z",
+    "finishedAt": "2026-10-18T00:05:31.603Z",
+    "log": "evidence/timeline/preservation.log"
+  },
+  {
+    "command": "node tools/timeline/browser.mjs",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:08:35.562Z",
+    "finishedAt": "2026-10-18T00:09:30.247Z",
+    "log": "evidence/timeline/browser.log"
+  },
+  {
+    "command": "node tools/timeline/browser.mjs",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:09:52.134Z",
+    "finishedAt": "2026-10-18T00:10:48.004Z",
+    "log": "evidence/timeline/browser.log"
+  },
+  {
+    "command": "node tools/timeline/integration.mjs",
+    "exitCode": 1,
+    "startedAt": "2026-10-18T00:11:01.024Z",
+    "finishedAt": "2026-10-18T00:13:34.273Z",
+    "log": "evidence/timeline/integration.log"
+  },
+  {
+    "command": "node tools/timeline/integration.mjs",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:15:14.134Z",
+    "finishedAt": "2026-10-18T00:17:54.214Z",
+    "log": "evidence/timeline/integration.log"
+  },
+  {
+    "command": "node tools/timeline/integration.mjs --restriction",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:18:12.556Z",
+    "finishedAt": "2026-10-18T00:18:22.681Z",
+    "log": "evidence/timeline/restriction.log"
+  },
+  {
+    "command": "npm run timeline:build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:18:51.603Z",
+    "finishedAt": "2026-10-18T00:19:30.970Z",
+    "log": "evidence/timeline/emulator-build.log"
+  },
+  {
+    "command": "node tools/timeline/browser.mjs",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T00:20:04.039Z",
+    "finishedAt": "2026-10-18T00:21:20.564Z",
+    "log": "evidence/timeline/browser.log"
+  }
+]

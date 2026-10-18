@@ -1,0 +1,12 @@
+{
+  "name": "zzz-localization",
+  "cwd": "zzz",
+  "args": [
+    "--test",
+    "tools/localization/localization.test.mjs"
+  ],
+  "startedAt": "2026-10-18T07:07:00.839Z",
+  "finishedAt": "2026-10-18T07:07:01.519Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/zzz-localization.log"
+}

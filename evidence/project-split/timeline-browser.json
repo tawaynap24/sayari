@@ -1,0 +1,11 @@
+{
+  "name": "timeline-browser",
+  "cwd": "timeline",
+  "args": [
+    "tools/timeline/browser.mjs"
+  ],
+  "startedAt": "2026-10-18T07:16:32.264Z",
+  "finishedAt": "2026-10-18T07:17:14.168Z",
+  "exitCode": 0,
+  "log": "evidence/project-split/timeline-browser.log"
+}
