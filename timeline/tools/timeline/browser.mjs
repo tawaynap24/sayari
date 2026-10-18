@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { createRequire } from "node:module";
 import { randomUUID } from "node:crypto";
 import { zipSync, strToU8 } from "fflate";
+import { cleanupTopicFixtures } from "./fixtures.mjs";
 await fs.mkdir("evidence/timeline", { recursive: true });
 const require = createRequire(
   new URL("../../functions/package.json", import.meta.url),
@@ -11,6 +12,7 @@ const require = createRequire(
 const { initializeApp } = require("firebase-admin/app"),
   { getFirestore } = require("firebase-admin/firestore"),
   { getAuth } = require("firebase-admin/auth"),
+  { getStorage } = require("firebase-admin/storage"),
   { TimelineService } = require("./lib/service.js");
 Object.assign(process.env, {
   GCLOUD_PROJECT: "demo-timeline",
@@ -18,7 +20,7 @@ Object.assign(process.env, {
   FIREBASE_AUTH_EMULATOR_HOST: "127.0.0.1:9099",
   FIREBASE_STORAGE_EMULATOR_HOST: "127.0.0.1:9199",
 });
-initializeApp({ projectId: "demo-timeline" });
+initializeApp({ projectId: "demo-timeline", storageBucket: "demo-timeline.appspot.com" });
 const db = getFirestore(),
   svc = new TimelineService(db);
 const runId = Date.now().toString(36),
@@ -48,47 +50,8 @@ const base = {
   gameVersion: "test",
   locale: "th-TH",
 };
-await db.doc(`topics/${topicId}`).set({
-  id: topicId,
-  slug: topicId,
-  categoryId: "test",
-  displayNames: { "th-TH": "หัวข้อทดสอบ Browser" },
-  descriptionTh: "SYNTHETIC — Emulator only",
-  calendar: { id: "browser-symbolic" },
-  publishedCount: 0,
-});
-await db
-  .doc(`topicStats/${topicId}`)
-  .set({ interestCount: 49, graphVersion: 0 });
-const batch = db.batch();
-for (let i = 0; i < 49; i++)
-  batch.set(db.doc(`topics/${topicId}/interests/${act(i).uid}`), {
-    uid: act(i).uid,
-    followedAt: Date.now(),
-  });
-await batch.commit();
-const first = await call(owner, "createStory", { topicId, content: base });
-for (let i = 1; i <= 4; i++)
-  await call(owner, "createStory", {
-    topicId,
-    content: { ...base, titleTh: `เรื่องทดสอบร่วมเวลา ${i}` },
-  });
-await call(owner, "createStory", {
-  topicId,
-  content: {
-    ...base,
-    titleTh: "เรื่องทดสอบปี 20",
-    time: { type: "exact", at: { year: "20", precision: "year" } },
-  },
-});
 const voterEmail = `voter-${runId}@example.test`,
   password = "Test-only-12345";
-await getAuth().createUser({
-  uid: act(1).uid,
-  email: voterEmail,
-  password,
-  displayName: act(1).label,
-});
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const context = await browser.newContext({
   viewport: { width: 1440, height: 1000 },
@@ -159,6 +122,43 @@ async function sendForm() {
 }
 let memberUid, pendingId;
 try {
+  await db.doc(`topics/${topicId}`).set({
+    id: topicId,
+    slug: topicId,
+    categoryId: "test",
+    displayNames: { "th-TH": "หัวข้อทดสอบ Browser" },
+    descriptionTh: "SYNTHETIC — Emulator only",
+    calendar: { id: "browser-symbolic" },
+    publishedCount: 0,
+  });
+  await db.doc(`topicStats/${topicId}`).set({ interestCount: 49, graphVersion: 0 });
+  const batch = db.batch();
+  for (let i = 0; i < 49; i++)
+    batch.set(db.doc(`topics/${topicId}/interests/${act(i).uid}`), {
+      uid: act(i).uid,
+      followedAt: Date.now(),
+    });
+  await batch.commit();
+  await call(owner, "createStory", { topicId, content: base });
+  for (let i = 1; i <= 4; i++)
+    await call(owner, "createStory", {
+      topicId,
+      content: { ...base, titleTh: `เรื่องทดสอบร่วมเวลา ${i}` },
+    });
+  await call(owner, "createStory", {
+    topicId,
+    content: {
+      ...base,
+      titleTh: "เรื่องทดสอบปี 20",
+      time: { type: "exact", at: { year: "20", precision: "year" } },
+    },
+  });
+  await getAuth().createUser({
+    uid: act(1).uid,
+    email: voterEmail,
+    password,
+    displayName: act(1).label,
+  });
   await run(
     "guest deep link: public content, no follow count/write/request query",
     async () => {
@@ -749,8 +749,17 @@ try {
     },
   );
 } finally {
-  await browser.close();
-  await db.terminate();
+  try {
+    await browser.close();
+  } finally {
+    try {
+      await cleanupTopicFixtures(db, [topicId], getStorage().bucket());
+      assert.equal((await db.doc(`topics/${topicId}`).get()).exists, false);
+      console.log("PASS cleaned browser topic fixture");
+    } finally {
+      await db.terminate();
+    }
+  }
 }
 console.log(
   `${results.filter((r) => r.status === "PASS").length}/${results.length} browser scenarios PASS`,

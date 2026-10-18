@@ -7,6 +7,8 @@ import { onSchedule } from "firebase-functions/v2/scheduler";
 import { logger } from "firebase-functions";
 import { ZodError } from "zod";
 import { TimelineService } from "./service";
+import { PresenceService } from "./presence";
+import { SessionService } from "./session";
 import {
   cleanupOrphans,
   finalizeUpload,
@@ -16,7 +18,38 @@ import {
 initializeApp();
 const db = getFirestore();
 const service = new TimelineService(db);
+const presence = new PresenceService(db);
+const sessions = new SessionService(db);
 const region = "asia-southeast1";
+export const timelineSession = onCall(
+  { region, enforceAppCheck: process.env.TIMELINE_ENFORCE_APP_CHECK === "true", maxInstances: 10 },
+  async req => {
+    if (!req.auth || req.auth.token.firebase?.sign_in_provider === "anonymous")
+      throw new HttpsError("unauthenticated", "กรุณาเข้าสู่ระบบ");
+    if (!req.data || req.data.action !== "renew" || Object.keys(req.data).length !== 1)
+      throw new HttpsError("invalid-argument", "ข้อมูล session ไม่ถูกต้อง");
+    return sessions.renew({ uid: req.auth.uid, auth_time: req.auth.token.auth_time });
+  },
+);
+export const timelinePresence = onCall(
+  { region, enforceAppCheck: process.env.TIMELINE_ENFORCE_APP_CHECK === "true", maxInstances: 10 },
+  async req => {
+    try {
+      if (req.auth && req.data?.action !== "leave") await sessions.require({ uid: req.auth.uid, auth_time: req.auth.token.auth_time });
+      const uid = req.auth && req.auth.token.firebase?.sign_in_provider !== "anonymous" ? req.auth.uid : null;
+      const result = await presence.update(uid, req.data);
+      await presence.expireStale();
+      return result;
+    } catch (error) {
+      if (error instanceof ZodError) throw new HttpsError("invalid-argument", "ข้อมูลสถานะผู้ใช้งานไม่ถูกต้อง");
+      throw error;
+    }
+  },
+);
+export const expireTimelinePresence = onSchedule(
+  { region, schedule: "* * * * *", timeZone: "UTC", maxInstances: 1 },
+  async () => { logger.info("timeline presence expiry", { expired: await presence.expireStale() }); },
+);
 export const timelineApi = onCall(
   {
     region,
@@ -25,6 +58,7 @@ export const timelineApi = onCall(
   },
   async (req) => {
     if (!req.auth) throw new HttpsError("unauthenticated", "กรุณาเข้าสู่ระบบ");
+    await sessions.require({ uid: req.auth.uid, auth_time: req.auth.token.auth_time });
     if (req.auth.token.firebase?.sign_in_provider === "anonymous")
       throw new HttpsError("unauthenticated", "กรุณาเข้าสู่ระบบด้วยบัญชีอีเมล");
     const actor = {
@@ -91,7 +125,11 @@ export const timelineMedia = onRequest(
     try {
       let uid: string | undefined;
       const bearer = req.headers.authorization?.match(/^Bearer (.+)$/)?.[1];
-      if (bearer) uid = (await getAuth().verifyIdToken(bearer)).uid;
+      if (bearer) {
+        const token = await getAuth().verifyIdToken(bearer);
+        await sessions.require(token);
+        uid = token.uid;
+      }
       const { m } = await readMedia(db, String(req.query.id || ""), uid);
       if (m.kind === "docx") {
         res.type("application/json").send({ text: m.docText });

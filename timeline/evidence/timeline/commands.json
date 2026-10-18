@@ -19,5 +19,26 @@
     "startedAt": "2026-10-18T07:06:49.092Z",
     "finishedAt": "2026-10-18T07:07:38.181Z",
     "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T09:56:20.095Z",
+    "finishedAt": "2026-10-18T09:56:41.552Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T09:56:41.563Z",
+    "finishedAt": "2026-10-18T09:57:51.250Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T09:57:51.251Z",
+    "finishedAt": "2026-10-18T09:58:26.109Z",
+    "log": "evidence/timeline/unit.log"
   }
 ]

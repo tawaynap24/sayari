@@ -1,10 +1,14 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signed() { return request.auth != null; }
+    function signed() {
+      return request.auth != null && request.auth.token.get('auth_time', null) is int
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)/authSessions/$(string(request.auth.token.auth_time))).data.expiresAt > request.time.toMillis();
+    }
     function follower(topic) { return signed() && exists(/databases/$(database)/documents/topics/$(topic)/interests/$(request.auth.uid)); }
     function moderator() { return signed() && request.auth.token.get('timelineModerator', false) == true; }
     function unrestrictedStory(id) { return get(/databases/$(database)/documents/stories/$(id)).data.get('restricted', false) == false || moderator(); }
+    match /siteStats/online { allow get: if true; }
     match /categories/{id} { allow read: if true; }
     match /topics/{id} {
       allow read: if true;
@@ -13,6 +17,10 @@ service cloud.firestore {
     match /topicStats/{id} { allow get: if follower(id); }
     match /users/{uid} {
       allow get: if signed() && request.auth.uid == uid;
+      match /authSessions/{started} {
+        allow get: if request.auth != null && request.auth.uid == uid
+          && string(request.auth.token.get('auth_time', '')) == started;
+      }
       match /followedTopics/{topic} { allow read: if signed() && request.auth.uid == uid; }
     }
     match /publicStories/{id} {

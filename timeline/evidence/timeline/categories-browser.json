@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T10:03:13.370Z",
+  "origin": "http://127.0.0.1:5174",
+  "results": [
+    {
+      "name": "all categories display exactly three original topics without synthetic fixtures",
+      "status": "PASS"
+    },
+    {
+      "name": "game and general filters show only their matching topics",
+      "status": "PASS"
+    },
+    {
+      "name": "each topic links to its own route and mobile filters fit the screen",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

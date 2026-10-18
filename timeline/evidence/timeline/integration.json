@@ -1,122 +1,122 @@
 {
   "projectId": "demo-timeline",
-  "runId": "mvdhpsar",
-  "at": "2026-10-18T07:16:10.989Z",
+  "runId": "mvdniqgp",
+  "at": "2026-10-18T09:58:17.655Z",
   "results": [
     {
       "name": "atomic duplicate follows increment one UID exactly once",
       "status": "PASS",
-      "ms": 14745
+      "ms": 7877
     },
     {
       "name": "CREATE at49 publishes once with immutable revision; retry idempotent",
       "status": "PASS",
-      "ms": 11584
+      "ms": 3711
     },
     {
       "name": "CREATE at50 snapshot5, own/nonfollower denied and immediate threshold",
       "status": "PASS",
-      "ms": 1362
+      "ms": 1101
     },
     {
       "name": "concurrent sameUID votes, real switch, repeat same choice keeps idle clock",
       "status": "PASS",
-      "ms": 7817
+      "ms": 7709
     },
     {
       "name": "parallel threshold crossing publishes exactly one revision",
       "status": "PASS",
-      "ms": 4232
+      "ms": 4707
     },
     {
       "name": "pending edit archives votes and resnapshots N/time; stale votes denied",
       "status": "PASS",
-      "ms": 619
+      "ms": 791
     },
     {
       "name": "concurrent EDIT lock, approval history, original author may vote another proposer",
       "status": "PASS",
-      "ms": 4048
+      "ms": 4371
     },
     {
       "name": "HIDE approval cancels pending EDIT; history/public projection denied to guest",
       "status": "PASS",
-      "ms": 1635
+      "ms": 1065
     },
     {
       "name": "EDIT approved first preserves active HIDE targeting current version",
       "status": "PASS",
-      "ms": 1597
+      "ms": 1633
     },
     {
       "name": "negative HIDE leaves published; fresh round snapshots current interest",
       "status": "PASS",
-      "ms": 968
+      "ms": 1012
     },
     {
       "name": "exact expiry commits terminal and releases lock before denied vote",
       "status": "PASS",
-      "ms": 412
+      "ms": 479
     },
     {
       "name": "CREATE grace72h, later real vote extends to94h, bounded idempotent sweeper",
       "status": "PASS",
-      "ms": 598
+      "ms": 594
     },
     {
       "name": "stale and missing EDIT locks recover transactionally",
       "status": "PASS",
-      "ms": 720
+      "ms": 477
     },
     {
       "name": "server rejects self/cross-topic/hidden anchors and approval cycles",
       "status": "PASS",
-      "ms": 666
+      "ms": 844
     },
     {
       "name": "guest approved-only reads and all direct authority writes denied",
       "status": "PASS",
-      "ms": 1053
+      "ms": 811
     },
     {
       "name": "privilege checked server-side and audited; normal actor cannot bypass",
       "status": "PASS",
-      "ms": 422
+      "ms": 1051
     },
     {
       "name": "Auth email/password + real callable JWT/unauthenticated/anonymous/nonfollow gates",
       "status": "PASS",
-      "ms": 7294
+      "ms": 886
     },
     {
       "name": "Storage rules byte cap, private staging, finalize magic, ownership and hide revokes proxy",
       "status": "PASS",
-      "ms": 10738
+      "ms": 3428
     },
     {
       "name": "backend rejects unsafe references, unknown fields/count spoof and cross-topic entities",
       "status": "PASS",
-      "ms": 128
+      "ms": 593
     },
     {
       "name": "1001 actual memberships cap CREATE at100 and exactly100 votes publish",
       "status": "PASS",
-      "ms": 12442
+      "ms": 11242
     },
     {
       "name": "simultaneous EDIT/HIDE threshold race never resurrects story",
       "status": "PASS",
-      "ms": 5055
+      "ms": 4494
     },
     {
       "name": "private operator restriction denies even member archive and pending reads",
       "status": "PASS",
-      "ms": 1890
+      "ms": 2194
     },
     {
       "name": "exported scheduled handler executes against Emulator, cleanup retries harmless",
       "status": "PASS",
-      "ms": 1506
+      "ms": 6263
     }
   ]
 }

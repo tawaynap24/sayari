@@ -127,5 +127,16 @@
       ]
     }
   ],
-  "fieldOverrides": []
+  "fieldOverrides": [
+    {
+      "collectionGroup": "presenceVisitors",
+      "fieldPath": "connections",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "presencePeople",
+      "fieldPath": "leases",
+      "indexes": []
+    }
+  ]
 }

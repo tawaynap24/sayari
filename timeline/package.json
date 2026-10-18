@@ -11,7 +11,7 @@
     "timeline:dev": "vite --mode emulator --host 127.0.0.1 --port 5174 --strictPort",
     "timeline:build": "tsc -b && vite build --mode emulator",
     "timeline:functions": "npm --prefix functions run build",
-    "timeline:unit": "npm --prefix functions run build && tsx --test tools/timeline/unit.test.ts",
+    "timeline:unit": "npm --prefix functions run build && tsx --test tools/timeline/*.test.ts",
     "timeline:emulators": "node tools/timeline/emulators.mjs start",
     "timeline:test": "node tools/timeline/emulators.mjs test",
     "timeline:seed": "node tools/timeline/seed.mjs",
@@ -25,7 +25,12 @@
     "test:browser": "node tools/timeline/browser.mjs",
     "emulators": "npm run timeline:emulators",
     "seed": "npm run timeline:seed",
-    "check": "node tools/timeline/checks.mjs"
+    "check": "node tools/timeline/checks.mjs",
+    "test:presence": "npm --prefix functions run build && node tools/timeline/presence-integration.mjs",
+    "test:session": "npm --prefix functions run build && node tools/timeline/session-integration.mjs",
+    "test:session:browser": "node tools/timeline/session-browser.mjs",
+    "test:fixtures": "node tools/timeline/fixtures-integration.mjs",
+    "test:categories:browser": "node tools/timeline/categories-browser.mjs"
   },
   "dependencies": {
     "fflate": "0.8.2",

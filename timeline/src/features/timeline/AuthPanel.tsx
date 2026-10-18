@@ -5,7 +5,7 @@ import {
   updateProfile,
   sendPasswordResetEmail,
 } from "firebase/auth";
-import { auth, errorText } from "./client";
+import { auth, authSession, errorText } from "./client";
 import Modal from "./Modal";
 export default function AuthPanel({ onClose }: { onClose: () => void }) {
   const [register, setRegister] = useState(false),
@@ -26,6 +26,7 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
           setBusy(true);
           setError("");
           try {
+            await authSession.ready;
             if (register) {
               const c = await createUserWithEmailAndPassword(
                 auth,
@@ -44,6 +45,7 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
         }}
       >
         <p className="tl-muted">เข้าร่วมเขียนเรื่องราวและพิจารณาคำขอของชุมชน</p>
+        <small>จดจำการเข้าสู่ระบบ 3 วัน และต่ออายุเมื่อกลับมาใช้งาน</small>
         {register && (
           <label>
             ชื่อที่แสดงต่อสาธารณะ

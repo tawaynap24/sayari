@@ -8,7 +8,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { signOut, type User } from "firebase/auth";
-import { api, auth, configured, emulated, errorText } from "./client";
+import { api, auth, configured, errorText } from "./client";
 import { useAuth, useCollection, useDoc, usePages } from "./hooks";
 import type { Entity, Request, Revision, Topic } from "./types";
 import AuthPanel from "./AuthPanel";
@@ -17,6 +17,7 @@ import RequestPanel from "./RequestPanel";
 import ReasonForm from "./ReasonForm";
 import StoryCard from "./StoryCard";
 import TimelineCanvas, { type CanvasNode } from "./TimelineCanvas";
+import OnlinePresence from "./OnlinePresence";
 import "./style.css";
 interface Category {
   id: string;
@@ -36,14 +37,14 @@ function Explorer({
       <section className="tl-hero">
         <p className="tl-eyebrow">TIMELINE</p>
         <h1>
-          ทุกเรื่องราว
+          เรื่องราวเยอะจนเริ่มงง?
           <br />
-          <em>มีช่วงเวลาของมัน</em>
+          <em>มาจัดไทม์ไลน์กันใหม่</em>
         </h1>
         <p>
-          สำรวจลำดับเหตุการณ์ เชื่อมโยงเรื่องราว
+          รวบรวมข้อมูล เชื่อมโยงเหตุการณ์
           <br />
-          และร่วมบันทึกแหล่งอ้างอิงกับชุมชน
+          แล้วช่วยกันเรียงเรื่องราวให้เข้าใจง่ายขึ้น
         </p>
       </section>
       <nav className="tl-categories" aria-label="หมวดหมู่">
@@ -448,9 +449,7 @@ export default function TimelineApp() {
   return (
     <main className="tl">
       <header className="tl-header">
-        <Link className="tl-brand" to="/timeline">
-          <span className="tl-brand-mark">T</span><span>Timeline</span>
-        </Link>
+        <OnlinePresence user={user} authReady={ready} />
         <nav className="tl-actions">
           <Link to="/">หน้าแรก</Link>
           {ready &&
@@ -478,11 +477,6 @@ export default function TimelineApp() {
         </section>
       ) : (
         <>
-          {emulated && (
-            <p className="tl-local-label">
-              พื้นที่ทดสอบในเครื่อง · ข้อมูลไม่เชื่อมต่อเว็บไซต์จริง
-            </p>
-          )}
           {(topics.error || categories.error) && (
             <p className="tl-error" role="alert">
               {topics.error || categories.error}
@@ -544,10 +538,6 @@ export default function TimelineApp() {
           )}
         </>
       )}
-      <footer className="tl-footer">
-        <span>TIMELINE</span>
-        <span>เรื่องราวของชุมชน · เชื่อมโยงด้วยเวลา</span>
-      </footer>
       {login && <AuthPanel onClose={() => setLogin(false)} />}
     </main>
   );

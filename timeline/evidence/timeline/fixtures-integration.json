@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-18T09:56:16.990Z",
+  "results": [
+    {
+      "name": "cleanup refuses cloud projects, nonlocal endpoints and ordinary topics",
+      "status": "PASS"
+    },
+    {
+      "name": "finally removes nested fixture content and media after a test throws",
+      "status": "PASS"
+    },
+    {
+      "name": "cleanup preserves another test run and the original community topic",
+      "status": "PASS"
+    }
+  ]
+}

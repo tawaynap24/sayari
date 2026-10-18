@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-18T09:38:50.988Z",
+  "projectId": "demo-timeline",
+  "results": [
+    {
+      "name": "guest tabs deduplicate and a second browser adds one visitor",
+      "status": "PASS"
+    },
+    {
+      "name": "login replaces the browser guest contribution without double counting",
+      "status": "PASS"
+    },
+    {
+      "name": "one account across browsers counts once, closing one tab keeps it online",
+      "status": "PASS"
+    },
+    {
+      "name": "logout becomes a guest and a delayed heartbeat cannot restore a closed tab",
+      "status": "PASS"
+    },
+    {
+      "name": "leave before initial heartbeat remains closed and duplicate leave is idempotent",
+      "status": "PASS"
+    },
+    {
+      "name": "server clock expiry handles a lost connection at the exact lease boundary",
+      "status": "PASS"
+    },
+    {
+      "name": "concurrent guest arrivals and duplicate heartbeats preserve exact counters",
+      "status": "PASS"
+    },
+    {
+      "name": "public aggregate is readable; visitor records, identities and client writes are private",
+      "status": "PASS"
+    },
+    {
+      "name": "callable rejects forged identities and derives member identity from verified Auth",
+      "status": "PASS"
+    }
+  ]
+}

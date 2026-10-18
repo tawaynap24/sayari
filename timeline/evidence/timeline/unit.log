@@ -1,273 +1,313 @@
 
 > timeline@0.0.0 timeline:unit
-> npm --prefix functions run build && tsx --test tools/timeline/unit.test.ts
+> npm --prefix functions run build && tsx --test tools/timeline/*.test.ts
 
 
 > build
 > tsc
 
 TAP version 13
-# Subtest: V5 threshold N=0
-ok 1 - V5 threshold N=0
+# Subtest: presence deduplicates guest tabs in one browser
+ok 1 - presence deduplicates guest tabs in one browser
   ---
-  duration_ms: 37.4999
+  duration_ms: 1.5103
+  ...
+# Subtest: presence signed-in tabs suppress the browser's old guest tab
+ok 2 - presence signed-in tabs suppress the browser's old guest tab
+  ---
+  duration_ms: 0.1637
+  ...
+# Subtest: presence treats the exact expiry boundary as offline
+ok 3 - presence treats the exact expiry boundary as offline
+  ---
+  duration_ms: 0.2165
+  ...
+# Subtest: closed tabs cannot remain in online contributions
+ok 4 - closed tabs cannot remain in online contributions
+  ---
+  duration_ms: 0.1278
+  ...
+# Subtest: presence payload rejects forged UID, count and malformed identifiers
+ok 5 - presence payload rejects forged UID, count and malformed identifiers
+  ---
+  duration_ms: 2.7516
+  ...
+# Subtest: session idle period is exactly three days
+ok 6 - session idle period is exactly three days
+  ---
+  duration_ms: 1.1519
+  ...
+# Subtest: legacy/new login bootstrap expires at the exact three-day boundary
+ok 7 - legacy/new login bootstrap expires at the exact three-day boundary
+  ---
+  duration_ms: 0.2844
+  ...
+# Subtest: session policy rejects missing, malformed and far-future authentication times
+ok 8 - session policy rejects missing, malformed and far-future authentication times
+  ---
+  duration_ms: 0.2099
+  ...
+# Subtest: V5 threshold N=0
+ok 9 - V5 threshold N=0
+  ---
+  duration_ms: 1.0841
   ...
 # Subtest: V5 threshold N=1
-ok 2 - V5 threshold N=1
+ok 10 - V5 threshold N=1
   ---
-  duration_ms: 0.3266
+  duration_ms: 0.1131
   ...
 # Subtest: V5 threshold N=10
-ok 3 - V5 threshold N=10
+ok 11 - V5 threshold N=10
   ---
-  duration_ms: 4.4146
+  duration_ms: 0.1421
   ...
 # Subtest: V5 threshold N=49
-ok 4 - V5 threshold N=49
+ok 12 - V5 threshold N=49
   ---
-  duration_ms: 0.4278
+  duration_ms: 0.1426
   ...
 # Subtest: V5 threshold N=50
-ok 5 - V5 threshold N=50
+ok 13 - V5 threshold N=50
   ---
-  duration_ms: 0.2582
+  duration_ms: 0.1111
   ...
 # Subtest: V5 threshold N=51
-ok 6 - V5 threshold N=51
+ok 14 - V5 threshold N=51
   ---
-  duration_ms: 0.3017
+  duration_ms: 0.0654
   ...
 # Subtest: V5 threshold N=99
-ok 7 - V5 threshold N=99
+ok 15 - V5 threshold N=99
   ---
-  duration_ms: 0.2949
+  duration_ms: 0.0487
   ...
 # Subtest: V5 threshold N=100
-ok 8 - V5 threshold N=100
+ok 16 - V5 threshold N=100
   ---
-  duration_ms: 0.2288
+  duration_ms: 0.05
   ...
 # Subtest: V5 threshold N=500
-ok 9 - V5 threshold N=500
+ok 17 - V5 threshold N=500
   ---
-  duration_ms: 0.6193
+  duration_ms: 0.1861
   ...
 # Subtest: V5 threshold N=999
-ok 10 - V5 threshold N=999
+ok 18 - V5 threshold N=999
   ---
-  duration_ms: 1.7089
+  duration_ms: 0.2583
   ...
 # Subtest: V5 threshold N=1000
-ok 11 - V5 threshold N=1000
+ok 19 - V5 threshold N=1000
   ---
-  duration_ms: 0.3336
+  duration_ms: 0.0657
   ...
 # Subtest: V5 threshold N=1001
-ok 12 - V5 threshold N=1001
+ok 20 - V5 threshold N=1001
   ---
-  duration_ms: 0.1934
+  duration_ms: 0.0404
   ...
 # Subtest: V5 threshold N=2000
-ok 13 - V5 threshold N=2000
+ok 21 - V5 threshold N=2000
   ---
-  duration_ms: 0.201
+  duration_ms: 0.0314
   ...
 # Subtest: V5 threshold N=99999
-ok 14 - V5 threshold N=99999
+ok 22 - V5 threshold N=99999
   ---
-  duration_ms: 0.6797
+  duration_ms: 0.0303
   ...
 # Subtest: V5 expiry CREATE last=null
-ok 15 - V5 expiry CREATE last=null
+ok 23 - V5 expiry CREATE last=null
   ---
-  duration_ms: 0.424
+  duration_ms: 0.1206
   ...
 # Subtest: V5 expiry CREATE last=1
-ok 16 - V5 expiry CREATE last=1
+ok 24 - V5 expiry CREATE last=1
   ---
-  duration_ms: 0.1814
+  duration_ms: 0.035
   ...
 # Subtest: V5 expiry CREATE last=20
-ok 17 - V5 expiry CREATE last=20
+ok 25 - V5 expiry CREATE last=20
   ---
-  duration_ms: 0.1613
+  duration_ms: 0.0321
   ...
 # Subtest: V5 expiry CREATE last=50
-ok 18 - V5 expiry CREATE last=50
+ok 26 - V5 expiry CREATE last=50
   ---
-  duration_ms: 0.1549
+  duration_ms: 0.0312
   ...
 # Subtest: V5 expiry CREATE last=70
-ok 19 - V5 expiry CREATE last=70
+ok 27 - V5 expiry CREATE last=70
   ---
-  duration_ms: 0.1486
+  duration_ms: 0.0328
   ...
 # Subtest: V5 expiry CREATE last=90
-ok 20 - V5 expiry CREATE last=90
+ok 28 - V5 expiry CREATE last=90
   ---
-  duration_ms: 0.3495
+  duration_ms: 0.0314
   ...
 # Subtest: V5 expiry EDIT last=null
-ok 21 - V5 expiry EDIT last=null
+ok 29 - V5 expiry EDIT last=null
   ---
-  duration_ms: 0.3693
+  duration_ms: 0.0308
   ...
 # Subtest: V5 expiry EDIT last=4
-ok 22 - V5 expiry EDIT last=4
+ok 30 - V5 expiry EDIT last=4
   ---
-  duration_ms: 0.5838
+  duration_ms: 0.0343
   ...
 # Subtest: V5 expiry EDIT last=23
-ok 23 - V5 expiry EDIT last=23
+ok 31 - V5 expiry EDIT last=23
   ---
-  duration_ms: 0.1742
+  duration_ms: 0.0527
   ...
 # Subtest: V5 expiry HIDE last=null
-ok 24 - V5 expiry HIDE last=null
+ok 32 - V5 expiry HIDE last=null
   ---
-  duration_ms: 0.7697
+  duration_ms: 0.0387
   ...
 # Subtest: V5 expiry HIDE last=23
-ok 25 - V5 expiry HIDE last=23
+ok 33 - V5 expiry HIDE last=23
   ---
-  duration_ms: 0.2145
+  duration_ms: 0.0333
   ...
 # Subtest: V5 vote delta 0
-ok 26 - V5 vote delta 0
+ok 34 - V5 vote delta 0
   ---
-  duration_ms: 2.9198
+  duration_ms: 1.2579
   ...
 # Subtest: V5 vote delta 1
-ok 27 - V5 vote delta 1
+ok 35 - V5 vote delta 1
   ---
-  duration_ms: 0.2133
+  duration_ms: 0.0767
   ...
 # Subtest: V5 vote delta 2
-ok 28 - V5 vote delta 2
+ok 36 - V5 vote delta 2
   ---
-  duration_ms: 0.1701
+  duration_ms: 0.0493
   ...
 # Subtest: V5 vote delta 3
-ok 29 - V5 vote delta 3
+ok 37 - V5 vote delta 3
   ---
-  duration_ms: 0.1632
+  duration_ms: 0.0431
   ...
 # Subtest: V5 vote delta 4
-ok 30 - V5 vote delta 4
+ok 38 - V5 vote delta 4
   ---
-  duration_ms: 0.1479
+  duration_ms: 0.0378
   ...
 # Subtest: V5 outcome 0
-ok 31 - V5 outcome 0
+ok 39 - V5 outcome 0
   ---
-  duration_ms: 0.2805
+  duration_ms: 0.0839
   ...
 # Subtest: V5 outcome 1
-ok 32 - V5 outcome 1
+ok 40 - V5 outcome 1
   ---
-  duration_ms: 0.1209
+  duration_ms: 0.0344
   ...
 # Subtest: V5 outcome 2
-ok 33 - V5 outcome 2
+ok 41 - V5 outcome 2
   ---
-  duration_ms: 0.1176
+  duration_ms: 0.0309
   ...
 # Subtest: V5 outcome 3
-ok 34 - V5 outcome 3
+ok 42 - V5 outcome 3
   ---
-  duration_ms: 0.1192
+  duration_ms: 0.0294
   ...
 # Subtest: V5 outcome 4
-ok 35 - V5 outcome 4
+ok 43 - V5 outcome 4
   ---
-  duration_ms: 0.1219
+  duration_ms: 0.0309
   ...
 # Subtest: V5 outcome 5
-ok 36 - V5 outcome 5
+ok 44 - V5 outcome 5
   ---
-  duration_ms: 0.3507
+  duration_ms: 0.0291
   ...
 # Subtest: V5 outcome 6
-ok 37 - V5 outcome 6
+ok 45 - V5 outcome 6
   ---
-  duration_ms: 0.1253
+  duration_ms: 0.0517
   ...
 # Subtest: invalid counters/times and cap 100000
-ok 38 - invalid counters/times and cap 100000
+ok 46 - invalid counters/times and cap 100000
   ---
-  duration_ms: 1.1877
+  duration_ms: 0.3729
   ...
 # Subtest: continued real votes have unlimited cumulative age
-ok 39 - continued real votes have unlimited cumulative age
+ok 47 - continued real votes have unlimited cumulative age
   ---
-  duration_ms: 0.26
+  duration_ms: 0.061
   ...
 # Subtest: negative and enormous years retain exact differences without JS Date
-ok 40 - negative and enormous years retain exact differences without JS Date
+ok 48 - negative and enormous years retain exact differences without JS Date
   ---
-  duration_ms: 4.6572
+  duration_ms: 1.2932
   ...
 # Subtest: no invented month/year conversion or era offsets
-ok 41 - no invented month/year conversion or era offsets
+ok 49 - no invented month/year conversion or era offsets
   ---
-  duration_ms: 4.2464
+  duration_ms: 0.1739
   ...
 # Subtest: same time joins, approximate retains uncertainty, ranges have end
-ok 42 - same time joins, approximate retains uncertainty, ranges have end
+ok 50 - same time joins, approximate retains uncertainty, ranges have end
   ---
-  duration_ms: 60.2579
+  duration_ms: 11.0814
   ...
 # Subtest: relative resolves and recomputes after approved anchor change; hidden anchor stays unknown
-ok 43 - relative resolves and recomputes after approved anchor change; hidden anchor stays unknown
+ok 51 - relative resolves and recomputes after approved anchor change; hidden anchor stays unknown
   ---
-  duration_ms: 2.4434
+  duration_ms: 0.3018
   ...
 # Subtest: unquantified relative order is topological, not a fabricated coordinate
-ok 44 - unquantified relative order is topological, not a fabricated coordinate
+ok 52 - unquantified relative order is topological, not a fabricated coordinate
   ---
-  duration_ms: 0.975
+  duration_ms: 0.3205
   ...
 # Subtest: self and deep cycles rejected
-ok 45 - self and deep cycles rejected
+ok 53 - self and deep cycles rejected
   ---
-  duration_ms: 0.8406
+  duration_ms: 0.5077
   ...
 # Subtest: explicit calendar conversion supports offsets without assuming Earth
-ok 46 - explicit calendar conversion supports offsets without assuming Earth
+ok 54 - explicit calendar conversion supports offsets without assuming Earth
   ---
-  duration_ms: 0.6305
+  duration_ms: 0.2204
   ...
 # Subtest: 10,000 points layout/clustering bounded and zoom reverses clusters
-ok 47 - 10,000 points layout/clustering bounded and zoom reverses clusters
+ok 55 - 10,000 points layout/clustering bounded and zoom reverses clusters
   ---
-  duration_ms: 425.9654
+  duration_ms: 66.1608
   ...
 # Subtest: pixels never affect distance; unknown always says unknown
-ok 48 - pixels never affect distance; unknown always says unknown
+ok 56 - pixels never affect distance; unknown always says unknown
   ---
-  duration_ms: 7.2782
+  duration_ms: 0.5801
   ...
 # Subtest: server content validation bounds, precision, range, URLs, duplicate/cover media
-ok 49 - server content validation bounds, precision, range, URLs, duplicate/cover media
+ok 57 - server content validation bounds, precision, range, URLs, duplicate/cover media
   ---
-  duration_ms: 25.9458
+  duration_ms: 6.2255
   ...
 # Subtest: media magic bytes, decimal size boundary, spoof/SVG/PDF script rejected
-ok 50 - media magic bytes, decimal size boundary, spoof/SVG/PDF script rejected
+ok 58 - media magic bytes, decimal size boundary, spoof/SVG/PDF script rejected
   ---
-  duration_ms: 2.4111
+  duration_ms: 1.2658
   ...
 # Subtest: DOCX safe text extraction and bounded ZIP reject arbitrary archives
-ok 51 - DOCX safe text extraction and bounded ZIP reject arbitrary archives
+ok 59 - DOCX safe text extraction and bounded ZIP reject arbitrary archives
   ---
-  duration_ms: 22.7882
+  duration_ms: 4.6649
   ...
-1..51
-# tests 51
+1..59
+# tests 59
 # suites 0
-# pass 51
+# pass 59
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 17878.5579
+# duration_ms 1412.8889

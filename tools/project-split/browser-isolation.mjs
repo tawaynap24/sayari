@@ -25,7 +25,7 @@ try {
   const errors = [];
   timeline.on('pageerror', error => errors.push(error.message));
   await timeline.goto('http://127.0.0.1:5000');
-  await timeline.locator('.tl-brand').waitFor();
+  await timeline.locator('.tl-header .tl-actions').waitFor();
   await timeline.getByRole('link', { name: /เรื่องราวของชุมชน/ }).first().waitFor();
   assert.equal(await timeline.title(), 'Timeline');
   assert.doesNotMatch(await timeline.locator('body').innerText(), /sayari/i);

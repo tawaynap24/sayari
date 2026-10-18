@@ -1,9 +1,13 @@
 rules_version = '2';
 service firebase.storage {
   match /b/{bucket}/o {
+    function currentSession() {
+      return request.auth != null && request.auth.token.get('auth_time', null) is int
+        && firestore.get(/databases/(default)/documents/users/$(request.auth.uid)/authSessions/$(string(request.auth.token.auth_time))).data.expiresAt > request.time.toMillis();
+    }
     match /staging/{uid}/{draft}/{id} {
       function descriptor() { return firestore.get(/databases/(default)/documents/media/$(id)).data; }
-      allow create: if resource == null && request.auth != null && request.auth.uid == uid
+      allow create: if resource == null && currentSession() && request.auth.uid == uid
         && descriptor().ownerUid == uid && descriptor().draftId == draft && descriptor().status == 'staging'
         && request.resource.size > 0 && request.resource.size <= 5000000
         && request.resource.size == descriptor().sizeBytes

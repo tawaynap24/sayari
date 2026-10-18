@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { randomUUID } from "node:crypto";
 import { createRequire } from "node:module";
 import { execFileSync } from "node:child_process";
+import { cleanupTopicFixtures } from "./fixtures.mjs";
 import {
   initializeTestEnvironment,
   assertFails,
@@ -57,6 +58,7 @@ const env = await initializeTestEnvironment({
 });
 const results = [];
 let n = 0;
+const fixtureTopics = [];
 const runId = Date.now().toString(36);
 const actor = (i) => ({
   uid: `test_${runId}_u${i}`,
@@ -64,6 +66,10 @@ const actor = (i) => ({
   privileged: false,
 });
 const owner = actor(0);
+const mockAuthTime = Math.floor(Date.now() / 1000);
+await Promise.all([owner.uid, actor(1).uid, actor(99).uid].map(uid =>
+  db.doc(`users/${uid}/authSessions/${mockAuthTime}`).set({ expiresAt: Date.now() + 259200000 }),
+));
 const call = (a, action, data, operationId = randomUUID()) =>
   svc.run(a, { action, data, operationId });
 const content = (
@@ -82,6 +88,7 @@ const content = (
 });
 async function topic(count) {
   const id = `test_${runId}_${++n}`;
+  fixtureTopics.push(id);
   let batch = db.batch();
   batch.set(db.doc(`topics/${id}`), {
     id,
@@ -558,8 +565,8 @@ try {
       const t = await topic(50),
         a = await create(t),
         guest = env.unauthenticatedContext().firestore(),
-        member = env.authenticatedContext(actor(1).uid).firestore(),
-        stranger = env.authenticatedContext(actor(99).uid).firestore();
+        member = env.authenticatedContext(actor(1).uid, { auth_time: mockAuthTime }).firestore(),
+        stranger = env.authenticatedContext(actor(99).uid, { auth_time: mockAuthTime }).firestore();
       await assertSucceeds(getDoc(doc(guest, `topics/${t}`)));
       await assertFails(getDoc(doc(guest, `requests/${a.requestId}`)));
       await assertFails(getDoc(doc(stranger, `requests/${a.requestId}`)));
@@ -656,6 +663,11 @@ try {
       );
       assert.equal(signup.status, 200);
       const user = await signup.json();
+      const lease = await fetch(`http://127.0.0.1:5001/${projectId}/asia-southeast1/timelineSession`, {
+        method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${user.idToken}` },
+        body: JSON.stringify({ data: { action: "renew" } }),
+      });
+      assert.equal(lease.status, 200, await lease.text());
       const t = await topic(1);
       async function http(data, token = user.idToken) {
         const res = await fetch(
@@ -731,7 +743,7 @@ try {
         sizeBytes: image.length,
       });
       const store = env
-        .authenticatedContext(owner.uid)
+        .authenticatedContext(owner.uid, { auth_time: mockAuthTime })
         .storage("gs://demo-timeline.appspot.com");
       await assertSucceeds(
         uploadBytes(ref(store, prep.path), image, { contentType: "image/png" }),
@@ -915,7 +927,7 @@ try {
         id: mediaId, ownerUid: owner.uid, topicId: t, storyId: a.storyId,
         status: "ready", kind: "docx", docText: "Synthetic private document",
       });
-      const uploader = env.authenticatedContext(owner.uid).firestore();
+      const uploader = env.authenticatedContext(owner.uid, { auth_time: mockAuthTime }).firestore();
       await assertSucceeds(getDoc(doc(uploader, `media/${mediaId}`)));
       assert.equal((await readMedia(db, mediaId, owner.uid)).m.docText, "Synthetic private document");
       execFileSync(
@@ -933,7 +945,7 @@ try {
         ],
         { encoding: "utf8", timeout: 30000 },
       );
-      const member = env.authenticatedContext(actor(1).uid).firestore();
+      const member = env.authenticatedContext(actor(1).uid, { auth_time: mockAuthTime }).firestore();
       await assertFails(
         getDoc(doc(member, `stories/${a.storyId}/revisions/v1`)),
       );
@@ -959,8 +971,17 @@ try {
     },
   );
 } finally {
-  await env.cleanup();
-  await db.terminate();
+  try {
+    await env.cleanup();
+  } finally {
+    try {
+      const cleaned = await cleanupTopicFixtures(db, fixtureTopics, getStorage().bucket());
+      assert.equal(cleaned.length, fixtureTopics.length, "Every test topic must be cleaned");
+      console.log(`PASS cleaned ${cleaned.length} synthetic topic fixtures`);
+    } finally {
+      await db.terminate();
+    }
+  }
 }
 console.log(
   `${results.filter((r) => r.status === "PASS").length}/${results.length} emulator scenarios PASS`,

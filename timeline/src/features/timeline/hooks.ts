@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { onAuthStateChanged, type User } from "firebase/auth";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import {
   collection,
   doc,
@@ -13,19 +12,9 @@ import {
   type QueryConstraint,
   type QueryDocumentSnapshot,
 } from "firebase/firestore";
-import { auth, db, configured, errorText } from "./client";
+import { authSession, db, configured, errorText } from "./client";
 export function useAuth() {
-  const [user, setUser] = useState<User | null>(auth.currentUser);
-  const [ready, setReady] = useState(false);
-  useEffect(
-    () =>
-      onAuthStateChanged(auth, (u) => {
-        setUser(u);
-        setReady(true);
-      }),
-    [],
-  );
-  return { user, ready };
+  return useSyncExternalStore(authSession.subscribe, authSession.getSnapshot);
 }
 export function useDoc<T>(path: string | null) {
   const [state, setState] = useState<{

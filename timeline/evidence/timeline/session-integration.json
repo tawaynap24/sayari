@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-18T09:37:44.016Z",
+  "results": [
+    {
+      "name": "initial login receives three days and returning renews from server time",
+      "status": "PASS"
+    },
+    {
+      "name": "active rolling session survives beyond original authentication age",
+      "status": "PASS"
+    },
+    {
+      "name": "three idle days expire exactly and an old refreshed token cannot renew",
+      "status": "PASS"
+    },
+    {
+      "name": "Firestore and Storage grant fresh lease and reject expired lease or counter tampering",
+      "status": "PASS"
+    },
+    {
+      "name": "real callable requires lease bootstrap, renews it, and refuses revival after idle expiry",
+      "status": "PASS"
+    }
+  ]
+}

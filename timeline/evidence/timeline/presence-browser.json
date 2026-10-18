@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-18T09:42:27.635Z",
+  "baseline": {
+    "total": 2,
+    "signedIn": 1,
+    "updatedAt": 1792316425928
+  },
+  "results": [
+    {
+      "name": "guest appears in left header with zero signed-in delta",
+      "status": "PASS"
+    },
+    {
+      "name": "second tab shares one browser visitor",
+      "status": "PASS"
+    },
+    {
+      "name": "separate browser visitor updates all open tabs",
+      "status": "PASS"
+    },
+    {
+      "name": "login changes member count without increasing total",
+      "status": "PASS"
+    },
+    {
+      "name": "same account in another browser is counted once",
+      "status": "PASS"
+    },
+    {
+      "name": "last tab in one browser can close while another browser keeps account online",
+      "status": "PASS"
+    },
+    {
+      "name": "logout changes member to guest without changing total",
+      "status": "PASS"
+    },
+    {
+      "name": "offline state hides stale numbers and reconnect does not double count",
+      "status": "PASS"
+    },
+    {
+      "name": "desktop and mobile header fit without the old brand or footer",
+      "status": "PASS"
+    },
+    {
+      "name": "closing the final visitor removes its contribution",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}
