@@ -3,7 +3,6 @@ import fs from "node:fs/promises";
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
 import { randomUUID } from "node:crypto";
-import { zipSync, strToU8 } from "fflate";
 import { cleanupTopicFixtures } from "./fixtures.mjs";
 await fs.mkdir("evidence/timeline", { recursive: true });
 const require = createRequire(
@@ -25,6 +24,7 @@ const db = getFirestore(),
   svc = new TimelineService(db);
 const runId = Date.now().toString(36),
   topicId = `browser-${runId}`,
+  emptyTopicId = `browser-${runId}empty`,
   owner = {
     uid: `browser_owner_${runId}`,
     label: "ผู้เขียนทดสอบ",
@@ -132,6 +132,12 @@ try {
     publishedCount: 0,
   });
   await db.doc(`topicStats/${topicId}`).set({ interestCount: 49, graphVersion: 0 });
+  await db.doc(`topics/${emptyTopicId}`).set({
+    id: emptyTopicId, slug: emptyTopicId, categoryId: "test",
+    displayNames: { "th-TH": "หัวข้อทดสอบว่าง" }, descriptionTh: "SYNTHETIC — Emulator only",
+    calendar: { id: "browser-symbolic" }, publishedCount: 0,
+  });
+  await db.doc(`topicStats/${emptyTopicId}`).set({ interestCount: 0, graphVersion: 0 });
   const batch = db.batch();
   for (let i = 0; i < 49; i++)
     batch.set(db.doc(`topics/${topicId}/interests/${act(i).uid}`), {
@@ -246,6 +252,7 @@ try {
         .getByLabel("อีเมล", { exact: true })
         .fill(`member-${runId}@example.test`);
       await d.getByLabel("รหัสผ่าน", { exact: true }).fill(password);
+      await d.getByLabel("ยืนยันรหัสผ่าน", { exact: true }).fill(password);
       await d.getByRole("button", { name: "สมัครสมาชิก", exact: true }).click();
       await d.waitFor({ state: "hidden" });
       await page
@@ -281,7 +288,7 @@ try {
     },
   );
   await run(
-    "form uploads image/PDF/DOCX, aliases/sources and creates pending at50",
+    "form uploads image/PDF, aliases/sources and creates pending at50",
     async () => {
       await page
         .getByRole("button", { name: "＋ เพิ่มเรื่องราว", exact: true })
@@ -313,9 +320,35 @@ try {
       await d
         .getByLabel("ชื่อแหล่งอ้างอิง", { exact: true })
         .fill("แหล่งทดสอบ");
-      await d
+      const sources = d.getByRole("group", { name: "แหล่งอ้างอิง", exact: true });
+      const firstSource = sources.locator(".tl-attachment").first();
+      assert.deepEqual(await firstSource.locator("option").allTextContents(), ["เนื้อเรื่องหลัก", "เนื้อเรื่องตัวละคร", "เควสย่อย", "วิดีโอ", "อื่นๆ"]);
+      for (const name of ["บท", "ภารกิจ", "เวอร์ชัน", "หมายเหตุ"]) await absent(sources.getByLabel(name, { exact: true }));
+      for (const kind of ["main_story", "character_story", "side_quest"]) {
+        await firstSource.getByLabel("ประเภทแหล่งอ้างอิง", { exact: true }).selectOption(kind);
+        await absent(firstSource.getByLabel("URL แหล่งอ้างอิง", { exact: true }));
+        await absent(firstSource.getByLabel("นาทีที่", { exact: true }));
+        await absent(firstSource.getByLabel("แหล่งอ้างอิงมาจากไหน", { exact: true }));
+      }
+      await firstSource.getByLabel("ประเภทแหล่งอ้างอิง", { exact: true }).selectOption("video");
+      await firstSource
         .getByLabel("URL แหล่งอ้างอิง", { exact: true })
         .fill("https://example.com/reference");
+      await firstSource.getByLabel("นาทีที่", { exact: true }).fill("12:30");
+      await firstSource.getByLabel("ประเภทแหล่งอ้างอิง", { exact: true }).selectOption("side_quest");
+      await absent(firstSource.getByLabel("URL แหล่งอ้างอิง", { exact: true }));
+      await firstSource.getByLabel("ประเภทแหล่งอ้างอิง", { exact: true }).selectOption("video");
+      assert.equal(await firstSource.getByLabel("URL แหล่งอ้างอิง", { exact: true }).inputValue(), "https://example.com/reference");
+      await sources.getByRole("button", { name: "เพิ่มแหล่งอ้างอิง", exact: true }).click();
+      const otherSource = sources.locator(".tl-attachment").nth(1);
+      await otherSource.getByLabel("ประเภทแหล่งอ้างอิง", { exact: true }).selectOption("other");
+      await otherSource.getByLabel("ชื่อแหล่งอ้างอิง", { exact: true }).fill("หลักฐานชุมชน");
+      assert.equal(await otherSource.getByLabel("แหล่งอ้างอิงมาจากไหน", { exact: true }).evaluate(input => input.checkValidity()), false);
+      await otherSource.getByLabel("แหล่งอ้างอิงมาจากไหน", { exact: true }).fill("หนังสือรวมเรื่องราว");
+      await absent(otherSource.getByLabel("URL แหล่งอ้างอิง", { exact: true }));
+      await absent(otherSource.getByLabel("นาทีที่", { exact: true }));
+      await sources.scrollIntoViewIfNeeded();
+      await page.screenshot({ path: "evidence/timeline/reference-fields.png", fullPage: true });
       const png = Buffer.from(
         "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aF7sAAAAASUVORK5CYII=",
         "base64",
@@ -323,27 +356,13 @@ try {
       const pdf = Buffer.from(
         "%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj\n2 0 obj<</Type/Pages/Kids[3 0 R]/Count 1>>endobj\n3 0 obj<</Type/Page/Parent 2 0 R/MediaBox[0 0 200 200]>>endobj\ntrailer<</Root 1 0 R>>\n%%EOF",
       );
-      const docx = Buffer.from(
-        zipSync({
-          "[Content_Types].xml": strToU8("<Types/>"),
-          "word/document.xml": strToU8(
-            "<w:document><w:p><w:t>DOCX SYNTHETIC TEST &lt;script&gt;escaped&lt;/script&gt;</w:t></w:p></w:document>",
-          ),
-        }),
-      );
       await d.locator("input[type=file]").setInputFiles([
         { name: "fixture.png", mimeType: "image/png", buffer: png },
         { name: "fixture.pdf", mimeType: "application/pdf", buffer: pdf },
-        {
-          name: "fixture.docx",
-          mimeType:
-            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-          buffer: docx,
-        },
       ]);
       await d
         .getByLabel("คำอธิบายภาพ / ชื่อสื่อ")
-        .nth(2)
+        .nth(1)
         .waitFor({ timeout: 60000 });
       await d
         .getByRole("checkbox", { name: "ใช้เป็นภาพปก", exact: true })
@@ -358,7 +377,11 @@ try {
       assert.equal(rs.size, 1);
       pendingId = rs.docs[0].id;
       assert.equal(rs.docs[0].get("requiredVotes"), 5);
-      assert.equal(rs.docs[0].get("proposal.media").length, 3);
+      assert.equal(rs.docs[0].get("proposal.media").length, 2);
+      assert.deepEqual(rs.docs[0].get("proposal.sources").map(source => ({ kind: source.kind, originTh: source.originTh, url: source.url, timestampInVideo: source.timestampInVideo })), [
+        { kind: "video", originTh: undefined, url: "https://example.com/reference", timestampInVideo: "12:30" },
+        { kind: "other", originTh: "หนังสือรวมเรื่องราว", url: undefined, timestampInVideo: undefined },
+      ]);
       assert.equal(await page.getByRole("switch").isChecked(), false);
       await absent(
         page.getByRole("button", { name: /คำขอเพิ่ม: เรื่องใหม่จาก Browser/ }),
@@ -366,7 +389,7 @@ try {
     },
   );
   await run(
-    "overlay ghost opens proposal; self vote blocked; PDF/DOCX inline with no download",
+    "overlay ghost opens proposal; self vote blocked; PDF inline with no download",
     async () => {
       await page.getByRole("switch").check();
       const ghost = page.getByRole("button", {
@@ -380,16 +403,8 @@ try {
         .getByRole("button", { name: "เปิด PDF ในหน้านี้", exact: true })
         .click();
       await page.locator('canvas[data-rendered="true"]').waitFor();
-      await page
-        .getByRole("button", { name: "เปิด DOCX ในหน้านี้", exact: true })
-        .click();
-      await page
-        .getByText("DOCX SYNTHETIC TEST <script>escaped</script>", {
-          exact: true,
-        })
-        .waitFor();
       assert.equal(downloads.length, 0);
-      await capture("inline-pdf-docx");
+      await capture("inline-pdf");
       await close();
     },
   );
@@ -419,11 +434,13 @@ try {
         await d.getByLabel("ชื่อเรื่อง", { exact: true }).inputValue(),
         "เรื่องใหม่จาก Browser",
       );
-      assert.equal(await d.getByLabel("คำอธิบายภาพ / ชื่อสื่อ").count(), 3);
+      assert.equal(await d.getByLabel("คำอธิบายภาพ / ชื่อสื่อ").count(), 2);
       assert.equal(
-        await d.getByLabel("ชื่อแหล่งอ้างอิง", { exact: true }).inputValue(),
+        await d.getByLabel("ชื่อแหล่งอ้างอิง", { exact: true }).first().inputValue(),
         "แหล่งทดสอบ",
       );
+      assert.equal(await d.getByLabel("แหล่งอ้างอิงมาจากไหน", { exact: true }).inputValue(), "หนังสือรวมเรื่องราว");
+      assert.equal(await d.getByLabel("นาทีที่", { exact: true }).inputValue(), "12:30");
       await d
         .getByLabel("ชื่อเรื่อง", { exact: true })
         .fill("เรื่องใหม่แก้ไขแล้ว");
@@ -516,7 +533,7 @@ try {
         await d.getByLabel("ชื่อเรื่อง", { exact: true }).inputValue(),
         s.titleTh,
       );
-      assert.equal(await d.getByLabel("คำอธิบายภาพ / ชื่อสื่อ").count(), 3);
+      assert.equal(await d.getByLabel("คำอธิบายภาพ / ชื่อสื่อ").count(), 2);
       await d
         .getByLabel("ชื่อเรื่อง", { exact: true })
         .fill("เวอร์ชันสองจาก UI");
@@ -593,7 +610,7 @@ try {
           buffer: Buffer.alloc(5_000_001),
         });
       await d
-        .getByText("รองรับภาพ PDF และ DOCX ขนาดไม่เกิน 5 MB ต่อไฟล์", {
+        .getByText("รองรับภาพและ PDF ขนาดไม่เกิน 5 MB ต่อไฟล์", {
           exact: true,
         })
         .waitFor();
@@ -668,11 +685,11 @@ try {
         path: "evidence/timeline/mobile.png",
         fullPage: true,
       });
-      await page.goto(`${origin}/timeline/community`);
+      await page.goto(`${origin}/timeline/${emptyTopicId}`);
       await present("ยังไม่มีเรื่องราวที่เผยแพร่");
       assert.equal(await page.locator(".tl-marker").count(), 0);
       const response = await fetch(
-        "http://127.0.0.1:5000/timeline/community/story/no-such-story",
+        `http://127.0.0.1:5000/timeline/${emptyTopicId}/story/no-such-story`,
       );
       assert.equal(response.status, 200);
       assert.ok((await response.text()).includes('id="root"'));
@@ -753,8 +770,9 @@ try {
     await browser.close();
   } finally {
     try {
-      await cleanupTopicFixtures(db, [topicId], getStorage().bucket());
+      await cleanupTopicFixtures(db, [topicId, emptyTopicId], getStorage().bucket());
       assert.equal((await db.doc(`topics/${topicId}`).get()).exists, false);
+      assert.equal((await db.doc(`topics/${emptyTopicId}`).get()).exists, false);
       console.log("PASS cleaned browser topic fixture");
     } finally {
       await db.terminate();

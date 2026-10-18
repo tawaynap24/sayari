@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Link,
   Route,
@@ -8,7 +8,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { signOut, type User } from "firebase/auth";
-import { api, auth, configured, errorText } from "./client";
+import { api, auth, db, configured, errorText } from "./client";
 import { useAuth, useCollection, useDoc, usePages } from "./hooks";
 import type { Entity, Request, Revision, Topic } from "./types";
 import AuthPanel from "./AuthPanel";
@@ -18,20 +18,19 @@ import ReasonForm from "./ReasonForm";
 import StoryCard from "./StoryCard";
 import TimelineCanvas, { type CanvasNode } from "./TimelineCanvas";
 import OnlinePresence from "./OnlinePresence";
+import gameCatalog from "./gameCatalog.json";
+import { useGameCovers } from "./useGameCovers";
+import { formatTimelineDate } from "./dateFormat";
+import GameArtwork from "./GameArtwork";
+import { useTopicInterest } from "./useTopicInterest";
+import { latestDraft } from "./drafts";
 import "./style.css";
-interface Category {
-  id: string;
-  displayNameTh: string;
-  order: number;
-}
-function Explorer({
-  topics,
-  categories,
-}: {
-  topics: Topic[];
-  categories: Category[];
-}) {
-  const [category, setCategory] = useState("all");
+function Explorer({ topics }: { topics: Topic[] }) {
+  const covers = useGameCovers();
+  const games = gameCatalog.flatMap(game => {
+    const topic = topics.find(t => t.id === game.id);
+    return topic ? [{ ...game, topic }] : [];
+  });
   return (
     <>
       <section className="tl-hero">
@@ -47,49 +46,40 @@ function Explorer({
           แล้วช่วยกันเรียงเรื่องราวให้เข้าใจง่ายขึ้น
         </p>
       </section>
-      <nav className="tl-categories" aria-label="หมวดหมู่">
-        <button
-          aria-pressed={category === "all"}
-          onClick={() => setCategory("all")}
-        >
-          ทุกหมวด
-        </button>
-        {categories
-          .sort((a, b) => a.order - b.order)
-          .map((c) => (
-            <button
-              key={c.id}
-              aria-pressed={category === c.id}
-              onClick={() => setCategory(c.id)}
-            >
-              {c.displayNameTh}
-            </button>
-          ))}
-      </nav>
-      <div className="tl-topics">
-        {topics
-          .filter((t) => category === "all" || t.categoryId === category)
-          .map((t, i) => (
+      <div className="tl-topics" aria-label="เลือกเกม">
+        {games.map((game, i) => (
             <Link
               className="tl-topic-card"
-              to={`/timeline/${t.slug}`}
-              key={t.id}
+              to={`/timeline/${game.topic.slug}`}
+              key={game.id}
+              aria-label={game.name}
             >
+              <GameArtwork url={covers[game.id]?.url} eager={i < 2} />
               <span className="tl-topic-number">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <div>
-                <p className="tl-eyebrow">
-                  {categories.find((c) => c.id === t.categoryId)?.displayNameTh}
-                </p>
-                <h2>{t.displayNames["th-TH"]}</h2>
-                <p>{t.descriptionTh}</p>
+              <div className="tl-topic-label">
+                <p className="tl-eyebrow">{game.publisher}</p>
+                <h2>{game.name}</h2>
+                <div className="tl-topic-metadata">
+                  <dl className="tl-topic-metadata-row tl-topic-patch-row">
+                  <div><dt>แพตช์ปัจจุบัน</dt><dd>{covers[game.id]?.version || "กำลังตรวจสอบ"}</dd></div>
+                  <div><dt>อัปเดตแพตช์</dt><dd>{covers[game.id]?.patchUpdatedAt
+                    ? <time dateTime={new Date(covers[game.id].patchUpdatedAt).toISOString()} title="เวลาเริ่มอัปเดตตามประกาศทางการ · เวลาไทย">{formatTimelineDate(covers[game.id].patchUpdatedAt)}</time>
+                    : "กำลังตรวจสอบ"}</dd></div>
+                  </dl>
+                  <dl className="tl-topic-metadata-row tl-topic-community-row">
+                  <div className="tl-topic-interest-count"><dt>ผู้สนใจ</dt><dd>{game.topic.interestCount === undefined ? "…" : game.topic.interestCount.toLocaleString("th-TH")} คน</dd></div>
+                  {!!game.topic.timelineUpdatedAt && <div className="tl-topic-timeline-updated"><dt>Timeline อัปเดตล่าสุด</dt><dd>
+                    <time dateTime={new Date(game.topic.timelineUpdatedAt).toISOString()}>{formatTimelineDate(game.topic.timelineUpdatedAt)}</time>
+                  </dd></div>}
+                  </dl>
+                </div>
               </div>
-              <span className="tl-topic-arrow">↗</span>
             </Link>
           ))}
       </div>
-      {!topics.length && <p className="tl-notice">ยังไม่มีหัวข้อในระบบ</p>}
+      {!games.length && <p className="tl-notice">ยังไม่มีเกมในระบบ</p>}
     </>
   );
 }
@@ -104,9 +94,8 @@ function TopicPage({
 }) {
   const { topicSlug } = useParams();
   const topic = topics.find((t) => t.slug === topicSlug);
-  const membership = useDoc<{ uid: string }>(
-    user && topic ? `topics/${topic.id}/interests/${user.uid}` : null,
-  );
+  const covers = useGameCovers();
+  const membership = useTopicInterest(topic?.id, user);
   const [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   if (!topic)
@@ -119,13 +108,12 @@ function TopicPage({
         <span>{topic.displayNames["th-TH"]}</span>
       </nav>
       <section className="tl-topic-hero">
-        <p className="tl-eyebrow">COMMUNITY TIMELINE</p>
+        <GameArtwork url={covers[topic.id]?.url} eager />
         <h1>{topic.displayNames["th-TH"]}</h1>
-        <p className="tl-muted">{topic.descriptionTh}</p>
       </section>
       {!authReady || (user && !membership.ready) ? (
         <p role="status">กำลังตรวจสอบบัญชี…</p>
-      ) : user && !membership.value ? (
+      ) : user && !membership.followed ? (
         <section className="tl-follow-gate">
           <span className="tl-orbit">＋</span>
           <h2>ร่วมติดตามเรื่องราวในหัวข้อนี้</h2>
@@ -176,7 +164,7 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
   const [form, setForm] = useState<{
       base?: Revision;
       request?: Request;
-    } | null>(null),
+    } | null>(() => user ? latestDraft(db.app.options.projectId || "timeline", user.uid, topic.id)?.context ?? null : null),
     [reason, setReason] = useState<{
       story: Revision;
       action: "proposeHide" | "reportStory" | "privilegedHide";
@@ -214,6 +202,9 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
         time: s.time,
         addedAt: s.addedAt,
         titleTh: s.titleTh,
+        authorLabel: s.authorLabel,
+        editorLabel: s.editorLabel,
+        revisionNumber: s.revisionNumber,
       })),
       ...(overlay
         ? pending.items
@@ -223,6 +214,7 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
               time: r.proposal!.time,
               addedAt: r.submittedAt,
               titleTh: r.proposal!.titleTh,
+              authorLabel: r.authorLabel,
               ghost: true,
               requestId: r.id,
             }))
@@ -349,7 +341,7 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
           {overlay && pending.more && (
             <button onClick={pending.loadMore}>โหลดตำแหน่งคำขอเพิ่มเติม</button>
           )}
-          <div className="tl-story-toolbar">
+          {(user || selected) && <div className="tl-story-toolbar">
             {user && (
               <button className="tl-primary" onClick={() => setForm({})}>
                 ＋ เพิ่มเรื่องราว
@@ -360,10 +352,7 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
                 แสดงทุกเรื่องราว
               </button>
             )}
-            <span className="tl-muted">
-              {displayed.length} เรื่องราวที่โหลดแล้ว
-            </span>
-          </div>
+          </div>}
           {notice && (
             <p role="status" className="tl-notice">
               {notice}
@@ -414,6 +403,8 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
       )}
       {form && user && (
         <ContentForm
+          key={`${user.uid}:${topic.id}:${form.request?.id || form.base?.storyId || "create"}`}
+          userId={user.uid}
           topic={topic}
           anchors={stories.items}
           {...form}
@@ -442,13 +433,22 @@ function TopicContent({ topic, user }: { topic: Topic; user: User | null }) {
   );
 }
 export default function TimelineApp() {
+  const headerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+    const measure = () => header.parentElement?.style.setProperty("--tl-header-height", `${header.offsetHeight}px`);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
   const { user, ready } = useAuth();
   const [login, setLogin] = useState(false);
-  const topics = useCollection<Topic>(configured ? "topics" : null),
-    categories = useCollection<Category>(configured ? "categories" : null);
+  const topics = useCollection<Topic>(configured ? "topics" : null);
   return (
     <main className="tl">
-      <header className="tl-header">
+      <header className="tl-header" ref={headerRef}>
         <OnlinePresence user={user} authReady={ready} />
         <nav className="tl-actions">
           <Link to="/">หน้าแรก</Link>
@@ -477,9 +477,9 @@ export default function TimelineApp() {
         </section>
       ) : (
         <>
-          {(topics.error || categories.error) && (
+          {topics.error && (
             <p className="tl-error" role="alert">
-              {topics.error || categories.error}
+              {topics.error}
               <button onClick={() => window.location.reload()}>ลองใหม่</button>
             </p>
           )}
@@ -492,7 +492,6 @@ export default function TimelineApp() {
                 element={
                   <Explorer
                     topics={topics.items}
-                    categories={categories.items}
                   />
                 }
               />

@@ -1,0 +1,7 @@
+[
+  { "id": "genshin-impact", "name": "Genshin Impact", "position": "center", "publisher": "HoYoverse" },
+  { "id": "honkai-star-rail", "name": "Honkai: Star Rail", "position": "center", "publisher": "HoYoverse" },
+  { "id": "zenless-zone-zero", "name": "Zenless Zone Zero", "position": "center", "publisher": "HoYoverse" },
+  { "id": "wuthering-waves", "name": "Wuthering Waves", "position": "center", "publisher": "KURO GAMES" },
+  { "id": "arknights-endfield", "name": "Arknights: Endfield", "position": "50% 30%", "publisher": "GRYPHLINE" }
+]

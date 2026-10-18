@@ -5,10 +5,12 @@ import { getStorage } from "firebase-admin/storage";
 import { onCall, onRequest, HttpsError } from "firebase-functions/v2/https";
 import { onSchedule } from "firebase-functions/v2/scheduler";
 import { logger } from "firebase-functions";
-import { ZodError } from "zod";
+import { z, ZodError } from "zod";
 import { TimelineService } from "./service";
 import { PresenceService } from "./presence";
 import { SessionService } from "./session";
+import { GameCoverService } from "./gameCovers";
+import { idSchema } from "./domain/validation";
 import {
   cleanupOrphans,
   finalizeUpload,
@@ -20,7 +22,29 @@ const db = getFirestore();
 const service = new TimelineService(db);
 const presence = new PresenceService(db);
 const sessions = new SessionService(db);
+const gameCovers = new GameCoverService(db);
 const region = "asia-southeast1";
+export const timelineGameCovers = onRequest(
+  { region, cors: true, maxInstances: 3, timeoutSeconds: 60 },
+  async (req, res) => {
+    if (req.method !== "GET") { res.status(405).end(); return; }
+    try {
+      const result = await gameCovers.current();
+      res.set("Cache-Control", "public, max-age=30");
+      res.json(result);
+    } catch {
+      res.set("Cache-Control", "no-store");
+      res.status(503).json({ error: "ยังไม่สามารถอัปเดตภาพปกได้" });
+    }
+  },
+);
+export const refreshTimelineGameCovers = onSchedule(
+  { region, schedule: "every 15 minutes", timeZone: "UTC", maxInstances: 1 },
+  async () => {
+    const result = await gameCovers.current();
+    logger.info("timeline cover refresh", { covers: Object.keys(result.covers).length, failedProviders: result.failedProviders });
+  },
+);
 export const timelineSession = onCall(
   { region, enforceAppCheck: process.env.TIMELINE_ENFORCE_APP_CHECK === "true", maxInstances: 10 },
   async req => {
@@ -49,6 +73,24 @@ export const timelinePresence = onCall(
 export const expireTimelinePresence = onSchedule(
   { region, schedule: "* * * * *", timeZone: "UTC", maxInstances: 1 },
   async () => { logger.info("timeline presence expiry", { expired: await presence.expireStale() }); },
+);
+export const timelineTopicActivity = onCall(
+  { region, enforceAppCheck: process.env.TIMELINE_ENFORCE_APP_CHECK === "true", maxInstances: 10 },
+  async req => {
+    if (!req.auth || req.auth.token.firebase?.sign_in_provider === "anonymous")
+      throw new HttpsError("unauthenticated", "กรุณาเข้าสู่ระบบ");
+    await sessions.require({ uid: req.auth.uid, auth_time: req.auth.token.auth_time });
+    const parsed = z.object({ topicId: idSchema }).strict().safeParse(req.data);
+    if (!parsed.success) throw new HttpsError("invalid-argument", "ข้อมูลหัวข้อไม่ถูกต้อง");
+    return service.interests.visit(req.auth.uid, parsed.data.topicId);
+  },
+);
+export const expireTimelineInterests = onSchedule(
+  { region, schedule: "every 5 minutes", timeZone: "UTC", maxInstances: 1 },
+  async () => {
+    const migration = await service.interests.migrateLegacyPage();
+    logger.info("timeline interest expiry", { ...migration, removed: await service.interests.expireStale() });
+  },
 );
 export const timelineApi = onCall(
   {

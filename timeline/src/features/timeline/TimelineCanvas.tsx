@@ -8,7 +8,11 @@ import {
   type Request,
 } from "./types";
 import type { TimeNode } from "../../../functions/src/domain/time";
+import StoryAttribution from "./StoryAttribution";
 export interface CanvasNode extends TimeNode {
+  authorLabel: string;
+  editorLabel?: string;
+  revisionNumber?: number;
   ghost?: boolean;
   requestId?: string;
 }
@@ -117,30 +121,12 @@ export default function TimelineCanvas({
             ระยะตามเวลา
           </button>
         </div>
-        <div className="tl-actions">
-          <button aria-label="ซูมออก" onClick={() => zoomAt(0.65)}>
-            −
-          </button>
-          <button aria-label="ซูมเข้า" onClick={() => zoomAt(1.5)}>
-            ＋
-          </button>
-          <button
-            onClick={() =>
-              setCamera({
-                zoom: Math.min(1, (width - 100) / (max + 60)),
-                pan: 30,
-              })
-            }
-          >
-            พอดีจอ
-          </button>
-        </div>
       </div>
       <p className="tl-muted tl-axis-legend">
         {mode === "equal"
           ? "จัดระยะเท่ากันเพื่ออ่านง่าย"
           : "สัดส่วนเวลาที่เปรียบเทียบได้ · ปรับระยะขั้นต่ำเพื่ออ่านง่าย"}{" "}
-        · ลากหรือเลื่อนเพื่อดู · Ctrl + เลื่อนเพื่อซูม
+        · ลากหรือเลื่อนเพื่อดู
       </p>
       <div
         ref={root}
@@ -198,7 +184,6 @@ export default function TimelineCanvas({
         onPointerCancel={(e) => pointers.current.delete(e.pointerId)}
       >
         <div className="tl-axis-line" />
-        <span className="tl-axis-caption">เวลาของเรื่องราว →</span>
         {!nodes.length && (
           <p className="tl-axis-empty">ยังไม่มีเรื่องราวที่เผยแพร่</p>
         )}
@@ -284,6 +269,26 @@ export default function TimelineCanvas({
           );
         })}
       </div>
+      {nodes.some((node) => !node.ghost) && (
+        <div className="tl-actions tl-axis-controls" role="group" aria-label="ปรับมุมมองเส้นเวลา">
+          <button aria-label="ซูมออก" onClick={() => zoomAt(0.65)}>
+            −
+          </button>
+          <button aria-label="ซูมเข้า" onClick={() => zoomAt(1.5)}>
+            ＋
+          </button>
+          <button
+            onClick={() =>
+              setCamera({
+                zoom: Math.min(1, (width - 100) / (max + 60)),
+                pan: 30,
+              })
+            }
+          >
+            พอดีจอ
+          </button>
+        </div>
+      )}
       {hover && (
         <aside className="tl-tooltip" role="status">
           <strong>เรื่องราวล่าสุด ณ จุดนี้</strong>
@@ -292,6 +297,17 @@ export default function TimelineCanvas({
               <li key={n.id}>
                 {n.titleTh}
                 {n.ghost ? " · รออนุมัติ" : ""}
+                {n.ghost ? (
+                  <p className="tl-story-attribution">
+                    <span>ผู้เสนอ <strong>{n.authorLabel?.trim() || "ไม่ระบุชื่อ"}</strong></span>
+                  </p>
+                ) : (
+                  <StoryAttribution
+                    authorLabel={n.authorLabel}
+                    editorLabel={n.editorLabel}
+                    revisionNumber={n.revisionNumber}
+                  />
+                )}
               </li>
             ))}
           </ul>

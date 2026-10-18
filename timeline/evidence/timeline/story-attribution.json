@@ -1,0 +1,40 @@
+{
+  "projectId": "demo-timeline",
+  "runId": "mvdwy7ri",
+  "results": [
+    {
+      "name": "guest sees original contributor on first publication; no fake edit or rendered HTML",
+      "status": "PASS"
+    },
+    {
+      "name": "pending edit preserves the published contributor without exposing a pending editor as latest",
+      "status": "PASS"
+    },
+    {
+      "name": "real vote approval updates public latest editor while preserving the original contributor",
+      "status": "PASS"
+    },
+    {
+      "name": "guest Timeline marker preview shows contributor and approved editor",
+      "status": "PASS"
+    },
+    {
+      "name": "subsequent approval replaces only the latest editor credit in realtime",
+      "status": "PASS"
+    },
+    {
+      "name": "guest deep link and revision history retain attribution for every published version",
+      "status": "PASS"
+    },
+    {
+      "name": "long Thai contributor names wrap on desktop, 390px and 320px without page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "guest attribution requires no private profile or membership query; no uncaught page errors",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "cleanedFixture": "browser-mvdwy7ricredits"
+}

@@ -60,7 +60,7 @@ export const appCheck = !emulated && env.VITE_FIREBASE_APPCHECK_SITE_KEY
 export async function api<T = Record<string, unknown>>(
   action: string,
   data: unknown,
-  operationId = crypto.randomUUID(),
+  operationId: string = crypto.randomUUID(),
 ): Promise<T> {
   const fn = httpsCallable(functions, "timelineApi");
   return (await fn({ action, data, operationId })).data as T;
@@ -71,10 +71,16 @@ export const mediaEndpoint = emulated
 export const presenceEndpoint = emulated
   ? "http://127.0.0.1:5001/demo-timeline/asia-southeast1/timelinePresence"
   : `https://asia-southeast1-${projectId}.cloudfunctions.net/timelinePresence`;
+export const gameCoversEndpoint = emulated
+  ? "http://127.0.0.1:5001/demo-timeline/asia-southeast1/timelineGameCovers"
+  : `https://asia-southeast1-${projectId}.cloudfunctions.net/timelineGameCovers`;
 export function errorText(error: unknown): string {
   const e = error as { code?: string; message?: string };
   const messages: Record<string, string> = {
     "auth/invalid-credential": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "auth/user-not-found": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "auth/wrong-password": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "auth/invalid-login-credentials": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
     "auth/email-already-in-use": "อีเมลนี้มีบัญชีแล้ว",
     "auth/invalid-email": "รูปแบบอีเมลไม่ถูกต้อง",
     "auth/weak-password": "รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร",

@@ -26,7 +26,7 @@ try {
   timeline.on('pageerror', error => errors.push(error.message));
   await timeline.goto('http://127.0.0.1:5000');
   await timeline.locator('.tl-header .tl-actions').waitFor();
-  await timeline.getByRole('link', { name: /เรื่องราวของชุมชน/ }).first().waitFor();
+  await timeline.getByRole('link', { name: 'Genshin Impact', exact: true }).waitFor();
   assert.equal(await timeline.title(), 'Timeline');
   assert.doesNotMatch(await timeline.locator('body').innerText(), /sayari/i);
   assert.equal(await timeline.locator('.zzz-settings-button').count(), 0);

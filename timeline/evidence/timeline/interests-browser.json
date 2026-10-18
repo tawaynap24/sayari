@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-18T12:40:14.956Z",
+  "results": [
+    {
+      "name": "visiting a non-followed topic never auto-enrolls; explicit confirmation creates a seven-day lease",
+      "status": "PASS"
+    },
+    {
+      "name": "returning to one topic renews it without renewing the other selected topic",
+      "status": "PASS"
+    },
+    {
+      "name": "background topic tabs send no renewal on timer or focus; returning to visibility resumes renewal",
+      "status": "PASS"
+    },
+    {
+      "name": "expiry unmounts member controls; returning after expiry requires explicit interest confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "sweeping a different inactive topic updates its public card live without changing Timeline content time",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "activityCalls": [
+    {
+      "topicId": "browser-mvdtauyra"
+    },
+    {
+      "topicId": "browser-mvdtauyrb"
+    },
+    {
+      "topicId": "browser-mvdtauyra"
+    },
+    {
+      "topicId": "browser-mvdtauyra"
+    },
+    {
+      "topicId": "browser-mvdtauyra"
+    },
+    {
+      "topicId": "browser-mvdtauyra"
+    }
+  ]
+}

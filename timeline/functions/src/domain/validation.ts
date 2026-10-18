@@ -185,6 +185,9 @@ export const contentSchema: z.ZodType<Content> = z
           .object({
             id: idSchema,
             kind: z.enum([
+              "main_story",
+              "character_story",
+              "side_quest",
               "in_game_quest",
               "dialogue",
               "item",
@@ -194,6 +197,7 @@ export const contentSchema: z.ZodType<Content> = z
               "other",
             ]),
             title: text(300).min(1),
+            originTh: text(1000).optional(),
             url: url.optional(),
             chapter: text(300).optional(),
             quest: text(300).optional(),
@@ -201,7 +205,11 @@ export const contentSchema: z.ZodType<Content> = z
             timestampInVideo: text(100).optional(),
             noteTh: text(1000).optional(),
           })
-          .strict(),
+          .strict()
+          .superRefine((source, ctx) => {
+            if (source.kind === "other" && !source.originTh)
+              ctx.addIssue({ code: "custom", path: ["originTh"], message: "กรุณาระบุว่าแหล่งอ้างอิงมาจากไหน" });
+          }),
       )
       .max(30),
     media: z

@@ -1,72 +1,72 @@
 {
-  "runId": "mvdno5ay",
-  "topicId": "browser-mvdno5ay",
+  "runId": "mvdus4ce",
+  "topicId": "browser-mvdus4ce",
   "origin": "http://127.0.0.1:5174",
   "results": [
     {
       "name": "guest deep link: public content, no follow count/write/request query",
       "status": "PASS",
-      "ms": 700
+      "ms": 2015
     },
     {
       "name": "same-time grouping, newest3+N preview and marker selects every story",
       "status": "PASS",
-      "ms": 1455
+      "ms": 1733
     },
     {
       "name": "equal/time modes, keyboard pan, zoom/clusters and fit",
       "status": "PASS",
-      "ms": 1087
+      "ms": 1074
     },
     {
       "name": "real registration gates signed nonfollower, explicit follow persists",
       "status": "PASS",
-      "ms": 5900
+      "ms": 8028
     },
     {
-      "name": "form uploads image/PDF/DOCX, aliases/sources and creates pending at50",
+      "name": "form uploads image/PDF, aliases/sources and creates pending at50",
       "status": "PASS",
-      "ms": 2229
+      "ms": 5631
     },
     {
-      "name": "overlay ghost opens proposal; self vote blocked; PDF/DOCX inline with no download",
+      "name": "overlay ghost opens proposal; self vote blocked; PDF inline with no download",
       "status": "PASS",
-      "ms": 4980
+      "ms": 3870
     },
     {
       "name": "pending edit prefilled all fields resets actual old votes and requires confirmation",
       "status": "PASS",
-      "ms": 903
+      "ms": 1650
     },
     {
       "name": "different account real UI yes/no switch then approval publishes",
       "status": "PASS",
-      "ms": 1563
+      "ms": 7714
     },
     {
       "name": "published edit/hide badge toggles, full prefill, public version history and hide",
       "status": "PASS",
-      "ms": 2202
+      "ms": 10104
     },
     {
       "name": "request hub cursor pagination, type filters, own cancellation and client upload cap",
       "status": "PASS",
-      "ms": 5127
+      "ms": 5501
     },
     {
       "name": "mobile viewport, empty topic and deep-link Hosting rewrite",
       "status": "PASS",
-      "ms": 1468
+      "ms": 2890
     },
     {
       "name": "real touch tap/pan/pinch and keyboard dialog Escape",
       "status": "PASS",
-      "ms": 1519
+      "ms": 2588
     },
     {
       "name": "no uncaught frontend exceptions or forced document downloads",
       "status": "PASS",
-      "ms": 1
+      "ms": 0
     }
   ],
   "errors": [],

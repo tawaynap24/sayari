@@ -52,13 +52,14 @@ try {
     const leaseRef = db.doc(`users/${owner}/authSessions/${started}`);
     await db.doc(`users/${owner}`).set({ displayName: "Test" });
     await leaseRef.set({ expiresAt: Date.now() + SESSION_MAX_AGE_MS });
+    const topicId = `session_rules_${runId}`;
     const context = env.authenticatedContext(owner, { auth_time: started });
     try {
       const client = context.firestore();
       await assertSucceeds(getDoc(doc(client, `users/${owner}`)));
       await assertFails(setDoc(doc(client, leaseRef.path), { expiresAt: Date.now() + 999999999999 }));
       for (const [id, expired] of [[`fresh_${runId}`, false], [`expired_${runId}`, true]]) {
-        await db.doc(`media/${id}`).set({ ownerUid: owner, draftId: "fixture", status: "staging", sizeBytes: 3, mimeType: "image/png" });
+        await db.doc(`media/${id}`).set({ ownerUid: owner, topicId, draftId: "fixture", status: "staging", sizeBytes: 3, mimeType: "image/png", interestExpiresAt: Date.now() + 604800000 });
         const upload = () => uploadBytes(ref(context.storage(`gs://${projectId}.appspot.com`), `staging/${owner}/fixture/${id}`), new Uint8Array([1, 2, 3]), { contentType: "image/png" });
         if (!expired) await assertSucceeds(upload());
         else { await leaseRef.update({ expiresAt: Date.now() - 1 }); await assertFails(upload()); }

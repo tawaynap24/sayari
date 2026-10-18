@@ -1,122 +1,127 @@
 {
   "projectId": "demo-timeline",
-  "runId": "mvdniqgp",
-  "at": "2026-10-18T09:58:17.655Z",
+  "runId": "mvdtav59",
+  "at": "2026-10-18T12:43:28.631Z",
   "results": [
+    {
+      "name": "timeline update clock changes only on publication, approved edit and hide; historical backfill preserves approvals",
+      "status": "PASS",
+      "ms": 67825
+    },
     {
       "name": "atomic duplicate follows increment one UID exactly once",
       "status": "PASS",
-      "ms": 7877
+      "ms": 30323
     },
     {
       "name": "CREATE at49 publishes once with immutable revision; retry idempotent",
       "status": "PASS",
-      "ms": 3711
+      "ms": 8350
     },
     {
       "name": "CREATE at50 snapshot5, own/nonfollower denied and immediate threshold",
       "status": "PASS",
-      "ms": 1101
+      "ms": 11392
     },
     {
       "name": "concurrent sameUID votes, real switch, repeat same choice keeps idle clock",
       "status": "PASS",
-      "ms": 7709
+      "ms": 5878
     },
     {
       "name": "parallel threshold crossing publishes exactly one revision",
       "status": "PASS",
-      "ms": 4707
+      "ms": 5875
     },
     {
       "name": "pending edit archives votes and resnapshots N/time; stale votes denied",
       "status": "PASS",
-      "ms": 791
+      "ms": 3729
     },
     {
       "name": "concurrent EDIT lock, approval history, original author may vote another proposer",
       "status": "PASS",
-      "ms": 4371
+      "ms": 10109
     },
     {
       "name": "HIDE approval cancels pending EDIT; history/public projection denied to guest",
       "status": "PASS",
-      "ms": 1065
+      "ms": 7161
     },
     {
       "name": "EDIT approved first preserves active HIDE targeting current version",
       "status": "PASS",
-      "ms": 1633
+      "ms": 9170
     },
     {
       "name": "negative HIDE leaves published; fresh round snapshots current interest",
       "status": "PASS",
-      "ms": 1012
+      "ms": 7496
     },
     {
       "name": "exact expiry commits terminal and releases lock before denied vote",
       "status": "PASS",
-      "ms": 479
+      "ms": 5223
     },
     {
       "name": "CREATE grace72h, later real vote extends to94h, bounded idempotent sweeper",
       "status": "PASS",
-      "ms": 594
+      "ms": 2870
     },
     {
       "name": "stale and missing EDIT locks recover transactionally",
       "status": "PASS",
-      "ms": 477
+      "ms": 5029
     },
     {
       "name": "server rejects self/cross-topic/hidden anchors and approval cycles",
       "status": "PASS",
-      "ms": 844
+      "ms": 9438
     },
     {
       "name": "guest approved-only reads and all direct authority writes denied",
       "status": "PASS",
-      "ms": 811
+      "ms": 2986
     },
     {
       "name": "privilege checked server-side and audited; normal actor cannot bypass",
       "status": "PASS",
-      "ms": 1051
+      "ms": 7911
     },
     {
       "name": "Auth email/password + real callable JWT/unauthenticated/anonymous/nonfollow gates",
       "status": "PASS",
-      "ms": 886
+      "ms": 11563
     },
     {
       "name": "Storage rules byte cap, private staging, finalize magic, ownership and hide revokes proxy",
       "status": "PASS",
-      "ms": 3428
+      "ms": 10477
     },
     {
       "name": "backend rejects unsafe references, unknown fields/count spoof and cross-topic entities",
       "status": "PASS",
-      "ms": 593
+      "ms": 3899
     },
     {
       "name": "1001 actual memberships cap CREATE at100 and exactly100 votes publish",
       "status": "PASS",
-      "ms": 11242
+      "ms": 15320
     },
     {
       "name": "simultaneous EDIT/HIDE threshold race never resurrects story",
       "status": "PASS",
-      "ms": 4494
+      "ms": 11859
     },
     {
       "name": "private operator restriction denies even member archive and pending reads",
       "status": "PASS",
-      "ms": 2194
+      "ms": 8921
     },
     {
       "name": "exported scheduled handler executes against Emulator, cleanup retries harmless",
       "status": "PASS",
-      "ms": 6263
+      "ms": 3492
     }
   ]
 }

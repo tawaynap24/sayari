@@ -1,6 +1,8 @@
 /** Private operator utility. Dry-run by default; never grants itself credentials. */
 import { createRequire } from "node:module";
 import { randomUUID } from "node:crypto";
+import { gameCatalog, seedGameTopics } from "./game-catalog.mjs";
+import { findTimelineUpdates, applyTimelineUpdates } from "./timeline-updates.mjs";
 const require = createRequire(
   new URL("../../functions/package.json", import.meta.url),
 );
@@ -18,9 +20,9 @@ if (!project)
 const action = args[0],
   execute = args.includes("--execute"),
   reason = args.includes("--reason") ? value("--reason") : "";
-if (!["claim", "restrict-story", "seed-topics"].includes(action))
+if (!["claim", "restrict-story", "seed-topics", "backfill-timeline-updates"].includes(action))
   throw Error(
-    'Usage: admin.mjs claim|restrict-story|seed-topics --project ID [--uid UID | --story ID] --reason "..." [--execute]',
+    'Usage: admin.mjs claim|restrict-story|seed-topics|backfill-timeline-updates --project ID [--uid UID | --story ID] --reason "..." [--execute]',
   );
 if (project.startsWith("demo-"))
   Object.assign(process.env, {
@@ -78,41 +80,17 @@ try {
         });
     }
   } else if (action === "seed-topics") {
-    const topics = [
-      ["zenless-zone-zero", "Zenless Zone Zero"],
-      ["genshin-impact", "Genshin Impact"],
-    ];
     console.log(
       JSON.stringify({
         dryRun: !execute,
         project,
         action,
-        topics: topics.map(([id]) => id),
+        topics: gameCatalog.map(game => game.id),
         stories: 0,
       }),
     );
     if (execute) {
-      await db
-        .doc("categories/games")
-        .set({ id: "games", displayNameTh: "เกม", order: 1 }, { merge: true });
-      for (const [id, name] of topics)
-        await db.runTransaction(async (tx) => {
-          const d = await tx.get(db.doc(`topics/${id}`));
-          if (d.exists) return;
-          tx.create(d.ref, {
-            id,
-            slug: id,
-            categoryId: "games",
-            displayNames: { "th-TH": name, "en-US": name },
-            descriptionTh: "พื้นที่เรื่องราวและแหล่งอ้างอิงจากชุมชน",
-            calendar: { id: `${id}-symbolic` },
-            publishedCount: 0,
-          });
-          tx.create(db.doc(`topicStats/${id}`), {
-            interestCount: 0,
-            graphVersion: 0,
-          });
-        });
+      await seedGameTopics(db);
       await db
         .collection("auditLog")
         .add({
@@ -121,6 +99,13 @@ try {
           reason,
           at: Date.now(),
         });
+    }
+  } else if (action === "backfill-timeline-updates") {
+    const changes = await findTimelineUpdates(db);
+    console.log(JSON.stringify({ dryRun: !execute, project, action, changes }));
+    if (execute) {
+      await applyTimelineUpdates(db, changes);
+      await db.collection("auditLog").add({ actorUid: "private-admin-cli", action, reason, at: Date.now(), topics: changes.length });
     }
   } else {
     const id = value("--story");
@@ -144,15 +129,18 @@ try {
       await db.runTransaction(async (tx) => {
         const fresh = await tx.get(s.ref);
         const story = fresh.data();
+        const now = Date.now();
         tx.update(s.ref, {
           status: "hidden",
           restricted: true,
+          ...(story.status === "published" ? { hiddenAt: now } : {}),
           activeEditRequestId: null,
           activeHideRequestId: null,
         });
         tx.delete(db.doc(`publicStories/${id}`));
         if (story.status === "published")
           tx.update(db.doc(`topics/${story.topicId}`), {
+            timelineUpdatedAt: now,
             publishedCount:
               require("firebase-admin/firestore").FieldValue.increment(-1),
           });

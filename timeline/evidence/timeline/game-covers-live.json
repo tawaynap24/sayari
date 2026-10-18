@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-18T11:28:20.970Z",
+  "schemaVersion": 2,
+  "covers": {
+    "zenless-zone-zero": {
+      "url": "https://fastcdn.hoyoverse.com/content-v2/nap/166000/5bb3308807007eaa920c5d1927bac4fd_4994335085094314028.jpg",
+      "provider": "HoYoverse Official News",
+      "source": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPage=1&iPageSize=100&sLangKey=en-us&iChanId=288",
+      "version": "3.2",
+      "title": "Version 3.2 \"Their Secret Histories\" Update Announcement",
+      "patchUpdatedAt": 1788904800000,
+      "patchTimeKind": "maintenance-start",
+      "checkedAt": 1792322890372,
+      "updatedAt": 1792322502298
+    },
+    "honkai-star-rail": {
+      "url": "https://fastcdn.hoyoverse.com/content-v2/hkrpg/166468/03ccbfaa1c724301496b60c7390705b6_4566461937848408160.jpg",
+      "provider": "HoYoverse Official News",
+      "source": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/113fe6d3b4514cdd/getContentList?iPage=1&iPageSize=100&sLangKey=en-us&iChanId=248",
+      "version": "4.6",
+      "title": "Version 4.6 \"Dance With the Beast Before Moonrise\" Update Details",
+      "patchUpdatedAt": 1790546400000,
+      "patchTimeKind": "maintenance-start",
+      "checkedAt": 1792322890372,
+      "updatedAt": 1792322502298
+    },
+    "genshin-impact": {
+      "url": "https://fastcdn.hoyoverse.com/content-v2/hk4e/166383/769afb257533e1e3fc075b3262ba0623_964197228136751306.jpg",
+      "provider": "HoYoverse Official News",
+      "source": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iPage=1&iPageSize=100&sLangKey=en-us&iChanId=395&iAppId=32",
+      "version": "7.1",
+      "title": "\"A Rekviem for the Underworld\" Version 7.1 Update Details",
+      "patchUpdatedAt": 1790114400000,
+      "patchTimeKind": "maintenance-start",
+      "checkedAt": 1792322890372,
+      "updatedAt": 1792322502298
+    },
+    "wuthering-waves": {
+      "url": "https://hw-media-cdn-mingchao.kurogame.com/object/1790611200000/dngsdsx5ljkeowz86m-1790680670533.jpg",
+      "provider": "Kuro Official News",
+      "source": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/en/article/5571.json",
+      "version": "3.7",
+      "title": "Patch Notes for Wuthering Waves Version 3.7: Prism's Illusion, Heart's Illumination",
+      "patchUpdatedAt": 1790712000000,
+      "patchTimeKind": "maintenance-start",
+      "checkedAt": 1792322890372,
+      "updatedAt": 1792322502298
+    },
+    "arknights-endfield": {
+      "url": "https://web-static.hg-cdn.com/upload/image/20261012/e951ca037ab9b181d08e2bfed7cc9833.jpg",
+      "provider": "GRYPHLINE Official News",
+      "source": "https://web-news.gryphline.com/api/bulletin/9560?lang=en-us&code=arknights_endfield_official",
+      "version": "1.6",
+      "title": "[Sanctuary of Ink] Version Update Notes",
+      "patchUpdatedAt": 1792015200000,
+      "patchTimeKind": "maintenance-start",
+      "checkedAt": 1792322890372,
+      "updatedAt": 1792322502298
+    }
+  },
+  "checkedAt": 1792322890372,
+  "nextCheckAt": 1792323790372,
+  "failedProviders": []
+}

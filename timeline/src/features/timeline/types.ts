@@ -10,6 +10,7 @@ export type {
   Topic,
   Source,
   Kind,
+  GameCover,
 } from "../../../functions/src/domain/types";
 export {
   contentSchema,

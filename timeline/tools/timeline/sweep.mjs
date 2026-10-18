@@ -6,6 +6,7 @@ const { initializeApp } = require("firebase-admin/app"),
   { getFirestore } = require("firebase-admin/firestore"),
   { TimelineService } = require("./lib/service.js"),
   { PresenceService } = require("./lib/presence.js"),
+  { GameCoverService } = require("./lib/gameCovers.js"),
   { cleanupOrphans } = require("./lib/media.js");
 Object.assign(process.env, {
   GCLOUD_PROJECT: "demo-timeline",
@@ -19,8 +20,10 @@ initializeApp({
 const db = getFirestore();
 const service = new TimelineService(db);
 const presence = new PresenceService(db);
+const covers = new GameCoverService(db);
 let busy = false;
 let lastMaintenance = 0;
+let lastCovers = 0;
 async function tick() {
   if (busy) return;
   busy = true;
@@ -30,9 +33,17 @@ async function tick() {
     });
     if (!health.ok) return;
     const presenceExpired = await presence.expireStale();
+    if (Date.now() - lastCovers >= 15 * 60_000) {
+      const result = await covers.current();
+      console.log("Local game cover refresh", { count: Object.keys(result.covers).length, failedProviders: result.failedProviders });
+      lastCovers = Date.now();
+    }
     if (Date.now() - lastMaintenance >= 5 * 60 * 1000) {
+      const interests = await service.interests.migrateLegacyPage();
       console.log("Local scheduled worker", {
         expired: await service.expireDueRequests(),
+        interestsInitialized: interests.initialized,
+        interestsExpired: await service.interests.expireStale(),
         mediaRemoved: await cleanupOrphans(db),
         presenceExpired,
       });

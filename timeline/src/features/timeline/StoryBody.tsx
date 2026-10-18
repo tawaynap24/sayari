@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useDoc } from "./hooks";
 import { resolveTimes } from "./types";
 import MediaView from "./MediaView";
+import { sourceKindLabel } from "../../../functions/src/domain/sources";
 export default function StoryBody({
   content,
   topic,
@@ -91,10 +92,12 @@ export default function StoryBody({
                 )}
                 <p>
                   {[
+                    sourceKindLabel(s.kind),
+                    s.kind === "other" && s.originTh && `ที่มา: ${s.originTh}`,
                     s.chapter && `บท: ${s.chapter}`,
                     s.quest && `ภารกิจ: ${s.quest}`,
                     s.gameVersion && `เวอร์ชัน: ${s.gameVersion}`,
-                    s.timestampInVideo && `นาที: ${s.timestampInVideo}`,
+                    s.kind === "video" && s.timestampInVideo && `นาทีที่: ${s.timestampInVideo}`,
                     s.noteTh,
                   ]
                     .filter(Boolean)
@@ -105,7 +108,6 @@ export default function StoryBody({
           </ol>
         </section>
       )}
-      <small className="tl-muted">เรื่องราวและแหล่งอ้างอิงที่ชุมชนส่งมา</small>
     </div>
   );
 }

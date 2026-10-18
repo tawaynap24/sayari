@@ -2,7 +2,7 @@ import { randomUUID, createHash } from "node:crypto";
 import { getStorage } from "firebase-admin/storage";
 import { Firestore } from "firebase-admin/firestore";
 import { HttpsError } from "firebase-functions/v2/https";
-import { unzipSync, strFromU8 } from "fflate";
+import { interestIsCurrent, INTEREST_MAX_AGE_MS } from "./domain/interest";
 import { z } from "zod";
 import type { Actor } from "./domain/types";
 import { idSchema, MAX_BYTES } from "./domain/validation";
@@ -12,8 +12,6 @@ const mimes: Record<string, string> = {
   "image/webp": "image",
   "image/gif": "image",
   "application/pdf": "pdf",
-  "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-    "docx",
 };
 export function inspectFile(
   bytes: Buffer,
@@ -25,7 +23,6 @@ export function inspectFile(
       "ไฟล์ต้องเป็นชนิดที่รองรับและมีขนาดไม่เกิน 5 MB",
     );
   let valid = false;
-  let docText: string | undefined;
   if (mime === "image/png")
     valid = bytes
       .subarray(0, 8)
@@ -47,54 +44,12 @@ export function inspectFile(
     )
       valid = false;
   }
-  if (mimes[mime] === "docx") {
-    try {
-      let total = 0;
-      let entries = 0;
-      const files = unzipSync(bytes, {
-        filter: (file) => {
-          if (
-            ++entries > 2000 ||
-            file.name.includes("..") ||
-            (/vbaProject|\.rels$/i.test(file.name) &&
-              file.originalSize > 1_000_000)
-          )
-            throw Error("unsafe archive");
-          if (!["word/document.xml", "[Content_Types].xml"].includes(file.name))
-            return false;
-          total += file.originalSize;
-          if (total > 2_000_000) throw Error("expanded file too large");
-          return true;
-        },
-      });
-      const xml =
-        files["word/document.xml"] && strFromU8(files["word/document.xml"]);
-      valid =
-        !!xml &&
-        !!files["[Content_Types].xml"] &&
-        !/<!DOCTYPE|<!ENTITY/i.test(xml);
-      if (valid && xml)
-        docText = xml
-          .replace(/<w:tab\b[^>]*\/>/g, "\t")
-          .replace(/<\/w:(p|tr)>/g, "\n")
-          .replace(/<\/w:tc>/g, " | ")
-          .replace(/<[^>]*>/g, "")
-          .replace(/&lt;/g, "<")
-          .replace(/&gt;/g, ">")
-          .replace(/&quot;/g, '"')
-          .replace(/&apos;/g, "'")
-          .replace(/&amp;/g, "&")
-          .slice(0, 300000);
-    } catch {
-      valid = false;
-    }
-  }
   if (!valid)
     throw new HttpsError(
       "invalid-argument",
       "เนื้อหาไฟล์ไม่ตรงกับชนิดไฟล์ หรือมีเนื้อหาที่ไม่รองรับ",
     );
-  return { kind: mimes[mime], ...(docText !== undefined ? { docText } : {}) };
+  return { kind: mimes[mime] };
 }
 export async function prepareUpload(
   db: Firestore,
@@ -105,23 +60,36 @@ export async function prepareUpload(
     .object({
       topicId: idSchema,
       draftId: idSchema,
+      uploadId: idSchema.optional(),
       name: z.string().min(1).max(180),
       mimeType: z.enum(Object.keys(mimes) as [string, ...string[]]),
       sizeBytes: z.number().int().min(1).max(MAX_BYTES),
     })
     .strict()
     .parse(input);
-  if (/\.(svg|html?|js|exe|doc|docm)$/i.test(d.name))
+  if (/\.(svg|html?|js|exe|docx?|docm)$/i.test(d.name))
     throw new HttpsError("invalid-argument", "ไม่รองรับไฟล์ชนิดนี้");
-  const id = randomUUID();
+  const id = d.uploadId
+    ? createHash("sha256").update(`${actor.uid}\0${d.draftId}\0${d.uploadId}`).digest("hex")
+    : randomUUID();
   const now = Date.now();
-  await db.runTransaction(async (tx) => {
-    const [member, rate] = await tx.getAll(
+  const descriptor = db.doc(`media/${id}`);
+  const status = await db.runTransaction(async (tx) => {
+    const [member, rate, existing] = await tx.getAll(
       db.doc(`topics/${d.topicId}/interests/${actor.uid}`),
       db.doc(`uploadLimits/${actor.uid}`),
+      descriptor,
     );
-    if (!member.exists)
+    if (!member.exists || !interestIsCurrent(member.data(), now))
       throw new HttpsError("permission-denied", "กรุณากดสนใจหัวข้อนี้ก่อน");
+    if (existing.exists) {
+      if (existing.get("ownerUid") !== actor.uid || existing.get("draftId") !== d.draftId || existing.get("topicId") !== d.topicId || existing.get("name") !== d.name || existing.get("mimeType") !== d.mimeType || existing.get("sizeBytes") !== d.sizeBytes)
+        throw new HttpsError("failed-precondition", "ข้อมูลไฟล์เดิมไม่ตรงกัน กรุณาเลือกไฟล์ใหม่");
+      const currentStatus = existing.get("status");
+      if (currentStatus === "staging" && existing.get("interestExpiresAt") <= now)
+        tx.update(existing.ref, { interestExpiresAt: member.get("expiresAt") ?? now + INTEREST_MAX_AGE_MS });
+      return currentStatus === "ready" ? "ready" : currentStatus === "staging" ? "staging" : "expired";
+    }
     const current = rate.data();
     const recent = current && now - current.at < 3_600_000;
     if (recent && current.count >= 50)
@@ -133,7 +101,7 @@ export async function prepareUpload(
       at: recent ? current.at : now,
       count: recent ? current.count + 1 : 1,
     });
-    tx.create(db.doc(`media/${id}`), {
+    tx.create(descriptor, {
       ...d,
       id,
       ownerUid: actor.uid,
@@ -141,10 +109,17 @@ export async function prepareUpload(
       kind: mimes[d.mimeType],
       path: `staging/${actor.uid}/${d.draftId}/${id}`,
       createdAt: now,
+      // Storage Rules can read only two Firestore documents. Carry the
+      // preparation-time deadline alongside the existing upload descriptor;
+      // finalization rechecks the current membership on the server.
+      interestExpiresAt: member.get("expiresAt") ?? now + INTEREST_MAX_AGE_MS,
       storyId: null,
     });
+    return "staging";
   });
-  return { id, path: `staging/${actor.uid}/${d.draftId}/${id}` };
+  const path = `staging/${actor.uid}/${d.draftId}/${id}`;
+  const uploaded = status === "staging" ? (await getStorage().bucket().file(path).exists())[0] : status === "ready";
+  return { id, path, status, uploaded, kind: mimes[d.mimeType] };
 }
 export async function finalizeUpload(
   db: Firestore,
@@ -157,6 +132,11 @@ export async function finalizeUpload(
   const m = snap.data();
   if (!m || m.ownerUid !== actor.uid)
     throw new HttpsError("permission-denied", "ไม่ใช่เจ้าของไฟล์");
+  if (!mimes[m.mimeType] || /\.docx?$/i.test(m.name || ""))
+    throw new HttpsError("invalid-argument", "รองรับการอัปโหลดเฉพาะภาพและ PDF");
+  const member = await db.doc(`topics/${m.topicId}/interests/${actor.uid}`).get();
+  if (!member.exists || !interestIsCurrent(member.data(), Date.now()))
+    throw new HttpsError("permission-denied", "กรุณากดสนใจหัวข้อนี้ก่อน");
   if (m.status === "ready") return { id: mediaId, kind: m.kind };
   if (m.status !== "staging")
     throw new HttpsError("failed-precondition", "ไฟล์ไม่พร้อมตรวจสอบ");
@@ -188,7 +168,9 @@ export async function finalizeUpload(
   });
   await file.setMetadata({ metadata: { firebaseStorageDownloadTokens: null } });
   await db.runTransaction(async (tx) => {
-    const current = await tx.get(ref);
+    const [current, membership] = await tx.getAll(ref, member.ref);
+    if (!membership.exists || !interestIsCurrent(membership.data(), Date.now()))
+      throw new HttpsError("permission-denied", "กรุณากดสนใจหัวข้อนี้ก่อน");
     if (current.get("status") === "staging")
       tx.update(ref, {
         status: "ready",
@@ -221,9 +203,10 @@ export async function readMedia(db: Firestore, id: string, uid?: string) {
       );
     isPublic = pub.exists && approved.exists;
     allowed ||= isPublic;
-    if (!allowed && uid)
-      allowed = (await db.doc(`topics/${m.topicId}/interests/${uid}`).get())
-        .exists;
+    if (!allowed && uid) {
+      const membership = await db.doc(`topics/${m.topicId}/interests/${uid}`).get();
+      allowed = membership.exists && interestIsCurrent(membership.data(), Date.now());
+    }
   }
   if (!allowed)
     throw new HttpsError("permission-denied", "ไม่สามารถเปิดสื่อนี้ได้");

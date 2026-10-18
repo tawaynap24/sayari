@@ -273,7 +273,7 @@ test("media magic bytes, decimal size boundary, spoof/SVG/PDF script rejected", 
     inspectFile(Buffer.from("%PDF-1.4\n/JavaScript bad"), "application/pdf"),
   );
 });
-test("DOCX safe text extraction and bounded ZIP reject arbitrary archives", () => {
+test("DOCX and arbitrary ZIP files are rejected for new uploads", () => {
   const bytes = Buffer.from(
     zipSync({
       "[Content_Types].xml": strToU8("<Types/>"),
@@ -282,11 +282,7 @@ test("DOCX safe text extraction and bounded ZIP reject arbitrary archives", () =
       ),
     }),
   );
-  const r = inspectFile(
-    bytes,
-    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-  );
-  assert.equal(r.docText, "<script>unsafe</script>\n");
+  assert.throws(() => inspectFile(bytes, "application/vnd.openxmlformats-officedocument.wordprocessingml.document"));
   assert.throws(() =>
     inspectFile(
       Buffer.from(zipSync({ "hello.txt": strToU8("x") })),

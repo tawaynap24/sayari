@@ -1,5 +1,5 @@
-import { useRef, useState } from "react";
-import { api, errorText } from "./client";
+import { useState } from "react";
+import { api, db, errorText } from "./client";
 import {
   contentSchema,
   type Content,
@@ -13,6 +13,9 @@ import Modal from "./Modal";
 import TimeFields from "./TimeFields";
 import MediaFields from "./MediaFields";
 import StoryBody from "./StoryBody";
+import SourceFields from "./SourceFields";
+import { sourceForSubmission } from "../../../functions/src/domain/sources";
+import { useStoryDraft } from "./useStoryDraft";
 const empty: Content = {
   titleTh: "",
   summaryTh: "",
@@ -27,8 +30,9 @@ const empty: Content = {
 export default function ContentForm({
   topic,
   anchors,
-  base,
-  request,
+  base: initialBase,
+  request: initialRequest,
+  userId,
   onClose,
   onSaved,
 }: {
@@ -36,37 +40,30 @@ export default function ContentForm({
   anchors: Revision[];
   base?: Revision;
   request?: Request;
+  userId: string;
   onClose: () => void;
   onSaved: () => void;
 }) {
-  const [value, setValue] = useState<Content>(() => {
-    const c = request?.proposal || base || empty;
-    return {
-      titleTh: c.titleTh,
-      summaryTh: c.summaryTh,
-      bodyTh: c.bodyTh,
-      time: c.time,
-      namedEntityIds: [...c.namedEntityIds],
-      sources: [...c.sources],
-      media: [...c.media],
-      gameVersion: c.gameVersion,
-      locale: c.locale,
-    };
+  const initial = initialRequest?.proposal || initialBase || empty;
+  const draft = useStoryDraft(db.app.options.projectId || "timeline", userId, topic.id, { base: initialBase, request: initialRequest }, {
+    titleTh: initial.titleTh, summaryTh: initial.summaryTh, bodyTh: initial.bodyTh, time: initial.time,
+    namedEntityIds: [...initial.namedEntityIds], sources: [...initial.sources], media: [...initial.media], gameVersion: initial.gameVersion, locale: initial.locale,
   });
+  const value = draft.record.content, { base, request } = draft.record.context;
   const [preview, setPreview] = useState(false),
     [busy, setBusy] = useState(false),
     [uploading, setUploading] = useState(false),
     [error, setError] = useState(""),
     [confirmed, setConfirmed] = useState(false);
-  const [entityName, setEntityName] = useState(""),
-    [entityEn, setEntityEn] = useState(""),
-    [aliases, setAliases] = useState(""),
-    [aliasesEn, setAliasesEn] = useState(""),
-    [entityKind, setEntityKind] = useState<Entity["kind"]>("character");
+  const { name: entityName, english: entityEn, aliases, aliasesEnglish: aliasesEn, kind: entityKind } = draft.record.entity;
+  const setEntityName = (name: string) => draft.updateEntity({ name });
+  const setEntityEn = (english: string) => draft.updateEntity({ english });
+  const setAliases = (aliases: string) => draft.updateEntity({ aliases });
+  const setAliasesEn = (aliasesEnglish: string) => draft.updateEntity({ aliasesEnglish });
+  const setEntityKind = (kind: Entity["kind"]) => draft.updateEntity({ kind });
   const entities = useCollection<Entity>("namedEntities", topic.id);
-  const attempt = useRef({ fingerprint: "", id: crypto.randomUUID() });
   const update = (patch: Partial<Content>) => {
-    setValue((v) => ({ ...v, ...patch }));
+    draft.updateContent(patch);
     setPreview(false);
   };
   const title = request
@@ -75,7 +72,7 @@ export default function ContentForm({
       ? "เสนอแก้ไขเรื่องราว"
       : "เพิ่มเรื่องราว";
   async function submit() {
-    const parsed = contentSchema.safeParse(value);
+    const parsed = contentSchema.safeParse({ ...value, sources: value.sources.map(sourceForSubmission) });
     if (!parsed.success) {
       setError(
         `กรุณาตรวจสอบข้อมูล: ${parsed.error.issues
@@ -91,9 +88,9 @@ export default function ContentForm({
     }
     setBusy(true);
     setError("");
-    const fingerprint = JSON.stringify(value);
-    if (attempt.current.fingerprint !== fingerprint)
-      attempt.current = { fingerprint, id: crypto.randomUUID() };
+    const fingerprint = JSON.stringify(parsed.data);
+    if (draft.current.current.operation.fingerprint !== fingerprint)
+      draft.updateOperation({ fingerprint, id: crypto.randomUUID() });
     try {
       await api(
         request ? "updatePendingRequest" : base ? "proposeEdit" : "createStory",
@@ -111,10 +108,9 @@ export default function ContentForm({
                 content: parsed.data,
               }
             : { topicId: topic.id, content: parsed.data },
-        attempt.current.id,
+        draft.current.current.operation.id,
       );
-      onSaved();
-      onClose();
+      if (!draft.isDiscarded()) { draft.discard(); onSaved(); onClose(); }
     } catch (e) {
       setError(errorText(e));
     } finally {
@@ -122,7 +118,7 @@ export default function ContentForm({
     }
   }
   return (
-    <Modal title={title} onClose={onClose}>
+    <Modal title={title} closeOnEscape={false} onClose={() => { draft.discard(); onClose(); }}>
       <form
         className="tl-form"
         onSubmit={(e) => {
@@ -150,15 +146,6 @@ export default function ContentForm({
                 maxLength={180}
                 value={value.titleTh}
                 onChange={(e) => update({ titleTh: e.target.value })}
-              />
-            </label>
-            <label>
-              สรุปเรื่องราว
-              <textarea
-                maxLength={1000}
-                rows={2}
-                value={value.summaryTh}
-                onChange={(e) => update({ summaryTh: e.target.value })}
               />
             </label>
             <label>
@@ -297,135 +284,22 @@ export default function ContentForm({
                 </button>
               </details>
             </fieldset>
-            <fieldset>
-              <legend>แหล่งอ้างอิง</legend>
-              {value.sources.map((s, i) => (
-                <div className="tl-attachment" key={s.id}>
-                  <div className="tl-fields">
-                    <label>
-                      ประเภทแหล่งอ้างอิง
-                      <select
-                        aria-label="ประเภทแหล่งอ้างอิง"
-                        value={s.kind}
-                        onChange={(e) =>
-                          update({
-                            sources: value.sources.map((v, j) =>
-                              j === i
-                                ? {
-                                    ...v,
-                                    kind: e.target.value as typeof s.kind,
-                                  }
-                                : v,
-                            ),
-                          })
-                        }
-                      >
-                        {[
-                          ["in_game_quest", "ภารกิจในเกม"],
-                          ["dialogue", "บทสนทนา"],
-                          ["item", "ไอเทม"],
-                          ["web", "เว็บไซต์"],
-                          ["video", "วิดีโอ"],
-                          ["document", "เอกสาร"],
-                          ["other", "อื่น ๆ"],
-                        ].map(([v, t]) => (
-                          <option key={v} value={v}>
-                            {t}
-                          </option>
-                        ))}
-                      </select>
-                    </label>
-                    {(
-                      [
-                        ["title", "ชื่อแหล่งอ้างอิง"],
-                        ["url", "URL แหล่งอ้างอิง"],
-                        ["chapter", "บท"],
-                        ["quest", "ภารกิจ"],
-                        ["gameVersion", "เวอร์ชัน"],
-                        ["timestampInVideo", "นาทีในวิดีโอ"],
-                        ["noteTh", "หมายเหตุ"],
-                      ] as const
-                    ).map(([k, label]) => (
-                      <label key={k}>
-                        {label}
-                        <input
-                          required={k === "title"}
-                          type={k === "url" ? "url" : "text"}
-                          value={s[k] || ""}
-                          onChange={(e) =>
-                            update({
-                              sources: value.sources.map((v, j) =>
-                                j === i ? { ...v, [k]: e.target.value } : v,
-                              ),
-                            })
-                          }
-                        />
-                      </label>
-                    ))}
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() =>
-                      update({
-                        sources: value.sources.filter((_, j) => j !== i),
-                      })
-                    }
-                  >
-                    นำแหล่งอ้างอิงออก
-                  </button>
-                </div>
-              ))}
-              <button
-                type="button"
-                onClick={() =>
-                  update({
-                    sources: [
-                      ...value.sources,
-                      {
-                        id: crypto.randomUUID(),
-                        kind: "in_game_quest",
-                        title: "",
-                      },
-                    ],
-                  })
-                }
-              >
-                เพิ่มแหล่งอ้างอิง
-              </button>
-            </fieldset>
+            <SourceFields items={value.sources} onChange={sources => update({ sources })} />
             <MediaFields
               onBusy={setUploading}
               topicId={topic.id}
+              draftKey={draft.key}
+              draftId={draft.id}
+              isDiscarded={draft.isDiscarded}
               items={value.media}
-              onChange={(media) => update({ media })}
+              onChange={change => { draft.updateContent(current => ({ media: typeof change === "function" ? change(current.media) : change })); setPreview(false); }}
             />
-            <div className="tl-fields">
-              <label>
-                เวอร์ชันเรื่องราว / เกม
-                <input
-                  maxLength={100}
-                  value={value.gameVersion}
-                  onChange={(e) => update({ gameVersion: e.target.value })}
-                />
-              </label>
-              <label>
-                ภาษาเรื่องราว
-                <select
-                  aria-label="ภาษาเรื่องราว"
-                  value={value.locale}
-                  onChange={(e) => update({ locale: e.target.value })}
-                >
-                  <option value="th-TH">ไทย</option>
-                  <option value="en-US">English</option>
-                </select>
-              </label>
-            </div>
           </>
         ) : (
           <section>
             <h3>{value.titleTh}</h3>
             <StoryBody
-              content={value}
+              content={{ ...value, sources: value.sources.map(sourceForSubmission) }}
               topic={topic}
               entities={entities.items}
             />
@@ -440,9 +314,6 @@ export default function ContentForm({
                 />
               </details>
             )}
-            <button type="button" onClick={() => setPreview(false)}>
-              กลับไปแก้ไข
-            </button>
           </section>
         )}
         {request && (
@@ -460,9 +331,13 @@ export default function ContentForm({
             {error}
           </p>
         )}
-        <button className="tl-primary" disabled={busy || uploading}>
-          {busy ? "กำลังบันทึก…" : preview ? "ส่งเรื่องราว" : "ตรวจสอบก่อนส่ง"}
-        </button>
+        {draft.storageError && <p role="alert" className="tl-error">{draft.storageError}</p>}
+        <div className="tl-form-actions">
+          {preview && <button type="button" disabled={busy} onClick={() => setPreview(false)}>กลับไปแก้ไข</button>}
+          <button className="tl-primary" disabled={busy || uploading}>
+            {busy ? "กำลังบันทึก…" : preview ? "ส่งเรื่องราว" : "ตรวจสอบก่อนส่ง"}
+          </button>
+        </div>
       </form>
     </Modal>
   );

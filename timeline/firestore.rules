@@ -5,10 +5,14 @@ service cloud.firestore {
       return request.auth != null && request.auth.token.get('auth_time', null) is int
         && get(/databases/$(database)/documents/users/$(request.auth.uid)/authSessions/$(string(request.auth.token.auth_time))).data.expiresAt > request.time.toMillis();
     }
-    function follower(topic) { return signed() && exists(/databases/$(database)/documents/topics/$(topic)/interests/$(request.auth.uid)); }
+    function follower(topic) {
+      return signed()
+        && get(/databases/$(database)/documents/topics/$(topic)/interests/$(request.auth.uid)).data.get('expiresAt', request.time.toMillis() + 1) > request.time.toMillis();
+    }
     function moderator() { return signed() && request.auth.token.get('timelineModerator', false) == true; }
     function unrestrictedStory(id) { return get(/databases/$(database)/documents/stories/$(id)).data.get('restricted', false) == false || moderator(); }
     match /siteStats/online { allow get: if true; }
+    match /siteStats/gameCovers { allow get: if true; }
     match /categories/{id} { allow read: if true; }
     match /topics/{id} {
       allow read: if true;

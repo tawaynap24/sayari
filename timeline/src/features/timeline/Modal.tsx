@@ -3,10 +3,12 @@ export default function Modal({
   title,
   children,
   onClose,
+  closeOnEscape = true,
 }: {
   title: string;
   children: ReactNode;
   onClose: () => void;
+  closeOnEscape?: boolean;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
   const close = useRef(onClose);
@@ -26,8 +28,11 @@ export default function Modal({
       ref={ref}
       aria-label={title}
       onCancel={(e) => {
+        // File inputs also dispatch a bubbling cancel event when the picker
+        // is dismissed. It must never close the surrounding dialog.
+        if (e.target !== e.currentTarget) return;
         e.preventDefault();
-        close.current();
+        if (closeOnEscape) close.current();
       }}
     >
       <header className="tl-row">

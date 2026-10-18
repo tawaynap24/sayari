@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-18T13:24:58.780Z",
+  "results": [
+    {
+      "name": "file-input cancel, empty selection, Escape and backdrop clicks keep the story dialog and typed values",
+      "status": "PASS"
+    },
+    {
+      "name": "refresh restores incomplete time/reference/name drafts; a different topic stays isolated",
+      "status": "PASS"
+    },
+    {
+      "name": "DOCX is rejected before upload and supported files are backed up with captions and cover settings",
+      "status": "PASS"
+    },
+    {
+      "name": "closing and reopening the browser recovers the same draft and attachment without duplicate media",
+      "status": "PASS"
+    },
+    {
+      "name": "refresh after a lost upload-finalization response resumes the queued file exactly once",
+      "status": "PASS"
+    },
+    {
+      "name": "browser file backups recover an orphan cleaned by the server and preserve its metadata and position",
+      "status": "PASS"
+    },
+    {
+      "name": "preview removes the footer copy and keeps Edit/Send on one row on desktop and mobile; manual close discards the draft",
+      "status": "PASS"
+    },
+    {
+      "name": "draft recovery cannot leak between accounts on the same browser profile",
+      "status": "PASS"
+    },
+    {
+      "name": "successful confirmation clears the local draft and file backup",
+      "status": "PASS"
+    },
+    {
+      "name": "refresh after a lost story submission response retries its saved operation without publishing twice",
+      "status": "PASS"
+    },
+    {
+      "name": "manual close while prepare is pending cannot resurrect the discarded draft or file backup",
+      "status": "PASS"
+    },
+    {
+      "name": "browser quota failure is visible without closing the form or losing in-memory input",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

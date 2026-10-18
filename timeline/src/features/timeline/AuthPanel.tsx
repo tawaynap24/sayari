@@ -3,15 +3,14 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   updateProfile,
-  sendPasswordResetEmail,
 } from "firebase/auth";
 import { auth, authSession, errorText } from "./client";
 import Modal from "./Modal";
+import { lastLoginEmail, rememberLoginEmail } from "./loginMemory";
+import PasswordField from "./PasswordField";
 export default function AuthPanel({ onClose }: { onClose: () => void }) {
+  const [savedEmail] = useState(lastLoginEmail);
   const [register, setRegister] = useState(false),
-    [email, setEmail] = useState(""),
-    [password, setPassword] = useState(""),
-    [name, setName] = useState(""),
     [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   return (
@@ -20,22 +19,37 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
       onClose={onClose}
     >
       <form
+        key={register ? "register" : "login"}
+        id={register ? "timeline-register-form" : "timeline-login-form"}
+        name={register ? "timeline-register" : "timeline-login"}
+        action="/timeline"
+        method="post"
+        autoComplete="on"
         className="tl-form"
         onSubmit={async (e) => {
           e.preventDefault();
+          // Read the actual fields: password managers may fill inputs without
+          // dispatching the change events used by React state.
+          const fields = new FormData(e.currentTarget);
+          const email = String(fields.get("username") || "").trim();
+          const password = String(fields.get("password") || "");
+          if (register && password !== String(fields.get("confirmPassword") || "")) {
+            setError("รหัสผ่านทั้งสองช่องไม่ตรงกัน");
+            return;
+          }
           setBusy(true);
           setError("");
           try {
             await authSession.ready;
+            const c = register
+              ? await createUserWithEmailAndPassword(auth, email, password)
+              : await signInWithEmailAndPassword(auth, email, password);
+            rememberLoginEmail(c.user.email);
             if (register) {
-              const c = await createUserWithEmailAndPassword(
-                auth,
-                email,
-                password,
-              );
-              await updateProfile(c.user, { displayName: name.trim() });
+              await updateProfile(c.user, { displayName: String(fields.get("displayName") || "").trim() });
               await c.user.getIdToken(true);
-            } else await signInWithEmailAndPassword(auth, email, password);
+            }
+            await authSession.completeSignIn(c.user);
             onClose();
           } catch (e) {
             setError(errorText(e));
@@ -44,16 +58,13 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
           }
         }}
       >
-        <p className="tl-muted">เข้าร่วมเขียนเรื่องราวและพิจารณาคำขอของชุมชน</p>
-        <small>จดจำการเข้าสู่ระบบ 3 วัน และต่ออายุเมื่อกลับมาใช้งาน</small>
         {register && (
           <label>
             ชื่อที่แสดงต่อสาธารณะ
             <input
               required
+              name="displayName"
               maxLength={80}
-              value={name}
-              onChange={(e) => setName(e.target.value)}
               autoComplete="nickname"
             />
           </label>
@@ -62,29 +73,25 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
           อีเมล
           <input
             type="email"
+            id={register ? "timeline-register-email" : "timeline-login-email"}
+            name="username"
             required
-            autoComplete="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            autoComplete="username"
+            autoCapitalize="none"
+            spellCheck={false}
+            defaultValue={savedEmail}
           />
         </label>
-        <label>
-          รหัสผ่าน
-          <input
-            type="password"
-            minLength={6}
-            required
-            autoComplete={register ? "new-password" : "current-password"}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </label>
+        <PasswordField id={register ? "timeline-register-password" : "timeline-login-password"}
+          name="password" label="รหัสผ่าน" autoComplete={register ? "new-password" : "current-password"} />
+        {register && <PasswordField id="timeline-register-confirm-password" name="confirmPassword"
+          label="ยืนยันรหัสผ่าน" autoComplete="new-password" />}
         {error && (
           <p role="alert" className="tl-error">
             {error}
           </p>
         )}
-        <button className="tl-primary" disabled={busy}>
+        <button type="submit" className="tl-primary" disabled={busy}>
           {busy ? "กำลังดำเนินการ…" : register ? "สมัครสมาชิก" : "เข้าสู่ระบบ"}
         </button>
         <button
@@ -97,31 +104,6 @@ export default function AuthPanel({ onClose }: { onClose: () => void }) {
         >
           {register ? "มีบัญชีแล้ว เข้าสู่ระบบ" : "ยังไม่มีบัญชี สมัครสมาชิก"}
         </button>
-        {!register && (
-          <button
-            type="button"
-            disabled={!email || busy}
-            onClick={async () => {
-              setBusy(true);
-              try {
-                await sendPasswordResetEmail(auth, email);
-                setError("หากอีเมลนี้มีบัญชี ระบบจะส่งวิธีตั้งรหัสผ่านใหม่");
-              } catch (e) {
-                setError(errorText(e));
-              } finally {
-                setBusy(false);
-              }
-            }}
-          >
-            ลืมรหัสผ่าน
-          </button>
-        )}
-        {register && (
-          <small>
-            ชื่อและเรื่องราวที่เผยแพร่เป็นข้อมูลสาธารณะ
-            กรุณาไม่ใส่ข้อมูลส่วนบุคคลของผู้อื่น การสมัครยังไม่บังคับยืนยันอีเมล
-          </small>
-        )}
       </form>
     </Modal>
   );

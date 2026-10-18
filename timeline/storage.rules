@@ -8,11 +8,12 @@ service firebase.storage {
     match /staging/{uid}/{draft}/{id} {
       function descriptor() { return firestore.get(/databases/(default)/documents/media/$(id)).data; }
       allow create: if resource == null && currentSession() && request.auth.uid == uid
+        && descriptor().get('interestExpiresAt', request.time.toMillis() + 1) > request.time.toMillis()
         && descriptor().ownerUid == uid && descriptor().draftId == draft && descriptor().status == 'staging'
         && request.resource.size > 0 && request.resource.size <= 5000000
         && request.resource.size == descriptor().sizeBytes
         && request.resource.contentType == descriptor().mimeType
-        && request.resource.contentType.matches('image/(jpeg|png|webp|gif)|application/pdf|application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+        && request.resource.contentType.matches('image/(jpeg|png|webp|gif)|application/pdf');
       allow read, update, delete: if false;
     }
     // All validated bytes are served by timelineMedia after publication/member checks.

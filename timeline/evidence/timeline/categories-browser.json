@@ -1,17 +1,25 @@
 {
-  "at": "2026-10-18T10:03:13.370Z",
+  "at": "2026-10-18T12:01:46.349Z",
   "origin": "http://127.0.0.1:5174",
   "results": [
     {
-      "name": "all categories display exactly three original topics without synthetic fixtures",
+      "name": "five games appear in requested order without category filters or creation controls",
       "status": "PASS"
     },
     {
-      "name": "game and general filters show only their matching topics",
+      "name": "all five games share live patch artwork between cards and Timeline headers, including mobile",
       "status": "PASS"
     },
     {
-      "name": "each topic links to its own route and mobile filters fit the screen",
+      "name": "a direct game link retains a readable Timeline header when artwork cannot load",
+      "status": "PASS"
+    },
+    {
+      "name": "responsive columns keep actual artwork at full card height without vertical gaps or page overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "public interest count deduplicates follows and updates live alongside the timeline time",
       "status": "PASS"
     }
   ],

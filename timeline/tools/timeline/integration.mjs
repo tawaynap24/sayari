@@ -4,6 +4,7 @@ import { randomUUID } from "node:crypto";
 import { createRequire } from "node:module";
 import { execFileSync } from "node:child_process";
 import { cleanupTopicFixtures } from "./fixtures.mjs";
+import { findTimelineUpdates, applyTimelineUpdates } from "./timeline-updates.mjs";
 import {
   initializeTestEnvironment,
   assertFails,
@@ -160,6 +161,48 @@ async function run(name, fn) {
   );
 }
 try {
+  await run("timeline update clock changes only on publication, approved edit and hide; historical backfill preserves approvals", async () => {
+    const t = await topic(50), ref = db.doc(`topics/${t}`);
+    const updated = async () => (await ref.get()).get("timelineUpdatedAt");
+    assert.equal(await updated(), undefined);
+    const a = await create(t);
+    assert.equal(await updated(), undefined); // Pending CREATE is not a timeline.
+    now += 1000;
+    await approve(a.requestId);
+    const first = now;
+    assert.equal(await updated(), first);
+    now += 1000;
+    const e = await call(owner, "proposeEdit", { topicId: t, storyId: a.storyId, baseRevisionId: "v1", content: content("clock edit") });
+    assert.equal(await updated(), first);
+    now += 1000;
+    await approve(e.requestId);
+    const edited = now;
+    assert.equal(await updated(), edited);
+    now += 1000;
+    const h = await call(owner, "proposeHide", { topicId: t, storyId: a.storyId, baseRevisionId: "v2", reason: "clock hide" });
+    assert.equal(await updated(), edited);
+    for (let i = 1; i <= 5; i++) await vote(h.requestId, i, "no");
+    assert.equal(await updated(), edited); // Rejection does not change public content.
+    now += 1000;
+    const h2 = await call(owner, "proposeHide", { topicId: t, storyId: a.storyId, baseRevisionId: "v2", reason: "clock hide again" });
+    now += 1000;
+    await approve(h2.requestId);
+    assert.equal(await updated(), now);
+    assert.equal((await ref.get()).get("publishedCount"), 0); // Keep time even when the last existing story was hidden.
+    const hidden = now;
+    const { FieldValue } = require("firebase-admin/firestore");
+    await ref.update({ timelineUpdatedAt: FieldValue.delete() });
+    const changes = await findTimelineUpdates(db, [t]);
+    assert.deepEqual(changes, [{ topicId: t, timelineUpdatedAt: hidden }]);
+    await applyTimelineUpdates(db, changes);
+    assert.equal(await updated(), hidden);
+    await ref.update({ timelineUpdatedAt: hidden + 5000 });
+    await applyTimelineUpdates(db, changes);
+    assert.equal(await updated(), hidden + 5000); // Concurrent newer changes win.
+    const empty = await topic(50);
+    await create(empty);
+    assert.deepEqual(await findTimelineUpdates(db, [empty]), []);
+  });
   await run(
     "atomic duplicate follows increment one UID exactly once",
     async () => {
@@ -174,6 +217,10 @@ try {
         (await db.doc(`topicStats/${t}`).get()).get("interestCount"),
         2,
       );
+      assert.equal((await db.doc(`topics/${t}`).get()).get("interestCount"), 2);
+      const publicTopic = await assertSucceeds(getDoc(doc(env.unauthenticatedContext().firestore(), `topics/${t}`)));
+      assert.equal(publicTopic.get("interestCount"), 2);
+      await assertFails(getDoc(doc(env.unauthenticatedContext().firestore(), `topics/${t}/interests/${actor(77).uid}`)));
     },
   );
   await run(
@@ -197,6 +244,7 @@ try {
         1,
       );
       assert.ok((await db.doc(`publicStories/${a.storyId}`).get()).exists);
+      assert.equal((await db.doc(`topics/${t}`).get()).get("timelineUpdatedAt"), now);
       await assert.rejects(() =>
         call(
           owner,

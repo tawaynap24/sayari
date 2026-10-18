@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-18T13:15:45.506Z",
+  "results": [
+    {
+      "name": "parallel prepare retries reuse one descriptor and one upload-rate slot",
+      "status": "PASS"
+    },
+    {
+      "name": "recovery detects uploaded bytes and a lost finalization response without duplicate files",
+      "status": "PASS"
+    },
+    {
+      "name": "an orphaned draft can start a fresh upload generation after server cleanup",
+      "status": "PASS"
+    },
+    {
+      "name": "DOCX is denied at prepare, Storage and finalize while existing published metadata remains readable",
+      "status": "PASS"
+    }
+  ]
+}

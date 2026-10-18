@@ -40,5 +40,173 @@
     "startedAt": "2026-10-18T09:57:51.251Z",
     "finishedAt": "2026-10-18T09:58:26.109Z",
     "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:52:54.400Z",
+    "finishedAt": "2026-10-18T10:53:01.456Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:53:01.460Z",
+    "finishedAt": "2026-10-18T10:53:04.871Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:53:04.872Z",
+    "finishedAt": "2026-10-18T10:53:09.571Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:56:38.528Z",
+    "finishedAt": "2026-10-18T10:56:47.045Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:56:47.049Z",
+    "finishedAt": "2026-10-18T10:56:50.166Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T10:56:50.180Z",
+    "finishedAt": "2026-10-18T10:56:55.902Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 1,
+    "startedAt": "2026-10-18T11:22:19.914Z",
+    "finishedAt": "2026-10-18T11:22:25.342Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T11:22:25.347Z",
+    "finishedAt": "2026-10-18T11:22:28.721Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T11:22:28.722Z",
+    "finishedAt": "2026-10-18T11:22:33.695Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T11:26:12.296Z",
+    "finishedAt": "2026-10-18T11:26:17.407Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T11:26:17.412Z",
+    "finishedAt": "2026-10-18T11:26:20.723Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T11:26:20.724Z",
+    "finishedAt": "2026-10-18T11:26:25.583Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:41:19.184Z",
+    "finishedAt": "2026-10-18T12:41:25.075Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:41:25.080Z",
+    "finishedAt": "2026-10-18T12:41:29.959Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:41:29.960Z",
+    "finishedAt": "2026-10-18T12:41:35.433Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:48:19.576Z",
+    "finishedAt": "2026-10-18T12:48:24.883Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:48:24.892Z",
+    "finishedAt": "2026-10-18T12:48:28.222Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:48:28.229Z",
+    "finishedAt": "2026-10-18T12:48:33.239Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:54:48.548Z",
+    "finishedAt": "2026-10-18T12:54:56.645Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:54:56.649Z",
+    "finishedAt": "2026-10-18T12:54:59.810Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T12:54:59.821Z",
+    "finishedAt": "2026-10-18T12:55:04.887Z",
+    "log": "evidence/timeline/unit.log"
+  },
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T13:12:01.077Z",
+    "finishedAt": "2026-10-18T13:12:08.023Z",
+    "log": "evidence/timeline/build.log"
+  },
+  {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T13:12:08.025Z",
+    "finishedAt": "2026-10-18T13:12:10.915Z",
+    "log": "evidence/timeline/lint.log"
+  },
+  {
+    "command": "npm run timeline:unit",
+    "exitCode": 0,
+    "startedAt": "2026-10-18T13:12:10.916Z",
+    "finishedAt": "2026-10-18T13:12:15.741Z",
+    "log": "evidence/timeline/unit.log"
   }
 ]

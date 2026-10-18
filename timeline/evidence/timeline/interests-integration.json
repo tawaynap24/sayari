@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-18T12:46:58.477Z",
+  "results": [
+    {
+      "name": "only the visited topic renews; exact seven-day removal deletes both memberships and updates both counts",
+      "status": "PASS"
+    },
+    {
+      "name": "stale sweep candidates recheck renewed leases; expiry and explicit re-follow cannot double count",
+      "status": "PASS"
+    },
+    {
+      "name": "concurrent and repeated expiration decrements once per account and never below zero",
+      "status": "PASS"
+    },
+    {
+      "name": "expired members cannot create or vote before cleanup; existing vote-round snapshots and votes remain unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "rules and media deny expired membership immediately; own lease remains readable and public content stays public",
+      "status": "PASS"
+    },
+    {
+      "name": "scheduled query removes due leases and leaves future leases alone",
+      "status": "PASS"
+    },
+    {
+      "name": "legacy migration resumes by page, grants seven days once, and preserves existing active deadlines",
+      "status": "PASS"
+    },
+    {
+      "name": "real activity callable requires login/session, validates input, renews one topic and never silently re-follows",
+      "status": "PASS"
+    }
+  ]
+}

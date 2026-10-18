@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-18T11:28:21.112Z",
+  "results": [
+    {
+      "name": "first refresh stores five covers and a fifteen-minute expiry in Firestore",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh cache does not repeatedly call upstream APIs",
+      "status": "PASS"
+    },
+    {
+      "name": "a new patch replaces all source image URLs after cache expiry without code changes",
+      "status": "PASS"
+    },
+    {
+      "name": "provider failure keeps its last successful image and retries after one minute",
+      "status": "PASS"
+    },
+    {
+      "name": "concurrent cold requests share a refresh lease rather than multiplying upstream calls",
+      "status": "PASS"
+    },
+    {
+      "name": "an older cache schema refreshes immediately even before its old expiry",
+      "status": "PASS"
+    },
+    {
+      "name": "real local HTTP function returns five released patch images, versions and maintenance times",
+      "status": "PASS"
+    }
+  ]
+}

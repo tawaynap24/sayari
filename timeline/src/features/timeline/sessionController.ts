@@ -2,6 +2,7 @@ import { browserLocalPersistence, onIdTokenChanged, setPersistence, signOut, typ
 import { doc, onSnapshot, type Firestore } from "firebase/firestore";
 import { httpsCallable, type Functions } from "firebase/functions";
 import { sessionDeadline } from "../../../functions/src/domain/session";
+import { rememberLoginEmail } from "./loginMemory";
 
 interface AuthState { user: User | null; ready: boolean }
 interface Lease { uid: string; authTime: number; expiresAt: number }
@@ -18,6 +19,7 @@ export function createAuthSession(auth: Auth, db: Firestore, functions: Function
   const ready = setPersistence(auth, browserLocalPersistence);
   const renewCall = httpsCallable<{ action: string }, { expiresAt: number }>(functions, "timelineSession", { timeout: 15_000 });
   function publish(user: User | null) {
+    if (user) rememberLoginEmail(user.email);
     snapshot = { user, ready: true };
     for (const listener of listeners) listener();
   }
@@ -136,6 +138,30 @@ export function createAuthSession(auth: Auth, db: Firestore, functions: Function
   document.addEventListener("keydown", activity);
   return {
     ready,
+    async completeSignIn(user: User) {
+      await ready;
+      // Firebase creates an authenticated account immediately, while restoring
+      // this site's lease finishes asynchronously. Keep the form open until
+      // subscribers can actually use the authenticated session.
+      await new Promise<void>((resolve, reject) => {
+        function finish(error?: Error) {
+          clearTimeout(timeout);
+          listeners.delete(check);
+          if (error) reject(error); else resolve();
+        }
+        function check() {
+          if (disposed || auth.currentUser?.uid !== user.uid) {
+            finish(new Error("เข้าสู่ระบบไม่สำเร็จ กรุณาลองเข้าสู่ระบบอีกครั้ง"));
+          } else if (snapshot.ready && snapshot.user?.uid === user.uid) finish();
+        }
+        const timeout = setTimeout(() => finish(new Error("การเชื่อมต่อระบบเข้าสู่ระบบใช้เวลานาน กรุณาลองเข้าสู่ระบบอีกครั้ง")), 25_000);
+        listeners.add(check);
+        check();
+      });
+      if (disposed || auth.currentUser?.uid !== user.uid) throw new Error("เข้าสู่ระบบไม่สำเร็จ กรุณาลองเข้าสู่ระบบอีกครั้ง");
+      // Refresh subscribers after the registration display name was saved.
+      publish(user);
+    },
     subscribe(listener: () => void) { listeners.add(listener); return () => { listeners.delete(listener); }; },
     getSnapshot: () => snapshot,
     dispose() {

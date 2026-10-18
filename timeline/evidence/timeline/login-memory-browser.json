@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-18T11:53:42.948Z",
+  "results": [
+    {
+      "name": "minimal login form exposes password-manager fields and a working visibility toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "nonexistent email and wrong password show the same Thai error without raw Firebase text",
+      "status": "PASS"
+    },
+    {
+      "name": "browser autofill without React events submits the actual field values",
+      "status": "PASS"
+    },
+    {
+      "name": "reopening the browser remembers the newest successful email without storing passwords",
+      "status": "PASS"
+    },
+    {
+      "name": "registration requires matching passwords and both eye buttons preserve typed values",
+      "status": "PASS"
+    },
+    {
+      "name": "new registration signs in automatically and retains its name and session after browser restart",
+      "status": "PASS"
+    },
+    {
+      "name": "registration stays busy until a delayed site session is ready, then closes directly into logged-in UI",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "passwordManagerPrompt": "Native save prompts depend on browser settings; field semantics and native autofill submission were tested."
+}

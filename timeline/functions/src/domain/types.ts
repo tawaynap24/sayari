@@ -36,14 +36,19 @@ export interface Calendar {
 export interface Source {
   id: string;
   kind:
+    | "main_story"
+    | "character_story"
+    | "side_quest"
+    | "video"
+    | "other"
+    // Legacy categories remain readable in existing revisions.
     | "in_game_quest"
     | "dialogue"
     | "item"
     | "web"
-    | "video"
-    | "document"
-    | "other";
+    | "document";
   title: string;
+  originTh?: string;
   url?: string;
   chapter?: string;
   quest?: string;
@@ -85,6 +90,26 @@ export interface Topic {
   descriptionTh: string;
   calendar: Calendar;
   publishedCount: number;
+  /** Public aggregate mirrored atomically from topicStats; no follower identities. */
+  interestCount?: number;
+  /** Last successful publication, approved edit or hide; pending requests never change this. */
+  timelineUpdatedAt?: number;
+  coverPosition?: string;
+  order?: number;
+  listed?: boolean;
+}
+export interface PatchArtwork {
+  url: string;
+  provider: string;
+  source: string;
+  version: string;
+  title: string;
+  patchUpdatedAt: number;
+  patchTimeKind: "maintenance-start";
+}
+export interface GameCover extends PatchArtwork {
+  checkedAt: number;
+  updatedAt: number;
 }
 export interface Revision extends Content {
   id: string;

@@ -30,7 +30,14 @@
     "test:session": "npm --prefix functions run build && node tools/timeline/session-integration.mjs",
     "test:session:browser": "node tools/timeline/session-browser.mjs",
     "test:fixtures": "node tools/timeline/fixtures-integration.mjs",
-    "test:categories:browser": "node tools/timeline/categories-browser.mjs"
+    "test:categories:browser": "node tools/timeline/categories-browser.mjs",
+    "test:games:browser": "node tools/timeline/categories-browser.mjs",
+    "test:login-memory:browser": "node tools/timeline/login-memory-browser.mjs",
+    "test:game-covers": "node tools/timeline/game-covers-integration.mjs",
+    "test:interests": "npm run build:functions && node tools/timeline/interests-integration.mjs",
+    "test:interests:browser": "node tools/timeline/interests-browser.mjs",
+    "test:drafts:integration": "node tools/timeline/drafts-integration.mjs",
+    "test:drafts:browser": "node tools/timeline/drafts-browser.mjs"
   },
   "dependencies": {
     "fflate": "0.8.2",

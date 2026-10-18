@@ -14,6 +14,8 @@ import type {
 import { contentSchema, entitySchema, idSchema } from "./domain/validation";
 import { count, expiry, outcome, voteDelta } from "./domain/policy";
 import { requiredVotes } from "./domain/policy";
+import { InterestService } from "./interests";
+import { interestIsCurrent } from "./domain/interest";
 
 type Reply = { [key: string]: unknown };
 type Failure = { failure: string; message: string };
@@ -52,10 +54,11 @@ const stable = (value: unknown): string =>
       : v,
   );
 export class TimelineService {
+  readonly interests: InterestService;
   constructor(
     readonly db: Firestore,
     readonly clock: () => number = Date.now,
-  ) {}
+  ) { this.interests = new InterestService(db, clock); }
   ref(path: string) {
     return this.db.doc(path);
   }
@@ -216,7 +219,7 @@ export class TimelineService {
       this.ref(`topicStats/${topicId}`),
     );
     if (!topic.exists) fail("ไม่พบหัวข้อ", "not-found");
-    if (!membership.exists)
+    if (!membership.exists || !interestIsCurrent(membership.data(), this.clock()))
       fail("กรุณากดสนใจหัวข้อนี้ก่อน", "permission-denied");
     return {
       topic: topic.data() as Topic,
@@ -230,25 +233,7 @@ export class TimelineService {
     topicId: string,
     now: number,
   ): Promise<Reply> {
-    const [topic, member, stats] = await tx.getAll(
-      this.ref(`topics/${topicId}`),
-      this.ref(`topics/${topicId}/interests/${actor.uid}`),
-      this.ref(`topicStats/${topicId}`),
-    );
-    if (!topic.exists) fail("ไม่พบหัวข้อ", "not-found");
-    const n = count(stats.get("interestCount") ?? 0);
-    if (member.exists) return { topicId, followed: true, interestCount: n };
-    tx.create(member.ref, { uid: actor.uid, followedAt: now });
-    tx.set(this.ref(`users/${actor.uid}/followedTopics/${topicId}`), {
-      topicId,
-      followedAt: now,
-    });
-    tx.set(
-      stats.ref,
-      { interestCount: n + 1, graphVersion: stats.get("graphVersion") ?? 0 },
-      { merge: true },
-    );
-    return { topicId, followed: true, interestCount: n + 1 };
+    return this.interests.follow(tx, actor.uid, topicId, now);
   }
   async validateContent(
     tx: Transaction,
@@ -420,10 +405,10 @@ export class TimelineService {
       { graphVersion: FieldValue.increment(1) },
       { merge: true },
     );
-    if (story.status !== "published")
-      tx.update(this.ref(`topics/${story.topicId}`), {
-        publishedCount: FieldValue.increment(1),
-      });
+    tx.update(this.ref(`topics/${story.topicId}`), {
+      timelineUpdatedAt: now,
+      ...(story.status !== "published" ? { publishedCount: FieldValue.increment(1) } : {}),
+    });
     for (const m of content.media.filter((m) => !m.url))
       tx.set(
         this.ref(`stories/${story.id}/media/${m.id}`),
@@ -573,10 +558,10 @@ export class TimelineService {
       activeHideRequestId: null,
     });
     tx.delete(this.ref(`publicStories/${story.id}`)); // History and media rules check this parent's existence on EVERY read.
-    if (story.status === "published")
-      tx.update(this.ref(`topics/${story.topicId}`), {
-        publishedCount: FieldValue.increment(-1),
-      });
+    tx.update(this.ref(`topics/${story.topicId}`), {
+      timelineUpdatedAt: now,
+      ...(story.status === "published" ? { publishedCount: FieldValue.increment(-1) } : {}),
+    });
     tx.set(
       this.ref(`topicStats/${story.topicId}`),
       { graphVersion: FieldValue.increment(1) },

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useCollection } from "./hooks";
 import type { Entity, Revision, Topic } from "./types";
 import StoryBody from "./StoryBody";
+import StoryAttribution from "./StoryAttribution";
 export default function StoryCard({
   story,
   topic,
@@ -34,7 +35,7 @@ export default function StoryCard({
       <div className="tl-row">
         <div>
           <p className="tl-eyebrow">
-            ผู้เขียน {story.authorLabel} · เวอร์ชัน {story.revisionNumber} ·{" "}
+            เวอร์ชัน {story.revisionNumber} ·{" "}
             {new Date(story.addedAt).toLocaleDateString("th-TH")}
           </p>
           <h3>
@@ -46,6 +47,11 @@ export default function StoryCard({
               {story.titleTh} <span>{open ? "−" : "＋"}</span>
             </button>
           </h3>
+          <StoryAttribution
+            authorLabel={story.authorLabel}
+            editorLabel={story.editorLabel}
+            revisionNumber={story.revisionNumber}
+          />
         </div>
         <Link
           aria-label={`ลิงก์เรื่องราว ${story.titleTh}`}
@@ -90,7 +96,8 @@ export default function StoryCard({
                     <summary>
                       เวอร์ชัน {v.revisionNumber} ·{" "}
                       {new Date(v.approvedAt).toLocaleString("th-TH")} ·
-                      ผู้แก้ไข {v.editorLabel}
+                      {v.revisionNumber === 1 ? "ผู้เพิ่ม" : "ผู้แก้ไข"}{" "}
+                      {(v.revisionNumber === 1 ? v.authorLabel : v.editorLabel)?.trim() || "ไม่ระบุชื่อ"}
                     </summary>
                     <h4>{v.titleTh}</h4>
                     <StoryBody content={v} topic={topic} entities={entities} />
